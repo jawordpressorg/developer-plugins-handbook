@@ -1,6 +1,14 @@
+<!--
 # Credits
+-->
 
+# クレジット
+
+<!--
 List of credits brought over manually.
+-->
+
+以下のクレジットは手動で追加されています。
 
 - @2Neil
 - @aternus
