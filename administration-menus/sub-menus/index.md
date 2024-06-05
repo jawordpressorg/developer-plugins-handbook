@@ -183,4 +183,4 @@ add_action( 'admin_menu', 'wporg_options_page' );
 <!-- 
 As always, do not forget to check whether the form is being submitted, do CSRF verification, [validation](https://developer.wordpress.org/apis/security/data-validation/), and [sanitization](https://developer.wordpress.org/apis/security/sanitizing/).
  -->
-例によって、フォームが送信されているかどうかのチェック、CSRF検証、[バリデーション](https://developer.wordpress.org/apis/security/data-validation/)、[サニタイズ](https://developer.wordpress.org/apis/security/sanitizing/)を忘れずに。
+例によって、フォームが送信されているかどうかのチェック、CSRF 検証、[バリデーション](https://developer.wordpress.org/apis/security/data-validation/)、[サニタイズ](https://developer.wordpress.org/apis/security/sanitizing/)を忘れずに。
