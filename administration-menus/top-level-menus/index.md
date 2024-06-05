@@ -141,7 +141,7 @@ remove_menu_page(
 This should never be used as a way to restrict [user capabilities](https://developer.wordpress.org/plugins/users/roles-and-capabilities/).[/warning]
  -->
 [warning]メニューを削除しても、ユーザーが直接メニューにアクセスすることは防げません。
-[ユーザーの操作性](https://developer.wordpress.org/plugins/users/roles-and-capabilities/)を制限する方法として、これは決して使用されるべきではありません.[/warning]
+[ユーザーの操作性](https://developer.wordpress.org/plugins/users/roles-and-capabilities/)を制限する方法として、これは決して使用されるべきではありません。[/warning]
 
 <!-- 
 ### Example
