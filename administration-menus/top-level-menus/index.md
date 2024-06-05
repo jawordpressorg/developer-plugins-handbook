@@ -209,7 +209,7 @@ Use the `$menu_slug` parameter of the options page as the first parameter of [`m
 <!-- 
 The `$function` you specify while adding the page will only be called once it is time to display the page, which makes it inappropriate if you need to send headers (ex. redirects) back to the browser.
  -->
-ページを追加するときに指定した `$function` は、ページを表示するときに初めて呼び出されるため、ブラウザにヘッダ（リダイレクトなど）を送り返す必要がある場合には不適切です。
+ページを追加するときに指定した `$function` は、ページを表示するときに初めて呼び出されるため、ブラウザにヘッダ (リダイレクトなど) を送り返す必要がある場合には不適切です。
 
 <!-- 
 `add_menu_page` returns a `$hookname`, and WordPress triggers the `"load-$hookname"` action before any HTML output. You can use this to assign a function, which could process the form.
