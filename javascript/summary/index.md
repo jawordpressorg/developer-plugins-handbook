@@ -1,10 +1,22 @@
+<!-- 
 # Summary
+ -->
+# まとめ
 
+<!-- 
 Here are all the example code snippets from the preceding discussion, assembled into two complete code pages: one for jQuery and the other for PHP.
+ -->
+前述したすべてのコード・スニペット例を、2 つの完全なコード・ページにまとめました : ひとつは jQuery 用、もうひとつは PHP 用です。
 
+<!-- 
+## PHP
+ -->
 ## PHP
 
+<!-- 
 This code resides on one of your plugin pages.
+ -->
+このコードは、プラグインのページの 1 つにあります。
 
 ```
 add_action( 'admin_enqueue_scripts', 'my_enqueue' );
@@ -52,9 +64,15 @@ function my_ajax_handler() {
 }
 ```
 
+<!-- 
+## jQuery
+ -->
 ## jQuery
 
+<!-- 
 This code is in the file `js/myjquery.js` below your plugin folder.
+ -->
+このコードは、プラグインフォルダの下にある `js/myjquery.js` というファイルにあります。
 
 ```
 jQuery(document).ready(function($) { 	   //wrapper
@@ -72,9 +90,19 @@ jQuery(document).ready(function($) { 	   //wrapper
 });
 ```
 
+<!-- 
 And after storing the preference, the resulting post count is added to the selected title.
+ -->
+そして、プリファレンスを保存した後、結果の投稿数が、選択したタイトルに追加されます。
 
+<!-- 
 ## More Information
+ -->
+## 詳細情報
 
+<!-- 
 - [How To Use AJAX In WordPress](https://www.smashingmagazine.com/2011/10/how-to-use-ajax-in-wordpress/)
 - [AJAX for WordPress](https://glennmessersmith.com/pages/wpajax.html)
+ -->
+- [WordPress で AJAX を使用する方法](https://www.smashingmagazine.com/2011/10/how-to-use-ajax-in-wordpress/)
+- [WordPress 用 AJAX](https://glennmessersmith.com/pages/wpajax.html)
