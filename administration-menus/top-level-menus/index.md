@@ -11,7 +11,7 @@
 <!-- 
 To add a new Top-level menu to WordPress Administration, use the [`add_menu_page()`](https://developer.wordpress.org/reference/functions/add_menu_page/) function.
  -->
-WordPress の管理画面に新しいトップレベルメニューを追加するには、 [`add_menu_page()`](https://developer.wordpress.org/reference/functions/add_menu_page/) 関数を使用します。
+WordPress の管理画面に新しいトップレベルメニューを追加するには、[`add_menu_page()`](https://developer.wordpress.org/reference/functions/add_menu_page/) 関数を使用します。
 
 ```
 add_menu_page(
@@ -68,7 +68,7 @@ function wporg_options_page_html() {
 <!-- 
 **The second step** will be registering our WPOrg menu. The registration needs to occur during the `admin_menu` action hook.
  -->
-**第二のステップ**では、WPOrg メニューを登録します。この登録は `admin_menu` アクションフックの間に行なう必要があります。
+**第二のステップ**では、WPOrg メニューを登録します。この登録は `admin_menu` アクションフックで行なう必要があります。
 
 ```
 add_action( 'admin_menu', 'wporg_options_page' );
@@ -88,7 +88,7 @@ function wporg_options_page() {
 <!-- 
 For a list of parameters and what each do please see the [`add_menu_page()`](https://developer.wordpress.org/reference/functions/add_menu_page/) in the reference.
  -->
-パラメーターのリストとそれぞれの役割については、リファレンスの [`add_menu_page()`](https://developer.wordpress.org/reference/functions/add_menu_page/) を参照してください。
+パラメータのリストとそれぞれの役割については、リファレンスの [`add_menu_page()`](https://developer.wordpress.org/reference/functions/add_menu_page/) を参照してください。
 
 <!-- 
 ### Using a PHP File for HTML
@@ -103,7 +103,7 @@ The best practice for portable code would be to create a Callback that requires/
 <!-- 
 For the sake of completeness and helping you understand legacy code, we will show another way: passing a `PHP file path` as the `$menu_slug` parameter with an `null` `$function` parameter.
  -->
-完璧を期すため、またレガシーコードを理解してもらうため、別の方法を示しましょう : これは、`PHP ファイルパス` を `$menu_slug` パラメータとして渡し、`null` `$function` パラメータを渡すものです。
+完璧を期すため、またレガシーコードを理解してもらうため、別の方法を示しましょう: これは、`PHP ファイルパス` を `$menu_slug` パラメータとして渡し、`null` `$function` パラメータを渡すものです。
 
 ```
 add_action( 'admin_menu', 'wporg_options_page' );
@@ -141,7 +141,7 @@ remove_menu_page(
 This should never be used as a way to restrict [user capabilities](https://developer.wordpress.org/plugins/users/roles-and-capabilities/).[/warning]
  -->
 [warning]メニューを削除しても、ユーザーが直接メニューにアクセスすることは防げません。
-[ユーザーの操作性](https://developer.wordpress.org/plugins/users/roles-and-capabilities/)を制限する方法として、これは決して使用されるべきではありません。[/warning]
+[ユーザーの権限](https://developer.wordpress.org/plugins/users/roles-and-capabilities/)を制限する方法として、これは決して使用されるべきではありません。[/warning]
 
 <!-- 
 ### Example
@@ -151,7 +151,7 @@ This should never be used as a way to restrict [user capabilities](https://devel
 <!-- 
 Lets say we want to remove the "Tools" menu from.
  -->
-例えば、"ツール"メニューを削除したいとします。
+例えば、「ツール」メニューを削除したいとします。
 
 ```
 add_action( 'admin_menu', 'wporg_remove_options_page', 99 );
@@ -173,7 +173,7 @@ Make sure that the menu have been registered with the `admin_menu` hook before a
 <!-- 
 To process the submissions of forms on options pages, you will need two things:
  -->
-オプションページでフォームの送信を処理するには、2つのものが必要です :
+オプションページでフォームの送信を処理するには、2つのものが必要です:
 
 <!-- 
 1. Use the URL of the page as the `action` attribute of the form.
@@ -195,7 +195,7 @@ To process the submissions of forms on options pages, you will need two things:
 <!-- 
 Use the `$menu_slug` parameter of the options page as the first parameter of [`menu_page_url()`](https://developer.wordpress.org/reference/functions/menu_page_url/). By the function will automatically escape URL and echo it by default, so you can directly use it within the `<form>` tag:
  -->
-オプションページの `$menu_slug` パラメータを [`menu_page_url()`](https://developer.wordpress.org/reference/functions/menu_page_url/) の最初のパラメータとして使用します。この関数はデフォルトで自動的に URL をエスケープして echo するので、`<form>` タグ内で直接使用することができます :
+オプションページの `$menu_slug` パラメータを [`menu_page_url()`](https://developer.wordpress.org/reference/functions/menu_page_url/) の最初のパラメータとして使用します。この関数はデフォルトで自動的に URL をエスケープして出力するので、`<form>` タグ内で直接使用することができます:
 
 ```
 <form action="<?php menu_page_url( 'wporg' ) ?>" method="post">
@@ -209,7 +209,7 @@ Use the `$menu_slug` parameter of the options page as the first parameter of [`m
 <!-- 
 The `$function` you specify while adding the page will only be called once it is time to display the page, which makes it inappropriate if you need to send headers (ex. redirects) back to the browser.
  -->
-ページを追加するときに指定した `$function` は、ページを表示するときに初めて呼び出されるため、ブラウザにヘッダ (リダイレクトなど) を送り返す必要がある場合には不適切です。
+ページを追加するときに指定した `$function` は、ページを表示するときに初めて呼び出されるため、ブラウザーにヘッダ (リダイレクトなど) を送り返す必要がある場合には不適切です。
 
 <!-- 
 `add_menu_page` returns a `$hookname`, and WordPress triggers the `"load-$hookname"` action before any HTML output. You can use this to assign a function, which could process the form.
@@ -224,7 +224,7 @@ The `$function` you specify while adding the page will only be called once it is
 <!-- 
 With the return parameter and action in mind, the example from above would like this:
  -->
-リターン・パラメーターとアクションを念頭に置くと、上記の例は次のようになります :
+リターン・パラメータとアクションを念頭に置くと、上記の例は次のようになります:
 
 ```
 add_action( 'admin_menu', 'wporg_options_page' );
@@ -246,7 +246,7 @@ function wporg_options_page() {
 <!-- 
 You can program `wporg_options_page_submit` according to your needs, but keep in mind that you must manually perform all necessary checks, including:
  -->
-`wporg_options_page_submit` は、必要に応じてプログラムすることができるが、以下のような必要なチェックをすべて手動で行わなければならないことを覚えておいてください :
+`wporg_options_page_submit` は、必要に応じてプログラムすることができますが、以下のような必要なチェックをすべて手動で行わなければならないことを覚えておいてください:
 
 <!-- 
 1. Whether the form is being submitted (`'POST' === $_SERVER['REQUEST_METHOD']`).
