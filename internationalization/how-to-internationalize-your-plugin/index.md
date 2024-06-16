@@ -79,7 +79,7 @@ The text domain also needs to be added to the plugin header. WordPress uses it t
 <!-- 
 The domain path defines the location for a plugin's translation. This has a few uses, notably so that WordPress knows where to find the translation even when the plugin is disabled. This defaults to the folder in which your plugin is found.
  -->
-ドメイン・パスは、プラグインの翻訳の場所を定義します。これにはいくつかの使い道があり、特にプラグインが無効になっているときでも WordPress が翻訳の場所を知っている様にします。デフォルトは、プラグインがあるフォルダです。
+ドメイン・パスは、プラグインの翻訳の場所を定義します。これにはいくつかの使い道があり、特にプラグインが無効になっているときでも WordPress が翻訳の場所を知っている様にします。デフォルトは、プラグインがあるフォルダーです。
 
 <!-- 
 For example, if the translation is located in a folder called `languages` within your plugin, then the Domain Path is `/languages` and must be written with the first slash:
@@ -103,7 +103,7 @@ For example, if the translation is located in a folder called `languages` within
 <!-- 
 [info]The `Domain Path` header can be omitted if the plugin is in the official WordPress Plugin Directory.[/info]
  -->
-[info]プラグインが公式 WordPress プラグインディレクトリにある場合、 `Domain Path` ヘッダーは省略できます。[/info]
+[info]プラグインが公式 WordPress プラグインディレクトリにある場合、`Domain Path` ヘッダーは省略できます。[/info]
 
 <!-- 
 ## Basic strings
