@@ -11,7 +11,7 @@
 <!-- 
 To add a new Sub-menu to WordPress Administration, use the `add_submenu_page()` function.
  -->
-WordPress の管理画面に新しいサブメニューを追加するには、 `add_submenu_page()` 関数を使用します。
+WordPress の管理画面に新しいサブメニューを追加するには、`add_submenu_page()` 関数を使用します。
 
 ```
 add_submenu_page(
@@ -31,7 +31,7 @@ add_submenu_page(
 <!-- 
 Lets say we want to add a Sub-menu "WPOrg Options" to the "Tools" Top-level menu.
  -->
-例えば、"Tools" のトップレベルメニューに "WPOrg Options" というサブメニューを追加したいとします。
+例えば、「ツール」のトップレベルメニューに "WPOrg Options" というサブメニューを追加したいとします。
 
 <!-- 
 **The first step** will be creating a function which will output the HTML. In this function we will perform the necessary security checks and render the options we’ve registered using the [Settings API](https://developer.wordpress.org/plugins/settings/).
@@ -71,7 +71,7 @@ function wporg_options_page_html() {
 <!-- 
 **The second step** will be registering our WPOrg Options Sub-menu. The registration needs to occur during the `admin_menu` action hook.
  -->
-**第二のステップ**では、WPOrg オプションサブメニューを登録します。この登録は `admin_menu` アクションフックの間に行なう必要があります。
+**第二のステップ**では、WPOrg オプションサブメニューを登録します。この登録は `admin_menu` アクションフックで行なう必要があります。
 
 ```
 function wporg_options_page() {
@@ -90,7 +90,7 @@ add_action( 'admin_menu', 'wporg_options_page' );
 <!-- 
 For a list of parameters and what each do please see the [`add_submenu_page()`](https://developer.wordpress.org/reference/functions/add_submenu_page/) in the reference.
  -->
-パラメーターのリストとそれぞれの役割については、リファレンスの [`add_submenu_page()`](https://developer.wordpress.org/reference/functions/add_submenu_page/) を参照してください。
+パラメータのリストとそれぞれの役割については、リファレンスの [`add_submenu_page()`](https://developer.wordpress.org/reference/functions/add_submenu_page/) を参照してください。
 
 <!-- 
 ## Predefined Sub-Menus
@@ -105,7 +105,7 @@ WordPress 組み込みのトップレベルメニューの `$parent_slug` を定
 <!-- 
 Below is a list of parent slugs and their helper functions:
  -->
-以下は、親スラッグとそのヘルパー関数のリストです :
+以下は、親スラッグとそのヘルパー関数のリストです:
 
 <!-- 
 - [`add_dashboard_page()`](https://developer.wordpress.org/reference/functions/add_dashboard_page/) – `index.php`
@@ -161,7 +161,7 @@ The process of handling form submissions within Sub-menus is exactly the same as
 <!-- 
 `add_submenu_page()` along with all functions for pre-defined sub-menus (`add_dashboard_page`, `add_posts_page`, etc.) will return a `$hookname`, which you can use as the first parameter of `add_action` in order to handle the submission of forms within custom pages:
  -->
-`add_submenu_page()` は、定義済みのサブメニュー (`add_dashboard_page`、`add_posts_page` など) のすべての関数と一緒に `$hookname` を返し、カスタムページ内のフォーム送信を処理するために `add_action` の最初のパラメータとして使用できます :
+`add_submenu_page()` は、定義済みのサブメニュー (`add_dashboard_page`、`add_posts_page` など) のすべての関数と一緒に `$hookname` を返し、カスタムページ内のフォーム送信を処理するために `add_action` の最初のパラメータとして使用できます:
 
 ```
 function wporg_options_page() {
@@ -183,4 +183,4 @@ add_action( 'admin_menu', 'wporg_options_page' );
 <!-- 
 As always, do not forget to check whether the form is being submitted, do CSRF verification, [validation](https://developer.wordpress.org/apis/security/data-validation/), and [sanitization](https://developer.wordpress.org/apis/security/sanitizing/).
  -->
-例によって、フォームが送信されているかどうかのチェック、CSRF 検証、[バリデーション](https://developer.wordpress.org/apis/security/data-validation/)、[サニタイズ](https://developer.wordpress.org/apis/security/sanitizing/)を忘れずに。
+例によって、フォームが送信されているかどうかのチェック、CSRF の検証、[バリデーション](https://developer.wordpress.org/apis/security/data-validation/)、[サニタイズ](https://developer.wordpress.org/apis/security/sanitizing/)を忘れないでください。
