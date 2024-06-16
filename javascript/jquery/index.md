@@ -11,7 +11,7 @@
 <!-- 
 Your jQuery script runs on the user's browser after your WordPress webpage is received. A basic jQuery statement has two parts: a selector that determines which HTML elements the code applies to, and an action or event, which determines what the code does or what it reacts to. The basic event statement looks like this:
  -->
-jQuery スクリプトは、WordPress の Web ページを受信した後、ユーザーのブラウザー上で実行されます。基本的な jQuery ステートメントには 2 つの部分があります: コードが適用される HTML 要素を決定するセレクター、そして、コードが何をするか、何に反応するかを決定するアクションまたはイベントです。基本的なイベントステートメントは、次のようになります :
+jQuery スクリプトは、WordPress の Web ページを受信した後、ユーザーのブラウザー上で実行されます。基本的な jQuery ステートメントには 2 つの部分があります: コードが適用される HTML 要素を決定するセレクター、そして、コードが何をするか、何に反応するかを決定するアクションまたはイベントです。基本的なイベントステートメントは、次のようになります:
 
 ```
 jQuery.(selector).event(function);
