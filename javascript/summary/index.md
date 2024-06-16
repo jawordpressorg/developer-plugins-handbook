@@ -6,7 +6,7 @@
 <!-- 
 Here are all the example code snippets from the preceding discussion, assembled into two complete code pages: one for jQuery and the other for PHP.
  -->
-前述したすべてのコード・スニペット例を、2 つの完全なコード・ページにまとめました : ひとつは jQuery 用、もうひとつは PHP 用です。
+前述したすべてのコード・スニペット例を、2 つの完全なコード・ページにまとめました: ひとつは jQuery 用、もうひとつは PHP 用です。
 
 <!-- 
 ## PHP
@@ -72,7 +72,7 @@ function my_ajax_handler() {
 <!-- 
 This code is in the file `js/myjquery.js` below your plugin folder.
  -->
-このコードは、プラグインフォルダの下にある `js/myjquery.js` というファイルにあります。
+このコードは、プラグインフォルダーの下にある `js/myjquery.js` というファイルにあります。
 
 ```
 jQuery(document).ready(function($) { 	   //wrapper
@@ -93,7 +93,7 @@ jQuery(document).ready(function($) { 	   //wrapper
 <!-- 
 And after storing the preference, the resulting post count is added to the selected title.
  -->
-そして、プリファレンスを保存した後、結果の投稿数が、選択したタイトルに追加されます。
+そして、設定を保存した後、結果の投稿数が選択したタイトルに追加されます。
 
 <!-- 
 ## More Information
