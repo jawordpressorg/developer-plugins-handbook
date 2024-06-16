@@ -11,7 +11,7 @@
 <!-- 
 Internationalization is the process of developing a plugin so it can easily be translated into other languages. Internationalization is often abbreviated as `i18n` (because there are 18 letters between the letters i and n).
  -->
-国際化とは、プラグインを他の言語に簡単に翻訳できるように開発するプロセスのことです。国際化はしばしば `i18n` (i と n の間に 18 文字があるため)と略されます。
+国際化とは、プラグインを他の言語に簡単に翻訳できるように開発するプロセスのことです。国際化はしばしば `i18n` (i と n の間に 18 文字があるため) と略されます。
 
 <!-- 
 ## Why is Internationalization Important?
