@@ -46,7 +46,7 @@ Every translator will take the `POT` file and translate the `msgstr` sections in
 <!-- 
 From every translated `PO` file a `MO` file is built. These are machine-readable, binary files that the gettext functions actually use (they don't care about `.POT` or `.PO` files), and are a "compiled" version of the `PO` file. The conversion is done using the `msgfmt` command line tool. In general, an application may use more than one large logical translatable module and a different `MO` file accordingly. A text domain is a handle of each module, which has a different `MO` file.
  -->
-翻訳された `PO` ファイルから `MO` ファイルがビルドされます。これは機械語のバイナリーファイルで、gettext 関数が実際に使用する (`.POT` や `.PO` ファイルは気にしない) ファイルであり、`PO` ファイルの "コンパイル済み" バージョンです。変換は、`msgfmt` コマンドラインツールを使って行われます。一般的に、アプリケーションは、複数の大きな論理翻訳モジュールを使用することがあり、それに応じて `MO` ファイルも使い分けることがあります。テキストドメインは、各モジュールのハンドルであり、異なる `MO` ファイルを持ちます。
+翻訳された `PO` ファイルから `MO` ファイルがビルドされます。これは機械語のバイナリファイルで、gettext 関数が実際に使用する (`.POT` や `.PO` ファイルは気にしない) ファイルであり、`PO` ファイルの "コンパイル済み" バージョンです。変換は、`msgfmt` コマンドラインツールを使って行われます。一般的に、アプリケーションは、複数の大きな論理翻訳モジュールを使用することがあり、それに応じて `MO` ファイルも使い分けることがあります。テキストドメインは、各モジュールのハンドルであり、異なる `MO` ファイルを持ちます。
 
 <!-- 
 ## Generating the POT file
@@ -66,7 +66,7 @@ The `POT` file is the one you need to hand to translators, so that they can do t
 <!-- 
 There are a couple of ways to generate a `POT` file for your plugin:
  -->
-プラグイン用の `POT` ファイルを生成するには、いくつかの方法があります :
+プラグイン用の `POT` ファイルを生成するには、いくつかの方法があります:
 
 ### WP-CLI
 
@@ -80,7 +80,7 @@ Install [WP-CLI](https://make.wordpress.org/cli/handbook/guides/installing/) and
 <!-- 
 You can also use [Poedit](https://poedit.net/) locally when translating. This is an open source tool for all major OSs. The free Poedit default version supports manual scanning of all source code with Gettext functions. A pro version of it also features one-click scanning for WordPress plugins. After generating the `PO` file you can rename the file to `POT`. If a `MO` was generated then you can delete that file as it is not needed. If you don't have the pro version you can easily get the [Blank POT](https://github.com/fxbenard/Blank-WordPress-Pot) and use that as the base of your `POT file`. Once you have placed the blank `POT` in the languages folder you can click "Update" in Poedit to update the `POT` file with your strings.
  -->
-[Poedit](https://poedit.net/) は、翻訳時にローカルで使用することもできます。これはすべての主要 OS に対応したオープンソースのツールです。無料の Poedit デフォルト版は、Gettext 関数を使ったすべてのソースコードの手動スキャンをサポートしています。プロ版では、WordPress プラグインをワンクリックでスキャンする機能もあります。`PO` ファイルを生成した後、ファイル名を `POT` に変更することができます。`MO` が生成された場合は、そのファイルは不要なので削除することができます。プロ版を持っていない場合は、[Blank POT](https://github.com/fxbenard/Blank-WordPress-Pot) を入手し、それを `POT ファイル` のベースとして使うことができます。空の `POT` を languages フォルダに置いたら、Poedit の "Update" をクリックして、`POT` ファイルをあなたの文字列で更新することができます。
+[Poedit](https://poedit.net/) は、翻訳時にローカルで使用することもできます。これはすべての主要 OS に対応したオープンソースのツールです。無料の Poedit デフォルト版は、Gettext 関数を使ったすべてのソースコードの手動スキャンをサポートしています。プロ版では、WordPress プラグインをワンクリックでスキャンする機能もあります。`PO` ファイルを生成した後、ファイル名を `POT` に変更することができます。`MO` が生成された場合は、そのファイルは不要なので削除することができます。プロ版を持っていない場合は、[Blank POT](https://github.com/fxbenard/Blank-WordPress-Pot) を入手し、それを `POT ファイル` のベースとして使うことができます。空の `POT` を languages フォルダーに置いたら、Poedit の "Update" をクリックして、`POT` ファイルをあなたの文字列で更新することができます。
 
 <!-- 
 ### Grunt Tasks
@@ -154,7 +154,7 @@ A third option is to use an online translation service. The general idea is that
 <!-- 
 Here are a few tools that can be used to translate PO files online:
  -->
-PO ファイルをオンラインで翻訳するために使用できるツールをいくつかご紹介します :
+PO ファイルをオンラインで翻訳するために使用できるツールをいくつかご紹介します:
 
 - [Transifex](https://www.transifex.com/)
 - [WebTranslateIt](https://webtranslateit.com/)
@@ -175,7 +175,7 @@ PO ファイルをオンラインで翻訳するために使用できるツー�
 <!-- 
 `msgfmt` is used to create the MO file. `msgfmt` is part of Gettext package. Otherwise command line can be used. A typical `msgfmt` command looks like this:
  -->
-`msgfmt` は、MO ファイルの作成に使用されます。`msgfmt` は、Gettext パッケージの一部です。そうでない場合は、コマンドラインを使うことができます。典型的な `msgfmt` コマンドは、以下の様なものです :
+`msgfmt` は、MO ファイルの作成に使用されます。`msgfmt` は、Gettext パッケージの一部です。そうでない場合は、コマンドラインを使うことができます。典型的な `msgfmt` コマンドは、以下の様なものです:
 
 <!-- 
 #### Unix Operating Systems
@@ -198,7 +198,7 @@ msgfmt -o filename.mo filename.po
 <!-- 
 If you have a lot of `PO` files to convert at once, you can run it as a batch. For example, using a `bash` command:
  -->
-一度にたくさんの `PO` ファイルを変換する場合は、バッチとして実行することができます。例えば、`bash` コマンドを使用します :
+一度にたくさんの `PO` ファイルを変換する場合は、バッチとして実行することができます。例えば、`bash` コマンドを使用します:
 
 <!-- 
 #### Unix Operating Systems (multiple files)
@@ -223,7 +223,7 @@ Windows の場合は、まず [Cygwin](https://www.cygwin.com/) をインスト�
 <!-- 
 Create a file called `potomo.sh` and put the following into it:
  -->
-`potomo.sh` というファイルを作成し、以下の様に記述します :
+`potomo.sh` というファイルを作成し、以下の様に記述します:
 
 ```
 #! /bin/sh
@@ -275,7 +275,7 @@ There is [grunt-po2mo](https://www.npmjs.com/package/grunt-po2mo) that will conv
 <!-- 
 Being multi-lingual, you undoubtedly know that the languages you speak have different structures, rhythms, tones, and inflections. Translated messages don't need to be structured the same way as the English ones: take the ideas that are presented and come up with a message that expresses the same thing in a natural way for the target language. It's the difference between creating an equal message and an equivalent message: don't replicate, replace. Even with more structural items in messages, you have creative license to adapt and change if you feel it will be more logical for, or better adapted to, your target audience.
  -->
-マルチリンガルであるあなたは、自分が話す言語には異なる構造、リズム、トーン、抑揚があることを知っている筈です。翻訳されたメッセージは、英語のものと同じ様に構成する必要はない : 提示されたアイデアをもとに、ターゲット言語にとって自然な方法で同じことを表現するメッセージを考え出すのです。同じメッセージを作るか、同等のメッセージを作るかの違い : 複製するのではなく、置き換えるということです。より論理的で、ターゲットとする読者によりよく適応していると感じられるなら、メッセージに構造的な項目が多くても、あなたには適応したり変更したりするクリエイティブ・ライセンスがあります。
+マルチリンガルであるあなたは、自分が話す言語には異なる構造、リズム、トーン、抑揚があることを知っている筈です。翻訳されたメッセージは、英語のものと同じ様に構成する必要はない: 提示されたアイデアをもとに、ターゲット言語にとって自然な方法で同じことを表現するメッセージを考え出すのです。同じメッセージを作るか、同等のメッセージを作るかの違い: 複製するのではなく、置き換えるということです。より論理的で、ターゲットとする読者によりよく適応していると感じられるなら、メッセージに構造的な項目が多くても、あなたには適応したり変更したりするクリエイティブ・ライセンスがあります。
 
 <!-- 
 ### Try to keep the same level of formality (or informality)
@@ -295,7 +295,7 @@ Each message has a different level of formality or informality. Exactly what lev
 <!-- 
 Some amount of terminology is to be expected in a blog, but refrain from using colloquialisms that only the "in" crowd will get. If the uninitiated blogger were to install WordPress in your language, would they know what the term means? Words like pingback, trackback, and feed are exceptions to this rule; they're terminology that are typically difficult to translate, and many translators choose to leave in English.
  -->
-ブログにはある程度の専門用語がつきものだが、 "内輪" にしか通じない様な口語表現は控えましょう。不慣れなブロガーがあなたの言語で WordPress をインストールしたとして、その用語の意味がわかるでしょうか ? ピンバック、トラックバック、フィードの様な単語は例外 ; これらは一般的に翻訳が難しい専門用語であり、多くの翻訳者は英語のままにしています。
+ブログにはある程度の専門用語がつきものだが、 "内輪" にしか通じない様な口語表現は控えましょう。不慣れなブロガーがあなたの言語で WordPress をインストールしたとして、その用語の意味がわかるでしょうか ? ピンバック、トラックバック、フィードの様な単語は例外です。これらは一般的に翻訳が難しい専門用語であり、多くの翻訳者は英語のままにしています。
 
 <!-- 
 ### Read other software's localizations in your language
@@ -315,12 +315,12 @@ If you get stuck or need direction, try reading through the translations of othe
 <!-- 
 Place the localization files in the language folder, either in the plugin `languages` folder or as of WordPress 3.7 in the plugin `languages` folder normally under `wp-content`. The full path would be `wp-content/languages/plugins/my-plugin-fr_FR.mo`.
  -->
-language フォルダ内のローカライゼーションファイルを、プラグインの `languages` フォルダ内か、WordPress 3.7 以降では通常 `wp-content` 配下のプラグイン `languages` フォルダ内に置きます。フルパスは `wp-content/languages/plugins/my-plugin-fr_FR.mo`になります。
+language フォルダー内のローカライゼーションファイルを、プラグインの `languages` フォルダー内か、WordPress 3.7 以降では通常 `wp-content` 配下のプラグイン `languages` フォルダー内に置きます。フルパスは `wp-content/languages/plugins/my-plugin-fr_FR.mo`になります。
 
 <!-- 
 You can change the language in the "General Settings". If you do not see this option, or the language into which you want to switch i snot listed, do it manually:
  -->
-言語は "一般設定" で変更できます。このオプションが表示されない場合、または切り替えたい言語がリストにない場合は、手動で行なってください :
+言語は "一般設定" で変更できます。このオプションが表示されない場合、または切り替えたい言語がリストにない場合は、手動で行なってください:
 
 <!-- 
 - Define `WPLANG` inside of `wp-config.php` to your chosen language. For example, if you wanted to use French, you would have: `define ('WPLANG', 'fr_FR');`
@@ -330,7 +330,7 @@ You can change the language in the "General Settings". If you do not see this op
 - Click "Update translations", when available
 - Core translations files are downloaded, when available
  -->
-- `wp-config.php` の中で、`WPLANG` を選択した言語に定義します。例えば、フランス語を使いたい場合は、次のようになります : `define ('WPLANG', 'fr_FR');`
+- `wp-config.php` の中で、`WPLANG` を選択した言語に定義します。例えば、フランス語を使いたい場合は、次のようになります: `define ('WPLANG', 'fr_FR');`
 - `wp-admin/options-general.php` に移動するか、"設定" -> "一般" を選択します。
 - "サイトの言語" ドロップダウンで言語を選択します。
 - `wp-admin/update-core.php` に移動します。
