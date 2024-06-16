@@ -27,7 +27,7 @@ When a translator submits a localization to you, always check to make sure they 
 <!-- 
 You can't trust that a translator will only add benign text to their localization; if they want to, they could add malicious JavaScript or other code instead. To protect against that, it's important to treat internationalized strings like you would any other untrusted input.
  -->
-翻訳者がローカライズに良性のテキストだけを加えるとは限りません ; その気になれば、悪意ある JavaScript やその他のコードを追加することも可能です。そのような事態から守るためには、国際化された文字列を、他の信頼できない入力と同じように扱うことが重要です。
+翻訳者がローカライズに良性のテキストだけを加えるとは限りません。その気になれば、悪意ある JavaScript やその他のコードを追加することも可能です。そのような事態から守るためには、国際化された文字列を、他の信頼できない入力と同じように扱うことが重要です。
 
 <!-- 
 If you're outputting the strings, then they should be escaped.
@@ -65,7 +65,7 @@ Alternatively, some people choose to rely on a translation verification mechanis
 <!-- 
 Don't include URLs in internationalized strings, because a malicious translator could change them to point to a different URL. Instead, use placeholders for [`printf()`](https://www.php.net/manual/en/function.printf.php) or [`sprintf()`](https://www.php.net/manual/en/function.sprintf.php).
  -->
-悪意ある翻訳者が、別の URL を指すように変えてしまう可能性があるから、国際化された文字列には URL を含めないでください。代わりに、[`printf()`](https://www.php.net/manual/en/function.printf.php) または [`sprintf()`](https://www.php.net/manual/en/function.sprintf.php) のプレースホルダを使用してください。
+悪意ある翻訳者が、別の URL を指すように変えてしまう可能性があるため、国際化された文字列には URL を含めないでください。代わりに、[`printf()`](https://www.php.net/manual/en/function.printf.php) または [`sprintf()`](https://www.php.net/manual/en/function.sprintf.php) のプレースホルダーを使用してください。
 
 <!-- 
 **Insecure**
@@ -95,17 +95,17 @@ printf(
 <!-- 
 ## Compile Your Own .mo Binaries
  -->
-## 独自 .mo バイナリーのコンパイル
+## 独自 .mo バイナリのコンパイル
 
 <!-- 
 Often translators will send the compiled .mo file along with the plaintext .po file, but you should discard their .mo file and compile your own, because you have no way of knowing whether or not it was compiled from the corresponding .po file, or a different one. If it was compiled against a different one, then it could contain spam and other malicious strings without your knowledge.
  -->
-しばしば、翻訳者はコンパイルした .mo ファイルをプレーンテキストの .po ファイルと一緒に送って来るが、その .mo ファイルが対応する .po ファイルからコンパイルされたものなのか、それとも別のものなのかを知る術がないから、その .mo ファイルは捨てて、自分でコンパイルすべきです。それが別のものに対してコンパイルされたものであれば、あなたの知らないうちにスパムやその他の悪意ある文字列が含まれている可能性があります。
+しばしば、翻訳者はコンパイルした .mo ファイルをプレーンテキストの .po ファイルと一緒に送って来ますが、その .mo ファイルが対応する .po ファイルからコンパイルされたものなのか、それとも別のものなのかを知る術がないため、その .mo ファイルは破棄して自分でコンパイルすべきです。それが別のものに対してコンパイルされたものであれば、あなたの知らないうちにスパムやその他の悪意ある文字列が含まれている可能性があります。
 
 <!-- 
 Using PoEdit to generate the binary will override the headers in the .po file, so instead it's better to compile it from the command line:
  -->
-PoEdit を使ってバイナリーを生成すると、.po ファイルのヘッダが上書きされてしまうので、コマンドラインからコンパイルする方が良いです :
+PoEdit を使ってバイナリを生成すると、.po ファイルのヘッダーが上書きされてしまうので、コマンドラインからコンパイルする方が良いです:
 
 ```
 msgfmt -cv -o /path/to/output.mo /path/to/input.po
