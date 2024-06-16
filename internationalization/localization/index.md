@@ -315,7 +315,7 @@ If you get stuck or need direction, try reading through the translations of othe
 <!-- 
 Place the localization files in the language folder, either in the plugin `languages` folder or as of WordPress 3.7 in the plugin `languages` folder normally under `wp-content`. The full path would be `wp-content/languages/plugins/my-plugin-fr_FR.mo`.
  -->
-language フォルダー内のローカライゼーションファイルを、プラグインの `languages` フォルダー内か、WordPress 3.7 以降では通常 `wp-content` 配下のプラグイン `languages` フォルダー内に置きます。フルパスは `wp-content/languages/plugins/my-plugin-fr_FR.mo`になります。
+language フォルダー内のローカライゼーションファイルを、プラグインの `languages` フォルダー内か、WordPress 3.7 以降では通常 `wp-content` 配下のプラグイン `languages` フォルダー内に置きます。フルパスは `wp-content/languages/plugins/my-plugin-fr_FR.mo` になります。
 
 <!-- 
 You can change the language in the "General Settings". If you do not see this option, or the language into which you want to switch i snot listed, do it manually:
