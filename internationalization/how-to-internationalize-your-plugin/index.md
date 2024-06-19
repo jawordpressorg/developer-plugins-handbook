@@ -224,7 +224,7 @@ _e( "Your city is $city.", 'my-plugin' );
 <!-- 
 The strings for translation are extracted from the sources, so the translators will get this phrase to translate: `"Your city is $city."`.
  -->
-翻訳用の文字列はソースから抽出されるので、翻訳者はこのフレーズを翻訳することになります: `"Your city is $city."` 。
+翻訳用の文字列はソースから抽出されるので、翻訳者はこのフレーズを翻訳することになります: `"Your city is $city."`。
 
 <!-- 
 However in the application `_e` will be called with an argument like `"Your city is London."` and `gettext` won't find a suitable translation of this one and will return its argument: `"Your city is London."`. Unfortunately, it isn't translated correctly.
