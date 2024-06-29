@@ -1,17 +1,17 @@
 <!-- 
 # Roles and Capabilities
  -->
-# 権限グループと Capabilities
+# 権限グループと権限
 
 <!-- 
 Roles and capabilities are two important aspects of WordPress that allow you to control user privileges.
  -->
-権限グループと Capabilities は、WordPress の2つの重要な側面で、ユーザー権限をコントロールできます。
+権限グループと権限は、WordPress の2つの重要な側面で、ユーザー権限をコントロールできます。
 
 <!-- 
 WordPress stores the Roles and their Capabilities in the `options` table under the `user_roles` key.
  -->
-WordPress は、権限グループとその Capabilities を、テーブル `options` のキー `user_roles` の下に格納します。
+WordPress は、権限グループとその権限を、テーブル `options` のキー `user_roles` の下に格納します。
 
 <!-- 
 ## Roles
@@ -21,7 +21,7 @@ WordPress は、権限グループとその Capabilities を、テーブル `opt
 <!-- 
 A role defines a set of capabilities for a user. For example, what the user may see and do in his dashboard.
  -->
-権限グループは、ユーザーの一連の Capabilities を定義します。たとえば、ユーザーが自分のダッシュボードで何を見たり、何をしたりできるかです。
+権限グループは、ユーザーの一連の権限を定義します。たとえば、ユーザーが自分のダッシュボードで何を見たり、何をしたりできるかです。
 
 <!-- 
 **By default, WordPress have six roles:**
@@ -36,7 +36,7 @@ A role defines a set of capabilities for a user. For example, what the user may 
 - Contributor
 - Subscriber
  -->
-- Super Admin
+- 特権管理者 (Super Admin)
 - 管理者 (Administrator)
 - 編集者 (Editor)
 - 投稿者 (Author)
@@ -58,7 +58,7 @@ More roles can be added and the default roles can be removed.
 <!-- 
 Add new roles and assign capabilities to them with [`add_role()`](https://developer.wordpress.org/reference/functions/add_role/).
  -->
-新しい権限グループを追加し、[`add_role()`](https://developer.wordpress.org/reference/functions/add_role/) を使用して Capabilities を割り当てます。
+新しい権限グループを追加し、[`add_role()`](https://developer.wordpress.org/reference/functions/add_role/) を使用して権限を割り当てます。
 
 ```
 function wporg_simple_role() {
@@ -80,22 +80,22 @@ add_action( 'init', 'wporg_simple_role' );
 <!-- 
 [alert]After the first call to [`add_role()`](https://developer.wordpress.org/reference/functions/add_role/), the Role and it's Capabilities will be stored in the database!
  -->
-[alert]最初に [`add_role()`](https://developer.wordpress.org/reference/functions/add_role/) をコールすると、権限グループと Capabilities がデータベースに格納されます !
+[alert]最初に [`add_role()`](https://developer.wordpress.org/reference/functions/add_role/) をコールすると、権限グループと権限がデータベースに格納されます !
 
 <!-- 
 Sequential calls will do nothing: including altering the capabilities list, which might not be the behavior that you're expecting.[/alert]
  -->
-連続してコールしても、Capabilities リストの変更も含めて、何もしません。これはあなたが期待している動作ではないかもしれません。[/alert]
+連続してコールしても、権限リストの変更も含めて、何もしません。これはあなたが期待している動作ではないかもしれません。[/alert]
 
 <!-- 
 [info]To alter the capabilities list in bulk: remove the role using [`remove_role()`](https://developer.wordpress.org/reference/functions/remove_role/) and add it again using [`add_role()`](https://developer.wordpress.org/reference/functions/add_role/) with the new capabilities.
  -->
-[info]Capabilities リストを一括で変更するには: [`remove_role()`](https://developer.wordpress.org/reference/functions/remove_role/) を使って権限グループを削除し、[`add_role()`](https://developer.wordpress.org/reference/functions/add_role/) を使って新しい Capabilities を追加します。
+[info]権限リストを一括で変更するには: [`remove_role()`](https://developer.wordpress.org/reference/functions/remove_role/) を使って権限グループを削除し、[`add_role()`](https://developer.wordpress.org/reference/functions/add_role/) を使って新しい権限を追加します。
 
 <!-- 
 Make sure to do it only if the capabilities differ from what you're expecting (i.e. condition this) or you'll degrade performance considerably![/info]
  -->
-必ず、能力が期待しているものと異なる場合 (つまり、このような状態) にのみ実行してください。さもないと、パフォーマンスが著しく低下します ![/info]
+必ず、権限が期待しているものと異なる場合 (つまり、このような状態) にのみ実行してください。さもないと、パフォーマンスが著しく低下します ! [/info]
 
 <!-- 
 ### Removing Roles
@@ -119,7 +119,7 @@ add_action( 'init', 'wporg_simple_role_remove' );
 <!-- 
 [alert]After the first call to [`remove_role()`](https://developer.wordpress.org/reference/functions/remove_role/), the Role and it's Capabilities will be removed from the database!
  -->
-[alert]最初に [`remove_role()`](https://developer.wordpress.org/reference/functions/remove_role/) をコールすると、権限グループと Capabilities がデータベースから削除されます !
+[alert]最初に [`remove_role()`](https://developer.wordpress.org/reference/functions/remove_role/) をコールすると、権限グループと権限がデータベースから削除されます !
 
 <!-- 
 Sequential calls will do nothing.[/alert]
@@ -136,36 +136,39 @@ Sequential calls will do nothing.[/alert]
 - Make sure to keep the code in your plugin/theme as future WordPress updates may add these roles again.
 - Run `update_option('default_role', YOUR_NEW_DEFAULT_ROLE)` since you'll be deleting `subscriber` which is WP's default role.[/info]
  -->
-- 管理者と Super Admin の権限グループを削除することに**反対**することを推奨します !
+- 管理者と特権管理者の権限グループを削除することに**反対**することを推奨します !
 - WordPress の将来のアップデートで、これらの権限グループが再び追加される可能性があるので、プラグイン/テーマのコードは必ず保管しておいてください。
 - WordPress のデフォルト権限グループである `subscriber` を削除するので、`update_option('default_role', YOUR_NEW_DEFAULT_ROLE)` を実行します。[/info]
 
+<!-- 
 ## Capabilities
+ -->
+## 権限
 
 <!-- 
 Capabilities define what a **role** can and can not do: edit posts, publish posts, etc.
  -->
-Capabilities とは、**権限グループ**ができること、できないことを定義するものです: 投稿の編集、投稿の公開、等。
+権限とは、**権限グループ**ができること、できないことを定義するものです: 投稿の編集、投稿の公開、等。
 
 <!-- 
 [info]Custom post types can require a certain set of Capabilities.[/info]
  -->
-[info]カスタム投稿タイプは、特定の Capabilities のセットを必要とすることがあります。[/info]
+[info]カスタム投稿タイプは、特定の権限のセットを必要とすることがあります。[/info]
 
 <!-- 
 ### Adding Capabilities
  -->
-### Capabilities の追加
+### 権限の追加
 
 <!-- 
 You may define new capabilities for a role.
  -->
-権限グループに新しい Capabilities を定義できます。
+権限グループに新しい権限を定義できます。
 
 <!-- 
 Use [`get_role()`](https://developer.wordpress.org/reference/functions/get_role/) to get the role object, then use the `add_cap()` method of that object to add a new capability.
  -->
-[`get_role()`](https://developer.wordpress.org/reference/functions/get_role/) を使って権限グループオブジェクトを取得し、そのオブジェクトの `add_cap()` メソッドを使って新しい Capabilities を追加します。
+[`get_role()`](https://developer.wordpress.org/reference/functions/get_role/) を使って権限グループオブジェクトを取得し、そのオブジェクトの `add_cap()` メソッドを使って新しい権限を追加します。
 
 ```
 function wporg_simple_role_caps() {
@@ -183,7 +186,7 @@ add_action( 'init', 'wporg_simple_role_caps', 11 );
 <!-- 
 [info]It's possible to add custom capabilities to any role.
  -->
-[info]どの権限グループにもカスタム Capabilities を追加できます。
+[info]どの権限グループにもカスタム権限を追加できます。
 
 <!-- 
 Under the default WordPress admin, they would have no effect, but they can be used for custom admin screen and front-end areas.[/info]
@@ -193,22 +196,22 @@ WordPress のデフォルトの管理画面では、これらは何の効果も�
 <!-- 
 ### Removing Capabilities
  -->
-### Capabilities の削除
+### 権限の削除
 
 <!-- 
 You may remove capabilities from a role.
  -->
-権限グループから Capabilities を削除できます。
+権限グループから権限を削除できます。
 
 <!-- 
 The implementation is similar to Adding Capabilities with the difference being the use of `remove_cap()` method for the role object.
  -->
-実装は「Capabilities の追加」と似ていますが、違いは権限グループオブジェクトに `remove_cap()` メソッドを使うことです。
+実装は「権限の追加」と似ていますが、違いは権限グループオブジェクトに `remove_cap()` メソッドを使うことです。
 
 <!-- 
 ## Using Roles and Capabilities
  -->
-## 権限グループと Capabilities の使用
+## 権限グループと権限の使用
 
 <!-- 
 ### Get Role
@@ -218,7 +221,7 @@ The implementation is similar to Adding Capabilities with the difference being t
 <!-- 
 Get the role object including all of it's capabilities with [`get_role()`](https://developer.wordpress.org/reference/functions/get_role/).
  -->
-[`get_role()`](https://developer.wordpress.org/reference/functions/get_role/) で、その権限グループのすべての Capabilities を含む、権限グループオブジェクトを取得します。
+[`get_role()`](https://developer.wordpress.org/reference/functions/get_role/) で、その権限グループのすべての権限を含む、権限グループオブジェクトを取得します。
 
 <!-- 
 ### User Can
@@ -228,7 +231,7 @@ Get the role object including all of it's capabilities with [`get_role()`](https
 <!-- 
 Check if a user have a specified **role** or **capability** with [`user_can()`](https://developer.wordpress.org/reference/functions/user_can/).
  -->
-ユーザーが指定された**権限グループ**または **Capabilities** を持っているかどうかを [`user_can()`](https://developer.wordpress.org/reference/functions/user_can/) でチェックします。
+ユーザーが指定された**権限グループ**または**権限**を持っているかどうかを [`user_can()`](https://developer.wordpress.org/reference/functions/user_can/) でチェックします。
 
 ```
 user_can( $user, $capability );
@@ -242,7 +245,7 @@ user_can( $user, $capability );
 <!-- 
 E.g. Pass a post ID to test for the capability of that specific post.[/warning]
  -->
-例: 投稿 ID を渡して、特定の投稿の Capabilities をテストする。[/warning]
+例: 投稿 ID を渡して、特定の投稿の権限をテストする。[/warning]
 
 <!-- 
 ### Current User Can
@@ -271,7 +274,7 @@ current_user_can( $capability );
 <!-- 
 Here's a practical example of adding an Edit link on the in a template file if the user has the proper capability:
  -->
-ここでは、ユーザーが適切な Capabilities を持っている場合に、テンプレート・ファイルに編集リンクを追加する実用的な例を示します:
+ここでは、ユーザーが適切な権限を持っている場合に、テンプレート・ファイルに編集リンクを追加する実用的な例を示します:
 
 ```
 if ( current_user_can( 'edit_posts' ) ) {
@@ -287,7 +290,7 @@ if ( current_user_can( 'edit_posts' ) ) {
 <!-- 
 The [`current_user_can_for_blog()`](https://developer.wordpress.org/reference/functions/current_user_can_for_blog/) function is used to test if the current user has a certain **role** or **capability** on a specific blog.
  -->
-[`current_user_can_for_blog()`](https://developer.wordpress.org/reference/functions/current_user_can_for_blog/) 関数は、現在のユーザーが特定のブログで特定の**権限グループ**または **Capabilities** を持っているかどうかをテストするために使用されます。
+[`current_user_can_for_blog()`](https://developer.wordpress.org/reference/functions/current_user_can_for_blog/) 関数は、現在のユーザーが特定のブログで特定の**権限グループ**または**権限**を持っているかどうかをテストするために使用されます。
 
 ```
 current_user_can_for_blog( $blog_id, $capability );
@@ -301,4 +304,4 @@ current_user_can_for_blog( $blog_id, $capability );
 <!-- 
 Codex Reference for [User Roles and Capabilities](https://wordpress.org/documentation/article/roles-and-capabilities/).
  -->
-[ユーザーの権限グループと Capabilities](https://wordpress.org/documentation/article/roles-and-capabilities/)の Codex レファレンス。
+[ユーザーの権限グループと権限](https://wordpress.org/documentation/article/roles-and-capabilities/)の Codex レファレンス。
