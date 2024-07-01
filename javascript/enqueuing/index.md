@@ -16,7 +16,7 @@ There are two parts to the server side PHP script that are needed to implement A
 <!-- 
 This section covers the two major quirks of AJAX in WordPress that trip up experienced coders new to WordPress. One is the need to enqueue scripts in order to get meta links to appear correctly in the page's head section. The other is that **all** AJAX requests need to be sent through `wp-admin/admin-ajax.php`. Never send requests directly to your plugin pages.
  -->
-このセクションでは、WordPress 初心者である経験豊富なコーダーがつまずく、WordPress における AJAX の2つの大きな癖について説明します。ひとつは、ページの head セクションにメタリンクを正しく表示するために、スクリプトをエンキューする必要があることです。もうひとつは、**すべての** AJAX リクエストは `wp-admin/admin-ajax.php` を通して送られる必要があるということです。プラグインのページに直接リクエストを送ってはいけません。
+このセクションでは、WordPress を初めて使用する経験豊富なコーダーがつまずく、WordPress における AJAX の2つの大きな癖について説明します。ひとつは、ページの head セクションにメタリンクを正しく表示するために、スクリプトをエンキューする必要があることです。もうひとつは、**すべての** AJAX リクエストは `wp-admin/admin-ajax.php` を通して送られる必要があるということです。プラグインのページに直接リクエストを送ってはいけません。
 
 <!-- 
 ### Enqueue
@@ -26,7 +26,7 @@ This section covers the two major quirks of AJAX in WordPress that trip up exper
 <!-- 
 Use the function [`wp_enqueue_script()`](https://developer.wordpress.org/reference/functions/wp_enqueue_script/) to get WordPress to insert a meta link to your script in the page's section. Never hardcode such links in the header template. As a plugin developer, you do not have ready access to the header template, but this rule bears mentioning anyway.
  -->
-[`wp_enqueue_script()`](https://developer.wordpress.org/reference/functions/wp_enqueue_script/) 関数を使って、WordPress にあなたのスクリプトへのメタリンクをページのセクションに挿入してもらいましょう。このようなリンクをヘッダーテンプレートにハードコードしないでください。プラグイン開発者として、あなたはヘッダーテンプレートにすぐにアクセスできませんが、このルールはとにかく言っておく必要があります。
+[`wp_enqueue_script()`](https://developer.wordpress.org/reference/functions/wp_enqueue_script/) 関数を使って、WordPress にあなたのスクリプトへのメタリンクをページのセクションに挿入してもらいましょう。このようなリンクをヘッダーテンプレートにハードコードしないでください。プラグイン開発者として、あなたはヘッダーテンプレートにすぐにアクセスできませんが、このルールについては言及しておく価値があります。
 
 <!-- 
 The enqueue function accepts five parameters as follows:
@@ -44,7 +44,7 @@ enqueue 関数は、以下の5つのパラメータを受け付けます:
 - `$src` は、スクリプトの場所を定義します。移植性のために、`plugins_url()` を使用して適切な URL を作成してください。プラグイン以外のスクリプトをエンキューする場合は、関連する関数を使用して適切な URL を作成してください – 決してハードコードしないでください。
 - `$deps` は、配列で、新しいスクリプトが依存するスクリプト (jQuery など) を処理できます。jQuery を使用して AJAX リクエストを送信するので、少なくとも配列に `'jquery'` をリストアップする必要があります。
 - `$ver` は、バージョン番号をリストアップします。
-- `$args` は、(`in_footer` キーを介して) フッターの出力や、`defer` や `async` など (`strategy` キーを介して) スクリプトのロード手順を定義する引数の配列です。これは WordPress バージョン6.3のパラメータ `$in_footer` を置き換えます/オーバーロードします。
+- `$args` は、(`in_footer` キーを介して) フッターの出力や、`defer` や `async` など (`strategy` キーを介して) スクリプトを読み込む方法を定義する引数の配列です。これは WordPress バージョン6.3のパラメータ `$in_footer` を置き換え/オーバーロードします。
 
 ```
 wp_enqueue_script(
@@ -66,7 +66,7 @@ You cannot enqueue scripts directly from your plugin code page when it is loaded
 <!-- 
 The `admin_enqueue_scripts` hook passes the current page filename to your callback. Use this information to only enqueue your script on pages where it is needed. The front-end version does not pass anything. In that case, use template tags such as `is_home()`, `is_single()`, etc. to ensure that you only enqueue your script where it is needed. This is the complete enqueue code for our example:
  -->
-フック `admin_enqueue_scripts` は、現在のページのファイル名をコールバックに渡します。この情報を使って、スクリプトが必要なページでのみスクリプトを待ち受ける様にします。フロントエンド版は、何も渡しません。その場合は、`is_home()`、`is_single()` などのテンプレートタグを使い、スクリプトを必要な場所にだけエンキューする様子します。これが今回の例の完全なエンキューコードです:
+フック `admin_enqueue_scripts` は、現在のページのファイル名をコールバックに渡します。この情報を使って、スクリプトが必要なページでのみスクリプトをエンキューします。フロントエンド版は、何も渡しません。その場合は、`is_home()`、`is_single()` などのテンプレートタグを使い、スクリプトを必要な場所にだけエンキューします。これが今回の例の完全なエンキューコードです:
 
 ```
 add_action( 'admin_enqueue_scripts', 'my_enqueue' );
@@ -94,7 +94,7 @@ Why do we use a named function here but use anonymous functions with jQuery? Bec
 <!-- 
 #### Register vs. Enqueue
  -->
-#### 登録 vs. エンキュー
+#### 登録とエンキュー
 
 <!-- 
 You will see examples in other tutorials that religiously use [`wp_register_script()`](https://developer.wordpress.org/reference/functions/wp_register_script/). This is fine, but its use is optional. What is not optional is `wp_enqueue_script()`. This function must be called in order for your script file to be properly linked on the web page. So why register scripts? It creates a useful tag or handle with which you can easily reference the script in various parts of your code as needed. If you just need your script loaded and are not referencing it elsewhere in your code, there is no need to register it.
@@ -104,17 +104,17 @@ You will see examples in other tutorials that religiously use [`wp_register_scri
 <!-- 
 #### Delayed Script Loading
  -->
-#### スクリプトの読み込み遅延
+#### スクリプトの遅延読み込み
 
 <!-- 
 WordPress provides support for specifying a script loading strategy via the `wp_register_script()` and `wp_enqueue_script()` functions, by way of the `strategy` key within the new `$args` array parameter introduced in WordPress 6.3.
  -->
-WordPress は、WordPress 6.3で導入された新しい配列パラメータ `$args` 内のキー `strategy` によって、`wp_register_script()` 関数と `wp_enqueue_script()` 関数を介して、スクリプトのロード手順を指定するためのサポートを提供します。
+WordPress は、WordPress 6.3で導入された新しい配列パラメータ `$args` 内のキー `strategy` によって、`wp_register_script()` 関数と `wp_enqueue_script()` 関数を介して、スクリプトを読み込む方法を指定するためのサポートを提供します。
 
 <!-- 
 Supported strategies are as follows:
  -->
-サポートされている手順は、以下の通りです:
+サポートされているオプションは、以下の通りです:
 
 <!-- 
 - **defer**
@@ -125,16 +125,16 @@ Supported strategies are as follows:
   - Scripts marked for asynchronous execution — via the `async` script attribute — are executed as soon as they are loaded by the browser. Asynchronous scripts do not have a guaranteed execution order, as script B (although added to the DOM after script A) may execute first given that it may complete loading prior to script A. Such scripts may execute either before the DOM has been fully constructed or after the `DOMContentLoaded` event.
  -->
 - **defer**
-  - パラメータ `$args` に、`'strategy' => 'async'` の配列キーと値のペアを指定して追加されます。
-  - スクリプト属性 defer を介して遅延実行と指定されたスクリプトは、DOM ツリーが完全にロードされた後 (ただし `DOMContentLoaded` イベントやウィンドウロードイベントの前) に実行されます。遅延されたスクリプトは、非同期スクリプトとは異なり、DOM に出力/追加された順番に実行されます。
+  - パラメータ `$args` に、`'strategy' => 'defer'` の配列キーと値のペアを指定して追加されます。
+  - スクリプト属性 defer を介して遅延実行と指定されたスクリプトは、DOM ツリーが完全に読み込まれた後 (ただし `DOMContentLoaded` イベントやウィンドウロードイベントの前) に実行されます。遅延されたスクリプトは、非同期スクリプトとは異なり、DOM に出力/追加された順番に実行されます。
 - **async**
   - パラメータ `$args` に、`'strategy' => 'async'` の配列キーと値のペアを指定することで追加されます。
-  - スクリプト属性 `async` を介して非同期実行と指定されたスクリプトは、ブラウザに読み込まれるとすぐに実行されます。非同期スクリプトは実行順序が保証されていません。スクリプト B は (スクリプト A の後に DOM に追加されたが) スクリプト A よりも先にロードを完了する可能性があるため、最初に実行される可能性があります。このようなスクリプトは、DOM が完全に構築される前に実行されることもあれば、`DOMContentLoaded` イベントの後に実行されることもあります。
+  - スクリプト属性 `async` を介して非同期実行と指定されたスクリプトは、ブラウザに読み込まれるとすぐに実行されます。非同期スクリプトは実行順序が保証されていません。スクリプト B は (スクリプト A の後に DOM に追加されたが) スクリプト A よりも先に読み込みが完了する可能性があるため、最初に実行される可能性があります。このようなスクリプトは、DOM が完全に構築される前に実行されることもあれば、`DOMContentLoaded` イベントの後に実行されることもあります。
 
 <!-- 
 Following is an example of specifying a loading strategy for an additional script enqueue within our plugin:
  -->
-以下は、プラグイン内の追加スクリプト・エンキューのロード手順を指定する例です:
+以下は、プラグイン内の追加スクリプト・エンキューの読み込み方法を指定する例です:
 
 ```
 wp_register_script(
@@ -151,19 +151,19 @@ wp_register_script(
 <!-- 
 The same approach applies when using `wp_enqueue_script()`. In the example above, we indicate that we intend to load the `'ajax-script-two'` script in a deferred manner.
  -->
-`wp_enqueue_script()` を使う場合も、同じアプローチが適用されます。上の例では、遅延処理でスクリプト `'ajax-script-two'` をロードすることを示しています。
+`wp_enqueue_script()` を使う場合も、同じアプローチが適用されます。上の例では、遅延処理でスクリプト `'ajax-script-two'` を読み込むことを示しています。
 
 <!-- 
 When specifying a delayed script loading strategy, consideration of the script's dependency tree (its dependencies and/or dependents) is taken into account when deciding on an “eligible strategy” so as not to result in application of a strategy that is valid for one script but detrimental to others in the tree by causing an unintended out of order of execution. As a result of such logic, the intended loading strategy that you pass via the `$args` parameter may not be the final (chosen) strategy, but it will never be detrimental to (or stricter than) the intended strategy.
  -->
-遅延スクリプトのロード戦略を指定する場合、スクリプトの依存関係ツリー (その依存関係および / または従属関係) を考慮することで、あるスクリプトには有効だが、ツリー内の他のスクリプトには有害な手順を適用して、意図しない実行順序のずれを引き起こさない様に、「適格な手順」を決定します。このようなロジックの結果、パラメータ `$args` を介して渡された意図したロード手順は、最終的な (選択された) 手順にはならないかもしれないが、意図した手順に対して不利になる (または意図した戦略よりも厳しくなる) ことはありません。
+遅延スクリプトを読み込む方法を指定する場合、スクリプトの依存関係ツリー (その依存関係および / または従属関係) を考慮することで、あるスクリプトには有効だが、ツリー内の他のスクリプトには有害な手順を適用して、意図しない実行順序のずれを引き起こさない様に、「適格な方法」を決定します。このようなロジックの結果、パラメータ `$args` を介して渡された意図した読み込み方法は、最終的な (選択された) 順序にはならないかもしれないが、意図した方法に対して不利になる (または意図した方法よりも厳しくなる) ことはありません。
 
 ### Nonce
 
 <!-- 
 You need to create a nonce so that the jQuery AJAX request can be validated as a legitimate request instead of a potentially nefarious request from some unknown bad actor. Only your PHP script and your jQuery script will know this value. When the request is received, you can verify it is the same value created here. This is how to create a nonce for our example:
  -->
-jQuery AJAX リクエストを検証できるように、nonce を作成する必要があります。そうすることで、jQuery の AJAX リクエストを、未知の悪意のあるリクエストではなく、正当なリクエストとして検証できる様になります。この値を知っているのは、PHP スクリプトと jQuery スクリプトだけです。リクエストを受け取ったときに、ここで作成したのと同じ値であることを検証できます。これが、この例の nonce の作成方法です:
+jQuery AJAX リクエストを検証できるように、nonce を作成する必要があります。そうすることで、jQuery の AJAX リクエストを、未知の悪意のあるリクエストではなく、正当なリクエストとして検証できる様になります。この値を知っているのは、PHP スクリプトと jQuery スクリプトだけです。リクエストを受け取ったときに、ここで作成したのと同じ値であることを検証できます。これは、nonce を作成する一つの方法です:
 
 ```
 $title_nonce = wp_create_nonce( 'title_example' );
@@ -172,7 +172,7 @@ $title_nonce = wp_create_nonce( 'title_example' );
 <!-- 
 The parameter `title_example` can be any arbitrary string. It's suggested the string be related to what the nonce is used for, but it can really be anything that suits you.
  -->
-パラメータ `title_example` には、任意の文字列を指定できます。この文字列は nonce が何に使われるかに関連したものであることが推奨されるが、本当に適当なものでよいです。
+パラメータ `title_example` には、任意の文字列を指定できます。この文字列は nonce が何に使われるかに関連したものであることが推奨されるが、何でもかまいません。
 
 <!-- 
 ### Localize
@@ -198,7 +198,7 @@ wp_localize_script(
 <!-- 
 Note how our script handle `ajax-script` is used so that the global object is assigned to the right script. The object is global to our script, not to all scripts. Localization can also be called from the same hook that is used to enqueue scripts. The same goes for creating a nonce, though that particular function can be called virtually anywhere. All of that combined together in a single hook callback looks like this:
  -->
-スクリプトハンドル `ajax-script` がどのように使用され、グローバルオブジェクトが正しいスクリプトに割り当てられるかに注意してください。このオブジェクトは、すべてのスクリプトに対してではなく、私たちのスクリプトに対してグローバルです。ローカライズは、スクリプトをエンキューするのと同じフックから呼び出すこともできます。nonce の作成も同様だが、この特定の関数は事実上どこでも呼び出すことができます。これらすべてを1つのフック・コールバックにまとめると、次のようになります:
+スクリプトハンドル `ajax-script` がどのように使用され、グローバルオブジェクトが正しいスクリプトに割り当てられるかに注意してください。このオブジェクトは、すべてのスクリプトに対してではなく、私たちのスクリプトに対してグローバルです。ローカライズは、スクリプトをエンキューするのと同じフックから呼び出すこともできます。nonce の作成も同様ですが、この特定の関数は事実上どこでも呼び出すことができます。これらすべてを1つのフック・コールバックにまとめると、次のようになります:
 
 ```
 add_action( 'admin_enqueue_scripts', 'my_enqueue' );
@@ -234,7 +234,7 @@ function my_enqueue( $hook ) {
 <!-- 
 [info]Remember to only add this nonce localization to the needed pages, do not display a nonce to someone who should not use it. And remember to use `current_user_can()` with a capability or role to complete the security.[/info]
  -->
-[info]この nonce のローカライズは必要なページにのみ追加することを忘れないでください。また、セキュリティを完全にするために、権限や権限グループと一緒に `current_user_can()` を使用することを忘れないでください。[/info]
+[info]この nonce のローカライズは必要なページにのみ追加し、nonce を使うべきでない人には表示しないでください。また、セキュリティを完全にするために、権限や権限グループと一緒に `current_user_can()` を使用することを忘れないでください。[/info]
 
 <!-- 
 ## AJAX Action
@@ -254,7 +254,7 @@ The other major part of the server side PHP code is the actual AJAX handler that
 <!-- 
 You've probably used one or more of the PHP super globals such as `$_GET` or `$_POST` to retrieve values from forms or cookies (using `$_COOKIE`). Maybe you prefer `$_REQUEST` instead, or at least have seen it used. It's kind of cool – regardless of the request method, `POST` or `GET`, it will have the form values. Works great for pages that use both methods. On top of that, it has cookie values as well. One stop shopping! Therein lies its tragic flaw. In the case of a name conflict, the cookie value will override any form values. Thus it is ridiculously easy for a bad actor to craft a counterfeit cookie on their browser, which will overwrite any form value you might be expecting from the request. `$_REQUEST` is an easy route for hackers to inject arbitrary data into your form values. To be extra safe, stick to the specific variables and avoid the one size fits all.[/info]
  -->
-`$_GET` や `$_POST` のような PHP のスーパーグローバルを使って、フォームや (`$_COOKIE` を使って) Cookie から値を取得したことがあるでしょう。もしかすると、代わりに `$_REQUEST` を使用することを好むかもしれませんし、少なくとも使用されているのを見たことがあるかもしれません。ちょっと格好よく – リクエストメソッド (`POST` または `GET`) に関係なく、フォームの値を取得できます。両方のメソッドを使用するページには最適です。その上、Cookie の値も取得できます。まさにワンストップショッピング ! そこに悲劇的な欠点があります。名前が衝突した場合、Cookie の値がフォームの値を上書きします。従って、悪意ある行為者がブラウザ上で偽造 Cookie を作成するのはとんでもなく簡単で、リクエストから期待されるかもしれないフォームの値を上書きしてしまいます。`$_REQUEST` は、ハッカーにとって フォームの値に任意のデータを注入する簡単なルートです。安全性を高めるために、特定の変数に固執し、1つのサイズですべてを満たすことは避けてください。[/info]
+`$_GET` や `$_POST` のような PHP のスーパーグローバルを使って、フォームや (`$_COOKIE` を使って) Cookie から値を取得したことがあるでしょう。もしかすると、代わりに `$_REQUEST` を使用することを好むかもしれませんし、少なくとも使用されているのを見たことがあるかもしれません。ちょっと格好よく – リクエストメソッド (`POST` または `GET`) に関係なく、フォームの値を取得できます。両方のメソッドを使用するページには最適です。その上、Cookie の値も取得できます。非常に便利ですが、そこに悲劇的な欠点があります。名前が衝突した場合、Cookie の値がフォームの値を上書きします。従って、悪意ある誰かがブラウザ上で偽造 Cookie を作成するのはとんでもなく簡単で、リクエストから期待されるかもしれないフォームの値を上書きしてしまいます。`$_REQUEST` は、ハッカーにとって フォームの値に任意のデータを注入する簡単なルートです。安全性を高めるために、特定の変数に固執し、1つの方法ですべてを満たすことは避けてください。[/info]
 
 <!-- 
 Since our AJAX exchange is for the plugin's settings page, the user must be logged in. If you recall from the [jQuery section](https://developer.wordpress.org/plugins/javascript/jquery/), the `action:` value is `"my_tag_count"`. This means our action hook tag will be `wp_ajax_my_tag_count`. If our AJAX exchange were to be utilized by users who were not currently logged in, the action hook tag would be `wp_ajax_nopriv_my_tag_count` The basic code used to hook the action looks like this:
