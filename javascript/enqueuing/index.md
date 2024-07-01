@@ -333,7 +333,7 @@ Finally we can send the response back to the jQuery script. There's several ways
 <!-- 
 PHP support for XML leaves something to be desired. Fortunately, WordPress provides the [`WP_Ajax_Response`](https://developer.wordpress.org/reference/classes/wp_ajax_response/) class to make the task easier. The [`WP_Ajax_Response`](https://developer.wordpress.org/reference/classes/wp_ajax_response/) class will generate an XML-formatted response, set the correct content type for the header, output the response xml, then die — ensuring a proper XML response.
  -->
-PHP による XML のサポートには不満が残ります。幸いなことに、WordPress は [`WP_Ajax_Response`](https://developer.wordpress.org/reference/classes/wp_ajax_response/) クラスを提供しており、このタスクを簡単に行うことができます。[`WP_Ajax_Response`](https://developer.wordpress.org/reference/classes/wp_ajax_response/) クラスは、XML フォーマットのレスポンスを生成し、ヘッダーに正しいコンテンツタイプを設定し、レスポンス xml を出力して終了し — 適切な XML レスポンスを保証します。
+PHP による XML のサポートには改善の余地があります。幸いなことに、WordPress は [`WP_Ajax_Response`](https://developer.wordpress.org/reference/classes/wp_ajax_response/) クラスを提供しており、このタスクを簡単に行うことができます。[`WP_Ajax_Response`](https://developer.wordpress.org/reference/classes/wp_ajax_response/) クラスは、XML フォーマットのレスポンスを生成し、ヘッダーに正しいコンテンツタイプを設定し、レスポンス xml を出力して終了し — 適切な XML レスポンスを保証します。
 
 #### JSON
 
