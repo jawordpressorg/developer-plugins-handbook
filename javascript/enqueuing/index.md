@@ -31,7 +31,7 @@ Use the function [`wp_enqueue_script()`](https://developer.wordpress.org/referen
 <!-- 
 The enqueue function accepts five parameters as follows:
  -->
-enqueue 関数は、以下の5つのパラメータを受け付けます:
+エンキュー関数は、以下の5つのパラメータを受け付けます:
 
 <!-- 
 - `$handle` is the name for the script.
