@@ -6,7 +6,7 @@
 <!-- 
 A _User_ is an access account with corresponding capabilities within the WordPress installation. Each WordPress user has, at the bare minimum, a username, password and email address.
  -->
-_ユーザー_とは、WordPress のインストール内で対応する権限を持つアクセスアカウントのことです。WordPress の各ユーザーは、最低限、ユーザー名、パスワード、メールアドレスを持っています。
+「ユーザー」とは、WordPress のインストール内で対応する権限を持つアクセスアカウントのことです。WordPress の各ユーザーは、最低限、ユーザー名、パスワード、メールアドレスを持っています。
 
 <!-- 
 Once a user account is created, that user may log in using the WordPress Admin (or programmatically) to access WordPress functions and data. WordPress stores the Users in the `users` table.
