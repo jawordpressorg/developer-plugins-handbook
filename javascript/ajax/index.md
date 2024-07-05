@@ -179,7 +179,7 @@ title: this.value
 <!-- 
 The callback handler is the function to execute when a response comes back from the server after the request is made. Once again, we usually see an anonymous function here. The function is passed one parameter, the server response. The response could be anything from a yes or no to a huge XML database. JSON formatted data is also a useful format for data. The response is not even required. If there is none, then no callback need be specified. In the interest of UX, it's always a good idea to let the user know what happened to any request, so it is recommended to always respond and provide some indication that something happened.
  -->
-コールバックハンドラは、リクエスト後にサーバーからレスポンスが返ってきたときに実行する関数です。繰り返しますが、通常はここで無名関数を使用します。この関数には1つのパラメータ、サーバー・レスポンス、が渡されます。レスポンスは、YES か NO かといったものから、巨大な XML データベースまで何でもあり得ます。JSON フォーマットのデータも、データのフォーマットとしては便利です。レスポンスは必須ではありません。もし何もなければ、コールバックを指定する必要はありません。UX の観点からは、どのようなリクエストに対しても、何が起こったかをユーザーに知らせることは常に良いことですので、常にレスポンスを返し、何かが起こったことを示す何らかの表示をすることを推奨します。
+コールバックハンドラは、リクエスト後にサーバーからレスポンスが返ってきたときに実行する関数です。繰り返しますが、通常はここで無名関数を使用します。この関数には1つのパラメータ、サーバーレスポンスが渡されます。レスポンスは、YES か NO かといったものから、巨大な XML データベースまで何でもあり得ます。JSON フォーマットのデータも、データのフォーマットとしては便利です。レスポンスは必須ではありません。もし何もなければ、コールバックを指定する必要はありません。UX の観点からは、どのようなリクエストに対しても、何が起こったかをユーザーに知らせることは常に良いことですので、常にレスポンスを返し、何かが起こったことを示す何らかの表示をすることを推奨します。
 
 <!-- 
 In our example, we replace the current text following the radio input with the server response, which includes the number of posts tagged by the book title. Here is our anonymous callback function:
