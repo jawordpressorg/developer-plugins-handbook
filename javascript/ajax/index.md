@@ -70,7 +70,7 @@ WordPress での AJAX 交換には、2つの主要なコンポーネントがあ
 2. The server receives the request and does something with the data. It may assemble related data and send it back to the client browser in the form of an HTTP response. This is not a requirement, but since keeping the user informed about what's going on is desirable, it's very rare not to send some kind of response.
 3. The jQuery function that sent the initial AJAX request receives the server response and does something with it. It may update something on the page and/or present a message to the user by some means.
  -->
-1. ある何らかのページ・イベントが、JavaScript または jQuery 関数を起動させます。その関数は、ページからデータを収集し、HTTP リクエストでサーバーに送信します。JavaScript で HTTP リクエストを処理するのはやっかいだし、jQuery は WordPress にバンドルされているから、ここから先は、jQuery のコードだけに集中することにします。JavaScript をそのまま使った AJAX も可能だが、jQuery が使えるのにやる価値はありません。
+1. ある何らかのページ・イベントが、JavaScript または jQuery 関数を起動させます。その関数は、ページからデータを収集し、HTTP リクエストでサーバーに送信します。JavaScript で HTTP リクエストを処理するのはやっかいですし、jQuery は WordPress にバンドルされているので、ここから先は、jQuery のコードだけに集中することにします。JavaScript をそのまま使った AJAX も可能ですが、jQuery が使えるのに使用する価値はありません。
 2. サーバーは、リクエストを受信し、そのデータで何かをします。関連するデータを組み立て、HTTP レスポンスの形でクライアント・ブラウザに送り返すかもしれません。これは必須条件ではありませんが、何が起こっているかをユーザーに知らせ続けることは望ましいことですので、何らかのレスポンスを送らないことは非常にまれです。
 3. 最初の AJAX リクエストを送信した jQuery 関数は、サーバーレスポンスを受信し、それを使って何かします。ページ上の何かを更新したり、何らかの方法でユーザーにメッセージを表示したりします。
 
