@@ -230,7 +230,7 @@ As long as the data format is coordinated with the PHP handler, it can be any fo
 <!-- 
 #### Client Side Summary
  -->
-#### クライアント・サイドの概要
+#### クライアントサイドの概要
 
 <!-- 
 Now that we've added our callback as the final parameter for the $.post() function, we've completed our sample jQuery Ajax script. All the pieces put together look like this:
