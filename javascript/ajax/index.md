@@ -82,7 +82,7 @@ WordPress での AJAX 交換には、2つの主要なコンポーネントがあ
 <!-- 
 Now we will define the "do stuff" portion from the [snippet in the article on jQuery](https://developer.wordpress.org/plugins/javascript/jquery/#selector-and-event). We will use the [`$.post()`](https://api.jquery.com/jQuery.post/ "jQuery Reference") method, which takes 3 parameters: the URL to send the POST request to, the data to send, and a callback function to handle the server response. Before we do that though, we have a bit of advance planning to get out of the way. We do the following assignment for use later in the callback function. The purpose will be more evident in the [Callback section](https://developer.wordpress.org/plugins/javascript/ajax/#callback "Page section").
  -->
-ここで、[jQuery の記事のスニペット](https://developer.wordpress.org/plugins/javascript/jquery/#selector-and-event)にある「do stuff」部分を定義します。ここでは、[`$.post()`](https://api.jquery.com/jQuery.post/ "jQuery Reference") メソッドを使用し、そのパラメータは、POST リクエストを送信する URL、送信するデータ、そしてサーバーのレスポンスを処理するコールバック関数、の3つになります。でも、その前に、ちょっとした下準備があります。後でコールバック関数で使うために、次のように割り当てします。目的は[コールバック項](https://developer.wordpress.org/plugins/javascript/ajax/#callback "Page section")で詳しく説明します。
+ここで、[jQuery の記事のスニペット](https://developer.wordpress.org/plugins/javascript/jquery/#selector-and-event)にある「do stuff」部分を定義します。ここでは、[`$.post()`](https://api.jquery.com/jQuery.post/ "jQuery リファレンス") メソッドを使用し、そのパラメータは、POST リクエストを送信する URL、送信するデータ、そしてサーバーのレスポンスを処理するコールバック関数、の3つになります。でも、その前に、ちょっとした下準備があります。後でコールバック関数で使うために、次のように割り当てします。目的は[コールバックのセクション](https://developer.wordpress.org/plugins/javascript/ajax/#callback "Page section")で詳しく説明します。
 
 ### URL
 
