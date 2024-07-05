@@ -523,7 +523,7 @@ $response = wp_remote_request( 'http://some-api.com/object/to/delete', $args );
 <!-- 
 ## Introduction to caching
  -->
-## キャッシング概要
+## キャッシングの概要
 
 <!-- 
 Caching is a practice whereby commonly used objects or objects requiring significant time to build are saved into a fast object store for quick retrieval on later requests. This prevents the need to spend the time fetching and building the object again. Caching is a vast subject that is part of website optimization and could go into an entire series of articles by itself. What follows is just an introduction to caching and a simple yet effective way to quickly setup a cache for API responses.
