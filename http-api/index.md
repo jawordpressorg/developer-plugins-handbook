@@ -183,7 +183,7 @@ The following defaults are assumed, though they can be changed via the $args par
 
  -->
 - `method` – GET
-- `timeout` – 5 – ギブアップするまでの待ち時間
+- `timeout` – 5 – 中止するまでの待ち時間
 - `redirection` – 5 – リダイレクトを何回実行するか
 - `httpversion` – 1.0
 - `blocking` – true – この操作が完了するまで、ページの残りの部分の読み込みを待つべきか ?
