@@ -116,7 +116,7 @@ The type of response can quickly be seen by the leftmost digit of the three digi
 <!-- 
 **Common Codes**
  -->
-**一般コード**
+**一般的なコード**
 
 <!-- 
 These are the most common codes you will encounter.
