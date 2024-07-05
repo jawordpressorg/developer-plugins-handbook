@@ -548,7 +548,7 @@ It is a fine balancing act between the speed your server can send data and the a
 <!-- 
 The snap answer to this is **always**, but again there are times when you should not. If you are dealing with real time data or the API specifically says not to cache in the headers you may not want to cache, but for all other situations it is generally a good idea to cache any resources retrieved from an API.
  -->
-これに対する簡単な答えは**常に**だが、やはりキャッシュすべきではない場合もあります。リアルタイムデータを扱っている場合や、API がヘッダーにキャッシュするなと明記している場合は、キャッシュしたくないかもしれませんが、それ以外の状況では、API から取得したリソースをキャッシュするのが一般的には良い考えです。
+これに対する簡単な答えは**常に**ですが、やはりキャッシュすべきではない場合もあります。リアルタイムデータを扱っている場合や、API がヘッダーにキャッシュするなと明記している場合は、キャッシュしたくないかもしれませんが、それ以外の状況では、API から取得したリソースをキャッシュするのが一般的には良い考えです。
 
 ## WordPress Transients
 
