@@ -1,7 +1,7 @@
 <!-- 
 # Working with Custom Taxonomies
  -->
-# カスタム・タクソノミーの取扱い
+# カスタムタクソノミーの取扱い
 
 <!-- 
 ## Introduction to Taxonomies
@@ -16,7 +16,7 @@ To understand what Taxonomies are and what they do please read the [Taxonomy](ht
 <!-- 
 ## Custom Taxonomies
  -->
-## カスタム・タクソノミー
+## カスタムタクソノミー
 
 <!-- 
 As classification systems go, "Categories" and "Tags" aren't very structured, so it may be beneficial for a developer to create their own.
@@ -26,17 +26,17 @@ As classification systems go, "Categories" and "Tags" aren't very structured, so
 <!-- 
 WordPress allows developers to create **Custom Taxonomies**. Custom Taxonomies are useful when one wants to create distinct naming systems and make them accessible behind the scenes in a predictable way.
  -->
-WordPress では、開発者が**カスタム・タクソノミー**を作成できます。カスタム・タクソノミーは、明確なネーミングシステムを作成し、予測可能な方法で舞台裏からアクセスできるようにしたい場合に便利です。
+WordPress では、開発者が**カスタムタクソノミー**を作成できます。カスタムタクソノミーは、明確なネーミングシステムを作成し、予測可能な方法で舞台裏からアクセスできるようにしたい場合に便利です。
 
 <!-- 
 ## Why Use Custom Taxonomies?
  -->
-## どうしてカスタム・タクソノミーを使うの ?
+## どうしてカスタムタクソノミーを使うの ?
 
 <!-- 
 You might ask, "Why bother creating a Custom Taxonomy, when I can organize by Categories and Tags?"
  -->
-「カテゴリーやタグで分類できるのに、なぜわざわざカスタム・タクソノミーを作成するの ?」と尋ねるかもしれません。
+「カテゴリーやタグで分類できるのに、なぜわざわざカスタムタクソノミーを作成するの ?」と尋ねるかもしれません。
 
 <!-- 
 Well… let's use an example. Suppose we have a client that is a chef who wants you to create a website where she'll feature original recipes.
@@ -56,17 +56,17 @@ These groups _could_ be defined using Categories or Tags, you could have a "Cour
 <!-- 
 The main advantage of using Custom Taxonomies is that you can reference "Courses" and "Ingredients" independently of Categories and Tags. They even get their own menus in the Administration area.
  -->
-カスタム・タクソノミーを使う主な利点は、「コース」と「食材」をカテゴリーやタグとは別に参照できることです。さらに、管理エリアに独自のメニューも用意されています。
+カスタムタクソノミーを使う主な利点は、「コース」と「食材」をカテゴリーやタグとは別に参照できることです。さらに、管理エリアに独自のメニューも用意されています。
 
 <!-- 
 In addition, creating Custom Taxonomies allows you to build custom interfaces which will ease the life of your client and make the process of inserting data intuitive to their business nature.
  -->
-さらに、カスタム・タクソノミーを作成することで、クライアントの生活を楽にし、データを挿入するプロセスをクライアントのビジネスの性質に合わせて直感的に行うことができるカスタムインターフェースを構築できます。
+さらに、カスタムタクソノミーを作成することで、クライアントの生活を楽にし、データを挿入するプロセスをクライアントのビジネスの性質に合わせて直感的に行うことができるカスタムインターフェースを構築できます。
 
 <!-- 
 Now imagine that these Custom Taxonomies and the interface is implemented inside a plugin; you've just built your own Recipes plugin that can be reused on any WordPress website.
  -->
-これらのカスタム・タクソノミーとインターフェイスが、プラグインの中に実装されているとします。どの WordPress サイトでも再利用できる独自のレシピ・プラグインができあがりました。
+これらのカスタムタクソノミーとインターフェイスが、プラグインの中に実装されているとします。どの WordPress サイトでも再利用できる独自のレシピ・プラグインができあがりました。
 
 <!-- 
 ## Example: Courses Taxonomy
@@ -76,7 +76,7 @@ Now imagine that these Custom Taxonomies and the interface is implemented inside
 <!-- 
 The following example will show you how to create a plugin which adds a Custom Taxonomy "Courses" to the default `post` Post Type. Note that the code to add custom taxonomies does not have to be in its own plugin; it can be included in a theme or as part of an existing plugin if desired.
  -->
-以下の例では、デフォルトの投稿タイプ `post` に、カスタム・タクソノミー「コース」を追加するプラグインの作成方法を紹介します。カスタム・タクソノミーを追加するコードは、プラグインに含める必要はないことに注意してください。必要であれば、テーマや既存のプラグインの一部に含めることができます。
+以下の例では、デフォルトの投稿タイプ `post` に、カスタムタクソノミー「コース」を追加するプラグインの作成方法を紹介します。カスタムタクソノミーを追加するコードは、プラグインに含める必要はないことに注意してください。必要であれば、テーマや既存のプラグインの一部に含めることができます。
 
 <!-- 
 Please make sure to read the [Plugin Basics](https://developer.wordpress.org/plugins/plugin-basics/) chapter before attempting to create your own plugin.
@@ -96,7 +96,7 @@ Go to **Posts > Add New** page. You will notice that you only have Categories an
 <!-- 
 ![No Custom Taxonomy Meta Box (Yet)](https://make.wordpress.org/docs/files/2014/02/no-custom-taxonomy-meta-box.png)
  -->
-![カスタム・タクソノミーのメタボックスは (まだ) 存在しません](https://make.wordpress.org/docs/files/2014/02/no-custom-taxonomy-meta-box.png)
+![カスタムタクソノミーのメタボックスは (まだ) 存在しません](https://make.wordpress.org/docs/files/2014/02/no-custom-taxonomy-meta-box.png)
 
 <!-- 
 ## Step 2: Creating a New Plugin
@@ -172,12 +172,12 @@ The following discussion breaks down the code used above describing the function
 <!-- 
 The function `wporg_register_taxonomy_course` contains all the steps necessary for registering a Custom Taxonomy.
  -->
-関数 `wporg_register_taxonomy_course` は、カスタム・タクソノミーを登録するために必要なすべてのステップを含んでいます。
+関数 `wporg_register_taxonomy_course` は、カスタムタクソノミーを登録するために必要なすべてのステップを含んでいます。
 
 <!-- 
 The `$labels` array holds the labels for the Custom Taxonomy.
  -->
-配列 `$labels` は、カスタム・タクソノミーのラベルを保持します。
+配列 `$labels` は、カスタムタクソノミーのラベルを保持します。
 
 <!-- 
 These labels will be used for displaying various information about the Taxonomy in the Administration area.
@@ -187,7 +187,7 @@ These labels will be used for displaying various information about the Taxonomy 
 <!-- 
 The `$args` array holds the configuration options that will be used when creating our Custom Taxonomy.
  -->
-配列 `$args` は、カスタム・タクソノミーを作成する際に使用する設定オプションを保持します。
+配列 `$args` は、カスタムタクソノミーを作成する際に使用する設定オプションを保持します。
 
 <!-- 
 The function [`register_taxonomy()`](https://developer.wordpress.org/reference/functions/register_taxonomy/) creates a new Taxonomy with the identifier `course` for the `post` Post Type using the `$args` array for configuration.
@@ -204,7 +204,7 @@ The function [`add_action()`](https://developer.wordpress.org/reference/function
 <!-- 
 The $args array holds important configuration for the Custom Taxonomy, it instructs WordPress how the Taxonomy should work.
  -->
-配列 $args は、カスタム・タクソノミーの重要な設定を保持し、タクソノミーの動作を WordPress に指示します。
+配列 $args は、カスタムタクソノミーの重要な設定を保持し、タクソノミーの動作を WordPress に指示します。
 
 <!-- 
 ### Summary
@@ -234,7 +234,7 @@ The archive page will be at `/course/` with child pages spawning under it using 
 <!-- 
 WordPress has **many** functions for interacting with your Custom Taxonomy and the Terms within it.
  -->
-WordPress には、スタム・タクソノミーとその中のタームとのインタラクションのための**多くの**機能があります。
+WordPress には、カスタムタクソノミーとその中のタームとのインタラクションのための**多くの**機能があります。
 
 <!-- 
 Here are some examples:
@@ -247,5 +247,5 @@ Here are some examples:
 - `is_taxonomy`: Allows you to determine if a given taxonomy exists.
  -->
 - `the_terms`: タクソノミーの引数をとり、タームをリストで表示します。
-- `wp_tag_cloud`: タクソノミーの引数をとり、タームのタグクラウドを表示する。
+- `wp_tag_cloud`: タクソノミーの引数をとり、タームのタグクラウドを表示します。
 - `is_taxonomy`: 指定したタクソノミーが存在するかどうかを判別できます。
