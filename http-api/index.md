@@ -42,7 +42,7 @@ HTTP には、特定のタイプの操作を表すいくつかのメソッドが
 <!-- 
 GET is used to retrieve data. This is by far the most commonly used verb. Every time you view a website or pull data from an API you are seeing the result of a GET request. In fact your browser sent a GET request to the server you are reading this on and requested the data used to build this very article.
  -->
-GET は、データの取得に使われます。これは圧倒的によく使われる動詞です。Web サイトを見たり、API からデータを取り出したりするたびに、あなたは GET リクエストの結果を見ています。実際、あなたのブラウザーは、あなたがこれを読んでいるサーバーに GET リクエストを送り、まさにこの記事を作成するために使われたデータを要求したのです。
+GET は、データの取得に使われます。これは圧倒的によく使われるメソッドです。Web サイトを見たり、API からデータを取り出したりするたびに、あなたは GET リクエストの結果を見ています。実際、あなたのブラウザーは、あなたがこれを読んでいるサーバーに GET リクエストを送り、まさにこの記事を作成するために使われたデータを要求したのです。
 
 ### POST
 
