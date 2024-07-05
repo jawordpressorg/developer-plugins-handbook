@@ -63,7 +63,7 @@ WordPress は初めてだが、他の環境で AJAX を使用した経験があ�
 <!-- 
 There are two major components of any AJAX exchange in WordPress. The client side JavaScript or jQuery and the server side PHP. All AJAX exchanges follow the following sequence of events.
  -->
-WordPress での AJAX 交換には、2つの主要なコンポーネントがあります。クライアント・サイドの JavaScript または jQuery と、サーバー・サイドの PHP です。すべての AJAX 交換は、以下のイベントのシーケンスに従って行われます。
+WordPress での AJAX 交換には、2つの主要なコンポーネントがあります。クライアントサイドの JavaScript または jQuery と、サーバーサイドの PHP です。すべての AJAX 交換は、以下のイベントのシーケンスに従って行われます。
 
 <!-- 
 1. Some sort of page event initiates a JavaScript or jQuery function. That function gathers some data from the page and sends it via a HTTP request to the server. Because handling HTTP requests with JavaScript is awkward and jQuery is bundled into WordPress anyway, we are going to focus only on jQuery code from here on out. AJAX with straight JavaScript is possible, but it's not worth doing it when jQuery is available.
