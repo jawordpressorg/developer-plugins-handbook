@@ -35,7 +35,7 @@ WordPress HTTP API は、Twitter API や Google Maps API のような他の API 
 <!-- 
 HTTP has several methods, or verbs, that describe particular types of actions. Though a couple more exist, WordPress has pre-built functions for three of the most common. Whenever an HTTP request is made a method is also passed with it to help the server determine what kind of action the client is requesting.
  -->
-HTTP には、特定のタイプの操作を表すいくつかのメソッド (あるいは動詞) があります。他にもいくつかありますが、WordPress には最も一般的な3つのメソッドに対応する関数が、あらかじめ組み込まれています。クライアントがどのような操作を要求しているのかをサーバーが判断しやすくするために、HTTP リクエストが行われるたびに、メソッドも一緒に渡されます。
+HTTP には、特定のタイプの操作を表すいくつかのメソッドがあります。他にもいくつかありますが、WordPress には最も一般的な3つのメソッドに対応する関数が、あらかじめ組み込まれています。クライアントがどのような操作を要求しているのかをサーバーが判断しやすくするために、HTTP リクエストが行われるたびに、メソッドも一緒に渡されます。
 
 ### GET
 
