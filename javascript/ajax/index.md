@@ -128,7 +128,7 @@ Each component is explained below.
 <!-- 
 [info]A true nonce needs to be refreshed every time it is used so the next AJAX call has a new, unused nonce to send as verification. As it happens, the WordPress nonce implementation is not a true nonce. The same nonce can be used as many times as necessary in a 24 hour period, unless you logout. Generating a nonce with the same seed phrase will always yield the same number for a 12 hour period after which a new number will finally be generated.
  -->
-[info]真の nonce は、それが使用されるたびにリフレッシュされる必要があるので、次の AJAX 呼び出しは、検証として送信する新しい、未使用の nonce を持っています。たまたま、WordPress の nonce 実装は真の nonce ではありません。同じ nonce は、ログアウトしない限り、24時間以内に何度でも使用できます。同じシードフレーズで nonce を生成すると、12時間の間は常に同じ番号が生成され、その後、最終的に新しい番号が生成されます。
+[info]真の nonce は、それが使用されるたびにリフレッシュされる必要があるので、次の AJAX 呼び出しは、検証として送信する新しい、未使用の nonce を持っています。WordPress の nonce 実装は真の nonce ではありません。同じ nonce は、ログアウトしない限り、24時間以内に何度でも使用できます。同じシードフレーズで nonce を生成すると、12時間の間は常に同じ番号が生成され、その後、最終的に新しい番号が生成されます。
 
 <!-- 
 If your app needs serious security, implement a true nonce system where the server sends a new, fresh nonce in response to an Ajax request for the script to use to verify the next request.[/info]
