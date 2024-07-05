@@ -160,7 +160,7 @@ action: "my_tag_count"
 <!-- 
 Any other data the server needs to do its task is also included in this array. If there are a lot of fields to transmit, there are two common formats to combine data fields into a single string for more convenient transmission, XML and JSON. Using these formats is optional, but whatever you do does need to be coordinated with the PHP script on the server side. More information on these formats is available in the following Callback section. It is more common to receive data in this format than to send it, but it can work both ways.
  -->
-サーバーがタスクを実行するために必要なその他のデータも、この配列に含まれます。送信するフィールドの数が多い場合は、データフィールドをひとつの文字列にまとめて、送信しやすくするためのフォーマットとして、XML および JSON の2つが一般的です。これらのフォーマットを使用するかどうかは任意ですが、使用する場合はサーバーサイドの PHP スクリプトと調整する必要があります。これらのフォーマットについての詳細は、以降のコールバック項を参照ください。このフォーマットでデータを送信するよりも受信するほうが一般的ですが、どちらでも使用できます。
+サーバーがタスクを実行するために必要なその他のデータも、この配列に含まれます。送信するフィールドの数が多い場合は、データフィールドをひとつの文字列にまとめて、送信しやすくするためのフォーマットとして、XML および JSON の2つが一般的です。これらのフォーマットを使用するかどうかは任意ですが、使用する場合はサーバーサイドの PHP スクリプトと調整する必要があります。これらのフォーマットについての詳細は、以降のコールバックのセクションを参照ください。このフォーマットでデータを送信するよりも受信するほうが一般的ですが、どちらでも使用できます。
 
 <!-- 
 In our example, the server only needs one value, a single string for the selected book title, so we will use the key _‘title'_. In jQuery, the object that fired the event is always contained in the variable this. Accordingly, the value of the selected element is this.value. Our declaration of this key-value pair appears like so:
