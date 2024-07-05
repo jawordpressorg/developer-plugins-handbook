@@ -533,7 +533,7 @@ Caching is a practice whereby commonly used objects or objects requiring signifi
 <!-- 
 Why should you cache API responses? Well, the big elephant in the room is because external APIs slow down your site. Many consultants will tell you tapping into external APIs will improve the performance of your website by reducing the amount of connections and processing it performs, as well as costly bandwidth, but sometimes this is simply not true.
  -->
-なぜ API のレスポンスをキャッシュする必要があるのでしょう ? そう、部屋の中の大きな象は、外部 API があなたのサイトを遅くするからです。多くのコンサルタントは、外部 API を利用することで、接続や処理の量を減らし、コストのかかる帯域幅を削減することで、Web サイトのパフォーマンスを向上させることができると言うだろうが、時には真ではありません。
+なぜ API のレスポンスをキャッシュする必要があるのでしょう ? 大きな問題は、外部 API があなたのサイトを遅くすることです。多くのコンサルタントは、外部 API を利用することで、接続や処理の量を減らし、コストのかかる帯域幅を削減することで、Web サイトのパフォーマンスを向上させることができると言うでしょうが、時には真ではありません。
 
 <!-- 
 It is a fine balancing act between the speed your server can send data and the amount of time it takes for the remote server to process a request, build the data, and send it back. The second glaring aspect is that many APIs have a limited number of requests in a time period, and possibly a limit to the number of connections by an application at once. Caching helps solve these dilemmas by placing a copy of the data on your server until it needs to be refreshed.
