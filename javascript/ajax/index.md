@@ -208,7 +208,7 @@ The server response can take on any form. Significant quantities of data should 
 <!-- 
 XML is the old data exchange format for AJAX. It is after all the ‘X' in AJAX. It continues to be a viable exchange format even though it can be difficult to work with using native PHP functions. Many PHP programmers prefer the JSON exchange format for that reason. If you do use XML, the parsing method depends on the browser being used. Use Microsoft.XMLDOM ActiveX for Internet Explorer and use DOMParser for everything else. Note that [Internet Explorer is no longer supported by WordPress](https://make.wordpress.org/core/2021/04/22/ie-11-support-phase-out-plan/) since 5.8 release.
  -->
-XML は、AJAX のための古いデータ交換フォーマットです。つまり、AJAX の「X」です。PHP のネイティブ関数を使うのは難しいかもしれませんが、JSON は今でも有効な交換フォーマットです。そのため、多くの PHP プログラマーは JSON 交換フォーマットを好んでいます。XML を使用する場合、パース方法は使用するブラウザに依存します。Internet Explorer には Microsoft.XMLDOM ActiveX を使い、それ以外には DOMParser を使います。5.8リリース以降、[Internet Explorer は、WordPress では、最早サポートされていない](https://make.wordpress.org/core/2021/04/22/ie-11-support-phase-out-plan/)ことに注意してください。
+XML は、AJAX のための古いデータ交換フォーマットです。つまり、AJAX の「X」です。PHP のネイティブ関数で使うのは難しいかもしれませんが、JSON は今でも有効な交換フォーマットです。そのため、多くの PHP プログラマーは JSON 交換フォーマットを好んでいます。XML を使用する場合、パース方法は使用するブラウザに依存します。Internet Explorer には Microsoft.XMLDOM ActiveX を使い、それ以外には DOMParser を使います。5.8リリース以降、[Internet Explorer は WordPress ではサポートされなくなった](https://make.wordpress.org/core/2021/04/22/ie-11-support-phase-out-plan/)ことに注意してください。
 
 #### JSON
 
