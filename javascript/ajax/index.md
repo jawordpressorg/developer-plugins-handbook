@@ -146,7 +146,7 @@ _ajax_nonce: my_ajax_obj.nonce
 <!-- 
 ### Action
  -->
-### 動作
+### アクション
 
 <!-- 
 All WordPress AJAX requests must include an action argument in the data. This value is an arbitrary string that is used in part to construct an action tag you use to hook your AJAX handler code. It's useful for this value to be a very brief description of the AJAX call's purpose. Unsurprisingly, the key for this value is _‘action'_. In this example, we will use `my_tag_count` as our action value. The declaration of this key-value pair looks like this:
