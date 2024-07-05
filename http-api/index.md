@@ -152,7 +152,7 @@ These are the most common codes you will encounter.
 <!-- 
 [GitHub](https://github.com/) provides an excellent API that does not require app registration for many public aspects, so to demonstrate some of these methods, examples will target the GitHub API.
  -->
-[GitHub](https://github.com/) は、多くのパブリックな側面に対してアプリケーションの登録を必要としない優れた API を提供している。そこで、これらのメソッドのいくつかを示すために、例では GitHub API をターゲットにします。
+[GitHub](https://github.com/) は、多くのパブリックな側面に対してアプリケーションの登録を必要としない優れた API を提供しています。そこで、これらのメソッドのいくつかを示すために、例では GitHub API をターゲットにします。
 
 <!-- 
 GETting data is made incredibly simple in WordPress through the [`wp_remote_get()`](https://developer.wordpress.org/reference/functions/wp_remote_get/) function. This function takes the following two arguments:
