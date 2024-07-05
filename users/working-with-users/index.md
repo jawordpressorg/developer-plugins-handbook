@@ -31,7 +31,7 @@ To add a user you can use `wp_create_user()` or `wp_insert_user()`.
 <!-- 
 [info]It uses [`wp_slash()`](https://developer.wordpress.org/reference/functions/wp_slash/) to escape the values. The PHP compact() function to create an array with these values. The [`wp_insert_user()`](https://developer.wordpress.org/reference/functions/wp_insert_user/) to perform the insert operation.[/info]
  -->
-[info]値をエスケープするには、[`wp_slash()`](https://developer.wordpress.org/reference/functions/wp_slash/) を使用します。PHP の compact () 関数を使用して、これらの値から配列を作成します。[`wp_insert_user()`](https://developer.wordpress.org/reference/functions/wp_insert_user/) は、挿入操作を実行します。[/info]
+[info]値をエスケープするには、[`wp_slash()`](https://developer.wordpress.org/reference/functions/wp_slash/) を使用します。PHP の compact() 関数を使用して、これらの値から配列を作成します。[`wp_insert_user()`](https://developer.wordpress.org/reference/functions/wp_insert_user/) は、挿入操作を実行します。[/info]
 
 <!-- 
 Please refer to the Function Reference about `wp_create_user()` for full explanation about the used parameters.
