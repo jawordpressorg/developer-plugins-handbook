@@ -184,7 +184,7 @@ The callback handler is the function to execute when a response comes back from 
 <!-- 
 In our example, we replace the current text following the radio input with the server response, which includes the number of posts tagged by the book title. Here is our anonymous callback function:
  -->
-この例では、ラジオボタン横の現在のテキストを、本のタイトルでタグ付けされた投稿の数を含むサーバーレスポンスで置き換えています。これが匿名コールバック関数です:
+この例では、ラジオボタン横の現在のテキストを、本のタイトルでタグ付けされた投稿の数を含むサーバーレスポンスで置き換えています。これが無名コールバック関数です:
 
 ```
 function( data ) {
