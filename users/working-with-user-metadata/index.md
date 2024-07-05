@@ -6,7 +6,7 @@
 <!-- 
 ## Introduction
  -->
-## 概要
+## はじめに
 
 <!-- 
 WordPress' `users` table was designed to contain only the essential information about the user.
