@@ -137,7 +137,7 @@ Sequential calls will do nothing.[/alert]
 - Run `update_option('default_role', YOUR_NEW_DEFAULT_ROLE)` since you'll be deleting `subscriber` which is WP's default role.[/info]
  -->
 - 管理者と特権管理者の権限グループを削除することに**反対**することを推奨します !
-- WordPress の将来のアップデートで、これらの権限グループが再び追加される可能性があるので、プラグイン/テーマのコードは必ず保管しておいてください。
+- WordPress の将来のアップデートで、削除した権限グループが再び追加される可能性があるため、プラグイン / テーマのコードは必ず保管しておいてください。
 - WordPress のデフォルト権限グループである `subscriber` を削除するので、`update_option('default_role', YOUR_NEW_DEFAULT_ROLE)` を実行します。[/info]
 
 <!-- 
