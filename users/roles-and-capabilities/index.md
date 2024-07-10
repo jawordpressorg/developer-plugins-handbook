@@ -138,7 +138,7 @@ Sequential calls will do nothing.[/alert]
  -->
 - 管理者と特権管理者の権限グループを削除することに**反対**することを推奨します !
 - WordPress の将来のアップデートで、削除した権限グループが再び追加される可能性があるため、プラグイン / テーマのコードは必ず保管しておいてください。
-- WordPress のデフォルト権限グループである `subscriber` を削除するので、`update_option('default_role', YOUR_NEW_DEFAULT_ROLE)` を実行します。[/info]
+- WordPress のデフォルト権限グループである `subscriber` を削除する場合には、`update_option('default_role', YOUR_NEW_DEFAULT_ROLE)` を実行します。[/info]
 
 <!-- 
 ## Capabilities
