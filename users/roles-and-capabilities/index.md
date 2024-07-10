@@ -304,4 +304,4 @@ current_user_can_for_blog( $blog_id, $capability );
 <!-- 
 Codex Reference for [User Roles and Capabilities](https://wordpress.org/documentation/article/roles-and-capabilities/).
  -->
-[ユーザーの権限グループと権限](https://wordpress.org/documentation/article/roles-and-capabilities/)の Codex レファレンス。
+[ユーザーの権限グループと権限](https://ja.wordpress.org/support/article/roles-and-capabilities/)のドキュメント。
