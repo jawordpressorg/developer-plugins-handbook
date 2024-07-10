@@ -58,7 +58,7 @@ More roles can be added and the default roles can be removed.
 <!-- 
 Add new roles and assign capabilities to them with [`add_role()`](https://developer.wordpress.org/reference/functions/add_role/).
  -->
-新しい権限グループを追加し、[`add_role()`](https://developer.wordpress.org/reference/functions/add_role/) を使用して権限を割り当てます。
+[`add_role()`](https://developer.wordpress.org/reference/functions/add_role/) を使用して、新しい権限グループを追加し、権限を割り当てられます。
 
 ```
 function wporg_simple_role() {
