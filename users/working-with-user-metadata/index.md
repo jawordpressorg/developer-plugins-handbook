@@ -1,7 +1,7 @@
 <!-- 
 # Working with User Metadata 
  -->
-# ユーザー・メタデータの取扱い
+# ユーザー・メタデータの操作
 
 <!-- 
 ## Introduction
