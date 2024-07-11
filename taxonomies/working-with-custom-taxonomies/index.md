@@ -61,7 +61,7 @@ The main advantage of using Custom Taxonomies is that you can reference "Courses
 <!-- 
 In addition, creating Custom Taxonomies allows you to build custom interfaces which will ease the life of your client and make the process of inserting data intuitive to their business nature.
  -->
-さらに、カスタムタクソノミーを作成することで、クライアントの生活を楽にし、データを挿入するプロセスをクライアントのビジネスの性質に合わせて直感的に行うことができるカスタムインターフェースを構築できます。
+さらに、カスタムタクソノミーを作成することで、データを挿入するプロセスをクライアントのビジネスの性質に合わせて直感的に行うことができるカスタムインターフェースを構築し、クライアントの生活を楽にできます。
 
 <!-- 
 Now imagine that these Custom Taxonomies and the interface is implemented inside a plugin; you've just built your own Recipes plugin that can be reused on any WordPress website.
