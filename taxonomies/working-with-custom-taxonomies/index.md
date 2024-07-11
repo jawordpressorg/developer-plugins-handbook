@@ -192,7 +192,7 @@ The `$args` array holds the configuration options that will be used when creatin
 <!-- 
 The function [`register_taxonomy()`](https://developer.wordpress.org/reference/functions/register_taxonomy/) creates a new Taxonomy with the identifier `course` for the `post` Post Type using the `$args` array for configuration.
  -->
-関数 [`register_taxonomy()`](https://developer.wordpress.org/reference/functions/register_taxonomy/) は、設定用の配列 `$args` を使用して、投稿タイプ `post` 用の識別子 `course` を持つ新しいタクソノミーを作成します。
+関数 [`register_taxonomy()`](https://developer.wordpress.org/reference/functions/register_taxonomy/) は、設定用の配列 `$args` を使用して、識別子 `course` を持つ、投稿タイプ `post` 用の新しいタクソノミーを作成します。
 
 <!-- 
 The function [`add_action()`](https://developer.wordpress.org/reference/functions/add_action/) ties the `wporg_register_taxonomy_course` function execution to the `init` action hook.
