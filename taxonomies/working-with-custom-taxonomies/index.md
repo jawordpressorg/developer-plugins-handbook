@@ -46,7 +46,7 @@ Well… let's use an example. Suppose we have a client that is a chef who wants 
 <!-- 
 One way to organize the website might be to create a Custom Post Type called "Recipes" to store her recipes. Then create a Taxonomy "Courses" to separate "Appetizers" from "Desserts", and finally a Taxonomy "Ingredients" to separate "Chicken" from "Chocolate" dishes.
  -->
-Web サイトを編成する一つの方法は、彼女のレシピを格納するために「レシピ」というカスタム投稿タイプを作成することかもしれません。そして、「コース」というタクソノミーを作り、「前菜」と「デザート」を分け、最後に「食材」というタクソノミーを作り、「チキン」と「チョコレート」の料理を分けます。
+Web サイトを編成する一つの方法として、彼女のレシピの格納にカスタム投稿タイプ「レシピ」を作成する方法があります。タクソノミー「コース」を作成して「前菜」と「デザート」を分け、タクソノミー「食材」を作成して「チキン」と「チョコレート」の料理を分けます。
 
 <!-- 
 These groups _could_ be defined using Categories or Tags, you could have a "Courses" Category with Subcategories for "Appetizers" and "Desserts", and an "Ingredients" Category with Subcategories for each ingredient.
