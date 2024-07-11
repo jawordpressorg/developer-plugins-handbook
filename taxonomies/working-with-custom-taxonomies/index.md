@@ -91,7 +91,7 @@ Please make sure to read the [Plugin Basics](https://developer.wordpress.org/plu
 <!-- 
 Go to **Posts > Add New** page. You will notice that you only have Categories and Tags.
  -->
-**投稿 > 新規投稿を追加**ページに移動します。カテゴリーとタグしかないことに気付くでしょう。
+**投稿 > 新規投稿を追加**ページに移動します。まだカテゴリーとタグしかありません。
 
 <!-- 
 ![No Custom Taxonomy Meta Box (Yet)](https://make.wordpress.org/docs/files/2014/02/no-custom-taxonomy-meta-box.png)
