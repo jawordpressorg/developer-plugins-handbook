@@ -26,7 +26,7 @@ To add a user you can use `wp_create_user()` or `wp_insert_user()`.
 <!-- 
 `wp_create_user()` allows you to create a new WordPress user.
  -->
-`wp_create_user()` は新しい WordPress ユーザーを作成できます。
+`wp_create_user()` を使用して新しい WordPress ユーザーを作成できます。
 
 <!-- 
 [info]It uses [`wp_slash()`](https://developer.wordpress.org/reference/functions/wp_slash/) to escape the values. The PHP compact() function to create an array with these values. The [`wp_insert_user()`](https://developer.wordpress.org/reference/functions/wp_insert_user/) to perform the insert operation.[/info]
