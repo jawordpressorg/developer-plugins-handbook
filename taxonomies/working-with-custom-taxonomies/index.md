@@ -36,7 +36,7 @@ WordPress では、開発者が**カスタムタクソノミー**を作成でき
 <!-- 
 You might ask, "Why bother creating a Custom Taxonomy, when I can organize by Categories and Tags?"
  -->
-「カテゴリーやタグで分類できるのに、なぜわざわざカスタムタクソノミーを作成するの ?」と尋ねるかもしれません。
+「カテゴリーやタグで分類できるのに、なぜわざわざカスタムタクソノミーを作成するの ?」と疑問に思うかもしれません。
 
 <!-- 
 Well… let's use an example. Suppose we have a client that is a chef who wants you to create a website where she'll feature original recipes.
