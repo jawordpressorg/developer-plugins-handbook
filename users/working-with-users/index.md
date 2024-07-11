@@ -1,7 +1,7 @@
 <!-- 
 # Working with Users
  -->
-# ユーザーの取扱い
+# ユーザーの操作
 
 <!-- 
 ## Adding Users
