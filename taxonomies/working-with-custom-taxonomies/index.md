@@ -234,7 +234,7 @@ The archive page will be at `/course/` with child pages spawning under it using 
 <!-- 
 WordPress has **many** functions for interacting with your Custom Taxonomy and the Terms within it.
  -->
-WordPress には、カスタムタクソノミーとその中のタームとのインタラクションのための**多くの**機能があります。
+WordPress には、カスタムタクソノミーとその中のタームとのインタラクションのための**多くの**関数があります。
 
 <!-- 
 Here are some examples:
