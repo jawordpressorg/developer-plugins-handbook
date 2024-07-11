@@ -1,7 +1,7 @@
 <!-- 
 # Working with Custom Taxonomies
  -->
-# カスタムタクソノミーの取扱い
+# カスタムタクソノミーの操作
 
 <!-- 
 ## Introduction to Taxonomies
