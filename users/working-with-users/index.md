@@ -130,7 +130,7 @@ if ( ! is_wp_error( $user_id ) ) {
 <!-- 
 To update a single piece of user meta data, use `update_user_meta()` instead. To create a new user, use `wp_insert_user()` instead.
  -->
-1ピースのユーザー・メタデータを更新するには、代わりに `update_user_meta()` を使用します。新しいユーザーを作成するには、代わりに `wp_insert_user()` を使用します。
+単一のユーザー・メタデータを更新するには、代わりに `update_user_meta()` を使用します。新しいユーザーを作成するには、代わりに `wp_insert_user()` を使用します。
 
 <!-- 
 [info]If current user's password is being updated, then the cookies will be cleared![/info]
