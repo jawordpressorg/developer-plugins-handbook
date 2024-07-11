@@ -66,7 +66,7 @@ In addition, creating Custom Taxonomies allows you to build custom interfaces wh
 <!-- 
 Now imagine that these Custom Taxonomies and the interface is implemented inside a plugin; you've just built your own Recipes plugin that can be reused on any WordPress website.
  -->
-これらのカスタムタクソノミーとインターフェイスが、プラグインの中に実装されているとします。どの WordPress サイトでも再利用できる独自のレシピ・プラグインができあがりました。
+ここで、これらのカスタムタクソノミーとインターフェイスが1つのプラグインの中に実装されたとすると、あなたは、どの WordPress サイトでも再利用可能な独自のレシピ・プラグインを作り上げたことになります。
 
 <!-- 
 ## Example: Courses Taxonomy
