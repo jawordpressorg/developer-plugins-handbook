@@ -16,7 +16,7 @@ To add a user you can use `wp_create_user()` or `wp_insert_user()`.
 <!-- 
 `wp_create_user()` creates a user using only the username, password and email parameters while `wp_insert_user()` accepts an array or object describing the user and its properties.
  -->
-`wp_create_user()` はユーザー名、パスワード、メールアドレス、のパラメータのみを使用してユーザーを作成し、`wp_insert_user()` はユーザーとそのプロパティを記述する配列またはオブジェクトを受け取ります。
+`wp_create_user()` はユーザー名、パスワード、メールアドレスのパラメータのみを使用してユーザーを作成します。一方、`wp_insert_user()` はユーザーとそのプロパティを記述する配列またはオブジェクトを受け取ってユーザーを作成します。
 
 <!-- 
 ### Create User
