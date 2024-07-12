@@ -77,7 +77,7 @@ It is important that you prefix your post type functions and identifiers with a 
 <!-- 
 [warning]**To ensure forward compatibility**, do not use `wp_` as your identifier — it is being used by WordPress core.[/warning]
  -->
-[warning]**前方互換性を確保するため、**識別子として `wp_` を使用しないでください — これは WordPress コアで使用されています。[/warning]
+[warning]**前方互換性を確保するため**、識別子として `wp_` を使用しないでください — これは WordPress コアで使用されています。[/warning]
 
 <!-- 
 [warning]If your identifier is too generic (for example: `product`), it may conflict with other plugins or themes that have chosen to use that same identifier.[/warning]
