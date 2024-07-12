@@ -72,7 +72,7 @@ It is important that you prefix your post type functions and identifiers with a 
 <!-- 
 [warning]**Make sure your custom post type identifier does not exceed 20 characters** as the `post_type` column in the database is currently a VARCHAR field of that length.[/warning]
  -->
-[warning]現在のデータベースの VARCHAR 型フィールド、`post_type` カラム長は20ですので、**カスタム投稿タイプの識別子は、20文字を超えないようにしてください。**[/warning]
+[warning]現在のデータベースの VARCHAR 型フィールド、`post_type` のカラム長は20ですので、**カスタム投稿タイプの識別子は、20文字を超えないようにしてください。**[/warning]
 
 <!-- 
 [warning]**To ensure forward compatibility**, do not use `wp_` as your identifier — it is being used by WordPress core.[/warning]
