@@ -6,7 +6,7 @@
 <!-- 
 Here are some best practices to help organize your code so it works well alongside WordPress core and other WordPress plugins.
  -->
-WordPress コアや他の WordPress プラグインとうまく協調して動作するように、コードを編成するのに役立つベスト・プラクティスをいくつか紹介します。
+WordPress コアや他の WordPress プラグインとうまく協調して動作するように、コードを構成するのに役立つベスト・プラクティスをいくつか紹介します。
 
 <!-- 
 ## Avoid Naming Collisions
