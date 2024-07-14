@@ -62,7 +62,7 @@ A good way to do this is with a prefix. For example, if your plugin is called "E
 <!-- 
 [info]Because you are making code as a part of the **WordPress** project, you must avoid the use of prefixes that have a high probability of conflicting with the core WordPress. This includes but is not limited to: `__` (double underscores), `wp_` , `WordPress`, or `_` (single underscore)
  -->
-[info]**WordPress** プロジェクトの一部としてコードを作成するため、WordPress のコアと競合する可能性の高い接頭辞の使用は避けなければなりません。これには右記のものが含まれますが、これらに限定されません: `__` (アンダースコア2つ)、`wp_`、`WordPress`、`_` (アンダースコア1つ)
+[info]**WordPress** プロジェクトの一部となるコードを作成しているため、WordPress のコアと競合する可能性の高い接頭辞の使用は避けなければなりません。これには右記のものが含まれますが、これらに限定されません: `__` (アンダースコア2つ)、`wp_`、`WordPress`、`_` (アンダースコア1つ)
 
 <!-- 
 If you are making code for a 'sub' plugin (such as a WooCommece extension), you would similarly need to avoid using any of their normal/common prefixes (i.e. Woo, WooCommerce).
