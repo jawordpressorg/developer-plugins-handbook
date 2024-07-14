@@ -72,7 +72,7 @@ If you are making code for a 'sub' plugin (such as a WooCommece extension), you 
 <!-- 
 You can use them _inside_ your classes or namespace, but not as stand-alone function/namespace/class.[/info]
  -->
-クラスや名前空間の_内部_で使用できますが、独立した関数/名前空間/クラスとして使用できません。[/info]
+クラスや名前空間の _内部_ であれば使用できますが、独立した関数、名前空間、クラスとしては使用できません。[/info]
 
 <!-- 
 If you're using `_n()` or `__()` for translation, that's fine. We're **only** talking about functions you've created for your plugin, not the core functions from WordPress. In fact, those core features are _why_ you need to not use those prefixes in your own plugin! You wouldn't want to break WordPress for your users.
