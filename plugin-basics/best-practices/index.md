@@ -77,7 +77,7 @@ You can use them _inside_ your classes or namespace, but not as stand-alone func
 <!-- 
 If you're using `_n()` or `__()` for translation, that's fine. We're **only** talking about functions you've created for your plugin, not the core functions from WordPress. In fact, those core features are _why_ you need to not use those prefixes in your own plugin! You wouldn't want to break WordPress for your users.
  -->
-翻訳に `_n()` や `__()` を使っているのであれば、それでかまいません。WordPress のコア機能ではなく、あなたのプラグイン用に作成した関数について**だけ**述べています。実際、これらのコア機能こそが、自分のプラグインでこれらの接頭辞を使わないようにする_理由_なのです ! ユーザーのために WordPress を壊したくはないでしょう。
+翻訳のために `_n()` や `__()` を使うのであれば問題ありません。ここでは WordPress のコア機能ではなく、あなたがプラグイン用に作成する関数について **のみ** 述べています。実際、これらのコア機能こそが、上に紹介した接頭辞をプラグイン内で使わない _理由_ です ! 誰しもユーザーの WordPress を壊したくはないでしょう。
 
 <!-- 
 Remember: Good prefix names are unique and distinct to your plugin. This will help you and the next person in debugging, as well as prevent conflicts.
