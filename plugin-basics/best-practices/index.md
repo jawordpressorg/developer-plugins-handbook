@@ -126,7 +126,7 @@ PHP には、変数や関数、クラス、定数の実在性を検証するた�
 <!-- 
 Keep in mind that using `(!function_exists('NAME')) {` around all your functions and classes sounds like a great idea until you realize the fatal flaw. If something else has a function with the same name and their code loads first, your plugin will break. Using if-exists to replace/override a function or class should be reserved for _shared_ libraries only.
  -->
-すべての関数やクラスで `(!function_exists('NAME')) {` を使うことは、致命的な欠陥に気付くまではすばらしいアイデアのように聞こえることを覚えておいてください。もし同じ名前の関数を他のものが持っていて、そのコードが先に読み込まれた場合、あなたのプラグインは壊れてしまいます。if-exists を使って関数やクラスを置き換えたりオーバーライドしたりするのは、_共有_ライブラリだけにとどめてください。
+すべての関数やクラスで `(!function_exists('NAME')) {` を使うことはすばらしいアイデアに思えるかもしれませんが、致命的な欠点がある点に注意してください。もし他の何かが同じ名前の関数を持ち、そのコードが先に読み込まると、あなたのプラグインは壊れてしまいます。if-exists を使って関数やクラスを置き換えたりオーバーライドしたりするのは、_共有_ ライブラリだけにとどめてください。
 
 <!-- 
 ### Example
