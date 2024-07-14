@@ -82,7 +82,7 @@ If you're using `_n()` or `__()` for translation, that's fine. We're **only** ta
 <!-- 
 Remember: Good prefix names are unique and distinct to your plugin. This will help you and the next person in debugging, as well as prevent conflicts.
  -->
-忘れないでください: 良い接頭辞名とは、あなたのプラグインに固有のものです。これは、あなたや後から参加する人のデバグに役立ちますし、競合を防ぐことにもなります。
+忘れないでください: 良い接頭辞名とは、あなたのプラグインに固有のものです。これは、あなたや後から参加する人のデバッグに役立ちますし、競合を防ぐことにもなります。
 
 <!-- 
 Code that **must** be prefixed includes:
