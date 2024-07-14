@@ -324,7 +324,7 @@ Specific implementations of the more complex of the above code organizations hav
 - [Implementing the MVC Pattern in WordPress Plugins](https://iandunn.name/content/presentations/wp-oop-mvc/mvc.php)
  -->
 - [SLASH – シングルトン、ローダー、アクション、スクリーン、ハンドラー](https://jjj.blog/2012/12/slash-architecture-my-approach-to-building-wordpress-plugins/)
-- [WordPressプラグインにMVCパターンの実装](https://iandunn.name/content/presentations/wp-oop-mvc/mvc.php)
+- [WordPress プラグインでの MVC パターンの実装](https://iandunn.name/content/presentations/wp-oop-mvc/mvc.php)
 
 <!-- 
 ## Boilerplate Starting Points
