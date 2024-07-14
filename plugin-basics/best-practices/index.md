@@ -77,7 +77,7 @@ You can use them _inside_ your classes or namespace, but not as stand-alone func
 <!-- 
 If you're using `_n()` or `__()` for translation, that's fine. We're **only** talking about functions you've created for your plugin, not the core functions from WordPress. In fact, those core features are _why_ you need to not use those prefixes in your own plugin! You wouldn't want to break WordPress for your users.
  -->
-翻訳のために `_n()` や `__()` を使うのであれば問題ありません。ここでは WordPress のコア機能ではなく、あなたがプラグイン用に作成する関数について **のみ** 述べています。実際、これらのコア機能こそが、上に紹介した接頭辞をプラグイン内で使わない _理由_ です ! 誰しもユーザーの WordPress を壊したくはないでしょう。
+翻訳のために `_n()` や `__()` を使うのであれば問題ありません。ここでは WordPress のコア機能ではなく、あなたがプラグイン用に作成する関数について**のみ**述べています。実際、これらのコア機能こそが、上に紹介した接頭辞をプラグイン内で使わない _理由_ です ! 誰しもユーザーの WordPress を壊したくはないでしょう。
 
 <!-- 
 Remember: Good prefix names are unique and distinct to your plugin. This will help you and the next person in debugging, as well as prevent conflicts.
@@ -126,7 +126,7 @@ PHP には、変数や関数、クラス、定数の実在性を検証するた�
 <!-- 
 Keep in mind that using `(!function_exists('NAME')) {` around all your functions and classes sounds like a great idea until you realize the fatal flaw. If something else has a function with the same name and their code loads first, your plugin will break. Using if-exists to replace/override a function or class should be reserved for _shared_ libraries only.
  -->
-すべての関数やクラスで `(!function_exists('NAME')) {` を使うことはすばらしいアイデアに思えるかもしれませんが、致命的な欠点がある点に注意してください。もし他の何かが同じ名前の関数を持ち、そのコードが先に読み込まると、あなたのプラグインは壊れてしまいます。if-exists を使って関数やクラスを置き換えたりオーバーライドしたりするのは、_共有_ ライブラリだけにとどめてください。
+すべての関数やクラスで `(!function_exists('NAME')) {` を使うことはすばらしいアイデアに思えるかもしれませんが、致命的な欠点がある点に注意してください。もし他の何かが同じ名前の関数を持ち、そのコードが先に読み込まれると、あなたのプラグインは壊れてしまいます。if-exists を使って関数やクラスを置き換えたりオーバーライドしたりするのは、_共有_ ライブラリだけにとどめてください。
 
 <!-- 
 ### Example
@@ -329,12 +329,12 @@ Specific implementations of the more complex of the above code organizations hav
 <!-- 
 ## Boilerplate Starting Points
  -->
-## 起点となる定型文
+## 起点となるボイラープレート (ひな型)
 
 <!-- 
 Instead of starting from scratch for each new plugin you write, you may want to start with a **boilerplate**. One advantage of using a boilerplate is to have consistency among your own plugins. Boilerplates also make it easier for other people to contribute to your code if you use a boilerplate they are already familiar with.
  -->
-新しいプラグインを書くたびにゼロから始めるのではなく、**定型文**から始めるとよいでしょう。定型文を使う利点のひとつは、自分のプラグインに一貫性を持たせることです。もしあなたが定型文を使っていれば、定型文を使うことで、他の人はすでに慣れ親しんでいるので、彼らがあなたのコードに貢献しやすくなります。
+新しいプラグインを書くたびにゼロから始めるのではなく、**ボイラープレート**から始めるとよいでしょう。ボイラープレートを使う利点のひとつは、自分のプラグインに一貫性を持たせることです。もしあなたがボイラープレートを使っていれば、ボイラープレートを使うことで、他の人はすでに慣れ親しんでいるので、彼らがあなたのコードに貢献しやすくなります。
 
 <!-- 
 These also serve as further examples of different yet comparable architectures.
@@ -355,4 +355,4 @@ These also serve as further examples of different yet comparable architectures.
 <!-- 
 Of course, you could take different aspects of these and others to create your own custom boilerplate.
  -->
-もちろん、これらや他のものの異なる要素を取り入れて、独自の定型文も作成できます。
+もちろん、これらや他のものの異なる要素を取り入れて、独自のボイラープレートも作成できます。
