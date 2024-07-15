@@ -155,7 +155,7 @@ UPLOADS // (If set, uploads folder, relative to ABSPATH) (for e.g.: /wp-content/
 | 関数 | | ディレクトリ |
 | --- | --- | --- |
 | [`home_url()`](https://developer.wordpress.org/reference/functions/home_url/) | ホームの URL | `https://www.example.com` |
-| [`site_url()`](https://developer.wordpress.org/reference/functions/site_url/) | Site ディレクトリの URL | `https://www.example.com` or `https://www.example.com/wordpress` |
+| [`site_url()`](https://developer.wordpress.org/reference/functions/site_url/) | Site ディレクトリの URL | `https://www.example.com` または `https://www.example.com/wordpress` |
 | [`admin_url()`](https://developer.wordpress.org/reference/functions/admin_url/) | Admin ディレクトリの URL | `https://www.example.com/wp-admin` |
 | [`includes_url()`](https://developer.wordpress.org/reference/functions/includes_url/) | Includes ディレクトリの URL | `https://www.example.com/wp-includes` |
 | [`content_url()`](https://developer.wordpress.org/reference/functions/content_url/) | Content ディレクトリの URL | `https://www.example.com/wp-content` |
