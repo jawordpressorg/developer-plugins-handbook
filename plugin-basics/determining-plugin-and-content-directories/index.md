@@ -160,4 +160,4 @@ UPLOADS // (If set, uploads folder, relative to ABSPATH) (for e.g.: /wp-content/
 | [`includes_url()`](https://developer.wordpress.org/reference/functions/includes_url/) | Includes ディレクトリの URL | `https://www.example.com/wp-includes` |
 | [`content_url()`](https://developer.wordpress.org/reference/functions/content_url/) | Content ディレクトリの URL | `https://www.example.com/wp-content` |
 | [`plugins_url()`](https://developer.wordpress.org/reference/functions/plugins_url/) | Plugins ディレクトリの URL | `https://www.example.com/wp-content/plugins` |
-| [`wp_upload_dir()`](https://developer.wordpress.org/reference/functions/wp_upload_dir/) | Upload ディレクトリの URL (配列を返す) | `https://www.example.com/wp-content/uploads` |
+| [`wp_upload_dir()`](https://developer.wordpress.org/reference/functions/wp_upload_dir/) | Uploads ディレクトリの URL (配列を返す) | `https://www.example.com/wp-content/uploads` |
