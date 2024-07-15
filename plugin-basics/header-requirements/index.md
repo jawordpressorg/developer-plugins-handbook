@@ -35,7 +35,7 @@ Available header fields:
 利用可能なヘッダー項目:
 
 <!-- 
-- **Plugin Name:** (_required_) The name of your plugin, which will be displayed in the Plugins list in the WordPress Admin.
+- **Plugin Name:** (_必須_) The name of your plugin, which will be displayed in the Plugins list in the WordPress Admin.
 - **Plugin URI:** The home page of the plugin, which should be a unique URL, preferably on your own website. This _must be unique_ to your plugin. You cannot use a WordPress.org URL here.
 - **Description:** A short description of the plugin, as displayed in the Plugins section in the WordPress Admin. Keep this description to fewer than 140 characters.
 - **Version:** The current version number of the plugin, such as 1.0 or 1.0.3.
