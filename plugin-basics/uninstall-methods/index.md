@@ -38,7 +38,7 @@ This table illustrates the differences between deactivation and uninstall.
  -->
 | シナリオ | 非アクティブ化フック | アンインストール フック |
 | --- | --- | --- |
-| キャッシュ /Temp を消去する | Yes | No |
+| キャッシュ / Temp を消去する | Yes | No |
 | パーマリンクを消去する | Yes | No |
 | {[$wpdb](https://developer.wordpress.org/reference/classes/wpdb/)→prefix}_options からオプションを削除する | No | Yes |
 | [$wpdb](https://developer.wordpress.org/reference/classes/wpdb/) からテーブルを削除する | No | Yes |
