@@ -35,7 +35,7 @@ Available header fields:
 利用可能なヘッダー項目:
 
 <!-- 
-- **Plugin Name:** (_必須_) The name of your plugin, which will be displayed in the Plugins list in the WordPress Admin.
+- **Plugin Name:** (_required_) The name of your plugin, which will be displayed in the Plugins list in the WordPress Admin.
 - **Plugin URI:** The home page of the plugin, which should be a unique URL, preferably on your own website. This _must be unique_ to your plugin. You cannot use a WordPress.org URL here.
 - **Description:** A short description of the plugin, as displayed in the Plugins section in the WordPress Admin. Keep this description to fewer than 140 characters.
 - **Version:** The current version number of the plugin, such as 1.0 or 1.0.3.
@@ -50,7 +50,7 @@ Available header fields:
 - **Network:** Whether the plugin can only be activated network-wide. Can only be set to _true_, and should be left out when not needed.
 - **Update URI:** **(_Important: never use for a plugin hosted in the WordPress.org Plugin Directory_)** Allows non WordPress.org plugins to avoid accidentally being overwritten with an update of a plugin of a similar name from the WordPress.org Plugin Directory. For more info read related [dev note](https://make.wordpress.org/core/2021/06/29/introducing-update-uri-plugin-header-in-wordpress-5-8/).
  -->
-- **Plugin Name:** (_required_) WordPress 管理画面のプラグインリストに表示される、プラグインの名前です。
+- **Plugin Name:** (_必須_) WordPress 管理画面のプラグインリストに表示される、プラグインの名前です。
 - **Plugin URI:** これはプラグインのホームページであり、できればあなた自身の Web サイトにあるユニークな URL でなければなりません。これはあなたのプラグイン _独自のものでなければなりません_。WordPress.org の URL は使用できません。
 - **Description:** WordPress 管理画面のプラグインセクションに表示される、プラグインの短い説明です。この説明は140文字以内に収めてください。
 - **Version:** 1.0や1.0.3など、プラグインの現在のバージョン番号です。
