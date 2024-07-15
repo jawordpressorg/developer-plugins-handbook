@@ -55,7 +55,7 @@ To load your plugins' JavaScript or CSS into the page you should use [`wp_enqueu
 <!-- 
 WordPress includes many other functions for determining paths and URLs to files or directories within plugins, themes, and WordPress itself. See the individual DevHub pages for each function for complete information on their use.
  -->
-WordPress には、プラグイン、テーマ、WordPress 自体のファイルやディレクトリへのパスや URL を特定するための機能が他にもたくさんあります。各関数の使い方については、それぞれの DevHub ページを参照してください。
+WordPress には、プラグイン、テーマ、WordPress 自体のファイルやディレクトリへのパスや URL を特定するための機能が他にもたくさんあります。各関数の使い方については、それぞれの Developer Resources ページを参照してください。
 
 <!-- 
 ### Plugins
