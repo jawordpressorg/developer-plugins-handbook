@@ -63,7 +63,7 @@ Available header fields:
 - **Text Domain:** プラグインのテキストドメイン [gettext](https://www.gnu.org/software/gettext/) です。詳細は、[プラグインを国際化する方法](https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/)ページの[テキスト・ドメイン](https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/#text-domains)セクションを参照してください。
 - **Domain Path:** ドメインパスによって、WordPress に翻訳の場所を知らせることができます。詳細は、[プラグインを国際化する方法](https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/)ページの[ドメイン・パス](https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/#domain-path)セクションを参照してください。
 - **Network:** プラグインをネットワーク全体でのみ有効にするか否かを指定します。_true_ にしか設定できないので、必要ない場合は設定しないでください。
-- **Update URI:** ** (_重要: WordPress.org Plugin Directory でホストされているプラグインには絶対に使用しないでください。_) **これにより、WordPress.org 以外のプラグインが、WordPress.org Plugin Directory にある似た名前のプラグインのアップデートで誤って上書きされるのを防ぐことができます。詳細は、関連 [dev note](https://make.wordpress.org/core/2021/06/29/introducing-update-uri-plugin-header-in-wordpress-5-8/) を参照してください。
+- **Update URI:** ** (_重要: WordPress.org Plugin Directory でホストされているプラグインには絶対に使用しないでください。_) ** これにより、WordPress.org 以外のプラグインが、WordPress.org Plugin Directory にある似た名前のプラグインのアップデートで誤って上書きされるのを防ぐことができます。詳細は、関連 [dev note](https://make.wordpress.org/core/2021/06/29/introducing-update-uri-plugin-header-in-wordpress-5-8/) を参照してください。
 
 <!-- 
 A valid PHP file with a header comment might look like this:
