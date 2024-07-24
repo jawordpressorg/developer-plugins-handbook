@@ -152,7 +152,7 @@ In the example above:
 - 最初に実行される関数は、優先順位は9ですので、`wporg_callback_run_me_early()` となります。
 - 次は、優先順位が設定されていないので、優先順位は10になる `wporg_callback_run_me_normal()` です。
 - 次が、優先順位が11に手動で設定されている `wporg_callback_run_me_late()` です。
-- 最後に `wporg_callback_run_me_later()` が作動します: これも優先順位は11だが、`wporg_callback_run_me_late()` の後にフックされました。
+- 最後に `wporg_callback_run_me_later()` が作動します: これも優先順位は11ですが、`wporg_callback_run_me_late()` の後にフックされました。
 
 <!-- 
 #### Number of Arguments
