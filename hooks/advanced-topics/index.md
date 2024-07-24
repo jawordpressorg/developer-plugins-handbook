@@ -87,7 +87,7 @@ You can also remove all of the callback functions associated with a hook by usin
 <!-- 
 Sometimes you want to run an Action or a Filter on multiple hooks, but behave differently based on which one is currently calling it.
  -->
-複数のフックに対してアクションやフィルターを作動させたいが、現在のどのフックがそれを呼び出しているかによって動作を変えたいことがあります。
+複数のフックに対してアクションやフィルターを作動させたいが、現在どのフックが呼び出しているかによって動作を変えたいことがあります。
 
 <!-- 
 You can use the `current_action()` / `current_filter()` to determine the current Action / Filter.
