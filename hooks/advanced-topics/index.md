@@ -124,7 +124,7 @@ Some hooks are called multiple times in the course of execution, but you may onl
 <!-- 
 In this situation, you can check how many times the hook has run with the [` did_action()`](https://developer.wordpress.org/reference/functions/did_action/).
  -->
-このような状況だと、フックが何回作動したかを [` did_action()`](https://developer.wordpress.org/reference/functions/did_action/) で確認できます。
+この場合、フックが何回作動したかを [` did_action()`](https://developer.wordpress.org/reference/functions/did_action/) で確認できます。
 
 ```
 function wporg_custom() {
