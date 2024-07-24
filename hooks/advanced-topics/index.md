@@ -1,7 +1,7 @@
 <!-- 
 # Advanced Topics
  -->
-# 上級者向けの話題
+# 高度な話題
 
 <!-- 
 ## Removing Actions and Filters
