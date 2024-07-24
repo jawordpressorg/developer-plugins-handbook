@@ -95,7 +95,7 @@ As you gain more experience, looking through WordPress Core source code will all
 <!-- 
 Many callback functions can be hooked to a single action. The `init` hook for example gets a lot of use. There may be cases where you need to ensure that your callback function runs before or after other callback functions, even when those other functions may not yet have been hooked.
  -->
-多数のコールバック関数を、単一のアクションにフックできます。たとえば、`init` フックはよく使われます。他のコールバック関数がまだフックされていない場合でも、他のコールバック関数の前か後に、コールバック関数が実行されるようにする必要がある場合があります。
+多数のコールバック関数を、単一のアクションにフックできます。たとえば、`init` フックはよく使われます。このとき他のコールバック関数の前、または後、ときには他のコールバック関数がまだフックされていないタイミングで、コールバック関数の実行を保証したい場合があります。
 
 <!-- 
 WordPress determines the order that callback functions are run based on two things: The first way is by manually setting the _priority_. This is done using the third argument to `add_action()`.
