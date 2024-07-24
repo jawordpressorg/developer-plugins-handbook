@@ -138,4 +138,4 @@ Note that filters take data, modify it, and return it. So the code called ( `myp
 <!-- 
 Also note that since no priority is given, it will run at default priority 10. And since there is no value for the number of parameters expected, the default of one is assumed.
  -->
-また、優先順位が与えられていないので、デフォルトの優先順位10で作動されることにも注意してください。また、予想されるパラメータの数の値がないので、デフォルトの1つと仮定されます。
+また、優先順位が与えられていないため、デフォルトの優先順位10で動作する点にも注意してください。また、パラメータの数の値が指定されていないため、デフォルトの1が仮定されます。
