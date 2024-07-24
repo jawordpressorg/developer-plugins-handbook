@@ -3,8 +3,26 @@
  -->
 # ヘルパー・プラグイン
 
-<!-- 
- -->
+## Plugin Check
+
+<!--
+Plugin Check is a tool for testing whether your plugin meets the required standards for the WordPress.org plugin directory. With this plugin you will be able to run most of the checks used for new submissions, and check if your plugin meets the requirements.
+-->
+
+Plugin Check は、プラグインが WordPress.org プラグインディレクトリの必須基準を満たしているかどうかをテストするためのツールです。このプラグインを使用すると、新しい提出に使用されるほとんどのチェックを実行し、プラグインが要件を満たしているかどうかを確認できます。
+
+<!--
+Additionally, the tool flags violations or concerns around plugin development best practices, from basic requirements like correct usage of internationalization functions to accessibility, performance, and security best practices.
+-->
+
+さらにこのツールは、国際化機能の正しい使用法などの基本要件から、アクセシビリティ、パフォーマンス、セキュリティのベストプラクティスまで、プラグイン開発のベストプラクティスに関する違反や懸念事項をフラグ付けします。
+
+<!--
+[Visit Plugin Check](https://wordpress.org/plugins/plugin-check/)
+-->
+
+[Plugin Check を見る](https://wordpress.org/plugins/plugin-check/)
+
 ## Query Monitor
 
 <!-- 
