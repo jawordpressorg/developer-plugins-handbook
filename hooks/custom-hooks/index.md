@@ -6,7 +6,7 @@
 <!-- 
 An important, but often overlooked practice is using custom hooks in your plugin so that other developers can extend and modify it.
  -->
-重要だが見落とされがちな行動は、プラグインにカスタムフックを使うことで、他の開発者がプラグインを拡張したり修正したりできるようにすることです。
+重要ですが、見落とされがちな特徴として、プラグイン内でカスタムフックを使用すると、他の開発者がプラグインを拡張し、修正できます。
 
 <!-- 
 Custom hooks are created and called in the same way that WordPress Core hooks are.
