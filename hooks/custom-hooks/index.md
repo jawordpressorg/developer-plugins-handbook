@@ -56,7 +56,7 @@ Naming conflicts ("collisions") occur when two developers use the same hook name
 <!-- 
 For example, a filter named `email_body` is generic enough that two or more developers could use this hook in different plugins for different purposes. So to avoid this, a prefix is added. For example, functions used as examples in this handbook use `wporg_` as the prefix.
  -->
-たとえば、`email_body` という名前のフィルターは、2人以上の複数の開発者が異なるプラグインで異なる目的のためにこのフックを使うことができるほど汎用的です。そのため、これを避けるために接頭辞を付けます。たとえば、このハンドブックで例として使われている関数は、接頭辞として `wporg_` を使っています。
+たとえば、フィルター名 `email_body` はありきたり過ぎて、2人以上の複数の開発者が異なるプラグイン内で異なる目的のために使用する可能性があります。これを避けるために接頭辞を付けます。たとえば、このハンドブックで例として使われている関数は、接頭辞に `wporg_` を使用します。
 
 <!-- 
 When you choose your prefix, you can use your company name, your wp handle, the plugin name, anything you like really. The goal is to make it unique so choose wisely.
