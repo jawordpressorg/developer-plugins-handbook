@@ -112,7 +112,7 @@ Here are some important facts about priorities:
 - the default priority (meaning, the priority assigned when no `priority` value is manually supplied) is 10
 - there is no theoretical upper limit on the priority value, but the realistic upper limit is 100
  -->
-- 優先度は、正の整数で、通常はゼロから20の間です。
+- 優先度は、正の整数で、通常は1から20の間です。
 - (手動で `priority` 値を指定しなかった場合に割り当てられる) デフォルトの優先度は10です。
 - 優先度の理論的な上限はないが、現実的な上限は100です。
 
