@@ -119,7 +119,7 @@ Here are some important facts about priorities:
 <!-- 
 A function with a priority of 11 will run _after_ a function with a priority of 10; and a function with a priority of 9 will run _before_ a function with a priority of 10.
  -->
-優先度11の関数は、優先度10の関数の _後_ に実行され、優先度9の関数は、優先度10の関数の _前_ に実行されます; 優先度9の関数は、優先度10の関数の_前_ に実行されます。
+優先度11の関数は、優先度10の関数の _後_ に実行され、優先度9の関数は、優先度10の関数の _前_ に実行されます。
 
 <!-- 
 The second way that callback function order is determined is simply by the order in which it was registered _within the same priority value_. So if two callback functions are registered for the same hook with the same priority, they will be run in the order that they were registered to the hook.
