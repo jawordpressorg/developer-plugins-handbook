@@ -21,12 +21,12 @@ When your plugin is uninstalled, you'll want to clear out any plugin options and
 <!-- 
 Less experienced developers sometimes make the mistake of using the deactivation hook for this purpose.
  -->
-経験の浅い開発者は、この目的で非アクティブ化フックを使うという間違いを犯すことがあります。
+経験の浅い開発者は、この目的で無効化フックを使うという間違いを犯すことがあります。
 
 <!-- 
 This table illustrates the differences between deactivation and uninstall.
  -->
-この表は、非アクティブ化とアンインストールの違いを示しています。
+この表は、無効化とアンインストールの違いを示しています。
 
 <!-- 
 | Scenario | Deactivation Hook | Uninstall Hook |
@@ -36,7 +36,7 @@ This table illustrates the differences between deactivation and uninstall.
 | Remove Options from {[$wpdb](https://developer.wordpress.org/reference/classes/wpdb/)→prefix}_options | No | Yes |
 | Remove Tables from [$wpdb](https://developer.wordpress.org/reference/classes/wpdb/) | No | Yes |
  -->
-| シナリオ | 非アクティブ化フック | アンインストール フック |
+| シナリオ | 無効化フック | アンインストール フック |
 | --- | --- | --- |
 | キャッシュ / Temp を消去する | Yes | No |
 | パーマリンクを消去する | Yes | No |
