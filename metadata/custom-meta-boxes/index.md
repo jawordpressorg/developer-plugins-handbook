@@ -99,7 +99,7 @@ function wporg_custom_box_html( $post ) {
 <!-- 
 [info]**Note there are no submit buttons in meta boxes.** The meta box HTML is included inside the edit screen's form tags, all the post data including meta box values are transfered via `POST` when the user clicks on the Publish or Update buttons.[/info]
  -->
-[info]**メタボックスには、送信ボタンがないことに注意してください。**メタボックスの HTML は編集画面のフォームタグの中に含まれ、ユーザーが公開または更新ボタンをクリックすると、メタボックスの値を含むすべての投稿データが `POST` 経由で転送されます。[/info]
+[info]**メタボックスには、送信ボタンがないことに注意してください。** メタボックスの HTML は編集画面のフォームタグの中に含まれ、ユーザーが公開または更新ボタンをクリックすると、メタボックスの値を含むすべての投稿データが `POST` 経由で転送されます。[/info]
 
 <!-- 
 The example shown here only contains one form field, a drop down list. You may create as many as needed in any particular meta box. If you have a lot of fields to display, consider using multiple meta boxes, grouping similar fields together in each meta box. This helps keep the page more organized and visually appealing.
