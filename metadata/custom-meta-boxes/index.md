@@ -394,7 +394,7 @@ WordPress の AJAX ファイルの URL は、次のステップで作成する J
 <!-- 
 **Available only in the WordPress Administration.** Make sure it is not empty before performing any logic.[/info]
  -->
-**WordPress の管理画面でのみ利用可能です。**ロジックを実行する前に、空でないことを確認してください。[/info]
+**WordPress の管理画面でのみ利用可能です。** ロジックを実行する前に、空でないことを確認してください。[/info]
 
 <!-- 
 #### Enqueue Client Side Code
