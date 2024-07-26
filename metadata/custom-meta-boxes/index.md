@@ -104,7 +104,7 @@ function wporg_custom_box_html( $post ) {
 <!-- 
 The example shown here only contains one form field, a drop down list. You may create as many as needed in any particular meta box. If you have a lot of fields to display, consider using multiple meta boxes, grouping similar fields together in each meta box. This helps keep the page more organized and visually appealing.
  -->
-ここに示した例では、フォーム・フィールドはドロップダウン・リスト1つだけです。特定のメタボックスに必要な数だけ、作成できます。表示するフィールドの数が多い場合は、複数のメタボックスを使用し、各メタボックスで類似のフィールドをグループ化することを検討してください。これはページを、より整理されたものし続けるのに、そして、視覚的によりアピールし続けるのに、役立ちます。
+ここに示した例には、1つのフォームフィールド、1つのドロップダウンリストしかありません。メタボックスには必要な数だけフィールドを作成できます。大量の表示フィールドがある場合は、複数のメタボックスを使用し、各メタボックスで類似のフィールドをグループ化することを検討してください。ページはより整理され、より視覚的にアピールできます。
 
 <!-- 
 ### Getting Values
