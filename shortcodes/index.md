@@ -94,7 +94,7 @@ Best practices for developing shortcodes include the [plugin development best pr
 <!-- 
 See the complete example of using a [basic shortcode structure, taking care of self-closing and enclosing scenarios, shortcodes within shortcodes and securing output](https://developer.wordpress.org/plugins/shortcodes/shortcodes-with-parameters/#complete-example).
  -->
-[基本的なショートコードの構造、自己クローズとエンクローズ・シナリオの取り扱い、入れ子状態のショートコード、出力の安全確保](https://developer.wordpress.org/plugins/shortcodes/shortcodes-with-parameters/#complete-example)を使用する完全な例を参照してください。
+[基本的なショートコードの構造、自己完結型と包含型シナリオの取り扱い、入れ子状態のショートコード、出力の安全確保](https://developer.wordpress.org/plugins/shortcodes/shortcodes-with-parameters/#complete-example)を使用する完全な例を参照してください。
 
 <!-- 
 ## External Resources
