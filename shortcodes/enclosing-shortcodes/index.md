@@ -1,7 +1,7 @@
 <!-- 
 # Enclosing Shortcodes
  -->
-# ショートコードのエンクロージング
+# ショートコードの包含
 
 <!-- 
 The are two scenarios for using shortcodes:
