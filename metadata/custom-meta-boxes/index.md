@@ -148,7 +148,7 @@ More on the [`selected()`](https://developer.wordpress.org/reference/functions/s
 <!-- 
 When a post type is saved or updated, several actions fire, any of which might be appropriate to hook into in order to save the entered values. In this example we use the `save_post` action hook but other hooks may be more appropriate for certain situations. Be aware that `save_post` may fire more than once for a single update event. Structure your approach to saving data accordingly.
  -->
-投稿タイプが保存または更新されると、いくつかのアクションが発生し、入力された値を保存するためにそのどれかにフックするのが適切かもしれません。この例では `save_post` アクションフックを使用していますが、状況によっては他のフックの方が適切かもしれません。一つの更新イベントに対して複数回 `save_post` が発生する可能性があることに注意してください。それに応じて、データを保存する方法を構築します。
+投稿タイプが保存または更新されると、いくつかのアクションが発生します。入力された値を保存するには、そのどれかにフックするのが適切でしょう。この例では `save_post` アクションフックを使用していますが、状況によっては他のフックの方が適切かもしれません。一つの更新イベントに対して複数回 `save_post` が発生する可能性があることに注意してください。こうした条件を念頭に、データを保存する方法を構築してください。
 
 <!-- 
 You may save the entered data anywhere you want, even outside WordPress. Since you are probably dealing with data related to the post, the `postmeta` table is often a good place to store data.
