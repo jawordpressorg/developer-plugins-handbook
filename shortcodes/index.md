@@ -63,7 +63,7 @@ By default, WordPress includes the following shortcodes:
 - `[audio]` – 音声ファイルを埋め込んで再生できます。
 - `[video]` – 動画ファイルを埋め込んで再生できます。
 - `[playlist]` – オーディオファイルやビデオファイルのコレクションを表示できます。
-- `[embed]` – 埋め込まれたアイテムを回り込ませることができます。
+- `[embed]` – 埋め込み項目をラップできます。
 
 <!-- 
 ## Shortcode Best Practices
