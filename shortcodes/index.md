@@ -26,7 +26,7 @@ Shortcodes are a valuable way of keeping content clean and semantic while allowi
 <!-- 
 When the end user adds a photo gallery to their post using a shortcode, they’re using the least data possible to indicate how the gallery should be presented.
  -->
-エンドユーザーがショートコードを使用してフォトギャラリーを投稿に追加する場合、ギャラリーの表示方法を示すために、可能な限り最小限のデータを使用しています。
+エンドユーザーがショートコードを使用してフォトギャラリーを投稿に追加する場合、可能な限り最小限のデータを使用して、ギャラリーの表示方法を指示できます。
 
 <!-- 
 Advantages:
