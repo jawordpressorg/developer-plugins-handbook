@@ -26,7 +26,7 @@ The `meta_value` can be a string, integer, or an array. If it's an array, it wil
 <!-- 
 The `unique` flag allows you to declare whether this key should be unique. A **non** unique key is something a post can have multiple variations of, like price.
  -->
-`unique` フラグにより、このキーがユニーク (一意) であるか否かを宣言できます。**非**ユニークキーとは、価格のように複数のバリエーションを持つことができるキーのことです。
+`unique` フラグにより、このキーがユニーク (一意) であるか否かを宣言できます。**非**ユニークキーとは、価格のように、投稿が複数のバリエーションを持つことができるキーのことです。
 
 <!-- 
 If you only ever want **one** price for a post, you should flag it `unique` and the `meta_key` will have one value only.
