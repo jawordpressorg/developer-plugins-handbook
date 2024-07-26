@@ -56,7 +56,7 @@ add_shortcode( 'wporg', 'wporg_shortcode' );
 <!-- 
 Looking at the callback function we see that we chose to accept two parameters, `$atts` and `$content`. The `$content` parameter is going to hold our enclosed content. We will talk about `$atts` later.
  -->
-コールバック関数を見ると、`$atts` と `$content` の2つのパラメータを受け取るようにしたことがわかります。`$content` パラメータは、包含した内容を保持します。`$atts` については後で説明します。
+コールバック関数を見ると、`$atts` と `$content` の2つのパラメータを受け取るようにしたことがわかります。パラメータ `$content` は、包含した内容を保持します。`$atts` については後で説明します。
 
 <!-- 
 The default value of `$content` is set to `null` so we can differentiate between a self-closing tag and enclosing tags by using PHP function [`is_null()`](https://www.php.net/manual/en/function.is-null.php).
@@ -78,12 +78,12 @@ The shortcode `[$tag]`, including its content and the end `[/$tag]` will be repl
 <!-- 
 The shortcode parser performs a **single pass** on the content of the post.
  -->
-ショートコードのパーサーは、投稿のコンテンツに対して **シングルパス** を実行します。
+ショートコード・パーサーは、投稿のコンテンツに対して **シングルパス** を実行します。
 
 <!-- 
 This means that if the `$content` parameter of a shortcode handler contains another shortcode, it won’t be parsed. In this example, `[shortcode]` will not be processed:
  -->
-つまり、ショートコードハンドラの `$content` パラメータに、別のショートコードが含まれている場合、そのショートコードは解析されません。この例では、`[shortcode]` は、処理されません:
+つまり、ショートコード・ハンドラの `$content` パラメータに、別のショートコードが含まれている場合、そのショートコードは解析されません。この例では、`[shortcode]` は、処理されません:
 
 ```
 [wporg]another [shortcode] is included[/wporg]
