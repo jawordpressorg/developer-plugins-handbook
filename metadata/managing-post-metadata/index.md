@@ -11,7 +11,7 @@
 <!-- 
 Adding metadata can be done quite easily with [`add_post_meta()`](https://developer.wordpress.org/reference/functions/add_post_meta/). The function accepts a `post_id`, a `meta_key`, a `meta_value`, and a `unique` flag.
  -->
-メタデータの追加は、[`add_post_meta()`](https://developer.wordpress.org/reference/functions/add_post_meta/) で簡単に行うことができます。この関数は `post_id` フラグ、`meta_key` フラグ、`meta_value` フラグ、`unique` フラグを受け付けます。
+メタデータの追加は、[`add_post_meta()`](https://developer.wordpress.org/reference/functions/add_post_meta/) で簡単に行うことができます。この関数は `post_id`、`meta_key`、`meta_value`、そして `unique` フラグを受け付けます。
 
 <!-- 
 The `meta_key` is how your plugin will reference the meta value elsewhere in your code. Something like `mycrazymetakeyname` would work, however a prefix related to your plugin or theme followed by a description of the key would be more useful. `wporg_featured_menu` might be a good one. It should be noted that the same `meta_key` may be used multiple times to store variations of the metadata (see the unique flag below).
