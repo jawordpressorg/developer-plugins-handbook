@@ -73,7 +73,10 @@ The shortcode `[$tag]`, including its content and the end `[/$tag]` will be repl
  -->
 [alert][出力の安全確保](https://developer.wordpress.org/plugins/security/securing-output/)は、ハンドラ関数の責任です。[/alert]
 
+<!-- 
 ## Shortcode-ception
+ -->
+## 入れ子状態のショートコード
 
 <!-- 
 The shortcode parser performs a **single pass** on the content of the post.
