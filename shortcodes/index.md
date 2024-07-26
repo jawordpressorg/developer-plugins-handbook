@@ -43,7 +43,7 @@ Advantages:
 <!-- 
 ## Built-in Shortcodes
  -->
-## 内蔵ショートコード
+## 組み込みのショートコード
 
 <!-- 
 By default, WordPress includes the following shortcodes:
