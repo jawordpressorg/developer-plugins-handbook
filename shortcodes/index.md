@@ -58,12 +58,12 @@ By default, WordPress includes the following shortcodes:
 - `[playlist]` – allows you to display collection of audio or video files
 - `[embed]` – allows you to wrap embedded items
  -->
-- `[caption]` – コンテンツのキャプションをラップできます。
+- `[caption]` – コンテンツのキャプションをラップ (回り込み) できます。
 - `[gallery]` – 画像ギャラリーを表示できます。
 - `[audio]` – 音声ファイルを埋め込んで再生できます。
 - `[video]` – 動画ファイルを埋め込んで再生できます。
 - `[playlist]` – オーディオファイルやビデオファイルのコレクションを表示できます。
-- `[embed]` – 埋め込み項目をラップできます。
+- `[embed]` – 埋め込み項目をラップ (回り込み) できます。
 
 <!-- 
 ## Shortcode Best Practices
