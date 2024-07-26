@@ -121,7 +121,7 @@ This can be useful in order to show these custom fields in an unusual way by usi
 <!-- 
 The example below will add a unique custom field with the `meta_key` name '_color' and the `meta_value` of 'red' but this custom field will not display in the post edit screen:
  -->
-以下の例では、`meta_key` の名前 '_color' と 'red' の `meta_value` が、ユニークなカスタムフィールドが追加されますが、このカスタムフィールドは投稿編集画面には表示されません:
+以下の例では、`meta_key` の名前が '_color'、`meta_value` が 'red' のユニークなカスタムフィールドが追加されますが、このカスタムフィールドは投稿編集画面には表示されません:
 
 ```
 add_post_meta( 68, '_color', 'red', true );
