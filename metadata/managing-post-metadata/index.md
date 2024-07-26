@@ -31,7 +31,7 @@ The `unique` flag allows you to declare whether this key should be unique. A **n
 <!-- 
 If you only ever want **one** price for a post, you should flag it `unique` and the `meta_key` will have one value only.
  -->
-投稿の価格を**1つ**だけにしたい場合は、`unique` フラグを立て、`meta_key` の値は1つだけ保持できるようにします。
+投稿には価格を**1つ**だけ持たせたい場合は、`unique` フラグを立て、`meta_key` の値は1つだけ保持できるようにします。
 
 <!-- 
 ## Updating Metadata
