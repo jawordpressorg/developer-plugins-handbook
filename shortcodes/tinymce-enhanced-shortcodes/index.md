@@ -26,7 +26,7 @@ Below are the built-in WordPress shortcodes that use this functionality.
 <!-- 
 The `[audio]` shortcode allows you to embed a single audio file.
  -->
-ショートコード `[audio]` では、1つのオーディオファイルを埋め込むことができます。
+ショートコード `[audio]` は、1つの音声ファイルを埋め込むことができます。
 
 <!-- 
 ![The audio shortcode](https://i3.wp.com/developer.wordpress.org/files/2014/09/shortcodes-tinymce-enhanced-shortcodes-01.png)
