@@ -53,7 +53,7 @@ remove_shortcode(
 <!-- 
 Make sure that the shortcode have been registered before attempting to remove. Specify a higher priority number for [`add_action()`](https://developer.wordpress.org/reference/functions/add_action/) or hook into an action hook that is run later.
  -->
-削除する前に、ショートコードが登録されていることを確認してください。[`add_action()`](https://developer.wordpress.org/reference/functions/add_action/) に高い優先順位を指定するか、後で実行されるアクションフックにフックしてください。
+削除する前に、ショートコードが登録されていることを確認してください。[`add_action()`](https://developer.wordpress.org/reference/functions/add_action/) に優先順で大きな数字を指定するか、後で実行されるアクションフックにフックしてください。
 
 <!-- 
 ## Check if a Shortcode Exists
