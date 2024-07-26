@@ -158,7 +158,7 @@ You may save the entered data anywhere you want, even outside WordPress. Since y
 <!-- 
 The following example will save the `wporg_field` field value in the `_wporg_meta_key` meta key, which is hidden.
  -->
-次の例は、`wporg_field` フィールドの値を、非表示の `_wporg_meta_key` メタ・キーに保存します。
+次の例は、非表示の `_wporg_meta_key` メタキーの `wporg_field` フィールドの値を保存します。
 
 ```
 function wporg_save_postdata( $post_id ) {
