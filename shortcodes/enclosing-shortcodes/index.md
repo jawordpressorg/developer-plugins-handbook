@@ -13,7 +13,7 @@ The are two scenarios for using shortcodes:
 - The shortcode is enclosing content.
  -->
 - ショートコードは、[基本のショートコード](https://developer.wordpress.org/plugins/shortcodes/basic-shortcodes/)のセクションで見たように、自己完結型のタグです。
-- ショートコードは、コンテンツを包含しています。
+- ショートコードは、コンテンツを包含するタグ。
 
 <!-- 
 ## Enclosing Content
