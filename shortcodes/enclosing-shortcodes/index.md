@@ -6,7 +6,7 @@
 <!-- 
 The are two scenarios for using shortcodes:
  -->
-ショートコードを使用するシナリオは、2つあります:
+ショートコードを使用するシナリオには2種類あります:
 
 <!-- 
 - The shortcode is a self-closing tag like we seen in the [Basic Shortcodes](https://developer.wordpress.org/plugins/shortcodes/basic-shortcodes/) section.
