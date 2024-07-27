@@ -125,4 +125,4 @@ The shortcode parser is unable to handle mixing of enclosing and non-enclosing f
 <!-- 
 Instead of being treated as two shortcodes separated by the text "`non-enclosed content`", the parser treats this as a single shortcode enclosing "`non-enclosed content [wporg]enclosed content`".
  -->
-パーサーは、「`non-enclosed content`」というテキストで区切られた2つのショートコードとして扱われる代わりに、これを「`non-enclosed content [wporg]enclosed content`」を包含する1つのショートコードとして扱います。
+パーサーは、「`non-enclosed content`」というテキストで区切られた2つのショートコードとして扱う代わりに、これを「`non-enclosed content [wporg]enclosed content`」を包含する1つのショートコードとして扱います。
