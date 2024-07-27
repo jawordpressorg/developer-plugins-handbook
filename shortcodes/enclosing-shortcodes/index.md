@@ -12,7 +12,7 @@ The are two scenarios for using shortcodes:
 - The shortcode is a self-closing tag like we seen in the [Basic Shortcodes](https://developer.wordpress.org/plugins/shortcodes/basic-shortcodes/) section.
 - The shortcode is enclosing content.
  -->
-- ショーココードは、[基本のショートコード](https://developer.wordpress.org/plugins/shortcodes/basic-shortcodes/)のセクションで見たような、自己完結型のタグ。
+- ショートコードは、[基本のショートコード](https://developer.wordpress.org/plugins/shortcodes/basic-shortcodes/)のセクションで見たような、自己完結型のタグ。
 - ショートコードは、コンテンツを包含するタグ。
 
 <!-- 
