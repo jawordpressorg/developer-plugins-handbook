@@ -6,7 +6,7 @@
 <!-- 
 The privacy tools were originally introduced in WordPress 4.9.6. These tools are designed to allow (and encourage) developers to use them as part of the Privacy Exporter, Privacy Eraser and the Privacy Policy Guide.
  -->
-プライバシー・ツールはもともと WordPress 4.9.6で導入されました。これらのツールは、Privacy Exporter、Privacy Eraser、Privacy Policy Guide の一部として開発者が使用できるように設計され (そして、使用を奨励し) ています。
+プライバシー・ツールはもともと WordPress 4.9.6で導入されました。これらのツールは、Privacy Exporter、Privacy Eraser、プライバシー・ポリシーガイドの一部として開発者が使用できるように設計され (そして、使用を奨励し) ています。
 
 <!-- 
 Since then, several newer hooks have been introduced to expand on the available capabilities. These hooks allow developers to include additional personal data in export and erasure requests, and introduce suggested content for the privacy policy guide.
