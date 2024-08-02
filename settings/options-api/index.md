@@ -74,7 +74,7 @@ If you are working with a large number of related options, storing them as an ar
 <!-- 
 [info]Accessing data as individual options may result in many individual database transactions, and as a rule, database transactions are expensive operations (in terms of time and server resources). When you store or retrieve an array of options, it happens in a single transaction, which is ideal.[/info]
  -->
-[info]個別のオプションとしてデータにアクセスすると、多くの個別のデータベース・トランザクションが発生する可能性があり、原則として、データベース・トランザクションは (時間とサーバー・リソースの点で) 高コストな操作です。オプションの配列を格納したり取得したりする場合は、単一のトランザクションで行われ、これは理想的です。[/info]
+[info]個別のオプションとしてデータにアクセスすると、多くの個別のデータベース・トランザクションが発生する可能性があります。一般にデータベース・トランザクションは (時間とサーバー・リソースの点で) 高コストな操作です。オプションを配列で格納したり取得したりすると、単一のトランザクションで行われるため、理想的です。[/info]
 
 <!-- 
 ## Function Reference
