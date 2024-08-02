@@ -11,7 +11,6 @@ WordPress 4.9.6では、欧州連合 (EU) の一般データ保護規則 (Genera
 <!-- 
 In addition to the personal data stored in things like WordPress comments, plugins can also hook into the eraser feature to erase the personal data they collect, whether it be in something like postmeta or even an entirely new Custom Post Type (CPT).
  -->
-WordPress のコメントのようなものに保存されている個人データに加え、プラグインもまた、postmeta のようなもの、あるいはまったく新しいカスタム投稿タイプ (CPT) のようなものであろうと、収集した個人データを消去するためにイレーザー機能にフックできます。
 WordPress のコメントなどに保存された個人データに加えて、プラグインもまたイレーザー機能にフックして、自身が収集した個人データ - 投稿メタから、まったく新規のカスタム投稿タイプさえも - を消去できます。
 
 <!-- 
