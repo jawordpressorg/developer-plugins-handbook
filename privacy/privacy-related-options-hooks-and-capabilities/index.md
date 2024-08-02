@@ -139,5 +139,5 @@ Access to the privacy tools is controlled by a few new capabilities. Administrat
 - `manage_privacy_options` – determines if the Privacy sub-menu is available under Settings.
  -->
 - `erase_others_personal_data` – Tools の下でサブメニュー「個人データの消去」が利用可能かどうかを決定します。
-- `export_others_personal_data` – Tools の下でサブメニュー Export Personal Data が利用可能かどうかを決定します。
+- `export_others_personal_data` – Tools の下でサブメニュー「個人データのエクスポート」が利用可能かどうかを決定します。
 - `manage_privacy_options` – Settings の下でサブメニュー Privacy が利用可能かどうかを決定します。
