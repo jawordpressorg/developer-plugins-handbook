@@ -1,14 +1,32 @@
+<!-- 
 # Custom Settings Page
+ -->
+# カスタム設定ページ
 
+<!-- 
 Creating a custom settings page includes the combination of: [creating an administration menu](https://developer.wordpress.org/plugins/administration-menus/), [using Settings API](https://developer.wordpress.org/plugins/settings/using-settings-api/), and [Options API](https://developer.wordpress.org/plugins/settings/options-api/).
+ -->
+カスタム設定ページの作成には、以下の組み合わせがあります: [管理メニューの作成](https://developer.wordpress.org/plugins/administration-menus/)、[設定 API の使用](https://developer.wordpress.org/plugins/settings/using-settings-api/)、[オプション API](https://developer.wordpress.org/plugins/settings/options-api/)。
 
+<!-- 
 [alert]Please read these chapters before attempting to create your own settings page.[/alert]
+ -->
+[alert]独自の設定ページを作成しようとする前に、これらの章をお読みください。[/alert]
 
+<!-- 
 The example below can be used for quick reference on these topics by following the comments.
+ -->
+以下の例は、コメントに従ってこれらのトピックを、クイック・リファレンスとして使用できます。
 
+<!-- 
 ## Complete Example
+ -->
+## 完全な例
 
+<!-- 
 Complete example which adds a Top-Level Menu named `WPOrg`, registers a custom option named `wporg_options` and performs the CRUD (create, read, update, delete) logic using Settings API and Options API (including showing error/update messages).
+ -->
+`WPOrg` という名前のトップレベルメニューを追加し、`wporg_options` という名前のカスタムオプションを登録し、設定 API とオプション API を使用して CRUD (作成、読み込み、更新、削除) ロジックを実行する、完全な例です (エラー/更新メッセージの表示を含む)。
 
 ```
 /**
