@@ -21,7 +21,7 @@ However, since assembling a personal data export could be an intensive process a
 <!-- 
 Once a request has been confirmed, the admin can generate and download or directly email the personal data export ZIP file for the user, or do the export anyways if the need arises. Inside the ZIP file the user receives, they will find a "mini website" with an index HTML page containing their personal data organized in groups (e.g. a group for comments, etc. )
  -->
-リクエストが確認されると、管理者はユーザーの個人データ書き出し ZIP ファイルを生成してダウンロードするか、直接メールで送信するか、または、必要に応じていずれにせよ書き出しを行うことができます。ユーザーが受け取る ZIP ファイルの中には、個人データをグループ (たとえば、コメントのグループなど) に編成したインデックス HTML ページを含む「ミニ Web サイト」があります。
+リクエストが確認されると、管理者はユーザーの個人データ書き出し ZIP ファイルを生成してダウンロードするか、直接メールで送信するか、または、必要に応じて書き出しを行うことができます。ユーザーが受け取る ZIP ファイルの中には、個人データをグループ (たとえば、コメントのグループなど) に編成したインデックス HTML ページを含む「ミニ Web サイト」があります。
 
 <!-- 
 Whether the admin downloads the personal data export ZIP file or sends it directly to the requestor, the way the personal data export is assembled is identical – and relies on hooking "exporter" callbacks to do the dirty work of collecting all the data for the export. When the admin clicks on the download or email link, an AJAX loop begins that iterates over all the exporters registered in the system, one at a time. In addition to exporters built into core, plugins can register their own exporter callbacks.
