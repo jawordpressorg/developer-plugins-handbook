@@ -6,7 +6,7 @@
 <!-- 
 In WordPress 4.9.6, new tools were added to make compliance easier with laws like the European Union's General Data Protection Regulation, or GDPR for short. Among the tools added is a Personal Data Export tool which supports exporting all the personal data for a given user in a ZIP file. In addition to the personal data stored in things like WordPress comments, plugins can also hook into the exporter feature to export the personal data they collect, whether it be in something like postmeta or even an entirely new Custom Post Type (CPT).
  -->
-WordPress 4.9.6では、欧州連合 (EU) の一般データ保護規則 (General Data Protection Regulation、略して GDPR) のような法律への準拠を容易にするための新しいツールが追加されました。追加されたツールの中には、指定したユーザーのすべての個人データを ZIP ファイルに書き出すことをサポートする、個人データ書き出しツールがあります。WordPress のコメントのようなものに保存されている個人データに加えて、プラグインもまた、postmeta のようなもの、あるいはまったく新しい Custom Post Type (CPT) のようなものであろうと、収集した個人データを書き出すためにエクスポーター機能にフックできます。
+WordPress 4.9.6では、欧州連合 (EU) の一般データ保護規則 (General Data Protection Regulation、略して GDPR) のような法律への準拠を容易にするための新しいツールが追加されました。追加されたツールの中には、指定したユーザーのすべての個人データを ZIP ファイルに書き出すことをサポートする、個人データ書き出しツールがあります。WordPress のコメントのようなものに保存されている個人データに加えて、プラグインもまた、postmeta のようなもの、あるいはまったく新しいカスタム投稿タイプ (CPT) のようなものであろうと、収集した個人データを書き出すためにエクスポーター機能にフックできます。
 
 <!-- 
 The "key" for all the exports is the user's email address – this was chosen because it supports exporting personal data for both full-fledged registered users and also unregistered users (e.g. like a logged out commenter).
