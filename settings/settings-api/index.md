@@ -92,7 +92,7 @@ Of course the most immediate benefit is that the WordPress API does a lot of wor
 <!-- 
 ### Add Field/Section
  -->
-### フィールド/セクションの追加
+### フィールド / セクションの追加
 
 <!-- 
 - [`add_settings_section()`](https://developer.wordpress.org/reference/functions/add_settings_section/)
