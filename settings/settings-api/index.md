@@ -6,7 +6,7 @@
 <!-- 
 The Settings API, added in WordPress 2.7, allows admin pages containing settings forms to be managed semi-automatically. It lets you define settings pages, sections within those pages and fields within the sections.
  -->
-WordPress 2.7で追加された設定 API により、設定フォームを含む管理ページを半自動的に管理できるようになりました。設定ページ、ページ内のセクション、セクション内のフィールドを定義できます。
+WordPress 2.7で追加された設定 API により、半自動的な管理が可能な設定フォームを管理ページに追加でききるようになりました。設定ページ、ページ内のセクション、セクション内のフィールドを定義できます。
 
 <!-- 
 New settings pages can be registered along with sections and fields inside them. Existing settings pages can also be added to by registering new settings sections or fields inside of them.
