@@ -41,7 +41,7 @@ A developer _could_ ignore this API and write their own settings page without it
 <!-- 
 Using the API to generate your interface elements guarantees that your settings page will look like the rest of the administrative content. Your interface will follow the same styleguide and look like it belongs, and thanks to the talented team of WordPress designers, it'll look awesome!
  -->
-API を使ってインターフェイス要素を生成すれば、設定ページが他の管理コンテンツと同じように見えることが保証されます。あなたのインターフェイスは同じスタイルガイドに従い、WordPress デザイナーの才能あるチームのおかげですばらしいものになるでしょう !
+API を使ってインターフェース要素を生成すれば、設定ページが他の管理コンテンツと同じように見えることが保証されます。あなたのインターフェースは同じスタイルガイドに従い、WordPress デザイナーの才能あるチームのおかげですばらしいものになるでしょう !
 
 <!-- 
 ### Robustness (Future-Proofing!)
