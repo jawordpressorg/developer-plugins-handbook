@@ -21,7 +21,7 @@ Organizing registration and validation of fields still requires some effort from
 <!-- 
 [alert]When using the Settings API, the form POST to `wp-admin/options.php` which provides fairly strict capabilities checking. Users will need the `manage_options` capability (and in Multisite will have to be a Super Admin) to submit the form.[/alert]
  -->
-[alert]設定 API を使用する場合、フォームは、かなり厳密な機能チェックを提供する `wp-admin/options.php` に POST します。ユーザーがフォームを送信するには `manage_options` 権限が必要です (マルチサイト環境では、スーパー管理者である必要があります)。[/alert]
+[alert]設定 API を使用する場合、フォームは、かなり厳密な機能チェックを提供する `wp-admin/options.php` に POST します。ユーザーがフォームを送信するには `manage_options` 権限が必要です (マルチサイト環境では、特権管理者である必要があります)。[/alert]
 
 <!-- 
 ## Why Use the Setting API?
