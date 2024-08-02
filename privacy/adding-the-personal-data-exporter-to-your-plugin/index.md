@@ -144,7 +144,7 @@ function wporg_export_user_data_by_email( $email_address, $page = 1 ) {
 <!-- 
 The next thing the plugin needs to do is to register the callback by filtering the exporter array using the [`wp_privacy_personal_data_exporters`](https://developer.wordpress.org/reference/hooks/wp_privacy_personal_data_exporters/) filter.
  -->
-次にプラグインが行うべきことは、[`wp_privacy_personal_data_exporters`](https://developer.wordpress.org/reference/hooks/wp_privacy_personal_data_exporters/) フィルターを使用してエクスポーター配列をフィルタリングしてコールバックを登録することです。
+次にプラグインが行うべきことは、フィルター [`wp_privacy_personal_data_exporters`](https://developer.wordpress.org/reference/hooks/wp_privacy_personal_data_exporters/) を使用してエクスポーター配列をフィルタリングしてコールバックを登録することです。
 
 <!-- 
 When registering you provide a friendly name for the export (to aid in debugging – this friendly name is not shown to anyone at this time) and the callback, e.g.
