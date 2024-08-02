@@ -6,7 +6,7 @@
 <!-- 
 The privacy tools were originally introduced in WordPress 4.9.6. These tools are designed to allow (and encourage) developers to use them as part of the Privacy Exporter, Privacy Eraser and the Privacy Policy Guide.
  -->
-プライバシー・ツールはもともと WordPress 4.9.6で導入されました。これらのツールは、Privacy Exporter、Privacy Eraser、プライバシー・ポリシーガイドの一部として開発者が使用できるように設計され (そして、使用を奨励し) ています。
+プライバシー・ツールはもともと WordPress 4.9.6で導入されました。これらのツールは、プライバシー・エクスポーター、プライバシー・イレーザー、プライバシー・ポリシーガイドの一部として開発者が使用できるように設計され (そして、使用を奨励し) ています。
 
 <!-- 
 Since then, several newer hooks have been introduced to expand on the available capabilities. These hooks allow developers to include additional personal data in export and erasure requests, and introduce suggested content for the privacy policy guide.
@@ -41,7 +41,7 @@ Along with the ability to control these tools, there are several new filters for
  -->
 - `user_request_action_confirmed` – ユーザーがプライバシーリクエストを確認したときに発生します。
 - `wp_privacy_delete_old_export_files` – 個人データの書き出しフォルダーから古い書き出しを削除するために使用される、スケジュールされたアクションです。
-- `wp_privacy_personal_data_erased` – 最後の Eraser の、最後のページが完了した後に実行されます。
+- `wp_privacy_personal_data_erased` – 最後のイレーザーの、最後のページが完了した後に実行されます。
 - `wp_privacy_personal_data_export_file` – 書き出しフローの一部として、個人データの書き出しファイルを作成するために使用されます。
 - `wp_privacy_personal_data_export_file_created` – 個人データの書き出しファイルが作成された後に実行されます。
 
@@ -84,7 +84,7 @@ Along with the ability to control these tools, there are several new filters for
 - `user_request_confirmed_email_subject` – ユーザーリクエスト確認 E メールのサブジェクトをフィルタリングします。
 - `user_request_confirmed_email_to` – データリクエスト確認通知の受信者をフィルタリングします。
 - `user_request_key_expiration` – ユーザーリクエストに対する確認キーの有効期限をフィルタリングします。
-- `wp_privacy_additional_user_profile_data` – Privacy Exporter 用にユーザーのプロファイルデータを拡張するためにフィルタリングします。
+- `wp_privacy_additional_user_profile_data` – プライバシー・エクスポーター用にユーザーのプロファイルデータを拡張するためにフィルタリングします。
 - `wp_privacy_export_expiration` – 書き出しファイルの保存期間を設定します。デフォルトは3日間です。
 - `wp_privacy_personal_data_email_content` – 個人データ書き出しファイルへのリンクとともにユーザーに送信される E メールの本文を修正できます。
 - `wp_privacy_personal_data_email_headers` – 個人データ書き出しファイルとともに送信される E メールのヘッダーをフィルタリングします。
@@ -110,10 +110,10 @@ Along with the ability to control these tools, there are several new filters for
 - `user_confirmed_action_email_content` – Filters the body of the data erasure fulfillment notification. The email is sent to a user when a their data erasure request is fulfilled by an administrator.
 - `user_erasure_complete_email_headers` – Filters the headers of the data erasure fulfillment notification.
  -->
-- `wp_privacy_personal_data_erasers` – コアとプラグインの個人データ Eraser の登録をサポートします。
-- `wp_privacy_personal_data_erasure_page` – 個人データ Eraser データのページをフィルタリングします。AJAX だけでなく、消去レスポンスを送信先で使用できるようにします。
-- `wp_privacy_personal_data_exporters` – コアおよびプラグインの個人データ Exporter の登録をサポートします。
-- `wp_privacy_personal_data_export_page` – 個人データ Exporter のデータのページをフィルタリングします。書き出しレポートの構築に使用されます。AJAX に加えて、書き出しレスポンスを送信先で使用できるようにします。
+- `wp_privacy_personal_data_erasers` – コアとプラグインの個人データ・イレーザーの登録をサポートします。
+- `wp_privacy_personal_data_erasure_page` – 個人データ・イレーザーのデータのページをフィルタリングします。AJAX だけでなく、消去レスポンスを送信先で使用できるようにします。
+- `wp_privacy_personal_data_exporters` – コアおよびプラグインの個人データ・エクスポーターの登録をサポートします。
+- `wp_privacy_personal_data_export_page` – 個人データ・エクスポーターのデータのページをフィルタリングします。書き出しレポートの構築に使用されます。AJAX に加えて、書き出しレスポンスを送信先で使用できるようにします。
 - `wp_privacy_anonymize_data` – 各タイプの匿名データをフィルタリングします。
 - `wp_privacy_exports_dir` – 個人データ書き出しファイルを格納するディレクトリをフィルタリングします。
 - `wp_privacy_exports_url` – 個人データ書き出しファイルを格納するディレクトリの URL をフィルタリングします。
