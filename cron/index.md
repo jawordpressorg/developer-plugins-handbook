@@ -26,7 +26,7 @@ WP-Cron は、すべてのページロード時に、予定タスクのリスト
 <!-- 
 Scheduling errors could occur if you schedule a task for 2:00PM and no page loads occur until 5:00PM.
  -->
-午後02時にタスクを予定し、午後05時までページロードが発生しなかった場合、スケジューリング・エラーが発生する可能性があります。
+午後02時00分にタスクを予定し、午後05時00分までページロードが発生しなかった場合、スケジューリング・エラーが発生する可能性があります。
 
 <!-- 
 ## Why use WP-Cron
