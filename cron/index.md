@@ -39,6 +39,5 @@ Scheduling errors could occur if you schedule a task for 2:00PM and no page load
 - With the system scheduler, if the time passes and the task did not run, it will not be re-attempted. With WP-Cron, all scheduled tasks are put into a queue and will run at the next opportunity (meaning the next page load). So while you can’t be 100% sure _when_ your task will run, you can be 100% sure that it will run _eventually_.
  -->
 - WordPress のコアと多くのプラグインは、時間ベースのタスクを実行するためにスケジューリングシステムを必要とします。しかし、多くのホスティングサービスは共有であり、システムスケジューラへのアクセスを提供していません。
-- WordPress API を使用することは、WordPress の外からシステムスケジューラにアクセスするよりも、予約タスクをよりシンプルに設定する方法です。
-WordPress API を使用すれば、WordPress の外に出てシステムスケジューラーにアクセスするよりも簡単にスケジュールタスクを設定できます。
+- WordPress API を使用すれば、WordPress の外に出てシステムスケジューラーにアクセスするよりも簡単にスケジュールタスクを設定できます。
 - システムスケジューラでは、時間が経過してタスクが実行されなかった場合、再試行されません。WP-Cron では、すべての予約タスクはキューに入れられ、次の機会 (つまり次のページロード) に実行されます。そのため、タスクが _いつ_ 実行されるかは100% 保証できませんが、_いずれ_ 実行されることは100%保証できます。
