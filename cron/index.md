@@ -16,7 +16,7 @@ WordPress に於ける時間ベースのタスク・スケジューリング方�
 <!-- 
 WP-Cron works by checking, on every page load, a list of scheduled tasks to see what needs to be run. Any tasks due to run will be called during that page load.
  -->
-WP-Cron は、すべてのページロード時に、予定されたタスクのリストをチェックし、何を実行する必要があるかを確認することによって動作します。実行が予定されているタスクは、そのページのロード中に呼び出されます。
+WP-Cron は、すべてのページロード時に、予定タスクのリストをチェックし、何を実行する必要があるかを確認することによって動作します。実行が予定されているタスクは、そのページのロード中に呼び出されます。
 
 <!-- 
 [info]WP-Cron does not run constantly as the system cron does; it is only triggered on page load.[/info]
