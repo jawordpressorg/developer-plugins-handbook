@@ -1,12 +1,12 @@
 <!-- 
 # Scheduling WP Cron Events
  -->
-# WP Cron イベントのスケジューリング
+# WordPress Cron イベントのスケジューリング
 
 <!-- 
 The WP Cron system uses hooks to add new scheduled tasks.
  -->
-WP Cron システムは、新しい予定タスクを追加するためにフックを使用します。
+WordPress Cron システムは、新しい予定タスクを追加するためにフックを使用します。
 
 <!-- 
 ## Adding the Hook
