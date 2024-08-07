@@ -93,4 +93,4 @@ If you're just getting started, it helps to know how to submit your plugin, use 
 - [プラグインを新しい所有者に移転](https://developer.wordpress.org/plugins/wordpress-org/transferring-your-plugin-to-a-new-owner/)
 - [プラグインをブロック・ディレクトリに追加](https://developer.wordpress.org/plugins/wordpress-org/add-your-plugin-to-the-block-directory/)
 - [プラグインのセキュリティー管理](https://developer.wordpress.org/plugins/wordpress-org/plugin-security/)
-- [...report an insecure plugin](https://developer.wordpress.org/plugins/wordpress-org/plugin-security/reporting-plugin-security-issues/)
+- [安全ではないプラグインの報告](https://developer.wordpress.org/plugins/wordpress-org/plugin-security/reporting-plugin-security-issues/)
