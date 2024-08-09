@@ -21,7 +21,7 @@ WordPress.org のプラグインページにアクセスすると、特別な警
 <!-- 
 Plugins that have been approved but no code has yet been uploaded will see this message:This _only_ displays to the plugin owner and will go away once code has been pushed via SVN.
  -->
-プラグインが承認されたが、コードがまだアップロードされていない場合、このメッセージが表示されます: このメッセージはプラグインの所有者に _のみ_ 表示され、SVN 経由でコードがプッシュされると消えます。
+プラグインが承認されたが、コードがまだアップロードされていない場合、このメッセージが表示されます: このメッセージはプラグインの所有者に _のみ_ 表示され、Subversion (SVN) 経由でコードがプッシュされると消えます。
 
 <!-- 
 ## Closed
