@@ -74,7 +74,7 @@ In order to submit a plugin, there are three steps:
 <!-- 
 Once a plugin is queued for review, we will review the code for any issues within 14 business days. Most of the issues can be avoided by following the guidelines. If we do find issues, we will contact the developer(s), and work towards a resolution. Once approved, you'll receive an email with details as to how to access to a [Subversion Repository](https://developer.wordpress.org/plugins/wordpress-org/how-to-use-subversion/) where you'll store your plugin.
  -->
-プラグインがレビューのためにキューに入ったら、14営業日以内に問題がないかコードをレビューします。ほとんどの問題はガイドラインに従うことで回避できます。問題が見つかった場合は、開発者に連絡し、解決に向けて努力します。承認されると、プラグインを格納する [Subversion リポジトリ](https://developer.wordpress.org/plugins/wordpress-org/how-to-use-subversion/)へのアクセス方法の詳細が記載されたメールが届きます。
+プラグインがレビューのためにキューに入ったら、14営業日以内に問題がないかコードをレビューします。ほとんどの問題は、ガイドラインに従うことで回避できます。問題が見つかった場合は、開発者に連絡し、解決に向けて努力します。承認されると、プラグインを格納する [Subversion リポジトリ](https://developer.wordpress.org/plugins/wordpress-org/how-to-use-subversion/)へのアクセス方法の詳細が記載されたメールが届きます。
 
 <!-- 
 After you upload your plugin (and a [readme file](https://wordpress.org/plugins/developers/#readme)) in that repository via SVN, it will appear on the [plugin directory](https://wordpress.org/plugins/).
