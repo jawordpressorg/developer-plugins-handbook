@@ -32,4 +32,4 @@ The [`_get_cron_array()`](https://developer.wordpress.org/reference/functions/_g
 <!-- 
 The [`wp_get_schedules()`](https://developer.wordpress.org/reference/functions/wp_get_schedules/) function returns an array of available event recurrence schedules. Use this function if you need to inspect the raw list of available schedules.
  -->
-The [`wp_get_schedules()`](https://developer.wordpress.org/reference/functions/wp_get_schedules/) は、利用可能な繰り返し予定イベントの配列を返します。利用可能な予定の生のリストを確認する必要がある場合は、この関数を使用してください。
+[`wp_get_schedules()`](https://developer.wordpress.org/reference/functions/wp_get_schedules/) は、利用可能な繰り返し予定イベントの配列を返します。利用可能な予定の生のリストを確認する必要がある場合は、この関数を使用してください。
