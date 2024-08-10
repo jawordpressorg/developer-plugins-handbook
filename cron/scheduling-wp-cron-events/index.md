@@ -110,7 +110,7 @@ When you no longer need a task scheduled you can unschedule tasks with [`wp_unsc
 <!-- 
 This function will not only unschedule the task indicated by the timestamp, it will also unschedule all future occurrences of the task. Since you probably will not know the timestamp for the next task, there is another handy function, [`wp_next_scheduled()`](https://developer.wordpress.org/reference/functions/wp_next_scheduled/) that will find it for you. `wp_next_scheduled()` takes one parameter (that we care about):
  -->
-この関数は、タイムスタンプで示されたタスクのスケジュールを解除するだけでなく、将来発生するすべてのタスクのスケジュールを解除します。おそらく「次のタスクのタイムスタンプ」を知らないでしょうから、それを探してくれるもう一つの便利な関数 [`wp_next_scheduled()`](https://developer.wordpress.org/reference/functions/wp_next_scheduled/) があります。`wp_next_scheduled()` は1つのパラメータを取ります (気になるそれは):
+この関数は、タイムスタンプで示されたタスクのスケジュールを解除するだけでなく、将来発生するすべてのタスクのスケジュールを解除します。おそらく「次のタスクのタイムスタンプ」を知らないでしょうから、それを探してくれるもう一つの便利な関数 [`wp_next_scheduled()`](https://developer.wordpress.org/reference/functions/wp_next_scheduled/) があります。`wp_next_scheduled()` は1つのパラメータを取ります:
 
 <!-- 
 1. `$hook` – The name of the hook that is called to execute the task.
