@@ -66,7 +66,7 @@ The higher the user role, the more capabilities the user has. Each user role inh
 <!-- 
 For example, the "Administrator", which is the highest user role on a single site installation, inherits the following roles and their capabilities: "Subscriber", "Contributor", "Author" and "Editor".
  -->
-たとえば、「管理者」は、1つのサイト・インストールにおける最高のユーザー権限グループであり、「購読者」、「寄稿者」、「著者」、「編集者」の権限グループとその権限を継承します。
+たとえば、「管理者」は、1つのサイト・インストールにおける最高のユーザー権限グループであり、「購読者」、「寄稿者」、「投稿者」、「編集者」の権限グループとその権限を継承します。
 
 <!-- 
 ## Examples
