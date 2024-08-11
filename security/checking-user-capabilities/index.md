@@ -31,7 +31,7 @@ WordPress にログインしているすべてのユーザーには、ユーザ�
 <!-- 
 For example, the main user of your website will have the User role of an Administrator while other users might have roles like Editor or Author. You could have more than one user assigned to a role, i.e. there might be two Administrators for a website.
  -->
-たとえば、Web サイトのメインユーザーは管理者というユーザー権限グループを持ち、他のユーザーは編集者や著者といった権限グループを持つかもしれません。1つの権限グループに複数のユーザーを割り当てることもできます。たとえば、1つの Web サイトに2人の管理者がいるような場合です。
+たとえば、Web サイトのメインユーザーは管理者というユーザー権限グループを持ち、他のユーザーは編集者や投稿者といった権限グループを持つかもしれません。1つの権限グループに複数のユーザーを割り当てることもできます。たとえば、1つの Web サイトに2人の管理者がいるような場合です。
 
 <!-- 
 **User capabilities** are the specific permissions that you assign to each user or to a User role.
