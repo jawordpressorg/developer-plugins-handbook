@@ -6,7 +6,7 @@
 <!-- 
 When you visit plugin pages on WordPress.org, you may notice special alerts or warnings. These exist to help visitors understand the status of various plugins.
  -->
-WordPress.org のプラグインページにアクセスすると、特別な警告や注意書きが表示されることがあります。これらは、さまざまなプラグインの状態を、訪問者が理解しやすくするために存在します。
+WordPress.org のプラグインページにアクセスすると、特別なアラートや警告が表示されることがあります。これらは、さまざまなプラグインの状態を、訪問者が理解しやすくするために存在します。
 
 <!-- 
 ## Approved and Pending Data
