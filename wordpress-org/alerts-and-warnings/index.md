@@ -1,7 +1,7 @@
 <!-- 
 # Alerts and Warnings
  -->
-# 警告と注意書き
+# アラートと警告
 
 <!-- 
 When you visit plugin pages on WordPress.org, you may notice special alerts or warnings. These exist to help visitors understand the status of various plugins.
