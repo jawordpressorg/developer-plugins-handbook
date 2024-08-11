@@ -11,7 +11,7 @@ WordPress.org は、私たちのディレクトリでプラグインを開発し
 <!-- 
 All plugins hosted here have access to:
  -->
-ここでホストされているすべてのプラグインには以下の機能が提供されます:
+ここでホストされているすべてのプラグインには、以下の機能が提供されます:
 
 <!-- 
 - Monitor statistics (see also the [WordPress.org Plugin API](https://codex.wordpress.org/WordPress.org_API#Plugins)).
