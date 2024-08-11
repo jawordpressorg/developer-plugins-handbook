@@ -25,7 +25,7 @@ For additional information, please see these documents:
 
 <!-- 
 - [How the readme.txt works](https://developer.wordpress.org/plugins/wordpress-org/how-your-readme-txt-works/).
-- [How plugin assets (header images and icons) work](https://developer.wordpress.org/plugins/wordpress-org/plugin-assets/)
+- [How plugin assets (header images and icons) work](https://developer.wordpress.org/plugins/wordpress-org/plugin-assets/).
  -->
 - [readme.txt の仕組み](https://developer.wordpress.org/plugins/wordpress-org/how-your-readme-txt-works/).
 - [プラグイン・アセット (ヘッダー画像やアイコン) の仕組み](https://developer.wordpress.org/plugins/wordpress-org/plugin-assets/)
