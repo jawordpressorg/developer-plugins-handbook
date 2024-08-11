@@ -139,7 +139,7 @@ This allows everyone to review the changes quickly and to be far more confident 
 <!-- 
 It's not bias from WordPress.org, it's just a throwback to the manual process we've been using. If we're alerted to an issue, we'll work to handle it. If we find out several days later, the window of opportunity to get the fix rolled out has usually passed and it won't be as effective.
  -->
-WordPress.org からの偏りではなく、これまでの手動プロセスに戻っただけです。もし私たちが問題に対して警告を受けたら、それに応えようと努力します。数日後に問題が発覚した場合、通常、修正プログラムを展開する機会は過ぎており、それほど効果的ではありません。
+WordPress.org のバイアスではなく、これまでの手動プロセスに戻っただけです。もし私たちが問題に対して警告を受けたら、それに応えようと努力します。数日後に問題が発覚した場合、通常、修正プログラムを展開する機会は過ぎており、自動アップデートを実施してもそれほど効果的ではありません。
 
 <!-- 
 ### How can I disable automatic updates?
