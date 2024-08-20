@@ -1,7 +1,7 @@
 <!-- 
 # Plugin Developer FAQ
  -->
-# プラグイン開発者 FAQ
+# Plugin Developer FAQ
 
 <!-- 
 There are lot of ins and outs to hosting WordPress plugins. Please take a minute to see if your question is answered here before reaching out for assistance.
