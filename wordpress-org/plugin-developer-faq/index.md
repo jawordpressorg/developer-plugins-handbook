@@ -896,7 +896,7 @@ Write a good readme for the language, answer support posts promptly, get good re
 <!-- 
 Neither. Make your display name memorable and descriptive, while keeping it under 5 words, for maximum benefit.
  -->
-どちらでもありません。最大限の効果を得るために、5語以内に抑えつつ、印象的で説明的な表示名にしましょう。
+どちらでもありません。最大限の効果を得るために、英単語5語以内に抑えつつ、印象的で説明的な表示名にしましょう。
 
 <!-- 
 ## The Support Forums
