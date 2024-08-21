@@ -1,47 +1,47 @@
 <!-- 
 # Plugin Developer FAQ
  -->
-# Plugin Developer FAQ
+# プラグイン開発者 FAQ
 
 <!-- 
 There are lot of ins and outs to hosting WordPress plugins. Please take a minute to see if your question is answered here before reaching out for assistance.
  -->
-There are lot of ins and outs to hosting WordPress plugins. Please take a minute to see if your question is answered here before reaching out for assistance.
+WordPress プラグインのホスティングには、多くの心得があります。お問い合わせの前に、あなたの質問がここで解決されるかどうか、少し時間を取って見てください。
 
 <!-- 
 ## The Plugin Review Team
  -->
-## The Plugin Review Team
+## プラグイン・レビューチーム
 
 <!-- 
 ### How do I contact the Plugin Review team?
  -->
-### How do I contact the Plugin Review team?
+### プラグイン・レビューチームへの連絡方法は ?
 
 <!-- 
 You can contact us by email at `plugins@wordpress.org` – we reply to all emails within 7 business days.
  -->
-You can contact us by email at `plugins@wordpress.org` – we reply to all emails within 7 business days.
+お問い合わせは `plugins@wordpress.org` 宛ての E メールにて承っています。7営業日以内に返信します。
 
 <!-- 
 ### Does the review team work for Automattic?
  -->
-### Does the review team work for Automattic?
+### レビューチームは、Automattic のために働いているのですか ?
 
 <!-- 
 No. The review team is made up of 100% volunteers. Some are compensated by their full-time employers, but no one is hired by WordPress.org, Automattic, or WordPress.com
  -->
-No. The review team is made up of 100% volunteers. Some are compensated by their full-time employers, but no one is hired by WordPress.org, Automattic, or WordPress.com
+いいえ。レビューチームは、100%ボランティアで構成されています。フルタイムの雇用主から報酬を得ている人もいますが、WordPress.org、Automattic、WordPress.com に雇われている人はいません。
 
 <!-- 
 ### Can I join the team?
  -->
-### Can I join the team?
+### チームに参加できますか ?
 
 <!-- 
 Please take a look at [this handbook page](https://make.wordpress.org/plugins/handbook/apply/).
  -->
-Please take a look at [this handbook page](https://make.wordpress.org/plugins/handbook/apply/).
+[このハンドブックのページ](https://make.wordpress.org/plugins/handbook/apply/)をご覧ください。
 
 <!-- 
 ## Submissions and Reviews
@@ -726,252 +726,252 @@ In addition, any tags where you are the only one who uses them won't show, becau
 <!-- 
 ## Plugin Names
  -->
-## Plugin Names
+## プラグイン名
 
 <!-- 
 ### Can I change my plugin's name after it's approved?
  -->
-### Can I change my plugin's name after it's approved?
+### 承認後に、プラグイン名を変更できますか ?
 
 <!-- 
 Yes and no. You can change the display name, but the _slug_ — that part of the plugin URL that is yours — cannot be changed once a plugin is approved. That's why we warn you, multiple times, upon submission.
  -->
-Yes and no. You can change the display name, but the _slug_ — that part of the plugin URL that is yours — cannot be changed once a plugin is approved. That's why we warn you, multiple times, upon submission.
+イエスでもありノーでもあります。表示名は変更できますが、_スラッグ_ — プラグインの URL のうち、あなたのものである部分 — は、プラグインが承認されると変更できません。そのため、申請時に何度も警告しています。
 
 <!-- 
 To change the display name, edit your main plugin file and change the value of "Plugin Name:" to the new name. You also will want to edit your header in your readme.txt to match.
  -->
-To change the display name, edit your main plugin file and change the value of "Plugin Name:" to the new name. You also will want to edit your header in your readme.txt to match.
+表示名を変更するには、メインのプラグインファイルを編集し、「Plugin Name:」の値を新しい名前に変更してください。また、readme.txt のヘッダーもそれに合わせて編集してください。
 
 <!-- 
 ### Why can't I use someone's trademark/brand as my plugin name?
  -->
-### Why can't I use someone's trademark/brand as my plugin name?
+### 他人の商標やブランドを、自分のプラグイン名として、なぜ使用できないのですか ?
 
 <!-- 
 Simply put, because you're not them.
  -->
-Simply put, because you're not them.
+簡単に言えば、あなたは彼らとは違うからです。
 
 <!-- 
 If you have written an add-on plugin for BooCommerce, you may not name it "BooCommerce Improved Product Search" as that would generate the slug `boocommerce-improved-product-search` and that would conflict with the trademark of 'BooCommerce.' That said, it would be acceptable to submit the name "Boo Improved Product Search" which would use the slug `bc-improved-product-search` ("bc" not being trademarked you see).
  -->
-If you have written an add-on plugin for BooCommerce, you may not name it "BooCommerce Improved Product Search" as that would generate the slug `boocommerce-improved-product-search` and that would conflict with the trademark of 'BooCommerce.' That said, it would be acceptable to submit the name "Boo Improved Product Search" which would use the slug `bc-improved-product-search` ("bc" not being trademarked you see).
+BooCommerce のアドオン・プラグインを作成した場合、名称「BooCommerce 改良型商品検索」は、スラッグ `boocommerce-improved-product-search` が生成され、商標「BooCommerce」と競合してしまうため、つけることはできません。とはいえ、スラッグ `bc-improved-product-search` を使用する名称「Boo 改良版商品検索」を申請できます (「bc」は商標登録されていません)。
 
 <!-- 
 As another example, if you have a plugin that integrates a service with a a popular cloud hosting company named Amazorn, you may call it "My Service Integration for Amazorn", but you may **not** use "Amazorn – My Service Integration". 
  -->
-As another example, if you have a plugin that integrates a service with a a popular cloud hosting company named Amazorn, you may call it "My Service Integration for Amazorn", but you may **not** use "Amazorn – My Service Integration". 
+別の例として、Amazorn という人気のあるクラウドホスティング会社のサービスを統合するプラグインがある場合、「My Service Integration for Amazorn」と名付けることはできますが、「Amazorn – My Service Integration」を使うことはできま **せん**。
 
 <!-- 
 Consider the real life example of Keurig. If you made an eco-friendly brew cup, you could market it "EcoBrew Pod for Keurig" but you could NOT attempt to market it as "Keurig EcoBrew Pod." The latter implies a direct relationship to Keurig and is actually against the law in some countries. In order to protect you, we need you to tread lightly with recognized brand names and trademarks. Always err on the side of caution; if they come and tell us to close your plugin because you used their term as the _first_ word in the display name, we have to do it.
  -->
-Consider the real life example of Keurig. If you made an eco-friendly brew cup, you could market it "EcoBrew Pod for Keurig" but you could NOT attempt to market it as "Keurig EcoBrew Pod." The latter implies a direct relationship to Keurig and is actually against the law in some countries. In order to protect you, we need you to tread lightly with recognized brand names and trademarks. Always err on the side of caution; if they come and tell us to close your plugin because you used their term as the _first_ word in the display name, we have to do it.
+キューリグ (Keurig) の例を考えてみましょう。環境に配慮したコーヒーカップを作ったとしたら、それを「キューリグ用エコ・ブリュー・ポッド」として販売できるが、「キューリグ・エコブリュー・ポッド」として販売することは、決して許されません。後者はキューリグとの直接的な関係を意味し、国によっては法律違反となります。あなたを保護するために、認知されたブランド名や商標を慎重に扱ってください。常に慎重を期してください; もし彼らが、あなたのプラグインが、表示名の _最初の_ 単語として彼らの商標を使用していることを理由に、あなたのプラグインをクローズするように言ってきたら、私たちはそれをせざるを得ません。
 
 <!-- 
 [alert]We no longer have permission to permit new plugins to use `woo` as the start of their permalink, and are required to enforce the use of `wc` instead.[/alert]
  -->
-[alert]We no longer have permission to permit new plugins to use `woo` as the start of their permalink, and are required to enforce the use of `wc` instead.[/alert]
+[alert]新しいプラグインが、パーマリンクの先頭に `woo` を使用することを許可する権限がなくなり、代わりに `wc` の使用を強制することが求められています。[/alert]
 
 <!-- 
 Can a company give me permission to use their trademark in my permalink?
  -->
-Can a company give me permission to use their trademark in my permalink?
+企業が私のパーマリンクに、その企業の商標を使用する許可を与えてくれることはありますか ?
 
 <!-- 
 No.
  -->
-No.
+いいえ。
 
 <!-- 
 While we understand that companies can and do grant usage permissions, we do not accept them for permalinks for a really important reason: we _**cannot**_ change your permalink once the plugin is approved. This means if, later on, the company changes their mind and rescinds approval, the plugin will be closed and all of it's users abandoned.
  -->
-While we understand that companies can and do grant usage permissions, we do not accept them for permalinks for a really important reason: we _**cannot**_ change your permalink once the plugin is approved. This means if, later on, the company changes their mind and rescinds approval, the plugin will be closed and all of it's users abandoned.
+私たちは、企業が使用許可を与えることができ、また与えることができることを理解していますが、本当に重要な理由から、パーマリンクについては許可していません: プラグインが承認されると、パーマリンクを変更することが出来 _**ません**_。つまり、後日、会社が考えを変えて承認を取り消した場合、プラグインはクローズされ、すべてのユーザーが見捨てられます。
 
 <!-- 
 In order to be forward thinking and proactive about a plugin's long-term life in the directory, we do not accept 'permission.' A permalink may not begin with a trademark (or commonly known brand/term) unless it is by the official owners.
  -->
-In order to be forward thinking and proactive about a plugin's long-term life in the directory, we do not accept 'permission.' A permalink may not begin with a trademark (or commonly known brand/term) unless it is by the official owners.
+プラグインがディレクトリ内で長期的に使用されることを前向きに考え、積極的に行動するために、私たちは「許可」を受け付けていません。パーマリンクは、正式な所有者によるものでない限り、商標 (または一般的に知られているブランド/ターム) で始めることはできません。
 
 <!-- 
 ### Can I change my plugin's URL/slug?
  -->
-### Can I change my plugin's URL/slug?
+### プラグインの URL/スラッグを変更できますか ?
 
 <!-- 
 It's impossible to change a plugin's URL once it's approved and we warn you about that in multiple places through the process.
  -->
-It's impossible to change a plugin's URL once it's approved and we warn you about that in multiple places through the process.
+一度承認されたプラグインの URL 変更は不可能で、私たちは、そのことをプロセスを通じて何度も警告しています。
 
 <!-- 
 Due to that, we deny most requests for 'new' plugins to replace old ones just to get a better slug.
  -->
-Due to that, we deny most requests for 'new' plugins to replace old ones just to get a better slug.
+そのため、より良いスラッグを得るために古いプラグインを置き換える「新しい」プラグインのリクエストはほとんどお断りしています。
 
 <!-- 
 This is because we cannot migrate users between plugins nor can we redirect traffic. This means that submitted a new plugin to change a slug is incredibly detrimental to the plugin's SEO and reputation, as users will be abandoned. The majority of plugins don't actually need a new URL, and instead just want to edit their display name.
  -->
-This is because we cannot migrate users between plugins nor can we redirect traffic. This means that submitted a new plugin to change a slug is incredibly detrimental to the plugin's SEO and reputation, as users will be abandoned. The majority of plugins don't actually need a new URL, and instead just want to edit their display name.
+これは、プラグイン間でのユーザー移行も、トラフィックのリダイレクトも、できないからです。つまり、スラッグを変更するために新しいプラグインを提出することは、プラグインの SEO と評判にとって信じられないほど有害であり、ユーザーは見捨てられてしまうということです。大多数のプラグインは実際には新しい URL を必要とせず、代わりに表示名を編集したいだけなのです。
 
 <!-- 
 Unless there's an egregious typo, language, or legal issue related to your slug, we are **unlikely** to approve a new slug. If we do, we will flag your account to note that future rename requests are to be denied.
  -->
-Unless there's an egregious typo, language, or legal issue related to your slug, we are **unlikely** to approve a new slug. If we do, we will flag your account to note that future rename requests are to be denied.
+あなたのスラッグに重大なタイプミス、言語、法律上の問題がない限り、新しいスラッグを承認することは **まずありません**。もし承認された場合は、今後のリネーム要求が拒否されるよう、あなたのアカウントにフラグを立てます。
 
 <!-- 
 ### How do I change my plugin's display name?
  -->
-### How do I change my plugin's display name?
+### プラグインの表示名を変更するには ?
 
 <!-- 
 You'll need to change it in the readme _and_ the plugin main file.
  -->
-You'll need to change it in the readme _and_ the plugin main file.
+readme _と_ プラグインのメインファイルで、変更する必要があります。
 
 <!-- 
 ### Can I make my display name anything?
  -->
-### Can I make my display name anything?
+### 表示名は何でもいいのですか ?
 
 <!-- 
 Don't use vulgarities or slurs or other intentionally abusive language. You cannot claim, or appear to claim, to be an official source if you're not. For example, if you've made a plugin that connects to the Frozbaz Service, you should call your plugin "Connector to Frozbaz Service" – in this way, you have made it clear you are making a plugin for a service, rather than being the service.
  -->
-Don't use vulgarities or slurs or other intentionally abusive language. You cannot claim, or appear to claim, to be an official source if you're not. For example, if you've made a plugin that connects to the Frozbaz Service, you should call your plugin "Connector to Frozbaz Service" – in this way, you have made it clear you are making a plugin for a service, rather than being the service.
+下品な言葉や中傷、その他意図的に乱暴な言葉を使用してはなりません。公式な情報源ではない場合、公式な情報源であると主張したり、主張しているように見せかけたりしてはいけません。たとえば、Frozbaz サービスに接続するプラグインを作った場合、プラグイン名を「Connector to Frozbaz Service」とすべきです – こうすることで、サービスではなく、サービスのプラグインを作っていることが明確になります。
 
 <!-- 
 If you're combining multiple services (a payment gateway to a popular ecommerce plugin, for example), we strongly recommend you come up with an original, unique, display name.
  -->
-If you're combining multiple services (a payment gateway to a popular ecommerce plugin, for example), we strongly recommend you come up with an original, unique, display name.
+複数のサービス (たとえば、人気の e コマースプラグインへの支払いゲートウェイ) を組み合わせる場合は、オリジナルのユニークな表示名をつけることを強くおすすめします。
 
 <!-- 
 ### Can I use WordPress or Plugin in my display name?
  -->
-### Can I use WordPress or Plugin in my display name?
+### WordPress や Plugin を、表示名に使用できますか ?
 
 <!-- 
 Currently yes, but you shouldn't. It's incredibly redundant and doesn't actually help your SEO in any way, shape, or form. We already put WordPress _and_ Plugin in your page title.
  -->
-Currently yes, but you shouldn't. It's incredibly redundant and doesn't actually help your SEO in any way, shape, or form. We already put WordPress _and_ Plugin in your page title.
+現在のところはイエスだが、そうすべきではありません。これは信じられないほど冗長であり、実際にはどのような形であれ SEO の役には立ちません。私たちはあなたのページのタイトルにすでに WordPress _と_ Plugin を入れています。
 
 <!-- 
 ### Should I use the trademark or registered symbol in my plugin name?
  -->
-### Should I use the trademark or registered symbol in my plugin name?
+### プラグイン名に、商標や登録商標を使うべきですか ?
 
 <!-- 
 Assuming you actually did apply for trademarks, you certainly _can_ but it's not commonly done. Not even Google or Facebook do that. Simply by using your trademark term and having a log of it (like your SVN log), you have usually done the needed legal action required to protect your brand. Consult a lawyer for details.
  -->
-Assuming you actually did apply for trademarks, you certainly _can_ but it's not commonly done. Not even Google or Facebook do that. Simply by using your trademark term and having a log of it (like your SVN log), you have usually done the needed legal action required to protect your brand. Consult a lawyer for details.
+実際に商標を出願したと仮定すれば、確かに _できる_ のですが、一般的には行われていません。Google や Facebook でさえ、そんなことはしません。商標タームを使用し、そのログ (SVN のログのようなもの) を残すだけで、あなたのブランドを保護するために必要な法的措置を取ることができます。詳しくは弁護士に相談してください。
 
 <!-- 
 ## Search
  -->
-## Search
+## 検索
 
 <!-- 
 ### How long will it take for my plugin to show up in search?
  -->
-### How long will it take for my plugin to show up in search?
+### 私のプラグインが検索に表示されるまで、どのくらい掛かりますか ?
 
 <!-- 
 Usually 6 to 14 days after a plugin is committed to SVN. This is because we have to add your data, parse it, and share it to all of our _heavily_ cached servers. It's not instantaneous. Also as a new plugin, we have no data on usage, so you may need to wait a bit.
  -->
-Usually 6 to 14 days after a plugin is committed to SVN. This is because we have to add your data, parse it, and share it to all of our _heavily_ cached servers. It's not instantaneous. Also as a new plugin, we have no data on usage, so you may need to wait a bit.
+プラグインが SVN にコミットされてから、通常、6日から14日後です。あなたのデータを追加し、解析し、私たちの _ヘビーな_ キャッシュサーバーすべてに共有する必要があるためです。即座に反映されるわけではありません。また、新しいプラグインである場合は、使用状況に関するデータがないので、少し待つ必要があるかもしれません。
 
 <!-- 
 ### How do I rank higher?
  -->
-### How do I rank higher?
+### どうすれば、上位にランクインできますか ?
 
 <!-- 
 Write a good readme for the language, answer support posts promptly, get good reviews.
  -->
-Write a good readme for the language, answer support posts promptly, get good reviews.
+その言語のための良い readme を書き、サポートの投稿に迅速に答え、良いレビューを得ることです。
 
 <!-- 
 ### What's weighted more, my URL or my display name?
  -->
-### What's weighted more, my URL or my display name?
+### URL と表示名とでは、どっちが重みがありますか ?
 
 <!-- 
 Neither. Make your display name memorable and descriptive, while keeping it under 5 words, for maximum benefit.
  -->
-Neither. Make your display name memorable and descriptive, while keeping it under 5 words, for maximum benefit.
+どちらでもありません。最大限の効果を得るために、英単語5語以内に抑えつつ、印象的で説明的な表示名にしましょう。
 
 <!-- 
 ## The Support Forums
  -->
-## The Support Forums
+## サポート・フォーラム
 
 <!-- 
 ### How do I get notified for forums posts?
  -->
-### How do I get notified for forums posts?
+### フォーラムへの投稿を通知してもらうには ?
 
 <!-- 
 Go to `https://wordpress.org/support/plugin/_YOUR_PLUGIN_` and look at the sidebar on the right. Click the Subscribe to this Plugin button for email alerts.
  -->
-Go to `https://wordpress.org/support/plugin/_YOUR_PLUGIN_` and look at the sidebar on the right. Click the Subscribe to this Plugin button for email alerts.
+`https://wordpress.org/support/plugin/_YOUR_PLUGIN_` にアクセスし、右側のサイドバーを見てください。「このプラグインを購読する」ボタンをクリックし、E メールアラートを購読します。
 
 <!-- 
 ### How do I get notified for all my plugins?
  -->
-### How do I get notified for all my plugins?
+### すべてのプラグインに、通知されるようにするには ?
 
 <!-- 
 Every plugin support forum page has a "Subscribe" button at the top of it. Click that and you will be emailed. You can see which plugin forums sets you are subscribed to at `https://wordpress.org/support/users/_YOUR_ID_/subscriptions`
  -->
-Every plugin support forum page has a "Subscribe" button at the top of it. Click that and you will be emailed. You can see which plugin forums sets you are subscribed to at `https://wordpress.org/support/users/_YOUR_ID_/subscriptions`
+どのプラグイン・サポートフォーラムのページにも、一番上に「購読」ボタンがあります。それをクリックするとメールが届きます。どのプラグインフォーラムに登録しているかは、右記リンクで確認できます。`https://wordpress.org/support/users/_YOUR_ID_/subscriptions`
 
 <!-- 
 For RSS, visit `https://wordpress.org/support/view/plugin-committer/_YOUR_ID_` will list all of the support requests and reviews for any plugin you have commit access. Not a committer, just someone listed as an author? Use `https://wordpress.org/support/view/plugin-contributor/_YOUR_ID_`
  -->
-For RSS, visit `https://wordpress.org/support/view/plugin-committer/_YOUR_ID_` will list all of the support requests and reviews for any plugin you have commit access. Not a committer, just someone listed as an author? Use `https://wordpress.org/support/view/plugin-contributor/_YOUR_ID_`
+RSS の場合、`https://wordpress.org/support/view/plugin-committer/_YOUR_ID_` にアクセスすると、あなたがコミットアクセス権を持っているプラグインのサポートリクエストとレビューが一覧表示されます。コミッターではなく、作者としてリストアップされているだけですか ? その場合は、右記リンクを使ってください。`https://wordpress.org/support/view/plugin-contributor/_YOUR_ID_`
 
 <!-- 
 You can also go to `https://profiles.wordpress.org/_YOUR_ID_/profile/notifications/` and put in any terms you want to be emailed for. Be careful, this can escalate if you use generic terms.
  -->
-You can also go to `https://profiles.wordpress.org/_YOUR_ID_/profile/notifications/` and put in any terms you want to be emailed for. Be careful, this can escalate if you use generic terms.
+また、`https://profiles.wordpress.org/_YOUR_ID_/profile/notifications/` にアクセスし、メールを送ってほしいタームを入力できます。一般的なタームを使用すると、エスカレートする可能性があるので注意してください。
 
 <!-- 
 ### How do I give a support account access to my plugin?
  -->
-### How do I give a support account access to my plugin?
+### サポートアカウントに、自分のプラグインへのアクセス権を与えるには ?
 
 <!-- 
 You can add Support Representatives to your plugin. Support representatives can mark forum topics as resolved or sticky (same as plugin authors and contributors), but don't have commit access to the plugin.
  -->
-You can add Support Representatives to your plugin. Support representatives can mark forum topics as resolved or sticky (same as plugin authors and contributors), but don't have commit access to the plugin.
+プラグインにサポート担当者を追加できます。サポート担当者は、フォーラムのトピックに「解決済み」や「付箋」マークを付けることができます (プラグインの作者やコントリビューターと同じです) が、プラグインへのコミット権限はありません。
 
 <!-- 
 The UI for managing plugin support reps can be found in Advanced View on the plugin page, next to managing committers. Once someone is added as a support rep, they will get a Plugin Support badge when replying to the plugin support topics or reviews.
  -->
-The UI for managing plugin support reps can be found in Advanced View on the plugin page, next to managing committers. Once someone is added as a support rep, they will get a Plugin Support badge when replying to the plugin support topics or reviews.
+プラグインのサポート担当者を管理する UI は、プラグインページの Advanced View でコミッターの管理の隣にあります。誰かがサポート担当者として追加されると、プラグインのサポートトピックやレビューに返信する際に、プラグインサポートバッジが表示されます。
 
 <!-- 
 ### Will you delete bad reviews or comments on my plugin?
  -->
-### Will you delete bad reviews or comments on my plugin?
+### 私のプラグインに関する悪いレビューやコメントを、削除してもらえますか ?
 
 <!-- 
 Generally no. A review is a reflection of an individual's experience with your product. If they didn't like it, that's not for us to change. If you feel that a review is invalid (such as for a different plugin), use the `modlook` button on the post. A member of the **forums** team will investigate.
  -->
-Generally no. A review is a reflection of an individual's experience with your product. If they didn't like it, that's not for us to change. If you feel that a review is invalid (such as for a different plugin), use the `modlook` button on the post. A member of the **forums** team will investigate.
+一般的には、ノーです。レビューとは、あなたのプロダクトに対する個人の経験を反映したものです。もしそれらを気に入らなかったとしても、私たちが変えることはできません。もしレビューが不適切だと感じたら (別のプラグインのレビューなど)、投稿にある `modlook` ボタンを使ってください。**フォーラム** チームのメンバーが調査します。
 
 <!-- 
 Abuse of the modlook feature may result in suspension of your plugins. Please, use it wisely.
  -->
-Abuse of the modlook feature may result in suspension of your plugins. Please, use it wisely.
+modlook 機能を乱用すると、プラグインが一時的に使用停止になる場合があります。賢く使ってください。
 
 <!-- 
 ### What is ‘Sockpuppeting'?
  -->
-### What is ‘Sockpuppeting'?
+### 「ソックパペット (Sockpuppeting)」とは ?
 
 <!-- 
 That's what happens when someone makes multiple accounts on the forums, usually to give themselves a number of 5-star reviews, or create fake support tickets to appear more responsive. Sockpuppeting is against our guidelines and will result in the reviews and posts being removed, but also may result in your account and all plugins being removed. Don't do it and don't flagrantly accuse others of doing it.
  -->
-That's what happens when someone makes multiple accounts on the forums, usually to give themselves a number of 5-star reviews, or create fake support tickets to appear more responsive. Sockpuppeting is against our guidelines and will result in the reviews and posts being removed, but also may result in your account and all plugins being removed. Don't do it and don't flagrantly accuse others of doing it.
+これは、誰かがフォーラムに複数のアカウントを作成し、通常、5つ星のレビューを多数つけたり、偽のサポートチケットを作成し、より迅速に対応するように見せかけたりすることです。Sockpuppeting は、ガイドラインに反しており、レビューや投稿が削除されるだけでなく、あなたのアカウントやすべてのプラグインが削除される可能性があります。やめておきましょう。そして、他人がやっていることを公然と糾弾しないようにしましょう。
 
 <!-- 
 ## Closed Plugins
