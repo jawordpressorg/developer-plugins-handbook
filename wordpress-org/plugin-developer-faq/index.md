@@ -726,142 +726,142 @@ In addition, any tags where you are the only one who uses them won't show, becau
 <!-- 
 ## Plugin Names
  -->
-## Plugin Names
+## プラグイン名
 
 <!-- 
 ### Can I change my plugin's name after it's approved?
  -->
-### Can I change my plugin's name after it's approved?
+### 承認後に、プラグイン名を変更できますか ?
 
 <!-- 
 Yes and no. You can change the display name, but the _slug_ — that part of the plugin URL that is yours — cannot be changed once a plugin is approved. That's why we warn you, multiple times, upon submission.
  -->
-Yes and no. You can change the display name, but the _slug_ — that part of the plugin URL that is yours — cannot be changed once a plugin is approved. That's why we warn you, multiple times, upon submission.
+イエスでもありノーでもあります。表示名は変更できますが、_スラッグ_ — プラグインの URL のうち、あなたのものである部分 — は、プラグインが承認されると変更できません。そのため、申請時に何度も警告しています。
 
 <!-- 
 To change the display name, edit your main plugin file and change the value of "Plugin Name:" to the new name. You also will want to edit your header in your readme.txt to match.
  -->
-To change the display name, edit your main plugin file and change the value of "Plugin Name:" to the new name. You also will want to edit your header in your readme.txt to match.
+表示名を変更するには、メインのプラグインファイルを編集し、「Plugin Name:」の値を新しい名前に変更してください。また、readme.txt のヘッダーもそれに合わせて編集してください。
 
 <!-- 
 ### Why can't I use someone's trademark/brand as my plugin name?
  -->
-### Why can't I use someone's trademark/brand as my plugin name?
+### 他人の商標やブランドを、自分のプラグイン名として、なぜ使用できないのですか ?
 
 <!-- 
 Simply put, because you're not them.
  -->
-Simply put, because you're not them.
+簡単に言えば、あなたは彼らとは違うからです。
 
 <!-- 
 If you have written an add-on plugin for BooCommerce, you may not name it "BooCommerce Improved Product Search" as that would generate the slug `boocommerce-improved-product-search` and that would conflict with the trademark of 'BooCommerce.' That said, it would be acceptable to submit the name "Boo Improved Product Search" which would use the slug `bc-improved-product-search` ("bc" not being trademarked you see).
  -->
-If you have written an add-on plugin for BooCommerce, you may not name it "BooCommerce Improved Product Search" as that would generate the slug `boocommerce-improved-product-search` and that would conflict with the trademark of 'BooCommerce.' That said, it would be acceptable to submit the name "Boo Improved Product Search" which would use the slug `bc-improved-product-search` ("bc" not being trademarked you see).
+BooCommerce のアドオン・プラグインを作成した場合、名称「BooCommerce 改良型商品検索」は、スラッグ `boocommerce-improved-product-search` が生成され、商標「BooCommerce」と競合してしまうため、つけることはできません。とはいえ、スラッグ `bc-improved-product-search` を使用する名称「Boo 改良版商品検索」を申請できます (「bc」は商標登録されていません)。
 
 <!-- 
 As another example, if you have a plugin that integrates a service with a a popular cloud hosting company named Amazorn, you may call it "My Service Integration for Amazorn", but you may **not** use "Amazorn – My Service Integration". 
  -->
-As another example, if you have a plugin that integrates a service with a a popular cloud hosting company named Amazorn, you may call it "My Service Integration for Amazorn", but you may **not** use "Amazorn – My Service Integration". 
+別の例として、Amazorn という人気のあるクラウドホスティング会社のサービスを統合するプラグインがある場合、「My Service Integration for Amazorn」と名付けることはできますが、「Amazorn – My Service Integration」を使うことはできま **せん**。
 
 <!-- 
 Consider the real life example of Keurig. If you made an eco-friendly brew cup, you could market it "EcoBrew Pod for Keurig" but you could NOT attempt to market it as "Keurig EcoBrew Pod." The latter implies a direct relationship to Keurig and is actually against the law in some countries. In order to protect you, we need you to tread lightly with recognized brand names and trademarks. Always err on the side of caution; if they come and tell us to close your plugin because you used their term as the _first_ word in the display name, we have to do it.
  -->
-Consider the real life example of Keurig. If you made an eco-friendly brew cup, you could market it "EcoBrew Pod for Keurig" but you could NOT attempt to market it as "Keurig EcoBrew Pod." The latter implies a direct relationship to Keurig and is actually against the law in some countries. In order to protect you, we need you to tread lightly with recognized brand names and trademarks. Always err on the side of caution; if they come and tell us to close your plugin because you used their term as the _first_ word in the display name, we have to do it.
+キューリグ (Keurig) の例を考えてみましょう。環境に配慮したコーヒーカップを作ったとしたら、それを「キューリグ用エコ・ブリュー・ポッド」として販売できるが、「キューリグ・エコブリュー・ポッド」として販売することは、決して許されません。後者はキューリグとの直接的な関係を意味し、国によっては法律違反となります。あなたを保護するために、認知されたブランド名や商標を慎重に扱ってください。常に慎重を期してください; もし彼らが、あなたのプラグインが、表示名の _最初の_ 単語として彼らの商標を使用していることを理由に、あなたのプラグインをクローズするように言ってきたら、私たちはそれをせざるを得ません。
 
 <!-- 
 [alert]We no longer have permission to permit new plugins to use `woo` as the start of their permalink, and are required to enforce the use of `wc` instead.[/alert]
  -->
-[alert]We no longer have permission to permit new plugins to use `woo` as the start of their permalink, and are required to enforce the use of `wc` instead.[/alert]
+[alert]新しいプラグインが、パーマリンクの先頭に `woo` を使用することを許可する権限がなくなり、代わりに `wc` の使用を強制することが求められています。[/alert]
 
 <!-- 
 Can a company give me permission to use their trademark in my permalink?
  -->
-Can a company give me permission to use their trademark in my permalink?
+企業が私のパーマリンクに、その企業の商標を使用する許可を与えてくれることはありますか ?
 
 <!-- 
 No.
  -->
-No.
+いいえ。
 
 <!-- 
 While we understand that companies can and do grant usage permissions, we do not accept them for permalinks for a really important reason: we _**cannot**_ change your permalink once the plugin is approved. This means if, later on, the company changes their mind and rescinds approval, the plugin will be closed and all of it's users abandoned.
  -->
-While we understand that companies can and do grant usage permissions, we do not accept them for permalinks for a really important reason: we _**cannot**_ change your permalink once the plugin is approved. This means if, later on, the company changes their mind and rescinds approval, the plugin will be closed and all of it's users abandoned.
+私たちは、企業が使用許可を与えることができ、また与えることができることを理解していますが、本当に重要な理由から、パーマリンクについては許可していません: プラグインが承認されると、パーマリンクを変更することが出来 _**ません**_。つまり、後日、会社が考えを変えて承認を取り消した場合、プラグインはクローズされ、すべてのユーザーが見捨てられます。
 
 <!-- 
 In order to be forward thinking and proactive about a plugin's long-term life in the directory, we do not accept 'permission.' A permalink may not begin with a trademark (or commonly known brand/term) unless it is by the official owners.
  -->
-In order to be forward thinking and proactive about a plugin's long-term life in the directory, we do not accept 'permission.' A permalink may not begin with a trademark (or commonly known brand/term) unless it is by the official owners.
+プラグインがディレクトリ内で長期的に使用されることを前向きに考え、積極的に行動するために、私たちは「許可」を受け付けていません。パーマリンクは、正式な所有者によるものでない限り、商標 (または一般的に知られているブランド/ターム) で始めることはできません。
 
 <!-- 
 ### Can I change my plugin's URL/slug?
  -->
-### Can I change my plugin's URL/slug?
+### プラグインの URL/スラッグを変更できますか ?
 
 <!-- 
 It's impossible to change a plugin's URL once it's approved and we warn you about that in multiple places through the process.
  -->
-It's impossible to change a plugin's URL once it's approved and we warn you about that in multiple places through the process.
+一度承認されたプラグインの URL 変更は不可能で、私たちは、そのことをプロセスを通じて何度も警告しています。
 
 <!-- 
 Due to that, we deny most requests for 'new' plugins to replace old ones just to get a better slug.
  -->
-Due to that, we deny most requests for 'new' plugins to replace old ones just to get a better slug.
+そのため、より良いスラッグを得るために古いプラグインを置き換える「新しい」プラグインのリクエストはほとんどお断りしています。
 
 <!-- 
 This is because we cannot migrate users between plugins nor can we redirect traffic. This means that submitted a new plugin to change a slug is incredibly detrimental to the plugin's SEO and reputation, as users will be abandoned. The majority of plugins don't actually need a new URL, and instead just want to edit their display name.
  -->
-This is because we cannot migrate users between plugins nor can we redirect traffic. This means that submitted a new plugin to change a slug is incredibly detrimental to the plugin's SEO and reputation, as users will be abandoned. The majority of plugins don't actually need a new URL, and instead just want to edit their display name.
+これは、プラグイン間でのユーザー移行も、トラフィックのリダイレクトも、できないからです。つまり、スラッグを変更するために新しいプラグインを提出することは、プラグインの SEO と評判にとって信じられないほど有害であり、ユーザーは見捨てられてしまうということです。大多数のプラグインは実際には新しい URL を必要とせず、代わりに表示名を編集したいだけなのです。
 
 <!-- 
 Unless there's an egregious typo, language, or legal issue related to your slug, we are **unlikely** to approve a new slug. If we do, we will flag your account to note that future rename requests are to be denied.
  -->
-Unless there's an egregious typo, language, or legal issue related to your slug, we are **unlikely** to approve a new slug. If we do, we will flag your account to note that future rename requests are to be denied.
+あなたのスラッグに重大なタイプミス、言語、法律上の問題がない限り、新しいスラッグを承認することは **まずありません**。もし承認された場合は、今後のリネーム要求が拒否されるよう、あなたのアカウントにフラグを立てます。
 
 <!-- 
 ### How do I change my plugin's display name?
  -->
-### How do I change my plugin's display name?
+### プラグインの表示名を変更するには ?
 
 <!-- 
 You'll need to change it in the readme _and_ the plugin main file.
  -->
-You'll need to change it in the readme _and_ the plugin main file.
+readme _と_ プラグインのメインファイルで、変更する必要があります。
 
 <!-- 
 ### Can I make my display name anything?
  -->
-### Can I make my display name anything?
+### 表示名は何でもいいのですか ?
 
 <!-- 
 Don't use vulgarities or slurs or other intentionally abusive language. You cannot claim, or appear to claim, to be an official source if you're not. For example, if you've made a plugin that connects to the Frozbaz Service, you should call your plugin "Connector to Frozbaz Service" – in this way, you have made it clear you are making a plugin for a service, rather than being the service.
  -->
-Don't use vulgarities or slurs or other intentionally abusive language. You cannot claim, or appear to claim, to be an official source if you're not. For example, if you've made a plugin that connects to the Frozbaz Service, you should call your plugin "Connector to Frozbaz Service" – in this way, you have made it clear you are making a plugin for a service, rather than being the service.
+下品な言葉や中傷、その他意図的に乱暴な言葉を使用してはなりません。公式な情報源ではない場合、公式な情報源であると主張したり、主張しているように見せかけたりしてはいけません。たとえば、Frozbaz サービスに接続するプラグインを作った場合、プラグイン名を「Connector to Frozbaz Service」とすべきです – こうすることで、サービスではなく、サービスのプラグインを作っていることが明確になります。
 
 <!-- 
 If you're combining multiple services (a payment gateway to a popular ecommerce plugin, for example), we strongly recommend you come up with an original, unique, display name.
  -->
-If you're combining multiple services (a payment gateway to a popular ecommerce plugin, for example), we strongly recommend you come up with an original, unique, display name.
+複数のサービス (たとえば、人気の e コマースプラグインへの支払いゲートウェイ) を組み合わせる場合は、オリジナルのユニークな表示名をつけることを強くおすすめします。
 
 <!-- 
 ### Can I use WordPress or Plugin in my display name?
  -->
-### Can I use WordPress or Plugin in my display name?
+### WordPress や Plugin を、表示名に使用できますか ?
 
 <!-- 
 Currently yes, but you shouldn't. It's incredibly redundant and doesn't actually help your SEO in any way, shape, or form. We already put WordPress _and_ Plugin in your page title.
  -->
-Currently yes, but you shouldn't. It's incredibly redundant and doesn't actually help your SEO in any way, shape, or form. We already put WordPress _and_ Plugin in your page title.
+現在のところはイエスだが、そうすべきではありません。これは信じられないほど冗長であり、実際にはどのような形であれ SEO の役には立ちません。私たちはあなたのページのタイトルにすでに WordPress _と_ Plugin を入れています。
 
 <!-- 
 ### Should I use the trademark or registered symbol in my plugin name?
  -->
-### Should I use the trademark or registered symbol in my plugin name?
+### プラグイン名に、商標や登録商標を使うべきですか ?
 
 <!-- 
 Assuming you actually did apply for trademarks, you certainly _can_ but it's not commonly done. Not even Google or Facebook do that. Simply by using your trademark term and having a log of it (like your SVN log), you have usually done the needed legal action required to protect your brand. Consult a lawyer for details.
  -->
-Assuming you actually did apply for trademarks, you certainly _can_ but it's not commonly done. Not even Google or Facebook do that. Simply by using your trademark term and having a log of it (like your SVN log), you have usually done the needed legal action required to protect your brand. Consult a lawyer for details.
+実際に商標を出願したと仮定すれば、確かに _できる_ のですが、一般的には行われていません。Google や Facebook でさえ、そんなことはしません。商標タームを使用し、そのログ (SVN のログのようなもの) を残すだけで、あなたのブランドを保護するために必要な法的措置を取ることができます。詳しくは弁護士に相談してください。
 
 <!-- 
 ## Search
