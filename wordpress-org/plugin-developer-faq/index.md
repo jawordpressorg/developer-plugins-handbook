@@ -901,77 +901,77 @@ Neither. Make your display name memorable and descriptive, while keeping it unde
 <!-- 
 ## The Support Forums
  -->
-## The Support Forums
+## サポート・フォーラム
 
 <!-- 
 ### How do I get notified for forums posts?
  -->
-### How do I get notified for forums posts?
+### フォーラムへの投稿を通知してもらうには ?
 
 <!-- 
 Go to `https://wordpress.org/support/plugin/_YOUR_PLUGIN_` and look at the sidebar on the right. Click the Subscribe to this Plugin button for email alerts.
  -->
-Go to `https://wordpress.org/support/plugin/_YOUR_PLUGIN_` and look at the sidebar on the right. Click the Subscribe to this Plugin button for email alerts.
+`https://wordpress.org/support/plugin/_YOUR_PLUGIN_` にアクセスし、右側のサイドバーを見てください。「このプラグインを購読する」ボタンをクリックし、E メールアラートを購読します。
 
 <!-- 
 ### How do I get notified for all my plugins?
  -->
-### How do I get notified for all my plugins?
+### すべてのプラグインに、通知されるようにするには ?
 
 <!-- 
 Every plugin support forum page has a "Subscribe" button at the top of it. Click that and you will be emailed. You can see which plugin forums sets you are subscribed to at `https://wordpress.org/support/users/_YOUR_ID_/subscriptions`
  -->
-Every plugin support forum page has a "Subscribe" button at the top of it. Click that and you will be emailed. You can see which plugin forums sets you are subscribed to at `https://wordpress.org/support/users/_YOUR_ID_/subscriptions`
+どのプラグイン・サポートフォーラムのページにも、一番上に「購読」ボタンがあります。それをクリックするとメールが届きます。どのプラグインフォーラムに登録しているかは、右記リンクで確認できます。`https://wordpress.org/support/users/_YOUR_ID_/subscriptions`
 
 <!-- 
 For RSS, visit `https://wordpress.org/support/view/plugin-committer/_YOUR_ID_` will list all of the support requests and reviews for any plugin you have commit access. Not a committer, just someone listed as an author? Use `https://wordpress.org/support/view/plugin-contributor/_YOUR_ID_`
  -->
-For RSS, visit `https://wordpress.org/support/view/plugin-committer/_YOUR_ID_` will list all of the support requests and reviews for any plugin you have commit access. Not a committer, just someone listed as an author? Use `https://wordpress.org/support/view/plugin-contributor/_YOUR_ID_`
+RSS の場合、`https://wordpress.org/support/view/plugin-committer/_YOUR_ID_` にアクセスすると、あなたがコミットアクセス権を持っているプラグインのサポートリクエストとレビューが一覧表示されます。コミッターではなく、作者としてリストアップされているだけですか ? その場合は、右記リンクを使ってください。`https://wordpress.org/support/view/plugin-contributor/_YOUR_ID_`
 
 <!-- 
 You can also go to `https://profiles.wordpress.org/_YOUR_ID_/profile/notifications/` and put in any terms you want to be emailed for. Be careful, this can escalate if you use generic terms.
  -->
-You can also go to `https://profiles.wordpress.org/_YOUR_ID_/profile/notifications/` and put in any terms you want to be emailed for. Be careful, this can escalate if you use generic terms.
+また、`https://profiles.wordpress.org/_YOUR_ID_/profile/notifications/` にアクセスし、メールを送ってほしいタームを入力できます。一般的なタームを使用すると、エスカレートする可能性があるので注意してください。
 
 <!-- 
 ### How do I give a support account access to my plugin?
  -->
-### How do I give a support account access to my plugin?
+### サポートアカウントに、自分のプラグインへのアクセス権を与えるには ?
 
 <!-- 
 You can add Support Representatives to your plugin. Support representatives can mark forum topics as resolved or sticky (same as plugin authors and contributors), but don't have commit access to the plugin.
  -->
-You can add Support Representatives to your plugin. Support representatives can mark forum topics as resolved or sticky (same as plugin authors and contributors), but don't have commit access to the plugin.
+プラグインにサポート担当者を追加できます。サポート担当者は、フォーラムのトピックに「解決済み」や「付箋」マークを付けることができます (プラグインの作者やコントリビューターと同じです) が、プラグインへのコミット権限はありません。
 
 <!-- 
 The UI for managing plugin support reps can be found in Advanced View on the plugin page, next to managing committers. Once someone is added as a support rep, they will get a Plugin Support badge when replying to the plugin support topics or reviews.
  -->
-The UI for managing plugin support reps can be found in Advanced View on the plugin page, next to managing committers. Once someone is added as a support rep, they will get a Plugin Support badge when replying to the plugin support topics or reviews.
+プラグインのサポート担当者を管理する UI は、プラグインページの Advanced View でコミッターの管理の隣にあります。誰かがサポート担当者として追加されると、プラグインのサポートトピックやレビューに返信する際に、プラグインサポートバッジが表示されます。
 
 <!-- 
 ### Will you delete bad reviews or comments on my plugin?
  -->
-### Will you delete bad reviews or comments on my plugin?
+### 私のプラグインに関する悪いレビューやコメントを、削除してもらえますか ?
 
 <!-- 
 Generally no. A review is a reflection of an individual's experience with your product. If they didn't like it, that's not for us to change. If you feel that a review is invalid (such as for a different plugin), use the `modlook` button on the post. A member of the **forums** team will investigate.
  -->
-Generally no. A review is a reflection of an individual's experience with your product. If they didn't like it, that's not for us to change. If you feel that a review is invalid (such as for a different plugin), use the `modlook` button on the post. A member of the **forums** team will investigate.
+一般的には、ノーです。レビューとは、あなたのプロダクトに対する個人の経験を反映したものです。もしそれらを気に入らなかったとしても、私たちが変えることはできません。もしレビューが不適切だと感じたら (別のプラグインのレビューなど)、投稿にある `modlook` ボタンを使ってください。**フォーラム** チームのメンバーが調査します。
 
 <!-- 
 Abuse of the modlook feature may result in suspension of your plugins. Please, use it wisely.
  -->
-Abuse of the modlook feature may result in suspension of your plugins. Please, use it wisely.
+modlook 機能を乱用すると、プラグインが一時的に使用停止になる場合があります。賢く使ってください。
 
 <!-- 
 ### What is ‘Sockpuppeting'?
  -->
-### What is ‘Sockpuppeting'?
+### 「ソックパペット (Sockpuppeting)」とは ?
 
 <!-- 
 That's what happens when someone makes multiple accounts on the forums, usually to give themselves a number of 5-star reviews, or create fake support tickets to appear more responsive. Sockpuppeting is against our guidelines and will result in the reviews and posts being removed, but also may result in your account and all plugins being removed. Don't do it and don't flagrantly accuse others of doing it.
  -->
-That's what happens when someone makes multiple accounts on the forums, usually to give themselves a number of 5-star reviews, or create fake support tickets to appear more responsive. Sockpuppeting is against our guidelines and will result in the reviews and posts being removed, but also may result in your account and all plugins being removed. Don't do it and don't flagrantly accuse others of doing it.
+これは、誰かがフォーラムに複数のアカウントを作成し、通常、5つ星のレビューを多数つけたり、偽のサポートチケットを作成し、より迅速に対応するように見せかけたりすることです。Sockpuppeting は、ガイドラインに反しており、レビューや投稿が削除されるだけでなく、あなたのアカウントやすべてのプラグインが削除される可能性があります。やめておきましょう。そして、他人がやっていることを公然と糾弾しないようにしましょう。
 
 <!-- 
 ## Closed Plugins
