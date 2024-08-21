@@ -426,102 +426,102 @@ We encourage everyone to be creative and come up with unique slugs. We automatic
 <!-- 
 ## Using The SVN Repository
  -->
-## Using The SVN Repository
+## SVN リポジトリの使用
 
 <!-- 
 ### Where do I put my files?
  -->
-### Where do I put my files?
+### 自分のファイルは、どこに置けばいいの ?
 
 <!-- 
 Put your code files directly in the `trunk/` directory of your repository. Whenever you release a new version, [tag that release](https://developer.wordpress.org/plugins/wordpress-org/how-to-use-subversion/#tags) by copying the current trunk revision to a new subdirectory of the `tags/` directory.
  -->
-Put your code files directly in the `trunk/` directory of your repository. Whenever you release a new version, [tag that release](https://developer.wordpress.org/plugins/wordpress-org/how-to-use-subversion/#tags) by copying the current trunk revision to a new subdirectory of the `tags/` directory.
+コードファイルをリポジトリの `trunk/` ディレクトリに直接置いてください。新しいバージョンをリリースするたびに、現在のトランク・リビジョンを `tags/` ディレクトリの新しいサブディレクトリにコピーして、[そのリリースにタグを付けます](https://developer.wordpress.org/plugins/wordpress-org/how-to-use-subversion/#tags)。
 
 <!-- 
 Make sure you update [`trunk/readme.txt`](https://wordpress.org/plugins/developers/#readme) to reflect the **new** stable tag.
  -->
-Make sure you update [`trunk/readme.txt`](https://wordpress.org/plugins/developers/#readme) to reflect the **new** stable tag.
+[`trunk/readme.txt`](https://wordpress.org/plugins/developers/#readme) を更新して、**新しい** 安定版タグを反映させてください。
 
 <!-- 
 Images for the readme (such as [screenshots, plugin headers, and plugin icons](https://developer.wordpress.org/plugins/wordpress-org/plugin-assets/)), belong in the `assets/` directory (which you may need to create) in the root of your SVN checkout. This will be on the same level as `tags/` and `trunk/`, for example.
  -->
-Images for the readme (such as [screenshots, plugin headers, and plugin icons](https://developer.wordpress.org/plugins/wordpress-org/plugin-assets/)), belong in the `assets/` directory (which you may need to create) in the root of your SVN checkout. This will be on the same level as `tags/` and `trunk/`, for example.
+readme 用の画像 ( [スクリーンショット、プラグイン・ヘッダー、プラグイン・アイコン](https://developer.wordpress.org/plugins/wordpress-org/plugin-assets/) など) は、SVN チェックアウトの root にある `assets/` ディレクトリ (作成する必要があるかもしれません) に置きます。これは、たとえば、`tags/` や `trunk/` と同じ階層になります。
 
 <!-- 
 ### Can I put my files in a subdirectory of `trunk`?
  -->
-### Can I put my files in a subdirectory of `trunk`?
+### `trunk` のサブディレクトリに、自分のファイルを置いてもいいの ?
 
 <!-- 
 No. Doing that will cause the zip generator to break.
  -->
-No. Doing that will cause the zip generator to break.
+いいえ。そんなことをすると、ZIP ジェネレータが壊れてしまいます。
 
 <!-- 
 If you have complicated plugin with lots of files, you can of course organize them into subdirectories, but the [readme.txt file](https://wordpress.org/plugins/developers/#readme) and the root plugin file should go straight into `trunk/`.
  -->
-If you have complicated plugin with lots of files, you can of course organize them into subdirectories, but the [readme.txt file](https://wordpress.org/plugins/developers/#readme) and the root plugin file should go straight into `trunk/`.
+ファイルがたくさんある複雑なプラグインの場合は、もちろんサブディレクトリに編成できますが、ファイル [readme.txt](https://wordpress.org/plugins/developers/#readme) と root プラグイン・ファイルは、そのまま `trunk/` に入れてください。
 
 <!-- 
 ### How should I name my tags (a.k.a. releases)?
  -->
-### How should I name my tags (a.k.a. releases)?
+### タグ (いわゆる、リリース) には、どのような名前をつければいいの ?
 
 <!-- 
 Your Subversion tags should look like version numbers. Specifically, they should only contain **numbers and periods**. `2.8.4` is a good lookin' tag, `my neato releaso` is a bad lookin' tag. We recommend you use [Semantic Versioning](https://semver.org/) to keep track of releases, but we do not enforce this.
  -->
-Your Subversion tags should look like version numbers. Specifically, they should only contain **numbers and periods**. `2.8.4` is a good lookin' tag, `my neato releaso` is a bad lookin' tag. We recommend you use [Semantic Versioning](https://semver.org/) to keep track of releases, but we do not enforce this.
+Subversion のタグは、バージョン番号のように見えるべきです。具体的には、**数字とピリオド** だけを含むべきです。`2.8.4` は良いタグで、`my neato releaso` は悪いタグです。[セマンティック・バージョニング](https://semver.org/)を使ってリリース管理することを推奨しますが、強制はしません。
 
 <!-- 
 Note that we're talking about _Subversion_ tags here, not `readme.txt` search type tags.
  -->
-Note that we're talking about _Subversion_ tags here, not `readme.txt` search type tags.
+ここで話しているのは _Subversion_ タグについてであって、`readme.txt` 検索タイプのタグについてではないことに、注意してください。
 
 <!-- 
 ### How many old releases should I keep in SVN?
  -->
-### How many old releases should I keep in SVN?
+### SVN には、古いリリースをどれくらい残しておくべき ?
 
 <!-- 
 As few as possible. Very rarely does anyone need your old code in the release repository. Remember, SVN is **not** meant for your code versioning. You can use Github for stuff like that. SVN should have your current release versions, but you don't need all the minor releases to all the previous versions. Just the last one or two for them is good.
  -->
-As few as possible. Very rarely does anyone need your old code in the release repository. Remember, SVN is **not** meant for your code versioning. You can use Github for stuff like that. SVN should have your current release versions, but you don't need all the minor releases to all the previous versions. Just the last one or two for them is good.
+できるだけ少なく。リリース・リポジトリにあるあなたの古いコードを必要とする人は、めったにいません。SVN はコードのバージョニングのためのものでは **ない** ことを忘れないでください。そのようなことには、GitHub を使えばいいでしょう。SVN には現在のリリース・バージョンがあるはずですが、マイナー・リリースから以前のバージョンまでは必要なものではありません。最後の1つか2つだけで十分です。
 
 <!-- 
 ### Can I include SVN externals in my plugin?
  -->
-### Can I include SVN externals in my plugin?
+### 自分のプラグインに、SVN 外部参照を含めることはできる ?
 
 <!-- 
 No. You can add [svn externals](https://svnbook.red-bean.com/en/1.0/ch07s03.html) to your repository, but they won't get added to the downloadable zip file.
  -->
-No. You can add [svn externals](https://svnbook.red-bean.com/en/1.0/ch07s03.html) to your repository, but they won't get added to the downloadable zip file.
+いいえ。リポジトリに[svn 外部参照](https://svnbook.red-bean.com/en/1.0/ch07s03.html)を追加できますが、ダウンロード可能な zip ファイルには追加されません。
 
 <!-- 
 ### Can I put zips and other compressed files in my plugin?
  -->
-### Can I put zips and other compressed files in my plugin?
+### 自分のプラグインに、zip などの圧縮ファイルを入れることはできる ?
 
 <!-- 
 No.
  -->
-No.
+いいえ。
 
 <!-- 
 ### Can I include minified JS?
  -->
-### Can I include minified JS?
+### minify 化 JavaScript を含めることはできる ?
 
 <!-- 
 Yes! However you either have to keep the non-minified in your plugin _or_ direct people via your readme as to where they can get the non-minified files.
  -->
-Yes! However you either have to keep the non-minified in your plugin _or_ direct people via your readme as to where they can get the non-minified files.
+できます ! ただし、あなたのプラグインに非ミニファイ化ファイルを残しておくか、_或いは_ readme で非ミニファイ化ファイルを入手できる場所を指示する必要があります。
 
 <!-- 
 It's fine to minify, but it's not okay to hide it. All code must be human readable for inclusion in this directory.
  -->
-It's fine to minify, but it's not okay to hide it. All code must be human readable for inclusion in this directory.
+minify 化するのは構わないが、隠すのは駄目です。このディレクトリに入れるコードは、すべて人間が読めるものでなければなりません。
 
 <!-- 
 ## Your WordPress.Org Page
