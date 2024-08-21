@@ -491,7 +491,7 @@ As few as possible. Very rarely does anyone need your old code in the release re
 <!-- 
 ### Can I include SVN externals in my plugin?
  -->
-### 爺分のプラグインに、SVN 外部参照を含めることはできる ?
+### 自分のプラグインに、SVN 外部参照を含めることはできる ?
 
 <!-- 
 No. You can add [svn externals](https://svnbook.red-bean.com/en/1.0/ch07s03.html) to your repository, but they won't get added to the downloadable zip file.
