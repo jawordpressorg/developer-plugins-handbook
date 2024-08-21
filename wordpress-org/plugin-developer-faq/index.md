@@ -1,47 +1,47 @@
 <!-- 
 # Plugin Developer FAQ
  -->
-# Plugin Developer FAQ
+# プラグイン開発者 FAQ
 
 <!-- 
 There are lot of ins and outs to hosting WordPress plugins. Please take a minute to see if your question is answered here before reaching out for assistance.
  -->
-There are lot of ins and outs to hosting WordPress plugins. Please take a minute to see if your question is answered here before reaching out for assistance.
+WordPress プラグインのホスティングには、多くの心得があります。お問い合わせの前に、あなたの質問がここで解決されるかどうか、少し時間を取って見てください。
 
 <!-- 
 ## The Plugin Review Team
  -->
-## The Plugin Review Team
+## プラグイン・レビューチーム
 
 <!-- 
 ### How do I contact the Plugin Review team?
  -->
-### How do I contact the Plugin Review team?
+### プラグイン・レビューチームへの連絡方法は ?
 
 <!-- 
 You can contact us by email at `plugins@wordpress.org` – we reply to all emails within 7 business days.
  -->
-You can contact us by email at `plugins@wordpress.org` – we reply to all emails within 7 business days.
+お問い合わせは `plugins@wordpress.org` 宛ての E メールにて承っています。7営業日以内に返信します。
 
 <!-- 
 ### Does the review team work for Automattic?
  -->
-### Does the review team work for Automattic?
+### レビューチームは、Automattic のために働いているのですか ?
 
 <!-- 
 No. The review team is made up of 100% volunteers. Some are compensated by their full-time employers, but no one is hired by WordPress.org, Automattic, or WordPress.com
  -->
-No. The review team is made up of 100% volunteers. Some are compensated by their full-time employers, but no one is hired by WordPress.org, Automattic, or WordPress.com
+いいえ。レビューチームは、100%ボランティアで構成されています。フルタイムの雇用主から報酬を得ている人もいますが、WordPress.org、Automattic、WordPress.com に雇われている人はいません。
 
 <!-- 
 ### Can I join the team?
  -->
-### Can I join the team?
+### チームに参加できますか ?
 
 <!-- 
 Please take a look at [this handbook page](https://make.wordpress.org/plugins/handbook/apply/).
  -->
-Please take a look at [this handbook page](https://make.wordpress.org/plugins/handbook/apply/).
+[このハンドブックのページ](https://make.wordpress.org/plugins/handbook/apply/)をご覧ください。
 
 <!-- 
 ## Submissions and Reviews
