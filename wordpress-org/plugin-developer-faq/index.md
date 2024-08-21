@@ -866,37 +866,37 @@ Assuming you actually did apply for trademarks, you certainly _can_ but it's not
 <!-- 
 ## Search
  -->
-## Search
+## 検索
 
 <!-- 
 ### How long will it take for my plugin to show up in search?
  -->
-### How long will it take for my plugin to show up in search?
+### 私のプラグインが検索に表示されるまで、どのくらい掛かりますか ?
 
 <!-- 
 Usually 6 to 14 days after a plugin is committed to SVN. This is because we have to add your data, parse it, and share it to all of our _heavily_ cached servers. It's not instantaneous. Also as a new plugin, we have no data on usage, so you may need to wait a bit.
  -->
-Usually 6 to 14 days after a plugin is committed to SVN. This is because we have to add your data, parse it, and share it to all of our _heavily_ cached servers. It's not instantaneous. Also as a new plugin, we have no data on usage, so you may need to wait a bit.
+プラグインが SVN にコミットされてから、通常、6日から14日後です。あなたのデータを追加し、解析し、私たちの _ヘビーな_ キャッシュサーバーすべてに共有する必要があるためです。即座に反映されるわけではありません。また、新しいプラグインである場合は、使用状況に関するデータがないので、少し待つ必要があるかもしれません。
 
 <!-- 
 ### How do I rank higher?
  -->
-### How do I rank higher?
+### どうすれば、上位にランクインできますか ?
 
 <!-- 
 Write a good readme for the language, answer support posts promptly, get good reviews.
  -->
-Write a good readme for the language, answer support posts promptly, get good reviews.
+その言語のための良い readme を書き、サポートの投稿に迅速に答え、良いレビューを得ることです。
 
 <!-- 
 ### What's weighted more, my URL or my display name?
  -->
-### What's weighted more, my URL or my display name?
+### URL と表示名とでは、どっちが重みがありますか ?
 
 <!-- 
 Neither. Make your display name memorable and descriptive, while keeping it under 5 words, for maximum benefit.
  -->
-Neither. Make your display name memorable and descriptive, while keeping it under 5 words, for maximum benefit.
+どちらでもありません。最大限の効果を得るために、英単語5語以内に抑えつつ、印象的で説明的な表示名にしましょう。
 
 <!-- 
 ## The Support Forums
