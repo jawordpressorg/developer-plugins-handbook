@@ -1280,124 +1280,124 @@ The last thing we want to do is ban someone and disable all their plugins. It's 
 <!-- 
 ## Plugin Ownership
  -->
-## Plugin Ownership
+## プラグインの所有権
 
 <!-- 
 ### How do I give someone else access to my plugin?
  -->
-### How do I give someone else access to my plugin?
+### 自分のプラグインに、他の人がアクセスできるようにするには ?
 
 <!-- 
 To add users as committers, that is give them access to update code, go to `https://wordpress.org/plugins/_YOUR_PLUGIN_/advanced` and add their username in as a committer.
  -->
-To add users as committers, that is give them access to update code, go to `https://wordpress.org/plugins/_YOUR_PLUGIN_/advanced` and add their username in as a committer.
+ユーザーをコミッターとして追加する、つまり、彼らにコードを更新する権限を与えるには、`https://wordpress.org/plugins/_YOUR_PLUGIN_/advanced` に行き、彼らのユーザー名をコミッターとして追加します。
 
 <!-- 
 To have them show up as an author, add their username to the `readme.txt` file.
  -->
-To have them show up as an author, add their username to the `readme.txt` file.
+作者として表示させるには、ファイル `readme.txt` に、彼らのユーザー名を追加してください。
 
 <!-- 
 _Do not add regular users as authors._ It's meant for people who help with development only. This means if someone 'inspired' you, you should not add them as an author.
  -->
-_Do not add regular users as authors._ It's meant for people who help with development only. This means if someone 'inspired' you, you should not add them as an author.
+_一般ユーザーを、作者として追加しないでください。_ これは、開発を手伝ってくれる人だけのためのものです。つまり、誰かがあなたに「インスピレーション」を与えたとしても、その人を作者として加えるべきではありません。
 
 <!-- 
 ### How do I remove someone's access from my plugin?
  -->
-### How do I remove someone's access from my plugin?
+### 自分のプラグインから、誰かのアクセスを削除するには ?
 
 <!-- 
 Anyone with commit access can do this. Go to `https://wordpress.org/plugins/_YOUR_PLUGIN_/advanced` and hover over their ID. A delete link will appear. Click on it.
  -->
-Anyone with commit access can do this. Go to `https://wordpress.org/plugins/_YOUR_PLUGIN_/advanced` and hover over their ID. A delete link will appear. Click on it.
+コミットにアクセスできる人なら誰でもできます。`https://wordpress.org/plugins/_YOUR_PLUGIN_/advanced` にアクセスして、彼らの ID にカーソルを合わせてください。削除リンクが表示されます。それをクリックしてください。
 
 <!-- 
 Please don't delete yourself.
  -->
-Please don't delete yourself.
+どうか自分自身を削除しないでください。
 
 <!-- 
 ### How do I change the plugin owner?
  -->
-### How do I change the plugin owner?
+### プラグインの所有者を変更するには ?
 
 <!-- 
 Go to the Advanced tab and scroll down to the Danger Zone. There you will see a section for **Transfer Your Plugin**. Pick someone from the dropdown and click the button.
  -->
-Go to the Advanced tab and scroll down to the Danger Zone. There you will see a section for **Transfer Your Plugin**. Pick someone from the dropdown and click the button.
+「Advanced」タブに行き、「Danger Zone」までスクロールダウンします。そこに **Transfer Your Plugin (プラグインを譲渡する)** のセクションがあります。ドロップダウンから誰かを選び、ボタンをクリックしてください。
 
 <!-- 
 For more details, please read the [documentation on transferring plugins](https://developer.wordpress.org/plugins/wordpress-org/transferring-your-plugin-to-a-new-owner/).
  -->
-For more details, please read the [documentation on transferring plugins](https://developer.wordpress.org/plugins/wordpress-org/transferring-your-plugin-to-a-new-owner/).
+詳しくは、[プラグインの譲渡に関するドキュメント](https://developer.wordpress.org/plugins/wordpress-org/transferring-your-plugin-to-a-new-owner/)をお読みください。
 
 <!-- 
 ### I tried to transfer my plugin but it says I can’t. Why not?
  -->
-### I tried to transfer my plugin but it says I can’t. Why not?
+### プラグインを譲渡しようとしたのですが、できないと言われました。なぜですか ?
 
 <!-- 
 Plugins with a large number of users (over 10,000) or ones that are deemed critical to the WordPress project (such as featured or beta plugins) can only be transfered via written request to the plugins team. [Please read the documentation on transfering plugins for details](https://developer.wordpress.org/plugins/wordpress-org/transferring-your-plugin-to-a-new-owner/).
  -->
-Plugins with a large number of users (over 10,000) or ones that are deemed critical to the WordPress project (such as featured or beta plugins) can only be transfered via written request to the plugins team. [Please read the documentation on transfering plugins for details](https://developer.wordpress.org/plugins/wordpress-org/transferring-your-plugin-to-a-new-owner/).
+ユーザー数が多い (1万人以上) プラグインや、WordPress プロジェクトにとって重要であると判断されたプラグイン (注目プラグインやベータ版プラグインなど) は、プラグインチームへの書面によるリクエストによってのみ、譲渡できます。詳しくは、[プラグインの譲渡に関するドキュメント](https://developer.wordpress.org/plugins/wordpress-org/transferring-your-plugin-to-a-new-owner/)をお読みください
 
 <!-- 
 ### How can I take over an abandoned plugin?
  -->
-### How can I take over an abandoned plugin?
+### 放置されたプラグインを引き継ぐには ?
 
 <!-- 
 [We permit users to adopt existing plugins that are no longer currently developed](https://developer.wordpress.org/plugins/wordpress-org/take-over-an-existing-plugin/).
  -->
-[We permit users to adopt existing plugins that are no longer currently developed](https://developer.wordpress.org/plugins/wordpress-org/take-over-an-existing-plugin/).
+[私たちは、現在開発されていない既存プラグインの引き継ぎをユーザーに許可しています](https://developer.wordpress.org/plugins/wordpress-org/take-over-an-existing-plugin/)。
 
 <!-- 
 We ask you try to connect with the original developers first, so they can add you. In some case, that's not possible and you should start with fixing the plugin. Make sure it meets coding standards, is secure, and update the copyright information to include yourself. Then you can contact us regarding [plugin adoption](https://developer.wordpress.org/plugins/wordpress-org/take-over-an-existing-plugin/).
  -->
-We ask you try to connect with the original developers first, so they can add you. In some case, that's not possible and you should start with fixing the plugin. Make sure it meets coding standards, is secure, and update the copyright information to include yourself. Then you can contact us regarding [plugin adoption](https://developer.wordpress.org/plugins/wordpress-org/take-over-an-existing-plugin/).
+まずはオリジナルの開発者と連絡を取ってみてください。そうすれば、彼らはあなたをコミッターとして追加できます。場合によっては、それが不可能で、プラグインの修正から始める必要があります。コーディング標準を満たしていること、安全であることを確認し、あなた自身を含めるために著作権情報を更新してください。その後、[プラグインの引き継ぎ](https://developer.wordpress.org/plugins/wordpress-org/take-over-an-existing-plugin/)について私たちに連絡してください。
 
 <!-- 
 We offer **no** guarantee that you will be given anyone's plugin, even following a successful review.
  -->
-We offer **no** guarantee that you will be given anyone's plugin, even following a successful review.
+たとえレビューが成功しても、あなたが誰かのプラグインを与えられることを、私たちは、**一切** 保証しません。
 
 <!-- 
 ### Are these offers to buy my plugin legit?
  -->
-### Are these offers to buy my plugin legit?
+### 私のプラグインを買おうというオファーは、合法ですか ?
 
 <!-- 
 Short answer: Probably not.
  -->
-Short answer: Probably not.
+簡潔な答え: おそらく無理でしょう。
 
 <!-- 
 Many developers receive unsolicited emails or offers to purchase their plugin. We have found the vast majority of these to be fraudulent and do _not_ recommend you follow up with them.
  -->
-Many developers receive unsolicited emails or offers to purchase their plugin. We have found the vast majority of these to be fraudulent and do _not_ recommend you follow up with them.
+多くの開発者が、迷惑メールやプラグイン購入のオファーを受け取っています。私たちは、これらの大半が詐欺であることを発見しており、そのようなメールに従うことをおすすめ _しません_。
 
 <!-- 
 While legitimate offers do come, they're usually from the official company to whom a plugin is related, or from a well established plugin company. The ones that start "We're reaching out to the WordPress community …" or "We are looking to acquire existing WordPress plugins …" should not be trusted. Such purchases have often destroyed the reputation of the plugin (and the original developer) by engaging in sleazy tactics such as tracking users or other serious guideline violations.
  -->
-While legitimate offers do come, they're usually from the official company to whom a plugin is related, or from a well established plugin company. The ones that start "We're reaching out to the WordPress community …" or "We are looking to acquire existing WordPress plugins …" should not be trusted. Such purchases have often destroyed the reputation of the plugin (and the original developer) by engaging in sleazy tactics such as tracking users or other serious guideline violations.
+合法的なオファーが来ることはありますが、たいていはプラグインが関連する公式の会社か、十分に確立されたプラグイン会社からのものです。「WordPress コミュニティに働きかけています…」や「既存の WordPress プラグインを買収しようとしています…」で始まるものは、信用してはいけません。このような買収は、ユーザーを追跡したり、その他の深刻なガイドライン違反のような卑劣な戦術に関与することによって、プラグイン (および元の開発者) の信用をしばしば破壊してきました。
 
 <!-- 
 If you do choose to sell your plugin (or give it away to someone else), please make sure the new owners understand all the [guidelines of the repository](https://developer.wordpress.org/plugins/wordpress-org/detailed-plugin-guidelines/). Should they violate our terms the plugin will be removed, and we may not give it back depending on the level of the violation. Whomever has commit access to a plugin has the ownership and responsibility of it's behavior for users. Spamming, inserting tracking data, and adding junk features are the fastest way to ruin your plugin.
  -->
-If you do choose to sell your plugin (or give it away to someone else), please make sure the new owners understand all the [guidelines of the repository](https://developer.wordpress.org/plugins/wordpress-org/detailed-plugin-guidelines/). Should they violate our terms the plugin will be removed, and we may not give it back depending on the level of the violation. Whomever has commit access to a plugin has the ownership and responsibility of it's behavior for users. Spamming, inserting tracking data, and adding junk features are the fastest way to ruin your plugin.
+もしプラグインを売却する (または他の人に譲る) 場合は、新しい所有者が[リポジトリのガイドライン](https://developer.wordpress.org/plugins/wordpress-org/detailed-plugin-guidelines/)をすべて理解していることを確認してください。私たちの規約に違反した場合、プラグインは削除され、違反の度合いによってはプラグインを返さないこともあります。プラグインへのコミットアクセス権を持っている人は、そのプラグインの所有権を持ち、ユーザーに対する振る舞いに責任を負います。スパム、トラッキングデータの挿入、ジャンクな機能の追加は、あなたのプラグインを台無しにする最も早い方法です。
 
 <!-- 
 We advocate only giving your plugin to people you _personally_ have vetted, and that you trust with being responsible with your code and your users.
  -->
-We advocate only giving your plugin to people you _personally_ have vetted, and that you trust with being responsible with your code and your users.
+あなたのコードとユーザーに対して責任を負うということを信頼して、あなたが _個人的に_ 吟味した人にのみ、プラグインを提供することを、私たちは、推奨しています。
 
 <!-- 
 ### What happens when a plugin developer dies?
  -->
-### What happens when a plugin developer dies?
+### プラグイン開発者が亡くなったら、どうなりますか ?
 
 <!-- 
 When a developer is determined to have died, they are removed from their own plugins in order to prevent the unethical from gaining access and harming users. If they are the only developer, the plugin may be closed. All attempts are made to find their friends and coworkers, to offer them a chance to adopt the code first, but if no one reliable or willing can be found the plugin is closed.
  -->
-When a developer is determined to have died, they are removed from their own plugins in order to prevent the unethical from gaining access and harming users. If they are the only developer, the plugin may be closed. All attempts are made to find their friends and coworkers, to offer them a chance to adopt the code first, but if no one reliable or willing can be found the plugin is closed.
+開発者が死亡したと判断された場合、倫理に反する者がアクセスし、利用者に危害を加えることを防ぐために、その開発者は自分のプラグインから削除されます。もし開発者がその人だけであれば、プラグインはクローズされるかもしれません。開発者の友人や同僚を見つけ、彼らにコードを引き継ぐ機会を与えようと試みますが、信頼できる人や意欲的な人が見つからない場合、プラグインは閉鎖されます。
