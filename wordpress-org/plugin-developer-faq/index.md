@@ -456,7 +456,7 @@ readme 用の画像 ( [スクリーンショット、プラグイン・ヘッダ
 <!-- 
 No. Doing that will cause the zip generator to break.
  -->
-いいえ。そんなことをすると、ZIP ジェネレータが壊れてしまいます。
+いいえ。そんなことをすると、zip ジェネレータが壊れてしまいます。
 
 <!-- 
 If you have complicated plugin with lots of files, you can of course organize them into subdirectories, but the [readme.txt file](https://wordpress.org/plugins/developers/#readme) and the root plugin file should go straight into `trunk/`.
@@ -496,7 +496,7 @@ As few as possible. Very rarely does anyone need your old code in the release re
 <!-- 
 No. You can add [svn externals](https://svnbook.red-bean.com/en/1.0/ch07s03.html) to your repository, but they won't get added to the downloadable zip file.
  -->
-いいえ。リポジトリに[svn 外部参照](https://svnbook.red-bean.com/en/1.0/ch07s03.html)を追加できますが、ダウンロード可能な zip ファイルには追加されません。
+いいえ。リポジトリに [svn 外部参照](https://svnbook.red-bean.com/en/1.0/ch07s03.html)を追加できますが、ダウンロード可能な zip ファイルには追加されません。
 
 <!-- 
 ### Can I put zips and other compressed files in my plugin?
@@ -516,7 +516,7 @@ No.
 <!-- 
 Yes! However you either have to keep the non-minified in your plugin _or_ direct people via your readme as to where they can get the non-minified files.
  -->
-できます ! ただし、あなたのプラグインに非ミニファイ化ファイルを残しておくか、_或いは_ readme で非ミニファイ化ファイルを入手できる場所を指示する必要があります。
+できます ! ただし、あなたのプラグインに非 minify 化ファイルを残しておくか、_或いは_ readme で非 minify 化ファイルを入手できる場所を指示する必要があります。
 
 <!-- 
 It's fine to minify, but it's not okay to hide it. All code must be human readable for inclusion in this directory.
@@ -971,7 +971,7 @@ modlook 機能を乱用すると、プラグインが一時的に使用停止に
 <!-- 
 That's what happens when someone makes multiple accounts on the forums, usually to give themselves a number of 5-star reviews, or create fake support tickets to appear more responsive. Sockpuppeting is against our guidelines and will result in the reviews and posts being removed, but also may result in your account and all plugins being removed. Don't do it and don't flagrantly accuse others of doing it.
  -->
-これは、誰かがフォーラムに複数のアカウントを作成し、通常、5つ星のレビューを多数つけたり、偽のサポートチケットを作成し、より迅速に対応するように見せかけたりすることです。Sockpuppeting は、ガイドラインに反しており、レビューや投稿が削除されるだけでなく、あなたのアカウントやすべてのプラグインが削除される可能性があります。やめておきましょう。そして、他人がやっていることを公然と糾弾しないようにしましょう。
+これは、誰かがフォーラムに複数のアカウントを作成し、通常、5つ星のレビューを多数つけたり、偽のサポートチケットを作成し、より迅速に対応するように見せかけたりすることです。ソックパペットは、ガイドラインに反しており、レビューや投稿が削除されるだけでなく、あなたのアカウントやすべてのプラグインが削除される可能性があります。やめておきましょう。そして、他人がやっていることを公然と糾弾しないようにしましょう。
 
 <!-- 
 ## Closed Plugins
@@ -1370,7 +1370,7 @@ We offer **no** guarantee that you will be given anyone's plugin, even following
 <!-- 
 Short answer: Probably not.
  -->
-簡潔な答え: おそらく無理でしょう。
+簡潔な答え: おそらく違うでしょう。
 
 <!-- 
 Many developers receive unsolicited emails or offers to purchase their plugin. We have found the vast majority of these to be fraudulent and do _not_ recommend you follow up with them.
@@ -1400,4 +1400,4 @@ We advocate only giving your plugin to people you _personally_ have vetted, and 
 <!-- 
 When a developer is determined to have died, they are removed from their own plugins in order to prevent the unethical from gaining access and harming users. If they are the only developer, the plugin may be closed. All attempts are made to find their friends and coworkers, to offer them a chance to adopt the code first, but if no one reliable or willing can be found the plugin is closed.
  -->
-開発者が死亡したと判断された場合、倫理に反する者がアクセスし、利用者に危害を加えることを防ぐために、その開発者は自分のプラグインから削除されます。もし開発者がその人だけであれば、プラグインはクローズされるかもしれません。開発者の友人や同僚を見つけ、彼らにコードを引き継ぐ機会を与えようと試みますが、信頼できる人や意欲的な人が見つからない場合、プラグインは閉鎖されます。
+開発者が死亡したと判断された場合、倫理に反する者がアクセスし、利用者に危害を加えることを防ぐために、その開発者は自分のプラグインから削除されます。もし開発者がその人だけであれば、プラグインはクローズされるかもしれません。開発者の友人や同僚を見つけ、彼らにコードを引き継ぐ機会を与えようと試みますが、信頼できる人や意欲的な人が見つからない場合、プラグインはクローズされます。
