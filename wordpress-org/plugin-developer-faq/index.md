@@ -1056,7 +1056,7 @@ If this is for a brand new plugin, you should just call it a 'public beta' so pe
 <!-- 
 When a plugin is closed, the page shows as closed and the zips are no longer generated. No one will be able to download the plugin via the website, nor will they be able to install it via the WordPress admin. The SVN repository will remain accessible to allow others to download and fork the code if desired, per the tenets of the directory.
  -->
-プラグインがクローズされると、ページはクローズされたと表示され、zip は生成されなくなります。Web サイトからプラグインをダウンロードすることも、WordPress 管理画面からインストールすることもできなくなります。SVN リポジトリは、ディレクトリの方針に従って、必要であれば他の人がコードをダウンロードしてフォークできるようにアクセス可能なままです。
+プラグインがクローズされると、ページはクローズされたと表示され、zip は生成されなくなります。Web サイトからプラグインのダウンロードも、WordPress 管理画面からのインストールもできなくなります。SVN リポジトリは、ディレクトリの方針に従って、必要であれば他の人がコードをダウンロードしてフォークできるようにアクセス可能なままです。
 
 <!-- 
 After 60 days, the closure message will change to alert people as to _why_ it was closed but only in the broadest terms (Guideline Violation, Security, etc) and not with explicit details.
