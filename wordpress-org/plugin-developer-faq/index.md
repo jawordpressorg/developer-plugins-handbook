@@ -1081,7 +1081,7 @@ If a plugin has never been used within 6 months (i.e. no code has been pushed to
 <!-- 
 ### Why was someone else's plugin closed?
  -->
-### 他人のプラグインは、なぜクローズされたの ?
+### あのプラグインは、なぜクローズされたの ?
 
 <!-- 
 As of 2017, plugin closure reasons are tracked in the plugin database. Sixty days after a plugin is closed, the reason for the closure will be made public:
