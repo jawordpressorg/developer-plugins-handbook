@@ -456,7 +456,7 @@ readme 用の画像 ( [スクリーンショット、プラグイン・ヘッダ
 <!-- 
 No. Doing that will cause the zip generator to break.
  -->
-いいえ。そんなことをすると、ZIP ジェネレータが壊れてしまいます。
+いいえ。そんなことをすると、zip ジェネレータが壊れてしまいます。
 
 <!-- 
 If you have complicated plugin with lots of files, you can of course organize them into subdirectories, but the [readme.txt file](https://wordpress.org/plugins/developers/#readme) and the root plugin file should go straight into `trunk/`.
@@ -496,7 +496,7 @@ As few as possible. Very rarely does anyone need your old code in the release re
 <!-- 
 No. You can add [svn externals](https://svnbook.red-bean.com/en/1.0/ch07s03.html) to your repository, but they won't get added to the downloadable zip file.
  -->
-いいえ。リポジトリに[svn 外部参照](https://svnbook.red-bean.com/en/1.0/ch07s03.html)を追加できますが、ダウンロード可能な zip ファイルには追加されません。
+いいえ。リポジトリに [svn 外部参照](https://svnbook.red-bean.com/en/1.0/ch07s03.html)を追加できますが、ダウンロード可能な zip ファイルには追加されません。
 
 <!-- 
 ### Can I put zips and other compressed files in my plugin?
@@ -516,7 +516,7 @@ No.
 <!-- 
 Yes! However you either have to keep the non-minified in your plugin _or_ direct people via your readme as to where they can get the non-minified files.
  -->
-できます ! ただし、あなたのプラグインに非ミニファイ化ファイルを残しておくか、_或いは_ readme で非ミニファイ化ファイルを入手できる場所を指示する必要があります。
+できます ! ただし、あなたのプラグインに非 minify 化ファイルを残しておくか、_或いは_ readme で非 minify 化ファイルを入手できる場所を指示する必要があります。
 
 <!-- 
 It's fine to minify, but it's not okay to hide it. All code must be human readable for inclusion in this directory.
@@ -971,262 +971,262 @@ modlook 機能を乱用すると、プラグインが一時的に使用停止に
 <!-- 
 That's what happens when someone makes multiple accounts on the forums, usually to give themselves a number of 5-star reviews, or create fake support tickets to appear more responsive. Sockpuppeting is against our guidelines and will result in the reviews and posts being removed, but also may result in your account and all plugins being removed. Don't do it and don't flagrantly accuse others of doing it.
  -->
-これは、誰かがフォーラムに複数のアカウントを作成し、通常、5つ星のレビューを多数つけたり、偽のサポートチケットを作成し、より迅速に対応するように見せかけたりすることです。Sockpuppeting は、ガイドラインに反しており、レビューや投稿が削除されるだけでなく、あなたのアカウントやすべてのプラグインが削除される可能性があります。やめておきましょう。そして、他人がやっていることを公然と糾弾しないようにしましょう。
+これは、誰かがフォーラムに複数のアカウントを作成し、通常、5つ星のレビューを多数つけたり、偽のサポートチケットを作成し、より迅速に対応するように見せかけたりすることです。ソックパペットは、ガイドラインに反しており、レビューや投稿が削除されるだけでなく、あなたのアカウントやすべてのプラグインが削除される可能性があります。やめておきましょう。そして、他人がやっていることを公然と糾弾しないようにしましょう。
 
 <!-- 
 ## Closed Plugins
  -->
-## Closed Plugins
+## クローズされたプラグイン
 
 <!-- 
 ### How do I close my plugin?
  -->
-### How do I close my plugin?
+### 私のプラグインをクローズするには ?
 
 <!-- 
 As of April 2020, you can close your own plugins at any time. To do so, go to the **advanced** tab on your plugin page (i.e. `https://wordpress.org/plugins/_MY_PLUGIN_/advanced/`) and scroll down to the **CLOSE THIS PLUGIN** section. There you will see a warning message and a button.
  -->
-As of April 2020, you can close your own plugins at any time. To do so, go to the **advanced** tab on your plugin page (i.e. `https://wordpress.org/plugins/_MY_PLUGIN_/advanced/`) and scroll down to the **CLOSE THIS PLUGIN** section. There you will see a warning message and a button.
+2020年4月より、自分のプラグインをいつでもクローズできるようになりました。そのためには、プラグインページの **advanced** タブ (つまり `https://wordpress.org/plugins/_MY_PLUGIN_/advanced/`) に行き、**CLOSE THIS PLUGIN (このプラグインをクローズする)** セクションまでスクロールダウンしてください。そこに警告メッセージとボタンがあります。
 
 <!-- 
 ![Image of the "Close this plugin" feature, with the note "WARNING: Closing your plugin is intended to be a permanent action. You will not be able to reopen it without contacting the plugins team." Below that is a button saying "I understand."](https://i3.wp.com/developer.wordpress.org/files/2020/04/HowtoClose.png)
  -->
-![Image of the "Close this plugin" feature, with the note "WARNING: Closing your plugin is intended to be a permanent action. You will not be able to reopen it without contacting the plugins team." Below that is a button saying "I understand."](https://i3.wp.com/developer.wordpress.org/files/2020/04/HowtoClose.png)
+![「警告：プラグインをクローズすることは永久的な行為です。プラグイン・チームに連絡しない限り、プラグインを再オープンできません。」の注記付き、「CLOSE THIS PLUGIN」機能の画像。その下に「I understand.」というボタンがある。](https://i3.wp.com/developer.wordpress.org/files/2020/04/HowtoClose.png)
 
 <!-- 
 If you agree to the warning, and want to close your plugin, press the button.
  -->
-If you agree to the warning, and want to close your plugin, press the button.
+警告に同意し、プラグインをクローズしたい場合は、ボタンを押してください。
 
 <!-- 
 Keep in mind, you _will not_ get your plugin restored unless you can justify your situation. Closing a plugin by request is intended to be **permanent**.
  -->
-Keep in mind, you _will not_ get your plugin restored unless you can justify your situation. Closing a plugin by request is intended to be **permanent**.
+自分の状況を正当化できない限り、プラグインを復活させることは _できない_ ことを覚えておいてください。リクエストによるプラグインのクローズは **永続的** であることを意図しています。
 
 <!-- 
 ### What if I accidentally closed my plugin?
  -->
-### What if I accidentally closed my plugin?
+### 私のプラグインを、誤ってクローズしてしまったら ?
 
 <!-- 
 Email `plugins@wordpress.org` and ask to please have your plugin reopened. However you will be asked how you managed to do that so that we can improve the functionality of the feature.
  -->
-Email `plugins@wordpress.org` and ask to please have your plugin reopened. However you will be asked how you managed to do that so that we can improve the functionality of the feature.
+`plugins@wordpress.org` にメールを送り、プラグインを再オープンしてくださいとお願いしてください。ただし、この機能の機能性を向上させるために、どのように管理したかを尋ねられます。
 
 <!-- 
 ### Why won't it let me close my own plugin?
  -->
-### Why won't it let me close my own plugin?
+### 私のプラグインを、なぜクローズできないの ?
 
 <!-- 
 Assuming you're logged in as the correct account, it's probably because you have too many users. If your plugin has more than 10,000 users, you will need to email `plugins@wordpress.org` and request for us to close it.
  -->
-Assuming you're logged in as the correct account, it's probably because you have too many users. If your plugin has more than 10,000 users, you will need to email `plugins@wordpress.org` and request for us to close it.
+正しいアカウントでログインしていると仮定すると、おそらくユーザー数が多すぎることが原因です。もしあなたのプラグインのユーザー数が1万人以上であれば、`plugins@wordpress.org` にメールを送り、プラグインをクローズするようリクエストする必要があります。
 
 <!-- 
 ### Can I temporarily close my plugin?
  -->
-### Can I temporarily close my plugin?
+### 私のプラグインを、一時的にクローズできるの ?
 
 <!-- 
 No.
  -->
-No.
+いいえ。
 
 <!-- 
 We do not permit this as it creates a poor experience for users. Hiding plugins makes users think the plugin has been pulled for security or guideline issues, which causes them not to trust you anymore. We cannot prevent what they think, so instead we prohibit 'temporary' closures.
  -->
-We do not permit this as it creates a poor experience for users. Hiding plugins makes users think the plugin has been pulled for security or guideline issues, which causes them not to trust you anymore. We cannot prevent what they think, so instead we prohibit 'temporary' closures.
+このような行為は、ユーザーにとって好ましくない体験となるため、私たちは許可していません。プラグインを非表示にすることで、ユーザーはそのプラグインがセキュリティやガイドラインの問題で削除されたと思い、あなたのことを信用しなくなります。そのため、私たちは「一時的な」クローズを禁止しています。
 
 <!-- 
 Generally people want to do this when their plugin has a bug that is being fixed, or when they're unable to support it. We recommend you instead just fix the bug as soon as possible, or if you cannot support the plugin, update the readme to say it's currently unsupported and why.
  -->
-Generally people want to do this when their plugin has a bug that is being fixed, or when they're unable to support it. We recommend you instead just fix the bug as soon as possible, or if you cannot support the plugin, update the readme to say it's currently unsupported and why.
+一般的に、プラグインに修正中のバグがあるときや、サポートできないときに、このようなことをしたがります。その代わりに、できるだけ早くバグを修正するか、プラグインをサポートできない場合は、readme を更新して、現在のところサポートされていないこととその理由を書くことをおすすめします。
 
 <!-- 
 If this is for a brand new plugin, you should just call it a 'public beta' so people are aware of the status.
  -->
-If this is for a brand new plugin, you should just call it a 'public beta' so people are aware of the status.
+新しいプラグインの場合、「パブリックベータ」と呼ぶべきです。そうすることで、人々は状態を認識できます。
 
 <!-- 
 ### What happens when a plugin is closed?
  -->
-### What happens when a plugin is closed?
+### プラグインがクローズされると、どうなるの ?
 
 <!-- 
 When a plugin is closed, the page shows as closed and the zips are no longer generated. No one will be able to download the plugin via the website, nor will they be able to install it via the WordPress admin. The SVN repository will remain accessible to allow others to download and fork the code if desired, per the tenets of the directory.
  -->
-When a plugin is closed, the page shows as closed and the zips are no longer generated. No one will be able to download the plugin via the website, nor will they be able to install it via the WordPress admin. The SVN repository will remain accessible to allow others to download and fork the code if desired, per the tenets of the directory.
+プラグインがクローズされると、ページはクローズされたと表示され、zip は生成されなくなります。Web サイトからプラグインのダウンロードも、WordPress 管理画面からのインストールもできなくなります。SVN リポジトリは、ディレクトリの方針に従って、必要であれば他の人がコードをダウンロードしてフォークできるようにアクセス可能なままです。
 
 <!-- 
 After 60 days, the closure message will change to alert people as to _why_ it was closed but only in the broadest terms (Guideline Violation, Security, etc) and not with explicit details.
  -->
-After 60 days, the closure message will change to alert people as to _why_ it was closed but only in the broadest terms (Guideline Violation, Security, etc) and not with explicit details.
+60日を過ぎると、クローズメッセージは _なぜ_ クローズされたかを警告するものに変わりますが、大まかなものであって (ガイドライン違反、セキュリティなど)、明確な詳細は記載されません。
 
 <!-- 
 ### Why was my plugin closed?
  -->
-### Why was my plugin closed?
+### 私のプラグインは、なぜクローズされたの ?
 
 <!-- 
 Plugins are closed for guideline violations, security issues, or by author requests. In the case of active issues (such as copyright infringement, abuse, and security), all accounts with commit access to a plugin are notified.
  -->
-Plugins are closed for guideline violations, security issues, or by author requests. In the case of active issues (such as copyright infringement, abuse, and security), all accounts with commit access to a plugin are notified.
+プラグインは、ガイドライン違反、セキュリティの問題、作者のリクエストによってクローズされます。アクティブな問題 (著作権侵害、不正使用、セキュリティなど) の場合、プラグインにコミットできるすべてのアカウントに通知されます。
 
 <!-- 
 If a plugin has never been used within 6 months (i.e. no code has been pushed to SVN), SVN is broken for upwards of 12 months, or a plugin's readme indicates it's deprecated, we _may_ close without notification.
  -->
-If a plugin has never been used within 6 months (i.e. no code has been pushed to SVN), SVN is broken for upwards of 12 months, or a plugin's readme indicates it's deprecated, we _may_ close without notification.
+プラグインが6ヵ月以内に一度も使われていない (つまり、SVN にコードがプッシュされていない) 場合、SVN が12ヵ月以上壊れている場合、またはプラグインの readme が非推奨であることを示している場合、通知なしにクローズすることが _あります_。
 
 <!-- 
 ### Why was someone else's plugin closed?
  -->
-### Why was someone else's plugin closed?
+### あのプラグインは、なぜクローズされたの ?
 
 <!-- 
 As of 2017, plugin closure reasons are tracked in the plugin database. Sixty days after a plugin is closed, the reason for the closure will be made public:
  -->
-As of 2017, plugin closure reasons are tracked in the plugin database. Sixty days after a plugin is closed, the reason for the closure will be made public:
+2017年現在、プラグインのクローズ理由はプラグイン・データベースで追跡されます。プラグインがクローズされてから60日後に、クローズ理由が公開されます:
 
 <!-- 
 ![Example of a closed plugin with the reason 'Author Request'](https://i3.wp.com/developer.wordpress.org/files/2015/04/not-hello-dolly.jpg)
  -->
-![Example of a closed plugin with the reason 'Author Request'](https://i3.wp.com/developer.wordpress.org/files/2015/04/not-hello-dolly.jpg)
+![ 「作者のリクエスト」という理由でクローズされたプラグインの例](https://i3.wp.com/developer.wordpress.org/files/2015/04/not-hello-dolly.jpg)
 
 <!-- 
 Please note: We do not publicly disclose the details on exactly why a plugin has been closed.
  -->
-Please note: We do not publicly disclose the details on exactly why a plugin has been closed.
+注意: プラグインがクローズされた、正確な理由の詳細は公表していません。
 
 <!-- 
 ### Can I get someone else's plugin closed?
  -->
-### Can I get someone else's plugin closed?
+### 他人のプラグインを、クローズしてもらうことはできるの ?
 
 <!-- 
 If you report an [security issue](https://developer.wordpress.org/plugins/wordpress-org/plugin-security/reporting-plugin-security-issues/) or a [guideline violation](https://developer.wordpress.org/plugins/wordpress-org/detailed-plugin-guidelines/) in a plugin to `plugins@wordpress.org`, we will review and take appropriate action. Most of the time, this involves closing a plugin. Your name will not be disclosed unless you ask for it to be so, in order to protect you from backlash.
  -->
-If you report an [security issue](https://developer.wordpress.org/plugins/wordpress-org/plugin-security/reporting-plugin-security-issues/) or a [guideline violation](https://developer.wordpress.org/plugins/wordpress-org/detailed-plugin-guidelines/) in a plugin to `plugins@wordpress.org`, we will review and take appropriate action. Most of the time, this involves closing a plugin. Your name will not be disclosed unless you ask for it to be so, in order to protect you from backlash.
+プラグインに関する[セキュリティ上の問題](https://developer.wordpress.org/plugins/wordpress-org/plugin-security/reporting-plugin-security-issues/)や[ガイドライン違反](https://developer.wordpress.org/plugins/wordpress-org/detailed-plugin-guidelines/)を `plugins@wordpress.org` に報告いただいた場合、プラグインを確認し、適切な処置をとらせていただきます。ほとんどの場合、プラグインをクローズすることになります。反感からあなたを守るため、あなたが要求しない限り、あなたの名前は公表されません。
 
 <!-- 
 ### Someone posted a copy of my plugin! What do I do?
  -->
-### Someone posted a copy of my plugin! What do I do?
+### 私のプラグインのコピーを誰かが投稿した ! どうすればいい ?
 
 <!-- 
 Email `plugins@wordpress.org` with a link to the stolen plugin. Include either a link to where we can download yours or attach the zip. We will compare the two files, as well as all the coding history we have, to determine if the plugin is, indeed, theft, or just an uncredited fork.
  -->
-Email `plugins@wordpress.org` with a link to the stolen plugin. Include either a link to where we can download yours or attach the zip. We will compare the two files, as well as all the coding history we have, to determine if the plugin is, indeed, theft, or just an uncredited fork.
+盗まれたプラグインへのリンクを `plugins@wordpress.org` にメールしてください。あなたのプラグインをダウンロードできる場所へのリンクか、zip ファイルを添付してください。私たちは2つのファイルと、私たちが持っているすべてのコーディング履歴を比較して、そのプラグインが本当に盗用なのか、それとも単なるクレジットされていないフォークなのかを判断します。
 
 <!-- 
 Keep in mind, if you licensed your plugin as GPLv2 or later, then it's perfectly permissible to fork your work, as long as copyright remains intact and you're credited.
  -->
-Keep in mind, if you licensed your plugin as GPLv2 or later, then it's perfectly permissible to fork your work, as long as copyright remains intact and you're credited.
+もしあなたが自分のプラグインを GPLv2 またはそれ以降でライセンスしているのであれば、著作権が損なわれず、あなたの名前がクレジットされている限り、あなたの作品をフォークすることは完全に許されていることを覚えておいてください。
 
 <!-- 
 ### What do I do if someone copied some of my code and didn't credit me?
  -->
-### What do I do if someone copied some of my code and didn't credit me?
+### もし誰かが私のコードをコピーし、クレジットをくれなかった場合、どうすればいい ?
 
 <!-- 
 Email `plugins@wordpress.org` right away! **Especially** if your code was non-GPL. While we do permit people to fork other plugins and include that code in their own plugins, it must be credited at all times. Copyright and credits are a requirement.
  -->
-Email `plugins@wordpress.org` right away! **Especially** if your code was non-GPL. While we do permit people to fork other plugins and include that code in their own plugins, it must be credited at all times. Copyright and credits are a requirement.
+すぐに `plugins@wordpress.org` にメールしてください ! あなたのコードが非 GPL であった場合は、**特に**。私たちは他のプラグインをフォークして、そのコードを自分のプラグインに含めることを許可していますが、常にクレジットを付けなければなりません。著作権とクレジットは必須条件です。
 
 <!-- 
 ### Will you close another plugin for violating a brand/trademark?
  -->
-### Will you close another plugin for violating a brand/trademark?
+### ブランド/商標を侵害したとして、他のプラグインをクローズしますか ?
 
 <!-- 
 We do our best to uphold copyright and trademark requirements, as well as prevent brand confusion. Before plugin are approved, we often require them to make some of the more obvious changes. That said, there is a limit to how 'different' a URL or name can be when we have 60,000 plugins in the directory, and when some terms are quite common (like 'popup' or 'all-in-one'). Because of that, we require developers to change the plugin's **display name** to no longer cause conflict or confusion.
  -->
-We do our best to uphold copyright and trademark requirements, as well as prevent brand confusion. Before plugin are approved, we often require them to make some of the more obvious changes. That said, there is a limit to how 'different' a URL or name can be when we have 60,000 plugins in the directory, and when some terms are quite common (like 'popup' or 'all-in-one'). Because of that, we require developers to change the plugin's **display name** to no longer cause conflict or confusion.
+私たちは、著作権や商標の要件を守り、ブランドの混乱を防ぐために最善を尽くします。プラグインが承認される前に、私たちはしばしば、より明白ないくつかの変更を要求します。とはいえ、ディレクトリに6万ものプラグインがあり、いくつかのタームが非常に一般的である場合 (「ポップアップ」や「オールインワン」など)、URL や名前が「異なる」ことには限界があります。そのため、私たちは開発者にプラグインの **表示名** を変更し、衝突や混乱を起こさないようにすることを求めています。
 
 <!-- 
 If someone is clearly infringing on your copyright or trademark or existing brand, be it by display name or use of trademarked images, please email us at `plugins@wordpress.org` with some proof and we will contact the developer and require changes.
  -->
-If someone is clearly infringing on your copyright or trademark or existing brand, be it by display name or use of trademarked images, please email us at `plugins@wordpress.org` with some proof and we will contact the developer and require changes.
+もし誰かがあなたの著作権や商標、または既存のブランドを明らかに侵害している場合、それが表示名であれ、商標登録された画像の使用であれ、`plugins@wordpress.org` 宛に証拠を添えてメールしていただければ、開発者に連絡し、変更を求めます。
 
 <!-- 
 We do expect these to be _reasonable_ requests. That is, if you send us a complaint and list 12 plugins that all use the term 'best contact form' because that's your plugin name, we will review the plugins and only close them if they're using the phrase excessively. If they use it once (i.e. "This is the best contact form plugin in the Faroe Islands") then it's acceptable. If they're keyword stuffing the phrase, we're more likely to close them for keyword stuffing. Simply, if your plugin name is super generic, this is going to happen, and it's usually **not** an infringement case.
  -->
-We do expect these to be _reasonable_ requests. That is, if you send us a complaint and list 12 plugins that all use the term 'best contact form' because that's your plugin name, we will review the plugins and only close them if they're using the phrase excessively. If they use it once (i.e. "This is the best contact form plugin in the Faroe Islands") then it's acceptable. If they're keyword stuffing the phrase, we're more likely to close them for keyword stuffing. Simply, if your plugin name is super generic, this is going to happen, and it's usually **not** an infringement case.
+私たちはこれらが _妥当な_ 要求であることを期待しています。つまり、もしあなたが私たちに苦情を送り、それがあなたのプラグイン名だからという理由で「最高のコンタクトフォーム」という言葉を使った12のプラグインをリストアップした場合、私たちはそのプラグインをレビューし、そのフレーズを過度に使っている場合のみクローズします。一度だけ使用されている場合 (つまり、「これはフェロー諸島で最高のコンタクトフォームプラグインです」) は、許容範囲です。キーワードの詰め込みをしている場合は、キーワードの詰め込みでクローズする可能性が高くなります。単純に、あなたのプラグイン名が超汎用的であれば、このようなことが起こるでしょうし、それは通常、侵害訴訟にはなり **ません**。
 
 <!-- 
 Also note that if it's not **your** trademark, we cannot accept your report. It is the responsibility of the trademark owners, not it's users, to manage and maintain that.
  -->
-Also note that if it's not **your** trademark, we cannot accept your report. It is the responsibility of the trademark owners, not it's users, to manage and maintain that.
+また、それが **あなたの** 商標でない場合、我々はあなたの報告を受け入れることができないことに注意してください。それを管理・維持するのは、ユーザーではなく商標所有者の責任です。
 
 <!-- 
 ### How can I send a security report?
  -->
-### How can I send a security report?
+### セキュリティ・レポートを送信するには ?
 
 <!-- 
 Email `plugins@wordpress.org` a clear and concise description of the issue. [Please read our document on reporting security issues for details](https://developer.wordpress.org/plugins/wordpress-org/plugin-security/reporting-plugin-security-issues/).
  -->
-Email `plugins@wordpress.org` a clear and concise description of the issue. [Please read our document on reporting security issues for details](https://developer.wordpress.org/plugins/wordpress-org/plugin-security/reporting-plugin-security-issues/).
+`plugins@wordpress.org` 宛てに、問題の明確で簡潔な説明をメールしてください。詳細については、[セキュリティ問題の報告に関する文書](https://developer.wordpress.org/plugins/wordpress-org/plugin-security/reporting-plugin-security-issues/)をお読みください。
 
 <!-- 
 ### Do you provide bounties for finding bugs in a plugin?
  -->
-### Do you provide bounties for finding bugs in a plugin?
+### プラグインのバグを発見した場合、報奨金は出るの ?
 
 <!-- 
 No. We have no relationship with any bug bounty programs, so we don't file your reports etc to them. The only one with which we work is [hackerone.com/automattic](https://hackerone.com/automattic) and that's for bugs related to Automattic properties. Everything else is on your own, don't ask us to submit things.
  -->
-No. We have no relationship with any bug bounty programs, so we don't file your reports etc to them. The only one with which we work is [hackerone.com/automattic](https://hackerone.com/automattic) and that's for bugs related to Automattic properties. Everything else is on your own, don't ask us to submit things.
+いいえ。私たちはバグ報奨金プログラムとは何の関係もありませんので、バグ報告などを提出することはありません。唯一提携しているのは [hackerone.com/automattic](https://hackerone.com/automattic) のみで、Automattic のプロパティに関連するバグが対象です。それ以外はすべて各自で行ってください。私たちに提出を求めないでください。
 
 <!-- 
 ### Do you help file or provide CVEs?
  -->
-### Do you help file or provide CVEs?
+### CVE (Common Vulnerabilities and Exposures。共通脆弱性識別子) のファイリングや提供を手伝ってますか ?
 
 <!-- 
 No. We do not have the ability to assist with CVEs.
  -->
-No. We do not have the ability to assist with CVEs.
+いいえ。我々には CVE を支援する能力はありません。
 
 <!-- 
 ### My plugin was closed, can I reopen it?
  -->
-### My plugin was closed, can I reopen it?
+### 私のプラグインがクローズされたのですが、再オープンできますか ?
 
 <!-- 
 Maybe. If it was closed for a security reason, fix the issue, reply to the email, and most of the time we'll reopen the plugin unless it has more security issues or severe guideline issues. If it was closed for guideline violations, it depends on the severity and nature of the violation. Repeat offenders are less likely to have a plugin reopened, for example, than first-timers.
  -->
-Maybe. If it was closed for a security reason, fix the issue, reply to the email, and most of the time we'll reopen the plugin unless it has more security issues or severe guideline issues. If it was closed for guideline violations, it depends on the severity and nature of the violation. Repeat offenders are less likely to have a plugin reopened, for example, than first-timers.
+多分。セキュリティ上の理由でクローズされた場合は、問題を修正し、メールに返信してください。ほとんどの場合、セキュリティ上の問題やガイドラインの重大な問題がない限り、プラグインを再オープンします。ガイドライン違反でクローズされた場合は、違反の度合いと性質によります。たとえば、度重なる違反者は、初めての違反者よりもプラグインを再オープンする可能性は低くなります。
 
 <!-- 
 If you asked for the plugin to be closed, you will be expected to explain why the change of heart. Plugins are intended to remain closed when a developer requests it, and not reopened again a month later.
  -->
-If you asked for the plugin to be closed, you will be expected to explain why the change of heart. Plugins are intended to remain closed when a developer requests it, and not reopened again a month later.
+もしあなたがプラグインのクローズを要求した場合、その心変わりの理由を説明することが求められます。プラグインは、開発者がそれを要求したときにクローズされることを意図しており、そして、1ヵ月後に再オープンされることはありません。
 
 <!-- 
 _All_ plugins must pass a current standards and security review in order to be restored. This is not optional. Users will lose more faith in you for having your plugin closed multiple times than they would for one longer closure where you address all the potential issues.
  -->
-_All_ plugins must pass a current standards and security review in order to be restored. This is not optional. Users will lose more faith in you for having your plugin closed multiple times than they would for one longer closure where you address all the potential issues.
+_すべての_ プラグインを復活させるには、現在の標準とセキュリティの審査に合格する必要があります。これは任意ではありません。プラグインが何度もクローズされることは、潜在的な問題にすべて対処する1回のクローズよりも、ユーザーからの信頼を失います。
 
 <!-- 
 ### Why was my plugin closed when it was my employee/co-worker who violated guidelines?
  -->
-### Why was my plugin closed when it was my employee/co-worker who violated guidelines?
+### ガイドラインに違反したのは私の従業員/同僚なのに、私のプラグインがなぜクローズされたの ?
 
 <!-- 
 Everyone who represents a plugin, from support tech to developer, is the responsibility of the plugin owner. If they violate the guidelines egregiously, then the owners are expected to accept those consequences and correct course. When that doesn't happen, plugins get closed. We notify the plugin owners in these cases and explain why and do our best to keep plugins open.
  -->
-Everyone who represents a plugin, from support tech to developer, is the responsibility of the plugin owner. If they violate the guidelines egregiously, then the owners are expected to accept those consequences and correct course. When that doesn't happen, plugins get closed. We notify the plugin owners in these cases and explain why and do our best to keep plugins open.
+サポート技術者から開発者に至るまで、プラグインを代表するすべての人は、プラグイン・オーナーの責任です。もし彼らがガイドラインにひどく違反した場合、オーナーはその結果を受け入れ、軌道修正することが期待されます。そうならない場合、プラグインはクローズされます。このような場合、私たちはプラグイン・オーナーに通知し、理由を説明し、プラグインをオープンし続けるために最善を尽くします。
 
 <!-- 
 ### _All_ my plugins were closed! How can I get them back?
  -->
-### _All_ my plugins were closed! How can I get them back?
+### 私のプラグインが _全て_ クローズされました ! どうしたら元に戻せますか ?
 
 <!-- 
 It's exceptionally rare that we close all of a developer's plugins. In general it happens because of the following:
  -->
-It's exceptionally rare that we close all of a developer's plugins. In general it happens because of the following:
+開発者のプラグインをすべてクローズすることは、極めて稀です。一般的には、以下のような理由で起こります:
 
 <!-- 
 1. You asked us to close all your plugins.
@@ -1238,44 +1238,44 @@ It's exceptionally rare that we close all of a developer's plugins. In general i
   2. Delivering legal threats to the directory and/or the volunteers.
   3. The violation was deemed 'egregious' (death threats, hundreds of sock puppets, harassment, etc).
  -->
-1. You asked us to close all your plugins.
-2. Email issues.
-  1. The email bounced and we were unable to get in touch.
-  2. The email sent us auto-replies and warnings were sent at least twice to fix that.
-3. Guideline issues.
-  1. Previous censuring for behaviour and/or a final warning was issued.
-  2. Delivering legal threats to the directory and/or the volunteers.
-  3. The violation was deemed 'egregious' (death threats, hundreds of sock puppets, harassment, etc).
+1. あなたが、すべてのプラグインをクローズするように依頼した。
+2. E メールの問題。
+  1. E メールが拒否され、連絡が取れなかった。
+  2. E メールが自動返信され、それを修正するために警告が少なくとも2回送られた。
+3. ガイドラインの問題。
+  1. 過去に行動を厳しく咎められ、最終警告を受けたことがある。
+  2. ディレクトリおよび/またはボランティアに、法的脅威を提供した。
+  3. 違反が「ひどい」と判断された (殺害予告、何百ものソックパペット、嫌がらせなど)。
 
 <!-- 
 If you asked us to close them, you have to explain _why_ the change of heart.
  -->
-If you asked us to close them, you have to explain _why_ the change of heart.
+クローズするよう要請したのであれば、その心変わりの _理由_ を説明しなければなりません。
 
 <!-- 
 If you're having email issues, you have to resolve them and you'll be required to bring all your plugins up to current standards of security and guidelines.
  -->
-If you're having email issues, you have to resolve them and you'll be required to bring all your plugins up to current standards of security and guidelines.
+E メールに問題があれば、それを解決しなければならないし、すべてのプラグインを現在のセキュリティ基準やガイドラインに合わせることが求められることになるでしょう。
 
 <!-- 
 As for that last one … Generally you don't get to come back from that. If we deliver you a final warning for your behaviour and, within less than a year, you start up again with the issues (or fail to resolve all the issues we mentioned), we're not going to reopen your plugins.
  -->
-As for that last one … Generally you don't get to come back from that. If we deliver you a final warning for your behaviour and, within less than a year, you start up again with the issues (or fail to resolve all the issues we mentioned), we're not going to reopen your plugins.
+最後の件については … 一般的に、あなたはそこから戻ってくることはないでしょう。もし私たちがあなたの行動に対して最終警告を出し、1年以内にあなたが再び問題を起こした場合 (あるいは私たちが述べたすべての問題を解決できなかった場合)、私たちはあなたのプラグインを再オープンするつもりはありません。
 
 <!-- 
 ### I just got a final warning. What do I do?
  -->
-### I just got a final warning. What do I do?
+### 最終警告を受けたばかりです。どうすればいい ?
 
 <!-- 
 First and foremost, _take it seriously_. The email will list exactly what the problems have been and why we've chosen to escalate to a final warning. Plugin Owners are expected to resolve all the issues, to cease causing new guideline violations, and to closely monitor the actions of any coworkers. In short, stop breaking the guidelines, stop making excuses, apologize for any misbehaviour, and correct course.
  -->
-First and foremost, _take it seriously_. The email will list exactly what the problems have been and why we've chosen to escalate to a final warning. Plugin Owners are expected to resolve all the issues, to cease causing new guideline violations, and to closely monitor the actions of any coworkers. In short, stop breaking the guidelines, stop making excuses, apologize for any misbehaviour, and correct course.
+何よりもまず、_真摯に受け止める_ ことが大切です。この E メールには、どのような問題があったのか、なぜ最終警告までエスカレーションすることになったのかが正確に記載されます。プラグイン・オーナーは、すべての問題を解決し、新たなガイドライン違反を起こさないようにし、同僚の行動を注意深く監視することが期待されています。要するに、ガイドライン違反をやめ、言い訳をするのをやめ、不作法を謝罪し、軌道修正してください。
 
 <!-- 
 The last thing we want to do is ban someone and disable all their plugins. It's not healthy for the community. At the same time, if a developer is unable or unwilling to play by the same rules as everyone else, it's detrimental to keep then in the directory and disrespectful to everyone else.
  -->
-The last thing we want to do is ban someone and disable all their plugins. It's not healthy for the community. At the same time, if a developer is unable or unwilling to play by the same rules as everyone else, it's detrimental to keep then in the directory and disrespectful to everyone else.
+私たちが一番やりたくないことは、誰かを BAN (アカウント停止) して、その人のプラグインをすべて使えなくすることです。それはコミュニティにとって健全ではありません。同時に、もし開発者が他の人と同じルールを守れない、あるいは守りたくないのであれば、ディレクトリに残しておくことは有害であり、他の人たちにも敬意を払わないことになります。
 
 <!-- 
 ## Plugin Ownership
@@ -1370,7 +1370,7 @@ We offer **no** guarantee that you will be given anyone's plugin, even following
 <!-- 
 Short answer: Probably not.
  -->
-簡潔な答え: おそらく無理でしょう。
+簡潔な答え: おそらく違うでしょう。
 
 <!-- 
 Many developers receive unsolicited emails or offers to purchase their plugin. We have found the vast majority of these to be fraudulent and do _not_ recommend you follow up with them.
@@ -1400,4 +1400,4 @@ We advocate only giving your plugin to people you _personally_ have vetted, and 
 <!-- 
 When a developer is determined to have died, they are removed from their own plugins in order to prevent the unethical from gaining access and harming users. If they are the only developer, the plugin may be closed. All attempts are made to find their friends and coworkers, to offer them a chance to adopt the code first, but if no one reliable or willing can be found the plugin is closed.
  -->
-開発者が死亡したと判断された場合、倫理に反する者がアクセスし、利用者に危害を加えることを防ぐために、その開発者は自分のプラグインから削除されます。もし開発者がその人だけであれば、プラグインはクローズされるかもしれません。開発者の友人や同僚を見つけ、彼らにコードを引き継ぐ機会を与えようと試みますが、信頼できる人や意欲的な人が見つからない場合、プラグインは閉鎖されます。
+開発者が死亡したと判断された場合、倫理に反する者がアクセスし、利用者に危害を加えることを防ぐために、その開発者は自分のプラグインから削除されます。もし開発者がその人だけであれば、プラグインはクローズされるかもしれません。開発者の友人や同僚を見つけ、彼らにコードを引き継ぐ機会を与えようと試みますが、信頼できる人や意欲的な人が見つからない場合、プラグインはクローズされます。
