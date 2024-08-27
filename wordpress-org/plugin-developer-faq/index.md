@@ -536,7 +536,7 @@ minify 化するのは構わないが、隠すのは駄目です。このディ�
 <!-- 
 As soon as you push code to the SVN folders, your plugin will be live. **DO NOT** push code if you're not ready, as there's no 'off' switch except to [close the plugin](https://developer.wordpress.org/plugins/wordpress-org/plugin-developer-faq/#closed-plugins). As closing a plugin is permanent, we recommend you not push code until you're ready to go live.
  -->
-SVN フォルダーにコードをプッシュすると、すぐにプラグインが公開されます。[プラグインをクローズ](https://developer.wordpress.org/plugins/wordpress-org/plugin-developer-faq/#closed-plugins)する以外に「オフ」スイッチがないので、準備ができていない場合は、コードをプッシュ **しないように**。プラグインのクローズするは永久的なものですので、公開する準備ができるまではコードをプッシュしないことをおすすめします。
+SVN フォルダーにコードをプッシュすると、すぐにプラグインが公開されます。[プラグインをクローズ](https://developer.wordpress.org/plugins/wordpress-org/plugin-developer-faq/#closed-plugins)する以外に「オフ」スイッチがないので、準備ができていない場合は、コードをプッシュ **しないように**。プラグインのクローズは永久的なものですので、公開する準備ができるまではコードをプッシュしないことをおすすめします。
 
 <!-- 
 ### Where does the WordPress.org Plugin Directory get its data?
