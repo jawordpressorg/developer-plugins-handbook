@@ -526,202 +526,202 @@ minify 化するのは構わないが、隠すのは駄目です。このディ�
 <!-- 
 ## Your WordPress.Org Page
  -->
-## Your WordPress.Org Page
+## あなたの WordPress.org ページ
 
 <!-- 
 ### When does my plugin go 'live'?
  -->
-### When does my plugin go 'live'?
+### 私のプラグインは、いつ「公開」されるの ?
 
 <!-- 
 As soon as you push code to the SVN folders, your plugin will be live. **DO NOT** push code if you're not ready, as there's no 'off' switch except to [close the plugin](https://developer.wordpress.org/plugins/wordpress-org/plugin-developer-faq/#closed-plugins). As closing a plugin is permanent, we recommend you not push code until you're ready to go live.
  -->
-As soon as you push code to the SVN folders, your plugin will be live. **DO NOT** push code if you're not ready, as there's no 'off' switch except to [close the plugin](https://developer.wordpress.org/plugins/wordpress-org/plugin-developer-faq/#closed-plugins). As closing a plugin is permanent, we recommend you not push code until you're ready to go live.
+SVN フォルダーにコードをプッシュすると、すぐにプラグインが公開されます。[プラグインをクローズ](https://developer.wordpress.org/plugins/wordpress-org/plugin-developer-faq/#closed-plugins)する以外に「オフ」スイッチがないので、準備ができていない場合は、コードをプッシュ **しないように**。プラグインのクローズは永久的なものですので、公開する準備ができるまではコードをプッシュしないことをおすすめします。
 
 <!-- 
 ### Where does the WordPress.org Plugin Directory get its data?
  -->
-### Where does the WordPress.org Plugin Directory get its data?
+### WordPress.org プラグイン・ディレクトリは、どこからデータを取得しているの ?
 
 <!-- 
 From the information you specify in the plugin file and in the [readme.txt file](https://wordpress.org/plugins/developers/#readme), and from the Subversion repository itself. Read [about how the readme.txt works](https://developer.wordpress.org/plugins/wordpress-org/how-your-readme-txt-works/) for more information.
  -->
-From the information you specify in the plugin file and in the [readme.txt file](https://wordpress.org/plugins/developers/#readme), and from the Subversion repository itself. Read [about how the readme.txt works](https://developer.wordpress.org/plugins/wordpress-org/how-your-readme-txt-works/) for more information.
+プラグインファイル内とファイル [readme.txt](https://wordpress.org/plugins/developers/#readme) 内で指定した情報、および Subversion リポジトリ自体から取得します。詳しくは [readme.txt の仕組みについて](https://developer.wordpress.org/plugins/wordpress-org/how-your-readme-txt-works/)をご覧ください。
 
 <!-- 
 You should also make full use of the [Plugin Headers](https://developer.wordpress.org/plugins/plugin-basics/header-requirements/) in your main plugin file. Those will define how your username shows up on the WordPress.org hosting page, as well as in the WordPress Admin. We recommend using all those headers to fully document your plugin.
  -->
-You should also make full use of the [Plugin Headers](https://developer.wordpress.org/plugins/plugin-basics/header-requirements/) in your main plugin file. Those will define how your username shows up on the WordPress.org hosting page, as well as in the WordPress Admin. We recommend using all those headers to fully document your plugin.
+メイン・プラグインファイル内の[ヘッダー項目](https://developer.wordpress.org/plugins/plugin-basics/header-requirements/)もフル活用しましょう。それらは、WordPress 管理画面と同様に、WordPress.org のホスティングページでユーザー名がどのように表示されるかを定義します。プラグインを完全に文書化するために、これらのヘッダーをすべて使用することをおすすめします。
 
 <!-- 
 ### Can I specify what version of my plugin the WordPress.org Plugin Directory should use?
  -->
-### Can I specify what version of my plugin the WordPress.org Plugin Directory should use?
+### WordPress.org プラグイン・ディレクトリで使用するプラグインのバージョンを指定できるの ?
 
 <!-- 
 Yes, by specifying the `Stable Tag` field in your trunk directory's [readme.txt file](https://wordpress.org/plugins/developers/#readme).
  -->
-Yes, by specifying the `Stable Tag` field in your trunk directory's [readme.txt file](https://wordpress.org/plugins/developers/#readme).
+はい。あなたの trunk ディレクトリのファイル [readme.txt file](https://wordpress.org/plugins/developers/#readme) 内の `Stable Tag` 項目を指定してください。
 
 <!-- 
 We ask you **not** use 'trunk' as your stable tag, as that makes rollbacks more complicated than they need to be.
  -->
-We ask you **not** use 'trunk' as your stable tag, as that makes rollbacks more complicated than they need to be.
+ロールバックが必要以上に複雑になるので、安定版タグとして「trunk」を **使わない** ようお願いします。
 
 <!-- 
 ### What version of WordPress should the "Tested Up To" value be?
  -->
-### What version of WordPress should the "Tested Up To" value be?
+### 「Tested Up To (テスト済)」の値は、WordPress のどのバージョンにすべき ?
 
 <!-- 
 Logically, whatever version you tested up to. However, never go above the current release candidate. If there is none, don't go above the active version. So if WordPress' stable release is 6.0.9, you can use 6.0 to 6.0.9 and everything will be fine. If there is a release of 6.1-RC then you may use 6.1, however you can go no higher.
  -->
-Logically, whatever version you tested up to. However, never go above the current release candidate. If there is none, don't go above the active version. So if WordPress' stable release is 6.0.9, you can use 6.0 to 6.0.9 and everything will be fine. If there is a release of 6.1-RC then you may use 6.1, however you can go no higher.
+論理的には、あなたがテストしたどのバージョンでも構いません。ですが、現在のリリース候補より上になることはありません。もしリリース候補がなければ、現行バージョン以上にはしないでください。つまり、WordPress の安定リリースが6.0.9であれば、6.0から6.0.9まで使って問題ありません。6.1-RC のリリースがある場合は、6.1を使用できますが、それ以上は使用できません。
 
 <!-- 
 Do not attempt to be clever and use 6.5 or 7. This will result in errors on your page.
  -->
-Do not attempt to be clever and use 6.5 or 7. This will result in errors on your page.
+気を利かせて6.5や7を使おうとしないでください。これはあなたのページにエラーをもたらします。
 
 <!-- 
 ### Do I need to release a new version of my plugin every time I update the readme?
  -->
-### Do I need to release a new version of my plugin every time I update the readme?
+### readme を更新するたびに、プラグインの新バージョンをリリースする必要があるの ?
 
 <!-- 
 No. If you're only making cosmetic changes to the readme or your icons/headers, you _do not_ need to release a new version. Just make sure you update the trunk and tag folders.
  -->
-No. If you're only making cosmetic changes to the readme or your icons/headers, you _do not_ need to release a new version. Just make sure you update the trunk and tag folders.
+いいえ。readme やアイコン/ヘッダーの外観を変更するだけであれば、新しいバージョンをリリースする必要は _ありません_。trunk フォルダーと tag フォルダーを更新するだけです。
 
 <!-- 
 ### Do I need to release a new version of my plugin every time I update the code?
  -->
-### Do I need to release a new version of my plugin every time I update the code?
+### コードを更新するたびに、新しいバージョンのプラグインをリリースする必要があるの ?
 
 <!-- 
 Yes. Otherwise no one gets updated.
  -->
-Yes. Otherwise no one gets updated.
+はい。そうしないと、誰もアップデートされません。
 
 <!-- 
 ### What should be in my changelog?
  -->
-### What should be in my changelog?
+### changelog (変更履歴) には何を書くべき ?
 
 <!-- 
 A changelog is a log or record of all or all notable changes made to your plugin, including records of changes such as bug fixes, new features, etc. If you need help formatting your changelogs, we recommend [Keep A Changelog](https://keepachangelog.com/en/1.1.0/) as that's the format used by many products out there.
  -->
-A changelog is a log or record of all or all notable changes made to your plugin, including records of changes such as bug fixes, new features, etc. If you need help formatting your changelogs, we recommend [Keep A Changelog](https://keepachangelog.com/en/1.1.0/) as that's the format used by many products out there.
+changelog (変更履歴) とは、バグ修正や新機能などの変更履歴を含む、あなたのプラグインに対して行われたすべての、またはすべての注目すべき変更のログまたは記録です。変更履歴のフォーマットについてヘルプが必要な場合は、多くの製品で使用されているフォーマットですので、[Keep A Changelog](https://keepachangelog.com/en/1.1.0/) をお勧めします。
 
 <!-- 
 ### How many versions should I keep in my changelog?
  -->
-### How many versions should I keep in my changelog?
+### 変更履歴には、いくつのバージョンを残すべき ?
 
 <!-- 
 Always keep the current major release in your change log. For example, if your current version is 3.9.1, you'll want that and 3.9 in the change log. Older versions should be removed and migrated to a `changelog.txt` file. That will allow them to be accessible to users, while keeping your readme shorter and more pertinent. At most, keep the most recent version of your plugin and one major version back in your readme's changelog. Your `changelog.txt` will **not** be visible within the WordPress.org Plugin Directory, but that's okay. Most users just want to know what's new.
  -->
-Always keep the current major release in your change log. For example, if your current version is 3.9.1, you'll want that and 3.9 in the change log. Older versions should be removed and migrated to a `changelog.txt` file. That will allow them to be accessible to users, while keeping your readme shorter and more pertinent. At most, keep the most recent version of your plugin and one major version back in your readme's changelog. Your `changelog.txt` will **not** be visible within the WordPress.org Plugin Directory, but that's okay. Most users just want to know what's new.
+常に現在のメジャーリリースを変更履歴に残してください。たとえば、現在のバージョンが3.9.1であれば、3.9.1と3.9を変更履歴に残すことになります。古いバージョンは削除し、ファイル `changelog.txt` に移動してください。そうすることで、readme をより短く、より適切なものに保ちながら、ユーザーがそれら (過去の変更履歴) にアクセスできます。readme の変更履歴には、せいぜいプラグインの最新バージョンと1つ前のメジャーバージョンを残しておきましょう。`changelog.txt` は、WordPress.org のプラグインディレクトリには表示され **ません** が、それで構いません。ほとんどのユーザーは何が新しくなったかを知りたいだけです。
 
 <!-- 
 ### How do I include videos on plugin description pages?
  -->
-### How do I include videos on plugin description pages?
+### プラグインの説明ページに、動画を含めるには ?
 
 <!-- 
 For YouTube and Vimeo videos, simply paste the video link on a line by itself in your description. Note that the video must be set to allow embedding for the embed process to work. For videos hosted by the WordPress.com VideoPress service, use the `[wpvideo]` shortcode. Shortcodes can also be used for YouTube and Vimeo, if needed, just like in WordPress.
  -->
-For YouTube and Vimeo videos, simply paste the video link on a line by itself in your description. Note that the video must be set to allow embedding for the embed process to work. For videos hosted by the WordPress.com VideoPress service, use the `[wpvideo]` shortcode. Shortcodes can also be used for YouTube and Vimeo, if needed, just like in WordPress.
+YouTube や Vimeo の動画の場合は、説明文に動画のリンクを1行貼り付けるだけです。動画を埋め込むには、埋め込みを許可するように設定する必要があります。WordPress.com VideoPress サービスでホストされている動画の場合は、ショートコード `[wpvideo]` を使用してください。ショートコードは、WordPress と同様に、必要に応じて YouTube や Vimeo にも使用できます。
 
 <!-- 
 ### Why does my plugin say it's not been tested with the most recent WordPress versions?
  -->
-### Why does my plugin say it's not been tested with the most recent WordPress versions?
+### 私のプラグインが、WordPress の最新バージョンでテストされていないと表示されるのは、なぜ ?
 
 <!-- 
 That happens when you neglected to use a proper 'Tested Up To' value in your headers in your readme. That value should be the latest version of WordPress that you've tested your plugin against. If the latest **major** WordPress version is 4.9, then you should have the value `4.9` to indicate compatibility. You do not need to update for minor releases (if your readme is compatible to 4.9 then that will cover 4.9 through 4.9.1000).
  -->
-That happens when you neglected to use a proper 'Tested Up To' value in your headers in your readme. That value should be the latest version of WordPress that you've tested your plugin against. If the latest **major** WordPress version is 4.9, then you should have the value `4.9` to indicate compatibility. You do not need to update for minor releases (if your readme is compatible to 4.9 then that will cover 4.9 through 4.9.1000).
+これは、readme のヘッダーに適切な「Tested Up To」の値を使用しなかった場合に起こります。この値は、プラグインをテストした WordPress の最新バージョンに対して設定する必要があります。WordPress の最新 **メジャー** バージョンが4.9であれば、互換性を示す値として `4.9` を指定する必要があります。マイナーリリースの場合は更新する必要はありません (もし readme が4.9と互換性があるなら、4.9から4.9.1000までをカバーすることになる)。
 
 <!-- 
 Keep in mind, if you put in non-released versions of WordPress (like 6.0) you'll see the same message.
  -->
-Keep in mind, if you put in non-released versions of WordPress (like 6.0) you'll see the same message.
+WordPress のリリースされていないバージョン (6.0など) を入れても、同じメッセージが表示されることを覚えておいてください。
 
 <!-- 
 ### How long does it take for the Plugin Directory to reflect my changes?
  -->
-### How long does it take for the Plugin Directory to reflect my changes?
+### プラグイン・ディレクトリに変更が反映されるまで、どれくらい ?
 
 <!-- 
 The WordPress.org Plugin Directory updates every few minutes. However, it may take longer for your changes to appear depending on the size of the update queue. Please give it at least **6 hours** before contacting us.
  -->
-The WordPress.org Plugin Directory updates every few minutes. However, it may take longer for your changes to appear depending on the size of the update queue. Please give it at least **6 hours** before contacting us.
+WordPress.org プラグイン・ディレクトリは、数分ごとに更新されます。ただし、更新キューのサイズによっては、変更が反映されるまでに時間がかかる場合があります。お問い合わせの前に、最低でも **6時間** は見てください。
 
 <!-- 
 ### How do I make one of those cool banners for my plugin page?
  -->
-### How do I make one of those cool banners for my plugin page?
+### プラグインページのための、クールなバナーは、どうすれば作れるの ?
 
 <!-- 
 You can make your own [plugin headers](https://developer.wordpress.org/plugins/wordpress-org/plugin-assets/#plugin-headers) by uploading the correctly named files into the `assets` folder.
  -->
-You can make your own [plugin headers](https://developer.wordpress.org/plugins/wordpress-org/plugin-assets/#plugin-headers) by uploading the correctly named files into the `assets` folder.
+`assets` フォルダーに正しい名前のファイルをアップロードすることで、独自の[プラグイン・ヘッダー](https://developer.wordpress.org/plugins/wordpress-org/plugin-assets/#plugin-headers)を作ることができます。
 
 <!-- 
 Read [about plugin headers](https://developer.wordpress.org/plugins/wordpress-org/plugin-assets/#plugin-headers) for more information.
  -->
-Read [about plugin headers](https://developer.wordpress.org/plugins/wordpress-org/plugin-assets/#plugin-headers) for more information.
+詳しくは[プラグイン・ヘッダーについて](https://developer.wordpress.org/plugins/wordpress-org/plugin-assets/#plugin-headers)をご覧ください。
 
 <!-- 
 ### How do I make a plugin icon?
  -->
-### How do I make a plugin icon?
+### プラグイン・アイコンを作るには ?
 
 <!-- 
 You can make your own [plugin icons](https://developer.wordpress.org/plugins/wordpress-org/plugin-assets/#plugin-icons) by uploading the correctly named files into the `assets` folder.
  -->
-You can make your own [plugin icons](https://developer.wordpress.org/plugins/wordpress-org/plugin-assets/#plugin-icons) by uploading the correctly named files into the `assets` folder.
+`assets` フォルダーに正しい名前のファイルをアップロードすることで、独自の[プラグイン・アイコン](https://developer.wordpress.org/plugins/wordpress-org/plugin-assets/#plugin-icons)を作ることができます。
 
 <!-- 
 Read [about plugin icons](https://developer.wordpress.org/plugins/wordpress-org/plugin-assets/#plugin-icons) for more information.
  -->
-Read [about plugin icons](https://developer.wordpress.org/plugins/wordpress-org/plugin-assets/#plugin-icons) for more information.
+詳しくは[プラグイン・アイコンについて](https://developer.wordpress.org/plugins/wordpress-org/plugin-assets/#plugin-icons)をご覧ください。
 
 <!-- 
 ### Can I use official logos in my plugin banner/icons?
  -->
-### Can I use official logos in my plugin banner/icons?
+### プラグインのバナーやアイコンに、公式ロゴを使用できるの ?
 
 <!-- 
 Usually no.
  -->
-Usually no.
+通常は、できません。
 
 <!-- 
 Your plugin icon should _never_ be the unaltered, official logo of, say, Facerange. That would be infringing on their property. You may not use official logos for your branding in your banners or icons. Even if you have permission to do so on your site, _we_ don't have that permission here.
  -->
-Your plugin icon should _never_ be the unaltered, official logo of, say, Facerange. That would be infringing on their property. You may not use official logos for your branding in your banners or icons. Even if you have permission to do so on your site, _we_ don't have that permission here.
+あなたのプラグインのアイコンには、公式ロゴ (たとえば、Facerange の) をそのまま使ってはいけません。それは彼らの財産を侵害することになります。公式ロゴを、あなたのブランディングのためにあなたのバナーやアイコンに、使用できません。たとえあなたのサイトでその許可を得ていたとしても、_私たち_ には、その許可がありません。
 
 <!-- 
 Much like your plugin name, we recommend your icons and headers be something unique to you. They tend to be more memorable that way.
  -->
-Much like your plugin name, we recommend your icons and headers be something unique to you. They tend to be more memorable that way.
+プラグイン名と同じように、アイコンやヘッダーもあなた独自のものにすることをおすすめします。その方が記憶に残りやすいからです。
 
 <!-- 
 ### How many tags can I use in my readme?
  -->
-### How many tags can I use in my readme?
+### readme で使用できるタグの数は ?
 
 <!-- 
 Per the guidelines, [plugins are limited to 12 tags in their readme](https://developer.wordpress.org/plugins/wordpress-org/detailed-plugin-guidelines/#12-public-facing-pages-on-wordpress-org-readmes-must-not-spam). This is to control spam. That said, only the first **FIVE** tags will display on WordPress.org, much for the same reason. The first 12 tags are used for searches, and the rest are ignored, so tag-stuffing won't help you at all.
  -->
-Per the guidelines, [plugins are limited to 12 tags in their readme](https://developer.wordpress.org/plugins/wordpress-org/detailed-plugin-guidelines/#12-public-facing-pages-on-wordpress-org-readmes-must-not-spam). This is to control spam. That said, only the first **FIVE** tags will display on WordPress.org, much for the same reason. The first 12 tags are used for searches, and the rest are ignored, so tag-stuffing won't help you at all.
+ガイドラインによると、[プラグインの readme のタグは12個まで](https://developer.wordpress.org/plugins/wordpress-org/detailed-plugin-guidelines/#12-public-facing-pages-on-wordpress-org-readmes-must-not-spam)です。これはスパムを抑制するためです。とは言え、同じ理由で、WordPress.org では最初の **5つ** のタグしか表示されません。最初の12個のタグは検索に使われ、残りは無視されるので、タグを詰め込んでもまったく役に立ちません。
 
 <!-- 
 In addition, any tags where you are the only one who uses them won't show, because they're not going to help anyone find another, similar, plugin.
  -->
-In addition, any tags where you are the only one who uses them won't show, because they're not going to help anyone find another, similar, plugin.
+さらに、あなただけが使っているタグは表示されません。なぜなら、他の似たようなプラグインを探すのに役立たないからです。
 
 <!-- 
 ## Plugin Names
