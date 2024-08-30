@@ -46,289 +46,289 @@ Please take a look at [this handbook page](https://make.wordpress.org/plugins/ha
 <!-- 
 ## Submissions and Reviews
  -->
-## Submissions and Reviews
+## 申請とレビュー
 
 <!-- 
 ### Where do I submit my plugin?
  -->
-### Where do I submit my plugin?
+### 私のプラグインは、どこに申請すればいいの ?
 
 <!-- 
 Go to the [Add](https://wordpress.org/plugins/developers/add/) page and upload your zip. Your file should be under **10 MegaBytes** and be a complete plugin. We do not accept placeholders or plugins that aren't ready to be used.
  -->
-Go to the [Add](https://wordpress.org/plugins/developers/add/) page and upload your zip. Your file should be under **10 MegaBytes** and be a complete plugin. We do not accept placeholders or plugins that aren't ready to be used.
+[Add](https://wordpress.org/plugins/developers/add/) ページに行き、zip ファイルをアップロードしてください。ファイルは **10メガバイト** 以下で、完全なプラグインでなければなりません。私たちは、プレースホルダーだったり、使用する準備ができていないプラグインは、受け付けません。
 
 <!-- 
 ### What if my plugin is over 10 MegaBytes?
  -->
-### What if my plugin is over 10 MegaBytes?
+### 私のプラグインが、10メガバイトを超える場合は ?
 
 <!-- 
 Double check that you aren't including unused files (like test folders, documentation, and full node/vendor folders). The majority of plugins who face this issue have included all sorts of development content that has no place in the final code.
  -->
-Double check that you aren't including unused files (like test folders, documentation, and full node/vendor folders). The majority of plugins who face this issue have included all sorts of development content that has no place in the final code.
+未使用のファイル (テストフォルダー、ドキュメント、まるごとの node/vendor フォルダーなど) が含まれていないか再確認してください。この課題に直面するプラグインの大半は、最終的なコードには必要のない、あらゆる種類の開発用コンテンツを含んでいます。
 
 <!-- 
 ### What happens after submission?
  -->
-### What happens after submission?
+### 申請後は、どうなるの ?
 
 <!-- 
 You will get an automated email telling you about the submission immediately. At that point, someone will manually download and review your code. If we find no issues with the security, documentation, or presentation, your plugin will be approved. If we determine there are issues, you will receive a second email with details explaining what needs to be fixed.
  -->
-You will get an automated email telling you about the submission immediately. At that point, someone will manually download and review your code. If we find no issues with the security, documentation, or presentation, your plugin will be approved. If we determine there are issues, you will receive a second email with details explaining what needs to be fixed.
+申請を知らせる自動返信メールが、すぐに届きます。その時点で、誰かがあなたのコードを手動でダウンロードしてレビューします。セキュリティ、ドキュメント、プレゼンテーションに課題がなければ、あなたのプラグインは、承認されます。課題があると判断された場合は、修正すべき点を説明した二通目のメールをお送りします。
 
 <!-- 
 ### What will my plugin permalink (slug) be?
  -->
-### What will my plugin permalink (slug) be?
+### 私のプラグインのパーマリンク (スラッグ) は、何になるの ?
 
 <!-- 
 When you submit a plugin, you get an automated email telling you what the slug will be. This is populated based on the value of Plugin Name in your main plugin file (the one with the plugin headers). If you set yours as `Plugin Name: Boaty McBoatface` then your URL will be `wordpress.org/plugins/boaty-mcboatface` and your slug will be `boaty-mcboatface` for example. If there is an existing plugin with your name, then you'll get a warning on submission.
  -->
-When you submit a plugin, you get an automated email telling you what the slug will be. This is populated based on the value of Plugin Name in your main plugin file (the one with the plugin headers). If you set yours as `Plugin Name: Boaty McBoatface` then your URL will be `wordpress.org/plugins/boaty-mcboatface` and your slug will be `boaty-mcboatface` for example. If there is an existing plugin with your name, then you'll get a warning on submission.
+プラグインを申請すると、スラッグが何になるかを知らせる自動返信メールが届きます。これは、メイン・プラグインファイル (プラグインヘッダーのあるファイル) の「Plugin Name」の値にもとづいて生成されます。たとえば、`Plugin Name: Boaty McBoatface` と設定した場合、URL は `wordpress.org/plugins/boaty-mcboatface`、スラッグは `boaty-mcboatface` となります。あなたのプラグイン名を持つ既存のプラグインがあれば、申請時に警告が表示されます。
 
 <!-- 
 This is _also_ the folder name (in SVN and installed on WordPress) for your plugin and your text-domain, so pay attention carefully.
  -->
-This is _also_ the folder name (in SVN and installed on WordPress) for your plugin and your text-domain, so pay attention carefully.
+これは、プラグインと text-domain 用の (SVN と、WordPress にインストールされた) フォルダー名で _も_ あるので、注意してください。
 
 <!-- 
 Once your plugin is approved, this name **cannot** be renamed. Please chose wisely.
  -->
-Once your plugin is approved, this name **cannot** be renamed. Please chose wisely.
+いったんプラグインが承認されると、この名前は変更でき **ません**。賢く選んでください。
 
 <!-- 
 ### Why did I get a different slug than I was told?
  -->
-### Why did I get a different slug than I was told?
+### 言ったのと違うスラッグになったのは、なぜ ?
 
 <!-- 
 If we have to change your permalink (slug) we will always email you to explain why. In general, we change your permalink when you have obvious typos or mistakes (_foundre_ instead of _founder_, for example) or if there are conflicts with existing trademarks or other plugins. Please make sure you read your review email carefully, as we do explain why we have do to things.
  -->
-If we have to change your permalink (slug) we will always email you to explain why. In general, we change your permalink when you have obvious typos or mistakes (_foundre_ instead of _founder_, for example) or if there are conflicts with existing trademarks or other plugins. Please make sure you read your review email carefully, as we do explain why we have do to things.
+パーマリンク (スラッグ) を変更しなければならない場合は、必ずメールで理由を説明します。一般的には、明らかなタイプミスや間違い (たとえば、_founder_ ではなく _foundre_) がある場合、または既存の商標や他のプラグインと競合する場合にパーマリンクを変更します。なぜそのようなことをしなければならないのかを説明しているので、レビューメールをよくお読みください。
 
 <!-- 
 ### Why is my submission failing saying my plugin name already exists?
  -->
-### Why is my submission failing saying my plugin name already exists?
+### 私のプラグイン名がすでに存在すると言って、申請に失敗するのはなぜ ?
 
 <!-- 
 There are two reasons this happens:
  -->
-There are two reasons this happens:
+こうなる理由は、2つ考えられます:
 
 <!-- 
 1. You're trying to use a plugin with a permalink that already exists on WordPress.org.
 2. You're trying to use a plugin with a permalink that exists **outside** WordPress.org and has a significant user base.
  -->
-1. You're trying to use a plugin with a permalink that already exists on WordPress.org.
-2. You're trying to use a plugin with a permalink that exists **outside** WordPress.org and has a significant user base.
+1. WordPress.org にすでに存在するパーマリンクを持つプラグイン名を使おうとしている場合。
+2. WordPress.org の **外** に存在し、かなりのユーザーベースを持つパーマリンクを持つプラグイン名を使おうとしている場合。
 
 <!-- 
 The first one is obvious. You can't have two plugins with the same permalink so you need to pick a new one.
  -->
-The first one is obvious. You can't have two plugins with the same permalink so you need to pick a new one.
+最初の理由は明白です。同じパーマリンクを持つプラグインを2つ持つことはできないので、新しいものを選ぶ必要があります。
 
 <!-- 
 The second one is confusing because it's telling you that somewhere, not on WordPress.org, that permalink is in use. It's important to understand that the way the plugin update API works is that it compares the plugin folder name (i.e. the permalink) to every plugin it has hosted on WordPress.org. If there's a match, then it checks for updates and users are prompted to upgrade.
  -->
-The second one is confusing because it's telling you that somewhere, not on WordPress.org, that permalink is in use. It's important to understand that the way the plugin update API works is that it compares the plugin folder name (i.e. the permalink) to every plugin it has hosted on WordPress.org. If there's a match, then it checks for updates and users are prompted to upgrade.
+2つ目の理由は困惑させるもので、WordPress.org ではないどこかで、そのパーマリンクが使用中であることを伝えているからです。プラグインアップデート API の仕組みは、プラグインフォルダー名 (つまり、パーマリンク) と WordPress.org でホストされているすべてのプラグインを比較する、ということを理解することが重要です。一致するものがあれば、アップデートの有無をチェックし、ユーザーにアップグレードを促します。
 
 <!-- 
 When that happens, users of the 'original' plugin (the one we don't host) would upgrade to the one from WordPress.org and, if that isn't what you actually wanted to do, you could break their sites.
  -->
-When that happens, users of the 'original' plugin (the one we don't host) would upgrade to the one from WordPress.org and, if that isn't what you actually wanted to do, you could break their sites.
+そうなると、(私たちがホスティングしていない)「オリジナル」プラグインのユーザーは、WordPress.org のものにアップグレードすることになり、それが実際にやりたいことでない場合、彼らのサイトを壊してしまう可能性があります。
 
 <!-- 
 Sometimes this situation develops when a company or person releases their plugin privately (via Github for example) and decides they want to re-release it on WordPress.org. In those cases, we recommend you email us and we'll walk you through how to get past the error.
  -->
-Sometimes this situation develops when a company or person releases their plugin privately (via Github for example) and decides they want to re-release it on WordPress.org. In those cases, we recommend you email us and we'll walk you through how to get past the error.
+このような状況は、企業や個人が個人的に (たとえば、GitHub 経由で) プラグインをリリースし、WordPress.org で再リリースしたいと判断した場合に発生することがあります。そのような場合は、私たちにメールすることをおすすめします。エラーを回避する方法を説明します。
 
 <!-- 
 ### Why am I getting an error that says I cannot begin my plugin name with a term?
  -->
-### Why am I getting an error that says I cannot begin my plugin name with a term?
+### 私のプラグイン名を、タームで始めることができないと言って、エラーが表示されるのはなぜ ?
 
 <!-- 
 That error is to inform you that you may not begin your Display Name with someone else's trademarked term. This is to protect you and the directory from legal issues regarding trademark abuse. To correct the issue, you must change the Display Name in your plugin's readme and main PHP files.
  -->
-That error is to inform you that you may not begin your Display Name with someone else's trademarked term. This is to protect you and the directory from legal issues regarding trademark abuse. To correct the issue, you must change the Display Name in your plugin's readme and main PHP files.
+このエラーは、「Display Name」を他人の商標登録語で始めてはいけないことをお知らせするものです。これは、商標の乱用に関する法的課題から、あなたとディレクトリを保護するためです。この課題を修正するには、プラグインの readme とメインの PHP ファイルで、「Display Name」を変更する必要があります。
 
 <!-- 
 Please do not try to 'work around' this by cleverly renaming your plugin (WuuCommerce for example). All that does is make us worry you're not going to be able to follow guidelines in the future.
  -->
-Please do not try to 'work around' this by cleverly renaming your plugin (WuuCommerce for example). All that does is make us worry you're not going to be able to follow guidelines in the future.
+プラグインの名前を巧みに変えて (たとえば、WuuCommerce)、これを「回避」しようとしないでください。あなたが将来ガイドラインに従えなくなることを、私たちに心配させるだけです。
 
 <!-- 
 ### Why am I getting an error that says I cannot use a term entirely in my plugin name?
  -->
-### Why am I getting an error that says I cannot use a term entirely in my plugin name?
+### 私のプラグイン名には、あるタームを完全に使用できないと言って、エラーが表示されるのはなぜ ?
 
 <!-- 
 Some trademark owners have requested we no longer permit the use of specific terms in plugin names entirely. If you see this error, then you must remove the term from your plugin name.
  -->
-Some trademark owners have requested we no longer permit the use of specific terms in plugin names entirely. If you see this error, then you must remove the term from your plugin name.
+一部の商標所有者より、プラグイン名に特定の商標の使用を完全に許可しないよう要請がありました。このエラーが表示された場合は、あなたのプラグイン名からその商標を除去してください。
 
 <!-- 
 > To proceed with this submission you must remove "_TERM_" from the Plugin Name: line in both your main plugin file and readme entirely.
  -->
-> To proceed with this submission you must remove "_TERM_" from the Plugin Name: line in both your main plugin file and readme entirely.
+> この申請を続行するには、メインプラグインファイルと readme の両方で、『Plugin Name:」の行から「_商標_」を完全に削除する必要があります。
 
 <!-- 
 If you attempt to get around this by changing your term from 'Facerange' to 'Face-Range', we will pend your submission and reiterate that you cannot use the term. Please don't try to be sneaky or clever to get past this restriction.
  -->
-If you attempt to get around this by changing your term from 'Facerange' to 'Face-Range', we will pend your submission and reiterate that you cannot use the term. Please don't try to be sneaky or clever to get past this restriction.
+'Facerange' から 'Face-Range' に商標を変更することで、これを回避しようとする場合は、申請を保留し、その商標を使用できないことを再度通知します。この制限を回避するために、卑屈になったり、巧妙になったりしないでください。
 
 <!-- 
 ### How do I submit an official plugin?
  -->
-### How do I submit an official plugin?
+### 公式プラグインを申請するには ?
 
 <!-- 
 Log in as the official company user account and submit with that account _only_.
  -->
-Log in as the official company user account and submit with that account _only_.
+公式な会社のユーザーアカウントでログインし、そのアカウント _のみ_ で申請してください。
 
 <!-- 
 We cannot accept plugins submitted by individual developer accounts, unless they're clearly company ones as well. For example, submitting your official Facerange plugin with a user that has a gmail address is likely to be flagged for trademark infringement.
  -->
-We cannot accept plugins submitted by individual developer accounts, unless they're clearly company ones as well. For example, submitting your official Facerange plugin with a user that has a gmail address is likely to be flagged for trademark infringement.
+明らかに会社のアカウントでない限り、開発者個人のアカウントで申請されたプラグインは、受け付けることができません。たとえば、Facerange の公式プラグインを Gmail アドレスのユーザーで申請すると、商標侵害のフラグを立てられる可能性があります。
 
 <!-- 
 What if I submitted the plugin with the wrong user ID?
  -->
-What if I submitted the plugin with the wrong user ID?
+### 間違ったユーザー ID でプラグインを申請したら、どうなるの ?
 
 <!-- 
 Just reply to the email right away and let us know. We can transfer ownership for you. If you forget to do this, you can fix it yourself by [adding the correct account as a committer](https://developer.wordpress.org/plugins/wordpress-org/plugin-developer-faq/#how-do-i-give-someone-else-access-to-my-plugin) and then having that account remove your own.
  -->
-Just reply to the email right away and let us know. We can transfer ownership for you. If you forget to do this, you can fix it yourself by [adding the correct account as a committer](https://developer.wordpress.org/plugins/wordpress-org/plugin-developer-faq/#how-do-i-give-someone-else-access-to-my-plugin) and then having that account remove your own.
+すぐにメールに返信してお知らせください。私たちが所有権をあなたに移譲します。これを忘れてしまった場合は、[正しいアカウントを、コミッターとして追加](https://developer.wordpress.org/plugins/wordpress-org/plugin-developer-faq/#how-do-i-give-someone-else-access-to-my-plugin)し、その正しいアカウントからあなた自身のアカウントを削除させることで、自分で修正できます。
 
 <!-- 
 **DO NOT** resubmit your plugin. Just tell us right away and we'll fix it.
  -->
-**DO NOT** resubmit your plugin. Just tell us right away and we'll fix it.
+プラグインを再申請 **しないでください**。すぐにお知らせください。修正します。
 
 <!-- 
 ### How long does it take to get a plugin approved?
  -->
-### How long does it take to get a plugin approved?
+### プラグインの承認には、どのくらい時間がかかるの ?
 
 <!-- 
 There's no official average, as no two plugins are the same. If your plugin is small and all the code is correct, it should be approved within **fourteen** days of _initial review_.
  -->
-There's no official average, as no two plugins are the same. If your plugin is small and all the code is correct, it should be approved within **fourteen** days of _initial review_.
+2つとして同じプラグインはないので、公式な平均値はありません。あなたのプラグインが小さく、すべてのコードが正しければ、_最初のレビュー_ から **14** 日以内に承認されるはずです。
 
 <!-- 
 If your plugin has any code issues, it will take as long as it takes for you to correct the issues. Either way, you _will_ get an email from `plugins@wordpress.org` with the status, so please add that to your email whitelist and patiently wait for our response.
  -->
-If your plugin has any code issues, it will take as long as it takes for you to correct the issues. Either way, you _will_ get an email from `plugins@wordpress.org` with the status, so please add that to your email whitelist and patiently wait for our response.
+あなたのプラグインにコードの課題がある場合、あなたが課題を修正するのにかかる時間と同じだけかかります。いずれにせよ、`plugins@wordpress.org` から状況を知らせるメールが届く _でしょう_ から、あなたのメールのホワイトリストに追加して、辛抱強く私たちの返事をお待ちください。
 
 <!-- 
 ### I sent in the fixes but no one replied. How long should I wait?
  -->
-### I sent in the fixes but no one replied. How long should I wait?
+### 修正を送ったのだけど、誰も返信してくれない。どのくらい待てばいいの ?
 
 <!-- 
 We aim to reply to all reviews within seven (7) business days. If it's been less than that, it just means we've been really busy. If it's been two days, like over a weekend or a holiday, then you should not **reasonably** expect a reply.
  -->
-We aim to reply to all reviews within seven (7) business days. If it's been less than that, it just means we've been really busy. If it's been two days, like over a weekend or a holiday, then you should not **reasonably** expect a reply.
+私たちは、7営業日以内にすべてのレビューに返信することを目指しています。それよりもかかった場合は、私たちが本当に忙しかったということです。週末や休日を挟むなどして2日以上経過している場合は、返信を **合理的に** 期待すべきではありません。
 
 <!-- 
 Remember the review team is made up of 100% volunteers, all of whom have full time day jobs, and other volunteer duties. We do reply promptly, but we also have lives outside of WordPress.
  -->
-Remember the review team is made up of 100% volunteers, all of whom have full time day jobs, and other volunteer duties. We do reply promptly, but we also have lives outside of WordPress.
+レビューチームは100％ボランティアで構成されており、全員がフルタイムの本業やその他のボランティア業務を持っていることを忘れないでください。返信は迅速に行いますが、WordPress 以外の生活もあります。
 
 <!-- 
 ### If my plugin has a problem, how long do I have to fix it?
  -->
-### If my plugin has a problem, how long do I have to fix it?
+### 私のプラグインに問題があった場合、どのくらいで修正する必要があるの ?
 
 <!-- 
 There's no timeline and as long as we know you're working on it and we feel you're making progress, we'll leave the review open. Your plugin will be rejected after 3 months, but the review will remain open.
  -->
-There's no timeline and as long as we know you're working on it and we feel you're making progress, we'll leave the review open. Your plugin will be rejected after 3 months, but the review will remain open.
+あなたがそれに取り組んでいて、私たちがあなたが前進していると感じている限り、私たちはレビューをオープンにしておきます。あなたのプラグインは3ヵ月後にリジェクトされますが、レビューはオープンなままです。
 
 <!-- 
 ### Why was my plugin rejected after three months?
  -->
-### Why was my plugin rejected after three months?
+### 私のプラグインは、なぜ3ヵ月後にリジェクトされたの ?
 
 <!-- 
 If your plugin review is not complete after three (3) months, we will reject your submission in order to keep the queue maintainable. At any point in time, we have 700 people mid-review, and we figure that 3 months is a pretty reasonable time frame.
  -->
-If your plugin review is not complete after three (3) months, we will reject your submission in order to keep the queue maintainable. At any point in time, we have 700 people mid-review, and we figure that 3 months is a pretty reasonable time frame.
+あなたのプラグインのレビューが3ヵ月経っても完了しない場合、キューを維持するために、あなたの申請をリジェクトします。どの時点でも、700人がレビュー中であり、3ヵ月というのは、かなり妥当な期間だと考えています。
 
 <!-- 
 ### I finally fixed my plugin. Should I resubmit?
  -->
-### I finally fixed my plugin. Should I resubmit?
+### やっとプラグインを修正しました。再申請すべき ?
 
 <!-- 
 No. Reply to the email. Even if it's been 18 months. The longest time to date has been 3 years. We don't mind if it takes a while.
  -->
-No. Reply to the email. Even if it's been 18 months. The longest time to date has been 3 years. We don't mind if it takes a while.
+いいえ。メールに返信してください。たとえ1年半ぶりでも。これまで最長で3年。時間がかかってもいいんです。
 
 <!-- 
 ### How many plugins can I submit for review at a time?
  -->
-### How many plugins can I submit for review at a time?
+### 一度に何個のプラグインを、レビューに申請できるの ?
 
 <!-- 
 Just one.
  -->
-Just one.
+たった1つだけです。
 
 <!-- 
 ### Why can't I submit more than one plugin at a time?
  -->
-### Why can't I submit more than one plugin at a time?
+### 一度に複数のプラグインを申請できないのは、なぜ ?
 
 <!-- 
 Allowing people to have multiple submissions at once was proven to be detrimental to the review process. Errors were regularly found in all the plugins, resulting in the same emails being sent multiple times. In addition, people often got confused as to which review they were working on, muddying the waters about what needed to be solved. By changing this to one-at-a-time, confusion in those matters dropped significantly.
  -->
-Allowing people to have multiple submissions at once was proven to be detrimental to the review process. Errors were regularly found in all the plugins, resulting in the same emails being sent multiple times. In addition, people often got confused as to which review they were working on, muddying the waters about what needed to be solved. By changing this to one-at-a-time, confusion in those matters dropped significantly.
+一度に複数の申請を許可することは、レビュープロセスにとって有害であることが証明されました。すべてのプラグインで定期的にエラーが見つかり、その結果、同じメールが何度も送信されることになりました。さらに、自分がどのレビューに取り組んでいるのか分からなくなり、何を解決すべきなのかがわからなくなることもよくありました。これを「一度に1つ」に変更することで、これらの問題の混乱は大幅に減少しました。
 
 <!-- 
 In addition, many new users don't know how to use SVN, and wound up submitting multiple plugins and never using any. That can be a drain on our resources, so we do limit people.
  -->
-In addition, many new users don't know how to use SVN, and wound up submitting multiple plugins and never using any. That can be a drain on our resources, so we do limit people.
+加えて、多くの新規ユーザーは SVN の使い方を知らず、複数のプラグインを申請して結局1つも使いませんでした。それは私たちのリソースを浪費することになるので、私たちは人々を制限しています。
 
 <!-- 
 Since all plugins get an initial review within two weeks, this should not be a hardship.
  -->
-Since all plugins get an initial review within two weeks, this should not be a hardship.
+すべてのプラグインは2週間以内に最初のレビューを受けるので、これは苦難ではないはずです。
 
 <!-- 
 ### Can I submit multiple plugins with multiple accounts?
  -->
-### Can I submit multiple plugins with multiple accounts?
+### 複数のアカウントで複数のプラグインを申請できるの ?
 
 <!-- 
 No. And if you do so, we will suspend all your secondary accounts. Don't try to get around the one-at-a-time rule please.
  -->
-No. And if you do so, we will suspend all your secondary accounts. Don't try to get around the one-at-a-time rule please.
+いいえ。そのようなことをすれば、私たちはあなたのセカンダリーアカウントをすべて停止します。「一度に1つ」ルールを回避しようとしないでください。
 
 <!-- 
 ### I need my plugin approved by a specific date, what should I do?
  -->
-### I need my plugin approved by a specific date, what should I do?
+### 特定の期日までに、プラグインを承認してほしいのですが。どうすればいい ?
 
 <!-- 
 Submit it as early as possible. Unless the plugin is meant to address a security or legal issue, we don't permit queue jumping. If it _is_ related to one of those, please email `plugins@wordpress.org` and explain the situation.
  -->
-Submit it as early as possible. Unless the plugin is meant to address a security or legal issue, we don't permit queue jumping. If it _is_ related to one of those, please email `plugins@wordpress.org` and explain the situation.
+できるだけ早めに申請してください。セキュリティや法的な課題に対処するためのプラグインでない限り、私たちはキュージャンプ (順番飛ばし) を許可しません。そのような問題があるのであれば、`plugins@wordpress.org` 宛てにメールを送り、状況を説明してください。
 
 <!-- 
 ### Are there specific things that I should avoid doing?
  -->
-### Are there specific things that I should avoid doing?
+### 特に避けたほうがいいことは、あるの ?
 
 <!-- 
 We look for some pretty obvious things, all of which are listed [in our guidelines](https://developer.wordpress.org/plugins/wordpress-org/detailed-plugin-guidelines/). Most can be summed up as "Don't be a spammer," but to touch on the ones people do the most:
  -->
-We look for some pretty obvious things, all of which are listed [in our guidelines](https://developer.wordpress.org/plugins/wordpress-org/detailed-plugin-guidelines/). Most can be summed up as "Don't be a spammer," but to touch on the ones people do the most:
+私たちは、かなり明白なことを確認し、それらはすべて[私たちのガイドライン](https://developer.wordpress.org/plugins/wordpress-org/detailed-plugin-guidelines/)に記載されています。大半は「スパマーになるな」ということに集約されますが、人々が最もやっていることに触れてみましょう:
 
 <!-- 
 - Not including a `readme.txt` file when acting as a service.
@@ -338,72 +338,72 @@ We look for some pretty obvious things, all of which are listed [in our guidelin
 - "Powered By" links.
 - Phoning home.
  -->
-- Not including a `readme.txt` file when acting as a service.
-- Not testing the plugin with `WP_DEBUG`.
-- Including custom versions of packaged JavaScript libraries.
-- Calling external files unnecessarily.
-- "Powered By" links.
-- Phoning home.
+- サービスとして稼働するときに、ファイル `readme.txt` を含めない。
+- プラグインを `WP_DEBUG` でテストしていない。
+- パッケージ化された JavaScript ライブラリのカスタムバージョンをインクルードする。
+- 不必要に外部ファイルを呼び出す。
+- 「Powered By」リンク。
+- 家に電話をかける。
 
 <!-- 
 Again, this is a brief overview. Please read the guidelines, as the full list is quite detailed.
  -->
-Again, this is a brief overview. Please read the guidelines, as the full list is quite detailed.
+繰り返しますが、これは簡単な概要です。全リストはかなり詳細ですので、ガイドラインをお読みください。
 
 <!-- 
 ### Are there plugins you don't accept?
  -->
-### Are there plugins you don't accept?
+### 受け付けないプラグインは、あるの ?
 
 <!-- 
 We don't accept plugins that do 'nothing,' are illegal, or encourage bad behavior. This includes black hat SEO spamming, content spinners, hate-plugins, and so on.
  -->
-We don't accept plugins that do 'nothing,' are illegal, or encourage bad behavior. This includes black hat SEO spamming, content spinners, hate-plugins, and so on.
+私たちは、「何もしない」プラグイン、違法なプラグイン、悪質な行為を助長するプラグインは、受け付けません。これには、ブラックハット SEO スパム、コンテンツスピナー、ヘイトプラグイン、などが含まれます。
 
 <!-- 
 Similarly we do not accept framework plugins or library plugins. If your plugin has to require other plugins or themes to edit themselves in order to use your plugin, it's a library. If your plugin is a template from which more code can be built by customizing the files directly, it's a framework or boilerplate. Frameworks and libraries should be packaged with each plugin (hopefully in a way that doesn't conflict with other plugins using the framework or libraries). At least until core supports plugin dependencies.
  -->
-Similarly we do not accept framework plugins or library plugins. If your plugin has to require other plugins or themes to edit themselves in order to use your plugin, it's a library. If your plugin is a template from which more code can be built by customizing the files directly, it's a framework or boilerplate. Frameworks and libraries should be packaged with each plugin (hopefully in a way that doesn't conflict with other plugins using the framework or libraries). At least until core supports plugin dependencies.
+同様に、フレームワーク・プラグインやライブラリ・プラグインも、受け付けません。あなたのプラグインを使うために、他のプラグインやテーマを編集する必要がある場合、それはライブラリです。もしあなたのプラグインが、ファイルを直接カスタマイズすることでより多くのコードを構築できるテンプレートであれば、それはフレームワークかボイラープレートです。フレームワークやライブラリは、(できれば、フレームワークやライブラリを使用している他のプラグインと衝突しない方法で) 各プラグインにパッケージされるべきです。少なくとも、コアがプラグインの依存関係をサポートするまでは。
 
 <!-- 
 We also don't accept 100% copies of other people's work or plugins that duplicate functionality found in WordPress Core. Basically, your plugin should do something new, or in a new way, or solve a specific issue.
  -->
-We also don't accept 100% copies of other people's work or plugins that duplicate functionality found in WordPress Core. Basically, your plugin should do something new, or in a new way, or solve a specific issue.
+また、他人の作品の100％コピーや、WordPress Core にある機能を複製したプラグインも、受け付けません。基本的に、あなたのプラグインは何か新しいことをするか、新しい方法でするか、特定の課題を解決する必要があります。
 
 <!-- 
 ### I want to redo, upgrade, or rebrand my existing plugin. I just submit again, right?
  -->
-### I want to redo, upgrade, or rebrand my existing plugin. I just submit again, right?
+### 既存のプラグインを作り直したり、アップグレードしたり、リブランディングしたいのですが。もう一度申請すれば、いいんですよね ?
 
 <!-- 
 No, you should rewrite and upgrade the existing plugin. Make it a major version release. We can't rename plugins or transfer users, so a new one wouldn't carry over any existing users, reviews, support topics, ratings, downloads, favorites, etc. Basically you'd leave _all_ your current users out in the cold, and that's mean.
  -->
-No, you should rewrite and upgrade the existing plugin. Make it a major version release. We can't rename plugins or transfer users, so a new one wouldn't carry over any existing users, reviews, support topics, ratings, downloads, favorites, etc. Basically you'd leave _all_ your current users out in the cold, and that's mean.
+いいえ、既存のプラグインを書き直してアップグレードすべきです。メジャーバージョンのリリースにしてください。プラグインの名前を変更したり、ユーザーを移動させたりはできないので、新しいプラグインは既存のユーザー、レビュー、サポートトピック、評価、ダウンロード、お気に入りなどを引き継ぐことはできません。そしてそれは、基本的に、現在のユーザーを _すべて_ 冷遇することを意味します。
 
 <!-- 
 ### I made a mistake with my submission. How can I fix it?
  -->
-### I made a mistake with my submission. How can I fix it?
+### 私の申請で間違いがありました。どうすれば直せるの ?
 
 <!-- 
 Every submission gets an automated reply with directions. Reply to that or email `plugins@wordpress.org` and explain the situation.
  -->
-Every submission gets an automated reply with directions. Reply to that or email `plugins@wordpress.org` and explain the situation.
+それぞれの申請には、自動返信で指示が届きます。それに返信するか、`plugins@wordpress.org` 宛てにメールを送り、状況を説明してください。
 
 <!-- 
 We can correct plugin slugs before approval, so we are often able to fix that for you. If not, we'll let you know what to do. We try to catch typos in names before we approve anything, but we make mistakes too.
  -->
-We can correct plugin slugs before approval, so we are often able to fix that for you. If not, we'll let you know what to do. We try to catch typos in names before we approve anything, but we make mistakes too.
+私たちは承認前に、プラグインのスラッグを修正できます。そうでない場合は、どうすればよいかをお知らせします。私たちは承認する前に名前のタイプミスを見つけるようにしていますが、私たちにも間違いはあります。
 
 <!-- 
 ### Are there things I can't do in a plugin name?
  -->
-### Are there things I can't do in a plugin name?
+### プラグイン名で、できないことはあるの ?
 
 <!-- 
 We have the following restrictions:
  -->
-We have the following restrictions:
+我々は、以下のような制限を設けています:
 
 <!-- 
 *   Plugins may not use vulgarities in the name or slug
@@ -412,16 +412,16 @@ We have the following restrictions:
 *   Due to system limitations, only English letters and Arabic numbers are permitted in the slug
 *   Plugins may not **start** with a trademarked term or name of a specific project/library/tool _unless_ submitted by an official representative
  -->
-*   Plugins may not use vulgarities in the name or slug
-*   Plugins may not use 'WordPress' or 'Plugin' in their slugs except under extreme situations
-*   Plugins may not use version numbers in plugin slugs
-*   Due to system limitations, only English letters and Arabic numbers are permitted in the slug
-*   Plugins may not **start** with a trademarked term or name of a specific project/library/tool _unless_ submitted by an official representative
+*   プラグイン名やスラッグに、下品な表現を使ってはいけません。
+*   プラグインはスラッグに、極端な状況を除き、「WordPress」や「Plugin」を使用できません。
+*   プラグインのスラッグに、バージョン番号を使用できません。
+*   システムの制限により、スラッグに使用できるのは、英字とアラビア数字のみです。
+*   公式な代表者によって申請されたもの _でない限り_、プラグインは、商標登録されたタームや特定のプロジェクト/ライブラリ/ツールの名前で **始める** ことはできません。
 
 <!-- 
 We encourage everyone to be creative and come up with unique slugs. We automatically correct any plugin that has an unacceptable slug. If there's a question as to the best choice, we will contact you to be sure.
  -->
-We encourage everyone to be creative and come up with unique slugs. We automatically correct any plugin that has an unacceptable slug. If there's a question as to the best choice, we will contact you to be sure.
+独創的でユニークなスラッグを考え出すことを奨励しています。容認できないスラッグのプラグインは、自動的に修正します。最適な選択について疑問がある場合は、念のためご連絡します。
 
 <!-- 
 ## Using The SVN Repository
@@ -811,12 +811,12 @@ Due to that, we deny most requests for 'new' plugins to replace old ones just to
 <!-- 
 This is because we cannot migrate users between plugins nor can we redirect traffic. This means that submitted a new plugin to change a slug is incredibly detrimental to the plugin's SEO and reputation, as users will be abandoned. The majority of plugins don't actually need a new URL, and instead just want to edit their display name.
  -->
-これは、プラグイン間でのユーザー移行も、トラフィックのリダイレクトも、できないからです。つまり、スラッグを変更するために新しいプラグインを提出することは、プラグインの SEO と評判にとって信じられないほど有害であり、ユーザーは見捨てられてしまうということです。大多数のプラグインは実際には新しい URL を必要とせず、代わりに表示名を編集したいだけなのです。
+これは、プラグイン間でのユーザー移行も、トラフィックのリダイレクトも、できないからです。つまり、スラッグを変更するために新しいプラグインを申請することは、プラグインの SEO と評判にとって信じられないほど有害であり、ユーザーは見捨てられてしまうということです。大多数のプラグインは実際には新しい URL を必要とせず、代わりに表示名を編集したいだけなのです。
 
 <!-- 
 Unless there's an egregious typo, language, or legal issue related to your slug, we are **unlikely** to approve a new slug. If we do, we will flag your account to note that future rename requests are to be denied.
  -->
-あなたのスラッグに重大なタイプミス、言語、法律上の問題がない限り、新しいスラッグを承認することは **まずありません**。もし承認された場合は、今後のリネーム要求が拒否されるよう、あなたのアカウントにフラグを立てます。
+あなたのスラッグに重大なタイプミス、言語、法律上の課題がない限り、新しいスラッグを承認することは **まずありません**。もし承認された場合は、今後のリネーム要求が拒否されるよう、あなたのアカウントにフラグを立てます。
 
 <!-- 
 ### How do I change my plugin's display name?
@@ -1036,7 +1036,7 @@ No.
 <!-- 
 We do not permit this as it creates a poor experience for users. Hiding plugins makes users think the plugin has been pulled for security or guideline issues, which causes them not to trust you anymore. We cannot prevent what they think, so instead we prohibit 'temporary' closures.
  -->
-このような行為は、ユーザーにとって好ましくない体験となるため、私たちは許可していません。プラグインを非表示にすることで、ユーザーはそのプラグインがセキュリティやガイドラインの問題で削除されたと思い、あなたのことを信用しなくなります。そのため、私たちは「一時的な」クローズを禁止しています。
+このような行為は、ユーザーにとって好ましくない体験となるため、私たちは許可していません。プラグインを非表示にすることで、ユーザーはそのプラグインがセキュリティやガイドラインの課題で削除されたと思い、あなたのことを信用しなくなります。そのため、私たちは「一時的な」クローズを禁止しています。
 
 <!-- 
 Generally people want to do this when their plugin has a bug that is being fixed, or when they're unable to support it. We recommend you instead just fix the bug as soon as possible, or if you cannot support the plugin, update the readme to say it's currently unsupported and why.
@@ -1071,7 +1071,7 @@ After 60 days, the closure message will change to alert people as to _why_ it wa
 <!-- 
 Plugins are closed for guideline violations, security issues, or by author requests. In the case of active issues (such as copyright infringement, abuse, and security), all accounts with commit access to a plugin are notified.
  -->
-プラグインは、ガイドライン違反、セキュリティの問題、作者のリクエストによってクローズされます。アクティブな問題 (著作権侵害、不正使用、セキュリティなど) の場合、プラグインにコミットできるすべてのアカウントに通知されます。
+プラグインは、ガイドライン違反、セキュリティの課題、作者のリクエストによってクローズされます。アクティブな課題 (著作権侵害、不正使用、セキュリティなど) の場合、プラグインにコミットできるすべてのアカウントに通知されます。
 
 <!-- 
 If a plugin has never been used within 6 months (i.e. no code has been pushed to SVN), SVN is broken for upwards of 12 months, or a plugin's readme indicates it's deprecated, we _may_ close without notification.
@@ -1106,7 +1106,7 @@ Please note: We do not publicly disclose the details on exactly why a plugin has
 <!-- 
 If you report an [security issue](https://developer.wordpress.org/plugins/wordpress-org/plugin-security/reporting-plugin-security-issues/) or a [guideline violation](https://developer.wordpress.org/plugins/wordpress-org/detailed-plugin-guidelines/) in a plugin to `plugins@wordpress.org`, we will review and take appropriate action. Most of the time, this involves closing a plugin. Your name will not be disclosed unless you ask for it to be so, in order to protect you from backlash.
  -->
-プラグインに関する[セキュリティ上の問題](https://developer.wordpress.org/plugins/wordpress-org/plugin-security/reporting-plugin-security-issues/)や[ガイドライン違反](https://developer.wordpress.org/plugins/wordpress-org/detailed-plugin-guidelines/)を `plugins@wordpress.org` に報告いただいた場合、プラグインを確認し、適切な処置をとらせていただきます。ほとんどの場合、プラグインをクローズすることになります。反感からあなたを守るため、あなたが要求しない限り、あなたの名前は公表されません。
+プラグインに関する[セキュリティ上の課題](https://developer.wordpress.org/plugins/wordpress-org/plugin-security/reporting-plugin-security-issues/)や[ガイドライン違反](https://developer.wordpress.org/plugins/wordpress-org/detailed-plugin-guidelines/)を `plugins@wordpress.org` に報告いただいた場合、プラグインを確認し、適切な処置をとらせていただきます。ほとんどの場合、プラグインをクローズすることになります。反感からあなたを守るため、あなたが要求しない限り、あなたの名前は公表されません。
 
 <!-- 
 ### Someone posted a copy of my plugin! What do I do?
@@ -1166,7 +1166,7 @@ Also note that if it's not **your** trademark, we cannot accept your report. It 
 <!-- 
 Email `plugins@wordpress.org` a clear and concise description of the issue. [Please read our document on reporting security issues for details](https://developer.wordpress.org/plugins/wordpress-org/plugin-security/reporting-plugin-security-issues/).
  -->
-`plugins@wordpress.org` 宛てに、問題の明確で簡潔な説明をメールしてください。詳細については、[セキュリティ問題の報告に関する文書](https://developer.wordpress.org/plugins/wordpress-org/plugin-security/reporting-plugin-security-issues/)をお読みください。
+`plugins@wordpress.org` 宛てに、課題の明確で簡潔な説明をメールしてください。詳細については、[セキュリティ問題の報告に関する文書](https://developer.wordpress.org/plugins/wordpress-org/plugin-security/reporting-plugin-security-issues/)をお読みください。
 
 <!-- 
 ### Do you provide bounties for finding bugs in a plugin?
@@ -1196,7 +1196,7 @@ No. We do not have the ability to assist with CVEs.
 <!-- 
 Maybe. If it was closed for a security reason, fix the issue, reply to the email, and most of the time we'll reopen the plugin unless it has more security issues or severe guideline issues. If it was closed for guideline violations, it depends on the severity and nature of the violation. Repeat offenders are less likely to have a plugin reopened, for example, than first-timers.
  -->
-多分。セキュリティ上の理由でクローズされた場合は、問題を修正し、メールに返信してください。ほとんどの場合、セキュリティ上の問題やガイドラインの重大な問題がない限り、プラグインを再オープンします。ガイドライン違反でクローズされた場合は、違反の度合いと性質によります。たとえば、度重なる違反者は、初めての違反者よりもプラグインを再オープンする可能性は低くなります。
+多分。セキュリティ上の理由でクローズされた場合は、課題を修正し、メールに返信してください。ほとんどの場合、セキュリティ上の問題やガイドラインの重大な問題がない限り、プラグインを再オープンします。ガイドライン違反でクローズされた場合は、違反の度合いと性質によります。たとえば、度重なる違反者は、初めての違反者よりもプラグインを再オープンする可能性は低くなります。
 
 <!-- 
 If you asked for the plugin to be closed, you will be expected to explain why the change of heart. Plugins are intended to remain closed when a developer requests it, and not reopened again a month later.
@@ -1206,7 +1206,7 @@ If you asked for the plugin to be closed, you will be expected to explain why th
 <!-- 
 _All_ plugins must pass a current standards and security review in order to be restored. This is not optional. Users will lose more faith in you for having your plugin closed multiple times than they would for one longer closure where you address all the potential issues.
  -->
-_すべての_ プラグインを復活させるには、現在の標準とセキュリティの審査に合格する必要があります。これは任意ではありません。プラグインが何度もクローズされることは、潜在的な問題にすべて対処する1回のクローズよりも、ユーザーからの信頼を失います。
+_すべての_ プラグインを復活させるには、現在の標準とセキュリティの審査に合格する必要があります。これは任意ではありません。プラグインが何度もクローズされることは、潜在的な課題にすべて対処する1回のクローズよりも、ユーザーからの信頼を失います。
 
 <!-- 
 ### Why was my plugin closed when it was my employee/co-worker who violated guidelines?
@@ -1239,10 +1239,10 @@ It's exceptionally rare that we close all of a developer's plugins. In general i
   3. The violation was deemed 'egregious' (death threats, hundreds of sock puppets, harassment, etc).
  -->
 1. あなたが、すべてのプラグインをクローズするように依頼した。
-2. E メールの問題。
+2. E メールの課題。
   1. E メールが拒否され、連絡が取れなかった。
   2. E メールが自動返信され、それを修正するために警告が少なくとも2回送られた。
-3. ガイドラインの問題。
+3. ガイドラインの課題。
   1. 過去に行動を厳しく咎められ、最終警告を受けたことがある。
   2. ディレクトリおよび/またはボランティアに、法的脅威を提供した。
   3. 違反が「ひどい」と判断された (殺害予告、何百ものソックパペット、嫌がらせなど)。
@@ -1255,12 +1255,12 @@ If you asked us to close them, you have to explain _why_ the change of heart.
 <!-- 
 If you're having email issues, you have to resolve them and you'll be required to bring all your plugins up to current standards of security and guidelines.
  -->
-E メールに問題があれば、それを解決しなければならないし、すべてのプラグインを現在のセキュリティ基準やガイドラインに合わせることが求められることになるでしょう。
+E メールに課題があれば、それを解決しなければならないし、すべてのプラグインを現在のセキュリティ基準やガイドラインに合わせることが求められることになるでしょう。
 
 <!-- 
 As for that last one … Generally you don't get to come back from that. If we deliver you a final warning for your behaviour and, within less than a year, you start up again with the issues (or fail to resolve all the issues we mentioned), we're not going to reopen your plugins.
  -->
-最後の件については … 一般的に、あなたはそこから戻ってくることはないでしょう。もし私たちがあなたの行動に対して最終警告を出し、1年以内にあなたが再び問題を起こした場合 (あるいは私たちが述べたすべての問題を解決できなかった場合)、私たちはあなたのプラグインを再オープンするつもりはありません。
+最後の件については … 一般的に、あなたはそこから戻ってくることはないでしょう。もし私たちがあなたの行動に対して最終警告を出し、1年以内にあなたが再び課題を起こした場合 (あるいは私たちが述べたすべての課題を解決できなかった場合)、私たちはあなたのプラグインを再オープンするつもりはありません。
 
 <!-- 
 ### I just got a final warning. What do I do?
@@ -1270,7 +1270,7 @@ As for that last one … Generally you don't get to come back from that. If we d
 <!-- 
 First and foremost, _take it seriously_. The email will list exactly what the problems have been and why we've chosen to escalate to a final warning. Plugin Owners are expected to resolve all the issues, to cease causing new guideline violations, and to closely monitor the actions of any coworkers. In short, stop breaking the guidelines, stop making excuses, apologize for any misbehaviour, and correct course.
  -->
-何よりもまず、_真摯に受け止める_ ことが大切です。この E メールには、どのような問題があったのか、なぜ最終警告までエスカレーションすることになったのかが正確に記載されます。プラグイン・オーナーは、すべての問題を解決し、新たなガイドライン違反を起こさないようにし、同僚の行動を注意深く監視することが期待されています。要するに、ガイドライン違反をやめ、言い訳をするのをやめ、不作法を謝罪し、軌道修正してください。
+何よりもまず、_真摯に受け止める_ ことが大切です。この E メールには、どのような問題があったのか、なぜ最終警告までエスカレーションすることになったのかが正確に記載されます。プラグイン・オーナーは、すべての課題を解決し、新たなガイドライン違反を起こさないようにし、同僚の行動を注意深く監視することが期待されています。要するに、ガイドライン違反をやめ、言い訳をするのをやめ、不作法を謝罪し、軌道修正してください。
 
 <!-- 
 The last thing we want to do is ban someone and disable all their plugins. It's not healthy for the community. At the same time, if a developer is unable or unwilling to play by the same rules as everyone else, it's detrimental to keep then in the directory and disrespectful to everyone else.
