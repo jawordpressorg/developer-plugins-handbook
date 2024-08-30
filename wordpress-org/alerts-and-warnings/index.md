@@ -26,37 +26,37 @@ Plugins that have been approved but no code has yet been uploaded will see this 
 <!-- 
 ## Closed
  -->
-## サービス終了
+## クローズ
 
 <!-- 
 As of November 2017, plugins that are closed display a notice:
  -->
-2017年11月現在、サービスを終了したプラグインには、お知らせが表示されます:
+2017年11月現在、クローズしたプラグインには、お知らせが表示されます:
 
 <!-- 
 ![Red background: This plugin has been closed and is no longer available for download.](https://i3.wp.com/developer.wordpress.org/files/2018/02/closed.png)
  -->
-![赤色の背景: このプラグインは既にサービスを終了し、もうダウンロードできません。](https://i3.wp.com/developer.wordpress.org/files/2018/02/closed.png)
+![赤色の背景: このプラグインは既にクローズされ、もうダウンロードできません。](https://i3.wp.com/developer.wordpress.org/files/2018/02/closed.png)
 
 <!-- 
 This is viewable by all visitors and indicates a plugin was closed. Plugins closed after January 2018 will include a date:
  -->
-これはすべての訪問者が見ることができ、プラグインがサービス終了されたことを示します。2018年1月以降にサービス終了されたプラグインには、日付が表示されます:
+これはすべての訪問者が見ることができ、プラグインがクローズされたことを示します。2018年1月以降にクローズされたプラグインには、日付が表示されます:
 
 <!-- 
 ![Red background: This plugin was closed on February 7, 2018 and is no longer available for download.](https://i3.wp.com/developer.wordpress.org/files/2018/02/closed-alt.jpg)
  -->
-![赤色の背景: このプラグインは2018年2月7日にサービス終了し、もうダウンロードできません。](https://i3.wp.com/developer.wordpress.org/files/2018/02/closed-alt.jpg)
+![赤色の背景: このプラグインは2018年2月7日にクローズし、もうダウンロードできません。](https://i3.wp.com/developer.wordpress.org/files/2018/02/closed-alt.jpg)
 
 <!-- 
 After 60 days, the alert will be updated to explain _why_ the plugin was closed:
  -->
-60日後、警告はプラグインがサービス終了された _理由_ を説明するために更新されます:
+60日後、警告はプラグインがクローズされた _理由_ を説明するために更新されます:
 
 <!-- 
 ![Alert detailing why a plugin was closed](https://i3.wp.com/developer.wordpress.org/files/2018/02/why-closed.png)
  -->
-![プラグインがサービス終了された理由を、詳細に示す警告](https://i3.wp.com/developer.wordpress.org/files/2018/02/why-closed.png)
+![プラグインがクローズされた理由を、詳細に示す警告](https://i3.wp.com/developer.wordpress.org/files/2018/02/why-closed.png)
 
 <!-- 
 Plugin committers will see the following additional note:
@@ -66,12 +66,12 @@ Plugin committers will see the following additional note:
 <!-- 
 ![Blue background: If you did not request this change, please contact plugins@wordpress.org for a status. All developers with commit access are contacted when a plugin is closed, with the reasons why, so check your spam email too.](https://i3.wp.com/developer.wordpress.org/files/2018/02/closed-owner.png)
  -->
-![青色の背景: この変更をリクエストしていない場合は、plugins@wordpress.org に連絡してステータスを確認してください。プラグインがサービス終了されたときには、コミット権限のある開発者全員にその理由とともに連絡されますので、迷惑メールもチェックしてください。](https://i3.wp.com/developer.wordpress.org/files/2018/02/closed-owner.png)
+![青色の背景: この変更をリクエストしていない場合は、plugins@wordpress.org に連絡してステータスを確認してください。プラグインがクローズされたときには、コミット権限のある開発者全員にその理由とともに連絡されますので、迷惑メールもチェックしてください。](https://i3.wp.com/developer.wordpress.org/files/2018/02/closed-owner.png)
 
 <!-- 
 ### Reasons why plugins are closed
  -->
-### プラグインがサービス終了される理由
+### プラグインがクローズされる理由
 
 <!-- 
 - Author Request – the author has asked the plugin to be closed.
@@ -80,7 +80,7 @@ Plugin committers will see the following additional note:
 - Merged Into Core – the plugin is now a part of core (reserved for feature projects).
 - Security Issue – a security concern has been found in this plugin.
  -->
-- 作者からの依頼 – 作者がプラグインをサービス終了するよう要請しました。
+- 作者からの依頼 – 作者がプラグインをクローズするよう要請しました。
 - ガイドライン違反 – ガイドラインのいずれかに違反しています。
 - ライセンス/商標違反 – 非 GPL コードが使用されていたり、商標が誤用されていたりします。
 - コアにマージ – プラグインはコアの一部になりました (機能プロジェクトのために予約されていました)。
@@ -89,7 +89,7 @@ Plugin committers will see the following additional note:
 <!-- 
 Additional details on why a plugin is closed are not provided to anyone outside the WordPress.org security team or the plugin authors, unless there is an extreme circumstance.
  -->
-プラグインがサービス終了された理由の追加の詳細は、極端な事情がない限り、WordPress.org セキュリティチームやプラグイン作者以外の人には提供されません。
+プラグインがクローズされた理由の追加の詳細は、極端な事情がない限り、WordPress.org セキュリティチームやプラグイン作者以外の人には提供されません。
 
 <!-- 
 ## Out of Date
