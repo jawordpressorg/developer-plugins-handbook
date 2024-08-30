@@ -198,7 +198,7 @@ We cannot accept plugins submitted by individual developer accounts, unless they
 <!-- 
 What if I submitted the plugin with the wrong user ID?
  -->
-間違ったユーザー ID でプラグインを申請したら、どうなるの ?
+### 間違ったユーザー ID でプラグインを申請したら、どうなるの ?
 
 <!-- 
 Just reply to the email right away and let us know. We can transfer ownership for you. If you forget to do this, you can fix it yourself by [adding the correct account as a committer](https://developer.wordpress.org/plugins/wordpress-org/plugin-developer-faq/#how-do-i-give-someone-else-access-to-my-plugin) and then having that account remove your own.
