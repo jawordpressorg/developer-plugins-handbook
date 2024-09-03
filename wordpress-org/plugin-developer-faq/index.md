@@ -776,7 +776,7 @@ Consider the real life example of Keurig. If you made an eco-friendly brew cup, 
 <!-- 
 Can a company give me permission to use their trademark in my permalink?
  -->
-企業が私のパーマリンクに、その企業の商標を使用する許可を与えてくれることはありますか ?
+### 企業が私のパーマリンクに、その企業の商標を使用する許可を与えてくれることはありますか ?
 
 <!-- 
 No.
