@@ -103,7 +103,7 @@ _/branches/ ディレクトリは、使用されなかったため、デフォ�
 <!-- 
 _A `/branches/` directory that was used for divergent code is no longer created by default, as it was unused._
  -->
-_分岐コードに使われていたディレクトリ `/branches/` は、未使用だったため、デフォルトでは作成されなくなりました。　_
+_分岐コードに使われていたディレクトリ `/branches/` は、未使用だったため、デフォルトでは作成されなくなりました。_
 
 <!-- 
 ### Trunk
