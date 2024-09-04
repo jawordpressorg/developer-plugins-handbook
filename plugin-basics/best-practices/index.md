@@ -44,9 +44,9 @@ All globally accessible code should be prefixed with a _unique_ identifier. Pref
 グローバルにアクセス可能なすべてのコードには、_ユニークな_ 識別子を接頭辞として付ける必要があります。接頭辞は他のプラグインとの競合を防ぎ、プラグインがあなたの変数を上書きしたり、誤ってあなたの関数やクラスを呼び出したりするのを防ぎます。
 
 <!-- 
-In order to prevent conflicts with other plugins, your prefix should be at least 3 letters long, though we recommend 5. You should avoid using a common English word, and instead choose something unique to your plugin. We host tens of thousands of plugins on WordPress.org alone. There are hundreds of thousands more outside our servers. You're _going_ to run into conflicts.
+In order to prevent conflicts with other plugins, your prefix should be at least 4 letters long, though we recommend 5. You should avoid using a common English word, and instead choose something unique to your plugin. We host tens of thousands of plugins on WordPress.org alone. There are hundreds of thousands more outside our servers. You're _going_ to run into conflicts.
  -->
-他のプラグインとの競合を避けるため、接頭辞は、少なくとも3文字、5文字以上を推奨します。一般的な英単語を使うのは避け、プラグイン独自のものを選ぶべきです。私たちは WordPress.org だけで何万ものプラグインをホストしています。私たちのサーバーの外側には、さらに何十万ものプラグインがあります。競合に _遭遇する_ ことになるでしょう。
+他のプラグインとの競合を避けるため、接頭辞は、少なくとも4文字、5文字以上を推奨します。一般的な英単語を使うのは避け、プラグイン独自のものを選ぶべきです。私たちは WordPress.org だけで何万ものプラグインをホストしています。私たちのサーバーの外側には、さらに何十万ものプラグインがあります。競合に _遭遇する_ ことになるでしょう。
 
 <!-- 
 A good way to do this is with a prefix. For example, if your plugin is called "Easy Custom Post Types" then you could use names like these:
