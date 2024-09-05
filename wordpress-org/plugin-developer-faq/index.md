@@ -196,7 +196,7 @@ We cannot accept plugins submitted by individual developer accounts, unless they
 明らかに会社のアカウントでない限り、開発者個人のアカウントで申請されたプラグインは、受け付けることができません。たとえば、Facerange の公式プラグインを Gmail アドレスのユーザーで申請すると、商標侵害のフラグを立てられる可能性があります。
 
 <!-- 
-What if I submitted the plugin with the wrong user ID?
+### What if I submitted the plugin with the wrong user ID?
  -->
 ### 間違ったユーザー ID でプラグインを申請したら、どうなるの ?
 
@@ -774,7 +774,7 @@ Consider the real life example of Keurig. If you made an eco-friendly brew cup, 
 [alert]新しいプラグインが、パーマリンクの先頭に `woo` を使用することを許可する権限がなくなり、代わりに `wc` の使用を強制することが求められています。[/alert]
 
 <!-- 
-Can a company give me permission to use their trademark in my permalink?
+### Can a company give me permission to use their trademark in my permalink?
  -->
 ### 企業が私のパーマリンクに、その企業の商標を使用する許可を与えてくれることはありますか ?
 
