@@ -29,6 +29,7 @@ Along with the ability to control these tools, there are several new filters for
 - `wp_page_for_privacy_policy` – サイトのプライバシーページのページ ID が格納されています。
 
 <!-- 
+## Actions
  -->
 ## アクション
 
