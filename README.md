@@ -27,7 +27,7 @@ https://qiita.com/miya0001/items/4745cf900a66c0bbf8e5
 あとは定期的に
 ```
 % git fetch upstream
-% git merge upstream/trunk
+% git merge upstream/main
 ```
 
 ここですべてのファイルがマージされる場合でも、どこが変更されたかチェックし、手動で反映する必要があります (例: コードが変更された場合)。画面の出力から「.md」ファイルを抽出して変更一覧を取得します。

@@ -109,9 +109,10 @@ The next thing the plugin needs to do is to register the callback by filtering t
  -->
 次にプラグインが行うべきことは、フィルター [`wp_privacy_personal_data_erasers`](https://developer.wordpress.org/reference/hooks/wp_privacy_personal_data_erasers/) を使用してイレーザー配列をフィルタリングしてコールバックを登録することです。
 
-<!-- 
+<!--
 When registering you provide a friendly name for the eraser (to aid in debugging – this friendly name is not shown to anyone at this time) and the callback, e.g.
- -->
+-->
+
 登録の際には、イレーザーのフレンドリーな名前 (デバッグを助けるため – このフレンドリーな名前は、現時点では誰にも表示されません) とコールバックを指定します。
 
 ```
