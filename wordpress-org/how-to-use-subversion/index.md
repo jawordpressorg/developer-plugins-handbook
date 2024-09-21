@@ -86,21 +86,21 @@ There are three directories created by default in all SVN repositories.
 /trunk/
 ```
 
-<!-- 
-_The /branches/ directory is no longer created by default, as it was unused._
- -->
-_/branches/ ディレクトリは、使用されなかったため、デフォルトでは作成されなくなりました。_
-
-<!-- 
+<!--
 - Use `assets` for [screenshots, plugin headers, and plugin icons](https://developer.wordpress.org/plugins/wordpress-org/plugin-assets/).
 - Development work belongs in `trunk`.
 - Releases go in `tags`.
-- Divergent branches of code go into `branches`.
- -->
+-->
+
 - [スクリーンショット、プラグイン・ヘッダー、プラグイン・アイコン](https://developer.wordpress.org/plugins/wordpress-org/plugin-assets/)には `assets` を使ってください。
 - 開発作業は、`trunk` に置きます。
 - リリースは、`tags` に入れます。
-- コードの分岐は、`branches` にまとめます。
+
+<!--
+_A `/branches/` directory that was used for divergent code is no longer created by default, as it was unused._
+-->
+
+`/branches/` ディレクトリは、使用されなかったため、デフォルトでは作成されなくなりました。_
 
 <!-- 
 ### Trunk
@@ -213,7 +213,7 @@ Many people use `trunk` as a placeholder. While it's possible to simply update t
 ### 常にタグ付きリリース
 
 <!-- 
-While it's possible to use trunk as a stable tag for plugins, this feature is not actually supported nor recommended. Instead, releases should be properly tagged an iterated. This will ensure full compatibility with any automatic updater, as well as allow for rollbacks should there be an issue with your code.
+While it's possible to use trunk as a stable tag for plugins, this feature is not actually supported nor recommended. Instead, releases should be properly tagged and iterated. This will ensure full compatibility with any automatic updater, as well as allow for rollbacks should there be an issue with your code.
  -->
 プラグインの安定タグとして trunk を使うことは可能ですが、この機能は実際にはサポートされていませんし、推奨もされていません。代わりに、リリースには適切なタグを付けて繰り返しリリースする必要があります。そうすることで、自動アップデータとの完全な互換性が保証され、あなたのコードに問題があった場合にロールバック可能になります。
 

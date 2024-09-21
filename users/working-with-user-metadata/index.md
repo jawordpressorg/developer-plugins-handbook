@@ -236,6 +236,8 @@ Please refer to the Function Reference about [`update_user_meta()`](https://deve
  -->
 #### 削除
 
+#### Delete
+
 ```
 delete_user_meta(
   int $user_id,

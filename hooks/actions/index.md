@@ -126,9 +126,9 @@ The second way that callback function order is determined is simply by the order
  -->
 コールバック関数の順番が決定される2つ目の方法は、単純に _同じ優先度同士_ で登録された順番です。つまり、2つのコールバック関数が同じフックに同じ優先度で登録されている場合、フックに登録された順番に実行されます。
 
-<!-- 
+<!--
 For example, the following callback functions are all registered to the `init` hook, but with different priorities:
- -->
+-->
 たとえば、以下のコールバック関数はすべて `init` フックに登録されているが、優先順位は異なります:
 
 ```
