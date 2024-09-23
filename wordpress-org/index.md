@@ -27,7 +27,10 @@ All plugins hosted here have access to:
  -->
 [tip][開発者 FAQ](https://developer.wordpress.org/plugins/wordpress-org/plugin-developer-faq/) を必ず確認してください ! [/tip]
 
+<!-- 
 And make sure that you've reviewed the [common issues](./common-issues/index.md) that the Plugin Review Team typically encounters when reviewing plugins.
+ -->
+また、プラグインレビューチームがプラグインをレビューする際に通常遭遇する[一般的な問題](./common-issues/index.md)を確認してください。
 
 <!-- 
 If you require assistance with your hosting on WordPress.org, you can contact the plugin team via Slack in `#pluginreview`.
