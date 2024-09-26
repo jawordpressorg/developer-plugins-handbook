@@ -116,7 +116,7 @@ The resource path should signify what resource the endpoint is associated with. 
 <!-- 
 Let’s say we have a plugin that handles some basic eCommerce functionality. We will have two main resource types orders, and products. Orders are a request for product(s) but they are not the product themselves. The same concept applies to products. Although these resources are related they are not the same thing and each should live in a separate resource paths. Our routes will end up looking something like this for our eCommerce plugin: `/my-shop/v1/orders` and `/my-shop/v1/products`.
  -->
-基本的な e コマース機能を処理するプラグインがあるとします。注文と商品という2つの主要なリソースタイプがあります。注文は商品のリクエストですが、商品そのものではありません。同じコンセプトが、商品にも当てはまります。これらのリソースは関連していますが、同じものではなく、それぞれ別のリソース・パスに存在する必要があります。e コマース・プラグインの場合、ルートは以下のようになります: `/my-shop/v1/orders` と `/my-shop/v1/products` 。
+基本的な e コマース機能を処理するプラグインがあるとします。注文と商品という2つの主要なリソースタイプがあります。注文は商品のリクエストですが、商品そのものではありません。同じコンセプトが、商品にも当てはまります。これらのリソースは関連していますが、同じものではなく、それぞれ別のリソース・パスに存在する必要があります。e コマース・プラグインの場合、ルートは以下のようになります: `/my-shop/v1/orders` と `/my-shop/v1/products`。
 
 <!-- 
 Using routes like this, we would want each to return a collection of orders or products. What if we wanted to grab a specific product by ID, we would need to use path variables in our routes.
