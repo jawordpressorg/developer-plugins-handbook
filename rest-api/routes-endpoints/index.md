@@ -41,7 +41,7 @@ add_action( 'rest_api_init', 'prefix_register_example_routes' );
 <!-- 
 The first argument passed into `register_rest_route()` is the namespace, which provides us a way to group our routes. The second argument passed in is the resource path, or resource base. For our example, the resource we are retrieving is the “Hello World, this is the WordPress REST API” phrase. The third argument is an array of options. We specify what methods the endpoint can use and what callback should happen when the endpoint is matched (more things can be done but these are the fundamentals).
  -->
-`register_rest_route()` に渡される第1引数は、名前空間で、ルートをグループ化する方法を提供します。第2引数は、リソース・パス、またはリソース・ベースです。この例では、取得するリソースは、フレーズ「Hello World, this is the WordPress REST API」です。第3引数は、オプションの配列です。エンドポイントが使用できるメソッドと、エンドポイントがマッチしたときに発生するコールバックを指定します (もっといろいろなことができるが、これらは基本です)。
+`register_rest_route()` に渡される第1引数は、名前空間で、ルートをグループ化する方法を提供します。第2引数は、リソース・パス、またはリソース・ベースです。この例では、取得するリソースは、フレーズ「Hello World, this is the WordPress REST API」です。第3引数は、オプションの配列です。エンドポイントが使用できるメソッドと、エンドポイントがマッチしたときに発生するコールバックを指定します (もっといろいろなことができますが、これらが基本です)。
 
 <!-- 
 The third argument also allows us to provide a permissions callback, which can restrict access for the endpoint to only certain users. The third argument also offers a way to register arguments for the endpoint so that requests can modify the response of our endpoint. We will get into those concepts in the endpoints section of this guide.
