@@ -182,7 +182,7 @@ PHP では、クエリー・パラメータは、スーパーグローバル `$_
 <!-- 
 Body parameters are key value pairs that are stored in the request body. If you have ever sent a `POST` request via a , through cURL, or some other method, then you have used body parameters. With body parameters you can pass them as different content types as well. The default `Content-Type` header for a `POST` request is `x-www-form-urlencoded`. When using `x-www-form-urlencoded`, the parameters are sent like a query string; `per_page=2&genre=fiction`. An HTML form, by default, will bundle up the various inputs and send a `POST` request matching the `x-www-form-urlencoded` pattern.
  -->
-ボディ・パラメータは、リクエスト・ボディに格納される KVP (キーと値のペア) です。If you have ever sent a `POST` request via a , through cURL, or some other method, then you have used body parameters. ボディ・パラメータでは、異なるコンテントタイプとして渡すこともできます。リクエスト `POST` に対するデフォルトのヘッダー `Content-Type` は、`x-www-form-urlencoded` です。`x-www-form-urlencoded` を使用する場合、パラメータはクエリー文字列のように送信されます; `per_page=2&genre=fiction`。デフォルトでは、HTML フォームは、様々な入力を束ね、パターン `x-www-form-urlencoded` に一致するリクエスト `POST` を送信します。
+ボディ・パラメータは、リクエスト・ボディに格納される KVP (キーと値のペア) です。これまでに cURL やその他の方法を使用して `POST` リクエストを送信したことがあれば、ボディ・パラメータを使ったことがあるはずです。ボディ・パラメータでは、異なるコンテントタイプとして渡すこともできます。リクエスト `POST` に対するデフォルトのヘッダー `Content-Type` は、`x-www-form-urlencoded` です。`x-www-form-urlencoded` を使用する場合、パラメータはクエリー文字列のように送信されます; `per_page=2&genre=fiction`。デフォルトでは、HTML フォームは、様々な入力を束ね、パターン `x-www-form-urlencoded` に一致するリクエスト `POST` を送信します。
 
 <!-- 
 It is important to note that although the HTTP specification does not prohibit the use of sending body parameters in `GET` requests, it is encouraged that you do not use body parameters in a `GET` request. Body parameters can and should be used for `POST`, `PUT`, and `DELETE` requests.
