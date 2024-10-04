@@ -12,6 +12,7 @@
 When writing endpoints it can be helpful to use a controller class to handle the functionality of an endpoint. Controller classes will provide a standard way to interact with the API and also a more maintainable way to interact with the API. WordPress’s current minimum PHP version is 5.2, if you are developing endpoints that will be used by the WordPress ecosystem at large you should consider supporting WordPress’s minimum requirements.
  -->
 エンドポイントを書く際には、コントローラ・クラスを使ってエンドポイントの機能を処理すると便利です。コントローラ・クラスは、API とやりとりするための標準的な方法と、API とのやりとりをより保守し易くする方法も提供します。WordPress の現在の最小 PHP バージョンは5.2で、WordPress のエコシステム全体で使用されるエンドポイントを開発する場合は、WordPress の最小要件へのサポートを検討する必要があります。
+(訳注: WordPress 6.6 のサポートする最小 PHP バージョンは7.2)
 
 <!-- 
 PHP 5.2 does not have namespacing built into it. This means that every function you declare will be in the global scope. If you decide to use a common function name for endpoints like `get_items()` and another plugin also registers that function, PHP will fail with a fatal error. This is because the function `get_items()` is being declared twice. By wrapping our endpoints we can avoid these naming conflicts and also have a consistent way to interact with the API.
