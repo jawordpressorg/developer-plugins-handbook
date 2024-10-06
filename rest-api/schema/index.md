@@ -1,27 +1,12 @@
-<!-- 
 # Schema
- -->
-# スキーマ
 
-<!-- 
 ## Overview
- -->
-## 概要
 
-<!-- 
 Schema is data that tells us how are other data should be structured. Most databases implement some form of schema which enables us to reason about our data in a more structured manner. The WordPress REST API utilizes JSON Schema to handle the structuring of its data. You can implement endpoints without using schema, but you will be missing out on a lot of things. It is up to you to decide what suits you best.
- -->
-スキーマとは、他のデータがどの様に構造化されるべきかを示すデータです。殆どのデータベースは、より構造化されたやり方でデータについて説明することを可能にする、何らかの形のスキーマを実装しています。WordPress REST API は、JSON スキーマを使用してそのデータの構造化を処理します。スキーマを使わずにエンドポイントを実装できますが、多くのものを失うことになります。何が一番自分に合っているかは、あなた次第です。
 
-<!-- 
 ## JSON Schema
- -->
-## JSON スキーマ
 
-<!-- 
 First, let’s talk about JSON a bit. JSON is a human readable data format that resembles JavaScript objects. JSON stands for JavaScript Object Notation. JSON is growing wildly in popularity and seems to be taking the world of data structure by storm. The WordPress REST API uses a special specification for JSON known as JSON schema. To learn more about JSON Schema please check out the [JSON Schema website](http://json-schema.org/) and this [easier to understand introduction to JSON Schema](https://spacetelescope.github.io/understanding-json-schema/index.html). Schema affords us many benefits: improved testing, discoverability, and overall better structure. Let’s look at a JSON blob of data.
- -->
-まず、JSON について少し説明しましょう。JSON は、JavaScript のオブジェクトに似た、人間が読めるデータフォーマットです。JSON は JavaScript Object Notation (JavaScript オブジェクト記法) の略です。JSON の人気は急上昇しており、データ構造の世界を席巻しているように見えます。WordPress REST API は、JSON スキーマとして知られる JSON の特別な仕様を使用しています。JSON スキーマについてもっと知りたい方は、[JSONスキーマのウェブサイト](http://json-schema.org/)とこちらの[JSONスキーマについての理解しやすい導入](https://spacetelescope.github.io/understanding-json-schema/index.html)をご覧ください。スキーマには多くの利点があります: テストの改善、発見しやすさ、全体的な構造の改善などです。JSON データの塊を見てみましょう。
 
 ```
 {
@@ -31,20 +16,11 @@ First, let’s talk about JSON a bit. JSON is a human readable data format that 
 }
 ```
 
-<!-- 
 A JSON parser will go through that data no problem and won’t complain about anything, because it is valid JSON. The clients and servers know nothing about the data and what to expect they just see the JSON. By implementing schema we can actually simplify our codebase. Schema will help structure our data better so our applications can more easily reason about our interactions with the WordPress REST API. The WordPress REST API does not force you to use schema, but it is encouraged. There are two ways in which schema data is incorporated into the API; schema for resources and schema for our registered arguments.
- -->
-JSON パーサーは、そのデータを問題なく処理し、有効な JSON であるため、何も文句を言うことはないでしょう。クライアントとサーバーは、データについて何も分からないが、JSON を見るだけで、何を期待すればいいのか分かっています。スキーマを実装することで、コードベースを単純化できます。スキーマは、データをよりよく構造化するのに役立ち、WordPress REST API とのやりとりをアプリケーションがより簡単に説明できます。WordPress REST API はスキーマの使用を強制しませんが、推奨しています。スキーマデータを API に組み込む方法は2つあります; リソース用のスキーマと、登録された引数用のスキーマです。
 
-<!-- 
 ## Resource Schema
- -->
-## リソース・スキーマ
 
-<!-- 
 The schema for a resource indicates what fields are present for a particular object. When we register our routes we can also specify the resource schema for the route. Let’s look at what a simple comment schema might look like in a PHP representation of JSON schema.  
- -->
-あるリソースに関するスキーマは、特定のオブジェクトに関してどの様なフィールドが存在するかを示します。ルートを登録する際、そのルート用のリソーススキーマの指定もできます。シンプルなコメントスキーマが JSON スキーマの PHP 表現でどのように見えるか、見てみましょう。
 
 ```
 // Register our routes.
@@ -178,25 +154,13 @@ function prefix_get_comment_schema( $request ) {
 }
 ```
 
-<!-- 
 If you notice, each comment resource now matches up to our schema that we specified. We made this switch in `prefix_rest_prepare_comment()`. By creating schema for our resources, we can now view this schema by making `OPTIONS` requests. Why is this useful? If we wanted other languages, JavaScript for example, to interpret our data and validate the data from our endpoint, JavaScript would need to know how our data is structured. When we provide schema, we open the doors for other authors, and ourselves, to build on top of our endpoints in a consistent manner.
- -->
-お気付きの様に、各コメント・リソースは現在、私たちが指定したスキーマと一致しています。我々は `prefix_rest_prepare_comment()` で切り替えました。リソース用のスキーマを作成することにより、`OPTIONS` リクエストすることで、このスキーマを表示できるようになりました。なぜこれが便利なのでしょうか ? 他の言語、たとえば JavaScript にデータを解釈させ、エンドポイントからのデータを検証させたい場合、JavaScript は、データがどの様に構造化されているかを知る必要があります。私たちがスキーマを提供する際、私たちは、他の作者や私たち自身のために、一貫したやり方で私たちのエンドポイントの上に構築するための門戸を開いているのです。
 
-<!-- 
 Schema provides machine readable data, so potentially anything that can read JSON can understand what kind of data it is looking at. When we look at the API index by making a `GET` request to `https://ourawesomesite.com/wp-json/`, we are returned the schema of our API, enabling others to write client libraries to interpret our data. This process of reading schema data is known as discovery. When we have provided schema for a resource we make that resource discoverable via `OPTIONS` requests to that route. Exposing resource schema is only one part of our schema puzzle. We also want to use schema for our registered arguments.
- -->
-スキーマは機械可読データを提供するので、JSON を読むことができるものであれば、どんなデータを見ているのかを理解できる可能性があります。`https://ourawesomesite.com/wp-json/` に `GET` リクエストすることで API インデックスを参照する際、API のスキーマが返され、私たちのデータを解釈するクライアント・ライブラリを、他の人が書くことを可能にします。スキーマデータを読み取るこのプロセスは、ディスカバリーと呼ばれています。あるリソースに対するスキーマを提供したら、そのルートへの `OPTIONS` リクエスト経由でそのリソースをディスカバリーできるようにしましょう。リソーススキーマを公開することは、スキーマパズルの一部分に過ぎません。登録された引数に対しても、スキーマを使いたいですね。
 
-<!-- 
 ## Argument Schema
- -->
-## 引数スキーマ
 
-<!-- 
 When we register request arguments for an endpoint, we can also use JSON Schema to provide us data about what the arguments should be. This enables us to write validation libraries that can be reused as our endpoints expand. Schema is more work upfront, but if you are going to write a production application that will grow, you should definitely consider using schema. Let’s look at an example of using argument schema and validation.
- -->
-エンドポイントに対してリクエスト引数を登録する際、JSON スキーマを使って、引数がどうあるべきかというデータも提供できます。これにより、エンドポイントが拡張されても再利用できる検証ライブラリを書くことができます。スキーマは初期作業が多くなりますが、成長する本番アプリケーションを書くのであれば、スキーマの使用をぜひ検討すべきです。引数スキーマと検証の使用例を見てみましょう。
 
 ```
 // Register our routes.
@@ -296,22 +260,10 @@ function prefix_sanitize_my_arg( $value, $request, $param ) {
 ```
 
 
-<!-- 
 In the example above we have abstracted away from using the `'my-arg'` name. We can use these validation and sanitizing functions for any other argument that should be a string we have specified schema for. As your codebase and endpoints grow, schema will help keep your code lightweight and maintainable. Without schema you can validate and sanitize, however it will be more difficult to keep track of which functions should be validating what. By adding schema to request arguments we can also expose our argument schema to clients, so validation libraries can be built client side which can help performance by preventing invalid requests from ever being sent to the API.
- -->
-上の例では、`'my-arg'` という名前を使わないように抽象化しています。これらの検証関数とサニタイズ関数は、スキーマを指定した文字列であれば、他のどのような引数に対しても使用できます。コードベースとエンドポイントが成長するにつれて、スキーマはコードの軽量化と保守性の維持に役立ちます。スキーマがなくても、検証やサニタイズはできますが、どの関数が何を検証すべきかを追跡するのはさらに困難になるでしょう。リクエスト引数にスキーマを追加することで、引数スキーマをクライアントに公開することも可能になり、したがって、検証ライブラリをクライアント側に構築でき、無効なリクエストが API に送信されるのを防ぎ、パフォーマンスの向上が可能になります。
 
-<!-- 
 [info]If you are uncomfortable with using schema, it is still possible to have validate/sanitize callbacks for each of your arguments, and in some cases it will make the most sense to do a custom validation.[/info]
- -->
-[info]スキーマを使うことに抵抗がある場合、各引数に対して検証 / サニタイズコールバックを持たせることは可能ですし、場合によってはカスタム検証することが最も理に適っていることもあります。[/info]
 
-<!-- 
 ## Overview
- -->
-## 概要
 
-<!-- 
 Schema can seem silly at points and possibly like unnecessary work, but if you want maintainable, discoverable, and easily extensible endpoints, it is essential to use schema. Schema also helps to self document your endpoints both for humans and computers!
- -->
-スキーマは、バカバカしく思えることもあるし、不必要な作業のように思えることもあるかもしれませんが、保守可能で、ディスカバリー容易で、簡単に拡張できるエンドポイントを望むのであれば、スキーマを使うことは不可欠です。スキーマはまた、人間にとってもコンピューターにとっても、エンドポイントの自己文書化に役立ちます !
