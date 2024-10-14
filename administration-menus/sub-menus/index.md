@@ -31,17 +31,17 @@ add_submenu_page(
 <!-- 
 Lets say we want to add a Sub-menu "WPOrg Options" to the "Tools" Top-level menu.
  -->
-例えば、「ツール」のトップレベルメニューに "WPOrg Options" というサブメニューを追加したいとします。
+たとえば、「ツール」のトップレベルメニューに "WPOrg Options" というサブメニューを追加したいとします。
 
 <!-- 
 **The first step** will be creating a function which will output the HTML. In this function we will perform the necessary security checks and render the options we’ve registered using the [Settings API](https://developer.wordpress.org/plugins/settings/).
  -->
-**第一のステップ**では、HTML を出力する関数を作成します。この関数では、必要なセキュリティチェックを行ない、[設定 API](https://developer.wordpress.org/plugins/settings/) を使って登録したオプションを書き出します。
+**第一のステップ**では、HTML を出力する関数を作成します。この関数では、必要なセキュリティチェックを行い、[設定 API](https://developer.wordpress.org/plugins/settings/) を使って登録したオプションを書き出します。
 
 <!-- 
 [info]We recommend wrapping your HTML using a `<div>` with a class of `wrap`.[/info]
  -->
-[info]HTML をラップするには、クラスが `wrap` の `<div>` を使用することをお勧めします。[/info]
+[info]HTML をラップするには、クラスが `wrap` の `<div>` を使用することをおすすめします。[/info]
 
 ```
 function wporg_options_page_html() {
@@ -71,7 +71,7 @@ function wporg_options_page_html() {
 <!-- 
 **The second step** will be registering our WPOrg Options Sub-menu. The registration needs to occur during the `admin_menu` action hook.
  -->
-**第二のステップ**では、WPOrg オプションサブメニューを登録します。この登録は `admin_menu` アクションフックで行なう必要があります。
+**第二のステップ**では、WPOrg オプションサブメニューを登録します。この登録は `admin_menu` アクションフックで行う必要があります。
 
 ```
 function wporg_options_page() {
@@ -100,7 +100,7 @@ For a list of parameters and what each do please see the [`add_submenu_page()`](
 <!-- 
 Wouldn’t it be nice if we had helper functions that define the `$parent_slug` for WordPress built-in Top-level menus and save us from manually searching it through the source code?
  -->
-WordPress 組み込みのトップレベルメニューの `$parent_slug` を定義するヘルパー関数があれば、ソースコードから手作業で探す手間が省けていいと思いませんか ?
+WordPress 組込みトップレベルメニューの `$parent_slug` を定義するヘルパー関数があれば、ソースコードから手作業で探す手間が省けていいと思いませんか ?
 
 <!-- 
 Below is a list of parent slugs and their helper functions:
@@ -134,7 +134,7 @@ Below is a list of parent slugs and their helper functions:
 - [`add_management_page()`](https://developer.wordpress.org/reference/functions/add_management_page/) – `tools.php`
 - [`add_options_page()`](https://developer.wordpress.org/reference/functions/add_options_page/) – `options-general.php`
 - [`add_options_page()`](https://developer.wordpress.org/reference/functions/add_options_page/) – `settings.php`
-- [`add_links_page()`](https://developer.wordpress.org/reference/functions/add_links_page/) – `link-manager.php` – WordPress 3.5 以降ではプラグインが必要です。
+- [`add_links_page()`](https://developer.wordpress.org/reference/functions/add_links_page/) – `link-manager.php` – WordPress 3.5以降ではプラグインが必要です。
 - カスタム投稿タイプ – `edit.php?post_type=wporg_post_type`
 - ネットワーク管理 – `settings.php`
 
@@ -146,7 +146,7 @@ Below is a list of parent slugs and their helper functions:
 <!-- 
 The process of removing Sub-menus is exactly the same as [removing Top-level menus](https://developer.wordpress.org/plugins/administration-menus/top-level-menus/#remove-a-top-level-menu).
  -->
-サブメニューの削除方法は、[トップレベルメニューの削除方法](https://developer.wordpress.org/plugins/administration-menus/top-level-menus/#remove-a-top-level-menu)と全く同じです。
+サブメニューの削除方法は、[トップレベルメニューの削除方法](https://developer.wordpress.org/plugins/administration-menus/top-level-menus/#remove-a-top-level-menu)とまったく同じです。
 
 <!-- 
 ## Submitting forms
@@ -156,7 +156,7 @@ The process of removing Sub-menus is exactly the same as [removing Top-level men
 <!-- 
 The process of handling form submissions within Sub-menus is exactly the same as [Submitting forms within Top-Level Menus](https://developer.wordpress.org/plugins/administration-menus/top-level-menus/#submitting-forms).
  -->
-サブメニュー内でのフォーム送信の処理は、[トップレベルメニュー内でのフォーム送信](https://developer.wordpress.org/plugins/administration-menus/top-level-menus/#submitting-forms)と全く同じです。
+サブメニュー内でのフォーム送信の処理は、[トップレベルメニュー内でのフォーム送信](https://developer.wordpress.org/plugins/administration-menus/top-level-menus/#submitting-forms)とまったく同じです。
 
 <!-- 
 `add_submenu_page()` along with all functions for pre-defined sub-menus (`add_dashboard_page`, `add_posts_page`, etc.) will return a `$hookname`, which you can use as the first parameter of `add_action` in order to handle the submission of forms within custom pages:
