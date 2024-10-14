@@ -29,10 +29,10 @@ WordPress が提供するデフォルト・インターバルは、次のよう�
 - daily
 - weekly (since WP 5.4)
  -->
-- 毎時
-- 1日2回
-- 毎日
-- 毎週 (WordPress 5.4以降)
+- `hourly` (毎時)
+- `twicedaily` (1日2回)
+- `daily` (毎日)
+- `weekly` (毎週。WordPress 5.4以降)
 
 <!-- 
 ## Custom Intervals
