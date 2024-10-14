@@ -139,7 +139,6 @@ Once installed, you will have access to the following information:
 
 ## Debug Bar Actions and Filters Addon
 
-
 <!-- 
 This plugin adds two more tabs in the Debug Bar to display hooks (Actions and Filters) attached to the current request. Actions tab displays the actions hooked to current request. Filters tab displays the filter tags along with the functions attached to it with respective priority.
  -->
