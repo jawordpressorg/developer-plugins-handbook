@@ -32,17 +32,17 @@ add_menu_page(
 <!-- 
 Lets say we want to add a new Top-level menu called "WPOrg".
  -->
-例えば、"WPOrg" という新しいトップレベルメニューを追加したいとします。
+たとえば、「WPOrg」という新しいトップレベルメニューを追加したいとします。
 
 <!-- 
 **The first step** will be creating a function which will output the HTML. In this function we will perform the necessary security checks and render the options we've registered using the [Settings API](https://developer.wordpress.org/plugins/settings/).
  -->
-**第一のステップ**では、HTML を出力する関数を作成します。この関数では、必要なセキュリティチェックを行ない、[設定 API](https://developer.wordpress.org/plugins/settings/) を使って登録したオプションを書き出します。
+**第一のステップ** では、HTML を出力する関数を作成します。この関数では、必要なセキュリティチェックを行い、[設定 API](https://developer.wordpress.org/plugins/settings/) を使って登録したオプションを書き出します。
 
 <!-- 
 [info]We recommend wrapping your HTML using a `<div>` with a class of `wrap`.[/info]
  -->
-[info]HTML をラップするには、クラスが `wrap` の `<div>` を使用することをお勧めします。[/info]
+[info]HTML をラップするには、クラスが `wrap` の `<div>` を使用することをおすすめします。[/info]
 
 ```
 function wporg_options_page_html() {
@@ -68,7 +68,7 @@ function wporg_options_page_html() {
 <!-- 
 **The second step** will be registering our WPOrg menu. The registration needs to occur during the `admin_menu` action hook.
  -->
-**第二のステップ**では、WPOrg メニューを登録します。この登録は `admin_menu` アクションフックで行なう必要があります。
+**第二のステップ** では、WPOrg メニューを登録します。この登録は `admin_menu` アクションフックで行う必要があります。
 
 ```
 add_action( 'admin_menu', 'wporg_options_page' );
@@ -151,7 +151,7 @@ This should never be used as a way to restrict [user capabilities](https://devel
 <!-- 
 Lets say we want to remove the "Tools" menu from.
  -->
-例えば、「ツール」メニューを削除したいとします。
+たとえば、「ツール」メニューを削除したいとします。
 
 ```
 add_action( 'admin_menu', 'wporg_remove_options_page', 99 );
@@ -185,7 +185,7 @@ To process the submissions of forms on options pages, you will need two things:
 <!-- 
 [info]You only need to follow those steps if you are manually creating forms in the back-end. The [Settings API](https://developer.wordpress.org/plugins/settings/) is the recommended way to do this.[/info]
  -->
-[info]バックエンドでフォームを手動で作成する場合のみ、これらの手順を踏む必要があります。[設定 API](https://developer.wordpress.org/plugins/settings/) を使用することをお勧めします。[/info]
+[info]バックエンドでフォームを手動で作成する場合のみ、これらの手順を踏む必要があります。[設定 API](https://developer.wordpress.org/plugins/settings/) を使用することをおすすめします。[/info]
 
 <!-- 
 ### Form action attribute
@@ -195,7 +195,7 @@ To process the submissions of forms on options pages, you will need two things:
 <!-- 
 Use the `$menu_slug` parameter of the options page as the first parameter of [`menu_page_url()`](https://developer.wordpress.org/reference/functions/menu_page_url/). By the function will automatically escape URL and echo it by default, so you can directly use it within the `<form>` tag:
  -->
-オプションページの `$menu_slug` パラメータを [`menu_page_url()`](https://developer.wordpress.org/reference/functions/menu_page_url/) の最初のパラメータとして使用します。この関数はデフォルトで自動的に URL をエスケープして出力するので、`<form>` タグ内で直接使用することができます:
+オプションページの `$menu_slug` パラメータを [`menu_page_url()`](https://developer.wordpress.org/reference/functions/menu_page_url/) の最初のパラメータとして使用します。この関数はデフォルトで自動的に URL をエスケープして出力するので、`<form>` タグ内で直接使用できます:
 
 ```
 <form action="<?php menu_page_url( 'wporg' ) ?>" method="post">
@@ -246,7 +246,7 @@ function wporg_options_page() {
 <!-- 
 You can program `wporg_options_page_submit` according to your needs, but keep in mind that you must manually perform all necessary checks, including:
  -->
-`wporg_options_page_submit` は、必要に応じてプログラムすることができますが、以下のような必要なチェックをすべて手動で行わなければならないことを覚えておいてください:
+`wporg_options_page_submit` は、必要に応じてプログラムできますが、以下のような必要なチェックをすべて手動で行わなければならないことを覚えておいてください:
 
 <!-- 
 1. Whether the form is being submitted (`'POST' === $_SERVER['REQUEST_METHOD']`).
