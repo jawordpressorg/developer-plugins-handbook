@@ -134,7 +134,7 @@ The real issue here is that users don’t like talking to “MarvelTech100” as
 <!-- 
 That said, having a company account to own your plugin is perfectly logical and reasonable. However in those situations, the account is only intended to be the **owner** of the plugins/themes, and is **not** permitted to use the forums.
  -->
-とはいえ、プラグインを所有するために企業アカウントを持つことは完全に論理的で合理的です。しかし、そのような状況では、そのアカウントはプラグイン/テーマの **所有者** であることを意図しているだけであり、フォーラムを使用することは「¥許可 **されていません**。
+とはいえ、プラグインを所有するために企業アカウントを持つことは完全に論理的で合理的です。しかし、そのような状況では、そのアカウントはプラグイン/テーマの **所有者** であることを意図しているだけであり、フォーラムを使用することは「許可 **されていません**。
 
 <!-- 
 If you want to have two accounts, where one is your personal account and the other is “You at the company” that’s totally fine. People just prefer talking to people.
