@@ -6,7 +6,7 @@
 <!-- 
 In order to make a string translatable in your application you have to wrap the original string in a call to one of a set of special functions. These functions collectively are known as "gettext".
  -->
-アプリケーションで文字列を翻訳可能にするには、原文の文字列を特殊な関数の呼び出しでラップする必要があります。これらの関数を総称して "gettext" と呼びます。
+アプリケーションで文字列を翻訳可能にするには、原文の文字列を特殊な関数の呼び出しでラップする必要があります。これらの関数を総称して「gettext」と呼びます。
 
 <!-- 
 ## Introduction to Gettext
@@ -21,7 +21,7 @@ WordPress は国際化のために [gettext](https://www.gnu.org/software/gettex
 <!-- 
 For a deeper dive into gettext, read the [gettext online manual](https://www.gnu.org/software/gettext/manual/html_node/).
  -->
-gettext をもっと深く知りたい方は、[gettext オンラインマニュアル](https://www.gnu.org/software/gettext/manual/html_node/)をお読みください。
+gettext をもっと深く知りたい人は、[gettext オンラインマニュアル](https://www.gnu.org/software/gettext/manual/html_node/)をお読みください。
 
 <!-- 
 ## Text Domains
@@ -69,7 +69,7 @@ The text domain also needs to be added to the plugin header. WordPress uses it t
 <!-- 
 [info]Since WordPress 4.6 the `Text Domain` header is optional because it must be the same as the plugin slug. There is no harm in including it, but it is not required.[/info]
  -->
-[info]WordPress 4.6 以降、`Text Domain` ヘッダーはプラグインのスラッグと同じでなければならないため、省略可能です。含めても害はありませんが、必須ではありません。[/info]
+[info]WordPress 4.6以降、`Text Domain` ヘッダーはプラグインのスラッグと同じでなければならないため、省略可能です。含めても害はありませんが、必須ではありません。[/info]
 
 <!-- 
 ## Domain Path
@@ -84,7 +84,7 @@ The domain path defines the location for a plugin's translation. This has a few 
 <!-- 
 For example, if the translation is located in a folder called `languages` within your plugin, then the Domain Path is `/languages` and must be written with the first slash:
  -->
-例えば、翻訳がプラグイン内の `languages` というフォルダーにある場合、ドメイン・パスは `/languages` となり、最初のスラッシュと一緒に記述する必要があります:
+たとえば、翻訳がプラグイン内の `languages` というフォルダーにある場合、ドメイン・パスは `/languages` となり、最初のスラッシュと一緒に記述する必要があります:
 
 <!-- 
 ### Header example
@@ -124,14 +124,14 @@ __( 'Blog Options', 'my-plugin' );
 
 `__( 'Translate me.' , $text_domain );`[/warning]
  -->
-[warning]gettext 関数のテキスト・ドメイン部分には、変数名や定数を使用しないでください。例えば: ショートカットとしてこれを使用しないでください:
+[warning]gettext 関数のテキスト・ドメイン部分には、変数名や定数を使用しないでください。たとえば: ショートカットとしてこれを使用しないでください:
 
 `__( 'Translate me.' , $text_domain );`[/warning]
 
 <!-- 
 To echo a retrieved tranlsation, use [`_e()`](https://developer.wordpress.org/reference/functions/_e/). So instead of writing:
  -->
-取得した翻訳を出力するには、[`_e()`](https://developer.wordpress.org/reference/functions/_e/) を使います。つまり、以下の様に書く代わりに:
+取得した翻訳を出力するには、[`_e()`](https://developer.wordpress.org/reference/functions/_e/) を使います。つまり、以下のように書く代わりに:
 
 ```
 echo __( 'WordPress is the best!', 'my-plugin' );
@@ -140,7 +140,7 @@ echo __( 'WordPress is the best!', 'my-plugin' );
 <!-- 
 you can use:
  -->
-以下の様に、書くことができます:
+以下のように、書くことができます:
 
 ```
 _e( 'WordPress is the best!', 'my-plugin' );
@@ -154,7 +154,7 @@ _e( 'WordPress is the best!', 'my-plugin' );
 <!-- 
 What if you have a string like the following:
  -->
-もし次の様な文字列があったら、どうでしょう:
+もし次のような文字列があったら、どうでしょう:
 
 ```
 echo 'Your city is $city.'
@@ -163,7 +163,7 @@ echo 'Your city is $city.'
 <!-- 
 In this case, the `$city` is a variable and should not be part of the translation. The solution is to use placeholders for the variable, along with the `printf` family of functions. Especially helpful are [`printf`](https://www.php.net/manual/en/function.printf.php) and [`sprintf`](https://www.php.net/manual/en/function.sprintf). Here is what the right solution looks like:
  -->
-この場合、`$city` は変数であり、翻訳の一部であってはなりません。解決策としては、関数の `printf` ファミリーと共に変数のプレースホルダーを使うことです。特に便利なのは [`printf`](https://www.php.net/manual/en/function.printf.php) と [`sprintf`](https://www.php.net/manual/en/function.sprintf) です。これが適切な解決方法です:
+この場合、`$city` は変数であり、翻訳の一部であってはなりません。解決策としては、関数の `printf` ファミリーとともに変数のプレースホルダーを使うことです。特に便利なのは [`printf`](https://www.php.net/manual/en/function.printf.php) と [`sprintf`](https://www.php.net/manual/en/function.sprintf) です。これが適切な解決方法です:
 
 ```
 printf(
@@ -186,7 +186,7 @@ Also note that there is a hint for translators so that they know the context of 
 <!-- 
 If you have more than one placeholder in a string, it is recommended that you use [argument swapping](http://www.php.net/manual/en/function.sprintf.php). In this case, single quotes (`'`) around the string are mandatory because double quotes (`"`) will tell php to interpret the `$s` as the `s` variable, which is not what we want.
  -->
-文字列内に複数のプレースホルダーがある場合は、[引数の入れ替え](http://www.php.net/manual/en/function.sprintf.php) を使用することを推奨します。この場合、文字列をシングルクォート (`'`) で囲むことが必須で、ダブルクォート (`"`) を使用すると、php が `$s` を変数 `s` として解釈してしまうからです。
+文字列内に複数のプレースホルダーがある場合は、[引数の入れ替え](http://www.php.net/manual/en/function.sprintf.php) を使用することを推奨します。この場合、文字列をシングルクオート (`'`) で囲むことが必須で、ダブルクオート (`"`) を使用すると、php が `$s` を変数 `s` として解釈してしまうからです。
 
 ```
 printf(
@@ -200,7 +200,7 @@ printf(
 <!-- 
 Here the zip code is being displayed after the city name. In some languages displaying the zip code and city in opposite order would be more appropriate. Using %s prefix in the above example, allows for such a case. A translation can thereby be written:
  -->
-ここでは、郵便番号が都市名の後に表示されています。言語によっては、郵便番号と都市名を逆の順序で表示する方が適切な場合もあります。上の例でプレフィックス %s を使うことで、その様なケースに対応できます。これにより、翻訳は次の様に書くことができます:
+ここでは、郵便番号が都市名の後に表示されています。言語によっては、郵便番号と都市名を逆の順序で表示するほうが適切な場合もあります。上の例で接頭辞 %s を使うことで、そのようなケースに対応できます。これにより、翻訳は次のように書くことができます:
 
 ```
 printf(
@@ -229,7 +229,7 @@ The strings for translation are extracted from the sources, so the translators w
 <!-- 
 However in the application `_e` will be called with an argument like `"Your city is London."` and `gettext` won't find a suitable translation of this one and will return its argument: `"Your city is London."`. Unfortunately, it isn't translated correctly.
  -->
-しかし、アプリケーションでは `_e` は `"Your city is London."` の様な引数で呼び出され、`gettext` はこの引数の適切な翻訳を見つけられず、引数 `"Your city is London."` を返します。残念ながら、これは正しく翻訳されていません。
+しかし、アプリケーションでは `_e` は `"Your city is London."` のような引数で呼び出され、`gettext` はこの引数の適切な翻訳を見つけられず、引数 `"Your city is London."` を返します。残念ながら、これは正しく翻訳されていません。
 
 <!-- 
 ## Plurals
@@ -244,7 +244,7 @@ However in the application `_e` will be called with an argument like `"Your city
 <!-- 
 If you have string that changes when the number of items changes, you'll need a way to reflect this in your translations. For example, in English you have `"One comment"` and `"Two comments"`. In other languages you can have multiple plural forms. To handle this in WordPress use the [`_n()`](https://developer.wordpress.org/reference/functions/_n/) function.
  -->
-アイテム数が変わると変化する文字列がある場合、翻訳に反映させる方法が必要になります。例えば、英語では `"One comment"` と `"Two comments"` があります。他の言語では複数の複数形があります。WordPress でこれを処理するには、[`_n()`](https://developer.wordpress.org/reference/functions/_n/) 関数を使います。
+アイテム数が変わると変化する文字列がある場合、翻訳に反映させる方法が必要になります。たとえば、英語では `"One comment"` と `"Two comments"` があります。他の言語では複数の複数形があります。WordPress でこれを処理するには、[`_n()`](https://developer.wordpress.org/reference/functions/_n/) 関数を使います。
 
 ```
 printf(
@@ -261,7 +261,7 @@ printf(
 <!-- 
 `_n()` accepts 4 arguments:
  -->
-`_n()` は 4 つの引数を受け付けます:
+`_n()` は4つの引数を受け付けます:
 
 <!-- 
 - singular – the singular form of the string (note that it can be used for numbers other than one in some languages, so `'%s item'` should be used instead of `'One item'`).
@@ -269,9 +269,9 @@ printf(
 - count – the number of objects, which will determine whether the singular or the plural form should be returned (there are languages, which have far more than 2 forms).
 - text domain – the plugins text domain.
  -->
-- singular – 文字列の単数形 (言語によっては 1 以外の数にも使えるので、`'One item'` の代わりに `'%s item'` を使うべきであることに注意)。
+- singular – 文字列の単数形 (言語によっては1以外の数にも使えるので、`'One item'` の代わりに `'%s item'` を使うべきであることに注意)。
 - plural – 文字列の複数形。
-- count – 単数形と複数形のどちらを返すかを決定する、オブジェクトの数 (2 つ以上の形式を持つ言語もあります)。
+- count – 単数形と複数形のどちらを返すかを決定する、オブジェクトの数 (2つ以上の形式を持つ言語もあります)。
 - text domain – プラグインのテキスト・ドメイン。
 
 <!-- 
@@ -282,7 +282,7 @@ The return value of the functions is the correct translated form, corresponding 
 <!-- 
 Note that some languages use the singular form for other numbers (e.g. 21, 31 and so on, much like '21st', '31st' in English). If you would like to special case the singular, check for it specifically:
  -->
-言語によっては、他の数に単数形を使うものもあります (例えば、英語の '21st' や '31st' の様に、21、31 など)。単数形を特別扱いしたい場合は、特に確認してください:
+言語によっては、他の数に単数形を使うものもあります (たとえば、英語の「21st」や「31st」のように、21、31など)。単数形を特別扱いしたい場合は、特に確認してください:
 
 ```
 if ( 1 === $count ) {
@@ -295,7 +295,7 @@ if ( 1 === $count ) {
 <!-- 
 Also note that the `$count` parameter is often used twice. First `$count` is passed to `_n()` to determine which translated string to use, and then `$count` is passed to `printf()` to substitute the number into the translated string.
  -->
-また、パラメータ `$count` は、しばしば 2 回使用されることに注意してください。まず `$count` を `_n()` に渡して、どの翻訳文字列を使うかを決定し、続いて `$count` を `printf()` に渡して、翻訳文字列に数値を代入します。
+また、パラメータ `$count` は、しばしば2回使用されることに注意してください。まず `$count` を `_n()` に渡して、どの翻訳文字列を使うかを決定し、続いて `$count` を `printf()` に渡して、翻訳文字列に数値を代入します。
 
 <!-- 
 ### Pluralization done later
@@ -333,12 +333,12 @@ printf(
 <!-- 
 ## Disambiguation by context
  -->
-## context による曖昧さ回避
+## context による、あいまいさ回避
 
 <!-- 
 Sometimes one term is used in several contexts and although it is one and the same word in English it has to be translated differently in other languages. For example the word `Post` can be used both as a verb `"Click here to post your comment"` and as a noun `"Edit this post"`. In such cases the `_x()` or `_ex()` function should be used. It is similar to `__()` and `_e()`, but it has an additional argument — the context:
  -->
-一つの単語が複数の文脈で使われることがあり、英語では一つの同じ単語であっても、他の言語では異なる訳をしなければならないことがあります。例えば、`Post` という単語は、動詞 `"Click here to post your comment"` としても、名詞 `"Edit this post"` としても使えます。この様な場合は `_x()` または `_ex()` 関数を使用します。これは `__()` や `_e()` と似ているが、追加の引数 — コンテキスト — があります:
+一つの単語が複数の文脈で使われることがあり、英語では一つの同じ単語であっても、他の言語では異なる翻訳をしなければならないことがあります。たとえば、`Post` という単語は、動詞 `"Click here to post your comment"` としても、名詞 `"Edit this post"` としても使えます。このような場合は `_x()` または `_ex()` 関数を使用します。これは `__()` や `_e()` と似ているが、追加の引数 — コンテキスト — があります:
 
 ```
 _x( 'Post', 'noun', 'my-plugin' );
@@ -348,12 +348,12 @@ _x( 'Post', 'verb', 'my-plugin' );
 <!-- 
 Using this method in both cases we will get the string Comment for the original version, but the translators will see two Comment strings for translation, each in the different contexts.
  -->
-両方のケースでこの方法を使うと、原文の文字列 Comment は得られますが、翻訳者には翻訳用の 2 つの Comment 文字列が、それぞれ異なる文脈で表示されることになります。
+両方のケースでこの方法を使うと、原文の文字列 Comment は得られますが、翻訳者には翻訳用の2つの Comment 文字列が、それぞれ異なる文脈で表示されることになります。
 
 <!-- 
 Note that similarly to `__()`, `_x()` has an `echo` version: `_ex()`. The previous example could be written as:
  -->
-`__()` と同様に、`_x()` にも `echo` 版があることに注意してください: `_ex()` です。前の例は次の様に書けます:
+`__()` と同様に、`_x()` にも `echo` 版があることに注意してください: `_ex()` です。前の例は次のように書けます:
 
 ```
 _ex( 'Post', 'noun', 'my-plugin' );
@@ -363,7 +363,7 @@ _ex( 'Post', 'verb', 'my-plugin' );
 <!-- 
 Use whichever you feel enhances legibility and ease-of-coding.
  -->
-読みやすさとコーディングのしやすさを高めるとあなたが思う方を使いましょう。
+読みやすさとコーディングのしやすさを高めるとあなたが思うほうを使いましょう。
 
 <!-- 
 ## Descriptions
@@ -373,7 +373,7 @@ Use whichever you feel enhances legibility and ease-of-coding.
 <!-- 
 So that translators know how to translate a string like `__( 'g:i:s a' )` you can add a clarifying comment in the source code. It has to start with the words `translators:` and to be the last PHP comment before the gettext call. Here is an example:
  -->
-翻訳者が `__( 'g:i:s a' )` の様な文字列をどの様に翻訳すればよいのかわかる様に、ソースコードに明確なコメントを追加することができます。これは gettext 呼び出しの直前に、単語 `translators:` で始まる、PHP コメントでなければなりません。以下に例を示します:
+翻訳者が `__( 'g:i:s a' )` のような文字列をどのように翻訳すればよいのかわかる様に、ソースコードに明確なコメントを追加できます。これは gettext 呼び出しの直前に、単語 `translators:` で始まる、PHP コメントでなければなりません。以下に例を示します:
 
 ```
 /* translators: draft saved date format, see http://php.net/date */
@@ -383,7 +383,7 @@ $saved_date_format = __( 'g:i:s a' );
 <!-- 
 It's also used to explain placeholders in a string like `_n_noop( '<strong>Version %1$s</strong> addressed %2$s bug.','<strong>Version %1$s</strong> addressed %2$s bugs.' )`.
  -->
-また、`_n_noop( '<strong>Version %1$s</strong> addressed %2$s bug.', '<strong>Version %1$s</strong> addressed %2$s bugs.' )` の様に、文字列のプレースホルダーを説明するためにも使われます。
+また、`_n_noop( '<strong>Version %1$s</strong> addressed %2$s bug.', '<strong>Version %1$s</strong> addressed %2$s bugs.' )` のように、文字列のプレースホルダーを説明するためにも使われます。
 
 ```
 /* translators: 1: WordPress version number, 2: plural number of bugs. */
@@ -478,7 +478,7 @@ Strings that require translation and is used in attributes of html tags must be 
 <!-- 
 Here are the best practices for writing strings
  -->
-文字列を書く際のベスト・プラクティスは、以下の様になります。
+文字列を書く際のベスト・プラクティスは、以下のようになります。
 
 <!-- 
 - Use decent English style – minimize slang and abbreviations.
@@ -493,9 +493,9 @@ Here are the best practices for writing strings
  -->
 - 適切な英語スタイルを使用する – スラングや略語は最小限にとどめましょう.
 - 文章全体を使う – ほとんどの言語では、語順は英語とは異なります。
-- 段落を分ける – 関連する文章を一つにまとめるが、1 ページ分の文章を一つの文字列に含めないでください。
+- 段落を分ける – 関連する文章を一つにまとめるが、1ページ分の文章を一つの文字列に含めないでください。
 - 翻訳可能なフレーズの先頭や末尾に、空白を残さないようにしましょう。
-- 文字列は、翻訳されると 2 倍の長さになる可能性があります。
+- 文字列は、翻訳されると2倍の長さになる可能性があります。
 - 変則的なマークアップや 変則的な制御文字を避ける – テキストを囲むタグを含めないでください。
 - 翻訳された文字列に不必要な HTML マークアップを入れないでください。
 - 他の言語のバージョンがある場合を除き、URL は翻訳用に含めないでください。
@@ -513,7 +513,7 @@ printf(
 - Try to use the same words and same symbols so not multiple strings needs to be translated e.g. `__( 'Posts:', 'my-plugin' );` and `__( 'Posts', 'my-plugin' );`.
  -->
 - 文字列連結の代わりにフォーマット文字列を使用する – 単語ではなくフレーズを翻訳する – `printf( __( 'Your city is %1$s, and your zip code is %2$s.', 'my-plugin' ), $city, $zipcode );` は `__( 'Your city is ', 'my-plugin' ) . $city . __( ', and your zip code is ', 'my-plugin' ) . $zipcode;` より優れています。
-- `__( 'Posts:', 'my-plugin' );` と `__( 'Posts', 'my-plugin' );` の様に、複数の文字列を翻訳する必要がない様、同じ単語と同じ記号を使う様にしてください。
+- `__( 'Posts:', 'my-plugin' );` と `__( 'Posts', 'my-plugin' );` のように、複数の文字列を翻訳する必要がない様、同じ単語と同じ記号を使う様にしてください。
 
 <!-- 
 ### Add Text Domain to strings
@@ -547,7 +547,7 @@ WordPress のコア (例: 設定) でも使用されている文字列がプラ�
 <!-- 
 Adding the text domain by hand can be a burden if not done continuously when writing code and that's why you can do it automatically:
  -->
-コードを書くとき、手作業でテキスト・ドメインを追加するのは、継続して行わなければ重荷になりかねないからこそ、自動的に行なうことができるのです:
+コードを書くとき、手作業でテキスト・ドメインを追加するのは、継続して行わなければ重荷になりかねないからこそ、自動的に行うことができるのです:
 
 <!-- 
 - Download the [`add-textdomain.php`](https://develop.svn.wordpress.org/branches/5.2/tools/i18n/add-textdomain.php) script to the folder where the file is you want to add the text domain
@@ -602,7 +602,7 @@ After it's done, the text domain will be added to the end of all gettext calls i
 <!-- 
 Translations can be loaded using `load_plugin_textdomain`, for example:
  -->
-例えば、翻訳は、`load_plugin_textdomain` を使って読み込むことができます:
+たとえば、翻訳は、`load_plugin_textdomain` を使って読み込むことができます:
 
 ```
 add_action( 'init', 'wpdocs_load_textdomain' );
@@ -620,7 +620,7 @@ function wpdocs_load_textdomain() {
 <!-- 
 [info]Since WordPress 4.6 translations now take [translate.wordpress.org](https://translate.wordpress.org/) as priority and so plugins that are translated via translate.wordpress.org do not necessary require `load_plugin_textdomain()` anymore. If you don't want to add a `load_plugin_textdomain()` call to your plugin you have to set the `Requires at least:` field in your readme.txt to 4.6 or more.[/info]
  -->
-[info]WordPress 4.6 以降、翻訳は [translate.wordpress.org](https://translate.wordpress.org/) を優先するようになったので、translate.wordpress.org 経由で翻訳されるプラグインは `load_plugin_textdomain()` を必要としなくなりました。プラグインに `load_plugin_textdomain()` 呼び出しを追加したくない場合は、readme.txt の `Requires at least:` フィールドを 4.6 以上に設定する必要があります。[/info]
+[info]WordPress 4.6以降、翻訳は [translate.wordpress.org](https://translate.wordpress.org/) を優先するようになったので、translate.wordpress.org 経由で翻訳されるプラグインは `load_plugin_textdomain()` を必要としなくなりました。プラグインに `load_plugin_textdomain()` 呼び出しを追加したくない場合は、readme.txt の `Requires at least:` フィールドを4.6以上に設定する必要があります。[/info]
 
 <!-- 
 If you still want to load your own translations and not the ones from translate, you will have to use a hook filter named `load_textdomain_mofile`.  
