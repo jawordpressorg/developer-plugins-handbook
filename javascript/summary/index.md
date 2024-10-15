@@ -6,7 +6,7 @@
 <!-- 
 Here are all the example code snippets from the preceding discussion, assembled into two complete code pages: one for jQuery and the other for PHP.
  -->
-前述したすべてのコード・スニペット例を、2 つの完全なコード・ページにまとめました: ひとつは jQuery 用、もうひとつは PHP 用です。
+前述したすべてのコード・スニペット例を、2つの完全なコード・ページにまとめました: ひとつは jQuery 用、もうひとつは PHP 用です。
 
 <!-- 
 ## PHP
@@ -16,7 +16,7 @@ Here are all the example code snippets from the preceding discussion, assembled 
 <!-- 
 This code resides on one of your plugin pages.
  -->
-このコードは、プラグインのページの 1 つにあります。
+このコードは、プラグインのページの1つにあります。
 
 ```
 add_action( 'admin_enqueue_scripts', 'my_enqueue' );
