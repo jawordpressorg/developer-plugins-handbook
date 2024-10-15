@@ -6,17 +6,17 @@
 <!-- 
 The Heartbeat API is a simple server polling API built in to WordPress, allowing near-real-time frontend updates.
  -->
-ハートビート API は、WordPress に組み込まれたシンプルなサーバーポーリング API で、フロントエンドの更新をほぼリアルタイムで行なうことができます。
+ハートビート API は、WordPress に組み込まれたシンプルなサーバーポーリング API で、フロントエンドの更新をほぼリアルタイムで行うことができます。
 
 <!-- 
 ## How it works
  -->
-## 仕組み
+## しくみ
 
 <!-- 
 When the page loads, the client-side heartbeat code sets up an interval (called the "tick") to run every 15-120 seconds. When it runs, heartbeat gathers data to send via a jQuery event, then sends this to the server and waits for a response. On the server, an admin-ajax handler takes the passed data, prepares a response, filters the response, then returns the data in JSON format. The client receives this data and fires a final jQuery event to indicate the data has been received.
  -->
-ページがロードされると、15 ～ 120 秒ごとに、クライアント側のハートビート・コードは、(「ティック」と呼ばれる) 実行間隔を設定します。実行されると、ハートビートは、jQuery イベントで送信するデータを収集し、これをサーバーに送信してレスポンスを待ちます。サーバーでは、admin-ajax ハンドラーが渡されたデータを受け取り、レスポンスを準備し、レスポンスをフィルタリングして、JSON フォーマットでデータを返します。クライアントは、このデータを受け取り、データを受け取ったことを示す最後の jQuery イベントを発生させます。
+ページがロードされると、15～120秒ごとに、クライアント側のハートビート・コードは、(「ティック」と呼ばれる) 実行間隔を設定します。実行されると、ハートビートは、jQuery イベントで送信するデータを収集し、これをサーバーに送信してレスポンスを待ちます。サーバーでは、admin-ajax ハンドラが渡されたデータを受け取り、レスポンスを準備し、レスポンスをフィルタリングして、JSON フォーマットでデータを返します。クライアントは、このデータを受け取り、データを受け取ったことを示す最後の jQuery イベントを発生させます。
 
 <!-- 
 The basic process for custom Heartbeat events is:
@@ -35,7 +35,7 @@ The basic process for custom Heartbeat events is:
 <!-- 
 (You can choose to use only one or two of these events, depending on what functionality you need.)
  -->
-(必要な機能に応じて、これらのイベントのうち 1 つまたは 2 つだけを使用することもできます)
+(必要な機能に応じて、これらのイベントのうち、1つまたは2つだけを使用できます)
 
 <!-- 
 ## Using the API
@@ -45,7 +45,7 @@ The basic process for custom Heartbeat events is:
 <!-- 
 Using the heartbeat API requires two separate pieces of functionality: send and receive callbacks in JavaScript, and a server-side filter to process passed data in PHP.
  -->
-ハートビート API を使用するには、2 つの別々な機能が必要です: JavaScript での送受信コールバック、そして、PHP で渡されたデータを処理するサーバー側フィルターです。
+ハートビート API を使用するには、2つの別々な機能が必要です: JavaScript での送受信コールバック、そして、PHP で渡されたデータを処理するサーバー側フィルターです。
 
 <!-- 
 ### Sending Data to the Server
@@ -119,4 +119,4 @@ jQuery( document ).on( 'heartbeat-tick', function ( event, data ) {
 <!-- 
 Not every feature will need all three of these steps. For example, if you don’t need to send any data to the server, you can use just the latter two steps.
  -->
-すべての機能が、これら 3 つのステップすべてを必要とする訳ではありません。例えば、サーバーにデータを送信する必要がない場合は、後の 2 つのステップだけを使用することができます。
+すべての機能が、これら3つのステップすべてを必要とするわけではありません。たとえば、サーバーにデータを送信する必要がない場合は、後の2つのステップだけを使用できます。
