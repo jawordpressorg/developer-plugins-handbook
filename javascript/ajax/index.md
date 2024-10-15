@@ -13,7 +13,7 @@ AJAX とは、Asynchronous JavaScript And XML の頭文字をとったもので�
 <!-- 
 While XML is the traditional data exchange format used, the exchange can actually be any convenient format. When working with PHP code, many developers favor JSON because the internal data structure created from the transmitted data stream is easier to interface with.
  -->
-XML は伝統的なデータ交換フォーマットを使用していますが、実際には便利なフォーマットであれば何でもかまいません。PHP のコードで作業する場合、多くの開発者は JSON を好みます。なぜなら、送信されたデータストリームから作成される内部データ構造は、取り扱う事が簡単だからです。
+XML は伝統的なデータ交換フォーマットを使用していますが、実際には便利なフォーマットであれば何でもかまいません。PHP のコードで作業する場合、多くの開発者は JSON を好みます。なぜなら、送信されたデータストリームから作成される内部データ構造は、取り扱うことが簡単だからです。
 
 <!-- 
 To see AJAX in action, go to your WordPress administration area and add a category or tag. Pay close attention when you click the Add New button, notice the page changes but does not actually reload. Not convinced? Check your browser's back history, if the page had reloaded, you would see two entries for the page.
@@ -71,7 +71,7 @@ WordPress での AJAX 交換には、2つの主要なコンポーネントがあ
 3. The jQuery function that sent the initial AJAX request receives the server response and does something with it. It may update something on the page and/or present a message to the user by some means.
  -->
 1. ある何らかのページ・イベントが、JavaScript または jQuery 関数を起動させます。その関数は、ページからデータを収集し、HTTP リクエストでサーバーに送信します。JavaScript で HTTP リクエストを処理するのはやっかいですし、jQuery は WordPress にバンドルされているので、ここから先は、jQuery のコードだけに集中することにします。JavaScript をそのまま使った AJAX も可能ですが、jQuery が使えるのに使用する価値はありません。
-2. サーバーは、リクエストを受信し、そのデータで何かをします。関連するデータを組み立て、HTTP レスポンスの形でクライアント・ブラウザーに送り返すかもしれません。これは必須条件ではありませんが、何が起こっているかをユーザーに知らせ続けることは望ましいことですので、何らかのレスポンスを送らないことは非常にまれです。
+2. サーバーは、リクエストを受信し、そのデータで何かをします。関連するデータを組み立て、HTTP レスポンスの形でクライアント・ブラウザに送り返すかもしれません。これは必須条件ではありませんが、何が起こっているかをユーザーに知らせ続けることは望ましいことですので、何らかのレスポンスを送らないことは非常にまれです。
 3. 最初の AJAX リクエストを送信した jQuery 関数は、サーバーレスポンスを受信し、それを使って何かします。ページ上の何かを更新したり、何らかの方法でユーザーにメッセージを表示したりします。
 
 <!-- 
@@ -235,7 +235,7 @@ As long as the data format is coordinated with the PHP handler, it can be any fo
 <!-- 
 Now that we've added our callback as the final parameter for the $.post() function, we've completed our sample jQuery Ajax script. All the pieces put together look like this:
  -->
-$.post() 関数の最後のパラメータにコールバックを追加して、jQuery Ajax スクリプトのサンプルは完成です。すべてのピースをまとめると、このようになります:
+`$.post()` 関数の最後のパラメータにコールバックを追加して、jQuery Ajax スクリプトのサンプルは完成です。すべてのピースをまとめると、このようになります:
 
 ```
 jQuery(document).ready(function($) {         //wrapper
