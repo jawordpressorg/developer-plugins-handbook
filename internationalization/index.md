@@ -11,7 +11,7 @@
 <!-- 
 Internationalization is the process of developing a plugin so it can easily be translated into other languages. Internationalization is often abbreviated as `i18n` (because there are 18 letters between the letters i and n).
  -->
-国際化とは、プラグインを他の言語に簡単に翻訳できるように開発するプロセスのことです。国際化はしばしば `i18n` (i と n の間に 18 文字があるため) と略されます。
+国際化とは、プラグインを他の言語に簡単に翻訳できるように開発するプロセスのことです。国際化はしばしば `i18n` (i と n の間に18文字があるため) と略されます。
 
 <!-- 
 ## Why is Internationalization Important?
@@ -21,7 +21,7 @@ Internationalization is the process of developing a plugin so it can easily be t
 <!-- 
 WordPress is used all over the world, in countries where English is not the main language. The strings in the WordPress plugins need to be coded in a special way so that can be easily translated into other languages. As a developer, you may not be able to provide _localizations_ (meaning, changes required to the text and other things like number formats specific to a given _locale_ (location)) for all your users; however, a translator can successfully localize the theme without needing to modify the source code itself.
  -->
-WordPress は、世界中で、英語が主要言語でない国でも、使用されています。WordPress プラグインの文字列は、他の言語に簡単に翻訳できるように特別な方法でコード化する必要があります。開発者として、すべてのユーザーに「ローカライゼーション」(意味は、テキストや特定の「ロケール」(場所) に固有の数値フォーマットなどの他のものに必要な変更) を提供することはできないかもしれません。しかし、翻訳者はソースコードそのものを修正することなく、テーマをうまくローカライズすることができます。
+WordPress は、世界中で、英語が主要言語でない国でも、使用されています。WordPress プラグインの文字列は、他の言語に簡単に翻訳できるように特別な方法でコード化する必要があります。開発者として、すべてのユーザーに「ローカライゼーション」(意味は、テキストや特定の「ロケール」(場所) に固有の数値フォーマットなどの他のものに必要な変更) を提供できないかもしれません。しかし、翻訳者はソースコードそのものを修正することなく、テーマをうまくローカライズできます。
 
 <!-- 
 Read further on [How to Internationalize your Plugin](https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/).
