@@ -235,7 +235,7 @@ As long as the data format is coordinated with the PHP handler, it can be any fo
 <!-- 
 Now that we've added our callback as the final parameter for the $.post() function, we've completed our sample jQuery Ajax script. All the pieces put together look like this:
  -->
-`$.post()` 関数の最後のパラメータにコールバックを追加して、jQuery Ajax スクリプトのサンプルは完成です。すべてのピースをまとめると、このようになります:
+$.post() 関数の最後のパラメータにコールバックを追加して、jQuery Ajax スクリプトのサンプルは完成です。すべてのピースをまとめると、このようになります:
 
 ```
 jQuery(document).ready(function($) {         //wrapper
