@@ -203,7 +203,7 @@ If you have a lot of `PO` files to convert at once, you can run it as a batch. F
 <!-- 
 #### Unix Operating Systems (multiple files)
  -->
-#### UNIX オペレーティング・システム (複数ファイル)
+#### Unix オペレーティング・システム (複数ファイル)
 
 ```
 # Find PO files, process each with msgfmt and rename the result to MO
