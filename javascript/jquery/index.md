@@ -62,7 +62,7 @@ In the [article on AJAX](https://developer.wordpress.org/plugins/javascript/ajax
 <!-- 
 ### Selector and Event
  -->
-### セレクタとイベント
+### セレクターとイベント
 
 <!-- 
 The selector is the same form as CSS selectors: `.class` or `#id`. There's many [more forms](https://api.jquery.com/category/selectors/ "jQuery Reference"), but these are the two you will frequently use. In our example, we will use class `.pref`. There's also a slew of possible [events](https://api.jquery.com/category/events/ "jQuery Reference"), one you will likely use a lot is _‘click'_. In our example we will use _‘change'_ to capture a radio button selection. Be aware that jQuery events are often named somewhat differently than those with JavaScript. So far, after we add in an empty anonymous function, our example statement looks like this:
