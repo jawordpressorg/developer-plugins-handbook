@@ -20,7 +20,7 @@ jQuery.(selector).event(function);
 <!-- 
 When an event, such as a mouse click, occurs in an HTML element selected by the selector, the function that is defined inside the final set of parentheses is executed.
  -->
-セレクタで選択された HTML 要素で、マウスクリックなど、イベントが発生した際、最後の括弧の中で定義された関数が実行されます。
+セレクターで選択された HTML 要素で、マウスクリックなど、イベントが発生した際、最後の括弧の中で定義された関数が実行されます。
 
 <!-- 
 All the following code examples are based on this HTML page content. Assume it appears on your plugin's admin settings screen, defined by the file `myplugin_settings.php`. It is a simple table with radio buttons next to each title.
