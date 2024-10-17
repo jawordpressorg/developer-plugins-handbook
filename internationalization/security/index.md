@@ -27,7 +27,7 @@ When a translator submits a localization to you, always check to make sure they 
 <!-- 
 You can't trust that a translator will only add benign text to their localization; if they want to, they could add malicious JavaScript or other code instead. To protect against that, it's important to treat internationalized strings like you would any other untrusted input.
  -->
-翻訳者がローカライズに良性のテキストだけを加えるとは限りません。その気になれば、悪意ある JavaScript やその他のコードを追加することも可能です。そのような事態から守るためには、国際化された文字列を、他の信頼できない入力と同じように扱うことが重要です。
+翻訳者がローカライズに良性のテキストだけを加えるとは限りません。その気になれば、悪意ある JavaScript やその他のコードも追加できます。そのような事態から守るためには、国際化された文字列を、他の信頼できない入力と同じように扱うことが重要です。
 
 <!-- 
 If you're outputting the strings, then they should be escaped.
@@ -105,7 +105,7 @@ Often translators will send the compiled .mo file along with the plaintext .po f
 <!-- 
 Using PoEdit to generate the binary will override the headers in the .po file, so instead it's better to compile it from the command line:
  -->
-PoEdit を使ってバイナリを生成すると、.po ファイルのヘッダーが上書きされてしまうので、コマンドラインからコンパイルする方が良いです:
+PoEdit を使ってバイナリを生成すると、.po ファイルのヘッダーが上書きされてしまうので、コマンドラインからコンパイルするほうが良いです:
 
 ```
 msgfmt -cv -o /path/to/output.mo /path/to/input.po
