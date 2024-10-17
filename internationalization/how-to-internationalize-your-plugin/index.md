@@ -333,7 +333,7 @@ printf(
 <!-- 
 ## Disambiguation by context
  -->
-## context による、あいまいさ回避
+## context によるあいまいさ回避
 
 <!-- 
 Sometimes one term is used in several contexts and although it is one and the same word in English it has to be translated differently in other languages. For example the word `Post` can be used both as a verb `"Click here to post your comment"` and as a noun `"Edit this post"`. In such cases the `_x()` or `_ex()` function should be used. It is similar to `__()` and `_e()`, but it has an additional argument — the context:
