@@ -13,7 +13,7 @@ AJAX とは、Asynchronous JavaScript And XML の頭文字をとったもので�
 <!-- 
 While XML is the traditional data exchange format used, the exchange can actually be any convenient format. When working with PHP code, many developers favor JSON because the internal data structure created from the transmitted data stream is easier to interface with.
  -->
-XML は伝統的なデータ交換フォーマットを使用していますが、実際には便利なフォーマットであれば何でもかまいません。PHP のコードで作業する場合、多くの開発者は JSON を好みます。なぜなら、送信されたデータストリームから作成される内部データ構造は、取り扱う事が簡単だからです。
+XML は伝統的なデータ交換フォーマットを使用していますが、実際には便利なフォーマットであれば何でもかまいません。PHP のコードで作業する場合、多くの開発者は JSON を好みます。なぜなら、送信されたデータストリームから作成される内部データ構造は、取り扱うことが簡単だからです。
 
 <!-- 
 To see AJAX in action, go to your WordPress administration area and add a category or tag. Pay close attention when you click the Add New button, notice the page changes but does not actually reload. Not convinced? Check your browser's back history, if the page had reloaded, you would see two entries for the page.
