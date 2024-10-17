@@ -46,7 +46,7 @@ If a key already exists and you want to update it, use [`update_post_meta()`](ht
 <!-- 
 Similar to [`add_post_meta()`](https://developer.wordpress.org/reference/functions/add_post_meta/), the function accepts a `post_id`, a `meta_key`, and `meta_value`. It also accepts an optional `prev_value` – which, if specified, will cause the function to only update existing metadata entries with this value. If it isn't provided, the function defaults to updating all entries.
  -->
-[`add_post_meta()`](https://developer.wordpress.org/reference/functions/add_post_meta/) と同様に、この関数は `post_id`、`meta_key`、`meta_value` を受け付けます。また、オプションで `prev_value` を指定でき、この値が指定された場合、この関数は、既存のメタデータエントリーのみを、この値で更新します。この値が指定されない場合、関数はデフォルトですべてのエントリーを更新します。
+[`add_post_meta()`](https://developer.wordpress.org/reference/functions/add_post_meta/) と同様に、この関数は `post_id`、`meta_key`、`meta_value` を受け付けます。また、オプションで `prev_value` を指定でき、この値が指定された場合、この関数は、既存のメタデータ・エントリのみを、この値で更新します。この値が指定されない場合、関数はデフォルトですべてのエントリを更新します。
 
 <!-- 
 ## Deleting Metadata
