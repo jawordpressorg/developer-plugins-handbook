@@ -98,7 +98,7 @@ register_activation_hook( __FILE__, 'pluginprefix_activate' );
 <!-- 
 If you are unfamiliar with registering custom post types, don't worry – this will be covered later. This example is used simply because it's very common.
  -->
-カスタム投稿タイプの登録に慣れていない方、ご心配なく – 後で説明します。この例はごく一般的なものですので、簡単に紹介します。
+カスタム投稿タイプの登録に慣れていない人、ご心配なく – 後で説明します。この例はごく一般的なものですので、簡単に紹介します。
 
 <!-- 
 Using the example from above, the following is how to reverse this process and deactivate a plugin:
