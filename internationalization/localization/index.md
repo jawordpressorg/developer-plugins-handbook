@@ -180,7 +180,7 @@ PO ファイルをオンラインで翻訳するために使用できるツー�
 <!-- 
 #### Unix Operating Systems
  -->
-#### UNIX オペレーティング・システム
+#### Unix オペレーティング・システム
 
 ```
 msgfmt -o filename.mo filename.po
