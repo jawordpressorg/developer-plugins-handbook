@@ -41,7 +41,7 @@ To get started creating a new plugin, follow the steps below.
 Here's what the process looks like on the Unix command line:
 -->
 
-Unix のコマンドラインでは次のようになります:
+UNIX のコマンドラインでは次のようになります:
 
 ```bash
 $ cd wp-content/
@@ -151,7 +151,7 @@ You can add your own, custom hooks with [do_action()](https://developer.wordpres
 You can also use invoke [remove_action()](https://developer.wordpress.org/reference/functions/remove_action/) to remove a function that was defined earlier. For example, if your plugin is an add-on to another plugin, you can use [remove_action()](https://developer.wordpress.org/reference/functions/remove_action/) with the same function callback that was added by the previous plugin with [add_action()](https://developer.wordpress.org/reference/functions/add_action/). The priority of actions is important in these situations, as [remove_action()](https://developer.wordpress.org/reference/functions/remove_action/) would need to run after the initial [add_action()](https://developer.wordpress.org/reference/functions/add_action/).
 -->
 
-[remove_action()](https://developer.wordpress.org/reference/functions/remove_action/) を使用して、先に定義された関数を削除することもできます。たとえば、プラグインが別のプラグインのアドオンである場合、前のプラグインの [add_action()](https://developer.wordpress.org/reference/functions/add_action/) によって追加された関数コールバックと同じものを [remove_action()](https://developer.wordpress.org/reference/functions/remove_action/) で削除できます。[remove_action()](https://developer.wordpress.org/reference/functions/remove_action/) は最初の [add_action()](https://developer.wordpress.org/reference/functions/add_action/) の後に実行する必要があるため、このような状況ではアクションの優先順位が重要です。
+[remove_action()](https://developer.wordpress.org/reference/functions/remove_action/) を使用して、先に定義された関数を削除できます。たとえば、プラグインが別のプラグインのアドオンである場合、前のプラグインの [add_action()](https://developer.wordpress.org/reference/functions/add_action/) によって追加された関数コールバックと同じものを [remove_action()](https://developer.wordpress.org/reference/functions/remove_action/) で削除できます。[remove_action()](https://developer.wordpress.org/reference/functions/remove_action/) は最初の [add_action()](https://developer.wordpress.org/reference/functions/add_action/) の後に実行する必要があるため、このような状況ではアクションの優先順位が重要です。
 
 <!--
 You should be careful when removing an action from a hook, as well as when altering priorities, because it can be difficult to see how these changes will affect other interactions with the same hook. We highly recommend testing frequently.
