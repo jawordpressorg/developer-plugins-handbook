@@ -21,4 +21,4 @@ WordPress におけるメタデータの多対一の関係を考えると、オ�
 This chapter will discuss [managing post metadata](https://developer.wordpress.org/plugins/metadata/managing-post-metadata/), [creating custom meta boxes](https://developer.wordpress.org/plugins/metadata/custom-meta-boxes/), and [rendering post metadata](https://developer.wordpress.org/plugins/metadata/rendering-post-metadata/).
 -->
 
-この章では、[投稿メタデータの管理](https://developer.wordpress.org/plugins/metadata/managing-post-metadata/)、[カスタムメタボックスの作成](https://developer.wordpress.org/plugins/metadata/custom-meta-boxes/)、[投稿メタデータのレンダリング](https://developer.wordpress.org/plugins/metadata/rendering-post-metadata/)について説明します。
+本章では、[投稿メタデータの管理](https://developer.wordpress.org/plugins/metadata/managing-post-metadata/)、[カスタムメタボックスの作成](https://developer.wordpress.org/plugins/metadata/custom-meta-boxes/)、[投稿メタデータのレンダリング](https://developer.wordpress.org/plugins/metadata/rendering-post-metadata/)について説明します。
