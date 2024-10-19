@@ -56,7 +56,7 @@ But what kind of issues might fall under the definition of "privacy", and how do
 <!-- 
 While not all of these principles will be applicable across all situations and uses, using them in the development process can help to ensure user trust.
  -->
-これらの原則のすべてが、すべての状況や用途に適用できる訳ではないが、開発プロセスで使用することで、ユーザーの信頼を確保できます。
+これらの原則のすべてが、すべての状況や用途に適用できるわけではないが、開発プロセスで使用することで、ユーザーの信頼を確保できます。
 
 <!-- 
 ## Privacy By Design
