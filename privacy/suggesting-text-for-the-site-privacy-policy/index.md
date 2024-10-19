@@ -54,7 +54,7 @@ To make this simpler for the users, the text should address the questions provid
 <!-- 
 While not all of these questions will be applicable to all plugins, we recommend taking care with the sections on data sharing.
  -->
-これらの質問のすべてがすべてのプラグインに当てはまる訳ではありませんが、データ共有に関するセクションには注意することをおすすめします。
+これらの質問のすべてがすべてのプラグインに当てはまるわけではありませんが、データ共有に関するセクションには注意することをおすすめします。
 
 <!-- 
 ## Code Example
