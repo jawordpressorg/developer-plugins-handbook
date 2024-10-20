@@ -11,7 +11,7 @@
 <!-- 
 Schema is data that tells us how are other data should be structured. Most databases implement some form of schema which enables us to reason about our data in a more structured manner. The WordPress REST API utilizes JSON Schema to handle the structuring of its data. You can implement endpoints without using schema, but you will be missing out on a lot of things. It is up to you to decide what suits you best.
  -->
-スキーマとは、他のデータがどの様に構造化されるべきかを示すデータです。殆どのデータベースは、より構造化されたやり方でデータについて説明することを可能にする、何らかの形のスキーマを実装しています。WordPress REST API は、JSON スキーマを使用してそのデータの構造化を処理します。スキーマを使わずにエンドポイントを実装できますが、多くのものを失うことになります。何が一番自分に合っているかは、あなた次第です。
+スキーマとは、他のデータがどのように構造化されるべきかを示すデータです。ほとんどのデータベースは、より構造化されたやり方でデータについて説明することを可能にする、何らかの形のスキーマを実装しています。WordPress REST API は、JSON スキーマを使用してそのデータの構造化を処理します。スキーマを使わずにエンドポイントを実装できますが、多くのものを失うことになります。何が一番自分に合っているかは、あなた次第です。
 
 <!-- 
 ## JSON Schema
@@ -21,7 +21,7 @@ Schema is data that tells us how are other data should be structured. Most datab
 <!-- 
 First, let’s talk about JSON a bit. JSON is a human readable data format that resembles JavaScript objects. JSON stands for JavaScript Object Notation. JSON is growing wildly in popularity and seems to be taking the world of data structure by storm. The WordPress REST API uses a special specification for JSON known as JSON schema. To learn more about JSON Schema please check out the [JSON Schema website](http://json-schema.org/) and this [easier to understand introduction to JSON Schema](https://spacetelescope.github.io/understanding-json-schema/index.html). Schema affords us many benefits: improved testing, discoverability, and overall better structure. Let’s look at a JSON blob of data.
  -->
-まず、JSON について少し説明しましょう。JSON は、JavaScript のオブジェクトに似た、人間が読めるデータフォーマットです。JSON は JavaScript Object Notation (JavaScript オブジェクト記法) の略です。JSON の人気は急上昇しており、データ構造の世界を席巻しているように見えます。WordPress REST API は、JSON スキーマとして知られる JSON の特別な仕様を使用しています。JSON スキーマについてもっと知りたい方は、[JSONスキーマのウェブサイト](http://json-schema.org/)とこちらの[JSONスキーマについての理解しやすい導入](https://spacetelescope.github.io/understanding-json-schema/index.html)をご覧ください。スキーマには多くの利点があります: テストの改善、発見しやすさ、全体的な構造の改善などです。JSON データの塊を見てみましょう。
+まず、JSON について少し説明しましょう。JSON は、JavaScript のオブジェクトに似た、人間が読めるデータフォーマットです。JSON は JavaScript Object Notation (JavaScript オブジェクト記法) の略です。JSON の人気は急上昇しており、データ構造の世界を席巻しているように見えます。WordPress REST API は、JSON スキーマとして知られる JSON の特別な仕様を使用しています。JSON スキーマについてもっと知りたい人は、[JSONスキーマのウェブサイト](http://json-schema.org/)とこちらの[JSONスキーマについての理解しやすい導入](https://spacetelescope.github.io/understanding-json-schema/index.html)をご覧ください。スキーマには多くの利点があります: テストの改善、発見しやすさ、全体的な構造の改善などです。JSON データの塊を見てみましょう。
 
 ```
 {
@@ -44,7 +44,7 @@ JSON パーサーは、そのデータを問題なく処理し、有効な JSON 
 <!-- 
 The schema for a resource indicates what fields are present for a particular object. When we register our routes we can also specify the resource schema for the route. Let’s look at what a simple comment schema might look like in a PHP representation of JSON schema.  
  -->
-あるリソースに関するスキーマは、特定のオブジェクトに関してどの様なフィールドが存在するかを示します。ルートを登録する際、そのルート用のリソーススキーマの指定もできます。シンプルなコメントスキーマが JSON スキーマの PHP 表現でどのように見えるか、見てみましょう。
+あるリソースに関するスキーマは、特定のオブジェクトに関してどのようなフィールドが存在するかを示します。ルートを登録する際、そのルート用のリソーススキーマの指定もできます。シンプルなコメントスキーマが JSON スキーマの PHP 表現でどのように見えるか、見てみましょう。
 
 ```
 // Register our routes.
@@ -181,7 +181,7 @@ function prefix_get_comment_schema( $request ) {
 <!-- 
 If you notice, each comment resource now matches up to our schema that we specified. We made this switch in `prefix_rest_prepare_comment()`. By creating schema for our resources, we can now view this schema by making `OPTIONS` requests. Why is this useful? If we wanted other languages, JavaScript for example, to interpret our data and validate the data from our endpoint, JavaScript would need to know how our data is structured. When we provide schema, we open the doors for other authors, and ourselves, to build on top of our endpoints in a consistent manner.
  -->
-お気付きの様に、各コメント・リソースは現在、私たちが指定したスキーマと一致しています。我々は `prefix_rest_prepare_comment()` で切り替えました。リソース用のスキーマを作成することにより、`OPTIONS` リクエストすることで、このスキーマを表示できるようになりました。なぜこれが便利なのでしょうか ? 他の言語、たとえば JavaScript にデータを解釈させ、エンドポイントからのデータを検証させたい場合、JavaScript は、データがどの様に構造化されているかを知る必要があります。私たちがスキーマを提供する際、私たちは、他の作者や私たち自身のために、一貫したやり方で私たちのエンドポイントの上に構築するための門戸を開いているのです。
+お気付きのように、各コメント・リソースは現在、私たちが指定したスキーマと一致しています。我々は `prefix_rest_prepare_comment()` で切り替えました。リソース用のスキーマを作成することにより、`OPTIONS` リクエストすることで、このスキーマを表示できるようになりました。なぜこれが便利なのでしょうか ? 他の言語、たとえば JavaScript にデータを解釈させ、エンドポイントからのデータを検証させたい場合、JavaScript は、データがどのように構造化されているかを知る必要があります。私たちがスキーマを提供する際、私たちは、他の作者や私たち自身のために、一貫したやり方で私たちのエンドポイントの上に構築するための門戸を開いているのです。
 
 <!-- 
 Schema provides machine readable data, so potentially anything that can read JSON can understand what kind of data it is looking at. When we look at the API index by making a `GET` request to `https://ourawesomesite.com/wp-json/`, we are returned the schema of our API, enabling others to write client libraries to interpret our data. This process of reading schema data is known as discovery. When we have provided schema for a resource we make that resource discoverable via `OPTIONS` requests to that route. Exposing resource schema is only one part of our schema puzzle. We also want to use schema for our registered arguments.
