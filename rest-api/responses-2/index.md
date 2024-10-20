@@ -11,7 +11,7 @@
 <!-- 
 Responses in the API are what holds all of the data we want. If we made a mistake in our request, our response’s data should also inform us that an error occurred. Responses in the WordPress REST API should return the data we requested or an error message. Responses in the API are handled by the `WP_REST_Response` class, one of the three infrastructural classes for the API.
  -->
-API に於けるレスポンスとは、我々が欲しい全てのデータを保持しているものです。リクエストにミスがあった場合、レスポンスのデータもエラーが発生したことを知らせてくれるものです。WordPress REST API のレスポンスは、リクエストしたデータかエラーメッセージを返します。API に於けるレスポンスは、API のための3つの基盤クラスの1つであるクラス `WP_REST_Response` によって処理されます。
+API に於けるレスポンスとは、我々が欲しいすべてのデータを保持しているものです。リクエストにミスがあった場合、レスポンスのデータもエラーが発生したことを知らせてくれるものです。WordPress REST API のレスポンスは、リクエストしたデータかエラーメッセージを返します。API に於けるレスポンスは、API のための3つの基盤クラスの1つであるクラス `WP_REST_Response` によって処理されます。
 
 <!-- 
 ## WP_REST_Response
@@ -50,7 +50,7 @@ The above is pretty straightforward and shows you how to get what you need out o
 <!-- 
 If something went terribly wrong in our request, we can return `WP_Error` objects in our endpoint callbacks explaining what went wrong, like this:
  -->
-リクエストの中で何かが大きく間違っていた場合、この様に、何が間違っていたのかを説明するために、エンドポイント・コールバックで `WP_Error` オブジェクトを返すことがでます:
+リクエストの中で何かが大きく間違っていた場合、このように、何が間違っていたのかを説明するために、エンドポイント・コールバックで `WP_Error` オブジェクトを返すことがでます:
 
 ```
 // Register our mock batch endpoint.
@@ -79,7 +79,7 @@ function prefix_get_an_error( $request ) {
 <!-- 
 That is kind of a silly example but it touches on some key things. The most important thing to understand is that the WordPress REST API will automatically handle changing the [WP\_Error](https://developer.wordpress.org/reference/classes/wp_error/) object into an HTTP Response containing your data. When you set the status code in the `WP_Error` object your HTTP response status code will take on that value. This comes in really handy when you need to use different error codes like 404 for content that wasn’t found, or 403 for forbidden access. All we have to do is have our endpoint callbacks return a request and the `WP_REST_Server` class will handle a lot of really important things for us.
  -->
-これは馬鹿げた例だが、いくつかの重要なことに触れておきたい。理解すべき最も重要なことは、WordPress REST API は自動的に [WP\_Error](https://developer.wordpress.org/reference/classes/wp_error/) オブジェクトを、あなたのデータを含む HTTP レスポンスに変更する処理を行うということです。`WP_Error` オブジェクトにステータスコードを設定すると、HTTP レスポンスのステータスコードがその値になります。これは、コンテンツが見つからなかった際の404や、アクセスが禁止されている際の403など、様々なエラーコードを使い分ける必要がある場合にとても便利です。エンドポイント・コールバックがリクエストを返すようにするだけで、クラス `WP_REST_Server` が本当に重要なことをたくさん処理してくれます。
+これは馬鹿げた例だが、いくつかの重要なことに触れておきたい。理解すべき最も重要なことは、WordPress REST API は自動的に [WP\_Error](https://developer.wordpress.org/reference/classes/wp_error/) オブジェクトを、あなたのデータを含む HTTP レスポンスに変更する処理を行うということです。`WP_Error` オブジェクトにステータスコードを設定すると、HTTP レスポンスのステータスコードがその値になります。これは、コンテンツが見つからなかった際の404や、アクセスが禁止されている際の403など、さまざまなエラーコードを使い分ける必要がある場合にとても便利です。エンドポイント・コールバックがリクエストを返すようにするだけで、クラス `WP_REST_Server` が本当に重要なことをたくさん処理してくれます。
 
 <!-- 
 There are other cool things the response class can help us with, like Linking.
@@ -94,12 +94,12 @@ There are other cool things the response class can help us with, like Linking.
 <!-- 
 What if we wanted to get a post and the first comment for that post? Would we write a separate endpoint to handle this use case? If we did that, we would need to start adding a lot of endpoints to handle various small use cases and our API index would get bloated really fast. Response Linking provides us a way to form relations between our resources that the API can understand. The API implements a standard known as HAL for resource linking. Let’s look at our post and comment example, it would be better to have routes for each resource.
  -->
-投稿とその投稿に対する最初のコメントを取得したい場合はどうすればいいでしょうか ? このユースケースを扱うために別のエンドポイントを書くでしょうか ? そんなことをしたら、様々な小さなユースケースを処理するために、たくさんのエンドポイントを追加し始めなければならなくなり、API インデックスはあっという間に肥大化していくことになるでしょう。レスポンス・リンクは、API が理解できるリソース間の関係を形成する方法を提供してくれます。API はリソースリンク用に HAL として知られる標準を実装しています。投稿とコメントの例を見てみましょう。各リソースに対してルートを持つほうがよいでしょう。
+投稿とその投稿に対する最初のコメントを取得したい場合はどうすればいいでしょうか ? このユースケースを扱うために別のエンドポイントを書くでしょうか ? そんなことをしたら、さまざまな小さなユースケースを処理するために、たくさんのエンドポイントを追加し始めなければならなくなり、API インデックスはあっという間に肥大化していくことになるでしょう。レスポンス・リンクは、API が理解できるリソース間の関係を形成する方法を提供してくれます。API はリソースリンク用に HAL として知られる標準を実装しています。投稿とコメントの例を見てみましょう。各リソースに対してルートを持つほうがよいでしょう。
 
 <!-- 
 Let’s say we have post with ID = 1 and comment ID = 3. The comment is assigned to post 1, so realistically the two resources could live at the routes `/my-namespace/v1/posts/1` and `/my-namespace/v1/comments/3`. We would add links to the responses to create the relationships between them. Let’s look at this from the comment perspective first.
  -->
-例えば、`ID = 1` と `comment ID = 3` の投稿があったとしましょう。コメントは `post 1` に割り当てられているので、現実的には2つのリソースは `/my-namespace/v1/posts/1` と `/my-namespace/v1/comments/3` のルートに存在することになります。レスポンスにリンクを追加して、レスポンス間のリレーションを作成します。まずはコメントの観点から見てみましょう。
+たとえば、`ID = 1` と `comment ID = 3` の投稿があったとしましょう。コメントは `post 1` に割り当てられているので、現実的には2つのリソースは `/my-namespace/v1/posts/1` と `/my-namespace/v1/comments/3` のルートに存在することになります。レスポンスにリンクを追加して、レスポンス間のリレーションを作成します。まずはコメントの観点から見てみましょう。
 
 ```
 // Register our mock endpoints.
@@ -245,12 +245,12 @@ function prefix_prepare_for_collection( $response ) {
 <!-- 
 As you can see in the example above we are using links to create the relations between our resources. If the post has comments, our endpoint callback will add a link to the comments route specifying the \`post\` parameter to match our current post ID. So if you were to follow that route you would now get the comments that have that assigned post ID. If you search for comments then each comment will have a link point \`up\` to the post. \`up\` has special meaning in links using the HAL spec. If we follow an up link for a comment then we will be returned the post that is the comment parent. Linking is pretty awesome, but it gets better.
  -->
-上の例でわかるように、リンクを使ってリソース間のリレーションを作成しています。投稿にコメントがある場合、エンドポイント・コールバックは、現在の投稿 ID に合わせてパラメータ「\`post\`」を指定してコメントルートにリンクを追加します。つまり、そのルートを辿れば、その割り当てられた投稿 ID を持つコメントを得ることができるのです。コメントを検索すると、それぞれのコメントに投稿へのリンクポイント「\`up\`」が表示されます。「\`up\`」は、HAL スペックを使用するリンクに於いては、特別な意味を持ちます。コメントのアップリンクを辿れば、コメントの親である投稿が返されるのです。リンクはとても素晴らしいが、さらに良いことがあります。
+上の例でわかるように、リンクを使ってリソース間のリレーションを作成しています。投稿にコメントがある場合、エンドポイント・コールバックは、現在の投稿 ID に合わせてパラメータ「\`post\`」を指定してコメントルートにリンクを追加します。つまり、そのルートをたどれば、その割り当てられた投稿 ID を持つコメントを得ることができるのです。コメントを検索すると、それぞれのコメントに投稿へのリンクポイント「\`up\`」が表示されます。「\`up\`」は、HAL スペックを使用するリンクにおいては、特別な意味を持ちます。コメントのアップリンクをたどれば、コメントの親である投稿が返されるのです。リンクはとてもすばらしいが、さらに良いことがあります。
 
 <!-- 
 The WordPress REST API also supports what is referred to as embedding. If you notice in both of the links we added, we specified that `embeddable => true`. This enables us to embed our linked data in our responses. So if we wanted to grab comment 3 and its assigned post we could make this request `https://ourawesomesite.com/wp-json/my-namespace/v1/comments/3?_embed`. The `_embed` parameter tells the API we want all of the embeddable resource links for our request to also be added to the API. Using embed is a performance gain as the multiple resources are all handled in one HTTP Request.
  -->
-WordPress REST API は、いわゆる埋め込みにも対応しています。追加したリンクの両方で、`embeddable => true` と指定していることにお気付きでしょうか。これにより、リンク先のデータをレスポンスに埋め込むことができます。これにより、リンク先のデータをレスポンスに埋め込むことができます。つまり、`comment 3` とその割り当てられた投稿を取得したい場合、`https://ourawesomesite.com/wp-json/my-namespace/v1/comments/3?_embed` とリクエストできるのです。パラメータ `_embed` は、リクエストに対する埋め込み可能なリソースリンクがすべて欲しいということも、API に追加する様、API に指示します。embed を使用すると、複数のリソースが1つの HTTP リクエストで処理されるため、パフォーマンスが向上します。
+WordPress REST API は、いわゆる埋め込みにも対応しています。追加したリンクの両方で、`embeddable => true` と指定していることにお気付きでしょうか。これにより、リンク先のデータをレスポンスに埋め込むことができます。これにより、リンク先のデータをレスポンスに埋め込むことができます。つまり、`comment 3` とその割り当てられた投稿を取得したい場合、`https://ourawesomesite.com/wp-json/my-namespace/v1/comments/3?_embed` とリクエストできるのです。パラメータ `_embed` は、リクエストに対する埋め込み可能なリソースリンクがすべてほしいということも、API に追加する様、API に指示します。embed を使用すると、複数のリソースが1つの HTTP リクエストで処理されるため、パフォーマンスが向上します。
 
 <!-- 
 Smart use of embedding and links make the WordPress REST API incredibly flexible and powerful for interacting with WordPress.
