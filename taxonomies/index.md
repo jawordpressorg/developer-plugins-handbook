@@ -26,16 +26,16 @@ Taxonomies have **Terms** which serve as the topic by which you classify/group t
 For example: a Taxonomy named "Art" can have multiple Terms, such as "Modern" and "18th Century".
 -->
 
-たとえば: "Art" という名前のタクソノミーは、"Modern" や "18th Century" といった複数のタームを持つことができます。
+たとえば: タクソノミー「Art」は、「Modern」や「18th Century」といった複数のタームを持つことができます。
 
 <!--
 This chapter will show you how to register Custom Taxonomies, how to retrieve their content from the database, and how to render them to the public.
 -->
 
-この章では、カスタムタクソノミーの登録方法、データベースからの取得方法、公開方法について説明します。
+本章では、カスタムタクソノミーの登録方法、データベースからの取得方法、公開方法について説明します。
 
 <!--
 [info]WordPress 3.4 and earlier had a Taxonomy named "Links" which was deprecated in WordPress 3.5.[/info]
 -->
 
-[info]WordPress 3.4 以前には "Links" というタクソノミーがありましたが、WordPress 3.5 では廃止されました。[/info]
+[info]WordPress 3.4以前には「Links」というタクソノミーがありましたが、WordPress 3.5では廃止されました。[/info]
