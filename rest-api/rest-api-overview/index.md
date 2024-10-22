@@ -26,7 +26,7 @@ WordPress REST API は、コアの admin-ajax API の強力な代替手段とし
 <!-- 
 The use cases extend beyond these and really our imagination is the only limit to what can be done.  The bottom line is, if you want an structured, extensible, and simple way to get data in and out of WordPress, you probably want to use the REST API.  The API, for all of its simplicity, can be quite complex at first and we will attempt to break it down into smaller components so that we can easily piece together the larger puzzle.
  -->
-ユースケースはこれら以外にもあり、私たちの想像力ができることの唯一の限界です。要するに、構造化され、拡張可能で、WordPress からデータを出し入れするシンプルな方法を求めるなら、おそらく REST API を使用したい、ということです。API はシンプルであるが故に、最初は非常に複雑かもしれません。ですので、より大きなパズルを簡単に組み立てることができるように、より小さな構成要素に分解することを試みます。
+ユースケースはこれら以外にもあり、私たちの想像力ができることの唯一の限界です。要するに、構造化され、拡張可能で、WordPress からデータを出し入れするシンプルな方法を求めるなら、おそらく REST API を使用したい、ということです。API はシンプルであるがゆえに、最初は非常に複雑かもしれません。ですので、より大きなパズルを簡単に組み立てることができるように、より小さな構成要素に分解することを試みます。
 
 <!-- 
 ## Key Concepts
@@ -49,12 +49,12 @@ WordPress REST API を使い始めるために、API に関連する主要な概
 - リクエスト
 - レスポンス
 - スキーマ
-- コントローラー・クラス
+- コントローラ・クラス
 
 <!-- 
 Each of these concepts play a crucial role in using and understanding the WordPress REST API.  Let’s briefly break them down so that we can later explore each in greater depth.
  -->
-これらのコンセプトはそれぞれ、WordPress REST API を使い、理解する上で重要な役割を果たします。後でそれぞれをより深く掘り下げることができるように、簡単に分解してみましょう。
+これらのコンセプトはそれぞれ、WordPress REST API を使い、理解するうえで重要な役割を果たします。後でそれぞれをより深く掘り下げることができるように、簡単に分解してみましょう。
 
 <!-- 
 ### Routes & Endpoints
@@ -99,12 +99,12 @@ When we have responses and requests of different kinds of data, we need to be ab
 <!-- 
 ### Controller Classes
  -->
-### コントローラー・クラス
+### コントローラ・クラス
 
 <!-- 
 As you can see the WordPress REST API has a lot of moving parts that all need to work together. Controller classes enable us to bring all of these elements together in a single place. With a controller class we will be able to manage the registering of routes & endpoints, handle requests, utilize schema, and generate responses.
  -->
-このように、WordPress REST API には多くの可動部分があり、それらがすべて連動する必要があります。コントローラークラスは、これらすべての要素をひとつの場所にまとめることを可能にします。コントローラークラスがあれば、ルートやエンドポイントの登録、リクエストの処理、スキーマの利用、レスポンスの生成などを管理できます。
+このように、WordPress REST API には多くの可動部分があり、それらがすべて連動する必要があります。コントローラクラスは、これらすべての要素をひとつの場所にまとめることを可能にします。コントローラクラスがあれば、ルートやエンドポイントの登録、リクエストの処理、スキーマの利用、レスポンスの生成などを管理できます。
 
 <!-- 
 ## Next Steps
