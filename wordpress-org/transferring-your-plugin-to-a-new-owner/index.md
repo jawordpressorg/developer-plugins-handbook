@@ -53,7 +53,7 @@ If there are no other committers, the plugin will not be available to be transfe
 <!-- 
 In order to prevent abuse, larger plugins and those officially recognized as featured/beta are restricted from these changes.
  -->
-悪用を防止する為、大規模なプラグインや公式に機能追加版 / ベータ版と認められたプラグインは、これらの変更から制限されます。
+悪用を防止するため、大規模なプラグインや公式に機能追加版 / ベータ版と認められたプラグインは、これらの変更から制限されます。
 
 <!-- 
 To transfer a plugin in this case, you will need to email `plugins@wordpress.org` from the **CURRENT** owner’s email the following information:
@@ -72,4 +72,4 @@ To transfer a plugin in this case, you will need to email `plugins@wordpress.org
 <!-- 
 Most requests are processed without issue, however should a plugin be determined to be critical to the WordPress.org project, or should there be reason to believe the request was invalid (i.e. not sent from the current owner’s email, or an email address positively connected back to them), it may be denied or delayed.
  -->
-殆どのリクエストは問題なく処理されますが、WordPress.org プロジェクトにとって重要なプラグインであると判断された場合、またはリクエストが無効であると考えられる理由がある場合 (例: 現在の所有者のメールアドレスから送信されていないか、または所有者に確実に繋がっているメールアドレスから送信されていない)、拒否または遅延されることがあります。
+ほとんどのリクエストは問題なく処理されますが、WordPress.org プロジェクトにとって重要なプラグインであると判断された場合、またはリクエストが無効であると考えられる理由がある場合 (例: 現在の所有者のメールアドレスから送信されていないか、または所有者に確実につながっているメールアドレスから送信されていない)、拒否または遅延されることがあります。
