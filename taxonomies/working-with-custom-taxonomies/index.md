@@ -51,7 +51,7 @@ Web サイトを編成する一つの方法として、彼女のレシピの格�
 <!-- 
 These groups _could_ be defined using Categories or Tags, you could have a "Courses" Category with Subcategories for "Appetizers" and "Desserts", and an "Ingredients" Category with Subcategories for each ingredient.
  -->
-これらのグループは、カテゴリーやタグを使っても定義することが「可能」です。例えばカテゴリー「コース」にサブカテゴリー「前菜」と「デザート」を作成し、カテゴリー「食材」に各食材のサブカテゴリーを作成します。
+これらのグループは、カテゴリーやタグを使っても定義することが「可能」です。たとえばカテゴリー「コース」にサブカテゴリー「前菜」と「デザート」を作成し、カテゴリー「食材」に各食材のサブカテゴリーを作成します。
 
 <!-- 
 The main advantage of using Custom Taxonomies is that you can reference "Courses" and "Ingredients" independently of Categories and Tags. They even get their own menus in the Administration area.
