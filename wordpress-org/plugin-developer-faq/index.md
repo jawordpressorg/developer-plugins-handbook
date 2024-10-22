@@ -133,7 +133,7 @@ The first one is obvious. You can't have two plugins with the same permalink so 
 <!-- 
 The second one is confusing because it's telling you that somewhere, not on WordPress.org, that permalink is in use. It's important to understand that the way the plugin update API works is that it compares the plugin folder name (i.e. the permalink) to every plugin it has hosted on WordPress.org. If there's a match, then it checks for updates and users are prompted to upgrade.
  -->
-2つ目の理由は困惑させるもので、WordPress.org ではないどこかで、そのパーマリンクが使用中であることを伝えているからです。プラグインアップデート API の仕組みは、プラグインフォルダー名 (つまり、パーマリンク) と WordPress.org でホストされているすべてのプラグインを比較する、ということを理解することが重要です。一致するものがあれば、アップデートの有無をチェックし、ユーザーにアップグレードを促します。
+2つ目の理由は困惑させるもので、WordPress.org ではないどこかで、そのパーマリンクが使用中であることを伝えているからです。プラグインアップデート API のしくみは、プラグインフォルダー名 (つまり、パーマリンク) と WordPress.org でホストされているすべてのプラグインを比較する、ということを理解することが重要です。一致するものがあれば、アップデートの有無をチェックし、ユーザーにアップグレードを促します。
 
 <!-- 
 When that happens, users of the 'original' plugin (the one we don't host) would upgrade to the one from WordPress.org and, if that isn't what you actually wanted to do, you could break their sites.
@@ -203,7 +203,7 @@ We cannot accept plugins submitted by individual developer accounts, unless they
 <!-- 
 Just reply to the email right away and let us know. We can transfer ownership for you. If you forget to do this, you can fix it yourself by [adding the correct account as a committer](https://developer.wordpress.org/plugins/wordpress-org/plugin-developer-faq/#how-do-i-give-someone-else-access-to-my-plugin) and then having that account remove your own.
  -->
-すぐにメールに返信してお知らせください。私たちが所有権をあなたに移譲します。これを忘れてしまった場合は、[正しいアカウントを、コミッターとして追加](https://developer.wordpress.org/plugins/wordpress-org/plugin-developer-faq/#how-do-i-give-someone-else-access-to-my-plugin)し、その正しいアカウントからあなた自身のアカウントを削除させることで、自分で修正できます。
+すぐにメールに返信してお知らせください。私たちが所有権をあなたに委譲します。これを忘れてしまった場合は、[正しいアカウントを、コミッターとして追加](https://developer.wordpress.org/plugins/wordpress-org/plugin-developer-faq/#how-do-i-give-someone-else-access-to-my-plugin)し、その正しいアカウントからあなた自身のアカウントを削除させることで、自分で修正できます。
 
 <!-- 
 **DO NOT** resubmit your plugin. Just tell us right away and we'll fix it.
@@ -521,7 +521,7 @@ Yes! However you either have to keep the non-minified in your plugin _or_ direct
 <!-- 
 It's fine to minify, but it's not okay to hide it. All code must be human readable for inclusion in this directory.
  -->
-minify 化するのは構わないが、隠すのは駄目です。このディレクトリに入れるコードは、すべて人間が読めるものでなければなりません。
+minify 化するのはかまわないが、隠すのは駄目です。このディレクトリに入れるコードは、すべて人間が読めるものでなければなりません。
 
 <!-- 
 ## Your WordPress.Org Page
@@ -576,7 +576,7 @@ We ask you **not** use 'trunk' as your stable tag, as that makes rollbacks more 
 <!-- 
 Logically, whatever version you tested up to. However, never go above the current release candidate. If there is none, don't go above the active version. So if WordPress' stable release is 6.0.9, you can use 6.0 to 6.0.9 and everything will be fine. If there is a release of 6.1-RC then you may use 6.1, however you can go no higher.
  -->
-論理的には、あなたがテストしたどのバージョンでも構いません。ですが、現在のリリース候補より上になることはありません。もしリリース候補がなければ、現行バージョン以上にはしないでください。つまり、WordPress の安定リリースが6.0.9であれば、6.0から6.0.9まで使って問題ありません。6.1-RC のリリースがある場合は、6.1を使用できますが、それ以上は使用できません。
+論理的には、あなたがテストしたどのバージョンでもかまいません。ですが、現在のリリース候補より上になることはありません。もしリリース候補がなければ、現行バージョン以上にはしないでください。つまり、WordPress の安定リリースが6.0.9であれば、6.0から6.0.9まで使って問題ありません。6.1-RC のリリースがある場合は、6.1を使用できますが、それ以上は使用できません。
 
 <!-- 
 Do not attempt to be clever and use 6.5 or 7. This will result in errors on your page.
@@ -611,7 +611,7 @@ Yes. Otherwise no one gets updated.
 <!-- 
 A changelog is a log or record of all or all notable changes made to your plugin, including records of changes such as bug fixes, new features, etc. If you need help formatting your changelogs, we recommend [Keep A Changelog](https://keepachangelog.com/en/1.1.0/) as that's the format used by many products out there.
  -->
-changelog (変更履歴) とは、バグ修正や新機能などの変更履歴を含む、あなたのプラグインに対して行われたすべての、またはすべての注目すべき変更のログまたは記録です。変更履歴のフォーマットについてヘルプが必要な場合は、多くの製品で使用されているフォーマットですので、[Keep A Changelog](https://keepachangelog.com/en/1.1.0/) をお勧めします。
+changelog (変更履歴) とは、バグ修正や新機能などの変更履歴を含む、あなたのプラグインに対して行われたすべての、またはすべての注目すべき変更のログまたは記録です。変更履歴のフォーマットについてヘルプが必要な場合は、多くの製品で使用されているフォーマットですので、[Keep A Changelog](https://keepachangelog.com/en/1.1.0/) をおすすめします。
 
 <!-- 
 ### How many versions should I keep in my changelog?
@@ -621,7 +621,7 @@ changelog (変更履歴) とは、バグ修正や新機能などの変更履歴�
 <!-- 
 Always keep the current major release in your change log. For example, if your current version is 3.9.1, you'll want that and 3.9 in the change log. Older versions should be removed and migrated to a `changelog.txt` file. That will allow them to be accessible to users, while keeping your readme shorter and more pertinent. At most, keep the most recent version of your plugin and one major version back in your readme's changelog. Your `changelog.txt` will **not** be visible within the WordPress.org Plugin Directory, but that's okay. Most users just want to know what's new.
  -->
-常に現在のメジャーリリースを変更履歴に残してください。たとえば、現在のバージョンが3.9.1であれば、3.9.1と3.9を変更履歴に残すことになります。古いバージョンは削除し、ファイル `changelog.txt` に移動してください。そうすることで、readme をより短く、より適切なものに保ちながら、ユーザーがそれら (過去の変更履歴) にアクセスできます。readme の変更履歴には、せいぜいプラグインの最新バージョンと1つ前のメジャーバージョンを残しておきましょう。`changelog.txt` は、WordPress.org のプラグインディレクトリには表示され **ません** が、それで構いません。ほとんどのユーザーは何が新しくなったかを知りたいだけです。
+常に現在のメジャーリリースを変更履歴に残してください。たとえば、現在のバージョンが3.9.1であれば、3.9.1と3.9を変更履歴に残すことになります。古いバージョンは削除し、ファイル `changelog.txt` に移動してください。そうすることで、readme をより短く、より適切なものに保ちながら、ユーザーがそれら (過去の変更履歴) にアクセスできます。readme の変更履歴には、せいぜいプラグインの最新バージョンと1つ前のメジャーバージョンを残しておきましょう。`changelog.txt` は、WordPress.org のプラグインディレクトリには表示され **ません** が、それでかまいません。ほとんどのユーザーは何が新しくなったかを知りたいだけです。
 
 <!-- 
 ### How do I include videos on plugin description pages?
@@ -716,7 +716,7 @@ Much like your plugin name, we recommend your icons and headers be something uni
 <!-- 
 Per the guidelines, [plugins are limited to 12 tags in their readme](https://developer.wordpress.org/plugins/wordpress-org/detailed-plugin-guidelines/#12-public-facing-pages-on-wordpress-org-readmes-must-not-spam). This is to control spam. That said, only the first **FIVE** tags will display on WordPress.org, much for the same reason. The first 12 tags are used for searches, and the rest are ignored, so tag-stuffing won't help you at all.
  -->
-ガイドラインによると、[プラグインの readme のタグは12個まで](https://developer.wordpress.org/plugins/wordpress-org/detailed-plugin-guidelines/#12-public-facing-pages-on-wordpress-org-readmes-must-not-spam)です。これはスパムを抑制するためです。とは言え、同じ理由で、WordPress.org では最初の **5つ** のタグしか表示されません。最初の12個のタグは検索に使われ、残りは無視されるので、タグを詰め込んでもまったく役に立ちません。
+ガイドラインによると、[プラグインの readme のタグは12個まで](https://developer.wordpress.org/plugins/wordpress-org/detailed-plugin-guidelines/#12-public-facing-pages-on-wordpress-org-readmes-must-not-spam)です。これはスパムを抑制するためです。とはいえ、同じ理由で、WordPress.org では最初の **5つ** のタグしか表示されません。最初の12個のタグは検索に使われ、残りは無視されるので、タグを詰め込んでもまったく役に立ちません。
 
 <!-- 
 In addition, any tags where you are the only one who uses them won't show, because they're not going to help anyone find another, similar, plugin.
@@ -861,7 +861,7 @@ Currently yes, but you shouldn't. It's incredibly redundant and doesn't actually
 <!-- 
 Assuming you actually did apply for trademarks, you certainly _can_ but it's not commonly done. Not even Google or Facebook do that. Simply by using your trademark term and having a log of it (like your SVN log), you have usually done the needed legal action required to protect your brand. Consult a lawyer for details.
  -->
-実際に商標を出願したと仮定すれば、確かに _できる_ のですが、一般的には行われていません。Google や Facebook でさえ、そんなことはしません。商標タームを使用し、そのログ (SVN のログのようなもの) を残すだけで、あなたのブランドを保護するために必要な法的措置を取ることができます。詳しくは弁護士に相談してください。
+実際に商標を出願したと仮定すれば、たしかに _できる_ のですが、一般的には行われていません。Google や Facebook でさえ、そんなことはしません。商標タームを使用し、そのログ (SVN のログのようなもの) を残すだけで、あなたのブランドを保護するために必要な法的措置を取ることができます。詳しくは弁護士に相談してください。
 
 <!-- 
 ## Search
@@ -941,7 +941,7 @@ You can also go to `https://profiles.wordpress.org/_YOUR_ID_/profile/notificatio
 <!-- 
 You can add Support Representatives to your plugin. Support representatives can mark forum topics as resolved or sticky (same as plugin authors and contributors), but don't have commit access to the plugin.
  -->
-プラグインにサポート担当者を追加できます。サポート担当者は、フォーラムのトピックに「解決済み」や「付箋」マークを付けることができます (プラグインの作者やコントリビューターと同じです) が、プラグインへのコミット権限はありません。
+プラグインにサポート担当者を追加できます。サポート担当者は、フォーラムのトピックに「解決済み」や「ふせん」マークを付けることができます (プラグインの作者やコントリビューターと同じです) が、プラグインへのコミット権限はありません。
 
 <!-- 
 The UI for managing plugin support reps can be found in Advanced View on the plugin page, next to managing committers. Once someone is added as a support rep, they will get a Plugin Support badge when replying to the plugin support topics or reviews.
@@ -1121,7 +1121,7 @@ Email `plugins@wordpress.org` with a link to the stolen plugin. Include either a
 <!-- 
 Keep in mind, if you licensed your plugin as GPLv2 or later, then it's perfectly permissible to fork your work, as long as copyright remains intact and you're credited.
  -->
-もしあなたが自分のプラグインを GPLv2 またはそれ以降でライセンスしているのであれば、著作権が損なわれず、あなたの名前がクレジットされている限り、あなたの作品をフォークすることは完全に許されていることを覚えておいてください。
+もしあなたが自分のプラグインを GPLv2またはそれ以降でライセンスしているのであれば、著作権が損なわれず、あなたの名前がクレジットされている限り、あなたの作品をフォークすることは完全に許されていることを覚えておいてください。
 
 <!-- 
 ### What do I do if someone copied some of my code and didn't credit me?
@@ -1226,7 +1226,7 @@ Everyone who represents a plugin, from support tech to developer, is the respons
 <!-- 
 It's exceptionally rare that we close all of a developer's plugins. In general it happens because of the following:
  -->
-開発者のプラグインをすべてクローズすることは、極めて稀です。一般的には、以下のような理由で起こります:
+開発者のプラグインをすべてクローズすることは、極めてまれです。一般的には、以下のような理由で起こります:
 
 <!-- 
 1. You asked us to close all your plugins.
@@ -1385,7 +1385,7 @@ While legitimate offers do come, they're usually from the official company to wh
 <!-- 
 If you do choose to sell your plugin (or give it away to someone else), please make sure the new owners understand all the [guidelines of the repository](https://developer.wordpress.org/plugins/wordpress-org/detailed-plugin-guidelines/). Should they violate our terms the plugin will be removed, and we may not give it back depending on the level of the violation. Whomever has commit access to a plugin has the ownership and responsibility of it's behavior for users. Spamming, inserting tracking data, and adding junk features are the fastest way to ruin your plugin.
  -->
-もしプラグインを売却する (または他の人に譲る) 場合は、新しい所有者が[リポジトリのガイドライン](https://developer.wordpress.org/plugins/wordpress-org/detailed-plugin-guidelines/)をすべて理解していることを確認してください。私たちの規約に違反した場合、プラグインは削除され、違反の度合いによってはプラグインを返さないこともあります。プラグインへのコミットアクセス権を持っている人は、そのプラグインの所有権を持ち、ユーザーに対する振る舞いに責任を負います。スパム、トラッキングデータの挿入、ジャンクな機能の追加は、あなたのプラグインを台無しにする最も早い方法です。
+もしプラグインを売却する (または他の人に譲る) 場合は、新しい所有者が[リポジトリのガイドライン](https://developer.wordpress.org/plugins/wordpress-org/detailed-plugin-guidelines/)をすべて理解していることを確認してください。私たちの規約に違反した場合、プラグインは削除され、違反の度合いによってはプラグインを返さないこともあります。プラグインへのコミットアクセス権を持っている人は、そのプラグインの所有権を持ち、ユーザーに対する振る舞いに責任を負います。スパム、トラッキングデータの挿入、ジャンクな機能の追加は、あなたのプラグインを台なしにする最も早い方法です。
 
 <!-- 
 We advocate only giving your plugin to people you _personally_ have vetted, and that you trust with being responsible with your code and your users.
