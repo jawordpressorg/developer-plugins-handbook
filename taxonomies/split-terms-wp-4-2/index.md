@@ -6,7 +6,7 @@
 <!-- 
 This information is here for historical purposes. If you're not interested in how terms worked prior to 2015, you can skip this section.
  -->
-この情報は、歴史的な目的のためにここにあります。2015年以前のタームの仕組みに興味がない場合、このセクションを読み飛ばしていただいて結構です。
+この情報は、歴史的な目的のためにここにあります。2015年以前のタームのしくみに興味がない場合、このセクションを読み飛ばしていただいて結構です。
 
 <!-- 
 ## Prior to WordPress 4.2
