@@ -11,7 +11,7 @@
 <!-- 
 If you find a plugin with a security issue, please **do not** post about it publicly anywhere. Even if there’s a report filed on one of the official security tracking sites, bringing more awareness to the security issue tends to increase people being hacked, and rarely speeds up the fixing.
  -->
-セキュリティ上の課題があるプラグインを見つけた場合、それについて公に投稿 **しないでください**。たとえ公式のセキュリティ追跡サイトに報告があったとしても、セキュリティの課題を広く認識させることは、ハッキングされる人を増加させる傾向があるだけであり、修正が早まることは殆どありません。
+セキュリティ上の課題があるプラグインを見つけた場合、それについて公に投稿 **しないでください**。たとえ公式のセキュリティ追跡サイトに報告があったとしても、セキュリティの課題を広く認識させることは、ハッキングされる人を増加させる傾向があるだけであり、修正が早まることはほとんどありません。
 
 <!-- 
 To report a plugin, please email `plugins@wordpress.org` with the following:
@@ -37,9 +37,9 @@ In the case of serious exploits, please keep in mind responsible and reasonable 
 <!-- 
 Most plugins are closed to prevent new downloads until the issue is resolved. As such, you may _not_ be alerted of a fix until the plugin is updated. We also **do not** provide assistance with filing CVEs at this time, due to a lack of resources. You’re welcome to do so on your own, but we cannot help you.
  -->
-殆どのプラグインは、課題が解決されるまで新しいダウンロードができないようにクローズされます。その為、プラグインが更新されるまで、修正されたことが通知 _されない_ 可能性があります。また、リソースが不足しているため、現時点では CVE (Common Vulnerabilities and Exposures、共通脆弱性識別子データベース) のファイリングに関する支援も提供 **していません**。ご自身で CVE を申請されるのは自由ですが、私たちはお手伝いできません。
+ほとんどのプラグインは、課題が解決されるまで新しいダウンロードができないようにクローズされます。その為、プラグインが更新されるまで、修正されたことが通知 _されない_ 可能性があります。また、リソースが不足しているため、現時点では CVE (Common Vulnerabilities and Exposures、共通脆弱性識別子データベース) のファイリングに関する支援も提供 **していません**。ご自身で CVE を申請されるのは自由ですが、私たちはお手伝いできません。
 
 <!-- 
 If you’ve already posted the vulnerability in public and provided a link to your report, please do not delete it! We will pass it on directly to the developers of the plugin.
  -->
-既に脆弱性を公開で投稿し、報告へのリンクを提供している場合は、削除しないでください ! プラグインの開発者宛に直接転送します。
+すでに脆弱性を公開で投稿し、報告へのリンクを提供している場合は、削除しないでください ! プラグインの開発者宛に直接転送します。
