@@ -11,7 +11,7 @@
 <!-- 
 Responses in the API are what holds all of the data we want. If we made a mistake in our request, our response’s data should also inform us that an error occurred. Responses in the WordPress REST API should return the data we requested or an error message. Responses in the API are handled by the `WP_REST_Response` class, one of the three infrastructural classes for the API.
  -->
-API に於けるレスポンスとは、我々が欲しいすべてのデータを保持しているものです。リクエストにミスがあった場合、レスポンスのデータもエラーが発生したことを知らせてくれるものです。WordPress REST API のレスポンスは、リクエストしたデータかエラーメッセージを返します。API に於けるレスポンスは、API のための3つの基盤クラスの1つであるクラス `WP_REST_Response` によって処理されます。
+API におけるレスポンスとは、我々が欲しいすべてのデータを保持しているものです。リクエストにミスがあった場合、レスポンスのデータもエラーが発生したことを知らせてくれるものです。WordPress REST API のレスポンスは、リクエストしたデータかエラーメッセージを返します。API におけるレスポンスは、API のための3つの基盤クラスの1つであるクラス `WP_REST_Response` によって処理されます。
 
 <!-- 
 ## WP_REST_Response
