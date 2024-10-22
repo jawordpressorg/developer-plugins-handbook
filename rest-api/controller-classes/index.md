@@ -242,7 +242,7 @@ add_action( 'rest_api_init', 'prefix_register_my_rest_routes' );
 <!-- 
 Controller classes tackle two big problems for us while developing endpoints; lack of namespacing and consistent structures. It is important to note that you should not abuse inheritance of your endpoints. For example: if you wrote a controller class for a posts endpoint, like the above example, and wanted to support custom post types as well, you should **NOT** extend your `My_REST_Posts_Controller` like this `class My_CPT_REST_Controller extends My_REST_Posts_Controller`.
  -->
-コントローラ・クラスは、エンドポイントを開発する際の2つの大きな問題に取り組んでいます; 名前空間と一貫性のない構造。注意すべき点は、エンドポイントの継承を悪用しないことです。たとえば: 上の例のようにエンドポイント posts 用のコントローラ・クラスを作成し、カスタム投稿タイプもサポートしたくなった場合、`My_REST_Posts_Controller` をこの `class My_CPT_REST_Controller extends My_REST_Posts_Controller` のように拡張しては **いけません**。
+コントローラ・クラスは、エンドポイントを開発する際の2つの大きな問題、名前空間の欠如と、一貫した構造に対処します。注意すべき点は、エンドポイントの継承を悪用しないことです。たとえば: 上の例のようにエンドポイント posts 用のコントローラ・クラスを作成し、カスタム投稿タイプもサポートしたくなった場合、`My_REST_Posts_Controller` を `class My_CPT_REST_Controller extends My_REST_Posts_Controller` のように拡張しては **いけません**。
 
 <!-- 
 Instead you should either create an entirely separate controller class or make `My_REST_Posts_Controller` handle all available post types. When you start go down the dark chasm of inheritance, it is important to understand that if the parent classes ever have to change at any point and your subclasses are dependent on them, you will have a major headache. In most cases, you will want to create a base controller class as either an `interface` or `abstract class`, that each of your endpoint controllers can implement or extend. The `abstract class` approach is being taken by the WP REST API team for the potential inclusion to core for the `WP_REST_Controller` class.
