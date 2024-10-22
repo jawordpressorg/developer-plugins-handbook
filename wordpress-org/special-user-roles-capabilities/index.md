@@ -6,7 +6,7 @@
 <!-- 
 Every person who pushes code for, or aids in support for, a plugin is required to have their **OWN** individual account. These accounts do not have to be personally identifying (that is, you can name them PluginNameSupport1 if you wanted), however all accounts must be used by a single human for your own protection.
  -->
-プラグインのコードをプッシュする人、またはプラグインのサポートを支援する人は、**各自** 個別のアカウントを持つ必要があります。これらのアカウントは、個人を特定できるものである必要はありません (つまり、お望みであれば、PluginNameSupport1という名前にもできる) が、あなた自身を保護する為に、すべてのアカウントはそれぞれ一人の人間によって使用されなければなりません。
+プラグインのコードをプッシュする人、またはプラグインのサポートを支援する人は、**各自** 個別のアカウントを持つ必要があります。これらのアカウントは、個人を特定できるものである必要はありません (つまり、お望みであれば、PluginNameSupport1という名前にもできる) が、あなた自身を保護するために、すべてのアカウントはそれぞれ一人の人間によって使用されなければなりません。
 
 <!-- 
 There are four roles a user can have with regards to plugins. All can be managed from the **advanced view** section of a plugin page:
@@ -46,7 +46,7 @@ If there are no other users with commit access, you will need to grant them acce
 <!-- 
 If you see this message, then you are not the current owner, and need to contact them to have ownership transferred:
  -->
-このメッセージが表示された場合、あなたは現在の所有者ではないので、所有権を譲渡する為に連絡する必要があります:
+このメッセージが表示された場合、あなたは現在の所有者ではないので、所有権を譲渡するために連絡する必要があります:
 
 <!-- 
 ![](https://i0.wp.com/developer.wordpress.org/files/2020/08/Owner.jpg?resize=1024%2C249&ssl=1)
