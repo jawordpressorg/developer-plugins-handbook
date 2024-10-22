@@ -16,7 +16,7 @@ If your plugin allows users to submit data—be it on the Admin or the Public si
 <!-- 
 The most important step in creating an efficient security layer is having a user permission system in place. WordPress provides this in the form of [User Roles and Capabilities](https://developer.wordpress.org/plugins/users/roles-and-capabilities/).
  -->
-効率的なセキュリティ・レイヤーを構築するうえで、最も重要なステップは、ユーザー・アクセス許可システムを導入することです。WordPress は、これを[ユーザーの権限グループと権限](https://developer.wordpress.org/plugins/users/roles-and-capabilities/)という形で提供しています。
+効率的なセキュリティ・レイヤを構築するうえで、最も重要なステップは、ユーザー・アクセス許可システムを導入することです。WordPress は、これを[ユーザーの権限グループと権限](https://developer.wordpress.org/plugins/users/roles-and-capabilities/)という形で提供しています。
 
 <!-- 
 Every user logged into WordPress is automatically assigned specific User capabilities depending on their User role.
