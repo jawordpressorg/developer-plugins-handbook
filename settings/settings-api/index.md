@@ -16,7 +16,7 @@ New settings pages can be registered along with sections and fields inside them.
 <!-- 
 Organizing registration and validation of fields still requires some effort from developers, but avoids a lot of complex debugging of underlying options management.
  -->
-フィールドの登録と検証を行うには、開発者の労力が必要ですが、オプション管理のための複雑なデバッグの手間を省くことができます。
+フィールドを登録したり検証するには、開発者の労力が必要ですが、オプション管理のための複雑なデバッグの手間を省くことができます。
 
 <!-- 
 [alert]When using the Settings API, the form POST to `wp-admin/options.php` which provides fairly strict capabilities checking. Users will need the `manage_options` capability (and in Multisite will have to be a Super Admin) to submit the form.[/alert]
