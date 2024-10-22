@@ -26,12 +26,12 @@ We have chosen to document it here for the education of developers, as well as t
 <!-- 
 Before we get into the code, we must stress the absolute best way to ensure your plugin won’t get overwritten by an update from WordPress.org is to use a good name. If you’re making a plugin for your company, give it a folder name like `companyname-function-plugin` — for example, if you work for FaceRange and you’re making a status plugin, you could name it `facerange-status-plugin`
  -->
-コードに入る前に、WordPress.org からのアップデートによってプラグインが上書きされないようにする、絶対的な最善の方法は、良い名前を使うことだと断言しなければなりません。あなたの会社の為のプラグインを作るなら、`companyname-function-plugin` の様なフォルダー名をつけてください — 例えば、あなたが FaceRange に勤務していて、ステータスのプラグインを作っているのであれば、`facerange-status-plugin` という名前にできます。
+コードに入る前に、WordPress.org からのアップデートによってプラグインが上書きされないようにする、絶対的な最善の方法は、良い名前を使うことだと断言しなければなりません。あなたの会社の為のプラグインを作るなら、`companyname-function-plugin` のようなフォルダー名をつけてください — たとえば、あなたが FaceRange に勤務していて、ステータスのプラグインを作っているのであれば、`facerange-status-plugin` という名前にできます。
 
 <!-- 
 Not only would we not accept it for using the prohibited term ‘plugin’, the plugin team would validate that the plugin owner **legally** represents FaceRange.
  -->
-使用禁止の単語「プラグイン」を使用している為、私たちはそれを受け入れないだけでなく、プラグイン・チームは、プラグイン所有者が **法的に** FaceRange を代表していることを検証します。
+使用禁止の単語「プラグイン」を使用しているため、私たちはそれを受け入れないだけでなく、プラグイン・チームは、プラグイン所有者が **法的に** FaceRange を代表していることを検証します。
 
 <!-- 
 ## Update URI
@@ -46,7 +46,7 @@ WordPress 5.8から、WordPress.org の API がアップデートをチェック
 <!-- 
 Let’s say you have a plugin you made for your own site, and you gave it the folder name of `my-plugin`. That is a generic folder name, and has a high probability that someone else may use it. It’s also not a name we would allow you to block in our system, due to it’s generic nature.
  -->
-例えば、自分のサイト用に作ったプラグインがあり、`my-plugin` というフォルダー名をつけたとしましょう。これは一般的なフォルダー名で、他の人が使う可能性が高い名前です。また、一般的な名前であるため、私たちのシステムでブロックできません。
+たとえば、自分のサイト用に作ったプラグインがあり、`my-plugin` というフォルダー名をつけたとしましょう。これは一般的なフォルダー名で、他の人が使う可能性が高い名前です。また、一般的な名前であるため、私たちのシステムでブロックできません。
 
 <!-- 
 The Update URI header can be added to the plugin headers. Look in your main plugin file for this section:
