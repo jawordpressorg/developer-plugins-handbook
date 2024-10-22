@@ -11,7 +11,7 @@
 <!-- 
 The REST API is very simple in many ways. There is input, known as the request. The input is interpreted by the server and output is created. The output, is known as the response. In some ways, you can think of a request to the WordPress REST API as a set of directions or instructions that should be carried out and interpreted by the API. By default, the WordPress REST API is intended to use HTTP requests as its request medium. HTTP is the foundation for communication of data over the internet, which makes the WordPress REST API a very far reaching API. Requests in the API utilize a lot of the different aspects present in HTTP requests like URIs, HTTP methods, headers, and parameters. The data structure of a request is conveniently handled by the `WP_REST_Request` class.
  -->
-REST API は、多くの点で非常にシンプルです。リクエストと呼ばれる入力があります。入力は、サーバーによって解釈され、出力が作成されます。出力は、レスポンスとして知られています。ある意味では、WordPress REST API へのリクエストは、API が実行し解釈すべき、一連の指示や命令と考えることができます。デフォルトでは、WordPress REST API は、リクエスト媒体として HTTP リクエストを使用するようになっています。HTTP は、インターネット上でのデータ通信の基盤であり、WordPress REST API を非常に広範囲に及ぶ API にしています。API におけるリクエストは、URI、HTTP メソッド、ヘッダー、パラメータなど、HTTP リクエストに存在する様々な側面を多く利用しています。リクエストのデータ構造は、クラス `WP_REST_Request` によって便利に処理されます。
+REST API は、多くの点で非常にシンプルです。リクエストと呼ばれる入力があります。入力は、サーバーによって解釈され、出力が作成されます。出力は、レスポンスとして知られています。ある意味では、WordPress REST API へのリクエストは、API が実行し解釈すべき、一連の指示や命令と考えることができます。デフォルトでは、WordPress REST API は、リクエスト媒体として HTTP リクエストを使用するようになっています。HTTP は、インターネット上でのデータ通信の基盤であり、WordPress REST API を非常に広範囲に及ぶ API にしています。API におけるリクエストは、URI、HTTP メソッド、ヘッダー、パラメータなど、HTTP リクエストに存在するさまざまな側面を多く利用しています。リクエストのデータ構造は、クラス `WP_REST_Request` によって便利に処理されます。
 
 <!-- 
 ## WP_REST_Request
@@ -21,7 +21,7 @@ REST API は、多くの点で非常にシンプルです。リクエストと�
 <!-- 
 This class is one of the three main infrastructure classes introduced in WordPress 4.4. When an HTTP request is made to an endpoint of the API, the API will automatically create an instance of the `WP_REST_Request` class, matching the provided data. The response object is auto-generated in `WP_REST_Server`‘s `serve_request()` method. Once the request is created and authentication is checked, the request is dispatched and our endpoint callbacks begin to be fired. All of the data stored up in the `WP_REST_Request` object is passed into our callbacks for our registered endpoints. So both our `permissions_callback` and `callback` are called with the request object being passed in. This enables us to access the various request properties in our callbacks, so that we can tailor our responses to match the desired output.
  -->
-このクラスは WordPress 4.4で導入された3つの主要な基盤クラスのひとつです。API のエンドポイントに HTTP リクエストが送信されると、API は自動的にクラス `WP_REST_Request` のインスタンスを生成し、提供されたデータと一致させます。レスポンス・オブジェクトは `WP_REST_Server` のメソッド `serve_request()` で自動生成されます。リクエストが作成され、認証がチェックされると、リクエストがディスパッチされ、エンドポイントのコールバックが開始されます。オブジェクト `WP_REST_Request` に格納されたデータはすべて、登録したエンドポイントのためのコールバックに渡されます。そのため、`permissions_callback` と `callback` の両方がリクエスト・オブジェクトが渡された状態で呼び出されます。これにより、コールバック内で様々なリクエスト・プロパティにアクセスできるようになるため、希望する出力に合わせてレスポンスを調整可能になります。
+このクラスは WordPress 4.4で導入された3つの主要な基盤クラスのひとつです。API のエンドポイントに HTTP リクエストが送信されると、API は自動的にクラス `WP_REST_Request` のインスタンスを生成し、提供されたデータと一致させます。レスポンス・オブジェクトは `WP_REST_Server` のメソッド `serve_request()` で自動生成されます。リクエストが作成され、認証がチェックされると、リクエストがディスパッチされ、エンドポイントのコールバックが開始されます。オブジェクト `WP_REST_Request` に格納されたデータはすべて、登録したエンドポイントのためのコールバックに渡されます。そのため、`permissions_callback` と `callback` の両方がリクエスト・オブジェクトが渡された状態で呼び出されます。これにより、コールバック内でさまざまなリクエスト・プロパティにアクセスできるようになるため、希望する出力に合わせてレスポンスを調整可能になります。
 
 <!-- 
 ## Request Properties
@@ -31,7 +31,7 @@ This class is one of the three main infrastructure classes introduced in WordPre
 <!-- 
 Request objects have many different properties, each of which can be used in various ways. The main properties are the request method, route, headers, parameters and attributes. Let’s break each of these down into their role in a request. If you were to create a request object yourself it would look like this:
  -->
-リクエスト・オブジェクトには様々なプロパティがあり、それぞれを様々な方法で使用できます。主なプロパティは、リクエスト・メソッド、ルート、ヘッダー、パラメータ、属性です。それぞれをリクエストにおける役割に分解してみましょう。リクエスト・オブジェクトを自分で作るとしたら、次のようになります:
+リクエスト・オブジェクトにはさまざまなプロパティがあり、それぞれをさまざまな方法で使用できます。主なプロパティは、リクエスト・メソッド、ルート、ヘッダー、パラメータ、属性です。それぞれをリクエストにおける役割に分解してみましょう。リクエスト・オブジェクトを自分で作るとしたら、次のようになります:
 
 ```
 $request = new WP_REST_Request( 'GET', '/my-namespace/v1/examples' );
@@ -40,7 +40,7 @@ $request = new WP_REST_Request( 'GET', '/my-namespace/v1/examples' );
 <!-- 
 In the above code sample we are only specifying that the request object method is `GET` and we should be matching the route `/my-namespace/v1/examples` which in the context of an entire URL would look like this: `https://ourawesomesite.com/wp-json/my-namepsace/v1/examples`. The method and route arguments for the `WP_REST_Request` constructor are used to map the request to the desired endpoint. If the request is made to an endpoint that is not registered then a helpful 404 error message is returned in the response. Let’s look at the various properties in more depth.
  -->
-上記のコード例では、リクエスト・オブジェクトのメソッドが `GET` であることだけを指定していて、ルート `/my-namespace/v1/examples` に一致させる必要があり、URL 全体のコンテキストでは次のようになります: `https://ourawesomesite.com/wp-json/my-namepsace/v1/examples`。コンストラクタ `WP_REST_Request` のメソッドとルートの引数は、リクエストを目的のエンドポイントにマップするために使われます。登録されていないエンドポイントに対して、リクエストが行われた場合は、レスポンスに役立つエラーメッセージ「404」が返されます。様々なプロパティを詳しく見ていきましょう。
+上記のコード例では、リクエスト・オブジェクトのメソッドが `GET` であることだけを指定していて、ルート `/my-namespace/v1/examples` に一致させる必要があり、URL 全体のコンテキストでは次のようになります: `https://ourawesomesite.com/wp-json/my-namepsace/v1/examples`。コンストラクタ `WP_REST_Request` のメソッドとルートの引数は、リクエストを目的のエンドポイントにマップするために使われます。登録されていないエンドポイントに対して、リクエストが行われた場合は、レスポンスに役立つエラーメッセージ「404」が返されます。さまざまなプロパティを詳しく見ていきましょう。
 
 <!-- 
 ### Method
@@ -50,7 +50,7 @@ In the above code sample we are only specifying that the request object method i
 <!-- 
 The method property of a request object by default matches the HTTP Request method. The method in most cases will be one of `GET`, `POST`, `PUT`, `DELETE`, `OPTIONS`, or `HEAD`. These methods will be used to match the various endpoints registered to a route. When the API finds a match for the method and route it will fire the callbacks for that endpoint.
  -->
-デフォルトでは、リクエスト・オブジェクトのプロパティ method は HTTP リクエスト・メソッドに一致します。殆どの場合、このメソッドは、`GET`、`POST`、`PUT`、`DELETE`、`OPTIONS`、`HEAD` のいずれかとなります。これらのメソッドは、ルートに登録されている様々なエンドポイントを一致させるために使用されます。API がメソッドとルートとの一致を見つけると、そのエンドポイント用のコールバックを起動します。
+デフォルトでは、リクエスト・オブジェクトのプロパティ method は HTTP リクエスト・メソッドに一致します。ほとんどの場合、このメソッドは、`GET`、`POST`、`PUT`、`DELETE`、`OPTIONS`、`HEAD` のいずれかとなります。これらのメソッドは、ルートに登録されているさまざまなエンドポイントを一致させるために使用されます。API がメソッドとルートとの一致を見つけると、そのエンドポイント用のコールバックを起動します。
 
 <!-- 
 The following convention is a best practice for matching HTTP methods: `GET` for read only tasks, `POST` for creation, `PUT` for updating, and `DELETE` for deleting. The request method acts as an indicator for the expected functionality of your endpoints. When you make a `GET` request to a route, you should expect to be returned read only data.
@@ -80,7 +80,7 @@ If we had registered a books endpoint, using `GET`, it might live at `https://ou
 <!-- 
 HTTP Request headers are simply just extra data about our HTTP request. Request headers can specify caching policy, what our request content is, where the request is coming from and many other things. Request headers do not necessarily interact with our endpoints directly, but the information in the headers helps WordPress know what to do. To pass in data that we want our endpoints to interact with we want to use parameters.
  -->
-HTTP リクエスト・ヘッダーは、HTTP リクエストに関する単なる追加データです。リクエスト・ヘッダーには、キャッシュポリシー、リクエストの内容、リクエストの送信元、その他多くのことを指定できます。リクエスト・ヘッダーは、必ずしもエンドポイントと直接やりとりする訳ではありませんが、ヘッダーの情報は、WordPress が何をすべきかを知るのに役立ちます。エンドポイントとやりとりさせたいデータを渡すには、パラメータを使います。
+HTTP リクエスト・ヘッダーは、HTTP リクエストに関する単なる追加データです。リクエスト・ヘッダーには、キャッシュポリシー、リクエストの内容、リクエストの送信元、その他多くのことを指定できます。リクエスト・ヘッダーは、必ずしもエンドポイントと直接やりとりするわけではありませんが、ヘッダーの情報は、WordPress が何をすべきかを知るのに役立ちます。エンドポイントとやりとりさせたいデータを渡すには、パラメータを使います。
 
 <!-- 
 ### Parameters
@@ -90,7 +90,7 @@ HTTP リクエスト・ヘッダーは、HTTP リクエストに関する単な�
 <!-- 
 When making requests to the WordPress REST API, most of the additional data passed in will take on the form of parameters. What are parameters? There are four different types in the context of the API. There are route parameters, query parameters, body parameters, and file parameters. Let’s take a look at each one a bit more in depth.
  -->
-WordPress REST API に対してリクエストを行う際、追加で渡されるデータの殆どはパラメータの形を取ります。パラメータとは、何でしょうか ? API のコンテキストには、4つの異なるタイプがあります。ルート・パラメータ、クエリー・パラメータ、ボディ・パラメータ、ファイル・パラメータです。それぞれをもう少し詳しく見てみましょう。
+WordPress REST API に対してリクエストを行う際、追加で渡されるデータのほとんどはパラメータの形を取ります。パラメータとは、何でしょうか ? API のコンテキストには、4つの異なるタイプがあります。ルート・パラメータ、クエリー・パラメータ、ボディ・パラメータ、ファイル・パラメータです。それぞれをもう少し詳しく見てみましょう。
 
 <!-- 
 #### URL Params
@@ -157,7 +157,7 @@ function prefix_get_the_book( $id ) {
 <!-- 
 In the example above we see how path variables are stored as URL parameters in the request object. We can then access those parameters in our endpoint callbacks. The above example is a pretty common use case for using URL params. Adding too many path variables to a route can slow down the matching of routes and it can also over complicate registering endpoints, it is advised to use URL parameters sparingly. If we aren’t supposed to use parameters directly in our URL path, then we need another way to pass in extra information to our request. This is where query and body parameters come in, they will typically do most of the heavy lifting in your API.
  -->
-上の例では、パス変数が URL パラメータとしてリクエスト・オブジェクトに格納されていることが分かります。そして、エンドポイント・コールバックでそれらのパラメータにアクセスできます。上記の例は、URL パラメータを使用するためのかなり一般的なユースケースです。ルートにパス変数を追加しすぎると、ルートのマッチングが遅くなったり、エンドポイントの登録が複雑になりすぎたりするので、URL パラメータは控えめに使うことをおすすめします。URL パスで直接パラメータを使うことが想定されていないのであれば、リクエストに追加情報を渡す別の方法が必要です。ここがクエリー・パラメータとボディ・パラメータの出番で、これらは一般的に、API で重要な作業の殆どを行います。
+上の例では、パス変数が URL パラメータとしてリクエスト・オブジェクトに格納されていることが分かります。そして、エンドポイント・コールバックでそれらのパラメータにアクセスできます。上記の例は、URL パラメータを使用するためのかなり一般的なユースケースです。ルートにパス変数を追加しすぎると、ルートのマッチングが遅くなったり、エンドポイントの登録が複雑になりすぎたりするので、URL パラメータは控えめに使うことをおすすめします。URL パスで直接パラメータを使うことが想定されていないのであれば、リクエストに追加情報を渡す別の方法が必要です。ここがクエリー・パラメータとボディ・パラメータの出番で、これらは一般的に、API で重要な作業のほとんどを行います。
 
 <!-- 
 #### Query Params
@@ -182,12 +182,12 @@ PHP では、クエリー・パラメータは、スーパーグローバル `$_
 <!-- 
 Body parameters are key value pairs that are stored in the request body. If you have ever sent a `POST` request via a , through cURL, or some other method, then you have used body parameters. With body parameters you can pass them as different content types as well. The default `Content-Type` header for a `POST` request is `x-www-form-urlencoded`. When using `x-www-form-urlencoded`, the parameters are sent like a query string; `per_page=2&genre=fiction`. An HTML form, by default, will bundle up the various inputs and send a `POST` request matching the `x-www-form-urlencoded` pattern.
  -->
-ボディ・パラメータは、リクエスト・ボディに格納される KVP (キーと値のペア) です。これまでに cURL やその他の方法を使用して `POST` リクエストを送信したことがあれば、ボディ・パラメータを使ったことがあるはずです。ボディ・パラメータでは、異なるコンテントタイプとして渡すこともできます。リクエスト `POST` に対するデフォルトのヘッダー `Content-Type` は、`x-www-form-urlencoded` です。`x-www-form-urlencoded` を使用する場合、パラメータはクエリー文字列のように送信されます; `per_page=2&genre=fiction`。デフォルトでは、HTML フォームは、様々な入力を束ね、パターン `x-www-form-urlencoded` に一致するリクエスト `POST` を送信します。
+ボディ・パラメータは、リクエスト・ボディに格納される KVP (キーと値のペア) です。これまでに cURL やその他の方法を使用して `POST` リクエストを送信したことがあれば、ボディ・パラメータを使ったことがあるはずです。ボディ・パラメータでは、異なるコンテントタイプとして渡すこともできます。リクエスト `POST` に対するデフォルトのヘッダー `Content-Type` は、`x-www-form-urlencoded` です。`x-www-form-urlencoded` を使用する場合、パラメータはクエリー文字列のように送信されます; `per_page=2&genre=fiction`。デフォルトでは、HTML フォームは、さまざまな入力を束ね、パターン `x-www-form-urlencoded` に一致するリクエスト `POST` を送信します。
 
 <!-- 
 It is important to note that although the HTTP specification does not prohibit the use of sending body parameters in `GET` requests, it is encouraged that you do not use body parameters in a `GET` request. Body parameters can and should be used for `POST`, `PUT`, and `DELETE` requests.
  -->
-HTTP の仕様では `GET` リクエストでボディ・パラメータを送ることを禁止している訳ではありませんが、`GET` リクエストでボディ・パラメータを使わないことが推奨されています。ボディ・パラメータは `POST`、`PUT`、`DELETE` リクエストで使うことができますし、使うべきです。
+HTTP の仕様では `GET` リクエストでボディ・パラメータを送ることを禁止しているわけではありませんが、`GET` リクエストでボディ・パラメータを使わないことが推奨されています。ボディ・パラメータは `POST`、`PUT`、`DELETE` リクエストで使うことができますし、使うべきです。
 
 <!-- 
 #### File Params
@@ -387,7 +387,7 @@ In the attributes we will get a response containing supported methods, options, 
 <!-- 
 As you can see we have all of the information we have registered to our endpoint already there, ready to go! The request attributes are typically used at a lower level and are handled by the `WP_REST_Server` class, however there are cool things that can be done inside of endpoint callbacks, like restricting accepted parameters to match registered arguments.
  -->
-ご覧の通り、エンドポイントに登録した情報はすべて揃っており、準備万端です ! リクエスト属性は通常、より低いレベルで使用され、クラス `WP_REST_Server` によって処理されますが、エンドポイント・コールバック内部でできるクールなことがあります。例えば、受け付けたパラメータを登録された引数と一致するように制限するようなことです。
+ご覧の通り、エンドポイントに登録した情報はすべてそろっており、準備万端です ! リクエスト属性は通常、より低いレベルで使用され、クラス `WP_REST_Server` によって処理されますが、エンドポイント・コールバック内部でできるクールなことがあります。たとえば、受け付けたパラメータを登録された引数と一致するように制限するようなことです。
 
 <!-- 
 The WP REST API is designed for you so that you do not have to mess around with any internals, so some of these more advanced methods of interacting with `WP_REST_Request` are not going to be commonly practiced. The core of using the WP REST API is linked to registering routes and endpoints. Requests are the tool we use to tell the API which endpoint we want to hit. This is most commonly done over HTTP, however we can also use `WP_REST_Request`s internally.
@@ -402,7 +402,7 @@ WP REST API は、内部をいじくり回さなくてもいいように設計�
 <!-- 
 The key to making internal requests is using `rest_do_request()`. All you need to do is pass in a request object and you will be returned a response. Because the request is never served by the `WP_REST_Server`, the response data is never encoded into json, meaning we have our response object as a PHP object. This is pretty awesome and enables us to do a lot of interesting things. For one, we can create efficient batch endpoints. From a performance perspective, one of the hurdles is minimizing HTTP requests. We can create batch endpoints that will use `rest_do_request()` to serve all of our requests internally all in one HTTP request. Here is a very simplistic batch endpoint for read only data, so you can see `rest_do_request()` in action.
  -->
-内部リクエストの鍵は、`rest_do_request()` を使うことに尽きます。リクエスト・オブジェクトを渡すだけで、レスポンスが返ってきます。リクエストが `WP_REST_Server` によって送信されることはないので、レスポンスデータは json にエンコードされることは決してありません。つまり、レスポンス・オブジェクトは PHP オブジェクトとなります。これはとても素晴らしいことで、多くの面白いことができます。ひとつは、効率的なバッチ・エンドポイントを作成できることです。パフォーマンスの観点からすると、ハードルのひとつは HTTP リクエストを最小限に抑えることです。`rest_do_request()` を使用して、内部的にすべてのリクエストを1つの HTTP リクエストで送信するバッチ・エンドポイントを作成できます。以下は、読み取り専用データ用の非常に単純なバッチ・エンドポイントで、`rest_do_request()` が動作している様子を見ることができます。
+内部リクエストの鍵は、`rest_do_request()` を使うことに尽きます。リクエスト・オブジェクトを渡すだけで、レスポンスが返ってきます。リクエストが `WP_REST_Server` によって送信されることはないので、レスポンスデータは json にエンコードされることは決してありません。つまり、レスポンス・オブジェクトは PHP オブジェクトとなります。これはとてもすばらしいことで、多くのおもしろいことができます。ひとつは、効率的なバッチ・エンドポイントを作成できることです。パフォーマンスの観点からすると、ハードルのひとつは HTTP リクエストを最小限に抑えることです。`rest_do_request()` を使用して、内部的にすべてのリクエストを1つの HTTP リクエストで送信するバッチ・エンドポイントを作成できます。以下は、読み取り専用データ用の非常に単純なバッチ・エンドポイントで、`rest_do_request()` が動作している様子を見ることができます。
 
 ```
 // Register our mock batch endpoint.
