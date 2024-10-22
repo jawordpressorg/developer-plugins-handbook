@@ -33,7 +33,7 @@ Block Only plugins are plugins that **only** contain blocks.
 <!-- 
 Block Plugins are required to be much smaller and more minimalist than a regular WordPress plugin in order to be safely installed with a single click. That means as well as keeping to the regular [plugin guidelines](https://developer.wordpress.org/plugins/wordpress-org/detailed-plugin-guidelines/) you’ll also need to follow some additional rules. In particular, you should stick to mostly JavaScript code and keep PHP to the bare minimum; and not add any UI or other code outside of the Gutenberg editor.
  -->
-ブロック・プラグインは、ワンクリックで安全にインストールする為に、通常の WordPress プラグインよりも遥かに小さく、よりミニマルであることが要求されます。つまり、通常の[プラグイン・ガイドライン](https://developer.wordpress.org/plugins/wordpress-org/detailed-plugin-guidelines/)を守るだけでなく、いくつかの追加ルールに従う必要があります。特に、主に JavaScript のコードに集中し、PHP は最低限に保つ必要があります; そして、Gutenberg エディター以外の UI やその他のコードを追加しないようにしましょう。
+ブロック・プラグインは、ワンクリックで安全にインストールするために、通常の WordPress プラグインよりもはるかに小さく、よりミニマルであることが要求されます。つまり、通常の[プラグイン・ガイドライン](https://developer.wordpress.org/plugins/wordpress-org/detailed-plugin-guidelines/)を守るだけでなく、いくつかの追加ルールに従う必要があります。特に、主に JavaScript のコードに集中し、PHP は最低限に保つ必要があります; そして、Gutenberg エディター以外の UI やその他のコードを追加しないようにしましょう。
 
 <!-- 
 If you’re a committer of a block plugin that does meet the criteria for adding it to the [Block Directory](https://wordpress.org/plugins/browse/block/) as confirmed by the Checker tool, you can then add it yourself [using the Block Checker tool](https://wordpress.org/plugins/developers/block-plugin-validator/):
@@ -72,7 +72,7 @@ Likewise you can remove it at any time using that same tool if you notice proble
 <!-- 
 Many older plugins, as well as larger and more complex plugins, may contain blocks. They also will contain other features, like widgets. An example of this sort of plugin would be Jetpack or Yoast SEO. While they have a large number of features, they also contain some blocks.
  -->
-多くの古いプラグインや、より大規模で複雑なプラグインには、ブロックが含まれていることがあります。また、ウィジェットのような他の機能も含まれているでしょう。この様なプラグインの例としては、Jetpack や Yoast SEO が挙げられます。これらのプラグインには多くの機能がありますが、いくつかのブロックも含まれています。
+多くの古いプラグインや、より大規模で複雑なプラグインには、ブロックが含まれていることがあります。また、ウィジェットのような他の機能も含まれているでしょう。このようなプラグインの例としては、Jetpack や Yoast SEO が挙げられます。これらのプラグインには多くの機能がありますが、いくつかのブロックも含まれています。
 
 <!-- 
 If you’ve written a plugin that introduces or improves blocks, or know of a plugin that does, **email us at [plugins@wordpress.org](mailto:plugins@wordpress.org)** and request your plugin be added. At that time, your plugin will be reviewed to confirm this request, but also to ensure you meet all current guideline standards.
