@@ -21,12 +21,12 @@ Some plugins offer to assist a site with being ‘compliant’ with laws like th
 <!-- 
 No plugin can offer 100% legal compliance. They can (and do) assist sites with being more compliant. Still, at the end of the day, the responsibility remains with the site administrators to ensure their sites meet the qualifications for any compliance. Even services are not providing full compliance, just compliance when _their_ service is in use.
  -->
-どのプラグインも100％の法令遵守を提供できません。プラグインは、サイトがよりコンプライアンスに適合するよう支援できます (そして実際にそうしています)。しかし、結局のところ、サイト管理者は、自分のサイトがどの様なコンプライアンスに対して適合しているかを確認する責任があります。サービスであっても、完全なコンプライアンスを提供している訳ではなく、_その_ サービスが利用されている場合のコンプライアンスにすぎません。
+どのプラグインも100％の法令遵守を提供できません。プラグインは、サイトがよりコンプライアンスに適合するよう支援できます (そして実際にそうしています)。しかし、結局のところ、サイト管理者は、自分のサイトがどのようなコンプライアンスに対して適合しているかを確認する責任があります。サービスであっても、完全なコンプライアンスを提供しているわけではなく、_その_ サービスが利用されている場合のコンプライアンスにすぎません。
 
 <!-- 
 In order to make this more clear to site administrators, we recommend that plugins do **not** claim to be 100% compliant, and instead to explain that the plugin itself will assist in compliance. This has the added benefit of protecting developers in the case where compliance guidelines change and the plugin has not yet been updated.
  -->
-サイト管理者にこのことをより明確に伝える為に、プラグインは100%準拠を主張 **しない** ことを推奨し、代わりにプラグイン自体が準拠を支援することを説明することを推奨します。これは、コンプライアンス・ガイドラインが変更され、プラグインがまだ更新されていない場合に、開発者を保護するという追加の利点があります。
+サイト管理者にこのことをより明確に伝えるために、プラグインは100%準拠を主張 **しない** ことを推奨し、代わりにプラグイン自体が準拠を支援することを説明することを推奨します。これは、コンプライアンス・ガイドラインが変更され、プラグインがまだ更新されていない場合に、開発者を保護するという追加の利点があります。
 
 <!-- 
 ## What do I need to do?
@@ -41,7 +41,7 @@ tl;dr: Update your readme, documentation, assets (banners, screenshots, etc), an
 <!-- 
 For example, if your plugin says it “will make your website ADA compliant.” you should change that to “will help make your website more ADA compliant.” In addition, it would be wise to add in a note that “no plugin can provide 100% compliance” and then enumerate what yours does to get people closer. It’ll help your sales pitches too!
  -->
-例えば、プラグインに「あなたの web サイトを ADA に準拠させます。」と表示されている場合、「あなたの web サイトをより ADA に準拠させます。」に変更する必要があります。加えて、「100％のコンプライアンスを提供できるプラグインはありません」と注釈を加え、人々を惹き寄せる為に、あなたのプラグインが何をするのかを列挙するのが賢明でしょう。セールストークにも役立つでしょう !
+たとえば、プラグインに「あなたの web サイトを ADA に準拠させます。」と表示されている場合、「あなたの web サイトをより ADA に準拠させます。」に変更する必要があります。加えて、「100％のコンプライアンスを提供できるプラグインはありません」と注釈を加え、人々を惹き寄せる為に、あなたのプラグインが何をするのかを列挙するのが賢明でしょう。セールストークにも役立つでしょう !
 
 <!-- 
 ## Do I need to change my plugin display name?
@@ -56,7 +56,7 @@ If your plugin name claims or implies compliance, yes.
 <!-- 
 For example, if your plugin display name is “100% EU Cookie Law Compliance” or “VAT-MOSS Compliance” then you should change the display name to “Improve EU Cookie Law Compliance” or “VAT-MOSS Compliance Assistant”
  -->
-例えば、プラグインの表示名が「100% EU Cookie 法準拠」または「VAT-MOSS 準拠」の場合、表示名を「EU Cookie 法準拠の改善」または「VAT-MOSS 準拠アシスタント」に変更する必要があります。
+たとえば、プラグインの表示名が「100% EU Cookie 法準拠」または「VAT-MOSS 準拠」の場合、表示名を「EU Cookie 法準拠の改善」または「VAT-MOSS 準拠アシスタント」に変更する必要があります。
 
 <!-- 
 Keep in mind, a BETTER plugin name would be one that is unique to you. Remember, people can find “Foobar’s EU Cookie Law Tools” easier than “EU Cookie Law Tools” – they’ll remember your name easier.
@@ -81,7 +81,7 @@ A service assumes the responsibility for the compliance needed in those cases, a
 <!-- 
 For example, instead of saying “Foobar Payment Plugin is PCI compliant.” you could say “The Foobar Payment Gateway Service handles PCI compliance, however this only pertains to purchases made using our gateway. Full details on our compliance can be found in our `[documentation](https://service-name.com/doc/)`.”
  -->
-例えば、「Foobar 支払いプラグインは PCI に準拠しています。」と言う代わりに「Foobar 支払ゲートウェイサービスは PCI に準拠していますが、これは私たちのゲートウェイを利用して行われた購入にのみ関係します。当社のコンプライアンスに関する完全な詳細は、当社の `[documentation](https://service-name.com/doc/)` に記載されています。」と言うこともできます。
+たとえば、「Foobar 支払いプラグインは PCI に準拠しています。」と言う代わりに「Foobar 支払ゲートウェイサービスは PCI に準拠していますが、これは私たちのゲートウェイを利用して行われた購入にのみ関係します。当社のコンプライアンスに関する完全な詳細は、当社の `[documentation](https://service-name.com/doc/)` に記載されています。」と言うこともできます。
 
 <!-- 
 ## My plugin uses a 3rd party library that claims 100% compliance. Do I need to change that?
@@ -101,7 +101,7 @@ Not unless you also claim it in your own readme/documentation. Though you should
 <!-- 
 Technically no, but … can you **really** promise 100% compliance forever and ever? Probably best to change that and just say “Updated for further XHTML compliance.” Check out how WordPress.org handles [Accessibility compliance](https://wordpress.org/about/accessibility/) for a good place to start.
  -->
-技術的にはノーだが … **本当に** 100％のコンプライアンスを、未来永劫に約束できますか ? おそらく、それを変更して「更なる XHTML 準拠の為に更新しました」と言うのがベストでしょう。手始めに WordPress.org の[アクセシビリティ・コンプライアンス](https://wordpress.org/about/accessibility/)の扱い方をチェックしてみてください。
+技術的にはノーだが … **本当に** 100％のコンプライアンスを、未来永劫に約束できますか ? おそらく、それを変更して「さらなる XHTML 準拠の為に更新しました」と言うのがベストでしょう。手始めに WordPress.org の[アクセシビリティ・コンプライアンス](https://wordpress.org/about/accessibility/)の扱い方をチェックしてみてください。
 
 <!-- 
 ## What happens if I don’t do this?
@@ -111,7 +111,7 @@ Technically no, but … can you **really** promise 100% compliance forever and 
 <!-- 
 If we find you’re making inaccurate claims, we will warn you. Then if it’s not fixed in a reasonable amount of time (60 days) your plugin may be closed. Worst than that, however, you open yourself up for legal disputes. This is not actually our responsibility to protect you from, however we feel that being good stewards of open source includes educating you as to these things. Essential, this is something that could seriously hurt you (or your company), and we’d rather that not happen.
  -->
-あなたが不正確な主張をしていることが判明した場合、私たちはあなたに警告します。その後、妥当な期間 (60日) 内に修正されなければ、あなたのプラグインはクローズされるかもしれません。しかし、それよりも最悪なのは、法的な争いに巻き込まれる可能性があるということです。この様なことからあなたを守ることは、実は私たちの責任ではありませんが、オープンソースの良き世話人である為には、こういったことについてあなた方を教育することも含まれると考えています。本質的に、これはあなた (またはあなたの会社) を深刻に傷つける可能性があることであり、私たちはそうならないことを望んでいます。
+あなたが不正確な主張をしていることが判明した場合、私たちはあなたに警告します。その後、妥当な期間 (60日) 内に修正されなければ、あなたのプラグインはクローズされるかもしれません。しかし、それよりも最悪なのは、法的な争いに巻き込まれる可能性があるということです。このようなことからあなたを守ることは、実は私たちの責任ではありませんが、オープンソースの良き世話人であるためには、こういったことについてあなた方を教育することも含まれると考えています。本質的に、これはあなた (またはあなたの会社) を深刻に傷つける可能性があることであり、私たちはそうならないことを望んでいます。
 
 <!-- 
 In addition, from this point forward, if your plugin is closed for other issues (guideline or security related), we will require you to update the readme before we will reopen the plugin.
@@ -126,4 +126,4 @@ In addition, from this point forward, if your plugin is closed for other issues 
 <!-- 
 Same way you would anything. Email `plugins@wordpress.org` with a link to their plugin and an explanation as to why you feel they’re in violation. Keep in mind, closing a plugin is a last resort, so we may already be talking to them about it. Also remember pointing out other people making this mistake doesn’t give you a free pass. You have to fix your own stuff too.
  -->
-何でも同じです。`plugins@wordpress.org` 宛てに、そのプラグインへのリンクと、なぜ違反していると感じるのかの説明を e メールで送ってください。プラグインをクローズするのは最終手段だということを覚えておいてください。ですから、私たちは既に彼らにそのことを話しているかもしれません。また、他の人がこのような間違いを犯していることを指摘しても、あなたにフリーパスを与える訳ではないことも覚えておいてください。勿論、自分のものは自分で修正しなければなりません。
+何でも同じです。`plugins@wordpress.org` 宛てに、そのプラグインへのリンクと、なぜ違反していると感じるのかの説明を e メールで送ってください。プラグインをクローズするのは最終手段だということを覚えておいてください。ですから、私たちはすでに彼らにそのことを話しているかもしれません。また、他の人がこのような間違いを犯していることを指摘しても、あなたにフリーパスを与えるわけではないことも覚えておいてください。もちろん、自分のものは自分で修正しなければなりません。
