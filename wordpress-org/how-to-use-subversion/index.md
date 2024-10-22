@@ -418,7 +418,7 @@ svn diff
 <!-- 
 If it all looks good then it's time to check in those changes to the central repository.
  -->
-すべて問題がなさそうなら、変更を中央リポジトリにチェックインする時です。
+すべて問題がなさそうなら、変更を中央リポジトリにチェックインするときです。
 
 ```
 svn ci -m "fancy new feature: now you can foo *and* bar at the same time"
