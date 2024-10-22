@@ -6,7 +6,7 @@
 <!-- 
 If you haven’t noticed it yet, the WordPress Playground is an amazing feature that lets anyone safely run a temporary WordPress install within their browser. It uses WASM to run a complete WordPress install – PHP, database, and all – entirely from within your web browser. No server needed, nothing to install.
  -->
-まだお気付きでない方もいらっしゃるかもしれませんが、WordPress Playground は、誰でも安全にブラウザ内で WordPress の一時インストールを実行できるすばらしい機能です。WASM を使用して、WordPress の完全なインストール - PHP、データベース、すべて - を、Web ブラウザから実行します。サーバー不要、インストールも不要です。
+まだお気付きでない人もいらっしゃるかもしれませんが、WordPress Playground は、誰でも安全にブラウザ内で WordPress の一時インストールを実行できるすばらしい機能です。WASM を使用して、WordPress の完全なインストール - PHP、データベース、すべて - を、Web ブラウザから実行します。サーバー不要、インストールも不要です。
 
 <!-- 
 For a while now Playground has supported loading any plugin or theme from the plugin directory; here’s how. 
