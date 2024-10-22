@@ -323,7 +323,7 @@ WordPress ダッシュボード内の広告は、一般的に効果がないた�
 <!-- 
 Developers are welcome and encouraged to include links to their own sites or social networks, as well as locally (within the plugin) including images to enhance that experience.
  -->
-開発者は、自分のサイトやソーシャルネットワークへのリンクを含めても構いませんし、むしろ奨励されます。また同様に、体験を向上するためにローカルに (プラグイン内に) 画像を含めることも奨励されます。
+開発者は、自分のサイトやソーシャルネットワークへのリンクを含めてもかまいませんし、むしろ奨励されます。また同様に、体験を向上するためにローカルに (プラグイン内に) 画像を含めることも奨励されます。
 
 <!-- 
 ### 12. Public facing pages on WordPress.org (readmes) must not spam
