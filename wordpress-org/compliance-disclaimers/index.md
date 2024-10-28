@@ -11,7 +11,7 @@ As of **April 12, 2018**, [Guideline 9](https://developer.wordpress.org/plugins
 <!-- 
 - implying that a plugin can create, provide, automate, or guarantee legal compliance
  -->
-- プラグインが法令遵守を作成、提供、自動化、保証できることを意味します
+- プラグインが法令遵守を作成、提供、自動化、保証できると暗示すること
 
 <!-- 
 Some plugins offer to assist a site with being ‘compliant’ with laws like the ADA, GDPR, EU Cookie Law, VAT, HIPPA, PCI, and so on.
