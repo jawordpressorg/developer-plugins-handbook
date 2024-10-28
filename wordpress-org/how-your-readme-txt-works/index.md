@@ -119,7 +119,7 @@ Readme の詳細のほとんどは自明だが、人々を引っ掛ける箇所�
 <!-- 
 [warning]While using the stable tag of trunk currently works in the Plugin Directory, it’s not a supported or recommended method to indicate new versions and has been known to cause issues with automatic updates. At this time, we are actively discouraging and (in the case of new plugins) prohibiting it’s use[/warning]
  -->
-[warning]現在のところ、trunk の安定版タグは、プラグイン・ディレクトリで使用できるが、新しいバージョンを示す方法としてはサポートされていませんし、推奨されていませんし、自動アップデートで問題を引き起こすことが知られています。現時点では、積極的に推奨していませんし、(新しいプラグインの場合) その使用を禁止しています。[/warning]
+[warning]現在のところ、trunk の Stable Tag は、プラグイン・ディレクトリで使用できますが、新しいバージョンを示す方法としてはサポートされていませんし、推奨されていませんし、自動アップデートで問題を引き起こすことが知られています。現時点では、積極的に推奨していませんし、(新しいプラグインの場合) その使用を禁止しています。[/warning]
 
 <!-- 
 WordPress.org’s Plugin Directory works based on the information found in the field **Stable Tag** in the readme. When WordPress.org parses the `readme.txt`, the very first thing it does is to look at the `readme.txt` in the `/trunk` directory, where it reads the “Stable Tag” line.
