@@ -41,7 +41,7 @@ tl;dr: Update your readme, documentation, assets (banners, screenshots, etc), an
 <!-- 
 For example, if your plugin says it “will make your website ADA compliant.” you should change that to “will help make your website more ADA compliant.” In addition, it would be wise to add in a note that “no plugin can provide 100% compliance” and then enumerate what yours does to get people closer. It’ll help your sales pitches too!
  -->
-たとえば、プラグインに「あなたの web サイトを ADA に準拠させます。」と表示されている場合、「あなたの web サイトをより ADA に準拠させます。」に変更する必要があります。加えて、「100％のコンプライアンスを提供できるプラグインはありません」と注釈を加え、人々を惹き寄せる為に、あなたのプラグインが何をするのかを列挙するのが賢明でしょう。セールストークにも役立つでしょう !
+たとえば、プラグインに「あなたの web サイトを ADA に準拠させます。」と記述している場合、「あなたの web サイトをより ADA に準拠させる支援をします。」と変更してください。加えて、「100％のコンプライアンスを提供できるプラグインはありません」と注釈を加え、プラグインが何をするのかを列挙して、理解を深めてもらうことが賢明です。セールストークにも役立つでしょう !
 
 <!-- 
 ## Do I need to change my plugin display name?
