@@ -87,7 +87,7 @@ You _must_ attempt to contact the original developer, as they can [give you acce
  -->
 - メールする
 - プラグインのサポートページに、コメントを残す
-- GitHub 課題を開く
+- GitHub issue を作成する
 
 <!-- 
 We expect you to make all reasonable efforts to reach out to them. If the plugin page says the plugin has no active developer, then you’re fine.
