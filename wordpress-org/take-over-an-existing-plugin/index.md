@@ -262,7 +262,7 @@ In cases where we deny an adoption, it’s usually for the following reasons.
 <!-- 
 If we don’t feel comfortable handing over a plugin, we will inform you as soon as possible.
  -->
-プラグインをお渡しすることに納得がいかない場合は、できるだけ早くお知らせします。
+プラグインをお渡しすることに問題がある場合は、できるだけ早くお知らせします。
 
 <!-- 
 There are rare cases where the plugin has already been given to new owners, but they have not yet deployed code. In general, if you’re told that a specific plugin is not available, there is a long history concerning the plugin preventing us from permitting takeover. In those cases, we recommend you submit your plugin as a fork.
