@@ -97,7 +97,7 @@ We expect you to make all reasonable efforts to reach out to them. If the plugin
 <!-- 
 If you _do_ get in touch with the developer, ask them to [transfer ownership to you](https://developer.wordpress.org/plugins/wordpress-org/plugin-developer-faq/#plugin-ownership). They can do this on their own and, once it’s done, you may manage the plugin. If they have issues, have them contact the plugin team via email and we will assist them.
  -->
-もし開発者と連絡を _取る_ のであれば、[所有権をあなたに移す](https://developer.wordpress.org/plugins/wordpress-org/plugin-developer-faq/#plugin-ownership)ように頼んでください。彼らは自分でこれを行うことができ、それが完了したら、あなたはプラグインを管理できます。もし彼らに課題があれば、メールでプラグイン・チームに連絡してもらい、私たちが彼らを支援します。
+もし開発者と連絡を _取る_ のであれば、[所有権をあなたに移す](https://developer.wordpress.org/plugins/wordpress-org/plugin-developer-faq/#plugin-ownership)ように頼んでください。彼らは自分でこれを行うことができ、それが完了したら、あなたはプラグインを管理できます。もし彼らに問題があれば、メールでプラグイン・チームに連絡してください。私たちが支援します。
 
 <!-- 
 If there’s no way to get in touch, or they don’t reply, move to step 3.
