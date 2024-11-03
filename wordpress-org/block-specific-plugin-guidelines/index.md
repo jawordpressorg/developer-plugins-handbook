@@ -21,7 +21,7 @@ The goal of the [Block Directory](https://wordpress.org/plugins/browse/block/) i
 <!-- 
 ### User Expectations
  -->
-### ユーザーへの期待
+### ユーザーの期待
 
 <!-- 
 - Users will have a place they can go, both within their WordPress admin and on WordPress.org, where they can download and install blocks that have been pre-vetted for major security issues.
