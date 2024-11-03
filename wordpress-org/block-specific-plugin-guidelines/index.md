@@ -37,7 +37,7 @@ The goal of the [Block Directory](https://wordpress.org/plugins/browse/block/) i
 <!-- 
 ### Developer Expectations
  -->
-### 開発者への期待
+### 開発者の期待
 
 <!-- 
 - Developers will have a concrete set of requirements and guidelines to follow when writing blocks for the Block Directory.
