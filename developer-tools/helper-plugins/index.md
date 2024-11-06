@@ -21,7 +21,7 @@ Additionally, the tool flags violations or concerns around plugin development be
 [Visit Plugin Check](https://wordpress.org/plugins/plugin-check/)
 -->
 
-[Plugin Check を見る](https://wordpress.org/plugins/plugin-check/)
+[Plugin Check を見る](https://ja.wordpress.org/plugins/plugin-check/)
 
 ## Query Monitor
 
@@ -33,4 +33,4 @@ Query Monitor は、WordPress で開発するすべての人のためのデバ�
 <!-- 
 [Visit Query Monitor](https://wordpress.org/plugins/query-monitor/)
  -->
-[Query Monitor を見る](https://wordpress.org/plugins/query-monitor/)
+[Query Monitor を見る](https://ja.wordpress.org/plugins/query-monitor/)
