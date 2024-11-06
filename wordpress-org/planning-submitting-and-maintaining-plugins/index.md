@@ -6,7 +6,7 @@
 <!-- 
 You've written the next [Hello Dolly](https://wordpress.org/plugins/hello-dolly/) and you want the world to use it. What should you do?
  -->
-次の [Hello Dolly](https://wordpress.org/plugins/hello-dolly/) を書き上げ、世界中の人に使ってもらいたい。どうすればいい ?
+次の [Hello Dolly](https://ja.wordpress.org/plugins/hello-dolly/) を書き上げ、世界中の人に使ってもらいたい。どうすればいい ?
 
 <!-- 
 ## 1. Test once and test again
@@ -41,7 +41,7 @@ Display names are generated from the headers in the main plugin file so mind you
 <!-- 
 A [README.txt](https://wordpress.org/plugins/developers/#readme) file is the best place to start, as it's a standard reference point for all plugins. You'll want to make sure you include:
  -->
-ファイル [README.txt](https://wordpress.org/plugins/developers/#readme) は、すべてのプラグインの標準的な参照ポイントであるため、開始するのに最適な場所です。以下を必ず含めてください:
+ファイル [README.txt](https://ja.wordpress.org/plugins/developers/#readme) は、すべてのプラグインの標準的な参照ポイントであるため、開始するのに最適な場所です。以下を必ず含めてください:
 
 <!-- 
 - A concise description of what your plugin actually does. If it does a lot, it might be better as two plugins.
@@ -69,7 +69,7 @@ In order to submit a plugin, there are three steps:
  -->
 1. WordPress.org に、有効で定期的にチェックされるメールアドレスで登録します。会社を代表してプラグインを提出する場合は、確認のために **公式な** 会社の電子メールを使用してください。
 2. メールクライアントで `plugins@wordpress.org` をホワイトリストに登録し、確実にメールを受信できるようにしましょう。
-3. プラグインが何を行うかの簡単な概要と、完全な、すぐに使える、プラグインの zip ファイルを添えて[プラグインを申請](https://wordpress.org/plugins/developers/add/)します。zip は、プラグイン・インストーラから手動でアップロードするのと同じように、プラグインの完全なバージョンでなければなりません。
+3. プラグインが何を行うかの簡単な概要と、完全な、すぐに使える、プラグインの zip ファイルを添えて[プラグインを申請](https://ja.wordpress.org/plugins/developers/add/)します。zip は、プラグイン・インストーラから手動でアップロードするのと同じように、プラグインの完全なバージョンでなければなりません。
 
 <!-- 
 Once a plugin is queued for review, we will review the code for any issues within 14 business days. Most of the issues can be avoided by following the guidelines. If we do find issues, we will contact the developer(s), and work towards a resolution. Once approved, you'll receive an email with details as to how to access to a [Subversion Repository](https://developer.wordpress.org/plugins/wordpress-org/how-to-use-subversion/) where you'll store your plugin.
@@ -79,7 +79,7 @@ Once a plugin is queued for review, we will review the code for any issues withi
 <!-- 
 After you upload your plugin (and a [readme file](https://wordpress.org/plugins/developers/#readme)) in that repository via SVN, it will appear on the [plugin directory](https://wordpress.org/plugins/).
  -->
-Subversion (SVN) 経由で、そのリポジトリにプラグイン (とファイル [readme](https://wordpress.org/plugins/developers/#readme)) をアップロードすると、[プラグイン・ディレクトリ](https://wordpress.org/plugins/)に表示されます。
+Subversion (SVN) 経由で、そのリポジトリにプラグイン (とファイル [readme](https://ja.wordpress.org/plugins/developers/#readme)) をアップロードすると、[プラグイン・ディレクトリ](https://ja.wordpress.org/plugins/)に表示されます。
 
 <!-- 
 ## 5. Push out the first version
@@ -94,7 +94,7 @@ WordPress.org のプラグイン・ディレクトリは、潜在的なユーザ
 <!-- 
 When you're ready to release your first version, you'll want to [sign up](https://wordpress.org/plugins/developers/add/). After a review process is completed successfully, you'll be granted a Subversion Repository for your code. We have documentation about [using SVN on WordPress.org](https://developer.wordpress.org/plugins/wordpress-org/how-to-use-subversion/), which is a slightly different workflow than you may be familiar with if you use GIT.
  -->
-最初のバージョンをリリースする準備ができたら、[サインアップ](https://wordpress.org/plugins/developers/add/)したいと思うでしょう。レビュープロセスが正常に完了すると、コード用の Subversion リポジトリが与えられます。[WordPress.org で SVN の使用](https://developer.wordpress.org/plugins/wordpress-org/how-to-use-subversion/)に関するドキュメントがありますが、Git を使用する場合に慣れているワークフローとは少し異なります。
+最初のバージョンをリリースする準備ができたら、[サインアップ](https://ja.wordpress.org/plugins/developers/add/)したいと思うでしょう。レビュープロセスが正常に完了すると、コード用の Subversion リポジトリが与えられます。[WordPress.org で SVN の使用](https://developer.wordpress.org/plugins/wordpress-org/how-to-use-subversion/)に関するドキュメントがありますが、Git を使用する場合に慣れているワークフローとは少し異なります。
 
 <!-- 
 ## 6. Embrace open source
