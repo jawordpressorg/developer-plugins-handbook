@@ -156,10 +156,16 @@ Here are a few tools that can be used to translate PO files online:
  -->
 PO ファイルをオンラインで翻訳するために使用できるツールをいくつか紹介します:
 
+<!-- 
 - [Transifex](https://www.transifex.com/)
 - [WebTranslateIt](https://webtranslateit.com/)
 - [Poeditor](https://poeditor.com/)
 - [GlotPress](https://wordpress.org/plugins/glotpress/)
+ -->
+- [Transifex](https://www.transifex.com/)
+- [WebTranslateIt](https://webtranslateit.com/)
+- [Poeditor](https://poeditor.com/)
+- [GlotPress](https://ja.wordpress.org/plugins/glotpress/)
 
 <!-- 
 ## Generate MO file
