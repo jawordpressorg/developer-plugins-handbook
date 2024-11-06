@@ -16,7 +16,7 @@
 <!-- 
 The goal of the [Block Directory](https://wordpress.org/plugins/browse/block/) is to provide a safe place for WordPress users to find and install new blocks.
  -->
-[ブロック・ディレクトリ](https://wordpress.org/plugins/browse/block/)の目指すところは、WordPress ユーザーが新しいブロックを見つけてインストールするための安全な場所を提供することです。
+[ブロック・ディレクトリ](https://ja.wordpress.org/plugins/browse/block/)の目指すところは、WordPress ユーザーが新しいブロックを見つけてインストールするための安全な場所を提供することです。
 
 <!-- 
 ### User Expectations
