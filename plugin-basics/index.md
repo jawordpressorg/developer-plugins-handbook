@@ -199,7 +199,7 @@ Since we're talking about plugins, you'll want to study the [Plugin API](https:/
 When WordPress loads the list of installed plugins on the Plugins page of the WordPress Admin, it searches through the `plugins/` folder (and its sub-folders) to find PHP files with WordPress plugin header comments. If your entire plugin consists of just a single PHP file, like [Hello Dolly](https://wordpress.org/plugins/hello-dolly/ "Hello Dolly"), the file could be located directly inside the root of the `plugins/` folder. But more commonly, plugin files will reside in their own folder, named after the plugin.
 -->
 
-WordPress が WordPress 管理画面のプラグインページでインストールされているプラグインのリストを読み込むとき、`plugins/` フォルダー (およびそのサブフォルダー) を検索して、WordPress プラグインヘッダーコメントを含む PHP ファイルを見つけます。[Hello Dolly](https://wordpress.org/plugins/hello-dolly/ "Hello Dolly") のように、プラグイン全体が1つの PHP ファイルのみで構成されている場合、ファイルは `plugins/` フォルダーのルート内に直接配置できます。ただし一般的には、プラグインファイルは、プラグインにちなんで名付けられた独自のフォルダーに存在します。
+WordPress が WordPress 管理画面のプラグインページでインストールされているプラグインのリストを読み込むとき、`plugins/` フォルダー (およびそのサブフォルダー) を検索して、WordPress プラグインヘッダーコメントを含む PHP ファイルを見つけます。[Hello Dolly](https://ja.wordpress.org/plugins/hello-dolly/ "Hello Dolly") のように、プラグイン全体が1つの PHP ファイルのみで構成されている場合、ファイルは `plugins/` フォルダーのルート内に直接配置できます。ただし一般的には、プラグインファイルは、プラグインにちなんで名付けられた独自のフォルダーに存在します。
 
 <!--
 ## Sharing your Plugin
