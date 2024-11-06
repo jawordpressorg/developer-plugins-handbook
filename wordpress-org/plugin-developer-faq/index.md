@@ -56,7 +56,7 @@ Please take a look at [this handbook page](https://make.wordpress.org/plugins/ha
 <!-- 
 Go to the [Add](https://wordpress.org/plugins/developers/add/) page and upload your zip. Your file should be under **10 MegaBytes** and be a complete plugin. We do not accept placeholders or plugins that aren't ready to be used.
  -->
-[Add](https://wordpress.org/plugins/developers/add/) ページに行き、zip ファイルをアップロードしてください。ファイルは **10メガバイト** 以下で、完全なプラグインでなければなりません。私たちは、プレースホルダーだったり、使用する準備ができていないプラグインは、受け付けません。
+[Add](https://ja.wordpress.org/plugins/developers/add/) ページに行き、zip ファイルをアップロードしてください。ファイルは **10メガバイト** 以下で、完全なプラグインでなければなりません。私たちは、プレースホルダーだったり、使用する準備ができていないプラグインは、受け付けません。
 
 <!-- 
 ### What if my plugin is over 10 MegaBytes?
@@ -441,7 +441,7 @@ Put your code files directly in the `trunk/` directory of your repository. Whene
 <!-- 
 Make sure you update [`trunk/readme.txt`](https://wordpress.org/plugins/developers/#readme) to reflect the **new** stable tag.
  -->
-[`trunk/readme.txt`](https://wordpress.org/plugins/developers/#readme) を更新して、**新しい** 安定版タグを反映させてください。
+[`trunk/readme.txt`](https://ja.wordpress.org/plugins/developers/#readme) を更新して、**新しい** 安定版タグを反映させてください。
 
 <!-- 
 Images for the readme (such as [screenshots, plugin headers, and plugin icons](https://developer.wordpress.org/plugins/wordpress-org/plugin-assets/)), belong in the `assets/` directory (which you may need to create) in the root of your SVN checkout. This will be on the same level as `tags/` and `trunk/`, for example.
@@ -461,7 +461,7 @@ No. Doing that will cause the zip generator to break.
 <!-- 
 If you have complicated plugin with lots of files, you can of course organize them into subdirectories, but the [readme.txt file](https://wordpress.org/plugins/developers/#readme) and the root plugin file should go straight into `trunk/`.
  -->
-ファイルがたくさんある複雑なプラグインの場合は、もちろんサブディレクトリに編成できますが、ファイル [readme.txt](https://wordpress.org/plugins/developers/#readme) と root プラグイン・ファイルは、そのまま `trunk/` に入れてください。
+ファイルがたくさんある複雑なプラグインの場合は、もちろんサブディレクトリに編成できますが、ファイル [readme.txt](https://ja.wordpress.org/plugins/developers/#readme) と root プラグイン・ファイルは、そのまま `trunk/` に入れてください。
 
 <!-- 
 ### How should I name my tags (a.k.a. releases)?
@@ -546,7 +546,7 @@ SVN フォルダーにコードをプッシュすると、すぐにプラグイ�
 <!-- 
 From the information you specify in the plugin file and in the [readme.txt file](https://wordpress.org/plugins/developers/#readme), and from the Subversion repository itself. Read [about how the readme.txt works](https://developer.wordpress.org/plugins/wordpress-org/how-your-readme-txt-works/) for more information.
  -->
-プラグインファイル内とファイル [readme.txt](https://wordpress.org/plugins/developers/#readme) 内で指定した情報、および Subversion リポジトリ自体から取得します。詳しくは [readme.txt の仕組みについて](https://developer.wordpress.org/plugins/wordpress-org/how-your-readme-txt-works/)をご覧ください。
+プラグインファイル内とファイル [readme.txt](https://ja.wordpress.org/plugins/developers/#readme) 内で指定した情報、および Subversion リポジトリ自体から取得します。詳しくは [readme.txt の仕組みについて](https://developer.wordpress.org/plugins/wordpress-org/how-your-readme-txt-works/)をご覧ください。
 
 <!-- 
 You should also make full use of the [Plugin Headers](https://developer.wordpress.org/plugins/plugin-basics/header-requirements/) in your main plugin file. Those will define how your username shows up on the WordPress.org hosting page, as well as in the WordPress Admin. We recommend using all those headers to fully document your plugin.
@@ -561,7 +561,7 @@ You should also make full use of the [Plugin Headers](https://developer.wordpres
 <!-- 
 Yes, by specifying the `Stable Tag` field in your trunk directory's [readme.txt file](https://wordpress.org/plugins/developers/#readme).
  -->
-はい。あなたの trunk ディレクトリのファイル [readme.txt file](https://wordpress.org/plugins/developers/#readme) 内の `Stable Tag` 項目を指定してください。
+はい。あなたの trunk ディレクトリのファイル [readme.txt file](https://ja.wordpress.org/plugins/developers/#readme) 内の `Stable Tag` 項目を指定してください。
 
 <!-- 
 We ask you **not** use 'trunk' as your stable tag, as that makes rollbacks more complicated than they need to be.
@@ -986,7 +986,7 @@ That's what happens when someone makes multiple accounts on the forums, usually 
 <!-- 
 As of April 2020, you can close your own plugins at any time. To do so, go to the **advanced** tab on your plugin page (i.e. `https://wordpress.org/plugins/_MY_PLUGIN_/advanced/`) and scroll down to the **CLOSE THIS PLUGIN** section. There you will see a warning message and a button.
  -->
-2020年4月より、自分のプラグインをいつでもクローズできるようになりました。そのためには、プラグインページの **advanced** タブ (つまり `https://wordpress.org/plugins/_MY_PLUGIN_/advanced/`) に行き、**CLOSE THIS PLUGIN (このプラグインをクローズする)** セクションまでスクロールダウンしてください。そこに警告メッセージとボタンがあります。
+2020年4月より、自分のプラグインをいつでもクローズできるようになりました。そのためには、プラグインページの **advanced** タブ (つまり `https://ja.wordpress.org/plugins/_MY_PLUGIN_/advanced/`) に行き、**CLOSE THIS PLUGIN (このプラグインをクローズする)** セクションまでスクロールダウンしてください。そこに警告メッセージとボタンがあります。
 
 <!-- 
 ![Image of the "Close this plugin" feature, with the note "WARNING: Closing your plugin is intended to be a permanent action. You will not be able to reopen it without contacting the plugins team." Below that is a button saying "I understand."](https://i3.wp.com/developer.wordpress.org/files/2020/04/HowtoClose.png)
@@ -1290,7 +1290,7 @@ The last thing we want to do is ban someone and disable all their plugins. It's 
 <!-- 
 To add users as committers, that is give them access to update code, go to `https://wordpress.org/plugins/_YOUR_PLUGIN_/advanced` and add their username in as a committer.
  -->
-ユーザーをコミッターとして追加する、つまり、彼らにコードを更新する権限を与えるには、`https://wordpress.org/plugins/_YOUR_PLUGIN_/advanced` に行き、彼らのユーザー名をコミッターとして追加します。
+ユーザーをコミッターとして追加する、つまり、彼らにコードを更新する権限を与えるには、`https://ja.wordpress.org/plugins/_YOUR_PLUGIN_/advanced` に行き、彼らのユーザー名をコミッターとして追加します。
 
 <!-- 
 To have them show up as an author, add their username to the `readme.txt` file.
@@ -1310,7 +1310,7 @@ _一般ユーザーを、作者として追加しないでください。_ こ�
 <!-- 
 Anyone with commit access can do this. Go to `https://wordpress.org/plugins/_YOUR_PLUGIN_/advanced` and hover over their ID. A delete link will appear. Click on it.
  -->
-コミットにアクセスできる人なら誰でもできます。`https://wordpress.org/plugins/_YOUR_PLUGIN_/advanced` にアクセスして、彼らの ID にカーソルを合わせてください。削除リンクが表示されます。それをクリックしてください。
+コミットにアクセスできる人なら誰でもできます。`https://ja.wordpress.org/plugins/_YOUR_PLUGIN_/advanced` にアクセスして、彼らの ID にカーソルを合わせてください。削除リンクが表示されます。それをクリックしてください。
 
 <!-- 
 Please don't delete yourself.
