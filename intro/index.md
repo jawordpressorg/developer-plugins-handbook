@@ -32,7 +32,7 @@ WordPress の開発で基本的なルールが1つあるとすれば、それは
 WordPress plugins can be as simple or as complicated as you need them to be, depending on what you want to do. The simplest plugin is a single PHP file. The [Hello Dolly](https://wordpress.org/plugins/hello-dolly/ "Hello Dolly Plugin") plugin is an example of such a plugin. The plugin PHP file just needs a [Plugin Header](https://developer.wordpress.org/plugins/plugin-basics/header-requirements/), a couple of PHP functions, and some [hooks](https://developer.wordpress.org/plugins/hooks/) to attach your functions to.
 -->
 
-WordPress のプラグインは、やりたいことに応じて、簡単なものから複雑なものまで作ることができます。最もシンプルなプラグインは、単一の PHP ファイルです。[Hello Dolly](https://wordpress.org/plugins/hello-dolly/ "Hello Dolly Plugin") プラグインはそのようなプラグインの例です。プラグインの PHP ファイルは、[プラグインヘッダー](https://developer.wordpress.org/plugins/plugin-basics/header-requirements/) といくつかの PHP 関数、そして関数をアタッチするための[フック](https://developer.wordpress.org/plugins/hooks/) が必要なだけです。
+WordPress のプラグインは、やりたいことに応じて、簡単なものから複雑なものまで作ることができます。最もシンプルなプラグインは、単一の PHP ファイルです。[Hello Dolly](https://ja.wordpress.org/plugins/hello-dolly/ "Hello Dolly プラグイン") プラグインはそのようなプラグインの例です。プラグインの PHP ファイルは、[プラグインヘッダー](https://developer.wordpress.org/plugins/plugin-basics/header-requirements/) といくつかの PHP 関数、そして関数をアタッチするための[フック](https://developer.wordpress.org/plugins/hooks/) が必要なだけです。
 
 <!--
 Plugins allow you to greatly extend the functionality of WordPress without touching WordPress core itself.
