@@ -16,7 +16,7 @@ The Heartbeat API is a simple server polling API built in to WordPress, allowing
 <!-- 
 When the page loads, the client-side heartbeat code sets up an interval (called the "tick") to run every 15-120 seconds. When it runs, heartbeat gathers data to send via a jQuery event, then sends this to the server and waits for a response. On the server, an admin-ajax handler takes the passed data, prepares a response, filters the response, then returns the data in JSON format. The client receives this data and fires a final jQuery event to indicate the data has been received.
  -->
-ページがロードされると、15～120秒ごとに、クライアント側のハートビート・コードは、(「ティック」と呼ばれる) 実行間隔を設定します。実行されると、ハートビートは、jQuery イベントで送信するデータを収集し、これをサーバーに送信してレスポンスを待ちます。サーバーでは、admin-ajax ハンドラーが渡されたデータを受け取り、レスポンスを準備し、レスポンスをフィルタリングして、JSON フォーマットでデータを返します。クライアントは、このデータを受け取り、データを受け取ったことを示す最後の jQuery イベントを発生させます。
+ページがロードされると、15～120秒ごとに、クライアント側のハートビート・コードは、(「ティック」と呼ばれる) 実行間隔を設定します。実行されると、ハートビートは、jQuery イベントで送信するデータを収集し、これをサーバーに送信してレスポンスを待ちます。サーバーでは、admin-ajax ハンドラが渡されたデータを受け取り、レスポンスを準備し、レスポンスをフィルタリングして、JSON フォーマットでデータを返します。クライアントは、このデータを受け取り、データを受け取ったことを示す最後の jQuery イベントを発生させます。
 
 <!-- 
 The basic process for custom Heartbeat events is:
