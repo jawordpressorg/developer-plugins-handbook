@@ -11,7 +11,7 @@ In order to better protect plugins from inadvertent releases, we’ve added a ne
 <!-- 
 When enabled on a plugin, to release a new version of a plugin you’ll need to tag a new release in SVN as normal, and then confirm on the [Release Management](https://wordpress.org/plugins/developers/releases/) dashboard.
  -->
-プラグインで有効になっている場合、プラグインの新しいバージョンをリリースするには、通常通り SVN で新しいリリースにタグを付け、[リリース管理](https://wordpress.org/plugins/developers/releases/)ダッシュボードで確認する必要があります。
+プラグインで有効になっている場合、プラグインの新しいバージョンをリリースするには、通常通り SVN で新しいリリースにタグを付け、[リリース管理](https://ja.wordpress.org/plugins/developers/releases/)ダッシュボードで確認する必要があります。
 
 <!-- 
 Access to the Release Management dashboard is limited to plugin committers, and all actions require confirmation via a tokenised link which is emailed to you as needed.
