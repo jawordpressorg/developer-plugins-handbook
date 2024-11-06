@@ -28,7 +28,7 @@ When `SAVEQUERIES` is enabled the mysql queries are tracked and displayed.
 <!-- 
 [Visit Debug Bar](https://wordpress.org/plugins/debug-bar/)
  -->
-[Debug Bar を見る](https://wordpress.org/plugins/debug-bar/)
+[Debug Bar を見る](https://ja.wordpress.org/plugins/debug-bar/)
 
 ## Debug Bar Console
 
@@ -40,7 +40,7 @@ This plugin adds a console in which you can run arbitrary PHP. This is excellent
 <!-- 
 [Visit Debug Bar Console](https://wordpress.org/plugins/debug-bar-console/)
  -->
-[Debug Bar Console を見る](https://wordpress.org/plugins/debug-bar-console/)
+[Debug Bar Console を見る](https://ja.wordpress.org/plugins/debug-bar-console/)
 
 ## Debug Bar Shortcodes
 
@@ -68,7 +68,7 @@ Additionally it will show you:
 <!-- 
 [Visit Debug Bar Shortcodes](https://wordpress.org/plugins/debug-bar-shortcodes/)
  -->
-[Debug Bar Shortcodes を見る](https://wordpress.org/plugins/debug-bar-shortcodes/)
+[Debug Bar Shortcodes を見る](https://ja.wordpress.org/plugins/debug-bar-shortcodes/)
 
 ## Debug Bar Constants
 
@@ -89,7 +89,7 @@ This plugin adds three new panels to the Debug Bar that display the defined cons
 <!-- 
 [Visit Debug Bar Constants](https://wordpress.org/plugins/debug-bar-constants/)
  -->
-[Debug Bar Constants を見る](https://wordpress.org/plugins/debug-bar-constants/)
+[Debug Bar Constants を見る](https://ja.wordpress.org/plugins/debug-bar-constants/)
 
 ## Debug Bar Post Types
 
@@ -101,7 +101,7 @@ This plugin adds a new panel to the Debug Bar that displays detailed information
 <!-- 
 [Visit Debug Bar Post Types](https://wordpress.org/plugins/debug-bar-post-types/)
  -->
-[Debug Bar Post Types を見る](https://wordpress.org/plugins/debug-bar-post-types/)
+[Debug Bar Post Types を見る](https://ja.wordpress.org/plugins/debug-bar-post-types/)
 
 ## Debug Bar Cron
 
@@ -135,7 +135,7 @@ Once installed, you will have access to the following information:
 <!-- 
 [Visit Debug Bar Cron](https://wordpress.org/plugins/debug-bar-cron/)
  -->
-[Debug Bar Cron を見る](https://wordpress.org/plugins/debug-bar-cron/)
+[Debug Bar Cron を見る](https://ja.wordpress.org/plugins/debug-bar-cron/)
 
 ## Debug Bar Actions and Filters Addon
 
@@ -147,7 +147,7 @@ This plugin adds two more tabs in the Debug Bar to display hooks (Actions and Fi
 <!-- 
 [Visit Debug Bar Actions and Filters Addon](https://wordpress.org/plugins/debug-bar-actions-and-filters-addon/)
  -->
-[Debug Bar Actions and Filters Addon を見る](https://wordpress.org/plugins/debug-bar-actions-and-filters-addon/)
+[Debug Bar Actions and Filters Addon を見る](https://ja.wordpress.org/plugins/debug-bar-actions-and-filters-addon/)
 
 ## Debug Bar Transients
 
@@ -179,7 +179,7 @@ Once installed, you will have access to the following information:
 <!-- 
 [Visit Debug Bar Transients](https://wordpress.org/plugins/debug-bar-transients/)
  -->
-[Debug Bar Transients を見る](https://wordpress.org/plugins/debug-bar-transients/)
+[Debug Bar Transients を見る](https://ja.wordpress.org/plugins/debug-bar-transients/)
 
 ## Debug Bar List Script & Style Dependencies
 
@@ -191,7 +191,7 @@ This plugin lists scripts and styles that are loaded, in which order they're loa
 <!-- 
 [Visit Debug Bar List Script & Style Dependencies](https://wordpress.org/plugins/debug-bar-list-dependencies/)
  -->
-[Debug Bar List Script & Style Dependencies を見る](https://wordpress.org/plugins/debug-bar-list-dependencies/)
+[Debug Bar List Script & Style Dependencies を見る](https://ja.wordpress.org/plugins/debug-bar-list-dependencies/)
 
 <!-- 
 ## Debug Bar Remote Requests
@@ -229,4 +229,4 @@ Optionally, you can add `?dbrr_full=1` to your URL to get additional information
 <!-- 
 [Visit Debug Bar Remote Requests](https://wordpress.org/plugins/debug-bar-remote-requests/)
  -->
-[Debug Bar Remote Requests を見る](https://wordpress.org/plugins/debug-bar-remote-requests/)
+[Debug Bar Remote Requests を見る](https://ja.wordpress.org/plugins/debug-bar-remote-requests/)
