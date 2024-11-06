@@ -26,7 +26,7 @@ WordPress のプラグインは多くのファイルで構成されています�
 <!-- 
 [Hello Dolly](https://wordpress.org/plugins/hello-dolly/ "Hello Dolly"), one of the first plugins, is only [100 lines](https://plugins.trac.wordpress.org/browser/hello-dolly/trunk/hello.php) long. Hello Dolly shows lyrics from [the famous song](https://en.wikipedia.org/wiki/Hello,_Dolly!_(song)) in the WordPress admin. Some CSS is used in the PHP file to control how the lyric is styled.
  -->
-最初のプラグインの一つである [Hello Dolly](https://wordpress.org/plugins/hello-dolly/ "Hello Dolly") は、わずか[100行](https://plugins.trac.wordpress.org/browser/hello-dolly/trunk/hello.php)の長さです。Hello Dolly は、WordPress の 管理画面に[有名な曲](https://en.wikipedia.org/wiki/Hello,_Dolly!_(song))の歌詞を表示します。その PHP ファイルには、歌詞のスタイルを制御するためにいくつかの CSS が使用されています。
+最初のプラグインの一つである [Hello Dolly](https://ja.wordpress.org/plugins/hello-dolly/ "Hello Dolly") は、わずか[100行](https://plugins.trac.wordpress.org/browser/hello-dolly/trunk/hello.php)の長さです。Hello Dolly は、WordPress の 管理画面に[有名な曲](https://en.wikipedia.org/wiki/Hello,_Dolly!_(song))の歌詞を表示します。その PHP ファイルには、歌詞のスタイルを制御するためにいくつかの CSS が使用されています。
 
 <!--
 As a WordPress.org plugin author, you have an amazing opportunity to create a plugin that will be installed, tinkered with, and loved by millions of WordPress users. All **you** need to do is turn your great idea into code. The Plugin Handbook is here to help you with that.
