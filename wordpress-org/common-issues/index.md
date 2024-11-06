@@ -803,7 +803,7 @@ Your readme also must validate per [Validator](https://wordpress.org/plugins/abo
 <!-- 
 We ask you please create your readme one based on this: [https://wordpress.org/plugins/readme.txt](https://wordpress.org/plugins/readme.txt)
  -->
-Readme はこちらを参考に作成してください: [https://ja.wordpress.org/plugins/readme.txt](https://wordpress.org/plugins/readme.txt)
+Readme はこちらを参考に作成してください: [https://ja.wordpress.org/plugins/readme.txt](https://ja.wordpress.org/plugins/readme.txt)
 
 <!-- 
 #### No GPL-compatible license declared
