@@ -11,12 +11,12 @@ This page will explain some aspects of the plugin directory, and explain of the 
 <!-- 
 To make your entry in the plugin browser most useful, each plugin should have a readme file named `readme.txt` that adheres to the [WordPress plugin readme file standard](https://wordpress.org/plugins/readme.txt). This file controls the output on the front-facing part of the directory. Writing a description in the readme determines exactly what will be displayed on `wordpress.org/plugins/Your-Plugin`
  -->
-プラグイン・ブラウザのエントリを最も有用なものにするために、各プラグインは、[WordPress プラグイン readme ファイル標準](https://wordpress.org/plugins/readme.txt)に準拠した `readme.txt` という名称の readme ファイルを持つ必要があります。このファイルは、ディレクトリのフロントページの出力を制御します。readme に詳細を記述することで、`wordpress.org/plugins/Your-Plugin` に何が表示されるかが決まります。
+プラグイン・ブラウザのエントリを最も有用なものにするために、各プラグインは、[WordPress プラグイン readme ファイル標準](https://ja.wordpress.org/plugins/readme.txt)に準拠した `readme.txt` という名称の readme ファイルを持つ必要があります。このファイルは、ディレクトリのフロントページの出力を制御します。readme に詳細を記述することで、`wordpress.org/plugins/Your-Plugin` に何が表示されるかが決まります。
 
 <!-- 
 You can use the [plugin readme generator](https://generatewp.com/plugin-readme/) and put your completed result through the [official readme validator](https://wordpress.org/plugins/developers/readme-validator/) to check it. If you need more visual assistance you can use the tool [wpreadme.com](https://wpreadme.com/)
  -->
-[プラグイン readme ジェネレーター](https://generatewp.com/plugin-readme/)を使い完成した結果を、[公式 readme バリデーター](https://wordpress.org/plugins/developers/readme-validator/)を通してチェックできます。より視覚的な支援が必要な場合は、[wpreadme.com](https://wpreadme.com/)というツールを使うことができます。
+[プラグイン readme ジェネレーター](https://generatewp.com/plugin-readme/)を使い完成した結果を、[公式 readme バリデーター](https://ja.wordpress.org/plugins/developers/readme-validator/)を通してチェックできます。より視覚的な支援が必要な場合は、[wpreadme.com](https://wpreadme.com/)というツールを使うことができます。
 
 <!-- 
 Since WordPress 5.8 plugin [readme files are not parsed for requirements](https://core.trac.wordpress.org/ticket/48520). This means that headers `Requires PHP` and `Requires at least` are going to be parsed from plugin’s main PHP file.
