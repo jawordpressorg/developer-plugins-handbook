@@ -48,7 +48,10 @@ More roles can be added and the default roles can be removed.
  -->
 権限グループを追加したり、デフォルトの権限グループを削除できます。
 
+<!-- 
 ![Users roles](https://i3.wp.com/developer.wordpress.org/files/2014/09/wp-roles.png)
+ -->
+![ユーザーの権限グループ](https://i3.wp.com/developer.wordpress.org/files/2014/09/wp-roles.png)
 
 <!-- 
 ### Adding Roles
