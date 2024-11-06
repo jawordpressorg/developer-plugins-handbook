@@ -473,7 +473,7 @@ svn ci -m "tagging version 2.0"
 <!-- 
 When tagging a new version, **remember to update** the `Stable Tag` field in [`trunk/readme.txt`](https://wordpress.org/plugins/developers/#readme) to the new version.
  -->
-新バージョンに tag を付けるときは、[`trunk/readme.txt`](https://wordpress.org/plugins/developers/#readme) の `Stable Tag` フィールドを新バージョンに **忘れずに更新** してください。
+新バージョンに tag を付けるときは、[`trunk/readme.txt`](https://ja.wordpress.org/plugins/developers/#readme) の `Stable Tag` フィールドを新バージョンに **忘れずに更新** してください。
 
 <!-- 
 Congratulations! You've updated your code!
