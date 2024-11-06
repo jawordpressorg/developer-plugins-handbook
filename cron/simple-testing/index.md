@@ -18,7 +18,7 @@ Cron ジョブは [WP-CLI](https://wp-cli.org/) を使ってテストできま�
 <!-- 
 Several [plugins are available on the WordPress.org Plugin Directory](https://wordpress.org/plugins/tags/cron/) for viewing, editing, and controlling the scheduled cron events and available schedules on your site.
  -->
-あなたのサイトの予定 cron イベントと可能な予定を表示、編集、制御するためのプラグインがあり、[WordPress.org プラグイン・ディレクトリで入手可能です](https://wordpress.org/plugins/tags/cron/)。
+あなたのサイトの予定 cron イベントと可能な予定を表示、編集、制御するためのプラグインがあり、[WordPress.org プラグイン・ディレクトリで入手可能です](https://ja.wordpress.org/plugins/tags/cron/)。
 
 ## `_get_cron_array()`
 
