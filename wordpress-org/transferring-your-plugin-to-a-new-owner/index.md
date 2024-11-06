@@ -27,7 +27,7 @@ First, add the new user as a **committer** to the plugin:
 - go to `https://wordpress.org/plugins/YOURPLUGIN/advanced` and add their username in as a committer
 - update the `readme.txt` to add their userID as an author
  -->
-- `https://wordpress.org/plugins/YOURPLUGIN/advanced` に移動し、その username をコミッターとして追加します
+- `https://ja.wordpress.org/plugins/YOURPLUGIN/advanced` に移動し、その username をコミッターとして追加します
 - `readme.txt` を更新し、彼らの userID を作者として追加します
 
 <!-- 
