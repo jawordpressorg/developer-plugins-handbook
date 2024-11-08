@@ -509,7 +509,7 @@ Please review the following:
 <!-- 
 **Note**: Passing individual values to wpdb::prepare using placeholders is fairly straightforward, but what if we need to pass an array of values instead?
  -->
-**メモ**: プレースホルダを使用して `wpdb::prepare` に個々の値を渡すのは非常に簡単だが、代わりに値の配列を渡す必要がある場合はどうするのでしょうか ?
+**メモ**: プレースホルダを使用して `wpdb::prepare` に個々の値を渡すのは非常に簡単ですが、値の配列を渡す必要がある場合はどうするのでしょうか ?
 
 <!-- 
 You'll need to create a placeholder for each item of the array and pass all the corresponding values to those placeholders, this seems tricky, but here is a snippet to do so.
