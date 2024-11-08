@@ -225,7 +225,7 @@ URL をエスケープする適切な関数は、`esc_url` です。
 <!-- 
 The function `__` retrieves the translation without escaping, please either:
  -->
-関数 `__` は、エスケープせずに翻訳を取得します。どちらかを使用してください:
+関数 `__` は、エスケープせずに翻訳を取得します。以下のどちらかを使用してください:
 
 <!-- 
 - Use an alternative function that escapes the resulting value such as `esc_html__` or `esc_attr__`.
