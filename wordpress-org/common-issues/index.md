@@ -1004,7 +1004,7 @@ While we do not YET have a decent public facing page to list all these libraries
 <!-- 
 It’s fine to locally include add-ons not in core, but please ONLY add those additional files. For example, you do not need the entire jQuery UI library for one file. If your code doesn't work with the built-in versions of jQuery, it's most likely a noConflict issue.
  -->
-core にないアドオンをローカルにインクルードするのはかまいませんが、追加するファイルはそのファイルだけにしてください。たとえば、1つのファイルに対して jQuery UI ライブラリ全体が必要なわけではありません。あなたのコードが jQuery の内蔵バージョンで動作しない場合、それは noConflict の課題である可能性が高いです。
+core にないアドオンをローカルにインクルードするのはかまいませんが、追加するファイルはそのファイルだけにしてください。たとえば、1つのファイルに対して jQuery UI ライブラリ全体は必要ないでしょう。あなたのコードが jQuery の内蔵バージョンで動作しない場合、それは noConflict の課題である可能性が高いです。
 
 <!-- 
 ### Internationalization
