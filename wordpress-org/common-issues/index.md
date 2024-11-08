@@ -348,7 +348,7 @@ echo esc_html(sanitize_text_field($_POST['example']));
 <!-- 
 When plugins use `move_uploaded_file(), they exclude their uploads from the built-in checks and balances with WordPress's functions. Instead of that, you should use the built in function:
  -->
-プラグインが `move_uploaded_file()` を使用する場合、内蔵チェック機能からアップロードを除外し、WordPress の関数とのバランスを取っているのです。その代わりに、内蔵関数を使うべきです:
+プラグインで `move_uploaded_file()` を使用すると、アップロードは組み込みのチェック機能や、WordPress 関数とのバランスが取られません。代わりに、内蔵関数を使用してください:
 
 <!-- 
 [https://developer.wordpress.org/reference/functions/wp_handle_upload/](https://developer.wordpress.org/reference/functions/wp_handle_upload/)
