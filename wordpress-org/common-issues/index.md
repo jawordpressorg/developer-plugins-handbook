@@ -92,7 +92,8 @@ Clean everything, check everything, escape everything, and never trust the users
 <!-- 
 **Note**: escape functions cannot be used to sanitize. They serve different purposes. Even if they seem to be perfect for this purpose, most of the functions are filterable and people expect to use them to escape. Therefore, another plugin may change what they do and make yours at risk and exploitable.
  -->
-**メモ**: エスケープ関数は、サニタイズには利用できません。これらは異なる目的を担っています。たとえエスケープ関数がこの目的には完璧であるように見えても、ほとんどの関数はフィルタリング可能であり、人々はエスケープ関数を使うことを期待しています。そのため、別のプラグインがエスケープ関数を変更することで、あなたのプラグインが危険にさらされ、悪用される可能性があります。
+**メモ**: エスケープ関数は、サニタイズには利用できません。これらには異なる目的があります。たとえエスケープ関数がサニタイズの目的に完璧であるように見えても、ほとんどのエスケープ関数はフィルターで変更可能であり、エスケープのための使用が期待されています。別のプラグインが自身のために悪意なくエスケープ関数を変更することで、あなたのプラグインが危険にさらされ、悪用される可能性があります。
+
 
 <!-- 
 If you are trying to echo the variable, you have to first sanitize it and then escape it, as for example:
