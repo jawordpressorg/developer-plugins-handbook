@@ -1261,7 +1261,7 @@ It's required that all code be compatible with the GPLv2 (or later) license in o
 <!-- 
 You must remove the code and alter the plugin so it is not required. We suggest you find code that is GPL compatible and use that instead. For more information on what types of licenses are compatible with GPL, please review the following links:
  -->
-そのコードを削除し、プラグインを変更する必要がありますから、それは要求されません。GPL 互換のコードを見つけて、それを代わりに使うことをおすすめします。どのような種類のライセンスが GPL 互換なのかについては、以下のリンクをご覧ください:
+互換性のないコードは削除し、プラグインを変更する必要があります。GPL 互換のコードを見つけて、それを代わりに使うことをおすすめします。どのような種類のライセンスが GPL 互換なのかについては、以下のリンクをご覧ください:
 
 <!-- 
 - [GNU Licenses - License List](https://www.gnu.org/licenses/license-list.html)
