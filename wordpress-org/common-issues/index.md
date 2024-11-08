@@ -881,7 +881,7 @@ readme ファイルとプラグインヘッダーの両方で、同じライセ�
 <!-- 
 It is fine for this plugin to contain code from other sources under other licenses as long those are well documented and are under GPL or GPL-Compatible license, but we need a sole license declared for your code.
  -->
-GPL または GPL 互換ライセンス下で、きちんとドキュメント化されている限り、このプラグインが他ライセンス下で他ソースからのコードを含むことは問題ありませんが、私たちはあなたのコードに対して唯一のライセンスを宣言する必要があります。
+GPL または GPL 互換ライセンス下で、きちんとドキュメント化されている限り、このプラグインが他ライセンス下で他ソースからのコードを含むことは問題ありませんが、あなたのコードは唯一のライセンスを宣言する必要があります。
 
 <!-- 
 ### Use HTTP API
