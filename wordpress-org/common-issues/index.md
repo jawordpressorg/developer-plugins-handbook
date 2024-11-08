@@ -280,7 +280,7 @@ Examples:
 <!-- 
 When you need to echo a JSON, it's better to make use of the function `wp_json_encode`, also, make sure you are not avoiding escaping with the options passed on the second parameter.
  -->
-JSON をエコーする必要がある場合は、関数 `wp_json_encode` を使用するほうが良いでしょう。また、第2パラメータに渡されるオプションでエスケープを回避していないか確認してください。
+JSON を echo する必要がある場合は、関数 `wp_json_encode` を使用するほうが良いでしょう。また、第2パラメータに渡されるオプションでエスケープを回避していないか確認してください。
 
 ```php
 echo wp_json_encode($array_or_object);
