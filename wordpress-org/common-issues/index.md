@@ -664,7 +664,7 @@ PHP のショートタグの主な課題は、PHP が他の構文 (つまり、X
 <!-- 
 We know as of PHP 5.4, `<?= ... ?>` tags are supported everywhere, regardless of short tags settings. This should mean they're safe to use in portable code but in reality that has proven not to be the case. Add on to that the fact that many codesniffers won't detect lack of escaping in code when you use short-tags, and it becomes not worth the headache for anyone.
  -->
-PHP 5.4では、ショートタグの設定にかかわらず、`<?= ... ?>` タグがサポートされています。これは、移植可能なコードで使用しても安全であることを意味するはずだが、現実にはそうではないことが証明されています。さらに、多くの codesniffer は、ショートタグを使用している場合、コード内のエスケープの欠如を検出しないという事実も加わり、誰にとっても頭痛の種にする価値はなくなります。
+PHP 5.4では、ショートタグの設定にかかわらず、`<?= ... ?>` タグがサポートされています。これは、移植可能なコード内で使用しても安全であることを意味するはずですが、現実にはそうではないことが証明されています。さらに、多くの codesniffer は、ショートタグを使用している場合、コード内のエスケープの欠如を検出しないという事実も加わり、誰にとっても頭痛の種になります。
 
 <!-- 
 Basically the risk here is way higher than the benefits, which is why we don't permit their use.
