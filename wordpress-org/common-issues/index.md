@@ -210,7 +210,7 @@ Remember: You must use the most appropriate functions for the context. There is 
 <!-- 
 We know this is confusing, the `esc_url_raw` function is not an escaping function, but a sanitizing function similar to `sanitize_url`. Specifically it is used to sanitize a URL for use in a database or a redirection.
  -->
-混乱を招くことは承知しているが、`esc_url_raw` 関数はエスケープ関数ではなく、`sanitize_url` と同様のサニタイズ関数です。具体的には、データベースやリダイレクトで使用する URL をサニタイズするために使用されます。
+まぎらわしいとは思いますが、`esc_url_raw` 関数はエスケープ関数ではなく、`sanitize_url` と同様のサニタイズ関数です。具体的には、データベースやリダイレクトで使用する URL をサニタイズするために使用されます。
 
 <!-- 
 The appropriate function to escape a URL is `esc_url`.
