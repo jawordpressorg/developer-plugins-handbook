@@ -856,7 +856,7 @@ We recommend you use Semantic Versioning (aka SemVer) for managing versions:
 <!-- 
 Please note: While currently using the stable tag of trunk currently works in the Plugin Directory, it's not actually a supported or recommended method to indicate new versions and has been known to cause issues with automatic updates.
  -->
-ご注意ください: 現在のところ trunk の stable タグを使用していますが、プラグイン・ディレクトリで動作しています。新しいバージョンを示す方法としては、実はサポートされていないし、推奨もされていませんし、自動アップデートで問題を引き起こすことが知られています。
+ご注意ください: 現在のところ trunk の stable タグを使用してもプラグインディレクトリで動作しますが、新しいバージョンを示す方法としてはサポートも推奨もされておらず、自動アップデートで問題を引き起こすことが知られています。
 
 <!-- 
 We ask you please properly use tags and increment them when you release new versions of your plugin, just like you update the plugin version in the main file. Having them match is the best way to be fully forward supporting.
