@@ -724,7 +724,7 @@ Also WordPress explicitly sets and expects the default timezone to be UTC (in se
 <!-- 
 While error_reporting() is a great tool in PHP ( [https://www.php.net/manual/en/function.error-reporting.php](https://www.php.net/manual/en/function.error-reporting.php) ) but if you set it permanently in your plugin, you mess things up for everyone who uses your code. Should they have a reason to try to debug their site which happens to use your code, they won't be able to get a clean test because you're messing with the output. It has no place in the day to day function of your plugin.
  -->
-`error_reporting()` は、PHP ではすばらしいツールです ( [https://www.php.net/manual/en/function.error-reporting.php](https://www.php.net/manual/en/function.error-reporting.php) ) が、これをプラグインに恒久的に設定すると、あなたのコードを使うすべての人に迷惑をかけることになります。仮に、あなたのコードが使われているサイトをデバッグしようとする理由があったとしても、あなたが出力をいじっているせいで、彼らはクリーンなテストを受けることができません。これは、プラグインの日常的な機能には関係ありません。
+`error_reporting()` は、PHP のすばらしいツールです ( [https://www.php.net/manual/en/function.error-reporting.php](https://www.php.net/manual/en/function.error-reporting.php) ) が、これをプラグインに恒久的に設定すると、あなたのコードを使うすべての人に迷惑をかけることになります。仮に、あなたのコードが使われているサイトをデバッグしようとしても、ゴミが出力されるためにクリーンなテストを実行できません。プラグインの日常的な利用で error_reportig() を使用する場面はありません。
 
 <!-- 
 ### Plugin standards
