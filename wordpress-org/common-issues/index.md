@@ -175,7 +175,7 @@ At this time, we ask you escape **all $-variables, options, and any sort of gene
 <!-- 
 Besides protecting yourself from a possible XSS vulnerability, escaping late makes sure that you're keeping the future you safe. While today your code may be only outputted hardcoded content, that may not be true in the future. By taking the time to properly escape **when** you echo, you prevent a mistake in the future from becoming a critical security issue.
  -->
-XSS 脆弱性の可能性から身を守るだけでなく、遅れてエスケープすることで、将来のあなたの安全を確保できます。現在、あなたのコードはハードコードされた内容しか出力されないかもしれませんが、将来はそうでなくなるかもしれません。echo する **際に** 時間をかけて適切にエスケープすることで、将来的にミスが重大なセキュリティ課題になることを防ぐことができます。
+XSS 脆弱性の可能性から身を守るだけでなく、遅れてエスケープすることで、将来のあなたの安全を確保できます。現在、あなたのコードはハードコードした内容しか出力しないかもしれませんが、将来はそうでなくなるかもしれません。echo する **際に** 適切なタイミングでエスケープすることで、重大なセキュリティ課題になる将来のミスを防ぐことができます。
 
 <!-- 
 This remains true of options you've saved to the database. Even if you've properly sanitized when you saved, the tools for sanitizing and escaping aren't interchangeable. Sanitizing makes sure it's safe for processing and storing in the database. Escaping makes it safe to output.
