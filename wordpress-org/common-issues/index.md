@@ -165,7 +165,7 @@ We strongly recommend you **never** attempt to process the whole $_POST/$_REQUES
 <!-- 
 Much related to sanitizing everything, all variables that are echoed need to be escaped when they're echoed, so it can't hijack users or (worse) admin screens. There are many esc_*() functions you can use to make sure you don't show people the wrong data, as well as some that will allow you to echo HTML safely.
  -->
-すべてのサニタイズに関連しますが、echo される変数はすべて、echo される際にエスケープする必要があるため、ユーザーや (さらに最悪) 管理画面をハイジャックできません。間違ったデータを人に見せないようにするために使える `esc_*()` 関数はたくさんありますし、HTML を安全に echo できるものもあります。
+すべてのサニタイズに関連しますが、ユーザーや (さらに最悪) 管理画面をハイジャックされないよう、echo する変数はすべて、echo する際にエスケープしてください。間違ったデータを人に見せないようにするために使える `esc_*()` 関数はたくさんありますし、HTML を安全に echo できるものもあります。
 
 <!-- 
 At this time, we ask you escape **all $-variables, options, and any sort of generated data when it is being echoed**. That means you should not be escaping when you build a variable, but when you output it at the end. We call this 'escaping late.'
