@@ -545,7 +545,7 @@ There is a core ticket that could make this easier in the future: [https://core.
 <!-- 
 While both are totally valid, and in many ways desirable features of PHP that allow you to output content, it comes with a cost that is too high for most plugins.
  -->
-どちらもまったく有効であり、コンテンツを出力するための PHP の機能としては、多くの点で望ましいものです。これは、ほとんどのプラグインにとって高すぎるコストを伴います。
+どちらもまったく有効であり、コンテンツを出力するための PHP の機能としては、多くの点で望ましいものですが、ほとんどのプラグインにとって高すぎるコストを伴います。
 
 <!-- 
 The primary issue is that most (if not all) codesniffers won't detect lack of escaping in code when you use HEREDOC or NOWDOC. While there are ways around this they have the end result of dashing all that readability to the rubbish pile and leaving you with a jumbled mess that won't properly be scanned.
