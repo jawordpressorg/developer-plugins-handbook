@@ -473,7 +473,7 @@ We no longer accept using any library that is no longer supported or maintained 
 <!-- 
 At least one of the 3rd party libraries you're using is out of date. Please upgrade to the latest stable version for better support and security. We do not recommend you use beta releases.
  -->
-使用しているサードパーティ・ライブラリのうち、少なくとも1つが期限切れです。より良いサポートとセキュリティのために、最新の安定版にアップグレードしてください。ベータリリースの使用は、おすすめしません。
+サードパーティ・ライブラリが期限切れの場合は、より良いサポートとセキュリティのために、最新の安定版にアップグレードしてください。ベータリリースの使用は、おすすめしません。
 
 <!-- 
 ### WPDB: Unsafe SQL calls
