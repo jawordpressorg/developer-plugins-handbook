@@ -319,7 +319,7 @@ echo wp_kses($html_content, array( 'a', 'div', 'span' ));
 <!-- 
 Sanitize functions cannot be used to escape. They serve different purposes. Even if they seem to be perfect for this purpose, most of the functions are filterable and people expect to use them to sanitize. Therefore, another plugin may change what they do and make yours at risk and exploitable.
  -->
-サニタイズ関数は、エスケープには使えません。これらは異なる目的を担っています。たとえエスケープ関数がこの目的には完璧であるように見えても、ほとんどの関数はフィルタリング可能であり、人々はサニタイズ関数を使うことを期待しています。そのため、別のプラグインがエスケープ関数を変更することで、あなたのプラグインが危険にさらされ、悪用される可能性があります。
+サニタイズ関数は、エスケープには利用できません。これらには異なる目的があります。たとえサニタイズ関数がエスケープの目的に完璧であるように見えても、ほとんどのサニタイズ関数はフィルターで変更可能であり、サニタイズのための使用が期待されています。別のプラグインが自身のために悪意なくサニタイズ関数を変更することで、あなたのプラグインが危険にさらされ、悪用される可能性があります。
 
 <!-- 
 If you are trying to echo the variable, you have to first sanitize it and then escape it, as for example:
