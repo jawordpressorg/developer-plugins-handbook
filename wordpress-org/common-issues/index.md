@@ -799,7 +799,7 @@ Our goal with this is to make sure everyone knows what they're installing and wh
 <!-- 
 Your readme also must validate per [Validator](https://wordpress.org/plugins/about/validator/) or we will reject it. Keep in mind, we don't want to see a readme.MD. While they can work, a readme.txt file will always be given priority, and not all of the markdown will work as expected.
  -->
-あなたの Readme も [Validator](https://ja.wordpress.org/plugins/about/validator/) に従って検証されなければなりません。さもなければ、リジェクトします。私たちは readme.md を見たくないことを覚えておいてください。readme.md は機能しますが、readme.txt が常に優先され、すべての Markdown が期待通りに機能するわけではありません。
+あなたの Readme も [Validator](https://ja.wordpress.org/plugins/about/validator/) に従って検証されなければなりません。さもなければ、リジェクトします。私たちは readme.md を見たくないことを覚えておいてください。readme.md は機能しますが、readme.txt が常に優先されます。また、すべての Markdown が期待通りに機能するわけではありません。
 
 <!-- 
 We ask you please create your readme one based on this: [https://wordpress.org/plugins/readme.txt](https://wordpress.org/plugins/readme.txt)
