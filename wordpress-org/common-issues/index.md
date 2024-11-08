@@ -46,7 +46,7 @@ VALIDATE: すべてのデータは、何があっても、検証される必要�
 <!-- 
 ESCAPE: Data that is output must be escaped properly when it is echo'd, so it can't hijack admin screens. There are many esc_*() functions you can use to make sure you don't show people the wrong data.
  -->
-ESCAPE: 出力されるデータは、管理画面を乗っ取らないようにするため、echo される際に適切にエスケープされなければなりません。`esc_*()` 関数はたくさんあるので、間違ったデータを人に見せないようにするために使うことができます。
+ESCAPE: 出力するデータは echo する際に適切にエスケープして管理画面の乗っ取りを防がなければなりません。間違ったデータを表示しないために利用できる、多くの `esc_*()` 関数があります。
 
 <!-- 
 To help you with this, WordPress comes with a number of sanitization and escaping functions. You can read about those here:
