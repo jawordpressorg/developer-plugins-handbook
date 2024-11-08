@@ -232,7 +232,7 @@ The function `__` retrieves the translation without escaping, please either:
 - Or wrap the `__` function with a proper escaping function such as `esc_html`, `esc_attr`, `wp_kses_post`, etc.
  -->
 - `esc_html__` や `esc_attr__` のように、結果の値をエスケープする代替関数を使用する。
-- または、`__` 関数を `esc_html`、`esc_attr`、`wp_kses_post` などの、適切なエスケープ関数で包む。
+- または、`__` 関数を `esc_html`、`esc_attr`、`wp_kses_post` などの、適切なエスケープ関数でラップする。
 
 <!-- 
 Examples:
