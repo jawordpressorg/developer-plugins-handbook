@@ -21,7 +21,7 @@ https://qiita.com/miya0001/items/4745cf900a66c0bbf8e5
 最初の1回だけ
 ```
 % git clone git@github.com:WordPress/developer-plugins-handbook.git
-% cd gutenberg
+% cd developer-plugins-handbook
 % git remote add upstream https://github.com/WordPress/developer-plugins-handbook.git
 ```
 あとは定期的に
