@@ -122,8 +122,9 @@ Some hooks are called multiple times in the course of execution, but you may onl
 フックの中には実行の過程で何度も呼び出されるものもあるが、コールバック関数は一度だけ実行させたい場合もあるでしょう。
 
 <!-- 
-In this situation, you can check how many times the hook has run with the [` did_action()`](https://developer.wordpress.org/reference/functions/did_action/).
+In this situation, you can check how many times the hook has run with the [`did_action()`](https://developer.wordpress.org/reference/functions/did_action/).
  -->
+
 この場合、フックが何回作動したかを [` did_action()`](https://developer.wordpress.org/reference/functions/did_action/) で確認できます。
 
 ```

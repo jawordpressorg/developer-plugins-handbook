@@ -213,8 +213,9 @@ XML は、AJAX のための古いデータ交換フォーマットです。つ�
 #### JSON
 
 <!-- 
-JSON is often favored for its light weight and ease of use. You can actually parse JSON using `eval()`, but don't do that! The use of `eval()` carries significant security risks. Instead, use a dedicated parser, which is also faster. Use the global instance of the parser object `JSON`. To ensure that it is available, be sure it is enqueued with other scripts on the page. More information about enqueuing is included later in the [PHP section](https://developer.wordpress.org/plugins/javascript/ajax/#json "Page section").
+JSON is often favored for its light weight and ease of use. You can actually parse JSON using `eval()`, but don't do that! The use of `eval()` carries significant security risks. Instead, use a dedicated parser, which is also faster. Use the global instance of the parser object `JSON`. There are [specific functions to provide an easy way to give a response in JSON format](https://developer.wordpress.org/plugins/javascript/enqueuing/#json) to your AJAX call.
  -->
+
 JSON は軽量で使いやすいため、よく好まれています。`eval()` を使って JSON をパースもできるが、それはやめておきましょう ! `eval()` の使用は重大なセキュリティリスクを伴います。代わりに、より高速な専用のパーサーを使用します。パーサーオブジェクトのグローバルインスタンス `JSON` を使用します。JSON オブジェクトを確実に利用できるようにするには、ページ上の他のスクリプトと一緒にエンキューされていることを確認してください。エンキューに関する詳細は、[PHP のセクション](https://developer.wordpress.org/plugins/javascript/ajax/#json "ページセクション")の後半に記載されています。
 
 <!-- 

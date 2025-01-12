@@ -24,7 +24,7 @@ First, add the new user as a **committer** to the plugin:
 まず、新しいユーザーを **コミッター** としてプラグインに追加します:
 
 <!-- 
-- go to `https://wordpress.org/plugins/YOURPLUGIN/advanced` and add their username in as a committer
+- go to `https://wordpress.org/plugins/YOURPLUGIN/advanced` and add their username in as a committer
 - update the `readme.txt` to add their userID as an author
  -->
 - `https://ja.wordpress.org/plugins/YOURPLUGIN/advanced` に移動し、その username をコミッターとして追加します
@@ -40,10 +40,7 @@ If there are no other committers, the plugin will not be available to be transfe
  -->
 他のコミッターが居ない場合、プラグインは譲渡されないので、まずそれを行う必要があります。
 
-<!-- 
-![](https://i0.wp.com/developer.wordpress.org/files/2020/04/transfer.jpeg?resize=1024%2C558&ssl=1)
- -->
-![](https://i0.wp.com/developer.wordpress.org/files/2020/04/transfer.jpeg?resize=1024%2C558&ssl=1)
+![Transfer this plugin interface with a selector for the new owner and a "Please transfer -Plugin Name-" button](https://i0.wp.com/developer.wordpress.org/files/2020/04/transfer.jpeg?resize=1024%2C558&ssl=1)
 
 <!-- 
 ## For Plugins with OVER 10,000 Users (or are beta/featured)

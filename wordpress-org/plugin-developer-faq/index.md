@@ -9,6 +9,11 @@ There are lot of ins and outs to hosting WordPress plugins. Please take a minute
 WordPress プラグインのホスティングには、多くの心得があります。お問い合わせの前に、あなたの質問がここで解決されるかどうか、少し時間を取って見てください。
 
 <!-- 
+[info]Last Updated: 25 August 2024[/info]
+ -->
+[info]最終更新日: 2024年8月25日[/info]
+
+<!-- 
 ## The Plugin Review Team
  -->
 ## プラグイン・レビューチーム
@@ -22,16 +27,6 @@ WordPress プラグインのホスティングには、多くの心得があり�
 You can contact us by email at `plugins@wordpress.org` – we reply to all emails within 7 business days.
  -->
 お問い合わせは `plugins@wordpress.org` 宛ての E メールにて承っています。7営業日以内に返信します。
-
-<!-- 
-### Does the review team work for Automattic?
- -->
-### レビューチームは、Automattic のために働いているのですか ?
-
-<!-- 
-No. The review team is made up of 100% volunteers. Some are compensated by their full-time employers, but no one is hired by WordPress.org, Automattic, or WordPress.com
- -->
-いいえ。レビューチームは、100%ボランティアで構成されています。フルタイムの雇用主から報酬を得ている人もいますが、WordPress.org、Automattic、WordPress.com に雇われている人はいません。
 
 <!-- 
 ### Can I join the team?
@@ -54,12 +49,18 @@ Please take a look at [this handbook page](https://make.wordpress.org/plugins/ha
 ### 私のプラグインは、どこに申請すればいいの ?
 
 <!-- 
-Go to the [Add](https://wordpress.org/plugins/developers/add/) page and upload your zip. Your file should be under **10 MegaBytes** and be a complete plugin. We do not accept placeholders or plugins that aren't ready to be used.
+Go to the [Add](https://wordpress.org/plugins/developers/add/) page and upload your file. You should make sure that:
  -->
-[Add](https://ja.wordpress.org/plugins/developers/add/) ページに行き、zip ファイルをアップロードしてください。ファイルは **10メガバイト** 以下で、完全なプラグインでなければなりません。私たちは、プレースホルダーだったり、使用する準備ができていないプラグインは、受け付けません。
+[Add](https://wordpress.org/plugins/developers/add/) ページに行き、ファイルをアップロードしてください。
+
+- It's a .zip file and under 10Mb.
+- It's in the common WordPress plugin format so that it can be installed using the 'Upload Plugin' feature in WordPress.
+- It's production-ready: complete, without errors, without unnecessary logs, without development tools, and that all necessary files are properly compiled or generated.
+
+We do not accept placeholders or plugins that aren't ready to be used.
 
 <!-- 
-### What if my plugin is over 10 MegaBytes?
+### What if my plugin is over 10 megs?
  -->
 ### 私のプラグインが、10メガバイトを超える場合は ?
 
@@ -75,8 +76,9 @@ Double check that you aren't including unused files (like test folders, document
 
 <!-- 
 You will get an automated email telling you about the submission immediately. At that point, someone will manually download and review your code. If we find no issues with the security, documentation, or presentation, your plugin will be approved. If we determine there are issues, you will receive a second email with details explaining what needs to be fixed.
+You will get an automated email telling you about the submission immediately. It will be queued, and as soon as we get to it, we will manually download and review your code. If we find no issues with the security, documentation, or presentation, your plugin will be approved. If we determine there are issues, you will receive a second email with details explaining what needs to be fixed.
  -->
-申請を知らせる自動返信メールが、すぐに届きます。その時点で、誰かがあなたのコードを手動でダウンロードしてレビューします。セキュリティ、ドキュメント、プレゼンテーションに課題がなければ、あなたのプラグインは、承認されます。課題があると判断された場合は、修正すべき点を説明した二通目のメールをお送りします。
+申請を知らせる自動返信メールが、すぐに届きます。提出されたコードはキューに入れられ、誰かがあなたのコードを手動でダウンロードしてレビューします。セキュリティ、ドキュメント、プレゼンテーションに課題がなければ、あなたのプラグインは、承認されます。課題があると判断された場合は、修正すべき点を説明した二通目のメールをお送りします。
 
 <!-- 
 ### What will my plugin permalink (slug) be?
@@ -84,14 +86,23 @@ You will get an automated email telling you about the submission immediately. At
 ### 私のプラグインのパーマリンク (スラッグ) は、何になるの ?
 
 <!-- 
-When you submit a plugin, you get an automated email telling you what the slug will be. This is populated based on the value of Plugin Name in your main plugin file (the one with the plugin headers). If you set yours as `Plugin Name: Boaty McBoatface` then your URL will be `wordpress.org/plugins/boaty-mcboatface` and your slug will be `boaty-mcboatface` for example. If there is an existing plugin with your name, then you'll get a warning on submission.
+When you submit a plugin, you get an automated email telling you what the slug will be. This is populated based on the value of your Plugin Name in your main plugin file (the one with the plugin headers).
  -->
-プラグインを申請すると、スラッグが何になるかを知らせる自動返信メールが届きます。これは、メイン・プラグインファイル (プラグインヘッダーのあるファイル) の「Plugin Name」の値にもとづいて生成されます。たとえば、`Plugin Name: Boaty McBoatface` と設定した場合、URL は `wordpress.org/plugins/boaty-mcboatface`、スラッグは `boaty-mcboatface` となります。あなたのプラグイン名を持つ既存のプラグインがあれば、申請時に警告が表示されます。
+プラグインを申請すると、スラッグが何になるかを知らせる自動返信メールが届きます。これは、メイン・プラグインファイル (プラグインヘッダーのあるファイル) の「Plugin Name」の値にもとづいて生成されます。
 
-<!-- 
-This is _also_ the folder name (in SVN and installed on WordPress) for your plugin and your text-domain, so pay attention carefully.
- -->
-これは、プラグインと text-domain 用の (SVN と、WordPress にインストールされた) フォルダー名で _も_ あるので、注意してください。
+For example:
+
+- Plugin name: `Boaty McBoatface`
+- Autogenerated Slug: `boaty-mcboatface`
+
+If there is an existing plugin with your name or slug, then [you'll get a warning on the submission](#why-is-my-submission-failing-saying-my-plugin-name-already-exists).
+
+The slug will also determine the following:
+
+- The URL of your plugin's WordPress.org public page: `wordpress.org/plugins/boaty-mcboatface`
+- The folder name of your plugin in the WordPress plugins directory: `<wp-content-folder>/plugins/boaty-mcboatface`
+- The address of your plugin's SVN repository and trac: `plugins.svn.wordpress.org/boaty-mcboatface` and `plugins.trac.wordpress.org/browser/boaty-mcboatface`
+- Your plugin's text-domain for internationalization functions: `esc_html__('Hello', 'boaty-mcboatface');`
 
 <!-- 
 Once your plugin is approved, this name **cannot** be renamed. Please chose wisely.
@@ -104,9 +115,9 @@ Once your plugin is approved, this name **cannot** be renamed. Please chose wise
 ### 言ったのと違うスラッグになったのは、なぜ ?
 
 <!-- 
-If we have to change your permalink (slug) we will always email you to explain why. In general, we change your permalink when you have obvious typos or mistakes (_foundre_ instead of _founder_, for example) or if there are conflicts with existing trademarks or other plugins. Please make sure you read your review email carefully, as we do explain why we have do to things.
+If we have to change your permalink (slug) we will always email you to explain why. In general, we change your permalink when you have obvious typos or mistakes (_foundre_ instead of _founder_, for example) or if there are conflicts with existing trademarks or other plugins. Please make sure you read your review email carefully, as we do explain why we do things.
  -->
-パーマリンク (スラッグ) を変更しなければならない場合は、必ずメールで理由を説明します。一般的には、明らかなタイプミスや間違い (たとえば、_founder_ ではなく _foundre_) がある場合、または既存の商標や他のプラグインと競合する場合にパーマリンクを変更します。なぜそのようなことをしなければならないのかを説明しているので、レビューメールをよくお読みください。
+パーマリンク (スラッグ) を変更しなければならない場合は、必ずメールで理由を説明します。一般的には、明らかなタイプミスや間違い (たとえば、_founder_ ではなく _foundre_) がある場合、または既存の商標や他のプラグインと競合する場合にパーマリンクを変更します。なぜそのようなことをするのかを説明しているので、レビューメールをよくお読みください。
 
 <!-- 
 ### Why is my submission failing saying my plugin name already exists?
@@ -119,8 +130,8 @@ There are two reasons this happens:
 こうなる理由は、2つ考えられます:
 
 <!-- 
-1. You're trying to use a plugin with a permalink that already exists on WordPress.org.
-2. You're trying to use a plugin with a permalink that exists **outside** WordPress.org and has a significant user base.
+1.  You're trying to use a plugin with a permalink that already exists on WordPress.org
+2.  You're trying to use a plugin with a permalink that exists **outside** WordPress.org and has a significant user base.
  -->
 1. WordPress.org にすでに存在するパーマリンクを持つプラグイン名を使おうとしている場合。
 2. WordPress.org の **外** に存在し、かなりのユーザーベースを持つパーマリンクを持つプラグイン名を使おうとしている場合。
@@ -171,9 +182,9 @@ Some trademark owners have requested we no longer permit the use of specific ter
 一部の商標所有者より、プラグイン名に特定の商標の使用を完全に許可しないよう要請がありました。このエラーが表示された場合は、あなたのプラグイン名からその商標を除去してください。
 
 <!-- 
-> To proceed with this submission you must remove "_TERM_" from the Plugin Name: line in both your main plugin file and readme entirely.
+> To proceed with this submission you must remove "\[TERM\]" from the Plugin Name: line in both your main plugin file and readme entirely.
  -->
-> この申請を続行するには、メインプラグインファイルと readme の両方で、『Plugin Name:」の行から「_商標_」を完全に削除する必要があります。
+> この申請を続行するには、メインプラグインファイルと readme の両方で、『Plugin Name:」の行から「商標」を完全に削除する必要があります。
 
 <!-- 
 If you attempt to get around this by changing your term from 'Facerange' to 'Face-Range', we will pend your submission and reiterate that you cannot use the term. Please don't try to be sneaky or clever to get past this restriction.
@@ -186,14 +197,16 @@ If you attempt to get around this by changing your term from 'Facerange' to 'Fac
 ### 公式プラグインを申請するには ?
 
 <!-- 
-Log in as the official company user account and submit with that account _only_.
+Log in as the official organization user account and submit with that account _only_.
  -->
-公式な会社のユーザーアカウントでログインし、そのアカウント _のみ_ で申請してください。
+公式な組織のユーザーアカウントでログインし、そのアカウント _のみ_ で申請してください。
 
 <!-- 
-We cannot accept plugins submitted by individual developer accounts, unless they're clearly company ones as well. For example, submitting your official Facerange plugin with a user that has a gmail address is likely to be flagged for trademark infringement.
+We cannot accept plugins that act in name of an organization submitted by individual developer accounts, unless they're clearly company ones as well. For example, submitting your official plugin with a user that has a gmail address is likely to be flagged for trademark infringement.
  -->
 明らかに会社のアカウントでない限り、開発者個人のアカウントで申請されたプラグインは、受け付けることができません。たとえば、Facerange の公式プラグインを Gmail アドレスのユーザーで申請すると、商標侵害のフラグを立てられる可能性があります。
+
+How we will know that you are the official organization? Because of your email address mostly.
 
 <!-- 
 ### What if I submitted the plugin with the wrong user ID?
@@ -201,9 +214,9 @@ We cannot accept plugins submitted by individual developer accounts, unless they
 ### 間違ったユーザー ID でプラグインを申請したら、どうなるの ?
 
 <!-- 
-Just reply to the email right away and let us know. We can transfer ownership for you. If you forget to do this, you can fix it yourself by [adding the correct account as a committer](https://developer.wordpress.org/plugins/wordpress-org/plugin-developer-faq/#how-do-i-give-someone-else-access-to-my-plugin) and then having that account remove your own.
+Just reply to the email right away and let us know. We can transfer ownership for you. If you forget to do this, you can fix it yourself by [adding the correct account as a committer](#how-do-i-give-someone-else-access-to-my-plugin) and then having that account remove your own.
  -->
-すぐにメールに返信してお知らせください。私たちが所有権をあなたに委譲します。これを忘れてしまった場合は、[正しいアカウントを、コミッターとして追加](https://developer.wordpress.org/plugins/wordpress-org/plugin-developer-faq/#how-do-i-give-someone-else-access-to-my-plugin)し、その正しいアカウントからあなた自身のアカウントを削除させることで、自分で修正できます。
+すぐにメールに返信してお知らせください。私たちが所有権をあなたに委譲します。これを忘れてしまった場合は、[正しいアカウントを、コミッターとして追加](#how-do-i-give-someone-else-access-to-my-plugin)し、その正しいアカウントからあなた自身のアカウントを削除させることで、自分で修正できます。
 
 <!-- 
 **DO NOT** resubmit your plugin. Just tell us right away and we'll fix it.
@@ -231,9 +244,9 @@ If your plugin has any code issues, it will take as long as it takes for you to 
 ### 修正を送ったのだけど、誰も返信してくれない。どのくらい待てばいいの ?
 
 <!-- 
-We aim to reply to all reviews within seven (7) business days. If it's been less than that, it just means we've been really busy. If it's been two days, like over a weekend or a holiday, then you should not **reasonably** expect a reply.
+We aim to reply to all reviews within ten (10) business days. If it's been less than that, it just means we've been really busy. If it's been two days, like over a weekend or a holiday, then you should not **reasonably** expect a reply.
  -->
-私たちは、7営業日以内にすべてのレビューに返信することを目指しています。それよりもかかった場合は、私たちが本当に忙しかったということです。週末や休日を挟むなどして2日以上経過している場合は、返信を **合理的に** 期待すべきではありません。
+私たちは、10営業日以内にすべてのレビューに返信することを目指しています。それよりもかかった場合は、私たちが本当に忙しかったということです。週末や休日を挟むなどして2日以上経過している場合は、返信を **合理的に** 期待すべきではありません。
 
 <!-- 
 Remember the review team is made up of 100% volunteers, all of whom have full time day jobs, and other volunteer duties. We do reply promptly, but we also have lives outside of WordPress.
@@ -258,7 +271,7 @@ There's no timeline and as long as we know you're working on it and we feel you'
 <!-- 
 If your plugin review is not complete after three (3) months, we will reject your submission in order to keep the queue maintainable. At any point in time, we have 700 people mid-review, and we figure that 3 months is a pretty reasonable time frame.
  -->
-あなたのプラグインのレビューが3ヵ月経っても完了しない場合、キューを維持するために、あなたの申請をリジェクトします。どの時点でも、700人がレビュー中であり、3ヵ月というのは、かなり妥当な期間だと考えています。
+あなたのプラグインのレビューが3ヵ月経っても完了しない場合、キューを維持するために、あなたの申請をリジェクトします。どの時点でも、500人以上がレビュー中であり、3ヵ月というのは、かなり妥当な期間だと考えています。
 
 <!-- 
 ### I finally fixed my plugin. Should I resubmit?
@@ -266,19 +279,20 @@ If your plugin review is not complete after three (3) months, we will reject you
 ### やっとプラグインを修正しました。再申請すべき ?
 
 <!-- 
-No. Reply to the email. Even if it's been 18 months. The longest time to date has been 3 years. We don't mind if it takes a while.
+If your plugin was rejected after three months, submit it again and reply to the email so we are aware that you wanna continue a previous unfinished review. Even if it's been 18 months. The longest time to date has been 3 years. We don't mind if it takes a while.
  -->
 いいえ。メールに返信してください。たとえ1年半ぶりでも。これまで最長で3年。時間がかかってもいいんです。
+
+<!-- 
+**DO NOT** resubmit your plugin if it was rejected for any other reason, just reply to the email.
+ -->
 
 <!-- 
 ### How many plugins can I submit for review at a time?
  -->
 ### 一度に何個のプラグインを、レビューに申請できるの ?
 
-<!-- 
-Just one.
- -->
-たった1つだけです。
+Generally, just one. If you're a plugin author with more than one million active plugin installations, we understand that you have more ongoing projects, so you would have a different limit of up to 10 plugin submissions at the same time.
 
 <!-- 
 ### Why can't I submit more than one plugin at a time?
@@ -296,9 +310,9 @@ In addition, many new users don't know how to use SVN, and wound up submitting m
 加えて、多くの新規ユーザーは SVN の使い方を知らず、複数のプラグインを申請して結局1つも使いませんでした。それは私たちのリソースを浪費することになるので、私たちは人々を制限しています。
 
 <!-- 
-Since all plugins get an initial review within two weeks, this should not be a hardship.
+Since all plugins get an initial review within four weeks, this should not be a hardship.
  -->
-すべてのプラグインは2週間以内に最初のレビューを受けるので、これは苦難ではないはずです。
+すべてのプラグインは4週間以内に最初のレビューを受けるので、これは苦難ではないはずです。
 
 <!-- 
 ### Can I submit multiple plugins with multiple accounts?
@@ -331,19 +345,19 @@ We look for some pretty obvious things, all of which are listed [in our guidelin
 私たちは、かなり明白なことを確認し、それらはすべて[私たちのガイドライン](https://developer.wordpress.org/plugins/wordpress-org/detailed-plugin-guidelines/)に記載されています。大半は「スパマーになるな」ということに集約されますが、人々が最もやっていることに触れてみましょう:
 
 <!-- 
-- Not including a `readme.txt` file when acting as a service.
-- Not testing the plugin with `WP_DEBUG`.
-- Including custom versions of packaged JavaScript libraries.
-- Calling external files unnecessarily.
-- "Powered By" links.
-- Phoning home.
+- Not including a `readme.txt` file when acting as a service
+- Not testing the plugin with `WP_DEBUG`
+- Including custom versions of packaged JavaScript libraries
+- Calling external files unnecessarily
+- "Powered By" links
+- Phoning home
  -->
-- サービスとして稼働するときに、ファイル `readme.txt` を含めない。
-- プラグインを `WP_DEBUG` でテストしていない。
-- パッケージ化された JavaScript ライブラリのカスタムバージョンをインクルードする。
-- 不必要に外部ファイルを呼び出す。
-- 「Powered By」リンク。
-- 家に電話をかける。
+- サービスとして稼働するときに、ファイル `readme.txt` を含めない
+- プラグインを `WP_DEBUG` でテストしていない
+- パッケージ化された JavaScript ライブラリのカスタムバージョンをインクルードする
+- 不必要に外部ファイルを呼び出す
+- 「Powered By」リンク
+- 家に電話をかける
 
 <!-- 
 Again, this is a brief overview. Please read the guidelines, as the full list is quite detailed.
@@ -385,15 +399,16 @@ No, you should rewrite and upgrade the existing plugin. Make it a major version 
  -->
 ### 私の申請で間違いがありました。どうすれば直せるの ?
 
+You can update your plugin files from the submission page at any time.
+
+You can update your slug once after submitting it.
+
 <!-- 
-Every submission gets an automated reply with directions. Reply to that or email `plugins@wordpress.org` and explain the situation.
+Every submission gets an automated email with directions. If you have a different issue, please reply to that or email `plugins@wordpress.org` and explain the situation.
  -->
 それぞれの申請には、自動返信で指示が届きます。それに返信するか、`plugins@wordpress.org` 宛てにメールを送り、状況を説明してください。
 
-<!-- 
-We can correct plugin slugs before approval, so we are often able to fix that for you. If not, we'll let you know what to do. We try to catch typos in names before we approve anything, but we make mistakes too.
- -->
-私たちは承認前に、プラグインのスラッグを修正できます。そうでない場合は、どうすればよいかをお知らせします。私たちは承認する前に名前のタイプミスを見つけるようにしていますが、私たちにも間違いはあります。
+Regarding slugs if you need further changes, you'll need to contact us. We also try to catch typos in names before we approve anything, but we make mistakes too.
 
 <!-- 
 ### Are there things I can't do in a plugin name?
@@ -406,17 +421,17 @@ We have the following restrictions:
 我々は、以下のような制限を設けています:
 
 <!-- 
-*   Plugins may not use vulgarities in the name or slug
-*   Plugins may not use 'WordPress' or 'Plugin' in their slugs except under extreme situations
-*   Plugins may not use version numbers in plugin slugs
-*   Due to system limitations, only English letters and Arabic numbers are permitted in the slug
-*   Plugins may not **start** with a trademarked term or name of a specific project/library/tool _unless_ submitted by an official representative
+- Plugins may not use vulgarities in the name or slug
+- Plugins may not use 'WordPress' or 'Plugin' in their slugs except under extreme situations
+- Plugins may not use version numbers in plugin slugs
+- Due to system limitations, only English letters and Arabic numbers are permitted in the slug
+- Plugins may not **start** or contain in a way that may be confusing a trademarked term or name of a specific project/library/tool _unless_ submitted by an official representative
  -->
-*   プラグイン名やスラッグに、下品な表現を使ってはいけません。
-*   プラグインはスラッグに、極端な状況を除き、「WordPress」や「Plugin」を使用できません。
-*   プラグインのスラッグに、バージョン番号を使用できません。
-*   システムの制限により、スラッグに使用できるのは、英字とアラビア数字のみです。
-*   公式な代表者によって申請されたもの _でない限り_、プラグインは、商標登録されたタームや特定のプロジェクト/ライブラリ/ツールの名前で **始める** ことはできません。
+- プラグイン名やスラッグに、下品な表現を使ってはいけません。
+- プラグインはスラッグに、極端な状況を除き、「WordPress」や「Plugin」を使用できません。
+- プラグインのスラッグに、バージョン番号を使用できません。
+- システムの制限により、スラッグに使用できるのは、英字とアラビア数字のみです。
+- 公式な代表者によって申請されたもの _でない限り_、プラグインは、商標登録されたタームや特定のプロジェクト/ライブラリ/ツールの名前で **始める** ことはできません。
 
 <!-- 
 We encourage everyone to be creative and come up with unique slugs. We automatically correct any plugin that has an unacceptable slug. If there's a question as to the best choice, we will contact you to be sure.
@@ -434,9 +449,9 @@ We encourage everyone to be creative and come up with unique slugs. We automatic
 ### 自分のファイルは、どこに置けばいいの ?
 
 <!-- 
-Put your code files directly in the `trunk/` directory of your repository. Whenever you release a new version, [tag that release](https://developer.wordpress.org/plugins/wordpress-org/how-to-use-subversion/#tags) by copying the current trunk revision to a new subdirectory of the `tags/` directory.
+Put your code files directly in the `trunk/` directory of your repository. Whenever you release a new version, [tag that release](https://developer.wordpress.org/plugins/wordpress-org/how-to-use-subversion/#task-3) by copying the current trunk revision to a new subdirectory of the `tags/` directory.
  -->
-コードファイルをリポジトリの `trunk/` ディレクトリに直接置いてください。新しいバージョンをリリースするたびに、現在のトランク・リビジョンを `tags/` ディレクトリの新しいサブディレクトリにコピーして、[そのリリースにタグを付けます](https://developer.wordpress.org/plugins/wordpress-org/how-to-use-subversion/#tags)。
+コードファイルをリポジトリの `trunk/` ディレクトリに直接置いてください。新しいバージョンをリリースするたびに、現在のトランク・リビジョンを `tags/` ディレクトリの新しいサブディレクトリにコピーして、[そのリリースにタグを付けます](https://developer.wordpress.org/plugins/wordpress-org/how-to-use-subversion/#task-3)。
 
 <!-- 
 Make sure you update [`trunk/readme.txt`](https://wordpress.org/plugins/developers/#readme) to reflect the **new** stable tag.
@@ -449,9 +464,9 @@ Images for the readme (such as [screenshots, plugin headers, and plugin icons](h
 readme 用の画像 ( [スクリーンショット、プラグイン・ヘッダー、プラグイン・アイコン](https://developer.wordpress.org/plugins/wordpress-org/plugin-assets/) など) は、SVN チェックアウトの root にある `assets/` ディレクトリ (作成する必要があるかもしれません) に置きます。これは、たとえば、`tags/` や `trunk/` と同じ階層になります。
 
 <!-- 
-### Can I put my files in a subdirectory of `trunk`?
+### Can I put my files in a subdirectory of trunk/?
  -->
-### `trunk` のサブディレクトリに、自分のファイルを置いてもいいの ?
+### trunk/ のサブディレクトリに、自分のファイルを置いてもいいの ?
 
 <!-- 
 No. Doing that will cause the zip generator to break.
@@ -469,12 +484,12 @@ If you have complicated plugin with lots of files, you can of course organize th
 ### タグ (いわゆる、リリース) には、どのような名前をつければいいの ?
 
 <!-- 
-Your Subversion tags should look like version numbers. Specifically, they should only contain **numbers and periods**. `2.8.4` is a good lookin' tag, `my neato releaso` is a bad lookin' tag. We recommend you use [Semantic Versioning](https://semver.org/) to keep track of releases, but we do not enforce this.
+Your Subversion tags should look like version numbers. Specifically, they should only contain **numbers and periods**. `2.8.4` is a good lookin' tag, `my neato releaso` is a bad lookin' tag. We recommend you use [Semantic Versioning](https://semver.org) to keep track of releases, but we do not enforce this.
  -->
-Subversion のタグは、バージョン番号のように見えるべきです。具体的には、**数字とピリオド** だけを含むべきです。`2.8.4` は良いタグで、`my neato releaso` は悪いタグです。[セマンティック・バージョニング](https://semver.org/)を使ってリリース管理することを推奨しますが、強制はしません。
+Subversion のタグは、バージョン番号のように見えるべきです。具体的には、**数字とピリオド** だけを含むべきです。`2.8.4` は良いタグで、`my neato releaso` は悪いタグです。[セマンティック・バージョニング](https://semver.org)を使ってリリース管理することを推奨しますが、強制はしません。
 
 <!-- 
-Note that we're talking about _Subversion_ tags here, not `readme.txt` search type tags.
+Note that we're talking about _Subversion_ tags here, not `readme.txt search type tags.
  -->
 ここで話しているのは _Subversion_ タグについてであって、`readme.txt` 検索タイプのタグについてではないことに、注意してください。
 
@@ -534,9 +549,9 @@ minify 化するのはかまわないが、隠すのは駄目です。このデ�
 ### 私のプラグインは、いつ「公開」されるの ?
 
 <!-- 
-As soon as you push code to the SVN folders, your plugin will be live. **DO NOT** push code if you're not ready, as there's no 'off' switch except to [close the plugin](https://developer.wordpress.org/plugins/wordpress-org/plugin-developer-faq/#closed-plugins). As closing a plugin is permanent, we recommend you not push code until you're ready to go live.
+As soon as you push code to the SVN folders, your plugin will be live. **DO NOT** push code if you're not ready, as there's no 'off' switch except to [close the plugin](#closed-plugins). As closing a plugin is permanent, we recommend you not push code until you're ready to go live.
  -->
-SVN フォルダーにコードをプッシュすると、すぐにプラグインが公開されます。[プラグインをクローズ](https://developer.wordpress.org/plugins/wordpress-org/plugin-developer-faq/#closed-plugins)する以外に「オフ」スイッチがないので、準備ができていない場合は、コードをプッシュ **しないように**。プラグインのクローズは永久的なものですので、公開する準備ができるまではコードをプッシュしないことをおすすめします。
+SVN フォルダーにコードをプッシュすると、すぐにプラグインが公開されます。[プラグインをクローズ](#closed-plugins)する以外に「オフ」スイッチがないので、準備ができていない場合は、コードをプッシュ **しないように**。プラグインのクローズは永久的なものですので、公開する準備ができるまではコードをプッシュしないことをおすすめします。
 
 <!-- 
 ### Where does the WordPress.org Plugin Directory get its data?
@@ -549,9 +564,9 @@ From the information you specify in the plugin file and in the [readme.txt file]
 プラグインファイル内とファイル [readme.txt](https://ja.wordpress.org/plugins/developers/#readme) 内で指定した情報、および Subversion リポジトリ自体から取得します。詳しくは [readme.txt の仕組みについて](https://developer.wordpress.org/plugins/wordpress-org/how-your-readme-txt-works/)をご覧ください。
 
 <!-- 
-You should also make full use of the [Plugin Headers](https://developer.wordpress.org/plugins/plugin-basics/header-requirements/) in your main plugin file. Those will define how your username shows up on the WordPress.org hosting page, as well as in the WordPress Admin. We recommend using all those headers to fully document your plugin.
+You should also make full use of the [Plugin Headers](https://developer.wordpress.org/plugins/the-basics/header-requirements/) in your main plugin file. Those will define how your username shows up on the WordPress.org hosting page, as well as in the WordPress Admin. We recommend using all those headers to fully document your plugin.
  -->
-メイン・プラグインファイル内の[ヘッダー項目](https://developer.wordpress.org/plugins/plugin-basics/header-requirements/)もフル活用しましょう。それらは、WordPress 管理画面と同様に、WordPress.org のホスティングページでユーザー名がどのように表示されるかを定義します。プラグインを完全に文書化するために、これらのヘッダーをすべて使用することをおすすめします。
+メイン・プラグインファイル内の[ヘッダー項目](https://developer.wordpress.org/plugins/the-basics/header-requirements/)もフル活用しましょう。それらは、WordPress 管理画面と同様に、WordPress.org のホスティングページでユーザー名がどのように表示されるかを定義します。プラグインを完全に文書化するために、これらのヘッダーをすべて使用することをおすすめします。
 
 <!-- 
 ### Can I specify what version of my plugin the WordPress.org Plugin Directory should use?
@@ -664,14 +679,9 @@ WordPress.org プラグイン・ディレクトリは、数分ごとに更新さ
 ### プラグインページのための、クールなバナーは、どうすれば作れるの ?
 
 <!-- 
-You can make your own [plugin headers](https://developer.wordpress.org/plugins/wordpress-org/plugin-assets/#plugin-headers) by uploading the correctly named files into the `assets` folder.
+You can make your own [plugin headers](https://developer.wordpress.org/plugins/wordpress-org/plugin-assets/#plugin-headers) by uploading the correctly named files into the `assets` folder. Read [about plugin headers](https://developer.wordpress.org/plugins/wordpress-org/plugin-assets/#plugin-headers) for more information.
  -->
-`assets` フォルダーに正しい名前のファイルをアップロードすることで、独自の[プラグイン・ヘッダー](https://developer.wordpress.org/plugins/wordpress-org/plugin-assets/#plugin-headers)を作ることができます。
-
-<!-- 
-Read [about plugin headers](https://developer.wordpress.org/plugins/wordpress-org/plugin-assets/#plugin-headers) for more information.
- -->
-詳しくは[プラグイン・ヘッダーについて](https://developer.wordpress.org/plugins/wordpress-org/plugin-assets/#plugin-headers)をご覧ください。
+`assets` フォルダーに正しい名前のファイルをアップロードすることで、独自の[プラグイン・ヘッダー](https://developer.wordpress.org/plugins/wordpress-org/plugin-assets/#plugin-headers)を作ることができます。詳しくは[プラグイン・ヘッダーについて](https://developer.wordpress.org/plugins/wordpress-org/plugin-assets/#plugin-headers)をご覧ください。
 
 <!-- 
 ### How do I make a plugin icon?
@@ -679,14 +689,9 @@ Read [about plugin headers](https://developer.wordpress.org/plugins/wordpress-or
 ### プラグイン・アイコンを作るには ?
 
 <!-- 
-You can make your own [plugin icons](https://developer.wordpress.org/plugins/wordpress-org/plugin-assets/#plugin-icons) by uploading the correctly named files into the `assets` folder.
+You can make your own [plugin icons](https://developer.wordpress.org/plugins/wordpress-org/plugin-assets/#plugin-icons) by uploading the correctly named files into the `assets` folder. Read [about plugin icons](https://developer.wordpress.org/plugins/wordpress-org/plugin-assets/#plugin-icons) for more information.
  -->
-`assets` フォルダーに正しい名前のファイルをアップロードすることで、独自の[プラグイン・アイコン](https://developer.wordpress.org/plugins/wordpress-org/plugin-assets/#plugin-icons)を作ることができます。
-
-<!-- 
-Read [about plugin icons](https://developer.wordpress.org/plugins/wordpress-org/plugin-assets/#plugin-icons) for more information.
- -->
-詳しくは[プラグイン・アイコンについて](https://developer.wordpress.org/plugins/wordpress-org/plugin-assets/#plugin-icons)をご覧ください。
+`assets` フォルダーに正しい名前のファイルをアップロードすることで、独自の[プラグイン・アイコン](https://developer.wordpress.org/plugins/wordpress-org/plugin-assets/#plugin-icons)を作ることができます。詳しくは[プラグイン・アイコンについて](https://developer.wordpress.org/plugins/wordpress-org/plugin-assets/#plugin-icons)をご覧ください。
 
 <!-- 
 ### Can I use official logos in my plugin banner/icons?
@@ -771,7 +776,7 @@ Consider the real life example of Keurig. If you made an eco-friendly brew cup, 
 <!-- 
 [alert]We no longer have permission to permit new plugins to use `woo` as the start of their permalink, and are required to enforce the use of `wc` instead.[/alert]
  -->
-[alert]新しいプラグインが、パーマリンクの先頭に `woo` を使用することを許可する権限がなくなり、代わりに `wc` の使用を強制することが求められています。[/alert]
+_注意: 新しいプラグインが、パーマリンクの先頭に `woo` を使用することを許可する権限がなくなり、代わりに `wc` の使用を強制することが求められています。[/alert]_
 
 <!-- 
 ### Can a company give me permission to use their trademark in my permalink?
@@ -909,9 +914,9 @@ Neither. Make your display name memorable and descriptive, while keeping it unde
 ### フォーラムへの投稿を通知してもらうには ?
 
 <!-- 
-Go to `https://wordpress.org/support/plugin/_YOUR_PLUGIN_` and look at the sidebar on the right. Click the Subscribe to this Plugin button for email alerts.
+Go to `https://wordpress.org/support/plugin/YOURPLUGIN` and look at the sidebar on the right. Click the Subscribe to this Plugin button for email alerts.
  -->
-`https://wordpress.org/support/plugin/_YOUR_PLUGIN_` にアクセスし、右側のサイドバーを見てください。「このプラグインを購読する」ボタンをクリックし、E メールアラートを購読します。
+`https://wordpress.org/support/plugin/YOUR_PLUGIN` にアクセスし、右側のサイドバーを見てください。「このプラグインを購読する」ボタンをクリックし、E メールアラートを購読します。
 
 <!-- 
 ### How do I get notified for all my plugins?
@@ -919,19 +924,19 @@ Go to `https://wordpress.org/support/plugin/_YOUR_PLUGIN_` and look at the sideb
 ### すべてのプラグインに、通知されるようにするには ?
 
 <!-- 
-Every plugin support forum page has a "Subscribe" button at the top of it. Click that and you will be emailed. You can see which plugin forums sets you are subscribed to at `https://wordpress.org/support/users/_YOUR_ID_/subscriptions`
+Every plugin support forum page has a "Subscribe" button at the top of it. Click that and you will be emailed. You can see which plugin forums sets you are subscribed to at `https://wordpress.org/support/users/YOURID/subscriptions`
  -->
-どのプラグイン・サポートフォーラムのページにも、一番上に「購読」ボタンがあります。それをクリックするとメールが届きます。どのプラグインフォーラムに登録しているかは、右記リンクで確認できます。`https://wordpress.org/support/users/_YOUR_ID_/subscriptions`
+どのプラグイン・サポートフォーラムのページにも、一番上に「購読」ボタンがあります。それをクリックするとメールが届きます。どのプラグインフォーラムに登録しているかは、右記リンクで確認できます。`https://wordpress.org/support/users/YOUR_ID/subscriptions`
 
 <!-- 
-For RSS, visit `https://wordpress.org/support/view/plugin-committer/_YOUR_ID_` will list all of the support requests and reviews for any plugin you have commit access. Not a committer, just someone listed as an author? Use `https://wordpress.org/support/view/plugin-contributor/_YOUR_ID_`
+For RSS, visit `https://wordpress.org/support/view/plugin-committer/YOURID` will list all of the support requests and reviews for any plugin you have commit access. Not a committer, just someone listed as an author? Use `https://wordpress.org/support/view/plugin-contributor/YOURID`
  -->
-RSS の場合、`https://wordpress.org/support/view/plugin-committer/_YOUR_ID_` にアクセスすると、あなたがコミットアクセス権を持っているプラグインのサポートリクエストとレビューが一覧表示されます。コミッターではなく、作者としてリストアップされているだけですか ? その場合は、右記リンクを使ってください。`https://wordpress.org/support/view/plugin-contributor/_YOUR_ID_`
+RSS の場合、`https://wordpress.org/support/view/plugin-committer/YOUR_ID` にアクセスすると、あなたがコミットアクセス権を持っているプラグインのサポートリクエストとレビューが一覧表示されます。コミッターではなく、作者としてリストアップされているだけですか ? その場合は、右記リンクを使ってください。`https://wordpress.org/support/view/plugin-contributor/YOUR_ID`
 
 <!-- 
-You can also go to `https://profiles.wordpress.org/_YOUR_ID_/profile/notifications/` and put in any terms you want to be emailed for. Be careful, this can escalate if you use generic terms.
+You can also go to `https://profiles.wordpress.org/YOURID/profile/notifications/` and put in any terms you want to be emailed for. Be careful, this can escalate if you use generic terms.
  -->
-また、`https://profiles.wordpress.org/_YOUR_ID_/profile/notifications/` にアクセスし、メールを送ってほしいタームを入力できます。一般的なタームを使用すると、エスカレートする可能性があるので注意してください。
+また、`https://profiles.wordpress.org/YOUR_ID/profile/notifications/` にアクセスし、メールを送ってほしいタームを入力できます。一般的なタームを使用すると、エスカレートする可能性があるので注意してください。
 
 <!-- 
 ### How do I give a support account access to my plugin?
@@ -964,7 +969,7 @@ Abuse of the modlook feature may result in suspension of your plugins. Please, u
 modlook 機能を乱用すると、プラグインが一時的に使用停止になる場合があります。賢く使ってください。
 
 <!-- 
-### What is ‘Sockpuppeting'?
+### What is 'Sockpuppeting'?
  -->
 ### 「ソックパペット (Sockpuppeting)」とは ?
 
@@ -984,14 +989,14 @@ That's what happens when someone makes multiple accounts on the forums, usually 
 ### 私のプラグインをクローズするには ?
 
 <!-- 
-As of April 2020, you can close your own plugins at any time. To do so, go to the **advanced** tab on your plugin page (i.e. `https://wordpress.org/plugins/_MY_PLUGIN_/advanced/`) and scroll down to the **CLOSE THIS PLUGIN** section. There you will see a warning message and a button.
+As of April 2020, you can close your own plugins at any time. To do so, go to the **advanced** tab on your plugin page (i.e. `https://wordpress.org/plugins/myplugin/advanced/`) and scroll down to the **CLOSE THIS PLUGIN** section. There you will see a warning message and a button.
  -->
-2020年4月より、自分のプラグインをいつでもクローズできるようになりました。そのためには、プラグインページの **advanced** タブ (つまり `https://ja.wordpress.org/plugins/_MY_PLUGIN_/advanced/`) に行き、**CLOSE THIS PLUGIN (このプラグインをクローズする)** セクションまでスクロールダウンしてください。そこに警告メッセージとボタンがあります。
+2020年4月より、自分のプラグインをいつでもクローズできるようになりました。そのためには、プラグインページの **advanced** タブ (つまり `https://ja.wordpress.org/plugins/myplugin/advanced/`) に行き、**CLOSE THIS PLUGIN (このプラグインをクローズする)** セクションまでスクロールダウンしてください。そこに警告メッセージとボタンがあります。
 
 <!-- 
-![Image of the "Close this plugin" feature, with the note "WARNING: Closing your plugin is intended to be a permanent action. You will not be able to reopen it without contacting the plugins team." Below that is a button saying "I understand."](https://i3.wp.com/developer.wordpress.org/files/2020/04/HowtoClose.png)
+![Image of the "Close this plugin" feature, with the note "WARNING: Closing your plugin is intended to be a permanent action. You will not be able to reopen it without contacting the plugins team." Below that is a button saying "I understand."](https://i0.wp.com/developer.wordpress.org/files/2020/04/HowtoClose.png?resize=1024%2C275&ssl=1)
  -->
-![「警告：プラグインをクローズすることは永久的な行為です。プラグイン・チームに連絡しない限り、プラグインを再オープンできません。」の注記付き、「CLOSE THIS PLUGIN」機能の画像。その下に「I understand.」というボタンがある。](https://i3.wp.com/developer.wordpress.org/files/2020/04/HowtoClose.png)
+![「警告：プラグインをクローズすることは永久的な行為です。プラグイン・チームに連絡しない限り、プラグインを再オープンできません。」の注記付き、「CLOSE THIS PLUGIN」機能の画像。その下に「I understand.」というボタンがある。](https://i0.wp.com/developer.wordpress.org/files/2020/04/HowtoClose.png?resize=1024%2C275&ssl=1)
 
 <!-- 
 If you agree to the warning, and want to close your plugin, press the button.
@@ -1089,9 +1094,9 @@ As of 2017, plugin closure reasons are tracked in the plugin database. Sixty day
 2017年現在、プラグインのクローズ理由はプラグイン・データベースで追跡されます。プラグインがクローズされてから60日後に、クローズ理由が公開されます:
 
 <!-- 
-![Example of a closed plugin with the reason 'Author Request'](https://i3.wp.com/developer.wordpress.org/files/2015/04/not-hello-dolly.jpg)
+![Example of a closed plugin with the reason 'Author Request'](https://i0.wp.com/developer.wordpress.org/files/2015/04/not-hello-dolly.jpg?resize=1058%2C526&ssl=1)
  -->
-![ 「作者のリクエスト」という理由でクローズされたプラグインの例](https://i3.wp.com/developer.wordpress.org/files/2015/04/not-hello-dolly.jpg)
+![ 「作者のリクエスト」という理由でクローズされたプラグインの例](https://i0.wp.com/developer.wordpress.org/files/2015/04/not-hello-dolly.jpg?resize=1058%2C526&ssl=1)
 
 <!-- 
 Please note: We do not publicly disclose the details on exactly why a plugin has been closed.
@@ -1219,9 +1224,9 @@ Everyone who represents a plugin, from support tech to developer, is the respons
 サポート技術者から開発者に至るまで、プラグインを代表するすべての人は、プラグイン・オーナーの責任です。もし彼らがガイドラインにひどく違反した場合、オーナーはその結果を受け入れ、軌道修正することが期待されます。そうならない場合、プラグインはクローズされます。このような場合、私たちはプラグイン・オーナーに通知し、理由を説明し、プラグインをオープンし続けるために最善を尽くします。
 
 <!-- 
-### _All_ my plugins were closed! How can I get them back?
+### All my plugins were closed! How can I get them back?
  -->
-### 私のプラグインが _全て_ クローズされました ! どうしたら元に戻せますか ?
+### 私のプラグインが全てクローズされました ! どうしたら元に戻せますか ?
 
 <!-- 
 It's exceptionally rare that we close all of a developer's plugins. In general it happens because of the following:
@@ -1229,14 +1234,14 @@ It's exceptionally rare that we close all of a developer's plugins. In general i
 開発者のプラグインをすべてクローズすることは、極めてまれです。一般的には、以下のような理由で起こります:
 
 <!-- 
-1. You asked us to close all your plugins.
-2. Email issues.
-  1. The email bounced and we were unable to get in touch.
-  2. The email sent us auto-replies and warnings were sent at least twice to fix that.
-3. Guideline issues.
-  1. Previous censuring for behaviour and/or a final warning was issued.
-  2. Delivering legal threats to the directory and/or the volunteers.
-  3. The violation was deemed 'egregious' (death threats, hundreds of sock puppets, harassment, etc).
+1.  You asked us to close all your plugins
+2.  Email issues
+    1.  The email bounced and we were unable to get in touch
+    2.  The email sent us auto-replies and warnings were sent at least twice to fix that
+3.  Guideline issues
+    1.  Previous censuring for behaviour and/or a final warning was issued
+    2.  Delivering legal threats to the directory and/or the volunteers
+    3.  The violation was deemed 'egregious' (death threats, hundreds of sock puppets, harassment, etc)
  -->
 1. あなたが、すべてのプラグインをクローズするように依頼した。
 2. E メールの課題。
@@ -1288,9 +1293,9 @@ The last thing we want to do is ban someone and disable all their plugins. It's 
 ### 自分のプラグインに、他の人がアクセスできるようにするには ?
 
 <!-- 
-To add users as committers, that is give them access to update code, go to `https://wordpress.org/plugins/_YOUR_PLUGIN_/advanced` and add their username in as a committer.
+To add users as committers, that is give them access to update code, go to `https://wordpress.org/plugins/YOURPLUGIN/advanced` and add their username in as a committer.
  -->
-ユーザーをコミッターとして追加する、つまり、彼らにコードを更新する権限を与えるには、`https://ja.wordpress.org/plugins/_YOUR_PLUGIN_/advanced` に行き、彼らのユーザー名をコミッターとして追加します。
+ユーザーをコミッターとして追加する、つまり、彼らにコードを更新する権限を与えるには、`https://ja.wordpress.org/plugins/YOUR_PLUGIN/advanced` に行き、彼らのユーザー名をコミッターとして追加します。
 
 <!-- 
 To have them show up as an author, add their username to the `readme.txt` file.
@@ -1308,9 +1313,9 @@ _一般ユーザーを、作者として追加しないでください。_ こ�
 ### 自分のプラグインから、誰かのアクセスを削除するには ?
 
 <!-- 
-Anyone with commit access can do this. Go to `https://wordpress.org/plugins/_YOUR_PLUGIN_/advanced` and hover over their ID. A delete link will appear. Click on it.
+Anyone with commit access can do this. Go to `https://wordpress.org/plugins/YOURPLUGIN/advanced` and hover over their ID. A delete link will appear. Click on it.
  -->
-コミットにアクセスできる人なら誰でもできます。`https://ja.wordpress.org/plugins/_YOUR_PLUGIN_/advanced` にアクセスして、彼らの ID にカーソルを合わせてください。削除リンクが表示されます。それをクリックしてください。
+コミットにアクセスできる人なら誰でもできます。`https://ja.wordpress.org/plugins/YOUR_PLUGIN/advanced` にアクセスして、彼らの ID にカーソルを合わせてください。削除リンクが表示されます。それをクリックしてください。
 
 <!-- 
 Please don't delete yourself.
@@ -1333,7 +1338,7 @@ For more details, please read the [documentation on transferring plugins](https:
 詳しくは、[プラグインの譲渡に関するドキュメント](https://developer.wordpress.org/plugins/wordpress-org/transferring-your-plugin-to-a-new-owner/)をお読みください。
 
 <!-- 
-### I tried to transfer my plugin but it says I can’t. Why not?
+### I tried to transfer my plugin but it says I can't. Why not?
  -->
 ### プラグインを譲渡しようとしたのですが、できないと言われました。なぜですか ?
 
