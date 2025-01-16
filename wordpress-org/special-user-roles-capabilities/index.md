@@ -16,7 +16,7 @@ There are four roles a user can have with regards to plugins. All can be managed
 <!-- 
 ![Interface of the plugin page, the link ''Advanced View'' is highlighted.](https://i0.wp.com/developer.wordpress.org/files/2020/08/advanced-view.jpg?resize=300%2C260&ssl=1)
  -->
-![「Advanced View」というリンクがハイライトされている、プラグインページのインターフェイス](https://i0.wp.com/developer.wordpress.org/files/2020/08/advanced-view.jpg?resize=300%2C260&ssl=1)
+![「Advanced View」というリンクがハイライトされている、プラグインページのインターフェース](https://i0.wp.com/developer.wordpress.org/files/2020/08/advanced-view.jpg?resize=300%2C260&ssl=1)
 
 <!-- 
 There are fields to add Support Reps and Committers as needed.
