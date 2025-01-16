@@ -40,7 +40,10 @@ If you’re a committer of a block plugin that does meet the criteria for adding
  -->
 あなたがブロック・プラグインのコミッターである場合、チェッカーツールで確認した結果、[ブロックディレクトリ](https://ja.wordpress.org/plugins/browse/block/)に追加する条件を満たしていれば、[ブロックチェッカー・ツールを使って](https://ja.wordpress.org/plugins/developers/block-plugin-validator/)自分で追加できます:
 
+<!-- 
 ![Block checker tool interface with a "Add Plugin Name to the Block Directory" button](https://i0.wp.com/developer.wordpress.org/files/2020/08/Screen-Shot-2020-07-10-at-1.29.25-pm.png?resize=1024%2C308&ssl=1)
+ -->
+![ブロックチェッカー・ツールのインターフェース、「ブロックディレクトリに -プラグイン名- を追加」ボタン](https://i0.wp.com/developer.wordpress.org/files/2020/08/Screen-Shot-2020-07-10-at-1.29.25-pm.png?resize=1024%2C308&ssl=1)
 
 <!-- 
 Likewise you can remove it at any time using that same tool if you notice problems or would prefer it wasn’t included.
