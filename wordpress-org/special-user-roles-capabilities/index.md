@@ -36,7 +36,7 @@ A plugin owner is automatically set by the person who submits the plugin. On plu
 <!-- 
 ![Transfer this plugin interface with a selector for the new owner and a "Please transfer -Plugin Name-" button](https://i0.wp.com/developer.wordpress.org/files/2020/08/can-transger.jpg?resize=1024%2C548&ssl=1)
  -->
-![セレクタと「-プラグイン名-を委譲します」ボタンインターフェイスで、新しいオーナーにこのプラグインを譲渡する](https://i0.wp.com/developer.wordpress.org/files/2020/08/can-transger.jpg?resize=1024%2C548&ssl=1)
+![セレクタと「-プラグイン名-を譲渡します」ボタンインターフェースで、新しいオーナーにこのプラグインを譲渡する](https://i0.wp.com/developer.wordpress.org/files/2020/08/can-transger.jpg?resize=1024%2C548&ssl=1)
 
 <!-- 
 If there are no other users with commit access, you will need to grant them access before you can transfer the plugin. Remember, plugin owners should **always** have commit access to the plugins they own.
