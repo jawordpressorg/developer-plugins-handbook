@@ -106,7 +106,7 @@ A support rep has **no** extra ability to directly manage the plugin itself. The
 <!-- 
 ![Interface to add a support rep, an input with an "Add" button next to it](https://i0.wp.com/developer.wordpress.org/files/2021/02/Support.jpg?resize=317%2C140&ssl=1)
  -->
-![「Add」ボタン横の入力欄で、サポート担当を追加するインターフェイス](https://i0.wp.com/developer.wordpress.org/files/2021/02/Support.jpg?resize=317%2C140&ssl=1)
+![「Add」ボタン横の入力欄で、サポート担当を追加するインターフェース](https://i0.wp.com/developer.wordpress.org/files/2021/02/Support.jpg?resize=317%2C140&ssl=1)
 
 <!-- 
 In the forums, they are labeled as a “Plugin Support” and have the ability to mark posts regarding their plugin as resolved.
