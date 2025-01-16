@@ -51,7 +51,7 @@ If you see this message, then you are not the current owner, and need to contact
 <!-- 
 ![Message: This plugin is currently owned by -user- the can choose to transfer ownership rights of the plugin to you](https://i0.wp.com/developer.wordpress.org/files/2020/08/Owner.jpg?resize=1024%2C249&ssl=1)
  -->
-![メッセージ: このプラグインは現在のところ -user- によって所有されており、プラグインの所有権をあなたに譲渡できる](https://i0.wp.com/developer.wordpress.org/files/2020/08/Owner.jpg?resize=1024%2C249&ssl=1)
+![メッセージ: このプラグインは現在のところ -user- によって所有されており、プラグインの所有権をあなたに譲渡できます](https://i0.wp.com/developer.wordpress.org/files/2020/08/Owner.jpg?resize=1024%2C249&ssl=1)
 
 <!-- 
 If the original owner is no longer available, you may contact the plugins team for assistance.
