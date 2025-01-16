@@ -76,7 +76,7 @@ Anyone with commit access has the right to request a plugin be closed, and has t
 <!-- 
 ![Interface to add a committer, an input with an "Add" button next to it](https://i0.wp.com/developer.wordpress.org/files/2021/02/Commit.jpg?resize=302%2C133&ssl=1)
  -->
-![「Add」ボタン横の入力欄で、コミッターを追加するインターフェイス](https://i0.wp.com/developer.wordpress.org/files/2021/02/Commit.jpg?resize=302%2C133&ssl=1)
+![「Add」ボタン横の入力欄で、コミッターを追加するインターフェース](https://i0.wp.com/developer.wordpress.org/files/2021/02/Commit.jpg?resize=302%2C133&ssl=1)
 
 <!-- 
 In the forums, these people are labeled as a “Plugin Author” and have the ability to mark posts regarding their plugin as resolved.
