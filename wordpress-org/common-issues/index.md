@@ -348,7 +348,7 @@ echo esc_html(sanitize_text_field($_POST['example']));
 <!-- 
 When plugins use `move_uploaded_file(), they exclude their uploads from the built-in checks and balances with WordPress's functions. Instead of that, you should use the built in function:
  -->
-プラグインで `move_uploaded_file()` を使用すると、アップロードは組み込みのチェック機能や、WordPress 関数とのバランスが取られません。代わりに、内蔵関数を使用してください:
+プラグインで `move_uploaded_file()` を使用すると、アップロードは組込みチェック機能や、WordPress 関数とのバランスが取られません。代わりに、内蔵関数を使用してください:
 
 <!-- 
 [https://developer.wordpress.org/reference/functions/wp_handle_upload/](https://developer.wordpress.org/reference/functions/wp_handle_upload/)
@@ -567,15 +567,20 @@ We feel the risk here is much higher than the benefits, which is why we don't pe
  -->
 **プラグインファイルへの直接ファイル・アクセスの許可**
 
+<!-- 
 Direct file access occurs when someone directly queries a PHP file. This can be done by entering the complete path to the file in the browser's URL bar or by sending a POST request directly to the file. 
+ -->
+ファイルへの直接アクセスは、誰かが直接 PHP ファイルに問い合わせることで発生します。これは、ブラウザーの URL バーにファイルへの完全なパスを入力するか、ファイルに直接 POST リクエストを送信することで行います。
 
-直接ファイル・アクセスとは、誰かがあなたのファイルに直接クエリーを行うことです。これは、単純にブラウザの URL バーにファイルへのフルパスを入力で可能ですが、ファイルに直接 POST リクエストを行うことでも可能です。PHP のクラスを含むだけのファイルでは、直接アクセスしたときに何かおかしなことが起こる危険性はほとんどありません。手続きコード、関数、関数呼び出しを含むファイルでは、セキュリティ・リスクの可能性はより大きくなるでしょう。
-
+<!-- 
 For files that only contain class or function definitions, the risk of something funky happening when accessed directly is minimal. However, for files that contain executable code (e.g., function calls, class instance creation, class method calls, or inclusion of other PHP files), the risk of security issues is hard to predict because it depends on the specific case, but it can exist and it can be high.
+ -->
+クラスや関数の定義のみを含むファイルについては、直接アクセスした場合に何かおかしなことが起こる危険性はほとんどありません。しかし、実行可能なコード (関数コール、クラスインスタンスの生成、クラスメソッドのコール、他の PHP ファイルのインクルード、等) を含むファイルについては、セキュリティ上の問題が発生するリスクは特定のケースに依存するため、予測が困難ですが、それは存在する可能性があり、高くなる可能性もあります。
 
+<!-- 
 You can easily prevent this by adding the following code at the top of all PHP files that could potentially execute code if accessed directly:
-
-直接アクセスするとコードを実行する可能性のある PHP ファイルの先頭に、このコードを記述することで、これを回避できます:
+ -->
+直接アクセスするとコードを実行する可能性のあるすべての PHP ファイルの先頭に、以下のコードを記述することで、簡単にこれを回避できます:
 
 ```php
 if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
@@ -1047,7 +1052,7 @@ For example, if your gettext function looks like this...
 ...the translator won't be able to see anything to be translated as `$greetings` is not a string, it is not something that can be translated.
 You need to give them the string to be translated, so they can see it in the translation system and can translate it, the correct would be as follows...
  -->
-…`$greetings` は文字列ではないので、翻訳者は翻訳されるものを見ることができず、翻訳できるようなものは何もありません。翻訳する文字列を伝える必要があります。そうすれば、翻訳者は翻訳システムでそれを見ることができ、翻訳できるようになります。正しくは次のようになります…
+…`$greetings` は文字列ではないので、翻訳者は翻訳されるものを見ることができず、翻訳できるようなものは何もありません。翻訳する文字列を伝える必要があります。そうすれば、翻訳者は翻訳システムでそれを見ることができ、翻訳できます。正しくは次のようになります…
 
 `esc_html__( 'Hello, how are you?' , 'plugin-slug' );`
 
@@ -1194,7 +1199,7 @@ This plugin includes folders and files that looks like are not required for the 
 - unit tests
  -->
 - 開発ツール
-- 製品用に不要なベンダーフォルダー (bower、node、grunt など)
+- 製品用に不要なベンダーフォルダー (bower、node、Grunt など)
 - デモ
 - ユニットテスト
 
