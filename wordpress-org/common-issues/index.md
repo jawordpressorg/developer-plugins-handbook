@@ -570,7 +570,7 @@ We feel the risk here is much higher than the benefits, which is why we don't pe
 <!-- 
 Direct file access occurs when someone directly queries a PHP file. This can be done by entering the complete path to the file in the browser's URL bar or by sending a POST request directly to the file. 
  -->
-ファイルへの直接アクセスは、誰かが直接 PHP ファイルに問い合わせることで発生します。これは、ブラウザの URL バーにファイルへの完全なパスを入力するか、ファイルに直接 POST リクエストを送信することで行います。
+ファイルへの直接アクセスは、誰かが直接 PHP ファイルに問い合わせることで発生します。これは、ブラウザーの URL バーにファイルへの完全なパスを入力するか、ファイルに直接 POST リクエストを送信することで行います。
 
 <!-- 
 For files that only contain class or function definitions, the risk of something funky happening when accessed directly is minimal. However, for files that contain executable code (e.g., function calls, class instance creation, class method calls, or inclusion of other PHP files), the risk of security issues is hard to predict because it depends on the specific case, but it can exist and it can be high.
