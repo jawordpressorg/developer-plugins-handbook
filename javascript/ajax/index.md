@@ -8,7 +8,7 @@
 <!-- 
 AJAX is the acronym for Asynchronous JavaScript And XML. XML is a data exchange format and UX is software developer shorthand for User Experience. Ajax is an Internet communications technique that allows a web page displayed in a user's browser to request specific information from a server and display this new information on the same page without the need to reload the entire page. You can already imagine how this improves the user experience.
  -->
-AJAX とは、Asynchronous JavaScript And XML の頭文字をとったものです。XML はデータ交換フォーマットであり、UX はユーザー・エクスペリエンスを意味するソフトウェア開発者の略語です。Ajax とは、インターネット通信技術のひとつで、ユーザーのブラウザに表示された Web ページがサーバーに特定の情報を要求し、ページ全体を再読み込みすることなく、同じページに新しい情報を表示することを可能にするものです。これによってユーザー体験がどのように向上するか、すでに想像がつくことでしょう。
+AJAX とは、Asynchronous JavaScript And XML の頭文字をとったものです。XML はデータ交換フォーマットであり、UX はユーザー・エクスペリエンスを意味するソフトウェア開発者の略語です。Ajax とは、インターネット通信技術のひとつで、ユーザーのブラウザーに表示された Web ページがサーバーに特定の情報を要求し、ページ全体を再読み込みすることなく、同じページに新しい情報を表示することを可能にするものです。これによってユーザー体験がどのように向上するか、すでに想像がつくことでしょう。
 
 <!-- 
 While XML is the traditional data exchange format used, the exchange can actually be any convenient format. When working with PHP code, many developers favor JSON because the internal data structure created from the transmitted data stream is easier to interface with.
@@ -18,7 +18,7 @@ XML は伝統的なデータ交換フォーマットを使用していますが�
 <!-- 
 To see AJAX in action, go to your WordPress administration area and add a category or tag. Pay close attention when you click the Add New button, notice the page changes but does not actually reload. Not convinced? Check your browser's back history, if the page had reloaded, you would see two entries for the page.
  -->
-AJAX の動作を確認するには、WordPress の管理エリアに行き、カテゴリーやタグを追加します。新規追加ボタンをクリックすると、ページが変わりますが、実際にはリロードされないことに注意してください。納得いかないですか ? ブラウザの履歴を確認すると、ページがリロードされた際、そのページに対して2つのエントリーが表示されているはずです。
+AJAX の動作を確認するには、WordPress の管理エリアに行き、カテゴリーやタグを追加します。新規追加ボタンをクリックすると、ページが変わりますが、実際にはリロードされないことに注意してください。納得いかないですか ? ブラウザーの履歴を確認すると、ページがリロードされた際、そのページに対して2つのエントリーが表示されているはずです。
 
 <!-- 
 AJAX does not even require a user action to work. Google Docs automatically saves your document every few minutes with AJAX without you needing to initiate a save action.
@@ -208,7 +208,7 @@ The server response can take on any form. Significant quantities of data should 
 <!-- 
 XML is the old data exchange format for AJAX. It is after all the ‘X' in AJAX. It continues to be a viable exchange format even though it can be difficult to work with using native PHP functions. Many PHP programmers prefer the JSON exchange format for that reason. If you do use XML, the parsing method depends on the browser being used. Use Microsoft.XMLDOM ActiveX for Internet Explorer and use DOMParser for everything else. Note that [Internet Explorer is no longer supported by WordPress](https://make.wordpress.org/core/2021/04/22/ie-11-support-phase-out-plan/) since 5.8 release.
  -->
-XML は、AJAX のための古いデータ交換フォーマットです。つまり、AJAX の「X」です。PHP のネイティブ関数で使うのは難しいかもしれませんが、JSON は今でも有効な交換フォーマットです。そのため、多くの PHP プログラマーは JSON 交換フォーマットを好んでいます。XML を使用する場合、パース方法は使用するブラウザに依存します。Internet Explorer には Microsoft.XMLDOM ActiveX を使い、それ以外には DOMParser を使います。5.8リリース以降、[Internet Explorer は WordPress ではサポートされなくなった](https://make.wordpress.org/core/2021/04/22/ie-11-support-phase-out-plan/)ことに注意してください。
+XML は、AJAX のための古いデータ交換フォーマットです。つまり、AJAX の「X」です。PHP のネイティブ関数で使うのは難しいかもしれませんが、JSON は今でも有効な交換フォーマットです。そのため、多くの PHP プログラマーは JSON 交換フォーマットを好んでいます。XML を使用する場合、パース方法は使用するブラウザーに依存します。Internet Explorer には Microsoft.XMLDOM ActiveX を使い、それ以外には DOMParser を使います。5.8リリース以降、[Internet Explorer は WordPress ではサポートされなくなった](https://make.wordpress.org/core/2021/04/22/ie-11-support-phase-out-plan/)ことに注意してください。
 
 #### JSON
 
@@ -216,7 +216,7 @@ XML は、AJAX のための古いデータ交換フォーマットです。つ�
 JSON is often favored for its light weight and ease of use. You can actually parse JSON using `eval()`, but don't do that! The use of `eval()` carries significant security risks. Instead, use a dedicated parser, which is also faster. Use the global instance of the parser object `JSON`. There are [specific functions to provide an easy way to give a response in JSON format](https://developer.wordpress.org/plugins/javascript/enqueuing/#json) to your AJAX call.
  -->
 
-JSON は軽量で使いやすいため、よく好まれています。`eval()` を使って JSON をパースもできるが、それはやめておきましょう ! `eval()` の使用は重大なセキュリティリスクを伴います。代わりに、より高速な専用のパーサーを使用します。パーサーオブジェクトのグローバルインスタンス `JSON` を使用します。JSON オブジェクトを確実に利用できるようにするには、ページ上の他のスクリプトと一緒にエンキューされていることを確認してください。エンキューに関する詳細は、[PHP のセクション](https://developer.wordpress.org/plugins/javascript/ajax/#json "ページセクション")の後半に記載されています。
+JSON は軽量で使いやすいため、よく好まれています。`eval()` を使って JSON をパースもできるが、それはやめておきましょう ! `eval()` の使用は重大なセキュリティリスクを伴います。代わりに、より高速な専用のパーサーを使用しましょう。パーサーオブジェクトのグローバルインスタンス `JSON` を使用します。AJAX コールには、[JSON フォーマットでレスポンスを返す簡単な方法を提供する、特定の関数](https://developer.wordpress.org/plugins/javascript/enqueuing/#json)があります。
 
 <!-- 
 #### Other
