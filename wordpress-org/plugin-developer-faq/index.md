@@ -1091,7 +1091,7 @@ Assuming you actually did apply for trademarks, you certainly _can_ but it's not
 ### How long will it take for my plugin to show up in search?
 -->
 
-### 私のプラグインが検索に表示されるまで、どのくらい掛かりますか ?
+### 私のプラグインが検索に表示されるまで、どのくらいかかりますか ?
 
 <!--
 Usually 6 to 14 days after a plugin is committed to SVN. This is because we have to add your data, parse it, and share it to all of our _heavily_ cached servers. It's not instantaneous. Also as a new plugin, we have no data on usage, so you may need to wait a bit.
