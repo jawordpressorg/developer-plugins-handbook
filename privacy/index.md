@@ -1,29 +1,34 @@
-<!-- 
+<!--
 # Privacy
- -->
+-->
+
 # プライバシー
 
-<!-- 
+<!--
 Are you writing a plugin that handles personal data – things like names, addresses, and other things that can be used to identify a person? You'll want to take care with that data and protect the privacy of your users and visitors.
- -->
+-->
+
 個人データ - 名前や住所など、個人を特定できるようなもの - を扱うプラグインを書いていますか ? そのようなデータには注意を払い、ユーザーや訪問者のプライバシーを保護したいと思うでしょう。
 
-<!-- 
+<!--
 ## What is Privacy?
- -->
+-->
+
 ## プライバシーとは ?
 
-<!-- 
+<!--
 WordPress.org made several enhancements ahead of Europe's General Data Protection Regulation. Following the launch of this work, we have made Privacy a permanent focus in core trac development, which will allow us to continue making enhancements on privacy and data protection outside specific legislation.
- -->
+-->
+
 WordPress.org は、ヨーロッパの一般データ保護規則 (General Data Protection Regulation、略して GDPR) に先立ち、いくつかの機能強化を行いました。この作業の開始後、私たちはプライバシーを trac のコア開発における恒久的な焦点とし、特定の法律以外でもプライバシーとデータ保護に関する機能強化を継続できるようにしました。
 
-<!-- 
+<!--
 But what kind of issues might fall under the definition of "privacy", and how do we define it? Although privacy requirements vary widely across countries, cultures, and legal systems, there are several general principles applicable across any situation:
- -->
+-->
+
 しかし、どのような問題が「プライバシー」の定義の対象となり、そして、どのように定義すればよいのでしょうか ? プライバシーの要件は国や文化、法制度によって大きく異なりますが、どのような状況でも適用できる一般原則がいくつかあります:
 
-<!-- 
+<!--
 - **Consent and choice:** giving users (and site visitors) choices and options over the uses of their data, and requiring clear, specific, and informed opt-in;
 - **Purpose legitimacy and specification:** only collect and use the personal data for the purpose it was intended for, and for which the user was clearly informed of in advance;
 - **Collection limitation:** only collect the user data which is needed; don't make extra copies of data or combine your data with data from other plugins if you can avoid it;
@@ -35,7 +40,8 @@ But what kind of issues might fall under the definition of "privacy", and how do
 - **Accountability:** documenting the uses of data, protecting it in transit and in use by third parties, and preventing misuse and breaches as much as is possible;
 - **Information security:** protecting data through appropriate technical and security measures;
 - **Privacy compliance:** ensuring that the work meets the privacy regulations of the location where it will be used to collect and process people's data.
- -->
+-->
+
 - **同意と選択:** ユーザー (およびサイト訪問者) にデータの使用に関する選択肢とオプションを与え、明確で具体的、かつ十分な情報にもとづいたオプトインを要求すること;
 - **目的の正当性とその範囲:** 個人データを収集し利用するのは、それが意図され、利用者に事前に明確に通知された目的のためだけです。
 - **収集の制限:** 必要なユーザーデータのみを収集します; 避けられる場合、データの余分なコピーを作成したり、他のプラグインからのデータとあなたのデータを組み合わせたりしません。
@@ -48,27 +54,31 @@ But what kind of issues might fall under the definition of "privacy", and how do
 - **情報セキュリティ:** 適切な技術的およびセキュリティ対策によって、データを保護すること。
 - **プライバシー遵守:** 個人情報の収集および処理に使用される場所の、プライバシー規定に適合していることを確認します。
 
-<!-- 
+<!--
 (Source: [ISO 29100/Privacy Framework standard](https://www.iso.org/standard/45123.html))
- -->
+-->
+
 (出典: [ISO 29100/プライバシー・フレームワーク標準](https://www.iso.org/standard/45123.html))
 
-<!-- 
+<!--
 While not all of these principles will be applicable across all situations and uses, using them in the development process can help to ensure user trust.
- -->
+-->
+
 これらの原則のすべてが、すべての状況や用途に適用できるわけではないが、開発プロセスで使用することで、ユーザーの信頼を確保できます。
 
-<!-- 
+<!--
 ## Privacy By Design
- -->
+-->
+
 ## 設計によるプライバシー
 
-<!-- 
+<!--
 Many of these principles are espoused in the Privacy by Design framework, which states that:
- -->
+-->
+
 これらの原則の多くは、「設計によるプライバシー」フレームワークで支持されており、以下のように提唱されています:
 
-<!-- 
+<!--
 - Privacy should be proactive, not reactive, and must anticipate privacy issues before they reach the user. Privacy must also be preventative, not remedial.
 - Privacy should be the default setting. The user should not have to take actions to secure their privacy, and consent for data sharing should not be assumed.
 - Privacy should be built into design as a core function, not an add-on.
@@ -76,7 +86,8 @@ Many of these principles are espoused in the Privacy by Design framework, which 
 - Privacy should offer end-to-end lifecycle protection through data minimization, minimal data retention, and regular deletion of data which is no longer required.
 - The privacy standards used on your plugin (and service, if applicable) should be visible, transparent, open, documented and independently verifiable.
 - Privacy should be user-centric. People should be given options such as granular privacy choices, maximized privacy defaults, detailed privacy information notices, user-friendly options, and clear notification of changes.
- -->
+-->
+
 - プライバシーは、事後的なものではなく、事前的なものであるべきで、プライバシーに関する問題がユーザーに到達する前に、それを予測しなければなりません。また、プライバシーは、改善策ではなく、予防策でなければなりません。
 - プライバシーは、デフォルト設定であるべきです。ユーザーは、プライバシーを確保するために行動を起こす必要はなく、データ共有の同意は前提とされるべきではありません。
 - プライバシーは、アドオンではなく、コア機能として設計に組み込まれるべきです。
@@ -85,17 +96,19 @@ Many of these principles are espoused in the Privacy by Design framework, which 
 - プラグイン (および該当する場合はサービス) で使用されるプライバシー標準は、可視化され、透明性があり、オープンで、文書化され、独立して検証可能であるべきです。
 - プライバシーは、ユーザー中心であるべきです。きめ細かなプライバシーの選択、最大化されたプライバシーのデフォルト設定、詳細なプライバシー情報の通知、ユーザーフレンドリーなオプション、明確な変更通知などのオプションが、人々に与えられるべきです。
 
-<!-- 
+<!--
 ## Food for Thought for Your Plugin
- -->
+-->
+
 ## プラグインを考えるための糧
 
-<!-- 
+<!--
 To help your plugin be ready, we recommend going through the following list of questions for every plugin that you make:
- -->
+-->
+
 プラグインを準備するために、プラグインを作成する都度、以下の質問リストを確認することをおすすめします:
 
-<!-- 
+<!--
 1. How does your plugin handle personal data? Use [`wp_add_privacy_policy_content()`](https://developer.wordpress.org/reference/functions/wp_add_privacy_policy_content/) to disclose to your users any of the following:
 	- Does the plugin share personal data with third parties (e.g. to outside APIs/servers). If so, what data does it share with which third parties and do they have a published privacy policy you can provide a link to?
 	- Does the plugin collect personal data? If so, what data and where is it stored? Think about places like user data/meta, options, post meta, custom tables, files, etc.
@@ -118,7 +131,8 @@ To help your plugin be ready, we recommend going through the following list of q
 8. Does the plugin provide controls to reduce the amount of personal data required?
 9. Does the plugin share personal data with SDKs or APIs only when the SDK or API requires it, or is the plugin also sharing personal data that is optional?
 10. Does the amount of personal data collected or shared by this plugin change when certain other plugins are also installed?
- -->
+-->
+
 1. あなたのプラグインは、個人情報をどのように扱いますか ? [`wp_add_privacy_policy_content()`](https://developer.wordpress.org/reference/functions/wp_add_privacy_policy_content/) を使用して、以下のいずれかをユーザーに開示してください:
 	- プラグインは、個人情報を第三者 (たとえば、外部の API/サーバーなど) と共有しますか ? もしそうであれば、どのようなデータをどのような第三者と共有し、その第三者には、リンクを提供できるような公開されたプライバシーポリシーがありますか ?
 	- ラグインは個人情報を収集しますか ? もしそうなら、どのようなデータをどこに格納していますか ? ユーザーデータ/メタ、オプション、投稿メタ、カスタムテーブル、ファイルなどの場所を考えてください。
@@ -142,14 +156,16 @@ To help your plugin be ready, we recommend going through the following list of q
 9. プラグインは、SDK または API が要求する場合にのみ個人情報を SDK または API と共有しますか ? または、プラグインは、任意である個人情報も共有しますか ?
 10. 他のプラグインもインストールされている場合、このプラグインによって収集または共有される個人情報の量は変化しますか ?
 
-<!-- 
+<!--
 ## External Resources
- -->
+-->
+
 ## 外部リソース
 
-<!-- 
+<!--
 * [Privacy Blog](https://privacy.blog/)
 * [WordPress.org Privacy Policy](https://wordpress.org/about/privacy/)
- -->
+-->
+
 * [プライバシー・ブログ](https://privacy.blog/)
 * [WordPress.org プライバシー・ポリシー](https://wordpress.org/about/privacy/)
