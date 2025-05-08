@@ -14,7 +14,7 @@ Every person who pushes code for, or aids in support for, a plugin is required t
 There are four roles a user can have with regards to plugins. All can be managed from the **advanced view** section of a plugin page:
 -->
 
-プラグインに関して、ユーザーが持てる4つの権限グループがあります。すべてプラグインページの **詳細表示** セクションから管理できます:
+プラグインに関して、ユーザーが持つことができる4つの権限グループがあります。すべてプラグインページの **詳細表示** セクションから管理できます:
 
 <!--
 ![Interface of the plugin page, the link ''Advanced View'' is highlighted.](https://i0.wp.com/developer.wordpress.org/files/2020/08/advanced-view.jpg?resize=300%2C260&ssl=1)
