@@ -14,7 +14,7 @@ WordPress プラグインのコードのセキュリティは、[非常に慎重
 [warning]If you have found a plugin with a security issue, please read [Reporting Plugin Security Issues](https://developer.wordpress.org/plugins/wordpress-org/plugin-security/reporting-plugin-security-issues/).[/warning]
 -->
 
-[warning]セキュリティ上の課題があるプラグインを見つけた場合は、[プラグインのセキュリティ課題を報告する](https://developer.wordpress.org/plugins/wordpress-org/plugin-security/reporting-plugin-security-issues/)をお読みください。[/warning]
+[warning]セキュリティの課題があるプラグインを見つけた場合は、[プラグインのセキュリティ課題を報告する](https://developer.wordpress.org/plugins/wordpress-org/plugin-security/reporting-plugin-security-issues/)をお読みください。[/warning]
 
 <!--
 When a plugin vulnerability is verified by the WordPress Security Team, they contact the plugin author and direct them as to how to fix and release a secure version of the plugin. If there is a lack of response from the plugin author or if the vulnerability is severe, the plugin/theme is pulled from the public directory, and in some cases, fixed and updated directly by the Security Team.
@@ -32,7 +32,7 @@ WordPress セキュリティチームによってプラグインの脆弱性が�
 When you receive a report of security issues in your plugins, it can be terrifying. First, don't panic. Everyone makes mistakes. What matters most is fixing it safely and promptly.
 -->
 
-プラグインにセキュリティ上の課題があるという報告を受けると、恐ろしくなります。まず、慌てないでください。誰にでもミスはあります。最も重要なのは、安全かつ迅速に修正することです。
+プラグインにセキュリティの課題があるという報告を受けると、恐ろしくなります。まず、慌てないでください。誰にでもミスはあります。最も重要なのは、安全かつ迅速に修正することです。
 
 <!--
 1. Make sure you understand the report. If you're not sure what it means, ask for details. Even third-party reporters are usually willing to take the time to explain what's wrong and direct you where to research a proper fix.
@@ -46,7 +46,7 @@ When you receive a report of security issues in your plugins, it can be terrifyi
 1. 報告の内容をよく理解してください。意味がわからない場合は、詳細を尋ねてください。第三者の報告者であっても、通常は時間を割いて何が問題なのかを説明し、適切な修正方法を調べる場所を指示してくれます。
 2. 変更はできるだけ最小限にとどめましょう。そうすることで、後で見直すのがずっと簡単になります。
 3. プラグインをテストしましょう。セキュリティ修正が他の何かを壊していないことを確認してください。アップグレードによって変なエラーが発生しないことを確認してください。`WP_DEBUG` をオンにしておき、エラーがあればログに記録してください。
-4. 変更ログに課題を記録しましょう。何が起きたかについて詳細を書く必要はありませんが、セキュリティ上の課題が解決されたことを記録してください。
+4. 変更ログに課題を記録しましょう。何が起きたかについて詳細を書く必要はありませんが、セキュリティの課題が解決されたことを記録してください。
 5. readme に報告者についてクレジットしてください。これは単なる善意であり、のちのち、人々が無償であなたを助けようという気にさせるものです。
 6. バージョン番号を上げましょう。私たちは [SemVer (semantic software versioning、意味論的ソフトウェア・バージョニング)](https://semver.org/) を推奨しているので、プラグインのバージョン3.9のセキュリティリリースはバージョンを3.9.1などに変更します。
 
@@ -146,7 +146,7 @@ If you feel your plugin has a large enough user base or the issue is of great si
 With few exceptions, no. A security push should _only_ be security related. We prefer (and many times require) plugin releases which fix **only** the security issue, with minimal code changes and with no unrelated changes.
 -->
 
-一部の例外を除いては、そうではありません。セキュリティ・プッシュはセキュリティに _だけ_ 関連すべきです。私たちは、セキュリティ上の課題 **だけ** を修正し、最小限のコード変更で、関連性のない変更を含まないプラグインのリリースを好みます (そして、多くの場合、それを要求します)。
+一部の例外を除いては、そうではありません。セキュリティ・プッシュはセキュリティに _だけ_ 関連すべきです。私たちは、セキュリティの課題 **だけ** を修正し、最小限のコード変更で、関連性のない変更を含まないプラグインのリリースを好みます (そして、多くの場合、それを要求します)。
 
 <!--
 This allows everyone to review the changes quickly and to be far more confident in them. Also it means there is a minimal amount of disruption on the part of the users.
@@ -188,7 +188,7 @@ There are several options to disable this functionality. The article for [disabl
 You don't have to. Your plugin will remain closed and, after 2 or 3 months, the plugin page will report that it was closed for security issues. If you want to push a fix but keep the plugin closed, we can do that too. Just reply to the email and talk to us.
 -->
 
-その必要はありません。あなたのプラグインはクローズされたままとなり、2、3ヵ月後にプラグインのページに、セキュリティ上の課題でクローズされたことが報告されます。プラグインをクローズしたまま修正をプッシュしたい場合、私たちはそれも可能です。メールに返信して、私たちにご相談ください。
+その必要はありません。あなたのプラグインはクローズされたままとなり、2、3ヵ月後にプラグインのページに、セキュリティの課題でクローズされたことが報告されます。プラグインをクローズしたまま修正をプッシュしたい場合、私たちはそれも可能です。メールに返信して、私たちにご相談ください。
 
 <!--
 ### Do I only have to fix the reported issue?
@@ -212,4 +212,4 @@ Yes でもあり No でもあります。報告された課題は、修正 _し�
 This comes up when people are breaking other guidelines like including their own copy of jQuery or making undocumented external service calls. It depends on the severity of the other issues. If it's just your own jQuery, we'll likely let it be reopened and allow you to fix that at your own pace. If you're logging all installs of your plugins, you'll be required to correct that before we reopen the plugin.
 -->
 
-これは、jQuery の独自のコピーを入れたり、文書化されていない外部サービスを呼び出したりするなど、他のガイドラインを破っている場合に発生します。他の課題の重大性に拠ります。あなた自身の jQuery だけであれば、私たちはおそらくその課題を再開させ、あなた自身のペースで修正することを許可するでしょう。プラグインのすべてのインストールを記録している場合は、プラグインを再開する前に修正する必要があります。
+これは、jQuery の独自のコピーを入れたり、ドキュメント化されていない外部サービスを呼び出したりするなど、他のガイドラインを破っている場合に発生します。他の課題の重大性に拠ります。あなた自身の jQuery だけであれば、私たちはおそらくその課題を再開させ、あなた自身のペースで修正することを許可するでしょう。プラグインのすべてのインストールを記録している場合は、プラグインを再開する前に修正する必要があります。

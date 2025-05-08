@@ -65,7 +65,7 @@ esc_html_e( 'The REST API content endpoints were added in WordPress 4.7.', 'your
 Alternatively, some people choose to rely on a translation verification mechanism, rather than adding escaping to their code. One example of a verification mechanism is [the editor roles](https://make.wordpress.org/polyglots/handbook/glossary/#project-translation-editor) that the WordPress Polyglots team uses for [translate.wordpress.org](https://translate.wordpress.org/). This ensures that any translation submitted by an untrusted contributor has been verified by a trusted editor before being accepted.
 -->
 
-もしくは、コードにエスケープを追加するのではなく、翻訳検証メカニズムに依存することを選択する人もいます。検証メカニズムの一例として、WordPress Polyglots チームが [translate.wordpress.org](https://translate.wordpress.org/) で使用している[エディターの役割](https://make.wordpress.org/polyglots/handbook/glossary/#project-translation-editor)があります。これにより、信頼されていないコントリビューターによって投稿された翻訳が受理される前に、信頼されたエディターによって検証されることが保証されます。
+もしくは、コードにエスケープを追加するのではなく、翻訳検証メカニズムに依存することを選択する人もいます。検証メカニズムの一例として、WordPress Polyglots チームが [translate.wordpress.org](https://translate.wordpress.org/) で使用している[エディターの役割](https://make.wordpress.org/polyglots/handbook/glossary/#project-translation-editor)があります。これにより、信頼されていない貢献者によって投稿された翻訳が受理される前に、信頼されたエディターによって検証されることが保証されます。
 
 <!--
 ## Use Placeholders for URLs

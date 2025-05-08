@@ -70,7 +70,7 @@ If a plugin is closed because it was **unused**, you can skip the rest of this a
 If the plugin was closed for security issues, we require **all** those issues to be resolved, so put your best foot forward and demonstrate you have the impetus to find and fix those issues.
 -->
 
-もしプラグインがセキュリティ上の課題でクローズされたのであれば、私たちはそれらの課題を **すべて** 解決することを求めるので、最善を尽くし、それらの課題を見つけ、修正する意欲があることを証明してください。
+もしプラグインがセキュリティの課題でクローズされたのであれば、私たちはそれらの課題を **すべて** 解決することを求めるので、最善を尽くし、それらの課題を見つけ、修正する意欲があることを証明してください。
 
 <!--
 Closed plugins are _less_ likely to be able to be adopted, as the nature of their closures may be more complex and intricate. If a plugin was closed for license issues, for example, we may not be permitted to reopen it for anyone except the license holders.
@@ -140,7 +140,7 @@ Even if the plugin has been given to you by the developer, you must review the c
 Your update must include editing the readme to ensure it documents the new ownership (and preferably when it takes place), removing all links to their site/support resources, as well as updating the copyright information to include you. Remember, copyright is additive. You keep the old and add yours on.
 -->
 
-あなたの更新には、「新しい所有権を確実に文書化する (できれば、所有権の移動がいつ行われるのかも)、readme の編集」、「彼らのサイト/サポートリソースへの、すべてのリンクの削除」、そして「あなたを含む著作権情報の更新」が含まれていなければなりません。著作権は、付加的なものであることを忘れないでください。古いものを残し、あなたのものを加えるのです。
+あなたの更新には、「新しい所有権を確実にドキュメント化する (できれば、所有権の移動がいつ行われるのかも)、readme の編集」、「彼らのサイト/サポートリソースへの、すべてのリンクの削除」、そして「あなたを含む著作権情報の更新」が含まれていなければなりません。著作権は、付加的なものであることを忘れないでください。古いものを残し、あなたのものを加えるのです。
 
 <!--
 If your plugin is a major upgrade, you _must_ provide an upgrade path. Just wanting a name-slug is not sufficient reason to take over a plugin. We care deeply about our users, and violating their trust in us by breaking their existing sites with your upgrades is to be avoided at all costs.
@@ -182,7 +182,7 @@ After we receive your version of the code as a zip, we will review it and test i
 At this stage, some plugins are determined to have existing security flaws. We may close those plugins, depending on the nature of the issues, and you will be trusted to not publicly disclose those issues.
 -->
 
-この段階で、セキュリティ上の欠陥があると判断されるプラグインもあります。課題の内容によっては、それらのプラグインをクローズすることもありますし、あなたにはそれらの課題を公表しないという約束をしていただきます。
+この段階で、セキュリティの欠陥があると判断されるプラグインもあります。課題の内容によっては、それらのプラグインをクローズすることもありますし、あなたにはそれらの課題を公表しないという約束をしていただきます。
 
 <!--
 ### 5. We Contact the Original Developer
@@ -266,7 +266,7 @@ No. You inherit the good and the bad.
 No. You can (and in fact should) remove commit access from anyone who is not actively maintaining the plugin. However. Per copyright restrictions, you must retain their credit in the code. We recommend you also leave them listed as a contributor.
 -->
 
-いいえ。プラグインを積極的に保守していない人からのコミットアクセスを削除できます (実際そうすべき)。しかしながら。著作権の規定により、あなたはその人のクレジットをコードに残さなければなりません。また、彼らをコントリビューターとしてリストアップしておくことをおすすめします。
+いいえ。プラグインを積極的に保守していない人からのコミットアクセスを削除できます (実際そうすべき)。しかしながら。著作権の規定により、あなたはその人のクレジットをコードに残さなければなりません。また、彼らを貢献者としてリストアップしておくことをおすすめします。
 
 <!--
 ### The original developer is dead. Does that change anything?

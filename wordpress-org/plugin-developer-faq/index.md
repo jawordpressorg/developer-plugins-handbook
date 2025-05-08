@@ -719,7 +719,7 @@ From the information you specify in the plugin file and in the [readme.txt file]
 You should also make full use of the [Plugin Headers](https://developer.wordpress.org/plugins/the-basics/header-requirements/) in your main plugin file. Those will define how your username shows up on the WordPress.org hosting page, as well as in the WordPress Admin. We recommend using all those headers to fully document your plugin.
 -->
 
-メイン・プラグインファイル内の[ヘッダー項目](https://developer.wordpress.org/plugins/the-basics/header-requirements/)もフル活用しましょう。それらは、WordPress 管理画面と同様に、WordPress.org のホスティングページでユーザー名がどのように表示されるかを定義します。プラグインを完全に文書化するために、これらのヘッダーをすべて使用することをおすすめします。
+メイン・プラグインファイル内の[ヘッダー項目](https://developer.wordpress.org/plugins/the-basics/header-requirements/)もフル活用しましょう。それらは、WordPress 管理画面と同様に、WordPress.org のホスティングページでユーザー名がどのように表示されるかを定義します。プラグインを完全にドキュメント化するために、これらのヘッダーをすべて使用することをおすすめします。
 
 <!--
 ### Can I specify what version of my plugin the WordPress.org Plugin Directory should use?
@@ -1175,7 +1175,7 @@ You can also go to `https://profiles.wordpress.org/YOURID/profile/notifications/
 You can add Support Representatives to your plugin. Support representatives can mark forum topics as resolved or sticky (same as plugin authors and contributors), but don't have commit access to the plugin.
 -->
 
-プラグインにサポート担当者を追加できます。サポート担当者は、フォーラムのトピックに「解決済み」や「ふせん」マークを付けることができます (プラグインの作者やコントリビューターと同じです) が、プラグインへのコミット権限はありません。
+プラグインにサポート担当者を追加できます。サポート担当者は、フォーラムのトピックに「解決済み」や「ふせん」マークを付けることができます (プラグインの作者や貢献者と同じです) が、プラグインへのコミット権限はありません。
 
 <!--
 The UI for managing plugin support reps can be found in Advanced View on the plugin page, next to managing committers. Once someone is added as a support rep, they will get a Plugin Support badge when replying to the plugin support topics or reviews.
@@ -1373,7 +1373,7 @@ Please note: We do not publicly disclose the details on exactly why a plugin has
 If you report an [security issue](https://developer.wordpress.org/plugins/wordpress-org/plugin-security/reporting-plugin-security-issues/) or a [guideline violation](https://developer.wordpress.org/plugins/wordpress-org/detailed-plugin-guidelines/) in a plugin to `plugins@wordpress.org`, we will review and take appropriate action. Most of the time, this involves closing a plugin. Your name will not be disclosed unless you ask for it to be so, in order to protect you from backlash.
 -->
 
-プラグインに関する[セキュリティ上の課題](https://developer.wordpress.org/plugins/wordpress-org/plugin-security/reporting-plugin-security-issues/)や[ガイドライン違反](https://developer.wordpress.org/plugins/wordpress-org/detailed-plugin-guidelines/)を `plugins@wordpress.org` に報告いただいた場合、プラグインを確認し、適切な処置をとらせていただきます。ほとんどの場合、プラグインをクローズすることになります。反感からあなたを守るため、あなたが要求しない限り、あなたの名前は公表されません。
+プラグインに関する[セキュリティの課題](https://developer.wordpress.org/plugins/wordpress-org/plugin-security/reporting-plugin-security-issues/)や[ガイドライン違反](https://developer.wordpress.org/plugins/wordpress-org/detailed-plugin-guidelines/)を `plugins@wordpress.org` に報告いただいた場合、プラグインを確認し、適切な処置をとらせていただきます。ほとんどの場合、プラグインをクローズすることになります。反感からあなたを守るため、あなたが要求しない限り、あなたの名前は公表されません。
 
 <!--
 ### Someone posted a copy of my plugin! What do I do?
@@ -1457,7 +1457,7 @@ Email `plugins@wordpress.org` a clear and concise description of the issue. [Ple
 No. We have no relationship with any bug bounty programs, so we don't file your reports etc to them. The only one with which we work is [hackerone.com/automattic](https://hackerone.com/automattic) and that's for bugs related to Automattic properties. Everything else is on your own, don't ask us to submit things.
 -->
 
-いいえ。私たちはバグ報奨金プログラムとは何の関係もありませんので、バグ報告などを提出することはありません。唯一提携しているのは [hackerone.com/automattic](https://hackerone.com/automattic) のみで、Automattic のプロパティに関連するバグが対象です。それ以外はすべて各自で行ってください。私たちに提出を求めないでください。
+いいえ。私たちはバグ報奨金プログラムとは何の関係もありませんので、バグレポートなどを提出することはありません。唯一提携しているのは [hackerone.com/automattic](https://hackerone.com/automattic) のみで、Automattic のプロパティに関連するバグが対象です。それ以外はすべて各自で行ってください。私たちに提出を求めないでください。
 
 <!--
 ### Do you help file or provide CVEs?
@@ -1481,7 +1481,7 @@ No. We do not have the ability to assist with CVEs.
 Maybe. If it was closed for a security reason, fix the issue, reply to the email, and most of the time we'll reopen the plugin unless it has more security issues or severe guideline issues. If it was closed for guideline violations, it depends on the severity and nature of the violation. Repeat offenders are less likely to have a plugin reopened, for example, than first-timers.
 -->
 
-多分。セキュリティ上の理由でクローズされた場合は、課題を修正し、メールに返信してください。ほとんどの場合、セキュリティ上の問題やガイドラインの重大な問題がない限り、プラグインを再オープンします。ガイドライン違反でクローズされた場合は、違反の度合いと性質によります。たとえば、度重なる違反者は、初めての違反者よりもプラグインを再オープンする可能性は低くなります。
+多分。セキュリティの理由でクローズされた場合は、課題を修正し、メールに返信してください。ほとんどの場合、セキュリティの問題やガイドラインの重大な問題がない限り、プラグインを再オープンします。ガイドライン違反でクローズされた場合は、違反の度合いと性質によります。たとえば、度重なる違反者は、初めての違反者よりもプラグインを再オープンする可能性は低くなります。
 
 <!--
 If you asked for the plugin to be closed, you will be expected to explain why the change of heart. Plugins are intended to remain closed when a developer requests it, and not reopened again a month later.

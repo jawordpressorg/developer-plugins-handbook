@@ -104,7 +104,7 @@ In the forums, these people are labeled as a “Plugin Author” and have the ab
 Other than the “Plugin Author” label in the forum for replies to plugin support topics, having commit access is not outwardly displayed. In order to be listed in the plugin’s “Contributors & Developers” section, and to have the plugin included in a WordPress.org profile, the user must be listed as a contributor (see the subsequent section).
 -->
 
-フォーラムでプラグインのサポートトピックに返信する際、「Plugin Author」ラベルが表示される以外、コミット権限を持っていることは表には表示されません。プラグインの「貢献者と開発者」セクションに表示され、WordPress.org のプロフィールにプラグインが表示されるようにするには、ユーザーはコントリビューターとしてリストされている必要があります (後続のセクションを参照)。
+フォーラムでプラグインのサポートトピックに返信する際、「Plugin Author」ラベルが表示される以外、コミット権限を持っていることは表には表示されません。プラグインの「貢献者と開発者」セクションに表示され、WordPress.org のプロフィールにプラグインが表示されるようにするには、ユーザーは貢献者としてリストされている必要があります (後続のセクションを参照)。
 
 <!--
 Adding and removing commit access can only be done by an existing committer.

@@ -14,7 +14,7 @@
 If you find a plugin with a security issue, please **do not** post about it publicly anywhere. Even if there’s a report filed on one of the official security tracking sites, bringing more awareness to the security issue tends to increase people being hacked, and rarely speeds up the fixing.
 -->
 
-セキュリティ上の課題があるプラグインを見つけた場合、それについて公に投稿 **しないでください**。たとえ公式のセキュリティ追跡サイトに報告があったとしても、セキュリティの課題を広く認識させることは、ハッキングされる人を増加させる傾向があるだけであり、修正が早まることはほとんどありません。
+セキュリティの課題があるプラグインを見つけた場合、それについて公に投稿 **しないでください**。たとえ公式のセキュリティ追跡サイトに報告があったとしても、セキュリティの課題を広く認識させることは、ハッキングされる人を増加させる傾向があるだけであり、修正が早まることはほとんどありません。
 
 <!--
 To report a plugin, please email `plugins@wordpress.org` with the following:
