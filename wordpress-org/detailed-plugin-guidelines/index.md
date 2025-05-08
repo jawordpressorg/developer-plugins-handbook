@@ -72,7 +72,7 @@ It is the responsibility of the plugin developer to ensure their contact informa
 All code in the directory should be made as secure as possible. Security is the ultimate responsibility of the plugin developer, and the Plugin Directory enforces this to the best of our ability. Should a plugin be found to have security issues, it will be closed until the situation is resolved. In extreme cases the plugin may be updated by the WordPress Security team and propagated for the safety of the general public.
 -->
 
-ディレクトリ内のすべてのコードは、可能な限り、安全でなければなりません。セキュリティは、プラグイン開発者の最終的な責任であり、プラグイン・ディレクトリは、可能な限りこれを実施します。プラグインにセキュリティ上の問題があることが判明した場合、そのプラグインは、問題が解決するまでクローズされます。極端な場合、プラグインは WordPress セキュリティチームによって更新され、一般の人々の安全のために周知されるかもしれません。
+ディレクトリ内のすべてのコードは、可能な限り、安全でなければなりません。セキュリティは、プラグイン開発者の最終的な責任であり、プラグイン・ディレクトリは、可能な限りこれを実施します。プラグインにセキュリティの問題があることが判明した場合、そのプラグインは、問題が解決するまでクローズされます。極端な場合、プラグインは WordPress セキュリティチームによって更新され、一般の人々の安全のために周知されるかもしれません。
 
 <!--
 While we attempt to account for as many relevant interpretations of the guidelines as possible, it is unreasonable to expect that every circumstance will be explicitly covered. If you are uncertain whether a plugin might violate the guidelines, please contact `plugins@wordpress.org` and ask.
@@ -164,7 +164,7 @@ We require developers to provide public, maintained access to their source code 
 We strongly recommend you document how any development tools are to be used.
 -->
 
-開発ツールの使用方法を文書化することを強く推奨します。
+開発ツールの使用方法をドキュメント化することを強く推奨します。
 
 <!--
 ### 5. Trialware is not permitted
@@ -200,7 +200,7 @@ Attempting to upsell the user on ad-hoc products and features _is_ acceptable, p
 Plugins that act as an interface to some external third party service (e.g. a video hosting site) are allowed, even for paid services. The service itself must provide functionality of substance and be clearly documented in the readme file submitted with the plugin, preferably with a link to the service's Terms of Use.
 -->
 
-外部のサードパーティサービス (例: 動画ホスティングサイト) へのインターフェースとして動作するプラグインは、有料サービスであっても許可されます。そのサービス自体が実質的な機能を提供し、プラグインと一緒に提出される readme ファイルに明確に文書化されていなければなりません。できれば、そのサービスの利用規約へのリンクがあることが望ましいです。
+外部のサードパーティサービス (例: 動画ホスティングサイト) へのインターフェースとして動作するプラグインは、有料サービスであっても許可されます。そのサービス自体が実質的な機能を提供し、プラグインと一緒に提出される readme ファイルに明確にドキュメント化されていなければなりません。できれば、そのサービスの利用規約へのリンクがあることが望ましいです。
 
 <!--
 Services and functionality _not_ allowed include:
@@ -247,7 +247,7 @@ Some examples of prohibited tracking include:
 - ユーザーの明示的な確認なしに、ユーザーデータを自動的に収集すること。
 - プラグイン自体の使用要件として、意図的にユーザーを誤解させて情報を提出させること。
 - サービスに関係のない (画像やスクリプトを含む) アセットをオフロードすること。
-- 文書化されていない (または文書化が不十分な) 外部データ (ブロックリストなど) の使用。
+- ドキュメント化されていない (またはドキュメント化が不十分な) 外部データ (ブロックリストなど) の使用。
 - 利用状況や閲覧数を追跡する、サードパーティの広告メカニズム。
 
 <!--

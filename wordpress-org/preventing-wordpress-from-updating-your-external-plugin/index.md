@@ -20,7 +20,7 @@ WordPress.org でプラグインをホストしている場合、すべてのア
 We have chosen to document it here for the education of developers, as well as to ensure the global WordPress community can be safer.
 -->
 
-私たちは、開発者の教育のため、また世界の WordPress コミュニティがより安全であることを保証するために、ここに文書化することにしました。
+私たちは、開発者の教育のため、また世界の WordPress コミュニティがより安全であることを保証するために、ここにドキュメント化することにしました。
 
 <!--
 ## Always Use Good Folder Names

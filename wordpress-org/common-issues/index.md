@@ -445,7 +445,7 @@ WordPress には、関数 [wp_get_mime_types](https://developer.wordpress.org/re
 If you need to add a specific file that is not in the list and that won't represent a security risk, you can do so using the [upload_mimes](https://developer.wordpress.org/reference/hooks/upload_mimes/) filter.
 -->
 
-リストにない特定のファイルを追加する必要があり、セキュリティ上のリスクがない場合は、フィルター [upload_mimes](https://developer.wordpress.org/reference/hooks/upload_mimes/) を使用して追加できます。
+リストにない特定のファイルを追加する必要があり、セキュリティのリスクがない場合は、フィルター [upload_mimes](https://developer.wordpress.org/reference/hooks/upload_mimes/) を使用して追加できます。
 
 <!--
 #### Files: Calling files remotely
@@ -676,7 +676,7 @@ Direct file access occurs when someone directly queries a PHP file. This can be 
 For files that only contain class or function definitions, the risk of something funky happening when accessed directly is minimal. However, for files that contain executable code (e.g., function calls, class instance creation, class method calls, or inclusion of other PHP files), the risk of security issues is hard to predict because it depends on the specific case, but it can exist and it can be high.
 -->
 
-クラスや関数の定義のみを含むファイルについては、直接アクセスした場合に何かおかしなことが起こる危険性はほとんどありません。しかし、実行可能なコード (関数コール、クラスインスタンスの生成、クラスメソッドのコール、他の PHP ファイルのインクルード、等) を含むファイルについては、セキュリティ上の問題が発生するリスクは特定のケースに依存するため、予測が困難ですが、それは存在する可能性があり、高くなる可能性もあります。
+クラスや関数の定義のみを含むファイルについては、直接アクセスした場合に何かおかしなことが起こる危険性はほとんどありません。しかし、実行可能なコード (関数コール、クラスインスタンスの生成、クラスメソッドのコール、他の PHP ファイルのインクルード、等) を含むファイルについては、セキュリティの問題が発生するリスクは特定のケースに依存するため、予測が困難ですが、それは存在する可能性があり、高くなる可能性もあります。
 
 <!--
 You can easily prevent this by adding the following code at the top of all PHP files that could potentially execute code if accessed directly:

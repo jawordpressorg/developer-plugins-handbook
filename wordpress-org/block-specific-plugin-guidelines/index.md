@@ -35,7 +35,7 @@ The goal of the [Block Directory](https://wordpress.org/plugins/browse/block/) i
 - Blocks will work seamlessly and immediately without intrusive advertisements or upselling.
 -->
 
-- ユーザーは、WordPress の管理画面と WordPress.org の両方で、セキュリティ上の課題がないか事前に審査されたブロックをダウンロードしてインストールできる場所を持つことができます。
+- ユーザーは、WordPress の管理画面と WordPress.org の両方で、セキュリティの課題がないか事前に審査されたブロックをダウンロードしてインストールできる場所を持つことができます。
 - ユーザーは、管理画面からワンクリックでブロックを1つずつインストールできます。
 - ブロックは、インストールと有効化後にブロック・ライブラリに表示されます。
 - ブロックは、押し付けがましい広告やアップセリングなしに、シームレスかつ即座に機能します。

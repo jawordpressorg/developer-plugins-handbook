@@ -8,7 +8,7 @@
 As a security precaution, running PHP inside WordPress content is forbidden; to allow dynamic interactions with the content, Shortcodes were presented in WordPress version 2.5.
 -->
 
-セキュリティ上の予防措置として、WordPress コンテンツ内で PHP を実行することは禁止されています。コンテンツとの動的なインタラクションを可能にするために、WordPress バージョン2.5でショートコードが導入されました。
+セキュリティの予防措置として、WordPress コンテンツ内で PHP を実行することは禁止されています。コンテンツとの動的なインタラクションを可能にするために、WordPress バージョン2.5でショートコードが導入されました。
 
 <!--
 Shortcodes are macros that can be used to perform dynamic interactions with the content. i.e creating a gallery from images attached to the post or rendering a video.

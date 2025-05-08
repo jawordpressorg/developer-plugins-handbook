@@ -98,4 +98,4 @@ If you’ve written a plugin that introduces or improves blocks, or know of a pl
 Before you email, please make certain your plugin is compatible with the latest version of WordPress and that it is free from all security issues. If there are security or guideline issues in your plugin, it may be closed pending your corrections.
 -->
 
-メールを送る前に、あなたのプラグインが WordPress の最新バージョンと互換性があり、セキュリティ上の課題がないことを確認してください。あなたのプラグインにセキュリティやガイドライン上の課題がある場合、あなたの修正待ちでクローズされることがあります。
+メールを送る前に、あなたのプラグインが WordPress の最新バージョンと互換性があり、セキュリティの課題がないことを確認してください。あなたのプラグインにセキュリティやガイドライン上の課題がある場合、あなたの修正待ちでクローズされることがあります。

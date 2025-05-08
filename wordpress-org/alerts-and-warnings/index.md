@@ -100,7 +100,7 @@ Plugin committers will see the following additional note:
 - ガイドライン違反 – ガイドラインのいずれかに違反しています。
 - ライセンス/商標違反 – 非 GPL コードが使用されていたり、商標が誤用されていたりします。
 - コアにマージ – プラグインはコアの一部になりました (機能プロジェクトのために予約されていました)。
-- セキュリティ問題 – このプラグインにセキュリティ上の懸念が見つかりました。
+- セキュリティ問題 – このプラグインにセキュリティの懸念が見つかりました。
 
 <!--
 Additional details on why a plugin is closed are not provided to anyone outside the WordPress.org security team or the plugin authors, unless there is an extreme circumstance.

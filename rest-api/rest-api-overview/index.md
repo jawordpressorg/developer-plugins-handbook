@@ -112,7 +112,7 @@ Responses are the data you get back from the API. The `WP_REST_Response` provide
 When we have responses and requests of different kinds of data, we need to be able to tell what type of data we are interacting with. Schema provides us a way to structure our data. Schema also provides security benefits for the API as it enables us to validate requests being made to the API. Schema is a large topic and we will get into that in the schema section.
 -->
 
-さまざまな種類のデータに対するレスポンスやリクエストがある場合、どのような種類のデータと相互作用しているのかを見分けられるようにする必要があります。スキーマは、データを構造化する方法を提供してくれます。スキーマはまた、API へのリクエストを検証できるため、API にセキュリティ上の利点をもたらします。スキーマは大きなトピックですので、スキーマのセクションで説明することにしましょう。
+さまざまな種類のデータに対するレスポンスやリクエストがある場合、どのような種類のデータと相互作用しているのかを見分けられるようにする必要があります。スキーマは、データを構造化する方法を提供してくれます。スキーマはまた、API へのリクエストを検証できるため、API にセキュリティの利点をもたらします。スキーマは大きなトピックですので、スキーマのセクションで説明することにしましょう。
 
 <!--
 ### Controller Classes
