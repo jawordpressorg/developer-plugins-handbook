@@ -51,10 +51,10 @@ If a valid `blueprint.json` file is present, then the Preview button will be p
 有効なファイル `blueprint.json` が存在する場合、プラグインのコミッターのみにプレビューボタンが表示されます。その場合、このように表示されます:
 
 <!--
-<img alt="The Test Preview button allows plugin authors to showcase what their plugin does with one click." src="./live-preview.png" width="277" />
+![The Test Preview button allows plugin authors to showcase what their plugin does with one click.](https://i0.wp.com/developer.wordpress.org/files/2024/03/live-preview.png?resize=554%2C140&ssl=1)
 -->
 
-<img alt="テストプレビュー ボタンを使用すると、プラグインの作成者は 1回のクリックでプラグインの機能を紹介できます。" src="./live-preview.png" width="277" />
+![テストプレビュー ボタンを使用すると、プラグインの作成者は 1回のクリックでプラグインの機能を紹介できます。](https://i0.wp.com/developer.wordpress.org/files/2024/03/live-preview.png?resize=554%2C140&ssl=1)
 
 <!-- 
 It’s called Test Preview because that’s why it’s there: to allow plugin committers to test their plugin in the Playground environment and decide whether or not to make it easily available to the public.

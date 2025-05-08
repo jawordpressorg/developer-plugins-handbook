@@ -527,7 +527,7 @@ Your Subversion tags should look like version numbers. Specifically, they should
 Subversion のタグは、バージョン番号のように見えるべきです。具体的には、**数字とピリオド** だけを含むべきです。`2.8.4` は良いタグで、`my neato releaso` は悪いタグです。[セマンティック・バージョニング](https://semver.org)を使ってリリース管理することを推奨しますが、強制はしません。
 
 <!-- 
-Note that we're talking about _Subversion_ tags here, not `readme.txt search type tags.
+Note that we're talking about _Subversion_ tags here, not `readme.txt` search type tags.
  -->
 ここで話しているのは _Subversion_ タグについてであって、`readme.txt` 検索タイプのタグについてではないことに、注意してください。
 
