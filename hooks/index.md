@@ -51,8 +51,8 @@ The main difference between an action and a filter can be summed up like this:
 - A filter takes the info it receives, modifies it somehow, and returns it. In other words: it _filters_ something and passes it back to the hook for further use.
 -->
 
-- アクションは、情報を受け取り、それを使って何かを行い、何も返しません。言い換えれば: アクションは何かに _作用_ して終了し、呼び出し元のフックには何も返しません。
-- フィルターは、情報を受け取り、それを何らかの方法で修正し、それを返します。言い換えれば: 何かを _フィルター_ して、それをフックに戻し、さらに使えるようにします。
+- アクションは、情報を受け取り、それを使って何かを行い、何も返しません。言い換えれば: アクションは何かに **作用** して終了し、呼び出し元のフックには何も返しません。
+- フィルターは、情報を受け取り、それを何らかの方法で修正し、それを返します。言い換えれば: 何かを **フィルター** して、それをフックに戻し、さらに使えるようにします。
 
 <!--
 Said another way:
@@ -72,7 +72,7 @@ Said another way:
 The _something_ referred to is the parameter list sent via the hook definition. More on this in later sections.
 -->
 
-ここでいう _何か_ とは、フック定義を通じて送られるパラメータ・リストのことです。これについては後のセクションで詳しく説明します。
+ここでいう「何か」とは、フック定義を通じて送られるパラメータ・リストのことです。これについては後のセクションで詳しく説明します。
 
 <!--
 ## More Resources

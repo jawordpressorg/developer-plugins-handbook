@@ -340,7 +340,7 @@ add_action( 'save_post', [ 'WPOrg_Meta_Box', 'save' ] );
 Since the HTML elements of the meta box are inside the `form` tags of the edit screen, the default behavior is to parse meta box values from the `$_POST` super global _after the user have submitted the page_.
 -->
 
-メタボックスの HTML 要素は編集画面の `form` タグの中にあるので、デフォルトの挙動としては、_ユーザーがページを投稿した後_ に、`$_POST` スーパーグローバルからメタボックスの値をパース (解析) します。
+メタボックスの HTML 要素は編集画面の `form` タグの中にあるので、デフォルトの挙動としては、**ユーザーがページを投稿した後** に、`$_POST` スーパーグローバルからメタボックスの値をパース (解析) します。
 
 <!--
 You can enhance the default experience with AJAX; this allows to perform actions based on user input and behavior; regardless if they've submitted the page.

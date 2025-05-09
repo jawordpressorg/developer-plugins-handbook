@@ -26,13 +26,13 @@ The process of adding an action includes two steps:
 ### Create a _callback function_
 -->
 
-### _コールバック関数_ の作成
+### コールバック関数の作成
 
 <!--
 First, create a _callback function_. This function will be run when the action it is hooked to is run.
 -->
 
-まず、_コールバック関数_ を作ります。この関数は、フックされたアクションが実行されたときに作動します。
+まず、**コールバック関数** を作ります。この関数は、フックされたアクションが実行されたときに作動します。
 
 <!--
 The callback function is just like a normal function: it should be prefixed, and it should be in `functions.php` or somewhere callable. The parameters it should accept will be defined by the action you are hooking to; most hooks are well defined, so review the hooks docs to see what parameters the action you have selected will pass to your function.
@@ -119,7 +119,7 @@ Many callback functions can be hooked to a single action. The `init` hook for ex
 WordPress determines the order that callback functions are run based on two things: The first way is by manually setting the _priority_. This is done using the third argument to `add_action()`.
 -->
 
-WordPress は、コールバック関数の実行順序を2つのことにもとづいて決定します: 1つ目は、手動で _優先度_ を設定する方法です。これは `add_action()` の第三引数を使って行います。
+WordPress は、コールバック関数の実行順序を2つのことにもとづいて決定します: 1つ目は、手動で「優先度」を設定する方法です。これは `add_action()` の第三引数を使って行います。
 
 <!--
 Here are some important facts about priorities:
@@ -141,13 +141,13 @@ Here are some important facts about priorities:
 A function with a priority of 11 will run _after_ a function with a priority of 10; and a function with a priority of 9 will run _before_ a function with a priority of 10.
 -->
 
-優先度11の関数は、優先度10の関数の _後_ に実行され、優先度9の関数は、優先度10の関数の _前_ に実行されます。
+優先度11の関数は、優先度10の関数の「後」に実行され、優先度9の関数は、優先度10の関数の「前」に実行されます。
 
 <!--
 The second way that callback function order is determined is simply by the order in which it was registered _within the same priority value_. So if two callback functions are registered for the same hook with the same priority, they will be run in the order that they were registered to the hook.
 -->
 
-コールバック関数の順番が決定される2つ目の方法は、単純に _同じ優先度同士_ で登録された順番です。つまり、2つのコールバック関数が同じフックに同じ優先度で登録されている場合、フックに登録された順番に実行されます。
+コールバック関数の順番が決定される2つ目の方法は、単純に **同じ優先度同士** で登録された順番です。つまり、2つのコールバック関数が同じフックに同じ優先度で登録されている場合、フックに登録された順番に実行されます。
 
 <!--
 For example, the following callback functions are all registered to the `init` hook, but with different priorities:

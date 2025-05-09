@@ -56,7 +56,7 @@ The plugin directory and forums are not for you to sell or support products that
 Users on WordPress.org are not your customers and should be treated as users. This means you _cannot_ ask them for private contact information, you cannot offer to log in to their site, and you cannot charge them for help. It is for your own legal protection, we prohibit those things. Even with the contract of a purchase, you are liable for damages caused by your logging into their site. Doing so without the purchase makes it more dangerous.
 -->
 
-WordPress. org 上のユーザーは、あなたの顧客ではなく、ユーザーとして扱われるべきです。つまり、個人的な連絡先を聞いたり、サイトへのログインを勧めたり、ヘルプに対して料金を請求したりすることは _できません_。これはあなた自身の法的保護のためであり、私たちはそれらのことを禁止しています。たとえ購入という契約があったとしても、あなたが相手のサイトにログインしたことによって生じた損害については、あなたが責任を負うことになります。購入契約を結んでいない場合は、より危険です。
+WordPress. org 上のユーザーは、あなたの顧客ではなく、ユーザーとして扱われるべきです。つまり、個人的な連絡先を聞いたり、サイトへのログインを勧めたり、ヘルプに対して料金を請求したりすることは **できません**。これはあなた自身の法的保護のためであり、私たちはそれらのことを禁止しています。たとえ購入という契約があったとしても、あなたが相手のサイトにログインしたことによって生じた損害については、あなたが責任を負うことになります。購入契約を結んでいない場合は、より危険です。
 
 <!--
 If someone is a customer (that is they purchased your premium offering and posted in the free forums), you can and should remind them that you cannot support them in the WordPress.org forums, and provide a link to your professional support services. Similarly, you can tell people that you aren’t able to offer free support in the forums and link to your site where you can explain in full detail.
@@ -86,7 +86,7 @@ If you want to offer a higher level of support as a service (i.e. something they
 For everyone else, if you’re helping people in the free forums, you are expected to help them _in_ the forums.
 -->
 
-それ以外の皆さんは、無償フォーラムで人助けをするのであれば、フォーラム _内で_ 人助けをすることが求められます。
+それ以外の皆さんは、無償フォーラムで人助けをするのであれば、**フォーラム内で** 人助けをすることが求められます。
 
 <!--
 ## You are not required to offer free support

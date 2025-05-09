@@ -38,7 +38,7 @@ Luckily, you can avoid naming collisions by using the methods below.
 By default, all variables, functions and classes are defined in the **global namespace**, which means that it is possible for your plugin to override variables, functions and classes set by another plugin and vice-versa. Variables that are defined _inside_ of functions or classes are not affected by this.
 -->
 
-デフォルトでは、すべての変数、関数、クラスは**グローバル名前空間**で定義されます。つまり、あなたのプラグインは、他のプラグインによって設定された変数、関数、クラスをオーバーライドできます (逆もまた然り)。関数やクラスの _内部_ で定義された変数は、この影響を受けません。
+デフォルトでは、すべての変数、関数、クラスは **グローバル名前空間** で定義されます。つまり、あなたのプラグインは、他のプラグインによって設定された変数、関数、クラスをオーバーライドできます (逆もまた然り)。関数やクラスの **内部** で定義された変数は、この影響を受けません。
 
 <!--
 ### Prefix Everything
@@ -50,13 +50,13 @@ By default, all variables, functions and classes are defined in the **global nam
 All globally accessible code should be prefixed with a _unique_ identifier. Prefixes prevent conflicts with other plugins and prevents them from overwriting your variables and accidentally calling your functions and classes.
 -->
 
-グローバルにアクセス可能なすべてのコードには、_ユニークな_ 識別子を接頭辞として付ける必要があります。接頭辞は他のプラグインとの競合を防ぎ、プラグインがあなたの変数を上書きしたり、誤ってあなたの関数やクラスを呼び出したりするのを防ぎます。
+グローバルにアクセス可能なすべてのコードには、**ユニークな** 識別子を接頭辞として付ける必要があります。接頭辞は他のプラグインとの競合を防ぎ、プラグインがあなたの変数を上書きしたり、誤ってあなたの関数やクラスを呼び出したりするのを防ぎます。
 
 <!--
 In order to prevent conflicts with other plugins, your prefix should be at least 4 letters long, though we recommend 5. You should avoid using a common English word, and instead choose something unique to your plugin. We host tens of thousands of plugins on WordPress.org alone. There are hundreds of thousands more outside our servers. You're _going_ to run into conflicts.
 -->
 
-他のプラグインとの競合を避けるため、接頭辞は、少なくとも4文字、5文字以上を推奨します。一般的な英単語を使うのは避け、プラグイン独自のものを選ぶべきです。私たちは WordPress.org だけで何万ものプラグインをホストしています。私たちのサーバーの外側には、さらに何十万ものプラグインがあります。競合に _遭遇する_ ことになるでしょう。
+他のプラグインとの競合を避けるため、接頭辞は、少なくとも4文字、5文字以上を推奨します。一般的な英単語を使うのは避け、プラグイン独自のものを選ぶべきです。私たちは WordPress.org だけで何万ものプラグインをホストしています。私たちのサーバーの外側には、さらに何十万ものプラグインがあります。競合に **遭遇する** ことになるでしょう。
 
 <!--
 A good way to do this is with a prefix. For example, if your plugin is called "Easy Custom Post Types" then you could use names like these:
@@ -86,13 +86,13 @@ If you are making code for a 'sub' plugin (such as a WooCommece extension), you 
 You can use them _inside_ your classes or namespace, but not as stand-alone function/namespace/class.[/info]
 -->
 
-クラスや名前空間の _内部_ であれば使用できますが、独立した関数、名前空間、クラスとしては使用できません。[/info]
+クラスや名前空間の **内部** であれば使用できますが、独立した関数、名前空間、クラスとしては使用できません。[/info]
 
 <!--
 If you're using `_n()` or `__()` for translation, that's fine. We're **only** talking about functions you've created for your plugin, not the core functions from WordPress. In fact, those core features are _why_ you need to not use those prefixes in your own plugin! You wouldn't want to break WordPress for your users.
 -->
 
-翻訳のために `_n()` や `__()` を使うのであれば問題ありません。ここでは WordPress のコア機能ではなく、あなたがプラグイン用に作成する関数について**のみ**述べています。実際、これらのコア機能こそが、上に紹介した接頭辞をプラグイン内で使わない _理由_ です ! 誰しもユーザーの WordPress を壊したくはないでしょう。
+翻訳のために `_n()` や `__()` を使うのであれば問題ありません。ここでは WordPress のコア機能ではなく、あなたがプラグイン用に作成する関数について**のみ**述べています。実際、これらのコア機能こそが、上に紹介した接頭辞をプラグイン内で使わない **理由** です ! 誰しもユーザーの WordPress を壊したくはないでしょう。
 
 <!--
 Remember: Good prefix names are unique and distinct to your plugin. This will help you and the next person in debugging, as well as prevent conflicts.
@@ -104,7 +104,7 @@ Remember: Good prefix names are unique and distinct to your plugin. This will he
 Code that **must** be prefixed includes:
 -->
 
-接頭辞をつけなければ**ならない**コードには、以下のようなものがあります:
+接頭辞をつけなければ **ならない** コードには、以下のようなものがあります:
 
 <!--
 - Functions (unless namespaced)
@@ -148,7 +148,7 @@ PHP には、変数や関数、クラス、定数の実在性を検証するた�
 Keep in mind that using `(!function_exists('NAME')) {` around all your functions and classes sounds like a great idea until you realize the fatal flaw. If something else has a function with the same name and their code loads first, your plugin will break. Using if-exists to replace/override a function or class should be reserved for _shared_ libraries only.
 -->
 
-すべての関数やクラスで `(!function_exists('NAME')) {` を使うことはすばらしいアイデアに思えるかもしれませんが、致命的な欠点がある点に注意してください。もし他の何かが同じ名前の関数を持ち、そのコードが先に読み込まれると、あなたのプラグインは壊れてしまいます。if-exists を使って関数やクラスを置き換えたりオーバーライドしたりするのは、_共有_ ライブラリだけにとどめてください。
+すべての関数やクラスで `(!function_exists('NAME')) {` を使うことはすばらしいアイデアに思えるかもしれませんが、致命的な欠点がある点に注意してください。もし他の何かが同じ名前の関数を持ち、そのコードが先に読み込まれると、あなたのプラグインは壊れてしまいます。if-exists を使って関数やクラスを置き換えたりオーバーライドしたりするのは、**共有** ライブラリだけにとどめてください。
 
 <!--
 ### Example
@@ -384,7 +384,7 @@ Specific implementations of the more complex of the above code organizations hav
 Instead of starting from scratch for each new plugin you write, you may want to start with a **boilerplate**. One advantage of using a boilerplate is to have consistency among your own plugins. Boilerplates also make it easier for other people to contribute to your code if you use a boilerplate they are already familiar with.
 -->
 
-新しいプラグインを書くたびにゼロから始めるのではなく、**ボイラープレート**から始めるとよいでしょう。ボイラープレートを使う利点のひとつは、自分のプラグインに一貫性を持たせることです。もしあなたがボイラープレートを使っていれば、ボイラープレートを使うことで、他の人はすでに慣れ親しんでいるので、彼らがあなたのコードに貢献しやすくなります。
+新しいプラグインを書くたびにゼロから始めるのではなく、**ボイラープレート** から始めるとよいでしょう。ボイラープレートを使う利点のひとつは、自分のプラグインに一貫性を持たせることです。もしあなたがボイラープレートを使っていれば、ボイラープレートを使うことで、他の人はすでに慣れ親しんでいるので、彼らがあなたのコードに貢献しやすくなります。
 
 <!--
 These also serve as further examples of different yet comparable architectures.

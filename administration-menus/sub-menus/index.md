@@ -43,7 +43,7 @@ Lets say we want to add a Sub-menu "WPOrg Options" to the "Tools" Top-level menu
 **The first step** will be creating a function which will output the HTML. In this function we will perform the necessary security checks and render the options we’ve registered using the [Settings API](https://developer.wordpress.org/plugins/settings/).
 -->
 
-**第一のステップ**では、HTML を出力する関数を作成します。この関数では、必要なセキュリティチェックを行い、[設定 API](https://ja.wordpress.org/team/handbook/plugin-development/settings/) を使って登録したオプションを書き出します。
+**第一のステップ** では、HTML を出力する関数を作成します。この関数では、必要なセキュリティチェックを行い、[設定 API](https://ja.wordpress.org/team/handbook/plugin-development/settings/) を使って登録したオプションを書き出します。
 
 <!--
 [info]We recommend wrapping your HTML using a `<div>` with a class of `wrap`.[/info]
@@ -80,7 +80,7 @@ function wporg_options_page_html() {
 **The second step** will be registering our WPOrg Options Sub-menu. The registration needs to occur during the `admin_menu` action hook.
 -->
 
-**第二のステップ**では、WPOrg オプションサブメニューを登録します。この登録は `admin_menu` アクションフックで行う必要があります。
+**第二のステップ** では、WPOrg オプションサブメニューを登録します。この登録は `admin_menu` アクションフックで行う必要があります。
 
 ```
 function wporg_options_page() {

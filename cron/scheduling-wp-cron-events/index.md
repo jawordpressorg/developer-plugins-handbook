@@ -36,7 +36,7 @@ add_action( 'bl_cron_hook', 'bl_cron_exec' );
 [info]Remember, the `bl_` part of the function name is a _function prefix_. You can learn why prefixes are important [here](https://developer.wordpress.org/plugins/plugin-basics/best-practices/#prefix-everything).[/info]
 -->
 
-[info]関数名の `bl_` の部分は _関数の接頭辞_ であることを忘れないでください。なぜ接頭辞が重要なのかは、[こちら](https://ja.wordpress.org/team/handbook/plugin-development/plugin-basics/best-practices/#prefix-everything)を参照してください。[/info]
+[info]関数名の `bl_` の部分は「関数の接頭辞」であることを忘れないでください。なぜ接頭辞が重要なのかは、[こちら](https://ja.wordpress.org/team/handbook/plugin-development/plugin-basics/best-practices/#prefix-everything)を参照してください。[/info]
 
 <!--
 [info]You can read more about actions [here](https://developer.wordpress.org/plugins/hooks/actions/).[/info]

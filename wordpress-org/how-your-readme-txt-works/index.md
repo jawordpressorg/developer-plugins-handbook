@@ -77,12 +77,12 @@ Here is a short description of the plugin.  This should be no more than 150 char
 - **License URI** – (OPTIONAL) A link to the license. This is optional, but if a plugin uses a more rare license, strongly recommended.
 -->
 
-- **Contributors** – 大文字と小文字を区別し、カンマで区切られた、コードに貢献した WordPress.org のすべてのユーザー名のリスト。フォークされたプロジェクトで働いた人の名前を含めることは、一般的に敬意を表していると考えられています。開発者の中には、他のプラグインが自分のプロフィールページに表示されるのを望まないので、リストから削除してほしいと頼む人もいます。そのような要請には従うのが一番です。WordPress.org のユーザー名 _だけ_ を使うことを忘れないでください – それ以外だとプロフィールリンクや gravatar が表示されません。(プラグインのフロントページに表示される) 誰かの表示名を変更するには、プロフィール `https://wordpress.org/support/users/YOURID/edit/` を編集し、表示名を変更します。
+- **Contributors** – 大文字と小文字を区別し、カンマで区切られた、コードに貢献した WordPress.org のすべてのユーザー名のリスト。フォークされたプロジェクトで働いた人の名前を含めることは、一般的に敬意を表していると考えられています。開発者の中には、他のプラグインが自分のプロフィールページに表示されるのを望まないので、リストから削除してほしいと頼む人もいます。そのような要請には従うのが一番です。WordPress.org の **ユーザー名だけ** を使うことを忘れないでください – それ以外だとプロフィールリンクや gravatar が表示されません。(プラグインのフロントページに表示される) 誰かの表示名を変更するには、プロフィール `https://wordpress.org/support/users/YOURID/edit/` を編集し、表示名を変更します。
 - **Donate link** – (任意) サイドバーに「このプラグインに寄付する」リンクを作成します。リンクがない場合は、何も表示されません。
 - **Tags** – プラグインを説明する、カンマで区切られた、1～5個の語句。プラグインは、競合他社のプラグイン名をタグとして使用することを差し控える必要があります。プラグイン独自のタグは、表示されないので、使用しないでください。
-- **Tested up to** – プラグインがテストされた WordPress のバージョン。プラグインはマイナーアップデートで壊れることはないので、このフィールドはマイナーバージョンを _無視します_。つまり、プラグインはテスト対象のメジャーバージョンを定義するだけでよく、WordPress.org のプラグイン・ディレクトリは、自動的にマイナーバージョンを追加することを意味します。これは数字 _だけ_ であるべきですので、「4.9」であって「WP 4.9」ではありません。
-- **Requires PHP** – (任意) このプラグインを使用するために必要な PHP の _最低_ バージョン。これは数字 _だけ_ であるべきですので、「7.0」であって「PHP 7.0」ではありません。
-- **Stable Tag** – プラグインの安定バージョン。これは、WordPress のバージョン _ではなく_、プラグイン自体のバージョンです。数字とピリオドのみを使用し、[SemVer フォーマット](https://semver.org/)を推奨します。
+- **Tested up to** – プラグインがテストされた WordPress のバージョン。プラグインはマイナーアップデートで壊れることはないので、このフィールドはマイナーバージョンを **無視します**。つまり、プラグインはテスト対象のメジャーバージョンを定義するだけでよく、WordPress.org のプラグイン・ディレクトリは、自動的にマイナーバージョンを追加することを意味します。これは数字 _だけ_ であるべきですので、「4.9」であって「WP 4.9」ではありません。
+- **Requires PHP** – (任意) このプラグインを使用するために必要な PHP の **最低** バージョン。これは **数字だけ** であるべきですので、「7.0」であって「PHP 7.0」ではありません。
+- **Stable Tag** – プラグインの安定バージョン。これは、WordPress のバージョン **ではなく**、プラグイン自体のバージョンです。数字とピリオドのみを使用し、[SemVer フォーマット](https://semver.org/)を推奨します。
 - **License** – プラグインに使用されている GPLV2 (またはそれ以降) と互換性のあるライセンス。
 - **License URI** – (任意) ライセンスへのリンク。これは任意ですが、プラグインがよりまれなライセンスを使用している場合は、強く推奨します。
 
@@ -90,7 +90,7 @@ Here is a short description of the plugin.  This should be no more than 150 char
 At the end of the header section is a place for a _short_ description of a plugin. The example recommends no more than 150 characters and to not use markup. That line of text is the single line description of the plugin which shows up right under the plugin name. If it’s longer than 150 characters, it gets cut off, so keep it short.
 -->
 
-ヘッダー・セクションの最後には、プラグインの _短い_ 説明のための場所があります。この例では、150文字以内で、マークアップを使わないことを推奨しています。そのテキスト行は、プラグイン名のすぐ下に表示される、プラグインの1行説明です。150文字より長いとカットされてしまうので、短く書きましょう。
+ヘッダー・セクションの最後には、プラグインの **短い** 説明のための場所があります。この例では、150文字以内で、マークアップを使わないことを推奨しています。そのテキスト行は、プラグイン名のすぐ下に表示される、プラグインの1行説明です。150文字より長いとカットされてしまうので、短く書きましょう。
 
 <!--
 ### Installation
@@ -258,11 +258,11 @@ For those who want to know exactly what gets parsed into what:
 - **Plugin Name**
  readme ファイルの Plugin Name は、プラグイン・ヘッダーで指定された Plugin Name にフォールバックする。
 - **Author and Plugin Homepages**
- プラグイン・ヘッダーの Author URI と Plugin URI フィールド。プラグイン URI は、各プラグインに対して _一意_ でなければなりません。無償プラグインとプロプラグインに同じ URI を使用 **しないでください**。酷い結果になります。
+ プラグイン・ヘッダーの Author URI と Plugin URI フィールド。プラグイン URI は、各プラグインに対して **一意** でなければなりません。無償プラグインとプロプラグインに同じ URI を使用 **しないでください**。酷い結果になります。
 - **Last updated time**
  バージョン番号変更後、該当ディレクトリにチェックインした最後の時刻。
 - **Creation time**
- _初回_ チェックインの時刻。
+ **初回** チェックインの時刻。
 
 <!--
 ### File Size

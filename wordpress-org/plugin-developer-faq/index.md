@@ -263,7 +263,7 @@ If you attempt to get around this by changing your term from 'Facerange' to 'Fac
 Log in as the official organization user account and submit with that account _only_.
 -->
 
-公式な組織のユーザーアカウントでログインし、そのアカウント _のみ_ で申請してください。
+公式な組織のユーザーアカウントでログインし、**そのアカウントのみ** で申請してください。
 
 <!--
 We cannot accept plugins that act in name of an organization submitted by individual developer accounts, unless they're clearly company ones as well. For example, submitting your official plugin with a user that has a gmail address is likely to be flagged for trademark infringement.
@@ -305,13 +305,13 @@ Just reply to the email right away and let us know. We can transfer ownership fo
 There's no official average, as no two plugins are the same. If your plugin is small and all the code is correct, it should be approved within **fourteen** days of _initial review_.
 -->
 
-2つとして同じプラグインはないので、公式な平均値はありません。あなたのプラグインが小さく、すべてのコードが正しければ、_最初のレビュー_ から **14** 日以内に承認されるはずです。
+2つとして同じプラグインはないので、公式な平均値はありません。あなたのプラグインが小さく、すべてのコードが正しければ、**最初のレビュー** から **14** 日以内に承認されるはずです。
 
 <!--
 If your plugin has any code issues, it will take as long as it takes for you to correct the issues. Either way, you _will_ get an email from `plugins@wordpress.org` with the status, so please add that to your email whitelist and patiently wait for our response.
 -->
 
-あなたのプラグインにコードの課題がある場合、あなたが課題を修正するのにかかる時間と同じだけかかります。いずれにせよ、`plugins@wordpress.org` から状況を知らせるメールが届く _でしょう_ から、あなたのメールのホワイトリストに追加して、辛抱強く私たちの返事をお待ちください。
+あなたのプラグインにコードの課題がある場合、あなたが課題を修正するのにかかる時間と同じだけかかります。いずれにせよ、`plugins@wordpress.org` から状況を知らせるメールが届くでしょうから、あなたのメールのホワイトリストに追加して、辛抱強く私たちの返事をお待ちください。
 
 <!--
 ### I sent in the fixes but no one replied. How long should I wait?
@@ -501,7 +501,7 @@ We also don't accept 100% copies of other people's work or plugins that duplicat
 No, you should rewrite and upgrade the existing plugin. Make it a major version release. We can't rename plugins or transfer users, so a new one wouldn't carry over any existing users, reviews, support topics, ratings, downloads, favorites, etc. Basically you'd leave _all_ your current users out in the cold, and that's mean.
 -->
 
-いいえ、既存のプラグインを書き直してアップグレードすべきです。メジャーバージョンのリリースにしてください。プラグインの名前を変更したり、ユーザーを移動させたりはできないので、新しいプラグインは既存のユーザー、レビュー、サポートトピック、評価、ダウンロード、お気に入りなどを引き継ぐことはできません。そしてそれは、基本的に、現在のユーザーを _すべて_ 冷遇することを意味します。
+いいえ、既存のプラグインを書き直してアップグレードすべきです。メジャーバージョンのリリースにしてください。プラグインの名前を変更したり、ユーザーを移動させたりはできないので、新しいプラグインは既存のユーザー、レビュー、サポートトピック、評価、ダウンロード、お気に入りなどを引き継ぐことはできません。そしてそれは、基本的に、現在のユーザーを「すべて」冷遇することを意味します。
 
 <!--
 ### I made a mistake with my submission. How can I fix it?
@@ -557,7 +557,7 @@ We have the following restrictions:
 - プラグインはスラッグに、極端な状況を除き、「WordPress」や「Plugin」を使用できません。
 - プラグインのスラッグに、バージョン番号を使用できません。
 - システムの制限により、スラッグに使用できるのは、英字とアラビア数字のみです。
-- 公式な代表者によって申請されたもの _でない限り_、プラグインは、商標登録されたタームや特定のプロジェクト/ライブラリ/ツールの名前で **始める** ことはできません。
+- 公式な代表者によって申請されたもの **ではない限り**、プラグインは、商標登録されたタームや特定のプロジェクト/ライブラリ/ツールの名前で **始める** ことはできません。
 
 <!--
 We encourage everyone to be creative and come up with unique slugs. We automatically correct any plugin that has an unacceptable slug. If there's a question as to the best choice, we will contact you to be sure.
@@ -677,7 +677,7 @@ No.
 Yes! However you either have to keep the non-minified in your plugin _or_ direct people via your readme as to where they can get the non-minified files.
 -->
 
-できます ! ただし、あなたのプラグインに非 minify 化ファイルを残しておくか、_或いは_ readme で非 minify 化ファイルを入手できる場所を指示する必要があります。
+できます ! ただし、あなたのプラグインに非 minify 化ファイルを残しておくか、**または** readme で非 minify 化ファイルを入手できる場所を指示する必要があります。
 
 <!--
 It's fine to minify, but it's not okay to hide it. All code must be human readable for inclusion in this directory.
@@ -767,7 +767,7 @@ Do not attempt to be clever and use 6.5 or 7. This will result in errors on your
 No. If you're only making cosmetic changes to the readme or your icons/headers, you _do not_ need to release a new version. Just make sure you update the trunk and tag folders.
 -->
 
-いいえ。readme やアイコン/ヘッダーの外観を変更するだけであれば、新しいバージョンをリリースする必要は _ありません_。trunk フォルダーと tag フォルダーを更新するだけです。
+いいえ。readme やアイコン/ヘッダーの外観を変更するだけであれば、新しいバージョンをリリースする **必要はありません**。trunk フォルダーと tag フォルダーを更新するだけです。
 
 <!--
 ### Do I need to release a new version of my plugin every time I update the code?
@@ -929,7 +929,7 @@ In addition, any tags where you are the only one who uses them won't show, becau
 Yes and no. You can change the display name, but the _slug_ — that part of the plugin URL that is yours — cannot be changed once a plugin is approved. That's why we warn you, multiple times, upon submission.
 -->
 
-イエスでもありノーでもあります。表示名は変更できますが、_スラッグ_ — プラグインの URL のうち、あなたのものである部分 — は、プラグインが承認されると変更できません。そのため、申請時に何度も警告しています。
+イエスでもありノーでもあります。表示名は変更できますが、「スラッグ」 — プラグインの URL のうち、あなたのものである部分 — は、プラグインが承認されると変更できません。そのため、申請時に何度も警告しています。
 
 <!--
 To change the display name, edit your main plugin file and change the value of "Plugin Name:" to the new name. You also will want to edit your header in your readme.txt to match.
@@ -965,7 +965,7 @@ As another example, if you have a plugin that integrates a service with a a popu
 Consider the real life example of Keurig. If you made an eco-friendly brew cup, you could market it "EcoBrew Pod for Keurig" but you could NOT attempt to market it as "Keurig EcoBrew Pod." The latter implies a direct relationship to Keurig and is actually against the law in some countries. In order to protect you, we need you to tread lightly with recognized brand names and trademarks. Always err on the side of caution; if they come and tell us to close your plugin because you used their term as the _first_ word in the display name, we have to do it.
 -->
 
-キューリグ (Keurig) の例を考えてみましょう。環境に配慮したコーヒーカップを作ったとしたら、それを「キューリグ用エコ・ブリュー・ポッド」として販売できるが、「キューリグ・エコブリュー・ポッド」として販売することは、決して許されません。後者はキューリグとの直接的な関係を意味し、国によっては法律違反となります。あなたを保護するために、認知されたブランド名や商標を慎重に扱ってください。常に慎重を期してください; もし彼らが、あなたのプラグインが、表示名の _最初の_ 単語として彼らの商標を使用していることを理由に、あなたのプラグインをクローズするように言ってきたら、私たちはそれをせざるを得ません。
+キューリグ (Keurig) の例を考えてみましょう。環境に配慮したコーヒーカップを作ったとしたら、それを「キューリグ用エコ・ブリュー・ポッド」として販売できるが、「キューリグ・エコブリュー・ポッド」として販売することは、決して許されません。後者はキューリグとの直接的な関係を意味し、国によっては法律違反となります。あなたを保護するために、認知されたブランド名や商標を慎重に扱ってください。常に慎重を期してください; もし彼らが、あなたのプラグインが、表示名の **最初の** 単語として彼らの商標を使用していることを理由に、あなたのプラグインをクローズするように言ってきたら、私たちはそれをせざるを得ません。
 
 <!--
 [alert]We no longer have permission to permit new plugins to use `woo` as the start of their permalink, and are required to enforce the use of `wc` instead.[/alert]
@@ -989,7 +989,7 @@ No.
 While we understand that companies can and do grant usage permissions, we do not accept them for permalinks for a really important reason: we _**cannot**_ change your permalink once the plugin is approved. This means if, later on, the company changes their mind and rescinds approval, the plugin will be closed and all of it's users abandoned.
 -->
 
-私たちは、企業が使用許可を与えることができ、また与えることができることを理解していますが、本当に重要な理由から、パーマリンクについては許可していません: プラグインが承認されると、パーマリンクを変更することが出来 _**ません**_。つまり、後日、会社が考えを変えて承認を取り消した場合、プラグインはクローズされ、すべてのユーザーが見捨てられます。
+私たちは、企業が使用許可を与えることができ、また与えることができることを理解していますが、本当に重要な理由から、パーマリンクについては許可していません: プラグインが承認されると、パーマリンクを変更することが **出来ません**。つまり、後日、会社が考えを変えて承認を取り消した場合、プラグインはクローズされ、すべてのユーザーが見捨てられます。
 
 <!--
 In order to be forward thinking and proactive about a plugin's long-term life in the directory, we do not accept 'permission.' A permalink may not begin with a trademark (or commonly known brand/term) unless it is by the official owners.
@@ -1037,7 +1037,7 @@ Unless there's an egregious typo, language, or legal issue related to your slug,
 You'll need to change it in the readme _and_ the plugin main file.
 -->
 
-readme _と_ プラグインのメインファイルで、変更する必要があります。
+readme「と」プラグインのメインファイルで、変更する必要があります。
 
 <!--
 ### Can I make my display name anything?
@@ -1067,7 +1067,7 @@ If you're combining multiple services (a payment gateway to a popular ecommerce 
 Currently yes, but you shouldn't. It's incredibly redundant and doesn't actually help your SEO in any way, shape, or form. We already put WordPress _and_ Plugin in your page title.
 -->
 
-現在のところはイエスだが、そうすべきではありません。これは信じられないほど冗長であり、実際にはどのような形であれ SEO の役には立ちません。私たちはあなたのページのタイトルにすでに WordPress _と_ Plugin を入れています。
+現在のところはイエスだが、そうすべきではありません。これは信じられないほど冗長であり、実際にはどのような形であれ SEO の役には立ちません。私たちはあなたのページのタイトルにすでに WordPress 「と」 Plugin を入れています。
 
 <!--
 ### Should I use the trademark or registered symbol in my plugin name?
@@ -1079,7 +1079,7 @@ Currently yes, but you shouldn't. It's incredibly redundant and doesn't actually
 Assuming you actually did apply for trademarks, you certainly _can_ but it's not commonly done. Not even Google or Facebook do that. Simply by using your trademark term and having a log of it (like your SVN log), you have usually done the needed legal action required to protect your brand. Consult a lawyer for details.
 -->
 
-実際に商標を出願したと仮定すれば、たしかに _できる_ のですが、一般的には行われていません。Google や Facebook でさえ、そんなことはしません。商標タームを使用し、そのログ (SVN のログのようなもの) を残すだけで、あなたのブランドを保護するために必要な法的措置を取ることができます。詳しくは弁護士に相談してください。
+実際に商標を出願したと仮定すれば、たしかに「できる」のですが、一般的には行われていません。Google や Facebook でさえ、そんなことはしません。商標タームを使用し、そのログ (SVN のログのようなもの) を残すだけで、あなたのブランドを保護するために必要な法的措置を取ることができます。詳しくは弁護士に相談してください。
 
 <!--
 ## Search
@@ -1097,7 +1097,7 @@ Assuming you actually did apply for trademarks, you certainly _can_ but it's not
 Usually 6 to 14 days after a plugin is committed to SVN. This is because we have to add your data, parse it, and share it to all of our _heavily_ cached servers. It's not instantaneous. Also as a new plugin, we have no data on usage, so you may need to wait a bit.
 -->
 
-プラグインが SVN にコミットされてから、通常、6日から14日後です。あなたのデータを追加し、解析し、私たちの _ヘビーな_ キャッシュサーバーすべてに共有する必要があるためです。即座に反映されるわけではありません。また、新しいプラグインである場合は、使用状況に関するデータがないので、少し待つ必要があるかもしれません。
+プラグインが SVN にコミットされてから、通常、6日から14日後です。あなたのデータを追加し、解析し、私たちの **ヘビーな** キャッシュサーバーすべてに共有する必要があるためです。即座に反映されるわけではありません。また、新しいプラグインである場合は、使用状況に関するデータがないので、少し待つ必要があるかもしれません。
 
 <!--
 ### How do I rank higher?
@@ -1247,7 +1247,7 @@ If you agree to the warning, and want to close your plugin, press the button.
 Keep in mind, you _will not_ get your plugin restored unless you can justify your situation. Closing a plugin by request is intended to be **permanent**.
 -->
 
-自分の状況を正当化できない限り、プラグインを復活させることは _できない_ ことを覚えておいてください。リクエストによるプラグインのクローズは **永続的** であることを意図しています。
+自分の状況を正当化できない限り、プラグインを **復活させることはできない** ことを覚えておいてください。リクエストによるプラグインのクローズは **永続的** であることを意図しています。
 
 <!--
 ### What if I accidentally closed my plugin?
@@ -1319,7 +1319,7 @@ When a plugin is closed, the page shows as closed and the zips are no longer gen
 After 60 days, the closure message will change to alert people as to _why_ it was closed but only in the broadest terms (Guideline Violation, Security, etc) and not with explicit details.
 -->
 
-60日を過ぎると、クローズメッセージは _なぜ_ クローズされたかを警告するものに変わりますが、大まかなものであって (ガイドライン違反、セキュリティなど)、明確な詳細は記載されません。
+60日を過ぎると、クローズメッセージは「なぜ」クローズされたかを警告するものに変わりますが、大まかなものであって (ガイドライン違反、セキュリティなど)、明確な詳細は記載されません。
 
 <!--
 ### Why was my plugin closed?
@@ -1337,7 +1337,7 @@ Plugins are closed for guideline violations, security issues, or by author reque
 If a plugin has never been used within 6 months (i.e. no code has been pushed to SVN), SVN is broken for upwards of 12 months, or a plugin's readme indicates it's deprecated, we _may_ close without notification.
 -->
 
-プラグインが6ヵ月以内に一度も使われていない (つまり、SVN にコードがプッシュされていない) 場合、SVN が12ヵ月以上壊れている場合、またはプラグインの readme が非推奨であることを示している場合、通知なしにクローズすることが _あります_。
+プラグインが6ヵ月以内に一度も使われていない (つまり、SVN にコードがプッシュされていない) 場合、SVN が12ヵ月以上壊れている場合、またはプラグインの readme が非推奨であることを示している場合、通知なしにクローズ **することがあります**。
 
 <!--
 ### Why was someone else's plugin closed?
@@ -1427,7 +1427,7 @@ If someone is clearly infringing on your copyright or trademark or existing bran
 We do expect these to be _reasonable_ requests. That is, if you send us a complaint and list 12 plugins that all use the term 'best contact form' because that's your plugin name, we will review the plugins and only close them if they're using the phrase excessively. If they use it once (i.e. "This is the best contact form plugin in the Faroe Islands") then it's acceptable. If they're keyword stuffing the phrase, we're more likely to close them for keyword stuffing. Simply, if your plugin name is super generic, this is going to happen, and it's usually **not** an infringement case.
 -->
 
-私たちはこれらが _妥当な_ 要求であることを期待しています。つまり、もしあなたが私たちに苦情を送り、それがあなたのプラグイン名だからという理由で「最高のコンタクトフォーム」という言葉を使った12のプラグインをリストアップした場合、私たちはそのプラグインをレビューし、そのフレーズを過度に使っている場合のみクローズします。一度だけ使用されている場合 (つまり、「これはフェロー諸島で最高のコンタクトフォームプラグインです」) は、許容範囲です。キーワードの詰め込みをしている場合は、キーワードの詰め込みでクローズする可能性が高くなります。単純に、あなたのプラグイン名が超汎用的であれば、このようなことが起こるでしょうし、それは通常、侵害訴訟にはなり **ません**。
+私たちはこれらが **妥当な** 要求であることを期待しています。つまり、もしあなたが私たちに苦情を送り、それがあなたのプラグイン名だからという理由で「最高のコンタクトフォーム」という言葉を使った12のプラグインをリストアップした場合、私たちはそのプラグインをレビューし、そのフレーズを過度に使っている場合のみクローズします。一度だけ使用されている場合 (つまり、「これはフェロー諸島で最高のコンタクトフォームプラグインです」) は、許容範囲です。キーワードの詰め込みをしている場合は、キーワードの詰め込みでクローズする可能性が高くなります。単純に、あなたのプラグイン名が超汎用的であれば、このようなことが起こるでしょうし、それは通常、侵害訴訟には **なりません**。
 
 <!--
 Also note that if it's not **your** trademark, we cannot accept your report. It is the responsibility of the trademark owners, not it's users, to manage and maintain that.
@@ -1543,7 +1543,7 @@ It's exceptionally rare that we close all of a developer's plugins. In general i
 If you asked us to close them, you have to explain _why_ the change of heart.
 -->
 
-クローズするよう要請したのであれば、その心変わりの _理由_ を説明しなければなりません。
+クローズするよう要請したのであれば、その心変わりの **理由** を説明しなければなりません。
 
 <!--
 If you're having email issues, you have to resolve them and you'll be required to bring all your plugins up to current standards of security and guidelines.
@@ -1567,7 +1567,7 @@ As for that last one … Generally you don't get to come back from that. If we d
 First and foremost, _take it seriously_. The email will list exactly what the problems have been and why we've chosen to escalate to a final warning. Plugin Owners are expected to resolve all the issues, to cease causing new guideline violations, and to closely monitor the actions of any coworkers. In short, stop breaking the guidelines, stop making excuses, apologize for any misbehaviour, and correct course.
 -->
 
-何よりもまず、_真摯に受け止める_ ことが大切です。この E メールには、どのような問題があったのか、なぜ最終警告までエスカレーションすることになったのかが正確に記載されます。プラグイン・オーナーは、すべての課題を解決し、新たなガイドライン違反を起こさないようにし、同僚の行動を注意深く監視することが期待されています。要するに、ガイドライン違反をやめ、言い訳をするのをやめ、不作法を謝罪し、軌道修正してください。
+何よりもまず、**真摯に受け止める** ことが大切です。この E メールには、どのような問題があったのか、なぜ最終警告までエスカレーションすることになったのかが正確に記載されます。プラグイン・オーナーは、すべての課題を解決し、新たなガイドライン違反を起こさないようにし、同僚の行動を注意深く監視することが期待されています。要するに、ガイドライン違反をやめ、言い訳をするのをやめ、不作法を謝罪し、軌道修正してください。
 
 <!--
 The last thing we want to do is ban someone and disable all their plugins. It's not healthy for the community. At the same time, if a developer is unable or unwilling to play by the same rules as everyone else, it's detrimental to keep then in the directory and disrespectful to everyone else.
@@ -1693,7 +1693,7 @@ Short answer: Probably not.
 Many developers receive unsolicited emails or offers to purchase their plugin. We have found the vast majority of these to be fraudulent and do _not_ recommend you follow up with them.
 -->
 
-多くの開発者が、迷惑メールやプラグイン購入のオファーを受け取っています。私たちは、これらの大半が詐欺であることを発見しており、そのようなメールに従うことをおすすめ _しません_。
+多くの開発者が、迷惑メールやプラグイン購入のオファーを受け取っています。私たちは、これらの大半が詐欺であることを発見しており、そのようなメールに従うことを **おすすめしません**。
 
 <!--
 While legitimate offers do come, they're usually from the official company to whom a plugin is related, or from a well established plugin company. The ones that start "We're reaching out to the WordPress community …" or "We are looking to acquire existing WordPress plugins …" should not be trusted. Such purchases have often destroyed the reputation of the plugin (and the original developer) by engaging in sleazy tactics such as tracking users or other serious guideline violations.
@@ -1711,7 +1711,7 @@ If you do choose to sell your plugin (or give it away to someone else), please m
 We advocate only giving your plugin to people you _personally_ have vetted, and that you trust with being responsible with your code and your users.
 -->
 
-あなたのコードとユーザーに対して責任を負うということを信頼して、あなたが _個人的に_ 吟味した人にのみ、プラグインを提供することを、私たちは、推奨しています。
+あなたのコードとユーザーに対して責任を負うということを信頼して、あなたが **個人的に** 吟味した人にのみ、プラグインを提供することを、私たちは、推奨しています。
 
 <!--
 ### What happens when a plugin developer dies?

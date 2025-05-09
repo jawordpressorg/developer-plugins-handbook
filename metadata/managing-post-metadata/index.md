@@ -32,13 +32,13 @@ The `meta_value` can be a string, integer, or an array. If it's an array, it wil
 The `unique` flag allows you to declare whether this key should be unique. A **non** unique key is something a post can have multiple variations of, like price.
 -->
 
-`unique` フラグにより、このキーがユニーク (一意) であるか否かを宣言できます。**非**ユニークキーとは、価格のように、投稿が複数のバリエーションを持つことができるキーのことです。
+`unique` フラグにより、このキーがユニーク (一意) であるか否かを宣言できます。「非」ユニークキーとは、価格のように、投稿が複数のバリエーションを持つことができるキーのことです。
 
 <!--
 If you only ever want **one** price for a post, you should flag it `unique` and the `meta_key` will have one value only.
 -->
 
-投稿には価格を**1つ**だけ持たせたい場合は、`unique` フラグを立て、`meta_key` の値は1つだけ保持できるようにします。
+投稿には価格を **1つ** だけ持たせたい場合は、`unique` フラグを立て、`meta_key` の値は1つだけ保持できるようにします。
 
 <!--
 ## Updating Metadata
@@ -50,7 +50,7 @@ If you only ever want **one** price for a post, you should flag it `unique` and 
 If a key already exists and you want to update it, use [`update_post_meta()`](https://developer.wordpress.org/reference/functions/update_post_meta/). If you use this function and the key does **NOT** exist, then it will create it, as if you'd used [`add_post_meta()`](https://developer.wordpress.org/reference/functions/add_post_meta/).
 -->
 
-キーがすでに存在していて、それを更新したい場合は、[`update_post_meta()`](https://developer.wordpress.org/reference/functions/update_post_meta/) を使用します。この関数を使用し、キーが存在**しない**場合は、[`add_post_meta()`](https://developer.wordpress.org/reference/functions/add_post_meta/) を使用した際と同じように、キーが作成されます。
+キーがすでに存在していて、それを更新したい場合は、[`update_post_meta()`](https://developer.wordpress.org/reference/functions/update_post_meta/) を使用します。この関数を使用し、キーが存在 **しない** 場合は、[`add_post_meta()`](https://developer.wordpress.org/reference/functions/add_post_meta/) を使用した際と同じように、キーが作成されます。
 
 <!--
 Similar to [`add_post_meta()`](https://developer.wordpress.org/reference/functions/add_post_meta/), the function accepts a `post_id`, a `meta_key`, and `meta_value`. It also accepts an optional `prev_value` – which, if specified, will cause the function to only update existing metadata entries with this value. If it isn't provided, the function defaults to updating all entries.

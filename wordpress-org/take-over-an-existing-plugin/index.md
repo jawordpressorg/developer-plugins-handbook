@@ -76,7 +76,7 @@ If the plugin was closed for security issues, we require **all** those issues to
 Closed plugins are _less_ likely to be able to be adopted, as the nature of their closures may be more complex and intricate. If a plugin was closed for license issues, for example, we may not be permitted to reopen it for anyone except the license holders.
 -->
 
-クローズされたプラグインは、そのクローズの性質がより複雑で入り組んでいる可能性があるため、引き継がれる可能性が _低い_ です。たとえば、ライセンス課題でクローズされたプラグインは、ライセンス保持者以外には再オープンが許可されないかもしれません。
+クローズされたプラグインは、そのクローズの性質がより複雑で入り組んでいる可能性があるため、引き継がれる可能性が **低い** です。たとえば、ライセンス課題でクローズされたプラグインは、ライセンス保持者以外には再オープンが許可されないかもしれません。
 
 <!--
 Larger plugins (100k users or more) are also less likely to be adopted, as that is a not-insignificant userbase, and we need to be sure you really are capable of managing a plugin of that size.
@@ -94,7 +94,7 @@ Larger plugins (100k users or more) are also less likely to be adopted, as that 
 You _must_ attempt to contact the original developer, as they can [give you access to the plugin](https://developer.wordpress.org/plugins/wordpress-org/plugin-developer-faq/#plugin-ownership). We recommend trying:
 -->
 
-[プラグインへのアクセス権を与える](https://ja.wordpress.org/team/handbook/plugin-development/wordpress-org/plugin-developer-faq/#plugin-ownership)ことができるため、オリジナル開発者に _必ず_ 連絡を取るようにしてください。試してみることをおすすめします:
+[プラグインへのアクセス権を与える](https://ja.wordpress.org/team/handbook/plugin-development/wordpress-org/plugin-developer-faq/#plugin-ownership)ことができるため、オリジナル開発者に **必ず** 連絡を取るようにしてください。試してみることをおすすめします:
 
 <!--
 - email
@@ -146,13 +146,13 @@ Your update must include editing the readme to ensure it documents the new owner
 If your plugin is a major upgrade, you _must_ provide an upgrade path. Just wanting a name-slug is not sufficient reason to take over a plugin. We care deeply about our users, and violating their trust in us by breaking their existing sites with your upgrades is to be avoided at all costs.
 -->
 
-もしあなたのプラグインがメジャーアップグレードであれば、アップグレードパスを提供 _しなければなりません_。単にネームスラッグが欲しいだけでは、プラグインを引き継ぐ十分な理由にはなりません。私たちはユーザーをとても大切にしています。あなたのアップグレードによって既存のサイトを壊してしまうことで、私たちに対するユーザーの信頼を侵害することは絶対に避けなければなりません。
+もしあなたのプラグインがメジャーアップグレードであれば、アップグレードパスを **提供しなければなりません**。単にネームスラッグが欲しいだけでは、プラグインを引き継ぐ十分な理由にはなりません。私たちはユーザーをとても大切にしています。あなたのアップグレードによって既存のサイトを壊してしまうことで、私たちに対するユーザーの信頼を侵害することは絶対に避けなければなりません。
 
 <!--
 Remember you need to _increase_ the version number so people are prompted to upgrade to your new version.
 -->
 
-新しいバージョンへのアップグレードを促すために、バージョン番号を _上げる_ 必要があることを忘れないでください。
+新しいバージョンへのアップグレードを促すために、バージョン番号を **上げる** 必要があることを忘れないでください。
 
 <!--
 ### 4. Submit Your Code for Review
@@ -176,7 +176,7 @@ Once you’ve finished updating the code, email `plugins@wordpress.org` explaini
 After we receive your version of the code as a zip, we will review it and test it. At this point, you will go through a _normal_ review process. That is, we will treat you like any new plugin and we will check the whole plugin for security and guidelines. Even if those issues are found in the original plugin, you will be required to fix them.
 -->
 
-あなたのバージョンのコードを zip で受け取った後、私たちはそれをレビューし、テストします。この時点で、あなたは _通常の_ レビュープロセスを経ることになります。つまり、新しいプラグインと同じように扱い、プラグイン全体のセキュリティとガイドラインをチェックします。たとえオリジナルプラグインにそのような課題が見つかったとしても、修正する必要があります。
+あなたのバージョンのコードを zip で受け取った後、私たちはそれをレビューし、テストします。この時点で、あなたは **通常の** レビュープロセスを経ることになります。つまり、新しいプラグインと同じように扱い、プラグイン全体のセキュリティとガイドラインをチェックします。たとえオリジナルプラグインにそのような課題が見つかったとしても、修正する必要があります。
 
 <!--
 At this stage, some plugins are determined to have existing security flaws. We may close those plugins, depending on the nature of the issues, and you will be trusted to not publicly disclose those issues.
@@ -236,7 +236,7 @@ If they don’t reply, and you’ve made it this far, we will likely transfer th
 In order to _safely_ update the plugin, we will close it before we add you. You will then be required to update via SVN. Once that’s done, we’ll double check everything is correct and reopen it. The plugin will now be yours.
 -->
 
-プラグインを _安全に_ 更新するために、あなたを追加する前にプラグインをクローズします。その後、SVN 経由でアップデートしてください。それが完了したら、すべてが正しいことを再確認し、プラグインを再オープンします。これでプラグインは、あなたのものになります。
+プラグインを **安全に** 更新するために、あなたを追加する前にプラグインをクローズします。その後、SVN 経由でアップデートしてください。それが完了したら、すべてが正しいことを再確認し、プラグインを再オープンします。これでプラグインは、あなたのものになります。
 
 <!--
 ## Frequently Asked Questions

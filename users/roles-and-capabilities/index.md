@@ -160,7 +160,7 @@ Sequential calls will do nothing.[/alert]
 - Run `update_option('default_role', YOUR_NEW_DEFAULT_ROLE)` since you'll be deleting `subscriber` which is WP's default role.[/info]
 -->
 
-- 管理者と特権管理者の権限グループを削除することに**反対**することを推奨します !
+- 管理者と特権管理者の権限グループを削除することに **反対** することを推奨します !
 - WordPress の将来のアップデートで、削除した権限グループが再び追加される可能性があるため、プラグイン / テーマのコードは必ず保管しておいてください。
 - WordPress のデフォルト権限グループである `subscriber` を削除する場合には、`update_option('default_role', YOUR_NEW_DEFAULT_ROLE)` を実行します。[/info]
 
@@ -174,7 +174,7 @@ Sequential calls will do nothing.[/alert]
 Capabilities define what a **role** can and can not do: edit posts, publish posts, etc.
 -->
 
-権限とは、**権限グループ**ができること、できないことを定義するものです: 投稿の編集、投稿の公開、等。
+権限とは、「権限グループ」ができること、できないことを定義するものです: 投稿の編集、投稿の公開、等。
 
 <!--
 [info]Custom post types can require a certain set of Capabilities.[/info]
@@ -271,7 +271,7 @@ Get the role object including all of it's capabilities with [`get_role()`](https
 Check if a user have a specified **role** or **capability** with [`user_can()`](https://developer.wordpress.org/reference/functions/user_can/).
 -->
 
-ユーザーが指定された**権限グループ**または**権限**を持っているかどうかを [`user_can()`](https://developer.wordpress.org/reference/functions/user_can/) でチェックします。
+ユーザーが指定された「権限グループ」または「権限」を持っているかどうかを [`user_can()`](https://developer.wordpress.org/reference/functions/user_can/) でチェックします。
 
 ```
 user_can( $user, $capability );
@@ -339,7 +339,7 @@ if ( current_user_can( 'edit_posts' ) ) {
 The [`current_user_can_for_blog()`](https://developer.wordpress.org/reference/functions/current_user_can_for_blog/) function is used to test if the current user has a certain **role** or **capability** on a specific blog.
 -->
 
-[`current_user_can_for_blog()`](https://developer.wordpress.org/reference/functions/current_user_can_for_blog/) 関数は、現在のユーザーが特定のブログで特定の**権限グループ**または**権限**を持っているかどうかをテストするために使用されます。
+[`current_user_can_for_blog()`](https://developer.wordpress.org/reference/functions/current_user_can_for_blog/) 関数は、現在のユーザーが特定のブログで特定の「権限グループ」または「権限」を持っているかどうかをテストするために使用されます。
 
 ```
 current_user_can_for_blog( $blog_id, $capability );

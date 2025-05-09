@@ -26,7 +26,7 @@ Some plugins offer to assist a site with being ‘compliant’ with laws like th
 No plugin can offer 100% legal compliance. They can (and do) assist sites with being more compliant. Still, at the end of the day, the responsibility remains with the site administrators to ensure their sites meet the qualifications for any compliance. Even services are not providing full compliance, just compliance when _their_ service is in use.
 -->
 
-どのプラグインも100％の法令遵守を提供できません。プラグインは、サイトがよりコンプライアンスに適合するよう支援できます (そして実際にそうしています)。しかし、結局のところ、サイト管理者は、自分のサイトがどのようなコンプライアンスに対して適合しているかを確認する責任があります。サービスであっても、完全なコンプライアンスを提供しているわけではなく、_その_ サービスが利用されている場合のコンプライアンスにすぎません。
+どのプラグインも100％の法令遵守を提供できません。プラグインは、サイトがよりコンプライアンスに適合するよう支援できます (そして実際にそうしています)。しかし、結局のところ、サイト管理者は、自分のサイトがどのようなコンプライアンスに対して適合しているかを確認する責任があります。サービスであっても、完全なコンプライアンスを提供しているわけではなく、**その** サービスが利用されている場合のコンプライアンスにすぎません。
 
 <!--
 In order to make this more clear to site administrators, we recommend that plugins do **not** claim to be 100% compliant, and instead to explain that the plugin itself will assist in compliance. This has the added benefit of protecting developers in the case where compliance guidelines change and the plugin has not yet been updated.

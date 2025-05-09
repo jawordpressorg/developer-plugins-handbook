@@ -158,7 +158,7 @@ Adding and removing this status can only be done by an existing committer.
 A contributor has no extra ability to directly manage the plugin itself. They _cannot_ request changes be made to a plugin’s status in the directory.
 -->
 
-貢献者は、プラグイン自体を直接管理する特別な権限を持ちません。彼らは、ディレクトリ内のプラグインのステータスに変更を加えるようリクエストすることは _できません_。
+貢献者は、プラグイン自体を直接管理する特別な権限を持ちません。彼らは、ディレクトリ内のプラグインのステータスに変更を加えるようリクエストすることは **できません**。
 
 <!--
 In the forums, they are labeled as a “Plugin Contributor” and have the ability to mark posts regarding their plugin as resolved.

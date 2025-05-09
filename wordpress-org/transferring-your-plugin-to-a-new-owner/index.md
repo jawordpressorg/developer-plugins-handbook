@@ -78,7 +78,7 @@ To transfer a plugin in this case, you will need to email `plugins@wordpress.org
 3. If applicable, any changes to the status of being a featured/beta plugin
 -->
 
-1. 譲渡の理由についての _簡単な_ 説明
+1. 譲渡の理由についての **簡単な** 説明
 2. 新しい所有者の userID
 3. 該当する場合、機能追加版/ベータ版プラグインのステータスへの変更点
 

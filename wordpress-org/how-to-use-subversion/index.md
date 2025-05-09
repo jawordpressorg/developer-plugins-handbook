@@ -14,7 +14,7 @@ Subversion (SVN) は、Git に似たバージョン管理システムです。�
 This document is _not_ a complete and robust explanation for using SVN, but more a quick primer to get started with plugins on WordPress.org. For more comprehensive documentation, see [The SVN Book](https://svnbook.red-bean.com/).
 -->
 
-このドキュメントは、SVN を使用するための完全で堅牢な説明 _ではなく_、WordPress.org でプラグインを始めるための簡単な入門書です。より包括的なドキュメントは [The SVN Book](https://svnbook.red-bean.com/) を参照してください。
+このドキュメントは、SVN を使用するための完全で堅牢な説明 **ではなく**、WordPress.org でプラグインを始めるための簡単な入門書です。より包括的なドキュメントは [The SVN Book](https://svnbook.red-bean.com/) を参照してください。
 
 <!--
 We'll describe here some of the basics about using SVN as it relates to WordPress.org hosting. The basic concepts of SVN, and nearly all code repository services, remain the same.
@@ -40,7 +40,7 @@ For additional information, please see these documents:
 [warning]SVN and the Plugin Directory are a _release_ repository. Unlike Git, you shouldn't commit every small change, as doing so can degrade performance. Please only push **finished** changes to your SVN repository.[/warning]
 -->
 
-[warning]SVN と プラグイン・ディレクトリは、_リリース_ リポジトリです。Git とは異なり、小さな変更をすべてコミットすべきではありません。SVN リポジトリには **完了した** 変更のみをプッシュしてください。[/warning]
+[warning]SVN と プラグイン・ディレクトリは、「リリース」リポジトリです。Git とは異なり、小さな変更をすべてコミットすべきではありません。SVN リポジトリには **完了した** 変更のみをプッシュしてください。[/warning]
 
 <!--
 ## Overview
@@ -76,7 +76,7 @@ SVN 用のアカウントは、プラグインを申請したときに使用し�
 Remember, _capitalization matters_ — if your username is JaneDoe, then you must use the capital J and D or else SVN will fail. You can see the specific capitalization of your name at [Your Profile](https://profiles.wordpress.org/me/profile/edit/group/1/).
 -->
 
-_大文字と小文字が重要_ であることを忘れないでください。— あなたのユーザー名が JaneDoe なら、大文字の J と D を使わなければ SVN は失敗します。あなたの名前の大文字小文字は、[あなたのプロフィール](https://profiles.wordpress.org/me/profile/edit/group/1/)で確認できます。
+**大文字と小文字が重要** であることを忘れないでください。— あなたのユーザー名が JaneDoe なら、大文字の J と D を使わなければ SVN は失敗します。あなたの名前の大文字小文字は、[あなたのプロフィール](https://profiles.wordpress.org/me/profile/edit/group/1/)で確認できます。
 
 <!--
 If you need to reset your password, go to [login.wordpress.org](https://login.wordpress.org/lostpassword)
@@ -128,13 +128,13 @@ _A `/branches/` directory that was used for divergent code is no longer created 
 [warning]Do not put your _main_ plugin file in a subfolder of trunk, like `/trunk/my-plugin/my-plugin.php` as that will break downloads. You may use subfolders for included files.[/warning]
 -->
 
-[warning]ダウンロードができなくなるので、_メイン_ プラグインファイルは、`/trunk/my-plugin/my-plugin.php` のように、trunk のサブフォルダーに置かないでください。インクルードされたファイルにはサブフォルダーを使うことができます。[/warning]
+[warning]ダウンロードができなくなるので、「メイン」プラグインファイルは、`/trunk/my-plugin/my-plugin.php` のように、trunk のサブフォルダーに置かないでください。インクルードされたファイルにはサブフォルダーを使うことができます。[/warning]
 
 <!--
 The `/trunk` directory is where your plugin code should live. The trunk can be considered to be the latest and greatest code, however this is not necessarily the latest _stable_ code. Trunk is for the development version. Hopefully, the code in trunk should always be working code, but it may be buggy from time to time because it's not necessarily the "stable" version. For simple plugins, the trunk may be the only version of the code that exists, and that's fine as well.
 -->
 
-`/trunk` ディレクトリは、あなたのプラグインコードを置くべき場所です。trunk は、最新かつ最高のコードと言えますが、必ずしも最新の _安定_ コードとは限りません。trunk は、開発版用のものです。できれば、trunk にあるコードは常に動作するコードであるべきですが、必ずしも「安定版」ではないので、時々バグがあるかもしれません。単純なプラグインの場合、trunk がそのコードの唯一のバージョンかもしれませんし、それはそれでかまいません。
+`/trunk` ディレクトリは、あなたのプラグインコードを置くべき場所です。trunk は、最新かつ最高のコードと言えますが、必ずしも最新の「安定」コードとは限りません。trunk は、開発版用のものです。できれば、trunk にあるコードは常に動作するコードであるべきですが、必ずしも「安定版」ではないので、時々バグがあるかもしれません。単純なプラグインの場合、trunk がそのコードの唯一のバージョンかもしれませんし、それはそれでかまいません。
 
 <!--
 Even if you do your development work elsewhere (like a git repository), we recommend you keep the trunk folder up to date with your code for easy SVN compares.
@@ -230,7 +230,7 @@ In order to make your code the most accessible for other developers, the followi
 This is often confusing. Unlike GitHub, SVN is meant to be a _release_ system, not a development system. You don't need to commit and push every small change, and in fact doing so is detrimental to the system. Every time you push code to SVN, it rebuilds _all_ your zip files for all versions in SVN. This is why sometimes your plugin updates don't show for up to 6 hours. Instead, you should push one time, when you're ready to go.
 -->
 
-これは、しばしば混乱を招きます。GitHub とは異なり、SVN は開発システムではなく _リリース_ システムです。小さな変更のたびにコミットしてプッシュする必要はありませんし、実際そうすることはシステムにとって有害です。SVN にコードをプッシュするたびに、SVN にあるすべてのバージョンの zip ファイルを _すべて_ リビルドします。プラグインのアップデートが最大6時間表示されないことがあるのはこのためです。その代わり、準備ができたら一回だけプッシュしてください。
+これは、しばしば混乱を招きます。GitHub とは異なり、SVN は開発システムではなく「リリース」システムです。小さな変更のたびにコミットしてプッシュする必要はありませんし、実際そうすることはシステムにとって有害です。SVN にコードをプッシュするたびに、SVN にあるすべてのバージョンの zip ファイルを **すべて** リビルドします。プラグインのアップデートが最大6時間表示されないことがあるのはこのためです。その代わり、準備ができたら一回だけプッシュしてください。
 
 <!--
 ### Use the trunk folder for code
@@ -266,7 +266,7 @@ While it's possible to use trunk as a stable tag for plugins, this feature is no
 Instead of pushing your code directly to a tag folder, you should edit the code in trunk, complete with the stable version in the readme, and _then_ copy the code from trunk to the new tag.
 -->
 
-コードを tag フォルダーに直接プッシュするのではなく、trunk でコードを編集し、readme に安定版と一緒に記載し、trunk から新規 tag にコードを _その後_ コピーしてください。
+コードを tag フォルダーに直接プッシュするのではなく、trunk でコードを編集し、readme に安定版と一緒に記載し、trunk から新規 tag にコードを **その後** コピーしてください。
 
 <!--
 Not only will this make it easier see any changes, you will be making smaller commits as SVN will only update the changed code. This will save you time and reduce potential errors (such as updating to the wrong stable tag and pushing bad code to users).
@@ -366,7 +366,7 @@ Now you can add your files to the `trunk/` directory of your local copy of the r
 [warning]Do not put your _main_ plugin file in a subfolder of trunk, like `/trunk/my-plugin/my-plugin.php` as that will break downloads. You may use subfolders for included files.[/warning]
 -->
 
-[warning]ダウンロードができなくなるので、_メイン_ プラグインファイルは、`/trunk/my-plugin/my-plugin.php` のように、trunk のサブフォルダーに置かないでください。インクルードされたファイルにはサブフォルダーを使うことができます。[/warning]
+[warning]ダウンロードができなくなるので、「メイン」プラグインファイルは、`/trunk/my-plugin/my-plugin.php` のように、trunk のサブフォルダーに置かないでください。インクルードされたファイルにはサブフォルダーを使うことができます。[/warning]
 
 <!--
 Once your files are in the trunk folder, you must let subversion know you want to add those new files back into the central repository.
@@ -415,7 +415,7 @@ svn ci -m 'Adding first version of my plugin' --username your_username --passwor
 Remember your username is _case sensitive_.
 -->
 
-ユーザー名は _大文字と小文字を区別する_ ということを忘れないでください。
+ユーザー名は **大文字と小文字を区別する** ということを忘れないでください。
 
 <!--
 ### Editing Existing Files
@@ -567,7 +567,7 @@ Congratulations! You've updated your code!
 Don't put anything in SVN that you're not willing and prepared to have deployed to everyone who uses your plugin. This _includes_ vendor files, `.gitignore` and everything else.
 -->
 
-あなたのプラグインを使うすべての人に配布する意思と準備がないものは SVN に置かないでください。これには、ベンダーファイルや `.gitignore` など、あらゆるものが _含まれます_。
+あなたのプラグインを使うすべての人に配布する意思と準備がないものは SVN に置かないでください。これには、ベンダーファイルや `.gitignore` など、あらゆるものが **含まれます**。
 
 <!--
 You also should never upload zip files. Like most code repository systems, SVN expects you to upload individual files.
