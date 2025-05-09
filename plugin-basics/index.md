@@ -73,7 +73,7 @@ Only one file in the plugin's folder should have the header comment — if the p
 After you save the file, you should be able to see your plugin listed in your WordPress site. Log in to your WordPress site, and click **Plugins** on the left navigation pane of your WordPress Admin. This page displays a listing of all the plugins your WordPress site has. Your new plugin should now be in that list!
 -->
 
-ファイルを保存すると、WordPress サイトにプラグインが表示されるはずです。WordPress サイトにログインし、WordPress 管理画面の左側のナビゲーションペインにある**プラグイン**をクリックします。このページには、WordPress サイトにあるすべてのプラグインのリストが表示されます。新しいプラグインはこのリストにあるはずです !
+ファイルを保存すると、WordPress サイトにプラグインが表示されるはずです。WordPress サイトにログインし、WordPress 管理画面の左側のナビゲーションペインにある **プラグイン** をクリックします。このページには、WordPress サイトにあるすべてのプラグインのリストが表示されます。新しいプラグインはこのリストにあるはずです !
 
 <!--
 ## Hooks: Actions and Filters
@@ -115,19 +115,19 @@ The 3 basic hooks you'll need when creating a plugin are the [register\_activati
 The [activation hook](https://developer.wordpress.org/plugins/plugin-basics/activation-deactivation-hooks/) is run when you _activate_ your plugin. You would use this to provide a function to set up your plugin — for example, creating some default settings in the `options` table.
 -->
 
-[アクティベーションフック](https://ja.wordpress.org/team/handbook/plugin-development/plugin-basics/activation-deactivation-hooks/)は、プラグインを**有効化**するときに実行されます。これを使用して、プラグインをセットアップする機能を提供します。たとえば、`options` テーブルにいくつかのデフォルト設定を作成します。
+[アクティベーションフック](https://ja.wordpress.org/team/handbook/plugin-development/plugin-basics/activation-deactivation-hooks/)は、プラグインを **有効化** するときに実行されます。これを使用して、プラグインをセットアップする機能を提供します。たとえば、`options` テーブルにいくつかのデフォルト設定を作成します。
 
 <!--
 The [deactivation hook](https://developer.wordpress.org/plugins/plugin-basics/activation-deactivation-hooks/) is run when you _deactivate_ your plugin. You would use this to provide a function that clears any temporary data stored by your plugin.
 -->
 
-[非アクティブ化フック](https://ja.wordpress.org/team/handbook/plugin-development/plugin-basics/activation-deactivation-hooks/)は、プラグインを**無効化**すると実行されます。これを使用して、プラグインによって保存された一時データをクリアする関数を提供します。
+[非アクティブ化フック](https://ja.wordpress.org/team/handbook/plugin-development/plugin-basics/activation-deactivation-hooks/)は、プラグインを **無効化** すると実行されます。これを使用して、プラグインによって保存された一時データをクリアする関数を提供します。
 
 <!--
 These [uninstall methods](https://developer.wordpress.org/plugins/plugin-basics/uninstall-methods/) are used to clean up after your plugin is _deleted_ using the WordPress Admin. You would use this to delete all data created by your plugin, such as any options that were added to the `options` table.
 -->
 
-これらの[アンインストールメソッド](https://ja.wordpress.org/team/handbook/plugin-development/plugin-basics/uninstall-methods/)は、WordPress 管理画面を使用してプラグインが**削除**された後にクリーンアップするために使用されます。これを使用して、`options` テーブルに追加されたオプションなど、プラグインによって作成されたすべてのデータを削除します。
+これらの[アンインストールメソッド](https://ja.wordpress.org/team/handbook/plugin-development/plugin-basics/uninstall-methods/)は、WordPress 管理画面を使用してプラグインが **削除** された後にクリーンアップするために使用されます。これを使用して、`options` テーブルに追加されたオプションなど、プラグインによって作成されたすべてのデータを削除します。
 
 <!--
 ### Adding Hooks

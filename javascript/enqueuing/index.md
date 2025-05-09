@@ -206,7 +206,7 @@ The parameter `title_example` can be any arbitrary string. It's suggested the st
 If you recall from the [jQuery Section](https://developer.wordpress.org/plugins/javascript/jquery/), data created by PHP for use by jQuery was passed in a global object named `my_ajax_obj`. In our example, this data was a nonce and the complete URL to `admin-ajax.php`. The process of assigning object properties and creating the global jQuery object is called **localizing**. This is the localizing code used in our example which uses [`wp_localize_script()`](https://developer.wordpress.org/reference/functions/wp_localize_script/).
 -->
 
-[jQuery セクション](https://ja.wordpress.org/team/handbook/plugin-development/javascript/jquery/)を思い起こせば、jQuery で使用するために PHP が作成したデータは、`my_ajax_obj` という名前のグローバルオブジェクトで渡されました。私たちの例では、このデータは nonce と `admin-ajax.php` への完全な URL でした。オブジェクトのプロパティを割り当て、グローバルな jQuery オブジェクトを作成するプロセスを**ローカライズ**と呼びます。これは、[`wp_localize_script()`](https://developer.wordpress.org/reference/functions/wp_localize_script/) を使用した例で使用したローカライズのコードです。
+[jQuery セクション](https://ja.wordpress.org/team/handbook/plugin-development/javascript/jquery/)を思い起こせば、jQuery で使用するために PHP が作成したデータは、`my_ajax_obj` という名前のグローバルオブジェクトで渡されました。私たちの例では、このデータは nonce と `admin-ajax.php` への完全な URL でした。オブジェクトのプロパティを割り当て、グローバルな jQuery オブジェクトを作成するプロセスを「ローカライズ」と呼びます。これは、[`wp_localize_script()`](https://developer.wordpress.org/reference/functions/wp_localize_script/) を使用した例で使用したローカライズのコードです。
 
 ```
 wp_localize_script(

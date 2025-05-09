@@ -82,7 +82,7 @@ Before we dive into an example, it's important to understand the hooks involved 
 This action hook is fired whenever a user edits **it's own** user profile.
 -->
 
-このアクションフックは、ユーザーが**自分の**ユーザープロファイルを編集するたびに発生します。
+このアクションフックは、ユーザーが **自分の** ユーザープロファイルを編集するたびに発生します。
 
 <!--
 **Remember,** a user that doesn't have the capability of editing his own profile won't fire this hook.

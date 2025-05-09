@@ -98,7 +98,7 @@ The current criteria we take into consideration for a security push is a simple 
 2. その課題は、どの程度深刻ですか ? WordPress や インターネット全体のセキュリティにどのような影響がありますか ?
 3. 課題の修正は自己完結型ですか、それともかなり多くの過剰なコードを追加しますか ?
 4. プラグインの複数のブランチが影響を受ける場合、ブランチごとのリリースは準備されていますか ?
-5. アップデートは _安全に_ 自動的にインストールできますか ?
+5. アップデートは **安全に** 自動的にインストールできますか ?
 
 <!--
 These requirements are defined in a way that anyone should be able to tick each box.
@@ -146,7 +146,7 @@ If you feel your plugin has a large enough user base or the issue is of great si
 With few exceptions, no. A security push should _only_ be security related. We prefer (and many times require) plugin releases which fix **only** the security issue, with minimal code changes and with no unrelated changes.
 -->
 
-一部の例外を除いては、そうではありません。セキュリティ・プッシュはセキュリティに _だけ_ 関連すべきです。私たちは、セキュリティの課題 **だけ** を修正し、最小限のコード変更で、関連性のない変更を含まないプラグインのリリースを好みます (そして、多くの場合、それを要求します)。
+一部の例外を除いては、そうではありません。セキュリティ・プッシュはセキュリティに「だけ」関連すべきです。私たちは、セキュリティの課題「だけ」を修正し、最小限のコード変更で、関連性のない変更を含まないプラグインのリリースを好みます (そして、多くの場合、それを要求します)。
 
 <!--
 This allows everyone to review the changes quickly and to be far more confident in them. Also it means there is a minimal amount of disruption on the part of the users.
@@ -200,7 +200,7 @@ You don't have to. Your plugin will remain closed and, after 2 or 3 months, the 
 Yes and no. You _do_ have to fix the issues reported, but when you're done, the _entire_ plugin is re-reviewed, and if more issues are found, you'll be required to fix those as well. The ultimate goal is to make sure the reopened plugin is safe.
 -->
 
-Yes でもあり No でもあります。報告された課題は、修正 _しなければなりません_ が、それが終わるとプラグイン _全体_ が再レビューされ、さらに課題が見つかった場合は、それらも修正する必要があります。最終的な目標は、再開されたプラグインが安全であることを確認することです。
+Yes でもあり No でもあります。報告された課題は、**修正しなければなりません** が、それが終わるとプラグインが再レビューされ、さらに課題が見つかった場合は、それらも修正する必要があります。最終的な目標は、再開されたプラグインが安全であることを確認することです。
 
 <!--
 ### What if I have guideline issues?

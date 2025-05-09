@@ -8,7 +8,7 @@
 **Filters** are one of the two types of [Hooks](https://developer.wordpress.org/plugins/hooks/).
 -->
 
-**フィルター**は、2種類の[フック](https://ja.wordpress.org/team/handbook/plugin-development/hooks/)のうちの1つです。
+**フィルター** は、2種類の[フック](https://ja.wordpress.org/team/handbook/plugin-development/hooks/)のうちの1つです。
 
 <!--
 They provide a way for functions to modify data during the execution of WordPress Core, plugins, and themes. They are the counterpart to [Actions](https://developer.wordpress.org/plugins/hooks/actions/).

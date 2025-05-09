@@ -26,7 +26,7 @@ WordPress.org のプラグインページにアクセスすると、特別なア
 Plugins that have been approved but no code has yet been uploaded will see this message:This _only_ displays to the plugin owner and will go away once code has been pushed via SVN.
 -->
 
-プラグインが承認されたが、コードがまだアップロードされていない場合、このメッセージが表示されます: このメッセージはプラグインの所有者に _のみ_ 表示され、Subversion (SVN) 経由でコードがプッシュされると消えます。
+プラグインが承認されたが、コードがまだアップロードされていない場合、このメッセージが表示されます: このメッセージはプラグインの所有者に **のみ** 表示され、Subversion (SVN) 経由でコードがプッシュされると消えます。
 
 <!--
 ## Closed
@@ -62,7 +62,7 @@ This is viewable by all visitors and indicates a plugin was closed. Plugins clos
 After 60 days, the alert will be updated to explain _why_ the plugin was closed:
 -->
 
-60日後、警告はプラグインがクローズされた _理由_ を説明するために更新されます:
+60日後、警告はプラグインがクローズされた **理由** を説明するために更新されます:
 
 <!--
 ![Alert detailing why a plugin was closed](https://i3.wp.com/developer.wordpress.org/files/2018/02/why-closed.png)
@@ -136,4 +136,4 @@ Previously this message alerted users to plugins not updated within the last 2 y
 Developers are emailed before every major release of WordPress and asked to update this value. They _do not_ need to push a new version, just [update the readme](https://developer.wordpress.org/plugins/wordpress-org/how-your-readme-txt-works/) and edit the value of `Tested up to:` to the latest version of WordPress.
 -->
 
-WordPress のメジャーリリースのたびに、開発者は、この値を更新するようメールで依頼されます。開発者は新しいバージョンをプッシュする必要は _なく_、[readme を更新](https://ja.wordpress.org/team/handbook/plugin-development/wordpress-org/how-your-readme-txt-works/) して、`Tested up to:` の値を WordPress の最新バージョンに編集するだけです。
+WordPress のメジャーリリースのたびに、開発者は、この値を更新するようメールで依頼されます。開発者は新しいバージョンをプッシュする **必要はなく**、[readme を更新](https://ja.wordpress.org/team/handbook/plugin-development/wordpress-org/how-your-readme-txt-works/) して、`Tested up to:` の値を WordPress の最新バージョンに編集するだけです。

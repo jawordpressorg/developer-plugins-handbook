@@ -131,4 +131,4 @@ add_filter( 'http_request_args', 'example_hidden_plugin_12345', 5, 2 );
 What that does is check if the update request is from the WordPress.org api, and if it matches the plugin folder and file name of _this_ plugin. If it does, the plugin is removed from the list of plugins to check for updates.
 -->
 
-これは、WordPress.org api からのアップデートリクエストが、_この_ プラグインのプラグインフォルダーとファイル名に一致するか否かをチェックするものです。一致すれば、そのプラグインは、アップデートをチェックするプラグインのリストから削除されます。
+これは、WordPress.org api からのアップデートリクエストが、**このプラグイン** のプラグインフォルダーとファイル名に一致するか否かをチェックするものです。一致すれば、そのプラグインは、アップデートをチェックするプラグインのリストから削除されます。

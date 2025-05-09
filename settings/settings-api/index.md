@@ -38,7 +38,7 @@ Organizing registration and validation of fields still requires some effort from
 A developer _could_ ignore this API and write their own settings page without it. That begs the question, what benefit does this API bring to the table? Following is a quick rundown of some of the benefits.
 -->
 
-開発者はこの API を無視して、API なしで独自の設定ページを書くことは _可能_ です。では、この API はどのような利点をもたらすのでしょう ? 以下は、いくつかの利点の簡単な概要です。
+開発者はこの API を無視して、API なしで独自の設定ページを書くことは **可能** です。では、この API はどのような利点をもたらすのでしょう ? 以下は、いくつかの利点の簡単な概要です。
 
 <!--
 ### Visual Consistency

@@ -20,7 +20,7 @@ WordPress は `term_taxonomy` データベース・テーブルにタクソノ�
 Taxonomies have **Terms** which serve as the topic by which you classify/group things. They are stored inside the `terms` table.
 -->
 
-タクソノミーには**ターム**があり、トピックとして分類/グループ化されます。これらは `terms` テーブルに格納されます。
+タクソノミーには「ターム」があり、トピックとして分類/グループ化されます。これらは `terms` テーブルに格納されます。
 
 <!--
 For example: a Taxonomy named "Art" can have multiple Terms, such as "Modern" and "18th Century".

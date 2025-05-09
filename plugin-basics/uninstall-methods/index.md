@@ -103,7 +103,7 @@ The constant will be defined by WordPress during the `uninstall.php` invocation.
 The constant is **NOT** defined when uninstall is performed by [register\_uninstall\_hook()](https://developer.wordpress.org/reference/functions/register_uninstall_hook/).[/alert]
 -->
 
-[register\_uninstall\_hook()](https://developer.wordpress.org/reference/functions/register_uninstall_hook/) でアンインストールする場合、定数は定義**されません**。[/alert]
+[register\_uninstall\_hook()](https://developer.wordpress.org/reference/functions/register_uninstall_hook/) でアンインストールする場合、定数は定義 **されません**。[/alert]
 
 <!--
 Here is an example deleting option entries and dropping a database table:

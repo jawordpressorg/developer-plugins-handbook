@@ -182,13 +182,13 @@ Plugins may not contain functionality that is restricted or locked, only to be m
 Paid functionality in services _is_ permitted (see guideline 6: serviceware), provided all the code inside a plugin is fully available. We recommend the use of add-on plugins, hosted outside of WordPress.org, in order to exclude the premium code. Situations where a plugin is intended as a developer tool only will be reviewed on a case by case basis.
 -->
 
-サービスにおける有料機能 _は_ 許可されています (ガイドライン「6: サービスウェア」参照) が、プラグイン内のすべてのコードが完全に利用可能であることが条件です。プレミアムコードを除外するために、WordPress.org の外部でホストされるアドオン・プラグインの使用を推奨します。プラグインが開発者用ツールとしてのみ意図されている状況では、ケースバイケースでレビューされます。
+サービスにおける有料機能は **許可されています** (ガイドライン「6: サービスウェア」参照) が、プラグイン内のすべてのコードが完全に利用可能であることが条件です。プレミアムコードを除外するために、WordPress.org の外部でホストされるアドオン・プラグインの使用を推奨します。プラグインが開発者用ツールとしてのみ意図されている状況では、ケースバイケースでレビューされます。
 
 <!--
 Attempting to upsell the user on ad-hoc products and features _is_ acceptable, provided it falls within bounds of guideline 11 (hijacking the admin experience).
 -->
 
-暫定的な商品や機能をユーザーに売り込もうとすること _は_、ガイドラインの範囲内であれば容認されます (「11: 管理者体験のハイジャック」参照)。
+暫定的な商品や機能をユーザーに売り込もうとすることは、ガイドラインの範囲内であれば **容認されます** (「11: 管理者体験のハイジャック」参照)。
 
 <!--
 ### 6. Software as a Service is permitted
@@ -206,7 +206,7 @@ Plugins that act as an interface to some external third party service (e.g. a vi
 Services and functionality _not_ allowed include:
 -->
 
-許可され _ない_ サービスや機能は、以下の通りです:
+**許可されない** サービスや機能は、以下の通りです:
 
 <!--
 - A service that exists for the sole purpose of validating licenses or keys while all functional aspects of the plugin are included locally is not permitted.
@@ -228,7 +228,7 @@ Services and functionality _not_ allowed include:
 In the interest of protecting user privacy, plugins may not contact external servers without _explicit_ and authorized consent. This is commonly done via an 'opt in' method, requiring registration with a service or a checkbox within the plugin settings. Documentation on how any user data is collected, and used, should be included in the plugin's readme, preferably with a clearly stated privacy policy.
 -->
 
-ユーザーのプライバシーを保護するため、プラグインは _明示的_ で許可された同意なしに、外部サーバーに接続できません。これは一般的に「オプトイン」方式で行われ、サービスへの登録やプラグイン設定内のチェックボックスを必要とします。ユーザーデータがどのように収集され、どのように使用されるかについてのドキュメントは、プラグインの readme に含まれるべきです。できれば、プライバシーポリシーが明記されていることが望ましいです。
+ユーザーのプライバシーを保護するため、プラグインは **明示的** に許可された同意なしに、外部サーバーに接続できません。これは一般的に「オプトイン」方式で行われ、サービスへの登録やプラグイン設定内のチェックボックスを必要とします。ユーザーデータがどのように収集され、どのように使用されるかについてのドキュメントは、プラグインの readme に含まれるべきです。できれば、プライバシーポリシーが明記されていることが望ましいです。
 
 <!--
 Some examples of prohibited tracking include:
@@ -286,7 +286,7 @@ Externally loading code from documented services is permitted, however all commu
 Management services that interact with and push software down to a site _are_ permitted, provided the service handles the interaction on it's own domain and not within the WordPress dashboard.
 -->
 
-そのサービスが WordPress ダッシュボード内ではなく独自のドメイン上でインタラクションを処理する場合に限り、サイトと相互作用し、ソフトウェアをプッシュダウンする管理サービス _は_ 許可されています。
+そのサービスが WordPress ダッシュボード内ではなく独自のドメイン上でインタラクションを処理する場合に限り、サイトと相互作用し、ソフトウェアをプッシュダウンする管理サービスは **許可されています**。
 
 <!--
 ### 9. Developers and their plugins must not do anything illegal, dishonest, or morally offensive
@@ -348,7 +348,7 @@ This includes (but is not restricted to) the following examples:
 All "Powered By" or credit displays and links included in the plugin code must be optional and default to _not_ show on users' front-facing websites. Users must opt-in to displaying any and all credits and links via clearly stated and understandable choices, not buried in the terms of use or documentation. Plugins may not require credit or links be displayed in order to function. Services _are_ permitted to brand their output as they see fit, provided the code is handled in the service and not the plugin.
 -->
 
-プラグインコードに含まれるすべての「Powered By」あるいはクレジット表示とリンクは、オプショナルでなければならず、デフォルトではユーザーのフロント・フェイスの Web サイトには表示 _しない_ ようになっていなければなりません。ユーザーは、利用規約やドキュメントに埋もれることなく、明示されたわかりやすい選択肢によって、クレジットやリンクを表示することに同意しなければなりません。プラグインは、機能するためにクレジットやリンクの表示を要求できません。サービスは、コードをプラグインではなくサービス内で処理することを条件に、適切と思われるようにその出力をブランド化すること _が_ 認められます。
+プラグインコードに含まれるすべての「Powered By」あるいはクレジット表示とリンクは、オプショナルでなければならず、デフォルトではユーザーのフロント・フェイスの Web サイトには **表示しない** ようになっていなければなりません。ユーザーは、利用規約やドキュメントに埋もれることなく、明示されたわかりやすい選択肢によって、クレジットやリンクを表示することに同意しなければなりません。プラグインは、機能するためにクレジットやリンクの表示を要求できません。サービスは、コードをプラグインではなくサービス内で処理することを条件に、適切と思われるようにその出力をブランド化することが **認められます**。
 
 <!--
 ### 11. Plugins should not hijack the admin dashboard
@@ -366,7 +366,7 @@ Users prefer and expect plugins to feel like part of WordPress. Constant nags an
 Upgrade prompts, notices, alerts, and the like must be limited in scope and used sparingly, be that contextually or only on the plugin's setting page. Site wide notices or embedded dashboard widgets _must_ be dismissible or self-dismiss when resolved. Error messages and alerts must include information on how to resolve the situation, and remove themselves when completed.
 -->
 
-アップグレードのプロンプト、通知、アラートなどは範囲を限定し、文脈上であれ、プラグインの設定ページのみであれ、控えめに使用しなければなりません。サイト全体の通知やダッシュボードに埋め込まれたウィジェットは、解決されたときに解除または自己解除が可能でなければ _なりません_。エラーメッセージやアラートには、その状況を解決するための情報が含まれていなければなりませんし、完了したら自動的に削除されなければなりません。
+アップグレードのプロンプト、通知、アラートなどは範囲を限定し、文脈上であれ、プラグインの設定ページのみであれ、控えめに使用しなければなりません。サイト全体の通知やダッシュボードに埋め込まれたウィジェットは、解決されたときに解除または自己解除が **可能でなければなりません**。エラーメッセージやアラートには、その状況を解決するための情報が含まれていなければなりませんし、完了したら自動的に削除されなければなりません。
 
 <!--
 Advertising within the WordPress dashboard should be avoided, as it is generally ineffective. Users normally only visit settings pages when they're trying to solve a problem. Making it harder to use a plugin does not generally encourage a good review, and we recommend limiting any ads placed therein. Remember: tracking referrals via those ads is not permitted (see guideline 7) and most third-party systems do not permit back-end advertisements. Abusing the guidelines of an advertising system will result in developers being reported upstream.

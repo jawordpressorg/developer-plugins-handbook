@@ -16,12 +16,12 @@ By making your own plugin you are _extending_ WordPress, for example, building a
 <!--
 Or, using WordPress' custom post types, you could write a plugin that creates a full-featured support ticketing system with email notifications, custom ticket statuses, and a client-facing portal. The possibilities are _endless_!_
 -->
-あるいは、WordPress のカスタム投稿タイプを使用して、電子メール通知、カスタムチケットステータス、および顧客向けポータルを備えたフル機能のサポートチケットシステムを作成するプラグインも作成できます。可能性は _無限大です_!
+あるいは、WordPress のカスタム投稿タイプを使用して、電子メール通知、カスタムチケットステータス、および顧客向けポータルを備えたフル機能のサポートチケットシステムを作成するプラグインも作成できます。可能性は **無限大です**!
 
 <!--
 Most WordPress plugins are composed of many files, but a plugin really only _needs_ one main file with a specifically formatted [DocBlock](https://en.wikipedia.org/wiki/PHPDoc) in the header.
 -->
-WordPress のプラグインは多くのファイルで構成されていますが、プラグインとして認識されるために本当に必要なのは、ヘッダーに特別な書式の [DocBlock](https://en.wikipedia.org/wiki/PHPDoc) を持つ1つのメインファイルだけです。
+WordPress のプラグインは多くのファイルで構成されていますが、プラグインとして認識されるために「本当に」必要なのは、ヘッダーに特別な書式の [DocBlock](https://en.wikipedia.org/wiki/PHPDoc) を持つ1つのメインファイルだけです。
 
 <!--
 [Hello Dolly](https://wordpress.org/plugins/hello-dolly/ "Hello Dolly"), one of the first plugins, is only [100 lines](https://plugins.trac.wordpress.org/browser/hello-dolly/trunk/hello.php) long. Hello Dolly shows lyrics from [the famous song](https://en.wikipedia.org/wiki/Hello,_Dolly!_(song)) in the WordPress admin. Some CSS is used in the PHP file to control how the lyric is styled.
@@ -32,4 +32,4 @@ WordPress のプラグインは多くのファイルで構成されています�
 <!--
 As a WordPress.org plugin author, you have an amazing opportunity to create a plugin that will be installed, tinkered with, and loved by millions of WordPress users. All **you** need to do is turn your great idea into code. The Plugin Handbook is here to help you with that.
 -->
-WordPress.org のプラグイン作者として、何百万人もの WordPress ユーザーにインストールされ、いじられ、愛されるプラグインを作成するすばらしい機会があります。**あなた**がすべきことは、あなたのすばらしいアイデアをコードにすることです。プラグインハンドブックは、そのお手伝いをするためにあります。
+WordPress.org のプラグイン作者として、何百万人もの WordPress ユーザーにインストールされ、いじられ、愛されるプラグインを作成するすばらしい機会があります。**あなた** がすべきことは、あなたのすばらしいアイデアをコードにすることです。プラグインハンドブックは、そのお手伝いをするためにあります。

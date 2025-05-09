@@ -32,7 +32,7 @@ As classification systems go, "Categories" and "Tags" aren't very structured, so
 WordPress allows developers to create **Custom Taxonomies**. Custom Taxonomies are useful when one wants to create distinct naming systems and make them accessible behind the scenes in a predictable way.
 -->
 
-WordPress では、開発者が**カスタムタクソノミー**を作成できます。カスタムタクソノミーは、明確なネーミングシステムを作成し、予測可能な方法で舞台裏からアクセスできるようにしたい場合に便利です。
+WordPress では、開発者が「カスタムタクソノミー」を作成できます。カスタムタクソノミーは、明確なネーミングシステムを作成し、予測可能な方法で舞台裏からアクセスできるようにしたい場合に便利です。
 
 <!--
 ## Why Use Custom Taxonomies?
@@ -110,7 +110,7 @@ Please make sure to read the [Plugin Basics](https://developer.wordpress.org/plu
 Go to **Posts > Add New** page. You will notice that you only have Categories and Tags.
 -->
 
-**投稿 > 新規投稿を追加**ページに移動します。まだカテゴリーとタグしかありません。
+**投稿 > 新規投稿を追加** ページに移動します。まだカテゴリーとタグしかありません。
 
 <!--
 ![No Custom Taxonomy Meta Box (Yet)](https://make.wordpress.org/docs/files/2014/02/no-custom-taxonomy-meta-box.png)
@@ -176,7 +176,7 @@ add_action( 'init', 'wporg_register_taxonomy_course' );
 Activate your plugin, then go to **Posts > Add New**. You should see a new meta box for your "Courses" Taxonomy.
 -->
 
-プラグインを有効にして、**投稿 > 新規投稿を追加**に移動してください。タクソノミー「コース」の新しいメタボックスが表示されるはずです。
+プラグインを有効にして、**投稿 > 新規投稿を追加** に移動してください。タクソノミー「コース」の新しいメタボックスが表示されるはずです。
 
 <!--
 ![Courses Taxonomy Post Screen](https://make.wordpress.org/docs/files/2014/02/courses_taxonomy_post_screen.png)
@@ -274,7 +274,7 @@ The archive page will be at `/course/` with child pages spawning under it using 
 WordPress has **many** functions for interacting with your Custom Taxonomy and the Terms within it.
 -->
 
-WordPress には、カスタムタクソノミーとその中のタームとのインタラクションのための**多くの**関数があります。
+WordPress には、カスタムタクソノミーとその中のタームとのインタラクションのための **多くの** 関数があります。
 
 <!--
 Here are some examples:

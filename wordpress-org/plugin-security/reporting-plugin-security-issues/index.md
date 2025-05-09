@@ -38,13 +38,13 @@ To report a plugin, please email `plugins@wordpress.org` with the following:
 In the case of serious exploits, please keep in mind responsible and reasonable disclosure. Every attempt to contact the developer directly should be made _before_ you reported the plugin to us (though we understand this can be difficult – check in the source code of the plugin first, many developers list their emails). If you cannot contact them privately, please contact us directly and we’ll help out.
 -->
 
-深刻な脆弱性の場合は、責任ある合理的な情報開示を心掛けてください。プラグインを私たちに報告する _前に_、開発者に直接連絡するあらゆる試みを行う必要があります (難しいとは理解していますけれども – 多くの開発者が e メールアドレスを掲載しているので、まずはプラグインのソースコードを確認してください)。個人的に連絡できない場合は、私たちに直接ご連絡くだされば、お手伝いします。
+深刻な脆弱性の場合は、責任ある合理的な情報開示を心掛けてください。プラグインを私たちに報告する **前に**、開発者に直接連絡するあらゆる試みを行う必要があります (難しいとは理解していますけれども – 多くの開発者が e メールアドレスを掲載しているので、まずはプラグインのソースコードを確認してください)。個人的に連絡できない場合は、私たちに直接ご連絡くだされば、お手伝いします。
 
 <!--
 Most plugins are closed to prevent new downloads until the issue is resolved. As such, you may _not_ be alerted of a fix until the plugin is updated. We also **do not** provide assistance with filing CVEs at this time, due to a lack of resources. You’re welcome to do so on your own, but we cannot help you.
 -->
 
-ほとんどのプラグインは、課題が解決されるまで新しいダウンロードができないようにクローズされます。その為、プラグインが更新されるまで、修正されたことが通知 _されない_ 可能性があります。また、リソースが不足しているため、現時点では CVE (Common Vulnerabilities and Exposures、共通脆弱性識別子データベース) のファイリングに関する支援も提供 **していません**。ご自身で CVE を申請されるのは自由ですが、私たちはお手伝いできません。
+ほとんどのプラグインは、課題が解決されるまで新しいダウンロードができないようにクローズされます。その為、プラグインが更新されるまで、修正されたことが **通知されない** 可能性があります。また、リソースが不足しているため、現時点では CVE (Common Vulnerabilities and Exposures、共通脆弱性識別子データベース) のファイリングに関する支援も **提供していません**。ご自身で CVE を申請されるのは自由ですが、私たちはお手伝いできません。
 
 <!--
 If you’ve already posted the vulnerability in public and provided a link to your report, please do not delete it! We will pass it on directly to the developers of the plugin.
