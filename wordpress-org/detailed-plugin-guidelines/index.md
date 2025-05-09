@@ -8,7 +8,7 @@
 [info]Adding a Block Only plugin? Please read the [Block Specific Guidelines](https://developer.wordpress.org/plugins/wordpress-org/block-specific-plugin-guidelines/).[/info]
 -->
 
-[info]ブロック専用プラグインを追加しますか ? [ブロック固有のガイドライン](https://developer.wordpress.org/plugins/wordpress-org/block-specific-plugin-guidelines/)をお読みください。[/info]
+[info]ブロック専用プラグインを追加しますか ? [ブロック固有のガイドライン](https://ja.wordpress.org/team/handbook/plugin-development/wordpress-org/block-specific-plugin-guidelines/)をお読みください。[/info]
 
 <!--
 ## The Plugin Directory
@@ -456,7 +456,7 @@ An exception to this is when readme files are updated solely to indicate support
 Users are only alerted to updates when the plugin version is increased. The trunk readme.txt must always reflect the current version of the plugin. For more information on tagging, please read our [SVN directions on tagging](https://developer.wordpress.org/plugins/wordpress-org/how-to-use-subversion/#tags) and [how the readme.txt works](https://developer.wordpress.org/plugins/wordpress-org/how-your-readme-txt-works/).
 -->
 
-ユーザーは、プラグインのバージョンが上がったときだけ、アップデートを通知されます。trunk の readme.txt は、常にプラグインの現在のバージョンを反映しなければなりません。tag 付けの詳細については、[tag 付けに関する SVN の指示](https://developer.wordpress.org/plugins/wordpress-org/how-to-use-subversion/#tags)と [readme.txt の仕組み](https://developer.wordpress.org/plugins/wordpress-org/how-your-readme-txt-works/)をお読みください。
+ユーザーは、プラグインのバージョンが上がったときだけ、アップデートを通知されます。trunk の readme.txt は、常にプラグインの現在のバージョンを反映しなければなりません。tag 付けの詳細については、[tag 付けに関する SVN の指示](https://ja.wordpress.org/team/handbook/plugin-development/wordpress-org/how-to-use-subversion/#tags)と [readme.txt の仕組み](https://ja.wordpress.org/team/handbook/plugin-development/wordpress-org/how-your-readme-txt-works/)をお読みください。
 
 <!--
 ### 16. A complete plugin must be available at the time of submission

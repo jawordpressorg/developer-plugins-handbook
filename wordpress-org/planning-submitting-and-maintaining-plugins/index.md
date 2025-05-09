@@ -88,7 +88,7 @@ In order to submit a plugin, there are three steps:
 Once a plugin is queued for review, we will review the code for any issues within 14 business days. Most of the issues can be avoided by following the guidelines. If we do find issues, we will contact the developer(s), and work towards a resolution. Once approved, you'll receive an email with details as to how to access to a [Subversion Repository](https://developer.wordpress.org/plugins/wordpress-org/how-to-use-subversion/) where you'll store your plugin.
 -->
 
-プラグインがレビューのためにキューに入ったら、14営業日以内に問題がないかコードをレビューします。ほとんどの問題は、ガイドラインに従うことで回避できます。問題が見つかった場合は、開発者に連絡し、解決に向けて努力します。承認されると、プラグインを格納する [Subversion リポジトリ](https://developer.wordpress.org/plugins/wordpress-org/how-to-use-subversion/)へのアクセス方法の詳細が記載されたメールが届きます。
+プラグインがレビューのためにキューに入ったら、14営業日以内に問題がないかコードをレビューします。ほとんどの問題は、ガイドラインに従うことで回避できます。問題が見つかった場合は、開発者に連絡し、解決に向けて努力します。承認されると、プラグインを格納する [Subversion リポジトリ](https://ja.wordpress.org/team/handbook/plugin-development/wordpress-org/how-to-use-subversion/)へのアクセス方法の詳細が記載されたメールが届きます。
 
 <!--
 After you upload your plugin (and a [readme file](https://wordpress.org/plugins/developers/#readme)) in that repository via SVN, it will appear on the [plugin directory](https://wordpress.org/plugins/).
@@ -112,7 +112,7 @@ WordPress.org のプラグイン・ディレクトリは、潜在的なユーザ
 When you're ready to release your first version, you'll want to [sign up](https://wordpress.org/plugins/developers/add/). After a review process is completed successfully, you'll be granted a Subversion Repository for your code. We have documentation about [using SVN on WordPress.org](https://developer.wordpress.org/plugins/wordpress-org/how-to-use-subversion/), which is a slightly different workflow than you may be familiar with if you use GIT.
 -->
 
-最初のバージョンをリリースする準備ができたら、[サインアップ](https://ja.wordpress.org/plugins/developers/add/)したいと思うでしょう。レビュープロセスが正常に完了すると、コード用の Subversion リポジトリが与えられます。[WordPress.org で SVN の使用](https://developer.wordpress.org/plugins/wordpress-org/how-to-use-subversion/)に関するドキュメントがありますが、Git を使用する場合に慣れているワークフローとは少し異なります。
+最初のバージョンをリリースする準備ができたら、[サインアップ](https://ja.wordpress.org/plugins/developers/add/)したいと思うでしょう。レビュープロセスが正常に完了すると、コード用の Subversion リポジトリが与えられます。[WordPress.org で SVN の使用](https://ja.wordpress.org/team/handbook/plugin-development/wordpress-org/how-to-use-subversion/)に関するドキュメントがありますが、Git を使用する場合に慣れているワークフローとは少し異なります。
 
 <!--
 ## 6. Embrace open source
@@ -134,7 +134,7 @@ Open source is one of the most powerful ideas of our time because it empowers co
 
 - [Github](https://github.com/) は、あなたのプロジェクトに他の人を参加させることを簡単にします。他の開発者やユーザーは、バグフィックスやレポート、機能リクエスト、あるいは真新しい貢献を簡単に提出できます。GitHub には、[素晴らしいドキュメントポータル](https://support.github.com/)があります。
 	- [Bitbucket](https://bitbucket.org/) と [Gitlab](https://about.gitlab.com/) は、似たような機能を持つ代替手段です。
-- WordPress.org プラグイン・ディレクトリは、[Subversion リポジトリ](https://developer.wordpress.org/plugins/wordpress-org/how-to-use-subversion/)を提供し、使用することを要求します。
+- WordPress.org プラグイン・ディレクトリは、[Subversion リポジトリ](https://ja.wordpress.org/team/handbook/plugin-development/wordpress-org/how-to-use-subversion/)を提供し、使用することを要求します。
 
 <!--
 ## 7. Listen to your users

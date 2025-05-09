@@ -14,7 +14,7 @@ Most WordPress plugins are released under the [GPL](https://www.gnu.org/licenses
 In the [Header Requirements](https://developer.wordpress.org/plugins/plugin-basics/header-requirements/) section, we briefly mentioned how you can indicate your plugin's license within the plugin header comment. Another common, and encouraged, practice is to place a license block comment near the top of your main plugin file (the same one that has the plugin header comment).
 -->
 
-[ヘッダーの必要条件](https://developer.wordpress.org/plugins/plugin-basics/header-requirements/)のセクションで、プラグインのライセンスをプラグインヘッダーのコメントで示す方法について簡単に触れました。もう一つの一般的で、推奨される方法は、メインのプラグインファイルの一番上付近にライセンスブロックのコメント (プラグインヘッダーのコメントと同じもの) を置くことです。
+[ヘッダーの必要条件](hhttps://ja.wordpress.org/team/handbook/plugin-development/plugin-basics/header-requirements/)のセクションで、プラグインのライセンスをプラグインヘッダーのコメントで示す方法について簡単に触れました。もう一つの一般的で、推奨される方法は、メインのプラグインファイルの一番上付近にライセンスブロックのコメント (プラグインヘッダーのコメントと同じもの) を置くことです。
 
 <!--
 This license block comment usually looks something like this:

@@ -26,7 +26,7 @@ Once a user account is created, that user may log in using the WordPress Admin (
 Users are assigned [roles](https://developer.wordpress.org/plugins/users/roles-and-capabilities/#roles), and each role has a set of [capabilities](https://developer.wordpress.org/plugins/users/roles-and-capabilities/#capabilities).
 -->
 
-ユーザーには[権限グループ](https://developer.wordpress.org/plugins/users/roles-and-capabilities/#roles)が割り当てられ、各権限グループには[権限](https://developer.wordpress.org/plugins/users/roles-and-capabilities/#capabilities)のセットがあります。
+ユーザーには[権限グループ](https://ja.wordpress.org/team/handbook/plugin-development/users/roles-and-capabilities/#roles)が割り当てられ、各権限グループには[権限](https://ja.wordpress.org/team/handbook/plugin-development/users/roles-and-capabilities/#capabilities)のセットがあります。
 
 <!--
 You can create new roles with their own set of capabilities. Custom capabilities can also be created and assigned to existing roles or new roles.

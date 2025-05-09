@@ -8,7 +8,7 @@
 [info]All Block Specific plugins must also comply with the [overall plugin guidelines](https://developer.wordpress.org/plugins/wordpress-org/detailed-plugin-guidelines/). These additional guidelines are unique to block specific plugins.[/info]
 -->
 
-[info]すべてのブロック固有のプラグインは、[プラグイン全般のガイドライン](https://developer.wordpress.org/plugins/wordpress-org/detailed-plugin-guidelines/)にも従わなければなりません。これらの追加ガイドラインは、ブロック固有のプラグインに特有のものです。[/info]
+[info]すべてのブロック固有のプラグインは、[プラグイン全般のガイドライン](https://ja.wordpress.org/team/handbook/plugin-development/wordpress-org/detailed-plugin-guidelines/)にも従わなければなりません。これらの追加ガイドラインは、ブロック固有のプラグインに特有のものです。[/info]
 
 <!--
 ## Guide to submitting plugins to the Block Directory
@@ -82,7 +82,7 @@ For the purposes of the Block Directory, we distinguish between two types of plu
 These guidelines apply specifically to the first type of plugin, which is called a Block Plugin. If a plugin is of the second type, then the further guidelines and restrictions do not apply. All plugins, be they block-only or not, are required to comply with the [Detailed Plugin Guidelines](https://developer.wordpress.org/plugins/wordpress-org/detailed-plugin-guidelines/).
 -->
 
-これらのガイドラインは、特にブロック・プラグインと呼ばれる、最初のタイプのプラグインに適用されます。プラグインが2番目のタイプであれば、さらなるガイドラインと制限は適用されません。すべてのプラグインは、ブロック・プラグインであろうとなかろうと、[プラグイン詳細ガイドライン](https://developer.wordpress.org/plugins/wordpress-org/detailed-plugin-guidelines/)に従うことが要求されます。
+これらのガイドラインは、特にブロック・プラグインと呼ばれる、最初のタイプのプラグインに適用されます。プラグインが2番目のタイプであれば、さらなるガイドラインと制限は適用されません。すべてのプラグインは、ブロック・プラグインであろうとなかろうと、[プラグイン詳細ガイドライン](https://ja.wordpress.org/team/handbook/plugin-development/wordpress-org/detailed-plugin-guidelines/)に従うことが要求されます。
 
 <!--
 ### Block Plugins and the Block Directory

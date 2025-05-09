@@ -8,7 +8,7 @@
 The Options API, added in WordPress 1.0, allows creating, reading, updating and deleting of WordPress options. In combination with the [Settings API](https://developer.wordpress.org/plugins/settings/settings-api/) it allows controlling of options defined in settings pages.
 -->
 
-WordPress 1.0で追加されたオプション API は、WordPress のオプションの作成、読み込み、更新、削除を可能にします。[設定 API](https://developer.wordpress.org/plugins/settings/settings-api/) と組み合わせることで、設定ページで定義されたオプションの制御が可能になります。
+WordPress 1.0で追加されたオプション API は、WordPress のオプションの作成、読み込み、更新、削除を可能にします。[設定 API](https://ja.wordpress.org/team/handbook/plugin-development/settings/settings-api/) と組み合わせることで、設定ページで定義されたオプションの制御が可能になります。
 
 <!--
 ## Where Options are Stored?

@@ -26,7 +26,7 @@ Custom hooks are created and called in the same way that WordPress Core hooks ar
 To create a custom hook, use [`do_action()`](https://developer.wordpress.org/reference/functions/do_action/) for [Actions](https://developer.wordpress.org/plugins/hooks/actions/) and [`apply_filters()`](https://developer.wordpress.org/reference/functions/apply_filters/) for [Filters](https://developer.wordpress.org/plugins/hooks/filters/).
 -->
 
-カスタムフックを作成する場合、[アクション](https://developer.wordpress.org/plugins/hooks/actions/)には [`do_action()`](https://developer.wordpress.org/reference/functions/do_action/) を、[フィルター](https://developer.wordpress.org/plugins/hooks/filters/)には [`apply_filters()`](https://developer.wordpress.org/reference/functions/apply_filters/) を使用します。
+カスタムフックを作成する場合、[アクション](https://ja.wordpress.org/team/handbook/plugin-development/hooks/actions/)には [`do_action()`](https://developer.wordpress.org/reference/functions/do_action/) を、[フィルター](https://ja.wordpress.org/team/handbook/plugin-development/hooks/filters/)には [`apply_filters()`](https://developer.wordpress.org/reference/functions/apply_filters/) を使用します。
 
 <!--
 [info]We recommend using [`apply_filters()`](https://developer.wordpress.org/reference/functions/apply_filters/) on any text that is output to the browser. Particularly on the frontend.
@@ -50,7 +50,7 @@ This makes it easier for plugins to be modified according to the user's needs.[/
 To add a callback function to a custom hook, use [`add_action()`](https://developer.wordpress.org/reference/functions/add_action/) for [Actions](https://developer.wordpress.org/plugins/hooks/actions/) and [`add_filter()`](https://developer.wordpress.org/reference/functions/add_filter/) for [Filters](https://developer.wordpress.org/plugins/hooks/filters/).
 -->
 
-カスタムフックにコールバック関数を追加する場合、[アクション](https://developer.wordpress.org/plugins/hooks/actions/)には [`add_action()`](https://developer.wordpress.org/reference/functions/add_action/) を、[フィルター](https://developer.wordpress.org/plugins/hooks/filters/)には [`add_filter()`](https://developer.wordpress.org/reference/functions/add_filter/) を使用します。
+カスタムフックにコールバック関数を追加する場合、[アクション](https://ja.wordpress.org/team/handbook/plugin-development/hooks/actions/)には [`add_action()`](https://developer.wordpress.org/reference/functions/add_action/) を、[フィルター](https://ja.wordpress.org/team/handbook/plugin-development/hooks/filters/)には [`add_filter()`](https://developer.wordpress.org/reference/functions/add_filter/) を使用します。
 
 <!--
 ## Naming Conflicts

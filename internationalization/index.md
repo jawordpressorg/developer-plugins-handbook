@@ -32,7 +32,7 @@ WordPress は、世界中で、英語が主要言語でない国でも、使用�
 Read further on [How to Internationalize your Plugin](https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/).
 -->
 
-[プラグインを国際化するには](https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/)について、さらにお読みください。
+[プラグインを国際化するには](https://ja.wordpress.org/team/handbook/plugin-development/internationalization/how-to-internationalize-your-plugin/)について、さらにお読みください。
 
 <!--
 ## Resources

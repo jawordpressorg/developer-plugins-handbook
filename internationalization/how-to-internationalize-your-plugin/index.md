@@ -56,7 +56,7 @@ The text domain name must use dashes and not underscores, be lower case, and hav
 The text domain also needs to be added to the plugin header. WordPress uses it to internationalize your plugin metadata even when the plugin is disabled. The text domain should be same as the one used when [loading the text domain](https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/#loading-text-domain).
 -->
 
-テキスト・ドメインも、プラグインヘッダーに追加する必要があります。WordPress は、プラグインが無効になっている場合でも、プラグインのメタデータを国際化するためにこれを使用します。テキスト・ドメインは、[テキスト・ドメインを読み込む](https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/#loading-text-domain)ときに使用したものと同じでなければなりません。
+テキスト・ドメインも、プラグインヘッダーに追加する必要があります。WordPress は、プラグインが無効になっている場合でも、プラグインのメタデータを国際化するためにこれを使用します。テキスト・ドメインは、[テキスト・ドメインを読み込む](https://ja.wordpress.org/team/handbook/plugin-development/internationalization/how-to-internationalize-your-plugin/#loading-text-domain)ときに使用したものと同じでなければなりません。
 
 <!--
 ### Header example

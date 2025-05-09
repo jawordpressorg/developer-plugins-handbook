@@ -65,7 +65,7 @@ The output could look something like this on your settings page.
 In the [article on AJAX](https://developer.wordpress.org/plugins/javascript/ajax/), we will build an AJAX exchange that saves the user selection in usermeta and adds the number of posts tagged with the selected title. Not a very practical application, but it illustrates all the important steps. jQuery code can either reside in an external file or be output to the page inside a `<script>` block. We will focus on the external file variation because passing values from PHP requires special attention. The same code can be output to the page if that seems more expedient to you.
 -->
 
-[AJAX の記事](https://developer.wordpress.org/plugins/javascript/ajax/)で、ユーザーの選択を usermeta に保存し、選択されたタイトルでタグ付けされた投稿の数を追加する AJAX 交換を構築します。あまり実用的なアプリケーションではありませんが、すべての重要なステップを説明しています。jQuery のコードは、外部ファイルに置くか、`<script>` ブロックの中でページに出力できます。PHP から値を渡すには特別な注意が必要ですので、ここでは外部ファイルのバリエーションに焦点を当てます。その方が便利だと思われる場合は、同じコードをページに出力できます。
+[AJAX の記事](https://ja.wordpress.org/team/handbook/plugin-development/javascript/ajax/)で、ユーザーの選択を usermeta に保存し、選択されたタイトルでタグ付けされた投稿の数を追加する AJAX 交換を構築します。あまり実用的なアプリケーションではありませんが、すべての重要なステップを説明しています。jQuery のコードは、外部ファイルに置くか、`<script>` ブロックの中でページに出力できます。PHP から値を渡すには特別な注意が必要ですので、ここでは外部ファイルのバリエーションに焦点を当てます。その方が便利だと思われる場合は、同じコードをページに出力できます。
 
 <!--
 ### Selector and Event
@@ -92,7 +92,7 @@ This code will "do stuff" when any element of the "pref" class changes.
 このコードは、"pref" クラスの要素が変更されたときに「何かをします」。
 
 <!--
-[info]This code snippet, and all examples on this page, are for illustrating the use of AJAX. The code is not suitable for production environments because related operations such as [sanitization](https://developer.wordpress.org/plugins/security/securing-input/), [security](https://developer.wordpress.org/apis/security/nonces/), [error handling](https://www.sitepoint.com/error-handling-in-php/), and [internationalization](https://developer.wordpress.org/plugins/internationalization/) have been intentionally omitted. Be sure to always address these important operations in your production code.[/info]
+[info]This code snippet, and all examples on this page, are for illustrating the use of AJAX. The code is not suitable for production environments because related operations such as [sanitization](https://developer.wordpress.org/plugins/security/securing-input/), [security](https://developer.wordpress.org/apis/security/nonces/), [error handling](https://www.sitepoint.com/error-handling-in-php/), and [internationalization](internationalization/) have been intentionally omitted. Be sure to always address these important operations in your production code.[/info]
 -->
 
-[info]このコードスニペット、そしてこのページのすべての例は、AJAX の使用を説明するためのものです。[サニタイズ](https://developer.wordpress.org/plugins/security/securing-input/)、[セキュリティ](https://developer.wordpress.org/apis/security/nonces/)、[エラー処理](https://www.sitepoint.com/error-handling-in-php/)、そして[国際化](https://developer.wordpress.org/plugins/internationalization/)などの関連処理が意図的に省略されているため、コードは本番環境には適していません。本番環境のコードでは、必ずこれらの重要な操作に対処してください。[/info]
+[info]このコードスニペット、そしてこのページのすべての例は、AJAX の使用を説明するためのものです。[サニタイズ](https://ja.wordpress.org/team/handbook/plugin-development/security/securing-input/)、[セキュリティ](https://developer.wordpress.org/apis/security/nonces/)、[エラー処理](https://www.sitepoint.com/error-handling-in-php/)、そして[国際化](https://ja.wordpress.org/team/handbook/plugin-development/internationalization/)などの関連処理が意図的に省略されているため、コードは本番環境には適していません。本番環境のコードでは、必ずこれらの重要な操作に対処してください。[/info]

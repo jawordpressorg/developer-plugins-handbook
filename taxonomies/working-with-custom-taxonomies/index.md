@@ -14,7 +14,7 @@
 To understand what Taxonomies are and what they do please read the [Taxonomy](https://developer.wordpress.org/plugins/taxonomies/) introduction.
 -->
 
-タクソノミーとは何か、タクソノミーが何をするのかについて理解するには、[タクソノミー](https://developer.wordpress.org/plugins/taxonomies/)概要をお読みください。
+タクソノミーとは何か、タクソノミーが何をするのかについて理解するには、[タクソノミー](https://ja.wordpress.org/team/handbook/plugin-development/taxonomies/)概要をお読みください。
 
 <!--
 ## Custom Taxonomies
@@ -98,7 +98,7 @@ The following example will show you how to create a plugin which adds a Custom T
 Please make sure to read the [Plugin Basics](https://developer.wordpress.org/plugins/plugin-basics/) chapter before attempting to create your own plugin.
 -->
 
-独自のプラグインを作ろうとする前に、必ず[プラグインの基本](https://developer.wordpress.org/plugins/plugin-basics/)の章を読んでください。
+独自のプラグインを作ろうとする前に、必ず[プラグインの基本](https://ja.wordpress.org/team/handbook/plugin-development/plugin-basics/)の章を読んでください。
 
 <!--
 ### Step 1: Before You Begin

@@ -30,17 +30,17 @@ The Plugin Developer Handbook is a resource for all things WordPress plugins. Wh
 - Finally: some [developer tools](https://developer.wordpress.org/plugins/developer-tools/) you might find useful.
 -->
 
-- プラグイン開発の初心者の方は、[プラグイン開発の紹介](https://developer.wordpress.org/plugins/intro/)を読んでから[基本](https://developer.wordpress.org/plugins/plugin-basics/)に進んでください。
-- [プラグインのセキュリティに関する情報](https://developer.wordpress.org/apis/security/)では、セキュリティ関連のベストプラクティスを紹介します。
-- [フック](https://developer.wordpress.org/plugins/hooks/)は、プラグインを WordPress と相互作用させるものであり、他の開発者があなたのプラグインと相互作用できるようにする方法です。
-- [プライバシー](https://developer.wordpress.org/plugins/privacy/)は、機密データの取り扱いについて理解するのに役立ちます。
-- プラグインで使用できる WordPress の組込み機能については、[管理メニュー](https://developer.wordpress.org/plugins/administration-menus/)、[ショートコード](https://developer.wordpress.org/plugins/shortcodes/)、[設定](https://developer.wordpress.org/plugins/settings/)、[メタデータ](https://developer.wordpress.org/plugins/metadata/)、[カスタム投稿タイプ](https://developer.wordpress.org/plugins/post-types/)、[タクソノミ](https://developer.wordpress.org/plugins/taxonomies/)、[ユーザー](https://developer.wordpress.org/plugins/users/)をご覧ください。
-- [HTTP API](https://developer.wordpress.org/plugins/http-api/) を使用したデータ取得についてはこちらをご覧ください。
-- プラグインで [AJAX](https://developer.wordpress.org/plugins/javascript/) を使用している場合は、そのセクションで必要な情報を見つけることができます。
-- 時間ベースの WordPress タスクについて学ぶには [Cron](https://developer.wordpress.org/plugins/cron/) の章をご覧ください。
-- [国際化](https://developer.wordpress.org/plugins/internationalization/) は、あなたのプラグインをあなたのロケール以外で使用できるようにする方法です。
-- すべての作業が完了したら、プラグインを [Plugin ディレクトリ](https://developer.wordpress.org/plugins/wordpress-org/)に登録する準備をします。
-- 最後に: 役に立つかもしれない、いくつかの[開発者ツール](https://developer.wordpress.org/plugins/developer-tools/)を紹介します。
+- プラグイン開発の初心者の方は、[プラグイン開発の紹介](https://ja.wordpress.org/team/handbook/plugin-development/intro/)を読んでから[基本](https://ja.wordpress.org/team/handbook/plugin-development/plugin-basics/)に進んでください。
+- [プラグインのセキュリティに関する情報](https://ja.wordpress.org/team/handbook/plugin-development/security/)では、セキュリティ関連のベストプラクティスを紹介します。
+- [フック](https://ja.wordpress.org/team/handbook/plugin-development/hooks/)は、プラグインを WordPress と相互作用させるものであり、他の開発者があなたのプラグインと相互作用できるようにする方法です。
+- [プライバシー](https://ja.wordpress.org/team/handbook/plugin-development/privacy/)は、機密データの取り扱いについて理解するのに役立ちます。
+- プラグインで使用できる WordPress の組込み機能については、[管理メニュー](https://ja.wordpress.org/team/handbook/plugin-development/administration-menus/)、[ショートコード](https://ja.wordpress.org/team/handbook/plugin-development/shortcodes/)、[設定](https://ja.wordpress.org/team/handbook/plugin-development/settings/)、[メタデータ](https://ja.wordpress.org/team/handbook/plugin-development/metadata/)、[カスタム投稿タイプ](https://ja.wordpress.org/team/handbook/plugin-development/post-types/)、[タクソノミ](https://ja.wordpress.org/team/handbook/plugin-development/taxonomies/)、[ユーザー](https://ja.wordpress.org/team/handbook/plugin-development/users/)をご覧ください。
+- [HTTP API](https://ja.wordpress.org/team/handbook/plugin-development/http-api/) を使用したデータ取得についてはこちらをご覧ください。
+- プラグインで [AJAX](https://ja.wordpress.org/team/handbook/plugin-development/javascript/) を使用している場合は、そのセクションで必要な情報を見つけることができます。
+- 時間ベースの WordPress タスクについて学ぶには [Cron](https://ja.wordpress.org/team/handbook/plugin-development/cron/) の章をご覧ください。
+- [国際化](https://ja.wordpress.org/team/handbook/plugin-development/internationalization/) は、あなたのプラグインをあなたのロケール以外で使用できるようにする方法です。
+- すべての作業が完了したら、プラグインを [Plugin ディレクトリ](https://ja.wordpress.org/team/handbook/plugin-development/wordpress-org/)に登録する準備をします。
+- 最後に: 役に立つかもしれない、いくつかの[開発者ツール](https://ja.wordpress.org/team/handbook/plugin-development/developer-tools/)を紹介します。
 
 <!--
 The WordPress Plugin Developer Handbook is created by the WordPress community, for the WordPress community. We are always looking for more contributors; if you're interested, stop by the [Docs Team blog](https://make.wordpress.org/docs/) to find out more about getting involved.

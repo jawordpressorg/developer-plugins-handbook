@@ -22,7 +22,7 @@ Activation and deactivation hooks provide ways to perform actions when plugins a
 [alert]The deactivation hook is sometimes confused with the [uninstall hook](https://developer.wordpress.org/plugins/plugin-basics/uninstall-methods/). The uninstall hook is best suited to **delete all data permanently** such as deleting plugin options and custom tables, etc.[/alert]
 -->
 
-[alert]時々、無効化フックは、[アンインストール・フック](https://developer.wordpress.org/plugins/plugin-basics/uninstall-methods/) と混同されます。アンインストールフックは、プラグインオプションやカスタムテーブルなどを削除するような、**すべてのデータを永久に削除する**場合に最適です。[/alert]
+[alert]時々、無効化フックは、[アンインストール・フック](https://ja.wordpress.org/team/handbook/plugin-development/plugin-basics/uninstall-methods/) と混同されます。アンインストールフックは、プラグインオプションやカスタムテーブルなどを削除するような、**すべてのデータを永久に削除する**場合に最適です。[/alert]
 
 <!--
 ## Activation
@@ -66,7 +66,7 @@ register_deactivation_hook(
 The first parameter in each of these functions refers to your main plugin file, which is the file in which you have placed the [plugin header comment](https://developer.wordpress.org/plugins/plugin-basics/header-requirements/). Usually these two functions will be triggered from within the main plugin file; however, if the functions are placed in any other file, you must update the first parameter to correctly point to the main plugin file.
 -->
 
-これらの関数の最初のパラメータは、[プラグイン・ヘッダーコメント](https://developer.wordpress.org/plugins/plugin-basics/header-requirements/)を配置した、メイン・プラグイン・ファイルを参照します。通常、これら2つの関数はメイン・プラグイン・ファイルの中からトリガーされます。しかし、これらの関数が他のファイルに配置されている場合は、メイン・プラグイン・ファイルを正しく指すように、最初のパラメータを更新する必要があります。
+これらの関数の最初のパラメータは、[プラグイン・ヘッダーコメント](https://ja.wordpress.org/team/handbook/plugin-development/plugin-basics/header-requirements/)を配置した、メイン・プラグイン・ファイルを参照します。通常、これら2つの関数はメイン・プラグイン・ファイルの中からトリガーされます。しかし、これらの関数が他のファイルに配置されている場合は、メイン・プラグイン・ファイルを正しく指すように、最初のパラメータを更新する必要があります。
 
 <!--
 ## Example

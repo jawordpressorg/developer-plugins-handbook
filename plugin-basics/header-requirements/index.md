@@ -8,7 +8,7 @@
 As described in [Getting Started](https://developer.wordpress.org/plugins/plugin-basics/#getting-started), the main PHP file should include header comment what tells WordPress that a file is a plugin and provides information about the plugin.
 -->
 
-[はじめに](https://developer.wordpress.org/plugins/plugin-basics/#getting-started)で説明したように、メインの PHP ファイルには、ファイルがプラグインであることを WordPress に伝え、プラグインに関する情報を提供するヘッダーコメントを含める必要があります。
+[はじめに](https://ja.wordpress.org/team/handbook/plugin-development/plugin-basics/#getting-started)で説明したように、メインの PHP ファイルには、ファイルがプラグインであることを WordPress に伝え、プラグインに関する情報を提供するヘッダーコメントを含める必要があります。
 
 <!--
 ## Minimum Fields
@@ -65,10 +65,10 @@ Available header fields:
 - **Requires PHP:** 最低限必要な PHP のバージョンです。
 - **Author:** プラグイン作者の名前です。カンマを使って複数の作者を列挙できます。
 - **Author URI:** 作者の Web サイト、または WordPress.org のような他の Web サイト上の、プロフィールです。
-- **License:** プラグインのライセンスの短い名前 (スラッグ) です (例: GPLv2)。ライセンスの詳細については、[WordPress.orgのガイドライン](https://developer.wordpress.org/plugins/wordpress-org/detailed-plugin-guidelines/#1-plugins-must-be-compatible-with-the-gnu-general-public-license)を参照してください。
+- **License:** プラグインのライセンスの短い名前 (スラッグ) です (例: GPLv2)。ライセンスの詳細については、[WordPress.orgのガイドライン](https://ja.wordpress.org/team/handbook/plugin-development/wordpress-org/detailed-plugin-guidelines/#1-plugins-must-be-compatible-with-the-gnu-general-public-license)を参照してください。
 - **License URI:** ライセンスの全文へのリンクです ([https://www.gnu.org/licenses/old-licenses/gpl-2.0.html](https://www.gnu.org/licenses/old-licenses/gpl-2.0.html) 等)。
-- **Text Domain:** プラグインのテキストドメイン [gettext](https://www.gnu.org/software/gettext/) です。詳細は、[プラグインを国際化する方法](https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/)ページの[テキスト・ドメイン](https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/#text-domains)セクションを参照してください。
-- **Domain Path:** ドメインパスによって、WordPress に翻訳の場所を知らせることができます。詳細は、[プラグインを国際化する方法](https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/)ページの[ドメイン・パス](https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/#domain-path)セクションを参照してください。
+- **Text Domain:** プラグインのテキストドメイン [gettext](https://www.gnu.org/software/gettext/) です。詳細は、[プラグインを国際化する方法](https://ja.wordpress.org/team/handbook/plugin-development/internationalization/how-to-internationalize-your-plugin/)ページの[テキスト・ドメイン](https://ja.wordpress.org/team/handbook/plugin-development/internationalization/how-to-internationalize-your-plugin/#text-domains)セクションを参照してください。
+- **Domain Path:** ドメインパスによって、WordPress に翻訳の場所を知らせることができます。詳細は、[プラグインを国際化する方法](https://ja.wordpress.org/team/handbook/plugin-development/internationalization/how-to-internationalize-your-plugin/)ページの[ドメイン・パス](https://ja.wordpress.org/team/handbook/plugin-development/internationalization/how-to-internationalize-your-plugin/#domain-path)セクションを参照してください。
 - **Network:** プラグインをネットワーク全体でのみ有効にするか否かを指定します。_true_ にしか設定できないので、必要ない場合は設定しないでください。
 - **Update URI:** (**_重要: WordPress.org Plugin Directory でホストされているプラグインには絶対に使用しないでください。_**) これにより、WordPress.org 以外のプラグインが、WordPress.org Plugin Directory にある似た名前のプラグインのアップデートで誤って上書きされるのを防ぐことができます。詳細は、関連 [dev note](https://make.wordpress.org/core/2021/06/29/introducing-update-uri-plugin-header-in-wordpress-5-8/) を参照してください。
 

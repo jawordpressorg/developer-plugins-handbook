@@ -14,25 +14,25 @@ Hooks are a way for one piece of code to interact/modify another piece of code a
 There are two types of hooks: [Actions](https://developer.wordpress.org/plugins/hooks/actions/) and [Filters](https://developer.wordpress.org/plugins/hooks/filters/). To use either, you need to write a custom function known as a `Callback`, and then register it with a WordPress hook for a specific action or filter.
 -->
 
-フックには2種類あります: [アクション](https://developer.wordpress.org/plugins/hooks/actions/)と[フィルター](https://developer.wordpress.org/plugins/hooks/filters/)です。どちらも使用するには、`Callback` と呼ばれるカスタム関数を記述し、特定のアクションまたはフィルター用の WordPress フックに登録する必要があります。
+フックには2種類あります: [アクション](https://ja.wordpress.org/team/handbook/plugin-development/hooks/actions/)と[フィルター](https://ja.wordpress.org/team/handbook/plugin-development/hooks/filters/)です。どちらも使用するには、`Callback` と呼ばれるカスタム関数を記述し、特定のアクションまたはフィルター用の WordPress フックに登録する必要があります。
 
 <!--
 [Actions](https://developer.wordpress.org/plugins/hooks/actions/) allow you to add data or change how WordPress operates. Actions will run at a specific point in the execution of WordPress Core, plugins, and themes. Callback functions for Actions can perform some kind of a task, like echoing output to the user or inserting something into the database. Callback functions for an Action do not return anything back to the calling Action hook.
 -->
 
-[アクション](https://developer.wordpress.org/plugins/hooks/actions/)は、データを追加したり、WordPress の操作方法を変更したりできます。アクションは WordPress Core、プラグイン、テーマの実行の特定の時点で作動します。アクション用のコールバック関数は、ユーザーへのエコー出力やデータベースへの挿入など、何らかのタスクを実行できます。アクション用のコールバック関数は、呼び出したアクションフックに何も返しません。
+[アクション](https://ja.wordpress.org/team/handbook/plugin-development/hooks/actions/)は、データを追加したり、WordPress の操作方法を変更したりできます。アクションは WordPress Core、プラグイン、テーマの実行の特定の時点で作動します。アクション用のコールバック関数は、ユーザーへのエコー出力やデータベースへの挿入など、何らかのタスクを実行できます。アクション用のコールバック関数は、呼び出したアクションフックに何も返しません。
 
 <!--
 [Filters](https://developer.wordpress.org/plugins/hooks/filters/) give you the ability to change data during the execution of WordPress Core, plugins, and themes. Callback functions for Filters will accept a variable, modify it, and return it. They are meant to work in an isolated manner, and should never have [side effects](https://en.wikipedia.org/wiki/Side_effect_(computer_science)) such as affecting global variables and output. Filters expect to have something returned back to them.
 -->
 
-[フィルター](https://developer.wordpress.org/plugins/hooks/filters/)は WordPress Core、プラグイン、テーマの実行中にデータを変更する機能を提供します。フィルター用コールバック関数は、変数を受け取り、修正し、返します。フィルターは単独で動作するものであり、グローバル変数や出力に影響を与えるような[副作用](https://en.wikipedia.org/wiki/Side_effect_(computer_science))があってはなりません。フィルターは、何かが返ってくることを期待します。
+[フィルター](https://ja.wordpress.org/team/handbook/plugin-development/hooks/filters/)は WordPress Core、プラグイン、テーマの実行中にデータを変更する機能を提供します。フィルター用コールバック関数は、変数を受け取り、修正し、返します。フィルターは単独で動作するものであり、グローバル変数や出力に影響を与えるような[副作用](https://en.wikipedia.org/wiki/Side_effect_(computer_science))があってはなりません。フィルターは、何かが返ってくることを期待します。
 
 <!--
 WordPress provides many hooks that you can use, but you can also [create your own](https://developer.wordpress.org/plugins/hooks/custom-hooks/) so that other developers can extend and modify your plugin or theme.
 -->
 
-WordPress は、あなたが使用できる多くのフックを提供していますが、他の開発者があなたのプラグインやテーマを拡張したり変更したりできるように、[自分で作成する](https://developer.wordpress.org/plugins/hooks/custom-hooks/)こともできます。
+WordPress は、あなたが使用できる多くのフックを提供していますが、他の開発者があなたのプラグインやテーマを拡張したり変更したりできるように、[自分で作成する](https://ja.wordpress.org/team/handbook/plugin-development/hooks/custom-hooks/)こともできます。
 
 <!--
 ## Actions vs. Filters
