@@ -8,7 +8,7 @@
 As of **April 12, 2018**, [Guideline 9](https://developer.wordpress.org/plugins/wordpress-org/detailed-plugin-guidelines/#9-developers-and-their-plugins-must-not-do-anything-illegal-dishonest-or-morally-offensive) (Developers and their plugins must not do anything illegal, dishonest, or morally offensive.) has been amended to include the following new prohibition:
 -->
 
-**2018年4月12日** より、[ガイドライン 9](https://developer.wordpress.org/plugins/wordpress-org/detailed-plugin-guidelines/#9-developers-and-their-plugins-must-not-do-anything-illegal-dishonest-or-morally-offensive) (開発者とそのプラグインは、違法なこと、不正なこと、道徳に反することをしてはならない) が改正され、新たに以下の禁止事項が盛り込まれました:
+**2018年4月12日** より、[ガイドライン 9](https://ja.wordpress.org/team/handbook/plugin-development/wordpress-org/detailed-plugin-guidelines/#9-developers-and-their-plugins-must-not-do-anything-illegal-dishonest-or-morally-offensive) (開発者とそのプラグインは、違法なこと、不正なこと、道徳に反することをしてはならない) が改正され、新たに以下の禁止事項が盛り込まれました:
 
 <!--
 - implying that a plugin can create, provide, automate, or guarantee legal compliance

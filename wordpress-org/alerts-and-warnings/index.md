@@ -136,4 +136,4 @@ Previously this message alerted users to plugins not updated within the last 2 y
 Developers are emailed before every major release of WordPress and asked to update this value. They _do not_ need to push a new version, just [update the readme](https://developer.wordpress.org/plugins/wordpress-org/how-your-readme-txt-works/) and edit the value of `Tested up to:` to the latest version of WordPress.
 -->
 
-WordPress のメジャーリリースのたびに、開発者は、この値を更新するようメールで依頼されます。開発者は新しいバージョンをプッシュする必要は _なく_、[readme を更新](https://developer.wordpress.org/plugins/wordpress-org/how-your-readme-txt-works/) して、`Tested up to:` の値を WordPress の最新バージョンに編集するだけです。
+WordPress のメジャーリリースのたびに、開発者は、この値を更新するようメールで依頼されます。開発者は新しいバージョンをプッシュする必要は _なく_、[readme を更新](https://ja.wordpress.org/team/handbook/plugin-development/wordpress-org/how-your-readme-txt-works/) して、`Tested up to:` の値を WordPress の最新バージョンに編集するだけです。

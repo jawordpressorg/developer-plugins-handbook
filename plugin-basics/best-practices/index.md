@@ -223,7 +223,7 @@ if ( ! class_exists( 'WPOrg_Plugin' ) ) {
 The root level of your plugin directory should contain your `plugin-name.php` file and, optionally, your [uninstall.php](https://developer.wordpress.org/plugins/plugin-basics/uninstall-methods/) file. All other files should be organized into sub folders whenever possible.
 -->
 
-プラグインディレクトリのルートレベルには、ファイル `plugin-name.php` と、必要に応じてファイル [uninstall.php](https://developer.wordpress.org/plugins/plugin-basics/uninstall-methods/) を置いてください。その他のファイルは、可能な限り、サブフォルダーに整理しましょう。
+プラグインディレクトリのルートレベルには、ファイル `plugin-name.php` と、必要に応じてファイル [uninstall.php](https://ja.wordpress.org/team/handbook/plugin-development/plugin-basics/uninstall-methods/) を置いてください。その他のファイルは、可能な限り、サブフォルダーに整理しましょう。
 
 <!--
 ### Folder Structure
@@ -293,7 +293,7 @@ For large plugins with lots of code, start off with classes in mind. Separate st
 It's helpful to separate your admin code from the public code. Use the conditional [is_admin()](https://developer.wordpress.org/reference/functions/is_admin/). You must still perform capability checks as this doesn't indicate the user is authenticated or has Administrator-level access. See [Checking User Capabilities](https://developer.wordpress.org/plugins/security/checking-user-capabilities/).
 -->
 
-管理者用のコードと一般向けのコードを分けておくと便利です。条件式 [is_admin()](https://developer.wordpress.org/reference/functions/is_admin/) を使いましょう。これは、ユーザーが認証済みであること、または管理者レベルのアクセス権を持っていることを示すものではないため、依然として権限チェックを実施する必要があります。[ユーザー権限のチェック](https://developer.wordpress.org/plugins/security/checking-user-capabilities/)を参照してください。
+管理者用のコードと一般向けのコードを分けておくと便利です。条件式 [is_admin()](https://developer.wordpress.org/reference/functions/is_admin/) を使いましょう。これは、ユーザーが認証済みであること、または管理者レベルのアクセス権を持っていることを示すものではないため、依然として権限チェックを実施する必要があります。[ユーザー権限のチェック](https://ja.wordpress.org/team/handbook/plugin-development/security/checking-user-capabilities/)を参照してください。
 
 <!--
 For example:

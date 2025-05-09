@@ -14,7 +14,7 @@ WordPress プラグインのコードのセキュリティは、[非常に慎重
 [warning]If you have found a plugin with a security issue, please read [Reporting Plugin Security Issues](https://developer.wordpress.org/plugins/wordpress-org/plugin-security/reporting-plugin-security-issues/).[/warning]
 -->
 
-[warning]セキュリティの課題があるプラグインを見つけた場合は、[プラグインのセキュリティ課題を報告する](https://developer.wordpress.org/plugins/wordpress-org/plugin-security/reporting-plugin-security-issues/)をお読みください。[/warning]
+[warning]セキュリティの課題があるプラグインを見つけた場合は、[プラグインのセキュリティ課題を報告する](https://ja.wordpress.org/team/handbook/plugin-development/wordpress-org/plugin-security/reporting-plugin-security-issues/)をお読みください。[/warning]
 
 <!--
 When a plugin vulnerability is verified by the WordPress Security Team, they contact the plugin author and direct them as to how to fix and release a secure version of the plugin. If there is a lack of response from the plugin author or if the vulnerability is severe, the plugin/theme is pulled from the public directory, and in some cases, fixed and updated directly by the Security Team.

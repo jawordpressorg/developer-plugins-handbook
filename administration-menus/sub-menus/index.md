@@ -43,7 +43,7 @@ Lets say we want to add a Sub-menu "WPOrg Options" to the "Tools" Top-level menu
 **The first step** will be creating a function which will output the HTML. In this function we will perform the necessary security checks and render the options we’ve registered using the [Settings API](https://developer.wordpress.org/plugins/settings/).
 -->
 
-**第一のステップ**では、HTML を出力する関数を作成します。この関数では、必要なセキュリティチェックを行い、[設定 API](https://developer.wordpress.org/plugins/settings/) を使って登録したオプションを書き出します。
+**第一のステップ**では、HTML を出力する関数を作成します。この関数では、必要なセキュリティチェックを行い、[設定 API](https://ja.wordpress.org/team/handbook/plugin-development/settings/) を使って登録したオプションを書き出します。
 
 <!--
 [info]We recommend wrapping your HTML using a `<div>` with a class of `wrap`.[/info]
@@ -162,7 +162,7 @@ Below is a list of parent slugs and their helper functions:
 The process of removing Sub-menus is exactly the same as [removing Top-level menus](https://developer.wordpress.org/plugins/administration-menus/top-level-menus/#remove-a-top-level-menu).
 -->
 
-サブメニューの削除方法は、[トップレベルメニューの削除方法](https://developer.wordpress.org/plugins/administration-menus/top-level-menus/#remove-a-top-level-menu)とまったく同じです。
+サブメニューの削除方法は、[トップレベルメニューの削除方法](https://ja.wordpress.org/team/handbook/plugin-development/administration-menus/top-level-menus/#remove-a-top-level-menu)とまったく同じです。
 
 <!--
 ## Submitting forms
@@ -174,7 +174,7 @@ The process of removing Sub-menus is exactly the same as [removing Top-level men
 The process of handling form submissions within Sub-menus is exactly the same as [Submitting forms within Top-Level Menus](https://developer.wordpress.org/plugins/administration-menus/top-level-menus/#submitting-forms).
 -->
 
-サブメニュー内でのフォーム送信の処理は、[トップレベルメニュー内でのフォーム送信](https://developer.wordpress.org/plugins/administration-menus/top-level-menus/#submitting-forms)とまったく同じです。
+サブメニュー内でのフォーム送信の処理は、[トップレベルメニュー内でのフォーム送信](https://ja.wordpress.org/team/handbook/plugin-development/administration-menus/top-level-menus/#submitting-forms)とまったく同じです。
 
 <!--
 `add_submenu_page()` along with all functions for pre-defined sub-menus (`add_dashboard_page`, `add_posts_page`, etc.) will return a `$hookname`, which you can use as the first parameter of `add_action` in order to handle the submission of forms within custom pages:

@@ -298,4 +298,4 @@ Similarly, if you need in-depth documentation with inline images and so on, dire
 - [Plugin Headers](https://developer.wordpress.org/plugins/plugin-basics/header-requirements/) (found in the main file of the plugin)
 -->
 
-- [プラグイン・ヘッダー](https://developer.wordpress.org/plugins/plugin-basics/header-requirements/) (プラグインのメイン・ファイルにあります)
+- [プラグイン・ヘッダー](https://ja.wordpress.org/team/handbook/plugin-development/plugin-basics/header-requirements/) (プラグインのメイン・ファイルにあります)

@@ -443,7 +443,7 @@ Submit it as early as possible. Unless the plugin is meant to address a security
 We look for some pretty obvious things, all of which are listed [in our guidelines](https://developer.wordpress.org/plugins/wordpress-org/detailed-plugin-guidelines/). Most can be summed up as "Don't be a spammer," but to touch on the ones people do the most:
 -->
 
-私たちは、かなり明白なことを確認し、それらはすべて[私たちのガイドライン](https://developer.wordpress.org/plugins/wordpress-org/detailed-plugin-guidelines/)に記載されています。大半は「スパマーになるな」ということに集約されますが、人々が最もやっていることに触れてみましょう:
+私たちは、かなり明白なことを確認し、それらはすべて[私たちのガイドライン](https://ja.wordpress.org/team/handbook/plugin-development/wordpress-org/detailed-plugin-guidelines/)に記載されています。大半は「スパマーになるな」ということに集約されますが、人々が最もやっていることに触れてみましょう:
 
 <!--
 - Not including a `readme.txt` file when acting as a service
@@ -581,7 +581,7 @@ We encourage everyone to be creative and come up with unique slugs. We automatic
 Put your code files directly in the `trunk/` directory of your repository. Whenever you release a new version, [tag that release](https://developer.wordpress.org/plugins/wordpress-org/how-to-use-subversion/#task-3) by copying the current trunk revision to a new subdirectory of the `tags/` directory.
 -->
 
-コードファイルをリポジトリの `trunk/` ディレクトリに直接置いてください。新しいバージョンをリリースするたびに、現在のトランク・リビジョンを `tags/` ディレクトリの新しいサブディレクトリにコピーして、[そのリリースにタグを付けます](https://developer.wordpress.org/plugins/wordpress-org/how-to-use-subversion/#task-3)。
+コードファイルをリポジトリの `trunk/` ディレクトリに直接置いてください。新しいバージョンをリリースするたびに、現在のトランク・リビジョンを `tags/` ディレクトリの新しいサブディレクトリにコピーして、[そのリリースにタグを付けます](https://ja.wordpress.org/team/handbook/plugin-development/wordpress-org/how-to-use-subversion/#task-3)。
 
 <!--
 Make sure you update [`trunk/readme.txt`](https://wordpress.org/plugins/developers/#readme) to reflect the **new** stable tag.
@@ -593,7 +593,7 @@ Make sure you update [`trunk/readme.txt`](https://wordpress.org/plugins/develope
 Images for the readme (such as [screenshots, plugin headers, and plugin icons](https://developer.wordpress.org/plugins/wordpress-org/plugin-assets/)), belong in the `assets/` directory (which you may need to create) in the root of your SVN checkout. This will be on the same level as `tags/` and `trunk/`, for example.
 -->
 
-readme 用の画像 ( [スクリーンショット、プラグイン・ヘッダー、プラグイン・アイコン](https://developer.wordpress.org/plugins/wordpress-org/plugin-assets/) など) は、SVN チェックアウトの root にある `assets/` ディレクトリ (作成する必要があるかもしれません) に置きます。これは、たとえば、`tags/` や `trunk/` と同じ階層になります。
+readme 用の画像 ( [スクリーンショット、プラグイン・ヘッダー、プラグイン・アイコン](https://ja.wordpress.org/team/handbook/plugin-development/wordpress-org/plugin-assets/) など) は、SVN チェックアウトの root にある `assets/` ディレクトリ (作成する必要があるかもしれません) に置きます。これは、たとえば、`tags/` や `trunk/` と同じ階層になります。
 
 <!--
 ### Can I put my files in a subdirectory of trunk/?
@@ -713,13 +713,13 @@ SVN フォルダーにコードをプッシュすると、すぐにプラグイ�
 From the information you specify in the plugin file and in the [readme.txt file](https://wordpress.org/plugins/developers/#readme), and from the Subversion repository itself. Read [about how the readme.txt works](https://developer.wordpress.org/plugins/wordpress-org/how-your-readme-txt-works/) for more information.
 -->
 
-プラグインファイル内とファイル [readme.txt](https://ja.wordpress.org/plugins/developers/#readme) 内で指定した情報、および Subversion リポジトリ自体から取得します。詳しくは [readme.txt の仕組みについて](https://developer.wordpress.org/plugins/wordpress-org/how-your-readme-txt-works/)をご覧ください。
+プラグインファイル内とファイル [readme.txt](https://ja.wordpress.org/plugins/developers/#readme) 内で指定した情報、および Subversion リポジトリ自体から取得します。詳しくは [readme.txt の仕組みについて](https://ja.wordpress.org/team/handbook/plugin-development/wordpress-org/how-your-readme-txt-works/)をご覧ください。
 
 <!--
 You should also make full use of the [Plugin Headers](https://developer.wordpress.org/plugins/the-basics/header-requirements/) in your main plugin file. Those will define how your username shows up on the WordPress.org hosting page, as well as in the WordPress Admin. We recommend using all those headers to fully document your plugin.
 -->
 
-メイン・プラグインファイル内の[ヘッダー項目](https://developer.wordpress.org/plugins/the-basics/header-requirements/)もフル活用しましょう。それらは、WordPress 管理画面と同様に、WordPress.org のホスティングページでユーザー名がどのように表示されるかを定義します。プラグインを完全にドキュメント化するために、これらのヘッダーをすべて使用することをおすすめします。
+メイン・プラグインファイル内の[ヘッダー項目](https://ja.wordpress.org/team/handbook/plugin-development/the-basics/header-requirements/)もフル活用しましょう。それらは、WordPress 管理画面と同様に、WordPress.org のホスティングページでユーザー名がどのように表示されるかを定義します。プラグインを完全にドキュメント化するために、これらのヘッダーをすべて使用することをおすすめします。
 
 <!--
 ### Can I specify what version of my plugin the WordPress.org Plugin Directory should use?
@@ -857,7 +857,7 @@ WordPress.org プラグイン・ディレクトリは、数分ごとに更新さ
 You can make your own [plugin headers](https://developer.wordpress.org/plugins/wordpress-org/plugin-assets/#plugin-headers) by uploading the correctly named files into the `assets` folder. Read [about plugin headers](https://developer.wordpress.org/plugins/wordpress-org/plugin-assets/#plugin-headers) for more information.
 -->
 
-`assets` フォルダーに正しい名前のファイルをアップロードすることで、独自の[プラグイン・ヘッダー](https://developer.wordpress.org/plugins/wordpress-org/plugin-assets/#plugin-headers)を作ることができます。詳しくは[プラグイン・ヘッダーについて](https://developer.wordpress.org/plugins/wordpress-org/plugin-assets/#plugin-headers)をご覧ください。
+`assets` フォルダーに正しい名前のファイルをアップロードすることで、独自の[プラグイン・ヘッダー](https://ja.wordpress.org/team/handbook/plugin-development/wordpress-org/plugin-assets/#plugin-headers)を作ることができます。詳しくは[プラグイン・ヘッダーについて](https://ja.wordpress.org/team/handbook/plugin-development/wordpress-org/plugin-assets/#plugin-headers)をご覧ください。
 
 <!--
 ### How do I make a plugin icon?
@@ -869,7 +869,7 @@ You can make your own [plugin headers](https://developer.wordpress.org/plugins/w
 You can make your own [plugin icons](https://developer.wordpress.org/plugins/wordpress-org/plugin-assets/#plugin-icons) by uploading the correctly named files into the `assets` folder. Read [about plugin icons](https://developer.wordpress.org/plugins/wordpress-org/plugin-assets/#plugin-icons) for more information.
 -->
 
-`assets` フォルダーに正しい名前のファイルをアップロードすることで、独自の[プラグイン・アイコン](https://developer.wordpress.org/plugins/wordpress-org/plugin-assets/#plugin-icons)を作ることができます。詳しくは[プラグイン・アイコンについて](https://developer.wordpress.org/plugins/wordpress-org/plugin-assets/#plugin-icons)をご覧ください。
+`assets` フォルダーに正しい名前のファイルをアップロードすることで、独自の[プラグイン・アイコン](https://ja.wordpress.org/team/handbook/plugin-development/wordpress-org/plugin-assets/#plugin-icons)を作ることができます。詳しくは[プラグイン・アイコンについて](https://ja.wordpress.org/team/handbook/plugin-development/wordpress-org/plugin-assets/#plugin-icons)をご覧ください。
 
 <!--
 ### Can I use official logos in my plugin banner/icons?
@@ -905,7 +905,7 @@ Much like your plugin name, we recommend your icons and headers be something uni
 Per the guidelines, [plugins are limited to 12 tags in their readme](https://developer.wordpress.org/plugins/wordpress-org/detailed-plugin-guidelines/#12-public-facing-pages-on-wordpress-org-readmes-must-not-spam). This is to control spam. That said, only the first **FIVE** tags will display on WordPress.org, much for the same reason. The first 12 tags are used for searches, and the rest are ignored, so tag-stuffing won't help you at all.
 -->
 
-ガイドラインによると、[プラグインの readme のタグは12個まで](https://developer.wordpress.org/plugins/wordpress-org/detailed-plugin-guidelines/#12-public-facing-pages-on-wordpress-org-readmes-must-not-spam)です。これはスパムを抑制するためです。とはいえ、同じ理由で、WordPress.org では最初の **5つ** のタグしか表示されません。最初の12個のタグは検索に使われ、残りは無視されるので、タグを詰め込んでもまったく役に立ちません。
+ガイドラインによると、[プラグインの readme のタグは12個まで](https://ja.wordpress.org/team/handbook/plugin-development/wordpress-org/detailed-plugin-guidelines/#12-public-facing-pages-on-wordpress-org-readmes-must-not-spam)です。これはスパムを抑制するためです。とはいえ、同じ理由で、WordPress.org では最初の **5つ** のタグしか表示されません。最初の12個のタグは検索に使われ、残りは無視されるので、タグを詰め込んでもまったく役に立ちません。
 
 <!--
 In addition, any tags where you are the only one who uses them won't show, because they're not going to help anyone find another, similar, plugin.
@@ -1373,7 +1373,7 @@ Please note: We do not publicly disclose the details on exactly why a plugin has
 If you report an [security issue](https://developer.wordpress.org/plugins/wordpress-org/plugin-security/reporting-plugin-security-issues/) or a [guideline violation](https://developer.wordpress.org/plugins/wordpress-org/detailed-plugin-guidelines/) in a plugin to `plugins@wordpress.org`, we will review and take appropriate action. Most of the time, this involves closing a plugin. Your name will not be disclosed unless you ask for it to be so, in order to protect you from backlash.
 -->
 
-プラグインに関する[セキュリティの課題](https://developer.wordpress.org/plugins/wordpress-org/plugin-security/reporting-plugin-security-issues/)や[ガイドライン違反](https://developer.wordpress.org/plugins/wordpress-org/detailed-plugin-guidelines/)を `plugins@wordpress.org` に報告いただいた場合、プラグインを確認し、適切な処置をとらせていただきます。ほとんどの場合、プラグインをクローズすることになります。反感からあなたを守るため、あなたが要求しない限り、あなたの名前は公表されません。
+プラグインに関する[セキュリティの課題](https://ja.wordpress.org/team/handbook/plugin-development/plugin-security/reporting-plugin-security-issues/)や[ガイドライン違反](https://ja.wordpress.org/team/handbook/plugin-development/wordpress-org/detailed-plugin-guidelines/)を `plugins@wordpress.org` に報告いただいた場合、プラグインを確認し、適切な処置をとらせていただきます。ほとんどの場合、プラグインをクローズすることになります。反感からあなたを守るため、あなたが要求しない限り、あなたの名前は公表されません。
 
 <!--
 ### Someone posted a copy of my plugin! What do I do?
@@ -1445,7 +1445,7 @@ Also note that if it's not **your** trademark, we cannot accept your report. It 
 Email `plugins@wordpress.org` a clear and concise description of the issue. [Please read our document on reporting security issues for details](https://developer.wordpress.org/plugins/wordpress-org/plugin-security/reporting-plugin-security-issues/).
 -->
 
-`plugins@wordpress.org` 宛てに、課題の明確で簡潔な説明をメールしてください。詳細については、[セキュリティ問題の報告に関する文書](https://developer.wordpress.org/plugins/wordpress-org/plugin-security/reporting-plugin-security-issues/)をお読みください。
+`plugins@wordpress.org` 宛てに、課題の明確で簡潔な説明をメールしてください。詳細については、[セキュリティ問題の報告に関する文書](https://ja.wordpress.org/team/handbook/plugin-development/wordpress-org/plugin-security/reporting-plugin-security-issues/)をお読みください。
 
 <!--
 ### Do you provide bounties for finding bugs in a plugin?
@@ -1639,7 +1639,7 @@ Go to the Advanced tab and scroll down to the Danger Zone. There you will see a 
 For more details, please read the [documentation on transferring plugins](https://developer.wordpress.org/plugins/wordpress-org/transferring-your-plugin-to-a-new-owner/).
 -->
 
-詳しくは、[プラグインの譲渡に関するドキュメント](https://developer.wordpress.org/plugins/wordpress-org/transferring-your-plugin-to-a-new-owner/)をお読みください。
+詳しくは、[プラグインの譲渡に関するドキュメント](https://ja.wordpress.org/team/handbook/plugin-development/wordpress-org/transferring-your-plugin-to-a-new-owner/)をお読みください。
 
 <!--
 ### I tried to transfer my plugin but it says I can't. Why not?
@@ -1651,7 +1651,7 @@ For more details, please read the [documentation on transferring plugins](https:
 Plugins with a large number of users (over 10,000) or ones that are deemed critical to the WordPress project (such as featured or beta plugins) can only be transfered via written request to the plugins team. [Please read the documentation on transfering plugins for details](https://developer.wordpress.org/plugins/wordpress-org/transferring-your-plugin-to-a-new-owner/).
 -->
 
-ユーザー数が多い (1万人以上) プラグインや、WordPress プロジェクトにとって重要であると判断されたプラグイン (注目プラグインやベータ版プラグインなど) は、プラグインチームへの書面によるリクエストによってのみ、譲渡できます。詳しくは、[プラグインの譲渡に関するドキュメント](https://developer.wordpress.org/plugins/wordpress-org/transferring-your-plugin-to-a-new-owner/)をお読みください
+ユーザー数が多い (1万人以上) プラグインや、WordPress プロジェクトにとって重要であると判断されたプラグイン (注目プラグインやベータ版プラグインなど) は、プラグインチームへの書面によるリクエストによってのみ、譲渡できます。詳しくは、[プラグインの譲渡に関するドキュメント](https://ja.wordpress.org/team/handbook/plugin-development/wordpress-org/transferring-your-plugin-to-a-new-owner/)をお読みください
 
 <!--
 ### How can I take over an abandoned plugin?
@@ -1663,13 +1663,13 @@ Plugins with a large number of users (over 10,000) or ones that are deemed criti
 [We permit users to adopt existing plugins that are no longer currently developed](https://developer.wordpress.org/plugins/wordpress-org/take-over-an-existing-plugin/).
 -->
 
-[私たちは、現在開発されていない既存プラグインの引き継ぎをユーザーに許可しています](https://developer.wordpress.org/plugins/wordpress-org/take-over-an-existing-plugin/)。
+[私たちは、現在開発されていない既存プラグインの引き継ぎをユーザーに許可しています](https://ja.wordpress.org/team/handbook/plugin-development/wordpress-org/take-over-an-existing-plugin/)。
 
 <!--
 We ask you try to connect with the original developers first, so they can add you. In some case, that's not possible and you should start with fixing the plugin. Make sure it meets coding standards, is secure, and update the copyright information to include yourself. Then you can contact us regarding [plugin adoption](https://developer.wordpress.org/plugins/wordpress-org/take-over-an-existing-plugin/).
 -->
 
-まずはオリジナルの開発者と連絡を取ってみてください。そうすれば、彼らはあなたをコミッターとして追加できます。場合によっては、それが不可能で、プラグインの修正から始める必要があります。コーディング標準を満たしていること、安全であることを確認し、あなた自身を含めるために著作権情報を更新してください。その後、[プラグインの引き継ぎ](https://developer.wordpress.org/plugins/wordpress-org/take-over-an-existing-plugin/)について私たちに連絡してください。
+まずはオリジナルの開発者と連絡を取ってみてください。そうすれば、彼らはあなたをコミッターとして追加できます。場合によっては、それが不可能で、プラグインの修正から始める必要があります。コーディング標準を満たしていること、安全であることを確認し、あなた自身を含めるために著作権情報を更新してください。その後、[プラグインの引き継ぎ](https://ja.wordpress.org/team/handbook/plugin-development/wordpress-org/take-over-an-existing-plugin/)について私たちに連絡してください。
 
 <!--
 We offer **no** guarantee that you will be given anyone's plugin, even following a successful review.
@@ -1705,7 +1705,7 @@ While legitimate offers do come, they're usually from the official company to wh
 If you do choose to sell your plugin (or give it away to someone else), please make sure the new owners understand all the [guidelines of the repository](https://developer.wordpress.org/plugins/wordpress-org/detailed-plugin-guidelines/). Should they violate our terms the plugin will be removed, and we may not give it back depending on the level of the violation. Whomever has commit access to a plugin has the ownership and responsibility of it's behavior for users. Spamming, inserting tracking data, and adding junk features are the fastest way to ruin your plugin.
 -->
 
-もしプラグインを売却する (または他の人に譲る) 場合は、新しい所有者が[リポジトリのガイドライン](https://developer.wordpress.org/plugins/wordpress-org/detailed-plugin-guidelines/)をすべて理解していることを確認してください。私たちの規約に違反した場合、プラグインは削除され、違反の度合いによってはプラグインを返さないこともあります。プラグインへのコミットアクセス権を持っている人は、そのプラグインの所有権を持ち、ユーザーに対する振る舞いに責任を負います。スパム、トラッキングデータの挿入、ジャンクな機能の追加は、あなたのプラグインを台なしにする最も早い方法です。
+もしプラグインを売却する (または他の人に譲る) 場合は、新しい所有者が[リポジトリのガイドライン](https://ja.wordpress.org/team/handbook/plugin-development/wordpress-org/detailed-plugin-guidelines/)をすべて理解していることを確認してください。私たちの規約に違反した場合、プラグインは削除され、違反の度合いによってはプラグインを返さないこともあります。プラグインへのコミットアクセス権を持っている人は、そのプラグインの所有権を持ち、ユーザーに対する振る舞いに責任を負います。スパム、トラッキングデータの挿入、ジャンクな機能の追加は、あなたのプラグインを台なしにする最も早い方法です。
 
 <!--
 We advocate only giving your plugin to people you _personally_ have vetted, and that you trust with being responsible with your code and your users.

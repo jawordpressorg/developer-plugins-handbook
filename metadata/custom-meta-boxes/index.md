@@ -50,7 +50,7 @@ Meta boxes are easily hidden from users that do not need to see them, and displa
 Operations such as [securing input](https://developer.wordpress.org/apis/security/sanitizing/), [user capabilities](https://developer.wordpress.org/plugins/security/checking-user-capabilities/), [nonces](https://developer.wordpress.org/apis/security/nonces/), and [internationalization](https://developer.wordpress.org/plugins/internationalization/) have been intentionally omitted. Be sure to always address these important operations.[/alert]
 -->
 
-[入力の安全確保](https://developer.wordpress.org/apis/security/sanitizing/)、[ユーザー権限](https://developer.wordpress.org/plugins/security/checking-user-capabilities/)、[nonce](https://developer.wordpress.org/apis/security/nonces/)、[国際化](https://developer.wordpress.org/plugins/internationalization/)などの操作は、意図的に省略されています。これらの重要な操作には必ず対処してください。[/alert]
+[入力の安全確保](https://developer.wordpress.org/apis/security/sanitizing/)、[ユーザー権限](https://ja.wordpress.org/team/handbook/plugin-development/security/checking-user-capabilities/)、[nonce](https://developer.wordpress.org/apis/security/nonces/)、[国際化](https://ja.wordpress.org/team/handbook/plugin-development/internationalization/)などの操作は、意図的に省略されています。これらの重要な操作には必ず対処してください。[/alert]
 
 <!--
 ## Adding Meta Boxes
@@ -540,7 +540,7 @@ As a final reminder, the code illustrated on this page lacks important operation
 See [Handbook's AJAX Chapter](https://developer.wordpress.org/plugins/javascript/ajax/) and the [Codex](https://codex.wordpress.org/AJAX_in_Plugins) for more on AJAX.
 -->
 
-AJAX については、[ハンドブックの AJAX の章](https://developer.wordpress.org/plugins/javascript/ajax/)と [Codex](https://codex.wordpress.org/AJAX_in_Plugins) を参照してください。
+AJAX については、[ハンドブックの AJAX の章](https://ja.wordpress.org/team/handbook/plugin-development/javascript/ajax/)と [Codex](https://codex.wordpress.org/AJAX_in_Plugins) を参照してください。
 
 <!--
 ## More Information

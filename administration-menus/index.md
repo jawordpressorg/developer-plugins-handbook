@@ -32,7 +32,7 @@ The Top-level menus are rendered along the left side of the WordPress Administra
 When deciding between [Top-level menus](https://developer.wordpress.org/plugins/administration-menus/top-level-menus/) and [Sub-menus](https://developer.wordpress.org/plugins/administration-menus/sub-menus/) think carefully about the needs of your plugin as well as the needs of your end users.
 -->
 
-[トップレベルメニュー](https://developer.wordpress.org/plugins/administration-menus/top-level-menus/)と[サブメニュー](https://developer.wordpress.org/plugins/administration-menus/sub-menus/)のどちらを使うかを決めるときは、プラグインのニーズとエンドユーザーのニーズをよく考えてください。
+[トップレベルメニュー](https://ja.wordpress.org/team/handbook/plugin-development/administration-menus/top-level-menus/)と[サブメニュー](https://ja.wordpress.org/team/handbook/plugin-development/administration-menus/sub-menus/)のどちらを使うかを決めるときは、プラグインのニーズとエンドユーザーのニーズをよく考えてください。
 
 <!--
 [alert]We recommend developers with a single option page to add it as Sub-menu to one of the existing Top-level menus; such as Settings or Tools.[/alert]

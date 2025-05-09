@@ -40,7 +40,7 @@ Block Only plugins are plugins that **only** contain blocks.
 Block Plugins are required to be much smaller and more minimalist than a regular WordPress plugin in order to be safely installed with a single click. That means as well as keeping to the regular [plugin guidelines](https://developer.wordpress.org/plugins/wordpress-org/detailed-plugin-guidelines/) you’ll also need to follow some additional rules. In particular, you should stick to mostly JavaScript code and keep PHP to the bare minimum; and not add any UI or other code outside of the Gutenberg editor.
 -->
 
-ブロック・プラグインは、ワンクリックで安全にインストールするために、通常の WordPress プラグインよりもはるかに小さく、よりミニマルであることが要求されます。つまり、通常の[プラグイン・ガイドライン](https://developer.wordpress.org/plugins/wordpress-org/detailed-plugin-guidelines/)を守るだけでなく、いくつかの追加ルールに従う必要があります。特に、主に JavaScript のコードに集中し、PHP は最低限に保つ必要があります; そして、Gutenberg エディター以外の UI やその他のコードを追加しないようにしましょう。
+ブロック・プラグインは、ワンクリックで安全にインストールするために、通常の WordPress プラグインよりもはるかに小さく、よりミニマルであることが要求されます。つまり、通常の[プラグイン・ガイドライン](https://ja.wordpress.org/team/handbook/plugin-development/wordpress-org/detailed-plugin-guidelines/)を守るだけでなく、いくつかの追加ルールに従う必要があります。特に、主に JavaScript のコードに集中し、PHP は最低限に保つ必要があります; そして、Gutenberg エディター以外の UI やその他のコードを追加しないようにしましょう。
 
 <!--
 If you’re a committer of a block plugin that does meet the criteria for adding it to the [Block Directory](https://wordpress.org/plugins/browse/block/) as confirmed by the Checker tool, you can then add it yourself [using the Block Checker tool](https://wordpress.org/plugins/developers/block-plugin-validator/):

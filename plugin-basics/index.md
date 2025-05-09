@@ -61,7 +61,7 @@ In the example above, `vim` is the name of the text editor. Use whichever editor
 Now that you're editing your new plugin's PHP file, you'll need to add a plugin header comment. This is a specially formatted PHP block comment that contains metadata about the plugin, such as its name, author, version, license, etc. The plugin header comment must comply with the [header requirements](https://developer.wordpress.org/plugins/plugin-basics/header-requirements/), and at the very least, contain the name of the plugin.
 -->
 
-新しいプラグインの PHP ファイルを編集しているので、プラグインヘッダーコメントを追加する必要があります。これは特別な書式の PHP ブロックコメントで、プラグインの名前、作者、バージョン、ライセンスなどのメタデータを含みます。プラグインヘッダーコメントは[ヘッダー要件](https://developer.wordpress.org/plugins/plugin-basics/header-requirements/)に従わなければならず、最低限プラグインの名前を含まなければなりません。
+新しいプラグインの PHP ファイルを編集しているので、プラグインヘッダーコメントを追加する必要があります。これは特別な書式の PHP ブロックコメントで、プラグインの名前、作者、バージョン、ライセンスなどのメタデータを含みます。プラグインヘッダーコメントは[ヘッダー要件](https://ja.wordpress.org/team/handbook/plugin-development/plugin-basics/header-requirements/)に従わなければならず、最低限プラグインの名前を含まなければなりません。
 
 <!--
 Only one file in the plugin's folder should have the header comment — if the plugin has multiple PHP files, only one of those files should have the header comment.
@@ -115,19 +115,19 @@ The 3 basic hooks you'll need when creating a plugin are the [register\_activati
 The [activation hook](https://developer.wordpress.org/plugins/plugin-basics/activation-deactivation-hooks/) is run when you _activate_ your plugin. You would use this to provide a function to set up your plugin — for example, creating some default settings in the `options` table.
 -->
 
-[アクティベーションフック](https://developer.wordpress.org/plugins/plugin-basics/activation-deactivation-hooks/)は、プラグインを**有効化**するときに実行されます。これを使用して、プラグインをセットアップする機能を提供します。たとえば、`options` テーブルにいくつかのデフォルト設定を作成します。
+[アクティベーションフック](https://ja.wordpress.org/team/handbook/plugin-development/plugin-basics/activation-deactivation-hooks/)は、プラグインを**有効化**するときに実行されます。これを使用して、プラグインをセットアップする機能を提供します。たとえば、`options` テーブルにいくつかのデフォルト設定を作成します。
 
 <!--
 The [deactivation hook](https://developer.wordpress.org/plugins/plugin-basics/activation-deactivation-hooks/) is run when you _deactivate_ your plugin. You would use this to provide a function that clears any temporary data stored by your plugin.
 -->
 
-[非アクティブ化フック](https://developer.wordpress.org/plugins/plugin-basics/activation-deactivation-hooks/)は、プラグインを**無効化**すると実行されます。これを使用して、プラグインによって保存された一時データをクリアする関数を提供します。
+[非アクティブ化フック](https://ja.wordpress.org/team/handbook/plugin-development/plugin-basics/activation-deactivation-hooks/)は、プラグインを**無効化**すると実行されます。これを使用して、プラグインによって保存された一時データをクリアする関数を提供します。
 
 <!--
 These [uninstall methods](https://developer.wordpress.org/plugins/plugin-basics/uninstall-methods/) are used to clean up after your plugin is _deleted_ using the WordPress Admin. You would use this to delete all data created by your plugin, such as any options that were added to the `options` table.
 -->
 
-これらの[アンインストールメソッド](https://developer.wordpress.org/plugins/plugin-basics/uninstall-methods/)は、WordPress 管理画面を使用してプラグインが**削除**された後にクリーンアップするために使用されます。これを使用して、`options` テーブルに追加されたオプションなど、プラグインによって作成されたすべてのデータを削除します。
+これらの[アンインストールメソッド](https://ja.wordpress.org/team/handbook/plugin-development/plugin-basics/uninstall-methods/)は、WordPress 管理画面を使用してプラグインが**削除**された後にクリーンアップするために使用されます。これを使用して、`options` テーブルに追加されたオプションなど、プラグインによって作成されたすべてのデータを削除します。
 
 <!--
 ### Adding Hooks
@@ -163,7 +163,7 @@ You should be careful when removing an action from a hook, as well as when alter
 You can learn more about creating hooks and interacting with them in the [Hooks](https://developer.wordpress.org/plugins/hooks/) section of this handbook.
 -->
 
-フックの作成とその操作について詳しくは、このハンドブックの[フック](https://developer.wordpress.org/plugins/hooks/)セクションをご覧ください。
+フックの作成とその操作について詳しくは、このハンドブックの[フック](https://ja.wordpress.org/team/handbook/plugin-development/hooks/)セクションをご覧ください。
 
 <!--
 ## WordPress APIs
@@ -181,7 +181,7 @@ WordPress が多数の[アプリケーションプログラミングインター
 The most common one is the [Options API](https://codex.wordpress.org/Options_API), which makes it easy to store data in the database for your plugin. If you're thinking of using [cURL](https://en.wikipedia.org/wiki/CURL) in your plugin, the [HTTP API](https://developer.wordpress.org/plugins/http-api/) might be of interest to you.
 -->
 
-最も一般的なのは [Options API](https://codex.wordpress.org/Options_API) で、これを使用すると、プラグインのデータをデータベースに簡単に保存できます。プラグインで [cURL](https://en.wikipedia.org/wiki/CURL) を使用することを考えている場合、[HTTP API](https://developer.wordpress.org/plugins/http-api/) は役に立つでしょう。
+最も一般的なのは [Options API](https://codex.wordpress.org/Options_API) で、これを使用すると、プラグインのデータをデータベースに簡単に保存できます。プラグインで [cURL](https://en.wikipedia.org/wiki/CURL) を使用することを考えている場合、[HTTP API](https://ja.wordpress.org/team/handbook/plugin-development/http-api/) は役に立つでしょう。
 
 <!--
 Since we're talking about plugins, you'll want to study the [Plugin API](https://codex.wordpress.org/Plugin_API). It has a variety of functions that will assist you in developing plugins.

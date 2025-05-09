@@ -8,19 +8,19 @@
 **Filters** are one of the two types of [Hooks](https://developer.wordpress.org/plugins/hooks/).
 -->
 
-**フィルター**は、2種類の[フック](https://developer.wordpress.org/plugins/hooks/)のうちの1つです。
+**フィルター**は、2種類の[フック](https://ja.wordpress.org/team/handbook/plugin-development/hooks/)のうちの1つです。
 
 <!--
 They provide a way for functions to modify data during the execution of WordPress Core, plugins, and themes. They are the counterpart to [Actions](https://developer.wordpress.org/plugins/hooks/actions/).
 -->
 
-WordPress Core、プラグイン、テーマの実行中にデータを修正するための関数を提供します。[アクション](https://developer.wordpress.org/plugins/hooks/actions/)と対になるものです。
+WordPress Core、プラグイン、テーマの実行中にデータを修正するための関数を提供します。[アクション](https://ja.wordpress.org/team/handbook/plugin-development/hooks/actions/)と対になるものです。
 
 <!--
 Unlike [Actions](https://developer.wordpress.org/plugins/hooks/actions/), filters are meant to work in an isolated manner, and should never have [side effects](https://en.wikipedia.org/wiki/Side_effect_(computer_science)) such as affecting global variables and output. Filters expect to have something returned back to them.
 -->
 
-[アクション](https://developer.wordpress.org/plugins/hooks/actions/)とは異なり、フィルターは単独で動作するものであり、グローバル変数や出力に影響を与えるような[副作用](https://en.wikipedia.org/wiki/Side_effect_(computer_science))を持つべきではありません。フィルターは、何かが返ってくることを期待します。
+[アクション](https://ja.wordpress.org/team/handbook/plugin-development/hooks/actions/)とは異なり、フィルターは単独で動作するものであり、グローバル変数や出力に影響を与えるような[副作用](https://en.wikipedia.org/wiki/Side_effect_(computer_science))を持つべきではありません。フィルターは、何かが返ってくることを期待します。
 
 <!--
 ## Add Filter
@@ -77,7 +77,7 @@ Lets say we have a post title, "Learning WordPress", the above example will modi
 You can refer to the [Hooks](https://developer.wordpress.org/plugins/hooks/) chapter for a list of available hooks.
 -->
 
-利用可能なフックのリストについては、[フック](https://developer.wordpress.org/plugins/hooks/)の章を参照してください。
+利用可能なフックのリストについては、[フック](https://ja.wordpress.org/team/handbook/plugin-development/hooks/)の章を参照してください。
 
 <!--
 As you gain more experience, looking through WordPress Core source code will allow you to find the most appropriate hook.
@@ -101,7 +101,7 @@ As you gain more experience, looking through WordPress Core source code will all
 For detailed explanation of these parameters please read the article on [Actions](https://developer.wordpress.org/plugins/hooks/actions/).
 -->
 
-これらのパラメータの詳細については、[アクション](https://developer.wordpress.org/plugins/hooks/actions/)の記事をお読みください。
+これらのパラメータの詳細については、[アクション](https://ja.wordpress.org/team/handbook/plugin-development/hooks/actions/)の記事をお読みください。
 
 <!--
 ### Example

@@ -64,11 +64,6 @@ To help you with this, WordPress comes with a number of sanitization and escapin
 
 そのために、WordPress には多くのサニタイズ機能とエスケープ機能が用意されています。これらについては、こちらをご覧ください:
 
-<!--
-https://developer.wordpress.org/apis/security/sanitizing/
-https://developer.wordpress.org/apis/security/escaping/
--->
-
 https://developer.wordpress.org/apis/security/sanitizing/
 https://developer.wordpress.org/apis/security/escaping/
 
@@ -226,10 +221,6 @@ There are a number of options to secure all types of content (html, email, etc).
 -->
 
 あらゆるタイプのコンテンツ (html、e-mail など) をセキュアにするためのオプションはいくつもあります。そう、HTML でさえも適切にエスケープする必要があるのです。
-
-<!--
-[https://developer.wordpress.org/apis/security/escaping/](https://developer.wordpress.org/apis/security/escaping/)
--->
 
 [https://developer.wordpress.org/apis/security/escaping/](https://developer.wordpress.org/apis/security/escaping/)
 
@@ -411,10 +402,6 @@ When plugins use `move_uploaded_file(), they exclude their uploads from the buil
 
 プラグインで `move_uploaded_file()` を使用すると、アップロードは組込みチェック機能や、WordPress 関数とのバランスが取られません。代わりに、内蔵関数を使用してください:
 
-<!--
-[https://developer.wordpress.org/reference/functions/wp_handle_upload/](https://developer.wordpress.org/reference/functions/wp_handle_upload/)
--->
-
 [https://developer.wordpress.org/reference/functions/wp_handle_upload/](https://developer.wordpress.org/reference/functions/wp_handle_upload/)
 
 <!--
@@ -576,13 +563,6 @@ Please review the following:
 -->
 
 以下をご確認ください:
-
-<!--
-*   [https://developer.wordpress.org/reference/classes/wpdb/#protect-queries-against-sql-injection-attacks](https://developer.wordpress.org/reference/classes/wpdb/#protect-queries-against-sql-injection-attacks)
-*   [https://codex.wordpress.org/Data\_Validation#Database](https://codex.wordpress.org/Data_Validation#Database)
-*   [https://make.wordpress.org/core/2012/12/12/php-warning-missing-argument-2-for-wpdb-prepare/](https://make.wordpress.org/core/2012/12/12/php-warning-missing-argument-2-for-wpdb-prepare/)
-*   [https://ottopress.com/2013/better-know-a-vulnerability-sql-injection/](https://ottopress.com/2013/better-know-a-vulnerability-sql-injection/)
--->
 
 *   [https://developer.wordpress.org/reference/classes/wpdb/#protect-queries-against-sql-injection-attacks](https://developer.wordpress.org/reference/classes/wpdb/#protect-queries-against-sql-injection-attacks)
 *   [https://codex.wordpress.org/Data\_Validation#Database](https://codex.wordpress.org/Data_Validation#Database)
@@ -900,7 +880,7 @@ Note that using some common names as the filename for the main plugin file can l
 Please check out our tips on how to [structure files and folders in a plugin](https://developer.wordpress.org/plugins/plugin-basics/best-practices/#folder-structure).
 -->
 
-[プラグイン内のファイルやフォルダの構造化](https://developer.wordpress.org/plugins/plugin-basics/best-practices/#folder-structure)の方法についてのヒントをご覧ください。
+[プラグイン内のファイルやフォルダの構造化](https://ja.wordpress.org/team/handbook/plugin-development/plugin-basics/best-practices/#folder-structure)の方法についてのヒントをご覧ください。
 
 <!--
 #### Incomplete Headers
@@ -918,7 +898,7 @@ Your headers are either missing or incomplete.
 Please review [Header Requirements](https://developer.wordpress.org/plugins/the-basics/header-requirements/) and update your plugin accordingly, putting the headers in only the main file.
 -->
 
-[ヘッダーの必要条件](https://developer.wordpress.org/plugins/the-basics/header-requirements/)を確認し、それに従ってプラグインを更新して、ヘッダーをメインファイルだけに置いてください。
+[ヘッダーの必要条件](https://ja.wordpress.org/team/handbook/plugin-development/the-basics/header-requirements/)を確認し、それに従ってプラグインを更新して、ヘッダーをメインファイルだけに置いてください。
 
 <!--
 #### Incomplete Readme
@@ -1066,10 +1046,6 @@ WordPress comes with an extensive HTTP API that should be used instead of creati
 
 WordPress には、独自の curl コールを作成する代わりに使用すべき、広範な HTTP API が付属しています。より高速で、より広範囲にわたります。必要であれば curl にフォールバックしますが、WordPress のネイティブ機能の多くを最初に使用します。
 
-<!--
-[https://developer.wordpress.org/plugins/http-api/](https://developer.wordpress.org/plugins/http-api/)
--->
-
 [https://developer.wordpress.org/plugins/http-api/](https://developer.wordpress.org/plugins/http-api/)
 
 <!--
@@ -1135,12 +1111,6 @@ If you're trying to enqueue on the admin pages you'll want to use the admin enqu
 -->
 
 管理者ページでエンキューしようとする場合、管理者エンキューを使いたいでしょう。
-
-<!--
-- [admin_enqueue_scripts](https://developer.wordpress.org/reference/hooks/admin_enqueue_scripts/)
-- [admin_print_scripts](https://developer.wordpress.org/reference/hooks/admin_print_scripts/)
-- [admin_print_styles](https://developer.wordpress.org/reference/hooks/admin_print_styles/)
--->
 
 - [admin_enqueue_scripts](https://developer.wordpress.org/reference/hooks/admin_enqueue_scripts/)
 - [admin_print_scripts](https://developer.wordpress.org/reference/hooks/admin_print_scripts/)
@@ -1287,7 +1257,7 @@ printf(
 You can read [more information here](https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/#text-domains).
 -->
 
-[詳しくはこちら](https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/#text-domains)をご覧ください。
+[詳しくはこちら](https://ja.wordpress.org/team/handbook/plugin-development/internationalization/how-to-internationalize-your-plugin/#text-domains)をご覧ください。
 
 <!--
 ## Compliance
@@ -1435,7 +1405,7 @@ You should also keep and/or link configuration files, as for example, the `compo
 [Detailed Plugin Guidelines](https://developer.wordpress.org/plugins/wordpress-org/detailed-plugin-guidelines/#4-code-must-be-mostly-human-readable)
 -->
 
-[詳細なプラグインガイドライン](https://developer.wordpress.org/plugins/wordpress-org/detailed-plugin-guidelines/#4-code-must-be-mostly-human-readable)
+[詳細なプラグインガイドライン](https://ja.wordpress.org/team/handbook/plugin-development/wordpress-org/detailed-plugin-guidelines/#4-code-must-be-mostly-human-readable)
 
 <!--
 But you can, and should, safely remove those other unneeded folders from your plugins.
@@ -1533,7 +1503,7 @@ In order to comply with our guidelines of human-readable code, we require you to
 [Detailed Plugin Guidelines](https://developer.wordpress.org/plugins/wordpress-org/detailed-plugin-guidelines/#4-code-must-be-mostly-human-readable)
 -->
 
-[詳細なプラグインガイドライン](https://developer.wordpress.org/plugins/wordpress-org/detailed-plugin-guidelines/#4-code-must-be-mostly-human-readable)
+[詳細なプラグインガイドライン](https://ja.wordpress.org/team/handbook/plugin-development/wordpress-org/detailed-plugin-guidelines/#4-code-must-be-mostly-human-readable)
 
 <!--
 We strongly feel that one of the strengths of open source is the ability to review, observe, and adapt code. By maintaining a public directory of freely available code, we encourage and welcome future developers to engage with WordPress and push it forward.

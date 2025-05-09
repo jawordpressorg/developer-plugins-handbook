@@ -36,13 +36,13 @@ add_action( 'bl_cron_hook', 'bl_cron_exec' );
 [info]Remember, the `bl_` part of the function name is a _function prefix_. You can learn why prefixes are important [here](https://developer.wordpress.org/plugins/plugin-basics/best-practices/#prefix-everything).[/info]
 -->
 
-[info]関数名の `bl_` の部分は _関数の接頭辞_ であることを忘れないでください。なぜ接頭辞が重要なのかは、[こちら](https://developer.wordpress.org/plugins/plugin-basics/best-practices/#prefix-everything)を参照してください。[/info]
+[info]関数名の `bl_` の部分は _関数の接頭辞_ であることを忘れないでください。なぜ接頭辞が重要なのかは、[こちら](https://ja.wordpress.org/team/handbook/plugin-development/plugin-basics/best-practices/#prefix-everything)を参照してください。[/info]
 
 <!--
 [info]You can read more about actions [here](https://developer.wordpress.org/plugins/hooks/actions/).[/info]
 -->
 
-[info]アクションについての詳細は、[こちら](https://developer.wordpress.org/plugins/hooks/actions/)をご覧ください。[/info]
+[info]アクションについての詳細は、[こちら](https://ja.wordpress.org/team/handbook/plugin-development/hooks/actions/)をご覧ください。[/info]
 
 <!--
 ## Scheduling the Task
@@ -86,7 +86,7 @@ Scheduling a recurring task is accomplished with [`wp_schedule_event()`](https:/
 We will use the 5 second interval we created [here](https://developer.wordpress.org/plugins/cron/understanding-wp-cron-scheduling/) and the hook we created above, like so:
 -->
 
-[ここ](https://developer.wordpress.org/plugins/cron/understanding-wp-cron-scheduling/)で作成した5秒のインターバルと、上で作成したフックを次のように使います:
+[ここ](https://ja.wordpress.org/team/handbook/plugin-development/cron/understanding-wp-cron-scheduling/)で作成した5秒のインターバルと、上で作成したフックを次のように使います:
 
 ```
 wp_schedule_event( time(), 'five_seconds', 'bl_cron_hook' );
@@ -172,4 +172,4 @@ function bl_deactivate() {
 [info]You can read more about activation and deactivation hooks [here](https://developer.wordpress.org/plugins/plugin-basics/activation-deactivation-hooks/).[/info]
 -->
 
-[info]有効化フックと無効化フックについては、[こちら](https://developer.wordpress.org/plugins/plugin-basics/activation-deactivation-hooks/)をご覧ください。[/info]
+[info]有効化フックと無効化フックについては、[こちら](https://ja.wordpress.org/team/handbook/plugin-development/plugin-basics/activation-deactivation-hooks/)をご覧ください。[/info]

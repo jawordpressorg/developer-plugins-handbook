@@ -14,7 +14,7 @@ People cease development on their plugins for a variety of reasons. Instead of l
 In adopting a plugin, you are promising to be responsible for all future development, and to ensure the plugin (and you) comply with all [plugin guidelines](https://developer.wordpress.org/plugins/wordpress-org/detailed-plugin-guidelines/).
 -->
 
-プラグインを引き継ぐことで、あなたは将来のすべての開発に責任を持ち、プラグイン (そして、あなた) がすべての[プラグイン・ガイドライン](https://developer.wordpress.org/plugins/wordpress-org/detailed-plugin-guidelines/)遵守を約束することになります。
+プラグインを引き継ぐことで、あなたは将来のすべての開発に責任を持ち、プラグイン (そして、あなた) がすべての[プラグイン・ガイドライン](https://ja.wordpress.org/team/handbook/plugin-development/wordpress-org/detailed-plugin-guidelines/)遵守を約束することになります。
 
 <!--
 [alert]Not all requests will be approved, even following a successful review.[/alert]
@@ -94,7 +94,7 @@ Larger plugins (100k users or more) are also less likely to be adopted, as that 
 You _must_ attempt to contact the original developer, as they can [give you access to the plugin](https://developer.wordpress.org/plugins/wordpress-org/plugin-developer-faq/#plugin-ownership). We recommend trying:
 -->
 
-[プラグインへのアクセス権を与える](https://developer.wordpress.org/plugins/wordpress-org/plugin-developer-faq/#plugin-ownership)ことができるため、オリジナル開発者に _必ず_ 連絡を取るようにしてください。試してみることをおすすめします:
+[プラグインへのアクセス権を与える](https://ja.wordpress.org/team/handbook/plugin-development/wordpress-org/plugin-developer-faq/#plugin-ownership)ことができるため、オリジナル開発者に _必ず_ 連絡を取るようにしてください。試してみることをおすすめします:
 
 <!--
 - email
@@ -116,7 +116,7 @@ We expect you to make all reasonable efforts to reach out to them. If the plugin
 If you _do_ get in touch with the developer, ask them to [transfer ownership to you](https://developer.wordpress.org/plugins/wordpress-org/plugin-developer-faq/#plugin-ownership). They can do this on their own and, once it’s done, you may manage the plugin. If they have issues, have them contact the plugin team via email and we will assist them.
 -->
 
-もし開発者と連絡を _取る_ のであれば、[所有権をあなたに移す](https://developer.wordpress.org/plugins/wordpress-org/plugin-developer-faq/#plugin-ownership)ように頼んでください。彼らは自分でこれを行うことができ、それが完了したら、あなたはプラグインを管理できます。もし彼らに問題があれば、メールでプラグイン・チームに連絡してください。私たちが支援します。
+もし開発者と連絡を _取る_ のであれば、[所有権をあなたに移す](https://ja.wordpress.org/team/handbook/plugin-development/plugin-developer-faq/#plugin-ownership)ように頼んでください。彼らは自分でこれを行うことができ、それが完了したら、あなたはプラグインを管理できます。もし彼らに問題があれば、メールでプラグイン・チームに連絡してください。私たちが支援します。
 
 <!--
 If there’s no way to get in touch, or they don’t reply, move to step 3.
@@ -134,7 +134,7 @@ If there’s no way to get in touch, or they don’t reply, move to step 3.
 Even if the plugin has been given to you by the developer, you must review the code from the top down to make sure it’s safe, secure, and meets our current [guidelines](https://developer.wordpress.org/plugins/wordpress-org/detailed-plugin-guidelines/).
 -->
 
-プラグインを開発者から譲り受けたとしても、安全でセキュアであり、現在の[ガイドライン](https://developer.wordpress.org/plugins/wordpress-org/detailed-plugin-guidelines/)に適合していることを確認するために、コード全体を上からレビューする必要があります。
+プラグインを開発者から譲り受けたとしても、安全でセキュアであり、現在の[ガイドライン](https://ja.wordpress.org/team/handbook/plugin-development/detailed-plugin-guidelines/)に適合していることを確認するために、コード全体を上からレビューする必要があります。
 
 <!--
 Your update must include editing the readme to ensure it documents the new ownership (and preferably when it takes place), removing all links to their site/support resources, as well as updating the copyright information to include you. Remember, copyright is additive. You keep the old and add yours on.

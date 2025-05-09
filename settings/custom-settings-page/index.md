@@ -8,7 +8,7 @@
 Creating a custom settings page includes the combination of: [creating an administration menu](https://developer.wordpress.org/plugins/administration-menus/), [using Settings API](https://developer.wordpress.org/plugins/settings/using-settings-api/), and [Options API](https://developer.wordpress.org/plugins/settings/options-api/).
 -->
 
-カスタム設定ページの作成には、以下の組み合わせがあります: [管理メニューの作成](https://developer.wordpress.org/plugins/administration-menus/)、[設定 API の使用](https://developer.wordpress.org/plugins/settings/using-settings-api/)、[オプション API](https://developer.wordpress.org/plugins/settings/options-api/)。
+カスタム設定ページの作成には、以下の組み合わせがあります: [管理メニューの作成](https://ja.wordpress.org/team/handbook/plugin-development/administration-menus/)、[設定 API の使用](https://ja.wordpress.org/team/handbook/plugin-development/settings/using-settings-api/)、[オプション API](https://ja.wordpress.org/team/handbook/plugin-development/settings/options-api/)。
 
 <!--
 [alert]Please read these chapters before attempting to create your own settings page.[/alert]

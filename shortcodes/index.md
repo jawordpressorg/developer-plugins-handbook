@@ -86,7 +86,7 @@ By default, WordPress includes the following shortcodes:
 Best practices for developing shortcodes include the [plugin development best practices](https://developer.wordpress.org/plugins/plugin-basics/best-practices/) and the list below:
 -->
 
-ショートコード開発に関するベストプラクティスには、[プラグイン開発のベストプラクティス](https://developer.wordpress.org/plugins/plugin-basics/best-practices/)と以下のリストがあります:
+ショートコード開発に関するベストプラクティスには、[プラグイン開発のベストプラクティス](https://ja.wordpress.org/team/handbook/plugin-development/plugin-basics/best-practices/)と以下のリストがあります:
 
 <!--
 - **Always return!** Shortcodes are essentially filters, so creating "[side effects](https://en.wikipedia.org/wiki/Side_effect_(computer_science))" will lead to unexpected bugs.
@@ -110,7 +110,7 @@ Best practices for developing shortcodes include the [plugin development best pr
 See the complete example of using a [basic shortcode structure, taking care of self-closing and enclosing scenarios, shortcodes within shortcodes and securing output](https://developer.wordpress.org/plugins/shortcodes/shortcodes-with-parameters/#complete-example).
 -->
 
-[基本的なショートコードの構造、自己完結型と包含型シナリオの取り扱い、入れ子状態のショートコード、出力の安全確保](https://developer.wordpress.org/plugins/shortcodes/shortcodes-with-parameters/#complete-example)を使用する完全な例を参照してください。
+[基本的なショートコードの構造、自己完結型と包含型シナリオの取り扱い、入れ子状態のショートコード、出力の安全確保](https://ja.wordpress.org/team/handbook/plugin-development/shortcodes/shortcodes-with-parameters/#complete-example)を使用する完全な例を参照してください。
 
 <!--
 ## External Resources

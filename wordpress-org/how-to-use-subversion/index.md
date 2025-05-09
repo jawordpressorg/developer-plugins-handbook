@@ -33,8 +33,8 @@ For additional information, please see these documents:
 - [How plugin assets (header images and icons) work](https://developer.wordpress.org/plugins/wordpress-org/plugin-assets/).
 -->
 
-- [readme.txt の仕組み](https://developer.wordpress.org/plugins/wordpress-org/how-your-readme-txt-works/)
-- [プラグイン・アセット (ヘッダー画像やアイコン) の仕組み](https://developer.wordpress.org/plugins/wordpress-org/plugin-assets/)
+- [readme.txt の仕組み](https://ja.wordpress.org/team/handbook/plugin-development/wordpress-org/how-your-readme-txt-works/)
+- [プラグイン・アセット (ヘッダー画像やアイコン) の仕組み](https://ja.wordpress.org/team/handbook/plugin-development/wordpress-org/plugin-assets/)
 
 <!--
 [warning]SVN and the Plugin Directory are a _release_ repository. Unlike Git, you shouldn't commit every small change, as doing so can degrade performance. Please only push **finished** changes to your SVN repository.[/warning]
@@ -58,7 +58,7 @@ All your files will be centrally stored in the **svn repository** on our servers
 Subversion keeps track of all these changes so that you can go back and look at old versions or **revisions** later if you ever need to. In addition to remembering each individual revision, you can tell subversion to **tag** certain revisions of the repository for easy reference. Tags are great for [labeling different releases of your plugin](https://developer.wordpress.org/plugins/wordpress-org/how-to-use-subversion/#tags) and are the only fully supported method of ensuring the correct versions are seen on WordPress.org and updated for users.
 -->
 
-Subversion は、これらの変更点をすべて記録しているため、必要であれば後で古いバージョンや **リビジョン** に戻って見ることができます。個々のリビジョンを記憶するだけでなく、簡単に参照できるように、リポジトリの特定のリビジョンに **tag** を付けるよう、Subversion に指示できます。tag は、[プラグインの異なるリリースのラベル付け](https://developer.wordpress.org/plugins/wordpress-org/how-to-use-subversion/#tags)に最適で、WordPress.org で正しいバージョンが表示され、ユーザーのために更新されることを保証する、完全にサポートされた唯一の方法です。
+Subversion は、これらの変更点をすべて記録しているため、必要であれば後で古いバージョンや **リビジョン** に戻って見ることができます。個々のリビジョンを記憶するだけでなく、簡単に参照できるように、リポジトリの特定のリビジョンに **tag** を付けるよう、Subversion に指示できます。tag は、[プラグインの異なるリリースのラベル付け](https://ja.wordpress.org/team/handbook/plugin-development/wordpress-org/how-to-use-subversion/#tags)に最適で、WordPress.org で正しいバージョンが表示され、ユーザーのために更新されることを保証する、完全にサポートされた唯一の方法です。
 
 <!--
 ## Your Account
@@ -108,7 +108,7 @@ There are three directories created by default in all SVN repositories.
 - Releases go in `tags`.
 -->
 
-- [スクリーンショット、プラグイン・ヘッダー、プラグイン・アイコン](https://developer.wordpress.org/plugins/wordpress-org/plugin-assets/)には `assets` を使ってください。
+- [スクリーンショット、プラグイン・ヘッダー、プラグイン・アイコン](https://ja.wordpress.org/team/handbook/plugin-development/wordpress-org/plugin-assets/)には `assets` を使ってください。
 - 開発作業は、`trunk` に置きます。
 - リリースは、`tags` に入れます。
 
@@ -176,7 +176,7 @@ We **strongly** encourage the use of [semantic software versioning](https://semv
 [info]See also: [How Your Plugin Assets Work](https://developer.wordpress.org/plugins/wordpress-org/plugin-assets/)[/info]
 -->
 
-[info]関連記事: [プラグイン・アセットの仕組み](https://developer.wordpress.org/plugins/wordpress-org/plugin-assets/)[/info]
+[info]関連記事: [プラグイン・アセットの仕組み](https://ja.wordpress.org/team/handbook/plugin-development/wordpress-org/plugin-assets/)[/info]
 
 <!--
 Assets is where your screenshots, header images, and plugin icons reside. Some older plugins in the directory may have screenshot files in /trunk instead, however this is not recommended. All new plugins should put their screenshots in /assets. This keeps the filesizes of plugins small, as it is not necessary to send screenshots to WordPress installations along with the plugin itself.
@@ -587,6 +587,6 @@ You also should never upload zip files. Like most code repository systems, SVN e
 - [The SVN Book](https://svnbook.red-bean.com/).
 -->
 
-- [readme.txt の仕組み](https://developer.wordpress.org/plugins/wordpress-org/how-your-readme-txt-works/).
-- [プラグイン・アセット (ヘッダー画像やアイコン) の仕組み](https://developer.wordpress.org/plugins/wordpress-org/plugin-assets/).
+- [readme.txt の仕組み](https://ja.wordpress.org/team/handbook/plugin-development/wordpress-org/how-your-readme-txt-works/).
+- [プラグイン・アセット (ヘッダー画像やアイコン) の仕組み](https://ja.wordpress.org/team/handbook/plugin-development/wordpress-org/plugin-assets/).
 - [The SVN Book](https://svnbook.red-bean.com/).

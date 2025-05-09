@@ -44,7 +44,7 @@ Lets say we want to add a new Top-level menu called "WPOrg".
 **The first step** will be creating a function which will output the HTML. In this function we will perform the necessary security checks and render the options we've registered using the [Settings API](https://developer.wordpress.org/plugins/settings/).
 -->
 
-**第一のステップ** では、HTML を出力する関数を作成します。この関数では、必要なセキュリティチェックを行い、[設定 API](https://developer.wordpress.org/plugins/settings/) を使って登録したオプションを書き出します。
+**第一のステップ** では、HTML を出力する関数を作成します。この関数では、必要なセキュリティチェックを行い、[設定 API](https://ja.wordpress.org/team/handbook/plugin-development/settings/) を使って登録したオプションを書き出します。
 
 <!--
 [info]We recommend wrapping your HTML using a `<div>` with a class of `wrap`.[/info]
@@ -157,7 +157,7 @@ This should never be used as a way to restrict [user capabilities](https://devel
 -->
 
 [warning]メニューを削除しても、ユーザーが直接メニューにアクセスすることは防げません。
-[ユーザーの権限](https://developer.wordpress.org/plugins/users/roles-and-capabilities/)を制限する方法として、これは決して使用されるべきではありません。[/warning]
+[ユーザーの権限](https://ja.wordpress.org/team/handbook/plugin-development/users/roles-and-capabilities/)を制限する方法として、これは決して使用されるべきではありません。[/warning]
 
 <!--
 ### Example
@@ -208,7 +208,7 @@ To process the submissions of forms on options pages, you will need two things:
 [info]You only need to follow those steps if you are manually creating forms in the back-end. The [Settings API](https://developer.wordpress.org/plugins/settings/) is the recommended way to do this.[/info]
 -->
 
-[info]バックエンドでフォームを手動で作成する場合のみ、これらの手順を踏む必要があります。[設定 API](https://developer.wordpress.org/plugins/settings/) を使用することをおすすめします。[/info]
+[info]バックエンドでフォームを手動で作成する場合のみ、これらの手順を踏む必要があります。[設定 API](https://ja.wordpress.org/team/handbook/plugin-development/settings/) を使用することをおすすめします。[/info]
 
 <!--
 ### Form action attribute

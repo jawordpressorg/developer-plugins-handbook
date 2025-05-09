@@ -206,7 +206,7 @@ The parameter `title_example` can be any arbitrary string. It's suggested the st
 If you recall from the [jQuery Section](https://developer.wordpress.org/plugins/javascript/jquery/), data created by PHP for use by jQuery was passed in a global object named `my_ajax_obj`. In our example, this data was a nonce and the complete URL to `admin-ajax.php`. The process of assigning object properties and creating the global jQuery object is called **localizing**. This is the localizing code used in our example which uses [`wp_localize_script()`](https://developer.wordpress.org/reference/functions/wp_localize_script/).
 -->
 
-[jQuery セクション](https://developer.wordpress.org/plugins/javascript/jquery/)を思い起こせば、jQuery で使用するために PHP が作成したデータは、`my_ajax_obj` という名前のグローバルオブジェクトで渡されました。私たちの例では、このデータは nonce と `admin-ajax.php` への完全な URL でした。オブジェクトのプロパティを割り当て、グローバルな jQuery オブジェクトを作成するプロセスを**ローカライズ**と呼びます。これは、[`wp_localize_script()`](https://developer.wordpress.org/reference/functions/wp_localize_script/) を使用した例で使用したローカライズのコードです。
+[jQuery セクション](https://ja.wordpress.org/team/handbook/plugin-development/javascript/jquery/)を思い起こせば、jQuery で使用するために PHP が作成したデータは、`my_ajax_obj` という名前のグローバルオブジェクトで渡されました。私たちの例では、このデータは nonce と `admin-ajax.php` への完全な URL でした。オブジェクトのプロパティを割り当て、グローバルな jQuery オブジェクトを作成するプロセスを**ローカライズ**と呼びます。これは、[`wp_localize_script()`](https://developer.wordpress.org/reference/functions/wp_localize_script/) を使用した例で使用したローカライズのコードです。
 
 ```
 wp_localize_script(
@@ -272,7 +272,7 @@ function my_enqueue( $hook ) {
 The other major part of the server side PHP code is the actual AJAX handler that receives the POSTed data, does something with it, then sends an appropriate response back to the browser. This takes on the form of a WordPress [action hook](https://developer.wordpress.org/plugins/hooks/actions/). Which hook tag you use depends on whether the user is logged in or not and what value your jQuery script passed as the _action:_ value.
 -->
 
-サーバーサイドの PHP コードのもう一つの主要な部分は、POST されたデータを受け取り、それを使って何かを行い、適切なレスポンスをブラウザに送り返す実際の AJAX ハンドラです。これは WordPress の[アクションフック](https://developer.wordpress.org/plugins/hooks/actions/)の形を採ります。どのフックタグを使うかは、ユーザーがログインしているかどうか、そして jQuery スクリプトが _action:_ の値としてどのような値を渡したかによって決まります。
+サーバーサイドの PHP コードのもう一つの主要な部分は、POST されたデータを受け取り、それを使って何かを行い、適切なレスポンスをブラウザに送り返す実際の AJAX ハンドラです。これは WordPress の[アクションフック](https://ja.wordpress.org/team/handbook/plugin-development/hooks/actions/)の形を採ります。どのフックタグを使うかは、ユーザーがログインしているかどうか、そして jQuery スクリプトが _action:_ の値としてどのような値を渡したかによって決まります。
 
 <!--
 [info]`$_GET`, `$_POST`, and `$_COOKIE` vs. `$_REQUEST`
@@ -290,7 +290,7 @@ You've probably used one or more of the PHP super globals such as `$_GET` or `$_
 Since our AJAX exchange is for the plugin's settings page, the user must be logged in. If you recall from the [jQuery section](https://developer.wordpress.org/plugins/javascript/jquery/), the `action:` value is `"my_tag_count"`. This means our action hook tag will be `wp_ajax_my_tag_count`. If our AJAX exchange were to be utilized by users who were not currently logged in, the action hook tag would be `wp_ajax_nopriv_my_tag_count` The basic code used to hook the action looks like this:
 -->
 
-AJAX 交換はプラグインの設定ページに対して行われるので、ユーザーはログインしている必要があります。[jQuery セクション](https://developer.wordpress.org/plugins/javascript/jquery/)を思い起こしてほしいのですが、`action:` の値は `"my_tag_count"` です。つまり、アクションフックタグは `wp_ajax_my_tag_count` になることを意味します。AJAX 交換が現在のログインしていないユーザーによって利用される場合、アクションフックタグは `wp_ajax_nopriv_my_tag_count` となります。アクションをフックするための基本的なコードは次のようになります:
+AJAX 交換はプラグインの設定ページに対して行われるので、ユーザーはログインしている必要があります。[jQuery セクション](https://ja.wordpress.org/team/handbook/plugin-development/javascript/jquery/)を思い起こしてほしいのですが、`action:` の値は `"my_tag_count"` です。つまり、アクションフックタグは `wp_ajax_my_tag_count` になることを意味します。AJAX 交換が現在のログインしていないユーザーによって利用される場合、アクションフックタグは `wp_ajax_nopriv_my_tag_count` となります。アクションをフックするための基本的なコードは次のようになります:
 
 ```
 add_action( 'wp_ajax_my_tag_count', 'my_ajax_handler' );
@@ -319,7 +319,7 @@ check_ajax_referer( 'title_example' );
 The provided parameter must be identical to the parameter provided [earlier](https://developer.wordpress.org/plugins/javascript/enqueuing/#php-nonce) to `wp_create_nonce()`. The function simply dies if the nonce does not check out. If this were a true nonce, now that it was used, the value is no longer any good. You would then generate a new one and send it to the callback script so that it can be used for the next request. But since WordPress nonces are good for twenty-four hours, you needn't do anything but check it.
 -->
 
-提供されるパラメータは、`wp_create_nonce()` に [以前に](https://developer.wordpress.org/plugins/javascript/enqueuing/#php-nonce)提供されたパラメータと同じでなければなりません。nonce がチェックアウトされない場合、この関数は単に強制終了します。これが真の nonce であった場合、それが使用されたので、その値はもはや無意味です。新しい nonce を生成してコールバックスクリプトに送り、次のリクエストで使えるようにします。しかし、WordPress の nonce は24時間有効ですので、それをチェックする以外には何もする必要はありません。
+提供されるパラメータは、`wp_create_nonce()` に [以前に](https://ja.wordpress.org/team/handbook/plugin-development/javascript/enqueuing/#php-nonce)提供されたパラメータと同じでなければなりません。nonce がチェックアウトされない場合、この関数は単に強制終了します。これが真の nonce であった場合、それが使用されたので、その値はもはや無意味です。新しい nonce を生成してコールバックスクリプトに送り、次のリクエストで使えるようにします。しかし、WordPress の nonce は24時間有効ですので、それをチェックする以外には何もする必要はありません。
 
 <!--
 ### Data

@@ -30,7 +30,7 @@ All plugins hosted here have access to:
 [tip]Make sure you review the [Developer FAQ!](https://developer.wordpress.org/plugins/wordpress-org/plugin-developer-faq/)[/tip]
 -->
 
-[tip][開発者 FAQ](https://developer.wordpress.org/plugins/wordpress-org/plugin-developer-faq/) を必ず確認してください ! [/tip]
+[tip][開発者 FAQ](https://ja.wordpress.org/team/handbook/plugin-development/wordpress-org/plugin-developer-faq/) を必ず確認してください ! [/tip]
 
 <!--
 And make sure that you've reviewed the [common issues](./common-issues/index.md) that the Plugin Review Team typically encounters when reviewing plugins.
@@ -72,7 +72,7 @@ A brief overview:
 [alert]All plugins and developers must comply with our [Detailed Plugin Guidelines](https://developer.wordpress.org/plugins/wordpress-org/detailed-plugin-guidelines/).[/alert]
 -->
 
-[alert]すべてのプラグインと開発者は、私たちの[詳細なプラグインガイドライン](https://developer.wordpress.org/plugins/wordpress-org/detailed-plugin-guidelines/)を遵守しなければなりません。[/alert]
+[alert]すべてのプラグインと開発者は、私たちの[詳細なプラグインガイドライン](https://ja.wordpress.org/team/handbook/plugin-development/wordpress-org/detailed-plugin-guidelines/)を遵守しなければなりません。[/alert]
 
 <!--
 ## How to...
@@ -101,15 +101,15 @@ If you're just getting started, it helps to know how to submit your plugin, use 
 - [...report an insecure plugin](https://developer.wordpress.org/plugins/wordpress-org/plugin-security/reporting-plugin-security-issues/)
 -->
 
-- [プラグインの計画、申請、メンテナンス](https://developer.wordpress.org/plugins/wordpress-org/planning-submitting-and-maintaining-plugins/)
-- [Subversion の使用](https://developer.wordpress.org/plugins/wordpress-org/how-to-use-subversion/)
-- [readme.txt の管理](https://developer.wordpress.org/plugins/wordpress-org/how-your-readme-txt-works/)
-- [適切なプラグインヘッダーの記載](https://developer.wordpress.org/plugins/plugin-basics/header-requirements/)
-- [プラグイン・アセット (ヘッダー画像やアイコン) の使用](https://developer.wordpress.org/plugins/wordpress-org/plugin-assets/)
-- [既存プラグインの引き継ぎ](https://developer.wordpress.org/plugins/wordpress-org/take-over-an-existing-plugin/)
-- [サポートフォーラムの使用](https://developer.wordpress.org/plugins/wordpress-org/using-the-forums/)
-- [ユーザーへの特別な権限グループ (contributor、supporter、committer、など) の付与](https://developer.wordpress.org/plugins/wordpress-org/special-user-roles-capabilities/)
-- [プラグインを新しい所有者に移転](https://developer.wordpress.org/plugins/wordpress-org/transferring-your-plugin-to-a-new-owner/)
-- [プラグインをブロック・ディレクトリに追加](https://developer.wordpress.org/plugins/wordpress-org/add-your-plugin-to-the-block-directory/)
-- [プラグインのセキュリティー管理](https://developer.wordpress.org/plugins/wordpress-org/plugin-security/)
-- [安全ではないプラグインの報告](https://developer.wordpress.org/plugins/wordpress-org/plugin-security/reporting-plugin-security-issues/)
+- [プラグインの計画、申請、メンテナンス](https://ja.wordpress.org/team/handbook/plugin-development/wordpress-org/planning-submitting-and-maintaining-plugins/)
+- [Subversion の使用](https://ja.wordpress.org/team/handbook/plugin-development/wordpress-org/how-to-use-subversion/)
+- [readme.txt の管理](https://ja.wordpress.org/team/handbook/plugin-development/wordpress-org/how-your-readme-txt-works/)
+- [適切なプラグインヘッダーの記載](https://ja.wordpress.org/team/handbook/plugin-development/plugin-basics/header-requirements/)
+- [プラグイン・アセット (ヘッダー画像やアイコン) の使用](https://ja.wordpress.org/team/handbook/plugin-development/wordpress-org/plugin-assets/)
+- [既存プラグインの引き継ぎ](https://ja.wordpress.org/team/handbook/plugin-development/wordpress-org/take-over-an-existing-plugin/)
+- [サポートフォーラムの使用](https://ja.wordpress.org/team/handbook/plugin-development/wordpress-org/using-the-forums/)
+- [ユーザーへの特別な権限グループ (contributor、supporter、committer、など) の付与](https://ja.wordpress.org/team/handbook/plugin-development/wordpress-org/special-user-roles-capabilities/)
+- [プラグインを新しい所有者に移転](https://ja.wordpress.org/team/handbook/plugin-development/wordpress-org/transferring-your-plugin-to-a-new-owner/)
+- [プラグインをブロック・ディレクトリに追加](https://ja.wordpress.org/team/handbook/plugin-development/wordpress-org/add-your-plugin-to-the-block-directory/)
+- [プラグインのセキュリティー管理](https://ja.wordpress.org/team/handbook/plugin-development/wordpress-org/plugin-security/)
+- [安全ではないプラグインの報告](https://ja.wordpress.org/team/handbook/plugin-development/wordpress-org/plugin-security/reporting-plugin-security-issues/)

@@ -8,7 +8,7 @@
 **Actions** are one of the two types of [Hooks](https://developer.wordpress.org/plugins/hooks/). They provide a way for running a function at a specific point in the execution of WordPress Core, plugins, and themes. Callback functions for an Action do not return anything back to the calling Action hook. They are the counterpart to [Filters](https://developer.wordpress.org/plugins/hooks/filters/). Here is a refresher of [the difference between actions and filters](https://developer.wordpress.org/plugins/hooks/#actions-vs-filters).
 -->
 
-**アクション**は、[フック](https://developer.wordpress.org/plugins/hooks/)の2つのタイプのうちの1つです。WordPress Core、プラグイン、テーマの実行中の特定のポイントで関数を作動させる方法を提供します。アクション用のコールバック関数は、呼び出したアクションフックに何も返しません。[フィルター](https://developer.wordpress.org/plugins/hooks/filters/)と対になるものです。ここで[アクションとフィルターの違い](https://developer.wordpress.org/plugins/hooks/#actions-vs-filters)を再確認しておきましょう。
+**アクション**は、[フック](https://ja.wordpress.org/team/handbook/plugin-development/hooks/)の2つのタイプのうちの1つです。WordPress Core、プラグイン、テーマの実行中の特定のポイントで関数を作動させる方法を提供します。アクション用のコールバック関数は、呼び出したアクションフックに何も返しません。[フィルター](https://ja.wordpress.org/team/handbook/plugin-development/hooks/filters/)と対になるものです。ここで[アクションとフィルターの違い](https://ja.wordpress.org/team/handbook/plugin-development/hooks/#actions-vs-filters)を再確認しておきましょう。
 
 <!--
 ## Adding an Action
@@ -83,7 +83,7 @@ add_action( 'init', 'wporg_callback' );
 You can refer to the [Hooks](https://developer.wordpress.org/plugins/hooks/) chapter for a list of available hooks.
 -->
 
-利用可能なフックのリストについては、[フック](https://developer.wordpress.org/plugins/hooks/)の章を参照してください。
+利用可能なフックのリストについては、[フック](https://ja.wordpress.org/team/handbook/plugin-development/hooks/)の章を参照してください。
 
 <!--
 As you gain more experience, looking through WordPress Core source code will allow you to find the most appropriate hook.

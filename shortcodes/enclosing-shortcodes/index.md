@@ -15,7 +15,7 @@ The are two scenarios for using shortcodes:
 - The shortcode is enclosing content.
 -->
 
-- ショートコードは、[基本のショートコード](https://developer.wordpress.org/plugins/shortcodes/basic-shortcodes/)のセクションで見たような、自己完結型のタグ。
+- ショートコードは、[基本のショートコード](https://ja.wordpress.org/team/handbook/plugin-development/shortcodes/basic-shortcodes/)のセクションで見たような、自己完結型のタグ。
 - ショートコードは、コンテンツを包含するタグ。
 
 <!--
@@ -83,7 +83,7 @@ The shortcode `[$tag]`, including its content and the end `[/$tag]` will be repl
 [alert]It is the responsibility of the handler function to [secure the output](https://developer.wordpress.org/plugins/security/securing-output/).[/alert]
 -->
 
-[alert][出力の安全確保](https://developer.wordpress.org/plugins/security/securing-output/)は、ハンドラ関数の責任です。[/alert]
+[alert][出力の安全確保](https://ja.wordpress.org/team/handbook/plugin-development/security/securing-output/)は、ハンドラ関数の責任です。[/alert]
 
 <!--
 ## Shortcode-ception

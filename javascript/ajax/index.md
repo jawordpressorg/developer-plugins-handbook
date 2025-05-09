@@ -98,7 +98,7 @@ WordPress での AJAX 交換には、2つの主要なコンポーネントがあ
 Now we will define the "do stuff" portion from the [snippet in the article on jQuery](https://developer.wordpress.org/plugins/javascript/jquery/#selector-and-event). We will use the [`$.post()`](https://api.jquery.com/jQuery.post/ "jQuery Reference") method, which takes 3 parameters: the URL to send the POST request to, the data to send, and a callback function to handle the server response. Before we do that though, we have a bit of advance planning to get out of the way. We do the following assignment for use later in the callback function. The purpose will be more evident in the [Callback section](https://developer.wordpress.org/plugins/javascript/ajax/#callback "Page section").
 -->
 
-ここで、[jQuery の記事のスニペット](https://developer.wordpress.org/plugins/javascript/jquery/#selector-and-event)にある「do stuff」部分を定義します。ここでは、[`$.post()`](https://api.jquery.com/jQuery.post/ "jQuery リファレンス") メソッドを使用し、そのパラメータは、POST リクエストを送信する URL、送信するデータ、そしてサーバーのレスポンスを処理するコールバック関数、の3つになります。でも、その前に、ちょっとした下準備があります。後でコールバック関数で使うために、次のように割り当てします。目的は[コールバックのセクション](https://developer.wordpress.org/plugins/javascript/ajax/#callback "Page section")で詳しく説明します。
+ここで、[jQuery の記事のスニペット](https://ja.wordpress.org/team/handbook/plugin-development/javascript/jquery/#selector-and-event)にある「do stuff」部分を定義します。ここでは、[`$.post()`](https://api.jquery.com/jQuery.post/ "jQuery リファレンス") メソッドを使用し、そのパラメータは、POST リクエストを送信する URL、送信するデータ、そしてサーバーのレスポンスを処理するコールバック関数、の3つになります。でも、その前に、ちょっとした下準備があります。後でコールバック関数で使うために、次のように割り当てします。目的は[コールバックのセクション](https://ja.wordpress.org/team/handbook/plugin-development/javascript/ajax/#callback "Page section")で詳しく説明します。
 
 ### URL
 
@@ -106,7 +106,7 @@ Now we will define the "do stuff" portion from the [snippet in the article on jQ
 All WordPress AJAX requests must be sent to `wp-admin/admin-ajax.php`. The correct, complete URL needs to come from PHP, jQuery cannot determine this value on its own, and you cannot hardcode the URL in your jQuery code and expect anyone else to use your plugin on their site. If the page is from the administration area, WordPress sets the correct URL in the global JavaScript variable ajaxurl. For a page from the public area, you will need to establish the correct URL yourself and pass it to jQuery using [`wp_localize_script()`](https://developer.wordpress.org/reference/functions/wp_localize_script/). This will be covered in more detail in the [PHP section](https://developer.wordpress.org/plugins/javascript/enqueuing/ "Server Side PHP and Enqueuing"). For now just know that the URL that will work for both the front and back end is available as a property of a global object that you will define in the PHP segment. In jQuery it is referenced like so:
 -->
 
-WordPress の AJAX リクエストはすべて `wp-admin/admin-ajax.php` に送られなければなりません。正しい完全な URL は PHP から取得する必要があります。jQuery は、この値を独自に決定できませんし、jQuery のコードに URL をハードコーディングして他の人がそのプラグインを自分のサイトで使えるようにもできません。ページが管理エリアのものであれば、WordPress は、グローバル JavaScript 変数 ajaxurl に正しい URL を設定します。公開エリアのページの場合は、正しい URL を自分で設定し、[`wp_localize_script()`](https://developer.wordpress.org/reference/functions/wp_localize_script/) を使って jQuery に渡す必要があります。これについては [PHP のセクション](https://developer.wordpress.org/plugins/javascript/enqueuing/ "サーバーサイド PHP とエンキュー") で詳しく説明します。今のところ、フロントエンドとバックエンドの両方で動作する URL は、PHP セグメントで定義するグローバルオブジェクトのプロパティとして利用可能であることだけ知っておいてください。jQuery では、このように参照します:
+WordPress の AJAX リクエストはすべて `wp-admin/admin-ajax.php` に送られなければなりません。正しい完全な URL は PHP から取得する必要があります。jQuery は、この値を独自に決定できませんし、jQuery のコードに URL をハードコーディングして他の人がそのプラグインを自分のサイトで使えるようにもできません。ページが管理エリアのものであれば、WordPress は、グローバル JavaScript 変数 ajaxurl に正しい URL を設定します。公開エリアのページの場合は、正しい URL を自分で設定し、[`wp_localize_script()`](https://developer.wordpress.org/reference/functions/wp_localize_script/) を使って jQuery に渡す必要があります。これについては [PHP のセクション](https://ja.wordpress.org/team/handbook/plugin-development/javascript/enqueuing/ "サーバーサイド PHP とエンキュー") で詳しく説明します。今のところ、フロントエンドとバックエンドの両方で動作する URL は、PHP セグメントで定義するグローバルオブジェクトのプロパティとして利用可能であることだけ知っておいてください。jQuery では、このように参照します:
 
 ```
 my_ajax_obj.ajax_url
@@ -252,7 +252,7 @@ JSON is often favored for its light weight and ease of use. You can actually par
 -->
 
 
-JSON は軽量で使いやすいため、よく好まれています。`eval()` を使って JSON をパースもできるが、それはやめておきましょう ! `eval()` の使用は重大なセキュリティリスクを伴います。代わりに、より高速な専用のパーサーを使用しましょう。パーサーオブジェクトのグローバルインスタンス `JSON` を使用します。AJAX コールには、[JSON フォーマットでレスポンスを返す簡単な方法を提供する、特定の関数](https://developer.wordpress.org/plugins/javascript/enqueuing/#json)があります。
+JSON は軽量で使いやすいため、よく好まれています。`eval()` を使って JSON をパースもできるが、それはやめておきましょう ! `eval()` の使用は重大なセキュリティリスクを伴います。代わりに、より高速な専用のパーサーを使用しましょう。パーサーオブジェクトのグローバルインスタンス `JSON` を使用します。AJAX コールには、[JSON フォーマットでレスポンスを返す簡単な方法を提供する、特定の関数](https://ja.wordpress.org/team/handbook/plugin-development/javascript/enqueuing/#json)があります。
 
 <!--
 #### Other

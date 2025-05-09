@@ -14,4 +14,4 @@ WordPress は投稿タイプを `posts` テーブルに保存しており、開�
 This chapter will show you how to [register Custom Post Types](https://developer.wordpress.org/plugins/post-types/registering-custom-post-types/), how to [retrieve their content from the database, and how to render them to the public](https://developer.wordpress.org/plugins/post-types/working-with-custom-post-types/).
 -->
 
-本章では、[カスタム投稿タイプの登録方法](https://developer.wordpress.org/plugins/post-types/registering-custom-post-types/)、[データベースからコンテンツを取得する方法と公開する方法](https://developer.wordpress.org/plugins/post-types/working-with-custom-post-types/)について説明します。
+本章では、[カスタム投稿タイプの登録方法](https://ja.wordpress.org/team/handbook/plugin-development/post-types/registering-custom-post-types/)、[データベースからコンテンツを取得する方法と公開する方法](https://ja.wordpress.org/team/handbook/plugin-development/post-types/working-with-custom-post-types/)について説明します。
