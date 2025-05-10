@@ -74,7 +74,7 @@ To gain control of how the shortcodes are used:
 -->
 
 - ハンドラ関数用のデフォルトパラメータを宣言しましょう。
-- [`array_change_key_case()`](https://www.php.net/manual/en/function.array-change-key-case.php) で属性配列用のキーケースを正規化しましょう。
+- [`array_change_key_case()`](https://www.php.net/manual/ja/function.array-change-key-case.php) で属性配列用のキーケースを正規化しましょう。
 - [`shortcode_atts()`](https://developer.wordpress.org/reference/functions/shortcode_atts/) を使用して属性を構文解析し、デフォルト値の配列とユーザー `$atts` を提供しましょう。
 - 出力を返す前に、[出力の安全確保](https://developer.wordpress.org/apis/security/escaping/)をしましょう。
 

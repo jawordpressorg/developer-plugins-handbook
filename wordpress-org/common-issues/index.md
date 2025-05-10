@@ -128,7 +128,7 @@ echo esc_html(sanitize_text_field($_POST['example']));
 **Note**: When using functions like `filter_var`, `filter_var_array`, `filter_input` and/or `filter_input_array` you will need to [set the FILTER parameter to any kind of filter that sanitizes the input](https://www.php.net/manual/en/filter.filters.php).
 -->
 
-**メモ**: `filter_var`、`filter_var_array`、`filter_input` および/または `filter_input_array` のような関数を使用する場合は、[入力をサニタイズする任意の種類のフィルタに、パラメータ FILTER を設定](https://www.php.net/manual/en/filter.filters.php)する必要があります。
+**メモ**: `filter_var`、`filter_var_array`、`filter_input` および/または `filter_input_array` のような関数を使用する場合は、[入力をサニタイズする任意の種類のフィルタに、パラメータ FILTER を設定](https://www.php.net/manual/ja/filters.php)する必要があります。
 
 <!--
 Leaving the filter parameter empty, PHP by default will apply the filter "FILTER_DEFAULT" **which is not sanitizing at all**.
@@ -838,7 +838,7 @@ Also WordPress explicitly sets and expects the default timezone to be UTC (in se
 While error_reporting() is a great tool in PHP ( [https://www.php.net/manual/en/function.error-reporting.php](https://www.php.net/manual/en/function.error-reporting.php) ) but if you set it permanently in your plugin, you mess things up for everyone who uses your code. Should they have a reason to try to debug their site which happens to use your code, they won't be able to get a clean test because you're messing with the output. It has no place in the day to day function of your plugin.
 -->
 
-`error_reporting()` は、PHP のすばらしいツールです ( [https://www.php.net/manual/en/function.error-reporting.php](https://www.php.net/manual/en/function.error-reporting.php) ) が、これをプラグインに恒久的に設定すると、あなたのコードを使うすべての人に迷惑をかけることになります。仮に、あなたのコードが使われているサイトをデバッグしようとしても、ゴミが出力されるためにクリーンなテストを実行できません。プラグインの日常的な利用で error_reportig() を使用する場面はありません。
+`error_reporting()` は、PHP のすばらしいツールです ( [https://www.php.net/manual/ja/function.error-reporting.php](https://www.php.net/manual/ja/function.error-reporting.php) ) が、これをプラグインに恒久的に設定すると、あなたのコードを使うすべての人に迷惑をかけることになります。仮に、あなたのコードが使われているサイトをデバッグしようとしても、ゴミが出力されるためにクリーンなテストを実行できません。プラグインの日常的な利用で error_reportig() を使用する場面はありません。
 
 <!--
 ### Plugin standards

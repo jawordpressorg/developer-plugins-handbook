@@ -8,7 +8,7 @@
 As described in [Getting Started](https://developer.wordpress.org/plugins/plugin-basics/#getting-started), the main PHP file should include header comment what tells WordPress that a file is a plugin and provides information about the plugin.
 -->
 
-[はじめに](https://ja.wordpress.org/team/handbook/plugin-development/plugin-basics/#getting-started)で説明したように、メインの PHP ファイルには、ファイルがプラグインであることを WordPress に伝え、プラグインに関する情報を提供するヘッダーコメントを含める必要があります。
+[はじめに](https://ja.wordpress.org/team/handbook/plugin-development/plugin-basics/#getting-started)説明したように、メインの PHP ファイルには、ファイルがプラグインであることを WordPress に伝え、プラグインに関する情報を提供するヘッダーコメントを含める必要があります。
 
 <!--
 ## Minimum Fields
@@ -57,20 +57,20 @@ Available header fields:
 - **Update URI:** **(_Important: never use for a plugin hosted in the WordPress.org Plugin Directory_)** Allows non WordPress.org plugins to avoid accidentally being overwritten with an update of a plugin of a similar name from the WordPress.org Plugin Directory. For more info read related [dev note](https://make.wordpress.org/core/2021/06/29/introducing-update-uri-plugin-header-in-wordpress-5-8/).
 -->
 
-- **Plugin Name:** (_必須_) WordPress 管理画面のプラグインリストに表示される、プラグインの名前です。
-- **Plugin URI:** これはプラグインのホームページであり、できればあなた自身の Web サイトにあるユニークな URL でなければなりません。これはあなたのプラグイン _独自のものでなければなりません_。WordPress.org の URL は使用できません。
+- **Plugin Name:** (**必須**) WordPress 管理画面のプラグインリストに表示される、プラグインの名前です。
+- **Plugin URI:** これはプラグインのホームページであり、できればあなた自身の Web サイトにあるユニークな URL でなければなりません。これはあなたのプラグイン**独自のものでなければなりません**。WordPress.org の URL は使用できません。
 - **Description:** WordPress 管理画面のプラグインセクションに表示される、プラグインの短い説明です。この説明は140文字以内に収めてください。
 - **Version:** 1.0や1.0.3など、プラグインの現在のバージョン番号です。
 - **Requires at least:** プラグインが動作する WordPress の最低バージョンです。
 - **Requires PHP:** 最低限必要な PHP のバージョンです。
 - **Author:** プラグイン作者の名前です。カンマを使って複数の作者を列挙できます。
-- **Author URI:** 作者の Web サイト、または WordPress.org のような他の Web サイト上の、プロフィールです。
-- **License:** プラグインのライセンスの短い名前 (スラッグ) です (例: GPLv2)。ライセンスの詳細については、[WordPress.orgのガイドライン](https://ja.wordpress.org/team/handbook/plugin-development/wordpress-org/detailed-plugin-guidelines/#1-plugins-must-be-compatible-with-the-gnu-general-public-license)を参照してください。
+- **Author URI:** 作者の Web サイト、または WordPress.org のような、他の Web サイト上のプロフィールです。
+- **License:** プラグインのライセンスの短い名前 (スラッグ) です (例: GPLv2)。ライセンスの詳細については、[WordPress.org のガイドライン](https://ja.wordpress.org/team/handbook/plugin-development/wordpress-org/detailed-plugin-guidelines/#1-plugins-must-be-compatible-with-the-gnu-general-public-license)を参照してください。
 - **License URI:** ライセンスの全文へのリンクです ([https://www.gnu.org/licenses/old-licenses/gpl-2.0.html](https://www.gnu.org/licenses/old-licenses/gpl-2.0.html) 等)。
-- **Text Domain:** プラグインのテキストドメイン [gettext](https://www.gnu.org/software/gettext/) です。詳細は、[プラグインを国際化する方法](https://ja.wordpress.org/team/handbook/plugin-development/internationalization/how-to-internationalize-your-plugin/)ページの[テキスト・ドメイン](https://ja.wordpress.org/team/handbook/plugin-development/internationalization/how-to-internationalize-your-plugin/#text-domains)セクションを参照してください。
+- **Text Domain:** プラグインの [gettext](https://www.gnu.org/software/gettext/) テキストドメインです。詳細は、[プラグインを国際化する方法](https://ja.wordpress.org/team/handbook/plugin-development/internationalization/how-to-internationalize-your-plugin/)ページの[テキスト・ドメイン](https://ja.wordpress.org/team/handbook/plugin-development/internationalization/how-to-internationalize-your-plugin/#text-domains)セクションを参照してください。
 - **Domain Path:** ドメインパスによって、WordPress に翻訳の場所を知らせることができます。詳細は、[プラグインを国際化する方法](https://ja.wordpress.org/team/handbook/plugin-development/internationalization/how-to-internationalize-your-plugin/)ページの[ドメイン・パス](https://ja.wordpress.org/team/handbook/plugin-development/internationalization/how-to-internationalize-your-plugin/#domain-path)セクションを参照してください。
 - **Network:** プラグインをネットワーク全体でのみ有効にするか否かを指定します。_true_ にしか設定できないので、必要ない場合は設定しないでください。
-- **Update URI:** (**_重要: WordPress.org Plugin Directory でホストされているプラグインには絶対に使用しないでください。_**) これにより、WordPress.org 以外のプラグインが、WordPress.org Plugin Directory にある似た名前のプラグインのアップデートで誤って上書きされるのを防ぐことができます。詳細は、関連 [dev note](https://make.wordpress.org/core/2021/06/29/introducing-update-uri-plugin-header-in-wordpress-5-8/) を参照してください。
+- **Update URI:** (**重要: WordPress.org のプラグイン・ディレクトリでホストされているプラグインには絶対に使用しないでください。**) これにより、WordPress.org 以外のプラグインが、WordPress.org プラグイン・ディレクトリにある似た名前のプラグインのアップデートで誤って上書きされるのを防ぐことができます。詳細は、関連する[開発者ノート](https://make.wordpress.org/core/2021/06/29/introducing-update-uri-plugin-header-in-wordpress-5-8/) を参照してください。
 
 <!--
 A valid PHP file with a header comment might look like this:

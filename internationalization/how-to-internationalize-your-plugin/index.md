@@ -189,7 +189,7 @@ echo 'Your city is $city.'
 In this case, the `$city` is a variable and should not be part of the translation. The solution is to use placeholders for the variable, along with the `printf` family of functions. Especially helpful are [`printf`](https://www.php.net/manual/en/function.printf.php) and [`sprintf`](https://www.php.net/manual/en/function.sprintf). Here is what the right solution looks like:
 -->
 
-この場合、`$city` は変数であり、翻訳の一部であってはなりません。解決策としては、関数の `printf` ファミリーとともに変数のプレースホルダーを使うことです。特に便利なのは [`printf`](https://www.php.net/manual/en/function.printf.php) と [`sprintf`](https://www.php.net/manual/en/function.sprintf) です。これが適切な解決方法です:
+この場合、`$city` は変数であり、翻訳の一部であってはなりません。解決策としては、関数の `printf` ファミリーとともに変数のプレースホルダーを使うことです。特に便利なのは [`printf`](https://www.php.net/manual/ja/function.printf.php) と [`sprintf`](https://www.php.net/manual/ja/function.sprintf) です。これが適切な解決方法です:
 
 ```
 printf(
@@ -215,7 +215,7 @@ Also note that there is a hint for translators so that they know the context of 
 If you have more than one placeholder in a string, it is recommended that you use [argument swapping](http://www.php.net/manual/en/function.sprintf.php). In this case, single quotes (`'`) around the string are mandatory because double quotes (`"`) will tell php to interpret the `$s` as the `s` variable, which is not what we want.
 -->
 
-文字列内に複数のプレースホルダーがある場合は、[引数の入れ替え](http://www.php.net/manual/en/function.sprintf.php) を使用することを推奨します。この場合、文字列をシングルクオート (`'`) で囲むことが必須で、ダブルクオート (`"`) を使用すると、php が `$s` を変数 `s` として解釈してしまうからです。
+文字列内に複数のプレースホルダーがある場合は、[引数の入れ替え](http://www.php.net/manual/ja/function.sprintf.php) を使用することを推奨します。この場合、文字列をシングルクオート (`'`) で囲むことが必須で、ダブルクオート (`"`) を使用すると、php が `$s` を変数 `s` として解釈してしまうからです。
 
 ```
 printf(

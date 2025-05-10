@@ -71,7 +71,7 @@ Looking at the callback function we see that we chose to accept two parameters, 
 The default value of `$content` is set to `null` so we can differentiate between a self-closing tag and enclosing tags by using PHP function [`is_null()`](https://www.php.net/manual/en/function.is-null.php).
 -->
 
-`$content` のデフォルト値は `null` に設定されているので、PHP 関数 [`is_null()`](https://www.php.net/manual/en/function.is-null.php) を使うことで、自己完結型タグと内包型タグを区別できます。
+`$content` のデフォルト値は `null` に設定されているので、PHP 関数 [`is_null()`](https://www.php.net/manual/ja/function.is-null.php) を使うことで、自己完結型タグと内包型タグを区別できます。
 
 <!--
 The shortcode `[$tag]`, including its content and the end `[/$tag]` will be replaced with the **return value** of the handler function.

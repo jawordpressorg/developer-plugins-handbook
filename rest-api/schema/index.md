@@ -330,4 +330,4 @@ In the example above we have abstracted away from using the `'my-arg'` name. We 
 Schema can seem silly at points and possibly like unnecessary work, but if you want maintainable, discoverable, and easily extensible endpoints, it is essential to use schema. Schema also helps to self document your endpoints both for humans and computers!
 -->
 
-スキーマは、バカバカしく思えることもあるし、不必要な作業のように思えることもあるかもしれませんが、保守可能で、ディスカバリー容易で、簡単に拡張できるエンドポイントを望むのであれば、スキーマを使うことは不可欠です。スキーマはまた、人間にとってもコンピューターにとっても、エンドポイントの自己ドキュメント化に役立ちます !
+スキーマは、一見バカバカしく思えることもあるかもしれませんし、不必要な作業のように思えるるかもしれませんが、メンテナンスしやすく、みつけやすく、簡単に拡張できるエンドポイントを望むのであれば、スキーマを使うことは不可欠です。スキーマはまた、人間にとってもコンピューターにとっても、エンドポイントの自己ドキュメント化に役立ちます !

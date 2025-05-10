@@ -44,7 +44,7 @@ The callback function is just like a normal function: it should be prefixed, and
 ### Assign (_hook_) your callback function
 -->
 
-### コールバック関数の割り当て (_フック_)
+### コールバック関数の割り当て (フック)
 
 <!--
 Second, add your callback function to the action. This is called _hooking_ and tells the action to run your callback function when the action is run.

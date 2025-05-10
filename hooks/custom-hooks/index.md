@@ -30,13 +30,11 @@ To create a custom hook, use [`do_action()`](https://developer.wordpress.org/ref
 
 <!--
 [info]We recommend using [`apply_filters()`](https://developer.wordpress.org/reference/functions/apply_filters/) on any text that is output to the browser. Particularly on the frontend.
+
+This makes it easier for plugins to be modified according to the user's needs.[/info]
 -->
 
 [info]ブラウザに出力されるテキストには [`apply_filters()`](https://developer.wordpress.org/reference/functions/apply_filters/) を使うことをおすすめします。とりわけフロントエンドでは。
-
-<!--
-This makes it easier for plugins to be modified according to the user's needs.[/info]
--->
 
 これにより、ユーザーのニーズに応じてプラグインを簡単に修正できます。[/info]
 
