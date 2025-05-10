@@ -15,14 +15,14 @@ Activation and deactivation hooks provide ways to perform actions when plugins a
 - On _deactivation_, plugins can run a routine to remove temporary data such as cache and temp files and directories.
 -->
 
-- **有効化時** に、プラグインは、書き換えルールを追加したり、カスタムデータベーステーブルを追加したり、デフォルトのオプション値を設定したりするルーチンを実行できます。
-- **無効化時** に、プラグインは。キャッシュや一時ファイルやディレクトリのような一時データを削除するルーチンを実行できます。
+- **有効化時** に、プラグインは書き換えルールを追加したり、カスタムデータベーステーブルを追加したり、デフォルトのオプション値を設定したりするルーチンを実行できます。
+- **無効化時** に、プラグインはキャッシュや一時ファイルやディレクトリのような一時データを削除するルーチンを実行できます。
 
 <!--
 [alert]The deactivation hook is sometimes confused with the [uninstall hook](https://developer.wordpress.org/plugins/plugin-basics/uninstall-methods/). The uninstall hook is best suited to **delete all data permanently** such as deleting plugin options and custom tables, etc.[/alert]
 -->
 
-[alert]時々、無効化フックは、[アンインストール・フック](https://ja.wordpress.org/team/handbook/plugin-development/plugin-basics/uninstall-methods/) と混同されます。アンインストールフックは、プラグインオプションやカスタムテーブルなどを削除するような、**すべてのデータを永久に削除する** 場合に最適です。[/alert]
+[alert]時々、無効化フックは、[アンインストール・フック](https://ja.wordpress.org/team/handbook/plugin-development/plugin-basics/uninstall-methods/)と混同されます。アンインストールフックは、プラグインオプションやカスタムテーブルなどを削除するような、**すべてのデータを永久に削除する** 場合に最適です。[/alert]
 
 <!--
 ## Activation
