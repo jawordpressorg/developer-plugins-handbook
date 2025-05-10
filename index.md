@@ -39,11 +39,11 @@ The Plugin Developer Handbook is a resource for all things WordPress plugins. Wh
 - プラグインで [AJAX](https://ja.wordpress.org/team/handbook/plugin-development/javascript/) を使用している場合は、そのセクションで必要な情報を見つけることができます。
 - 時間ベースの WordPress タスクについて学ぶには [Cron](https://ja.wordpress.org/team/handbook/plugin-development/cron/) の章をご覧ください。
 - [国際化](https://ja.wordpress.org/team/handbook/plugin-development/internationalization/) は、あなたのプラグインをあなたのロケール以外で使用できるようにする方法です。
-- すべての作業が完了したら、プラグインを [Plugin ディレクトリ](https://ja.wordpress.org/team/handbook/plugin-development/wordpress-org/)に登録する準備をします。
+- すべての作業が完了したら、プラグインを[プラグインディレクトリ](https://ja.wordpress.org/team/handbook/plugin-development/wordpress-org/)に登録する準備をします。
 - 最後に: 役に立つかもしれない、いくつかの[開発者ツール](https://ja.wordpress.org/team/handbook/plugin-development/developer-tools/)を紹介します。
 
 <!--
 The WordPress Plugin Developer Handbook is created by the WordPress community, for the WordPress community. We are always looking for more contributors; if you're interested, stop by the [Docs Team blog](https://make.wordpress.org/docs/) to find out more about getting involved.
 -->
 
-WordPress プラグイン開発者ハンドブックは WordPress コミュニティによって WordPress コミュニティのために作成されています。私たちは、常により多くの貢献者を探しています。ご興味があれば、[Docs Team blog](https://make.wordpress.org/docs/) をご覧ください。
+WordPress プラグイン開発者ハンドブックは、WordPress コミュニティによって WordPress コミュニティのために作成されています。私たちは、常により多くの貢献者を探しています。ご興味があれば、[Docs Team blog](https://make.wordpress.org/docs/) をご覧ください。
