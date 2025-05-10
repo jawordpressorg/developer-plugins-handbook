@@ -139,10 +139,10 @@ PHP には、変数や関数、クラス、定数の実在性を検証するた�
 - **Constants**: [defined()](https://www.php.net/manual/en/function.defined.php)
 -->
 
-- **変数**: [isset()](https://www.php.net/manual/en/function.isset.php) (配列、オブジェクトなどを含む)
-- **関数**: [function_exists()](https://www.php.net/manual/en/function.function-exists.php)
-- **クラス**: [class_exists()](https://www.php.net/manual/en/function.class-exists.php)
-- **定数**: [defined()](https://www.php.net/manual/en/function.defined.php)
+- **変数**: [isset()](https://www.php.net/manual/ja/function.isset.php) (配列、オブジェクトなどを含む)
+- **関数**: [function_exists()](https://www.php.net/manual/ja/function.function-exists.php)
+- **クラス**: [class_exists()](https://www.php.net/manual/ja/function.class-exists.php)
+- **定数**: [defined()](https://www.php.net/manual/ja/function.defined.php)
 
 <!--
 Keep in mind that using `(!function_exists('NAME')) {` around all your functions and classes sounds like a great idea until you realize the fatal flaw. If something else has a function with the same name and their code loads first, your plugin will break. Using if-exists to replace/override a function or class should be reserved for _shared_ libraries only.
@@ -182,7 +182,7 @@ if ( ! function_exists( 'wporg_get_foo' ) ) {
 An easier way to tackle the naming collision problem is to use a [class](https://www.php.net/manual/en/language.oop5.php) for the code of your plugin.
 -->
 
-名前の衝突問題にもっと簡単に取り組む方法は、プラグインのコードに [class](https://www.php.net/manual/en/language.oop5.php) を使うことです。
+名前の衝突問題にもっと簡単に取り組む方法は、プラグインのコードに [class](https://www.php.net/manual/ja/language.oop5.php) を使うことです。
 
 <!--
 You will still need to take care of checking whether the name of the class you want is already taken but the rest will be taken care of by PHP.
