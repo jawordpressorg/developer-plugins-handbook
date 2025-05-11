@@ -159,7 +159,7 @@ Once your plugin is approved, this name **cannot** be renamed. Please chose wise
 ### Why did I get a different slug than I was told?
 -->
 
-### 言ったのと違うスラッグになったのは、なぜ ?
+### 言ったのと違うスラッグになったのはなぜですか ?
 
 <!--
 If we have to change your permalink (slug) we will always email you to explain why. In general, we change your permalink when you have obvious typos or mistakes (_foundre_ instead of _founder_, for example) or if there are conflicts with existing trademarks or other plugins. Please make sure you read your review email carefully, as we do explain why we do things.
@@ -171,7 +171,7 @@ If we have to change your permalink (slug) we will always email you to explain w
 ### Why is my submission failing saying my plugin name already exists?
 -->
 
-### 私のプラグイン名がすでに存在すると言って、申請に失敗するのはなぜ ?
+### 私のプラグイン名がすでに存在すると言って、申請に失敗するのはなぜですか ?
 
 <!--
 There are two reasons this happens:
@@ -215,7 +215,7 @@ Sometimes this situation develops when a company or person releases their plugin
 ### Why am I getting an error that says I cannot begin my plugin name with a term?
 -->
 
-### 私のプラグイン名を、タームで始めることができないと言って、エラーが表示されるのはなぜ ?
+### 私のプラグイン名を、タームで始めることができないと言って、エラーが表示されるのは
 
 <!--
 That error is to inform you that you may not begin your Display Name with someone else's trademarked term. This is to protect you and the directory from legal issues regarding trademark abuse. To correct the issue, you must change the Display Name in your plugin's readme and main PHP files.
@@ -233,7 +233,7 @@ Please do not try to 'work around' this by cleverly renaming your plugin (WuuCom
 ### Why am I getting an error that says I cannot use a term entirely in my plugin name?
 -->
 
-### 私のプラグイン名には、あるタームを完全に使用できないと言って、エラーが表示されるのはなぜ ?
+### 私のプラグイン名にあるタームを完全に使用できないというエラーが表示されるのはなぜですか ? ?
 
 <!--
 Some trademark owners have requested we no longer permit the use of specific terms in plugin names entirely. If you see this error, then you must remove the term from your plugin name.
@@ -821,7 +821,7 @@ YouTube や Vimeo の動画の場合は、説明文に動画のリンクを1行�
 ### Why does my plugin say it's not been tested with the most recent WordPress versions?
 -->
 
-### 私のプラグインが、WordPress の最新バージョンでテストされていないと表示されるのは、なぜ ?
+### 私のプラグインが、WordPress の最新バージョンでテストされていないと表示されるのはなぜですか ?
 
 <!--
 That happens when you neglected to use a proper 'Tested Up To' value in your headers in your readme. That value should be the latest version of WordPress that you've tested your plugin against. If the latest **major** WordPress version is 4.9, then you should have the value `4.9` to indicate compatibility. You do not need to update for minor releases (if your readme is compatible to 4.9 then that will cover 4.9 through 4.9.1000).
