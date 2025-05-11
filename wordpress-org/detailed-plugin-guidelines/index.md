@@ -498,7 +498,7 @@ Original branding is recommended as it not only helps to avoid confusion, but is
 ### 18. We reserve the right to maintain the Plugin Directory to the best of our ability
 -->
 
-### 18. 私たちは、可能な限りプラグイン・ディレクトリを維持する権利を保有しますう
+### 18. 私たちは、可能な限りプラグイン・ディレクトリを維持する権利を保有します
 
 <!--
 Our intent is to enforce these guidelines with as much fairness as humanly possible. We do this to ensure overall plugin quality and the safety of their users. To that end, we reserve the following rights:
