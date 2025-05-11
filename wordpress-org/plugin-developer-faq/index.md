@@ -145,7 +145,7 @@ The slug will also determine the following:
 -->
 
 - プラグインの WordPress.org 公開ページの URL: `wordpress.org/plugins/boaty-mcboatface`
-- WordPress の plugins ディレクトリに於ける、プラグインのフォルダー名: `<wp-content-folder>/plugins/boaty-mcboatface`
+- WordPress の plugins ディレクトリにおける、プラグインのフォルダー名: `<wp-content-folder>/plugins/boaty-mcboatface`
 - プラグインの SVN リポジトリと trac のアドレス: `plugins.svn.wordpress.org/boaty-mcboatface` と `plugins.trac.wordpress.org/browser/boaty-mcboatface`
 - 国際化関数用のプラグインの text-domain: `esc_html__('Hello', 'boaty-mcboatface');`
 

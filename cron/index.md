@@ -14,7 +14,7 @@
 WP-Cron is how WordPress handles scheduling time-based tasks in WordPress. Several WordPress core features, such as checking for updates and publishing scheduled post, utilize WP-Cron. The "Cron" part of the name comes from the cron time-based task scheduling system that is available on UNIX systems.
 -->
 
-WordPress に於ける時間ベースのタスク・スケジューリング方法として、WP-Cron があります。更新のチェックや 予約投稿の公開など、いくつかの WordPress のコア機能は WP-Cron を利用しています。WP-Cron の「Cron」は、UNIX システムで利用可能な時間ベースのタスク・スケジューリングシステム「cron」に由来しています。
+WordPress における時間ベースのタスク・スケジューリング方法として、WP-Cron があります。更新のチェックや 予約投稿の公開など、いくつかの WordPress のコア機能は WP-Cron を利用しています。WP-Cron の「Cron」は、UNIX システムで利用可能な時間ベースのタスク・スケジューリングシステム「cron」に由来しています。
 
 <!--
 WP-Cron works by checking, on every page load, a list of scheduled tasks to see what needs to be run. Any tasks due to run will be called during that page load.
