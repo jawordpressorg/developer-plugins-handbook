@@ -64,7 +64,7 @@ But what kind of issues might fall under the definition of "privacy", and how do
 While not all of these principles will be applicable across all situations and uses, using them in the development process can help to ensure user trust.
 -->
 
-これらの原則のすべてが、すべての状況や用途に適用できるわけではないが、開発プロセスで使用することで、ユーザーの信頼を確保できます。
+これらの原則のすべてが、すべての状況や用途に適用できるわけではありませんが、開発プロセスで使用することで、ユーザーの信頼を確保できます。
 
 <!--
 ## Privacy By Design
@@ -100,7 +100,7 @@ Many of these principles are espoused in the Privacy by Design framework, which 
 ## Food for Thought for Your Plugin
 -->
 
-## プラグインを考えるための糧
+## あなたのプラグインに役立つヒント
 
 <!--
 To help your plugin be ready, we recommend going through the following list of questions for every plugin that you make:
@@ -149,9 +149,9 @@ To help your plugin be ready, we recommend going through the following list of q
 5. プラグインによって、サイトのフロントエンドで、どのような個人情報が公開されますか ? ログインしているユーザー、ログアウトしているユーザーに表示されますか ? 表示されるべきですか ?
 6. プラグインによって REST API エンドポイントにどのような個人情報が公開されますか ? ログインしているユーザー、ログアウトしているユーザーに表示されますか ? それを見るにはどのような権限グループ/権限が必要ですか ? それらは適切ですか ?
 7. プラグインは、特に個人情報を含むデータを適切に削除/後始末していますか:
-	- プラグインのアンインストール時 ?
-	- 関連項目が削除されたとき (たとえば、投稿メタや他のテーブルの投稿参照行から) ?
-	- ユーザーが削除されたとき (たとえば、テーブルのユーザー参照行から) ?
+	- プラグインのアンインストール時ですか ?
+	- 関連項目が削除されたときですか (たとえば、投稿メタや他のテーブルの投稿参照行から) ?
+	- ユーザーが削除されたときですか (たとえば、テーブルのユーザー参照行から) ?
 8. プラグインは、必要な個人情報の量を減らすためのコントロールを提供していますか ?
 9. プラグインは、SDK または API が要求する場合にのみ個人情報を SDK または API と共有しますか ? または、プラグインは、任意である個人情報も共有しますか ?
 10. 他のプラグインもインストールされている場合、このプラグインによって収集または共有される個人情報の量は変化しますか ?
