@@ -38,7 +38,7 @@ First, create a _callback function_. This function will be run when the action i
 The callback function is just like a normal function: it should be prefixed, and it should be in `functions.php` or somewhere callable. The parameters it should accept will be defined by the action you are hooking to; most hooks are well defined, so review the hooks docs to see what parameters the action you have selected will pass to your function.
 -->
 
-コールバック関数は通常の関数と同じです: 接頭辞をつけ、`functions.php` または呼び出し可能な場所に記述します。この関数が受け取るべきパラメータは、フック先のアクションによって定義されます; ほとんどのフックはきちんと定義されているので、選択したアクションがどのパラメータを関数に渡すのか、フックのドキュメントを確認してください。
+コールバック関数は通常の関数と同じです: 接頭辞をつけ、`functions.php` または呼び出し可能な場所に記述します。この関数が受け取るべきパラメータは、フック先のアクションによって定義されます。ほとんどのフックはきちんと定義されているので、選択したアクションがどのパラメータを関数に渡すのか、フックのドキュメントを確認してください。
 
 <!--
 ### Assign (_hook_) your callback function
