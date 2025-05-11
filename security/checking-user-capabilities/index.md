@@ -32,7 +32,7 @@ WordPress にログインしているすべてのユーザーには、ユーザ�
 **User roles** is just a fancy way of saying which group the user belongs to. Each group has a specific set of predefined capabilities.
 -->
 
-**ユーザー権限グループ** は、ユーザーがどのグループに属しているかを示す、洒落た表現です。各グループは、事前に定義された権限の、特定のセットを持っています。
+**ユーザー権限グループ** は、ユーザーがどのグループに属しているかを示す表現です。各グループは、事前に定義された権限の特定のセットを持っています。
 
 <!--
 For example, the main user of your website will have the User role of an Administrator while other users might have roles like Editor or Author. You could have more than one user assigned to a role, i.e. there might be two Administrators for a website.
@@ -50,7 +50,7 @@ For example, the main user of your website will have the User role of an Adminis
 For example, Administrators have the `manage_options` capability which allows them to view, edit and save options for the website. Editors on the other hand lack this capability which will prevent them from interacting with options.
 -->
 
-たとえば、管理者は権限 `manage_options` を持っており、Web サイトのオプションを表示、編集、保存できます。一方、編集者にはこの権限がないため、オプションを操作できません。
+たとえば、管理者は `manage_options` 権限を持っており、Web サイトのオプションを表示、編集、保存できます。一方、編集者にはこの権限がないため、オプションを操作できません。
 
 <!--
 These capabilities are then checked at various points within the Admin. Depending on the capabilities assigned to a role; menus, functionality, and other aspects of the WordPress experience may be added or removed.
@@ -128,7 +128,7 @@ function wporg_generate_delete_link( $content ) {
 /**
  * Request handler
  */
-function wporg_delete_post() {
+function wporg_delete_post() {unction wporg_delete_post() {
   if ( isset( $_GET['action'] ) && 'wporg_frontend_delete' === $_GET['action'] ) {
 
     // Verify we have a post id.
@@ -179,7 +179,7 @@ The example above allows any visitor to the site to click on the "Delete" link a
 To accomplish this, we will check that the current user has the capability `edit_others_posts`, which only Editors or above would have:
 -->
 
-これを実現するため、「編集者」以上しか持っていない、権限 `edit_others_posts` を現在のユーザーが持っているかどうかをチェックします:
+これを実現するため、「編集者」以上しか持っていない、`edit_others_posts` 権限を現在のユーザーが持っているかどうかをチェックします:
 
 ```
 /**

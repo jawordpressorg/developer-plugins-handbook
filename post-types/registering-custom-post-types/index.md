@@ -8,7 +8,7 @@
 WordPress comes with five default post types: `post`, `page`, `attachment`, `revision`, and `menu`.
 -->
 
-WordPress には、デフォルトで5つの投稿タイプが用意されています: `post`、`page`、`attachment`、`revision`、`menu`。
+WordPress には、デフォルトで5つの投稿タイプが用意されています: `post`、`page`、`attachment`、`revision`、`menu` です。。
 
 <!--
 While developing your plugin, you may need to create your own specific content type: for example, products for an e-commerce website, assignments for an e-learning website, or movies for a review website.

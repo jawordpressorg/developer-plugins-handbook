@@ -8,7 +8,7 @@
 The Debug Bar is a plugin that adds a debug menu to the admin bar that shows query, cache, and other helpful debugging information.
 -->
 
-Debug Bar は、管理バーにデバグメニューを追加するプラグインで、クエリー、キャッシュ、その他の役立つデバグ情報を表示します。
+Debug Bar は、管理バーにデバグメニューを追加するプラグインで、クエリー、キャッシュ、その他の役立つデバッグ情報を表示します。
 
 ## Debug Bar
 

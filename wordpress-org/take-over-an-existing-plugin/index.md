@@ -248,7 +248,7 @@ In order to _safely_ update the plugin, we will close it before we add you. You 
 ### Will old reviews/support posts be removed?
 -->
 
-### 古いレビューやサポートの投稿は、削除されるの ?
+### 古いレビューやサポートの投稿は、削除されますか ?
 
 <!--
 No. You inherit the good and the bad.
@@ -260,7 +260,7 @@ No. You inherit the good and the bad.
 ### Do I have to keep the original developer on?
 -->
 
-### オリジナル開発者は、継続雇用する必要があるの ?
+### オリジナル開発者は、継続雇用する必要がありますか ?
 
 <!--
 No. You can (and in fact should) remove commit access from anyone who is not actively maintaining the plugin. However. Per copyright restrictions, you must retain their credit in the code. We recommend you also leave them listed as a contributor.
@@ -272,7 +272,7 @@ No. You can (and in fact should) remove commit access from anyone who is not act
 ### The original developer is dead. Does that change anything?
 -->
 
-### オリジナル開発者は亡くなっている。それで何か変わるの ?
+### オリジナル開発者は亡くなっています。それで何か変わりますか ?
 
 <!--
 Yes, but not how you’re thinking. You (obviously) can skip asking them for permissions first, but we actually reach out to the developers’ coworkers and teams to see if they want to continue maintaining the plugin. In some cases, a developer will ask us to permanently close their plugins in the event of their death. We respect their wishes.
@@ -284,7 +284,7 @@ Yes, but not how you’re thinking. You (obviously) can skip asking them for per
 ### Why was my request denied?
 -->
 
-### なぜ、リクエストが却下されたの ?
+### なぜ、リクエストが却下されたのですか ?
 
 <!--
 In cases where we deny an adoption, it’s usually for the following reasons.

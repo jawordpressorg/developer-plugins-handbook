@@ -2,7 +2,7 @@
 # Term Splitting (WordPress 4.2)
 -->
 
-# ターム分割 (WordPress 4.2)
+# タームの分割 (WordPress 4.2)
 
 <!--
 This information is here for historical purposes. If you're not interested in how terms worked prior to 2015, you can skip this section.
@@ -38,7 +38,7 @@ Beginning with 4.2, when one of these shared terms is updated, it will be split:
 ## What does it mean for you?
 -->
 
-## あなたにとって、それはどういう意味 ?
+## それはどういう意味ですか ?
 
 <!--
 In the vast majority of situations, this update was seamless and uneventful. However, some plugins and themes who store term IDs in options, post meta, user meta, or elsewhere might have been affected.

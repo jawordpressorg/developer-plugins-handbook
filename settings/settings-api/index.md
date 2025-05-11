@@ -32,7 +32,7 @@ Organizing registration and validation of fields still requires some effort from
 ## Why Use the Setting API?
 -->
 
-## 設定 API を使うのはなぜ ?
+## 設定 API を使うのはなぜですか ?
 
 <!--
 A developer _could_ ignore this API and write their own settings page without it. That begs the question, what benefit does this API bring to the table? Following is a quick rundown of some of the benefits.
@@ -62,13 +62,13 @@ API を使ってインターフェース要素を生成すれば、設定ペー�
 Since the API is part of WordPress Core, any updates will automatically consider your plugin's settings page. If you make your own interface without using Setting API, WordPress Core updates are more likely to break your customizations. There is also a wider audience testing and maintaining that API code, so it will tend to be more stable.
 -->
 
-API は WordPress Core の一部ですので、アップデートがあればプラグインの設定ページも自動的に考慮されます。設定 API を使わずに独自のインターフェースを作成した場合、WordPress Core のアップデートによってカスタマイズが壊れる可能性が高くなります。また、その API コードをテストし、保守している多くのユーザーがいるため、より安定している傾向があります。
+API は WordPress コアの一部ですので、アップデートがあればプラグインの設定ページも自動的に考慮されます。設定 API を使わずに独自のインターフェースを作成した場合、WordPress コアのアップデートによってカスタマイズが壊れる可能性が高くなります。また、その API コードをテストし、保守している多くのユーザーがいるため、より安定している傾向があります。
 
 <!--
 ### Less Work!
 -->
 
-### 仕事が減る !
+### 作業が減ります !
 
 <!--
 Of course the most immediate benefit is that the WordPress API does a lot of work for you under the hood. Here are a few examples of things the Settings API does besides applying an awesome-looking, integrated design.

@@ -14,7 +14,7 @@ This is a compilation of some of the most common issues the Plugin Review Team e
 This list contains excerpts from the team's email messages, and should not be considered a complete or exhaustive list; the outcome of the reviews depends on the manual review performed by the team.
 -->
 
-このリストは、チームの E メールメッセージからの抜粋であり、完全または網羅的なリストとみなしてはいけません; レビューの結果は、チームによる手動レビューに依存します。
+このリストは、チームの E メールメッセージからの抜粋であり、完全または網羅的なリストとみなしてはいけません。レビューの結果は、チームによる手動レビューに依存します。
 
 <!--
 ## Security
@@ -38,7 +38,7 @@ This list contains excerpts from the team's email messages, and should not be co
 When you include POST/GET/REQUEST/FILE calls in your plugin, it's important to sanitize, validate, and escape them. The goal here is to prevent a user from accidentally sending trash data through the system, as well as protecting them from potential security issues. 
 -->
 
-POST/GET/REQUEST/FILE 呼び出しをプラグインに搭載する場合、それらをサニタイズ、検証、エスケープすることが重要です。ここでの目的は、ユーザーが誤ってシステムを通してゴミのようなデータを送信するのを防ぐことと、潜在的なセキュリティの課題からユーザーを守ることです。
+POST/GET/REQUEST/FILE 呼び出しをプラグインに搭載する場合、それらをサニタイズ、検証、エスケープすることが重要です。ここでの目的は、ユーザーが誤ってシステムを通して不要なようなデータを送信するのを防ぐことと、潜在的なセキュリティの課題からユーザーを守ることです。
 
 <!--
 SANITIZE: Data that is input (either by a user or automatically) must be sanitized as soon as possible. This lessens the possibility of XSS vulnerabilities and MITM attacks where posted data is subverted. 
@@ -128,7 +128,7 @@ echo esc_html(sanitize_text_field($_POST['example']));
 **Note**: When using functions like `filter_var`, `filter_var_array`, `filter_input` and/or `filter_input_array` you will need to [set the FILTER parameter to any kind of filter that sanitizes the input](https://www.php.net/manual/en/filter.filters.php).
 -->
 
-**メモ**: `filter_var`、`filter_var_array`、`filter_input` および/または `filter_input_array` のような関数を使用する場合は、[入力をサニタイズする任意の種類のフィルタに、パラメータ FILTER を設定](https://www.php.net/manual/en/filter.filters.php)する必要があります。
+**メモ**: `filter_var`、`filter_var_array`、`filter_input` および/または `filter_input_array` のような関数を使用する場合は、[入力をサニタイズする任意の種類のフィルタに、パラメータ FILTER を設定](https://www.php.net/manual/ja/filters.php)する必要があります。
 
 <!--
 Leaving the filter parameter empty, PHP by default will apply the filter "FILTER_DEFAULT" **which is not sanitizing at all**.
@@ -196,7 +196,7 @@ Much related to sanitizing everything, all variables that are echoed need to be 
 At this time, we ask you escape **all $-variables, options, and any sort of generated data when it is being echoed**. That means you should not be escaping when you build a variable, but when you output it at the end. We call this 'escaping late.'
 -->
 
-このとき、**echo する際、すべての$変数、オプション、生成されたあらゆる種類のデータ** をエスケープしてください。つまり、変数を構築するときにエスケープするのではなく、最後に出力するときにエスケープしてください。これを「遅れてエスケープ」と表現します。
+このとき、**echo する際、すべての$変数、オプション、生成されたあらゆる種類のデータ** をエスケープしてください。つまり、変数を構築するときにエスケープするのではなく、最後に出力するときにエスケープしてください。これを「遅れてエスケープする」と表現します。
 
 <!--
 Besides protecting yourself from a possible XSS vulnerability, escaping late makes sure that you're keeping the future you safe. While today your code may be only outputted hardcoded content, that may not be true in the future. By taking the time to properly escape **when** you echo, you prevent a mistake in the future from becoming a critical security issue.
@@ -400,7 +400,7 @@ echo esc_html(sanitize_text_field($_POST['example']));
 When plugins use `move_uploaded_file(), they exclude their uploads from the built-in checks and balances with WordPress's functions. Instead of that, you should use the built in function:
 -->
 
-プラグインで `move_uploaded_file()` を使用すると、アップロードは組込みチェック機能や、WordPress 関数とのバランスが取られません。代わりに、内蔵関数を使用してください:
+プラグインで `move_uploaded_file()` を使用すると、アップロードは組込みチェック機能や、WordPress 関数とのバランスが取られません。代わりに、組み込み関数を使用してください:
 
 [https://developer.wordpress.org/reference/functions/wp_handle_upload/](https://developer.wordpress.org/reference/functions/wp_handle_upload/)
 
@@ -444,7 +444,7 @@ If you need to add a specific file that is not in the list and that won't repres
 Offloading images, js, css, and other scripts to your servers or any remote service (like Google, MaxCDN, jQuery.com etc) is disallowed. When you call remote data you introduce an unnecessary dependency on another site. If the file you're calling isn't a part of WordPress Core, then you should include it -locally- in your plugin, not remotely. If the file IS included in WordPress core, please call that instead.
 -->
 
-画像、js、css、その他のスクリプトをあなたのサーバーやリモートサービス (Google、MaxCDN、jQuery.com など) にオフロードすることは禁止されています。リモートのデータを呼び出すと、他のサイトへの不必要な依存が生じます。呼び出しているファイルが WordPress Core の一部でない場合は、リモートではなく -ローカルで- プラグインに含める必要があります。そのファイルが WordPress Core に含まれているなら、代わりにそれを呼び出してください。
+画像、js、css、その他のスクリプトをあなたのサーバーやリモートサービス (Google、MaxCDN、jQuery.com など) にオフロードすることは禁止されています。リモートのデータを呼び出すと、他のサイトへの不必要な依存が生じます。呼び出しているファイルが WordPress コアの一部でない場合は、リモートではなく -ローカルで- プラグインに含める必要があります。そのファイルが WordPress コアに含まれているなら、代わりにそれを呼び出してください。
 
 <!--
 An exception to this rule is if your plugin is performing a service. We will permit this on a case by case basis. Since this can be confusing we have some examples of what are not permitted:
@@ -602,7 +602,7 @@ $wpdb->query( $wpdb->prepare( "
 There is a core ticket that could make this easier in the future: [https://core.trac.wordpress.org/ticket/54042](https://core.trac.wordpress.org/ticket/54042)
 -->
 
-将来的にこれを容易にする core チケットがあります: [https://core.trac.wordpress.org/ticket/54042](https://core.trac.wordpress.org/ticket/54042)
+将来的にこれを容易にするコアチケットがあります: [https://core.trac.wordpress.org/ticket/54042](https://core.trac.wordpress.org/ticket/54042)
 
 <!--
 ### Not use HEREDOC-NOWDOC
@@ -838,7 +838,7 @@ Also WordPress explicitly sets and expects the default timezone to be UTC (in se
 While error_reporting() is a great tool in PHP ( [https://www.php.net/manual/en/function.error-reporting.php](https://www.php.net/manual/en/function.error-reporting.php) ) but if you set it permanently in your plugin, you mess things up for everyone who uses your code. Should they have a reason to try to debug their site which happens to use your code, they won't be able to get a clean test because you're messing with the output. It has no place in the day to day function of your plugin.
 -->
 
-`error_reporting()` は、PHP のすばらしいツールです ( [https://www.php.net/manual/en/function.error-reporting.php](https://www.php.net/manual/en/function.error-reporting.php) ) が、これをプラグインに恒久的に設定すると、あなたのコードを使うすべての人に迷惑をかけることになります。仮に、あなたのコードが使われているサイトをデバッグしようとしても、ゴミが出力されるためにクリーンなテストを実行できません。プラグインの日常的な利用で error_reportig() を使用する場面はありません。
+`error_reporting()` は、PHP のすばらしいツールです ( [https://www.php.net/manual/ja/function.error-reporting.php](https://www.php.net/manual/ja/function.error-reporting.php) ) が、これをプラグインに恒久的に設定すると、あなたのコードを使うすべての人に迷惑をかけることになります。仮に、あなたのコードが使われているサイトをデバッグしようとしても、余計なものが出力されるためにクリーンなテストを実行できません。プラグインの日常的な利用で error_reportig() を使用する場面はありません。
 
 <!--
 ### Plugin standards
@@ -1156,7 +1156,7 @@ While we do not YET have a decent public facing page to list all these libraries
 [Core Credits](https://meta.trac.wordpress.org/browser/sites/trunk/api.wordpress.org/public_html/core/credits/wp-59.php#L739)
 -->
 
-[Core クレジット](https://meta.trac.wordpress.org/browser/sites/trunk/api.wordpress.org/public_html/core/credits/wp-59.php#L739)
+[コアクレジット](https://meta.trac.wordpress.org/browser/sites/trunk/api.wordpress.org/public_html/core/credits/wp-59.php#L739)
 
 <!--
 It’s fine to locally include add-ons not in core, but please ONLY add those additional files. For example, you do not need the entire jQuery UI library for one file. If your code doesn't work with the built-in versions of jQuery, it's most likely a noConflict issue.
@@ -1192,7 +1192,7 @@ In order to make a string translatable in your plugin you are using a set of spe
 There is a [dedicated team in the WordPress community](https://make.wordpress.org/polyglots/) to translate and help other translating strings of WordPress core, plugins and themes to other languages.
 -->
 
-WordPress core、プラグイン、テーマの文字列の、他の言語への翻訳を支援する [WordPress コミュニティの専任チーム](https://make.wordpress.org/polyglots/) があります。
+WordPress コア、プラグイン、テーマの文字列の、他の言語への翻訳を支援する [WordPress コミュニティの専任チーム](https://make.wordpress.org/polyglots/) があります。
 
 <!--
 To make them be able to translate this plugin, please **do not use variables or function calls** for the text, context or text domain parameters of any gettext function, all of them **NEED to be strings**. Note that the translation parser reads the code without executing it, so it won't be able to read anything that is not a string within these functions.
@@ -1287,7 +1287,7 @@ It is also not allowed to interfere with the user's actions when activating or d
 WordPress 6.5 introduces [Plugin Dependencies](https://make.wordpress.org/core/2024/03/05/introducing-plugin-dependencies-in-wordpress-6-5/), you can use it to manage dependencies (although it's fine if you use this as a fallback).
 -->
 
-WordPress 6.5で [Plugin Dependencies](https://make.wordpress.org/core/2024/03/05/introducing-plugin-dependencies-in-wordpress-6-5/) が導入され、依存関係の管理に使えるようになりました (これを、機能や性能を制限して動かす、フォールバックとして利用する分には、かまいませんが)。
+WordPress 6.5で [Plugin Dependencies](https://make.wordpress.org/core/2024/03/05/introducing-plugin-dependencies-in-wordpress-6-5/) が導入され、依存関係の管理に使えるようになりました (ただし、機能や性能を制限して動かすフォールバックとして利用する分にはかまいません)。
 
 <!--
 ### Update checker

@@ -8,7 +8,7 @@
 [warning]Please do not report security issues with WordPress Core to the plugin team. To report an issue with WordPress itself, [follow the directions for reporting security vulnerabilities.](https://make.wordpress.org/core/handbook/testing/reporting-security-vulnerabilities/)[/warning]
 -->
 
-[warning]WordPress Core のセキュリティ課題をプラグインチームに報告しないでください。WordPress 自体の課題を報告するには、[セキュリティー脆弱性の報告に関する手順に従ってください](https://make.wordpress.org/core/handbook/testing/reporting-security-vulnerabilities/)。[/warning]
+[warning]WordPress コアのセキュリティ課題をプラグインチームに報告しないでください。WordPress 自体の課題を報告するには、[セキュリティー脆弱性の報告に関する手順に従ってください](https://make.wordpress.org/core/handbook/testing/reporting-security-vulnerabilities/)。[/warning]
 
 <!--
 If you find a plugin with a security issue, please **do not** post about it publicly anywhere. Even if there’s a report filed on one of the official security tracking sites, bringing more awareness to the security issue tends to increase people being hacked, and rarely speeds up the fixing.

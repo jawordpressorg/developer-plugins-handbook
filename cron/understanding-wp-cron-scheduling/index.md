@@ -73,4 +73,4 @@ This filter function creates a new interval that will allow us to run a cron tas
 [info]All intervals are in seconds.[/info]
 -->
 
-[info]インターバルはすべて秒単位。[/info]
+[info]インターバルはすべて秒単位です。[/info]

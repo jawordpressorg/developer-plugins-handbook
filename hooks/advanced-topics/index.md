@@ -14,7 +14,7 @@
 Sometimes you want to remove a callback function from a hook that another plugin, theme or even WordPress Core has registered.
 -->
 
-他のプラグインやテーマ、あるいは WordPress Core が登録したフックからコールバック関数を削除したいことがあります。
+他のプラグインやテーマ、あるいは WordPress コアが登録したフックからコールバック関数を削除したいことがあります。
 
 <!--
 To remove a callback function from a hook, you need to call `remove_action()` or `remove_filter()`, depending whether the callback function was added as an Action or a Filter.
@@ -69,7 +69,7 @@ The `wporg_setup_slider` function is adding a slider that we don't need, which p
 Since we want to hook into WordPress after the `wporg_setup_slider` callback function was registered (`functions.php` executed) our best chance would be the [`after_setup_theme`](https://developer.wordpress.org/reference/hooks/after_setup_theme/) hook.
 -->
 
-`wporg_setup_slider` コールバック関数が登録された (`functions.php` が実行された) 後に WordPress にフックしたいので、最善の機会は [`after_setup_theme`](https://developer.wordpress.org/reference/hooks/after_setup_theme/) フックでしょう。
+`wporg_setup_slider` コールバック関数が登録された (`functions.php` が実行された) 後に WordPress にフックしたいので、最善の方法は [`after_setup_theme`](https://developer.wordpress.org/reference/hooks/after_setup_theme/) フックでしょう。
 
 ```
 function wporg_disable_slider() {
@@ -137,7 +137,7 @@ add_filter( 'the_excerpt', 'wporg_modify_content' );
 Some hooks are called multiple times in the course of execution, but you may only want your callback function to run once.
 -->
 
-フックの中には実行の過程で何度も呼び出されるものもあるが、コールバック関数は一度だけ実行させたい場合もあるでしょう。
+フックの中には実行の過程で何度も呼び出されるものもありますが、コールバック関数は一度だけ実行させたい場合もあるでしょう。
 
 <!--
 In this situation, you can check how many times the hook has run with the [`did_action()`](https://developer.wordpress.org/reference/functions/did_action/).

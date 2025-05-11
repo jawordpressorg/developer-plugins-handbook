@@ -40,7 +40,7 @@ First, let’s talk about JSON a bit. JSON is a human readable data format that 
 A JSON parser will go through that data no problem and won’t complain about anything, because it is valid JSON. The clients and servers know nothing about the data and what to expect they just see the JSON. By implementing schema we can actually simplify our codebase. Schema will help structure our data better so our applications can more easily reason about our interactions with the WordPress REST API. The WordPress REST API does not force you to use schema, but it is encouraged. There are two ways in which schema data is incorporated into the API; schema for resources and schema for our registered arguments.
 -->
 
-JSON パーサーは、そのデータを問題なく処理し、有効な JSON であるため、何も文句を言うことはないでしょう。クライアントとサーバーは、データについて何も分からないが、JSON を見るだけで、何を期待すればいいのか分かっています。スキーマを実装することで、コードベースを単純化できます。スキーマは、データをよりよく構造化するのに役立ち、WordPress REST API とのやりとりをアプリケーションがより簡単に説明できます。WordPress REST API はスキーマの使用を強制しませんが、推奨しています。スキーマデータを API に組み込む方法は2つあります; リソース用のスキーマと、登録された引数用のスキーマです。
+JSON パーサーは、そのデータを問題なく処理し、有効な JSON であるため、何も文句を言うことはないでしょう。クライアントとサーバーは、データについて何も分かりませんが、JSON を見るだけで、何を期待すればいいのか分かっています。スキーマを実装することで、コードベースを単純化できます。スキーマは、データをよりよく構造化するのに役立ち、WordPress REST API とのやりとりをアプリケーションがより簡単に説明できます。WordPress REST API はスキーマの使用を強制しませんが、推奨しています。スキーマデータを API に組み込む方法は2つあります; リソース用のスキーマと、登録された引数用のスキーマです。
 
 <!--
 ## Resource Schema
@@ -330,4 +330,4 @@ In the example above we have abstracted away from using the `'my-arg'` name. We 
 Schema can seem silly at points and possibly like unnecessary work, but if you want maintainable, discoverable, and easily extensible endpoints, it is essential to use schema. Schema also helps to self document your endpoints both for humans and computers!
 -->
 
-スキーマは、バカバカしく思えることもあるし、不必要な作業のように思えることもあるかもしれませんが、保守可能で、ディスカバリー容易で、簡単に拡張できるエンドポイントを望むのであれば、スキーマを使うことは不可欠です。スキーマはまた、人間にとってもコンピューターにとっても、エンドポイントの自己ドキュメント化に役立ちます !
+スキーマは、一見バカバカしく思えることもあるかもしれませんし、不必要な作業のように思えるるかもしれませんが、メンテナンスしやすく、みつけやすく、簡単に拡張できるエンドポイントを望むのであれば、スキーマを使うことは不可欠です。スキーマはまた、人間にとってもコンピューターにとっても、エンドポイントの自己ドキュメント化に役立ちます !

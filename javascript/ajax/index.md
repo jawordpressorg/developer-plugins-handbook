@@ -34,7 +34,7 @@ AJAX は、ユーザーの操作を必要としません。Google ドキュメ�
 ## Why use AJAX?
 -->
 
-## なぜ AJAX を使うのか ?
+## なぜ AJAX を使うのですか ?
 
 <!--
 Obviously, it improves the user experience. Instead of presenting a boring, static page, AJAX allows you to present a dynamic, responsive, user friendly experience. Users can get immediate feedback that some action they took was right or wrong. No need to submit an entire form before finding out there is a mistake in one field. Important fields can be validated as soon as the data is entered. Or suggestions could be made as the user types.
@@ -64,13 +64,13 @@ AJAX リクエストを送信する場所は、JavaScript のグローバル変�
 ## How Do I Use AJAX?
 -->
 
-## AJAX はどのように使うのか ?
+## AJAX はどのように使うのですか ?
 
 <!--
 If you are new to WordPress but have experience using AJAX in other environments, you will need to relearn a few things. The way WordPress implements AJAX is most likely different than what you are used to. If everything is new to you, no problem. You will learn the basics here. Once you've developed a basic AJAX exchange, it's a cinch to expand on that base and develop that killer app with an awesome user interface!
 -->
 
-WordPress は初めてだが、他の環境で AJAX を使用した経験がある場合、いくつかのことを学び直す必要があります。WordPress が AJAX を実装する方法は、ほとんどの場合、あなたが慣れているものとは異なります。すべてが初めての人は、問題ありません。ここで基本を学びましょう。一度基本的な AJAX 交換を開発すれば、そのベースを拡張して、すばらしいユーザーインターフェイスを持つキラーアプリを開発することは簡単ですよ !
+WordPress は初めてですが、他の環境で AJAX を使用した経験がある場合、いくつかのことを学び直す必要があります。WordPress が AJAX を実装する方法は、ほとんどの場合、あなたが慣れているものとは異なります。すべてが初めての人は、問題ありません。ここで基本を学びましょう。一度基本的な AJAX 交換を開発すれば、そのベースを拡張して、すばらしいユーザーインターフェイスを持つキラーアプリを開発することは簡単ですよ !
 
 <!--
 There are two major components of any AJAX exchange in WordPress. The client side JavaScript or jQuery and the server side PHP. All AJAX exchanges follow the following sequence of events.

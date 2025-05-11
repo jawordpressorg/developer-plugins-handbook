@@ -76,7 +76,7 @@ The text domain also needs to be added to the plugin header. WordPress uses it t
 [info]Again, change "my-plugin" to the slug of your plugin.[/info]
 -->
 
-[info]もう一度、"my-plugin" をプラグインのスラッグに変更します。[/info]
+[info]もう一度言いますが、"my-plugin" をプラグインのスラッグに変更します。[/info]
 
 <!--
 [info]Since WordPress 4.6 the `Text Domain` header is optional because it must be the same as the plugin slug. There is no harm in including it, but it is not required.[/info]
@@ -189,7 +189,7 @@ echo 'Your city is $city.'
 In this case, the `$city` is a variable and should not be part of the translation. The solution is to use placeholders for the variable, along with the `printf` family of functions. Especially helpful are [`printf`](https://www.php.net/manual/en/function.printf.php) and [`sprintf`](https://www.php.net/manual/en/function.sprintf). Here is what the right solution looks like:
 -->
 
-この場合、`$city` は変数であり、翻訳の一部であってはなりません。解決策としては、関数の `printf` ファミリーとともに変数のプレースホルダーを使うことです。特に便利なのは [`printf`](https://www.php.net/manual/en/function.printf.php) と [`sprintf`](https://www.php.net/manual/en/function.sprintf) です。これが適切な解決方法です:
+この場合、`$city` は変数であり、翻訳の一部であってはなりません。解決策としては、関数の `printf` ファミリーとともに変数のプレースホルダーを使うことです。特に便利なのは [`printf`](https://www.php.net/manual/ja/function.printf.php) と [`sprintf`](https://www.php.net/manual/ja/function.sprintf) です。これが適切な解決方法です:
 
 ```
 printf(
@@ -215,7 +215,7 @@ Also note that there is a hint for translators so that they know the context of 
 If you have more than one placeholder in a string, it is recommended that you use [argument swapping](http://www.php.net/manual/en/function.sprintf.php). In this case, single quotes (`'`) around the string are mandatory because double quotes (`"`) will tell php to interpret the `$s` as the `s` variable, which is not what we want.
 -->
 
-文字列内に複数のプレースホルダーがある場合は、[引数の入れ替え](http://www.php.net/manual/en/function.sprintf.php) を使用することを推奨します。この場合、文字列をシングルクオート (`'`) で囲むことが必須で、ダブルクオート (`"`) を使用すると、php が `$s` を変数 `s` として解釈してしまうからです。
+文字列内に複数のプレースホルダーがある場合は、[引数の入れ替え](http://www.php.net/manual/ja/function.sprintf.php) を使用することを推奨します。この場合、文字列をシングルクオート (`'`) で囲むことが必須で、ダブルクオート (`"`) を使用すると、php が `$s` を変数 `s` として解釈してしまうからです。
 
 ```
 printf(
@@ -560,7 +560,7 @@ Here are the best practices for writing strings
 
 - 適切な英語スタイルを使用する – スラングや略語は最小限にとどめましょう.
 - 文章全体を使う – ほとんどの言語では、語順は英語とは異なります。
-- 段落を分ける – 関連する文章を一つにまとめるが、1ページ分の文章を一つの文字列に含めないでください。
+- 段落を分ける – 関連する文章を一つにまとめますが、1ページ分の文章を一つの文字列に含めないでください。
 - 翻訳可能なフレーズの先頭や末尾に、空白を残さないようにしましょう。
 - 文字列は、翻訳されると2倍の長さになる可能性があります。
 - 変則的なマークアップや 変則的な制御文字を避ける – テキストを囲むタグを含めないでください。

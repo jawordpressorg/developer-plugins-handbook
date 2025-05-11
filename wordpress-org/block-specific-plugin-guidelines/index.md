@@ -124,7 +124,7 @@ In addition to the guidelines that apply to all WordPress plugins, Block Plugins
 #### 1. Block Plugins are for the Block Editor.
 -->
 
-#### 1. ブロック・プラグインは、ブロック・エディター用。
+#### 1. ブロック・プラグインはブロック・エディター用です
 
 <!--
 A Block Plugin must contain a block, and a minimum of other supporting code. It may not contain any UX outside of the editor, such as WordPress options or `wp-admin` menus. Server-side code should be kept to a minimum.
@@ -142,7 +142,7 @@ Plugins that only extend or provide styles for other, pre-existing blocks are cu
 #### 2. Block Plugins are separate blocks.
 -->
 
-#### 2. ブロック・プラグインは、独立したブロック。
+#### 2. ブロック・プラグインは独立したブロックです
 
 <!--
 Block plugins are intended to be single purpose, separate, independent blocks, not bundles or compendiums of many blocks. In most cases, a Block Plugin should contain only one single top-level block. The Block Directory will not include collections of blocks that could be reasonably split up into separate, independent, blocks.
@@ -154,13 +154,13 @@ Block plugins are intended to be single purpose, separate, independent blocks, n
 Block plugins may contain more than one block where a clearly necessary parent/child or container/content dependency exists; for example a list block that contains list item blocks.
 -->
 
-ブロック・プラグインは、明らかに必要な親/子関係、あるいはコンテナ/コンテンツの依存関係が存在する場合には、複数のブロックを含むことができます; たとえば、リスト・アイテム・ブロックを含むリスト・ブロックなどです。
+ブロック・プラグインは、明らかに必要な親/子関係、あるいはコンテナ/コンテンツの依存関係が存在する場合には、複数のブロックを含むことができます。たとえば、リスト・アイテム・ブロックを含むリスト・ブロックなどです。
 
 <!--
 #### 3. Plugin and block names should reflect the block’s purpose.
 -->
 
-#### 3. プラグイン名とブロック名は、ブロックの目的を反映したものであるべき。
+#### 3. プラグイン名とブロック名は、ブロックの目的を反映したものであるべきです
 
 <!--
 Plugin titles and block titles should describe what the block does in a way that helps users easily understand its purpose. In most cases the plugin title and the block title should be identical or very similar. Some examples of good plugin and block names include:
@@ -204,7 +204,7 @@ The same trademark restrictions for plugin titles exist for block titles and nam
 #### 3a. Block names should be unique and properly namespaced.
 -->
 
-#### 3a. ブロック名は一意であるべきで、適切に名前空間を設定すべき。
+#### 3a. ブロック名は一意であるべきで、適切に名前空間を設定すべきです
 
 <!--
 The block name (meaning the [`name` parameter to `registerBlockType()`](https://developer.wordpress.org/block-editor/developers/block-api/block-registration/#block-name) and [`name` in `block.json`](https://github.com/WordPress/gutenberg/blob/master/docs/rfc/block-registration.md#name)) must be unique to the block. As with titles, please respect trademarks and other projects’ commonly used names, so as not to conflict with them.
@@ -238,7 +238,7 @@ The namespace may not be a reserved one such as `core` or `wordpress`.
 #### 4. Block Plugins must include a `block.json` file.
 -->
 
-#### 4. ブロック・プラグインは、`block.json` ファイルを含める必要がある。
+#### 4. ブロック・プラグインは、`block.json` ファイルを含める必要があります
 
 <!--
 The Block Registration RFC outlines the format of a `block.json` file: [https://github.com/WordPress/gutenberg/blob/master/docs/designers-developers/developers/block-api/block-metadata.md](https://github.com/WordPress/gutenberg/blob/master/docs/designers-developers/developers/block-api/block-metadata.md)
@@ -268,7 +268,7 @@ Block Plugins must include a valid `block.json` file. In addition to the require
 #### 5. Block Plugins must work independently.
 -->
 
-#### 5. ブロック・プラグインは、独立して動作すべき。
+#### 5. ブロック・プラグインは、独立して動作すべきです
 
 <!--
 Block Plugins must function by themselves without requiring any external dependencies such as another WordPress plugin or theme.
@@ -286,7 +286,7 @@ A Block Plugin may make use of code or hooks in another WordPress plugin or them
 #### 6. Block Plugins should work seamlessly.
 -->
 
-#### 6. ブロック・プラグインは、シームレスに動作すること。
+#### 6. ブロック・プラグインは、シームレスに動作すること
 
 <!--
 Block Plugins are intended to work seamlessly and instantly when installed from the editor. That means they should not encumber the user with additional steps or prerequisites such as installing another plugin or theme, signing up for an account, or logging in or manually connecting to an external service.
@@ -316,7 +316,7 @@ They should not rely on an external API or cloud service for functions that coul
 #### 7. Server-side code should be kept to a minimum.
 -->
 
-#### 7. サーバーサイドのコードは、最小限にとどめるべき。
+#### 7. サーバーサイドのコードは、最小限にとどめるべきです
 
 <!--
 Since Block Plugins are WordPress plugins, they necessarily contain PHP code for metadata and initialization. As much as possible, they should avoid including additional PHP code or server-side libraries. The WordPress REST API should be the preferred interface to WordPress, rather than custom server-side code.
@@ -334,7 +334,7 @@ REST API には限界があり、ある機能を実装するためにはサー�
 #### 8. Must not include advertisements or promotional notices.
 -->
 
-#### 8. 広告や販売促進に関する告知を、含まないこと。
+#### 8. 広告や販売促進に関する告知を含まないこと
 
 <!--
 Block Plugins must not include code that displays alerts, dashboard notifications, or similar obtrusive messages unrelated to the purpose of the block.

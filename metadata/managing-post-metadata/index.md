@@ -80,7 +80,7 @@ Similar to [`add_post_meta()`](https://developer.wordpress.org/reference/functio
 Post meta values are passed through the [`stripslashes()`](https://www.php.net/manual/en/function.stripslashes.php) function upon being stored, so you will need to be careful when passing in values (such as JSON) that might include escaped characters.
 -->
 
-投稿メタの値は、保存時に [`stripslashes()`](https://www.php.net/manual/en/function.stripslashes.php) 関数を通して渡されるため、エスケープされた文字を含む可能性のある値 (JSON など) を渡す際には注意が必要です。
+投稿メタの値は、保存時に [`stripslashes()`](https://www.php.net/manual/ja/function.stripslashes.php) 関数を通して渡されるため、エスケープされた文字を含む可能性のある値 (JSON など) を渡す際には注意が必要です。
 
 <!--
 Consider the JSON value `{"key":"value with \"escaped quotes\""}`:
@@ -108,7 +108,7 @@ $broken, after stripslashes(), ends up unparsable:
 By adding one more level of escaping using the function [`wp_slash()`](https://developer.wordpress.org/reference/functions/wp_slash/) (introduced in WP 3.6), you can compensate for the call to [`stripslashes()`](https://www.php.net/manual/en/function.stripslashes.php):
 -->
 
-(WordPress 3.6で導入された) 関数 [`wp_slash()`](https://developer.wordpress.org/reference/functions/wp_slash/) を使って、もう1段階エスケープを追加することで、[`stripslashes()`](https://www.php.net/manual/en/function.stripslashes.php) の呼び出しを補うことができます:
+(WordPress 3.6で導入された) 関数 [`wp_slash()`](https://developer.wordpress.org/reference/functions/wp_slash/) を使って、もう1段階エスケープを追加することで、[`stripslashes()`](https://www.php.net/manual/ja/function.stripslashes.php) の呼び出しを補うことができます:
 
 ```
 $escaped_json = '{"key":"value with \"escaped quotes\""}';

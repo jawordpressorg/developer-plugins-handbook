@@ -614,7 +614,7 @@ It is a fine balancing act between the speed your server can send data and the a
 ## When should you cache?
 -->
 
-## いつキャッシュすべきか ?
+## いつキャッシュすべきですか ?
 
 <!--
 The snap answer to this is **always**, but again there are times when you should not. If you are dealing with real time data or the API specifically says not to cache in the headers you may not want to cache, but for all other situations it is generally a good idea to cache any resources retrieved from an API.

@@ -14,7 +14,7 @@
 When a user edits a post, the edit screen is composed of several default boxes: Editor, Publish, Categories, Tags, etc. These boxes are meta boxes. Plugins can add custom meta boxes to an edit screen of any post type.
 -->
 
-ユーザーが投稿を編集する際、編集画面はいくつかのデフォルトボックスで構成されます: Editor、Publish、Categories、Tags、等です。これらのボックスはメタボックスです。プラグインは、任意の投稿タイプの編集画面にカスタムメタボックスを追加できます。
+ユーザーが投稿を編集する際、編集画面はいくつかのデフォルトボックスで構成されます: エディター、投稿、カテゴリー、タグ等です。これらのボックスはメタボックスです。プラグインは、任意の投稿タイプの編集画面にカスタムメタボックスを追加できます。
 
 <!--
 The content of custom meta boxes are usually HTML form elements where the user enters data related to a Plugin's purpose, but the content can be practically any HTML you desire.
@@ -26,7 +26,7 @@ The content of custom meta boxes are usually HTML form elements where the user e
 ## Why Use Meta Boxes?
 -->
 
-## なぜメタボックスを使うの ?
+## なぜメタボックスを使うのですか ?
 
 <!--
 Meta boxes are handy, flexible, modular edit screen elements that can be used to collect information related to the post being edited. Your custom meta box will be on the same screen as all the other post related information; so a clear relationship is established.

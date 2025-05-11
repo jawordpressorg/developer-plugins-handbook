@@ -20,7 +20,7 @@ Shortcodes are macros that can be used to perform dynamic interactions with the 
 ## Why Shortcodes?
 -->
 
-## なぜショートコードなの ?
+## なぜショートコードなのですか ?
 
 <!--
 Shortcodes are a valuable way of keeping content clean and semantic while allowing end users some ability to programmatically alter the presentation of their content.
@@ -69,12 +69,12 @@ By default, WordPress includes the following shortcodes:
 - `[embed]` – allows you to wrap embedded items
 -->
 
-- `[caption]` – コンテンツのキャプションをラップ (回り込み) できます。
-- `[gallery]` – 画像ギャラリーを表示できます。
-- `[audio]` – 音声ファイルを埋め込んで再生できます。
-- `[video]` – 動画ファイルを埋め込んで再生できます。
-- `[playlist]` – オーディオファイルやビデオファイルのコレクションを表示できます。
-- `[embed]` – 埋め込み項目をラップ (回り込み) できます。
+- `caption` – コンテンツのキャプションをラップ (回り込み) できます。
+- `gallery` – 画像ギャラリーを表示できます。
+- `audio` – 音声ファイルを埋め込んで再生できます。
+- `video` – 動画ファイルを埋め込んで再生できます。
+- `playlist` – オーディオファイルやビデオファイルのコレクションを表示できます。
+- `embed` – 埋め込み項目をラップ (回り込み) できます。
 
 <!--
 ## Shortcode Best Practices
@@ -95,7 +95,7 @@ Best practices for developing shortcodes include the [plugin development best pr
 - Provide users with clear documentation on all shortcode attributes.
 -->
 
-- **いつも return を戻して !** ショートコードは基本的にフィルターですので、「[副作用](https://en.wikipedia.org/wiki/Side_effect_(computer_science))」を作ると予期せぬバグにつながります。
+- **常に return を実行しましょう !** ショートコードは基本的にフィルターですので、「[副作用](https://en.wikipedia.org/wiki/Side_effect_(computer_science))」を作ると予期せぬバグにつながります。
 - 他のプラグインとの衝突を避けるために、ショートコード名に接頭辞をつけましょう。
 - 入力をサニタイズし、出力をエスケープしましょう。
 - すべてのショートコード属性に関して明確なドキュメントをユーザーに提供しましょう。
@@ -110,7 +110,7 @@ Best practices for developing shortcodes include the [plugin development best pr
 See the complete example of using a [basic shortcode structure, taking care of self-closing and enclosing scenarios, shortcodes within shortcodes and securing output](https://developer.wordpress.org/plugins/shortcodes/shortcodes-with-parameters/#complete-example).
 -->
 
-[基本的なショートコードの構造、自己完結型と包含型シナリオの取り扱い、入れ子状態のショートコード、出力の安全確保](https://ja.wordpress.org/team/handbook/plugin-development/shortcodes/shortcodes-with-parameters/#complete-example)を使用する完全な例を参照してください。
+[基本的なショートコードの構造、自己完結型と囲み型シナリオの取り扱い、入れ子状態のショートコード、出力の安全確保](https://ja.wordpress.org/team/handbook/plugin-development/shortcodes/shortcodes-with-parameters/#complete-example)を使用する完全な例を参照してください。
 
 <!--
 ## External Resources

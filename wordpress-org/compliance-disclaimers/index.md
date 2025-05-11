@@ -38,7 +38,7 @@ In order to make this more clear to site administrators, we recommend that plugi
 ## What do I need to do?
 -->
 
-## どうすればいいの ?
+## どうすればいいですか ?
 
 <!--
 tl;dr: Update your readme, documentation, assets (banners, screenshots, etc), and descriptions to clearly state that your plugin is meant to **assist** in compliance.
@@ -86,7 +86,7 @@ Keep in mind, a BETTER plugin name would be one that is unique to you. Remember,
 Yes, but in a slightly different way.
 -->
 
-イエスだけど、ちょっと違うやり方で。
+はい、ただし少し違うやり方です。
 
 <!--
 A service assumes the responsibility for the compliance needed in those cases, and that’s what needs to be clear in the readme: it’s not the plugin code, it’s the service. We strongly recommend you link to your proof of compliance, and that is has a date on it.
@@ -110,7 +110,7 @@ For example, instead of saying “Foobar Payment Plugin is PCI compliant.” you
 Not unless you also claim it in your own readme/documentation. Though you should be a good human and warn them that what they’re doing isn’t really accurate.
 -->
 
-あなた自身の readme やドキュメントで、それを主張しない限りは。しかし、あなたは善良な人間であるべきであり、彼らのしていることが実際には正確ではないことを警告すべきです。
+いいえ、あなた自身の readme やドキュメントで、それを主張しない限りは。しかし、あなたは善良な人間であるべきであり、彼らのしていることが実際には正確ではないことを警告すべきです。
 
 <!--
 ## I only talk about 100% XHTML compliance. Do I have to change things?
@@ -122,7 +122,7 @@ Not unless you also claim it in your own readme/documentation. Though you should
 Technically no, but … can you **really** promise 100% compliance forever and ever? Probably best to change that and just say “Updated for further XHTML compliance.” Check out how WordPress.org handles [Accessibility compliance](https://wordpress.org/about/accessibility/) for a good place to start.
 -->
 
-技術的にはノーだが … **本当に** 100％のコンプライアンスを、未来永劫に約束できますか ? おそらく、それを変更して「さらなる XHTML 準拠の為に更新しました」と言うのがベストでしょう。手始めに WordPress.org の[アクセシビリティ・コンプライアンス](https://wordpress.org/about/accessibility/)の扱い方をチェックしてみてください。
+技術的にはノーですが … **本当に** 100％のコンプライアンスを、未来永劫に約束できますか ? おそらく、それを変更して「さらなる XHTML 準拠の為に更新しました」と言うのがベストでしょう。手始めに WordPress.org の[アクセシビリティ・コンプライアンス](https://wordpress.org/about/accessibility/)の扱い方をチェックしてみてください。
 
 <!--
 ## What happens if I don’t do this?

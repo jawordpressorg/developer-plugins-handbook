@@ -8,7 +8,7 @@
 **Actions** are one of the two types of [Hooks](https://developer.wordpress.org/plugins/hooks/). They provide a way for running a function at a specific point in the execution of WordPress Core, plugins, and themes. Callback functions for an Action do not return anything back to the calling Action hook. They are the counterpart to [Filters](https://developer.wordpress.org/plugins/hooks/filters/). Here is a refresher of [the difference between actions and filters](https://developer.wordpress.org/plugins/hooks/#actions-vs-filters).
 -->
 
-**アクション**は、[フック](https://ja.wordpress.org/team/handbook/plugin-development/hooks/)の2つのタイプのうちの1つです。WordPress Core、プラグイン、テーマの実行中の特定のポイントで関数を作動させる方法を提供します。アクション用のコールバック関数は、呼び出したアクションフックに何も返しません。[フィルター](https://ja.wordpress.org/team/handbook/plugin-development/hooks/filters/)と対になるものです。ここで[アクションとフィルターの違い](https://ja.wordpress.org/team/handbook/plugin-development/hooks/#actions-vs-filters)を再確認しておきましょう。
+**アクション**は、[フック](https://ja.wordpress.org/team/handbook/plugin-development/hooks/)の2つのタイプのうちの1つです。WordPress コア、プラグイン、テーマの実行中の特定のポイントで関数を作動させる方法を提供します。アクション用のコールバック関数は、呼び出したアクションフックに何も返しません。[フィルター](https://ja.wordpress.org/team/handbook/plugin-development/hooks/filters/)と対になるものです。ここで[アクションとフィルターの違い](https://ja.wordpress.org/team/handbook/plugin-development/hooks/#actions-vs-filters)を再確認しておきましょう。
 
 <!--
 ## Adding an Action
@@ -38,13 +38,13 @@ First, create a _callback function_. This function will be run when the action i
 The callback function is just like a normal function: it should be prefixed, and it should be in `functions.php` or somewhere callable. The parameters it should accept will be defined by the action you are hooking to; most hooks are well defined, so review the hooks docs to see what parameters the action you have selected will pass to your function.
 -->
 
-コールバック関数は通常の関数と同じです: 接頭辞をつけ、`functions.php` または呼び出し可能な場所に記述します。この関数が受け取るべきパラメータは、フック先のアクションによって定義されます; ほとんどのフックはきちんと定義されているので、選択したアクションがどのパラメータを関数に渡すのか、フックのドキュメントを確認してください。
+コールバック関数は通常の関数と同じです: 接頭辞をつけ、`functions.php` または呼び出し可能な場所に記述します。この関数が受け取るべきパラメータは、フック先のアクションによって定義されます。ほとんどのフックはきちんと定義されているので、選択したアクションがどのパラメータを関数に渡すのか、フックのドキュメントを確認してください。
 
 <!--
 ### Assign (_hook_) your callback function
 -->
 
-### コールバック関数の割り当て (_フック_)
+### コールバック関数の割り当て (フック)
 
 <!--
 Second, add your callback function to the action. This is called _hooking_ and tells the action to run your callback function when the action is run.
@@ -89,7 +89,7 @@ You can refer to the [Hooks](https://developer.wordpress.org/plugins/hooks/) cha
 As you gain more experience, looking through WordPress Core source code will allow you to find the most appropriate hook.
 -->
 
-経験を積むにつれ、WordPress Core のソースコードに目を通すことで、最も適切なフックを見つけることができます。
+経験を積むにつれ、WordPress コアのソースコードに目を通すことで、最も適切なフックを見つけることができます。
 
 <!--
 ### Additional Parameters
@@ -135,7 +135,7 @@ Here are some important facts about priorities:
 
 - 優先度は、正の整数で、通常は1から20の間です。
 - (手動で `priority` 値を指定しなかった場合に割り当てられる) デフォルトの優先度は10です。
-- 優先度の理論的な上限はないが、現実的な上限は100です。
+- 優先度の理論的な上限はありませんが、現実的な上限は100です。
 
 <!--
 A function with a priority of 11 will run _after_ a function with a priority of 10; and a function with a priority of 9 will run _before_ a function with a priority of 10.
@@ -152,7 +152,7 @@ The second way that callback function order is determined is simply by the order
 <!--
 For example, the following callback functions are all registered to the `init` hook, but with different priorities:
 -->
-たとえば、以下のコールバック関数はすべて `init` フックに登録されているが、優先順位は異なります:
+たとえば、以下のコールバック関数はすべて `init` フックに登録されていますが、優先順位は異なります:
 
 ```
 add_action( 'init', 'wporg_callback_run_me_late', 11 );

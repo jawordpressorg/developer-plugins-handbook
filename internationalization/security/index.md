@@ -9,7 +9,7 @@ Internationalization Security
 Security is often overlooked when talking about internationalization, but there are a few important things to keep in mind.
 -->
 
-国際化について語るとき、セキュリティは見落とされがちだが、留意すべき重要なことがいくつかあります。
+国際化について語るとき、セキュリティは見落とされがちですが、留意すべき重要なことがいくつかあります。
 
 <!--
 ## Check for Spam and Other Malicious Strings
@@ -77,7 +77,7 @@ Alternatively, some people choose to rely on a translation verification mechanis
 Don't include URLs in internationalized strings, because a malicious translator could change them to point to a different URL. Instead, use placeholders for [`printf()`](https://www.php.net/manual/en/function.printf.php) or [`sprintf()`](https://www.php.net/manual/en/function.sprintf.php).
 -->
 
-悪意ある翻訳者が、別の URL を指すように変えてしまう可能性があるため、国際化された文字列には URL を含めないでください。代わりに、[`printf()`](https://www.php.net/manual/en/function.printf.php) または [`sprintf()`](https://www.php.net/manual/en/function.sprintf.php) のプレースホルダーを使用してください。
+悪意ある翻訳者が、別の URL を指すように変えてしまう可能性があるため、国際化された文字列には URL を含めないでください。代わりに、[`printf()`](https://www.php.net/manual/ja/function.printf.php) または [`sprintf()`](https://www.php.net/manual/ja/function.sprintf.php) のプレースホルダーを使用してください。
 
 <!--
 **Insecure**
