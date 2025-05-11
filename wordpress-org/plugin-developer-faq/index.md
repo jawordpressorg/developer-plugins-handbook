@@ -129,7 +129,7 @@ For example:
 If there is an existing plugin with your name or slug, then [you'll get a warning on the submission](#why-is-my-submission-failing-saying-my-plugin-name-already-exists).
 -->
 
-あなたの名称やスラッグを持つ、既存のプラグインがある場合、[申請時に警告が表示されます](#why-is-my-submission-failing-saying-my-plugin-name-already-exists)。
+あなたの名称やスラッグを持つ、既存のプラグインがある場合、[申請時に警告が表示されます](https://ja.wordpress.org/team/handbook/plugin-development/wordpress-org/plugin-developer-faq/#why-is-my-submission-failing-saying-my-plugin-name-already-exists)。
 
 <!--
 The slug will also determine the following:
@@ -287,7 +287,7 @@ How we will know that you are the official organization? Because of your email a
 Just reply to the email right away and let us know. We can transfer ownership for you. If you forget to do this, you can fix it yourself by [adding the correct account as a committer](#how-do-i-give-someone-else-access-to-my-plugin) and then having that account remove your own.
 -->
 
-すぐにメールに返信してお知らせください。私たちが所有権をあなたに委譲します。これを忘れてしまった場合は、[正しいアカウントを、コミッターとして追加](#how-do-i-give-someone-else-access-to-my-plugin)し、その正しいアカウントからあなた自身のアカウントを削除させることで、自分で修正できます。
+すぐにメールに返信してお知らせください。私たちが所有権をあなたに委譲します。これを忘れてしまった場合は、[正しいアカウントを、コミッターとして追加](https://ja.wordpress.org/team/handbook/plugin-development/wordpress-org/plugin-developer-faq/#how-do-i-give-someone-else-access-to-my-plugin)し、その正しいアカウントからあなた自身のアカウントを削除させることで、自分で修正できます。
 
 <!--
 **DO NOT** resubmit your plugin. Just tell us right away and we'll fix it.
@@ -701,7 +701,7 @@ minify 化するのはかまいませんが、隠すのは駄目です。この�
 As soon as you push code to the SVN folders, your plugin will be live. **DO NOT** push code if you're not ready, as there's no 'off' switch except to [close the plugin](#closed-plugins). As closing a plugin is permanent, we recommend you not push code until you're ready to go live.
 -->
 
-SVN フォルダーにコードをプッシュすると、すぐにプラグインが公開されます。[プラグインをクローズ](#closed-plugins)する以外に「オフ」スイッチがないので、準備ができていない場合は、コードをプッシュ **しないように**。プラグインのクローズは永久的なものですので、公開する準備ができるまではコードをプッシュしないことをおすすめします。
+SVN フォルダーにコードをプッシュすると、すぐにプラグインが公開されます。[プラグインをクローズ](https://ja.wordpress.org/team/handbook/plugin-development/wordpress-org/plugin-developer-faq/#closed-plugins)する以外に「オフ」スイッチがないので、準備ができていない場合は、コードをプッシュ **しないように**。プラグインのクローズは永久的なものですので、公開する準備ができるまではコードをプッシュしないことをおすすめします。
 
 <!--
 ### Where does the WordPress.org Plugin Directory get its data?
