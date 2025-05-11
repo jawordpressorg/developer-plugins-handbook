@@ -32,7 +32,7 @@ Once a request has been confirmed, the admin can generate and download or direct
 Whether the admin downloads the personal data export ZIP file or sends it directly to the requestor, the way the personal data export is assembled is identical – and relies on hooking "exporter" callbacks to do the dirty work of collecting all the data for the export. When the admin clicks on the download or email link, an AJAX loop begins that iterates over all the exporters registered in the system, one at a time. In addition to exporters built into core, plugins can register their own exporter callbacks.
 -->
 
-管理者が個人データ書き出し ZIP ファイルをダウンロードする場合も、要求者に直接送信する場合も個人データ書き出しの組み立て方は同じで、書き出すためのすべてのデータを収集する汚れ仕事のために、「exporter」コールバックのフックに依存します。管理者がダウンロードまたは電子メールのリンクをクリックすると、AJAX ループが始まり、システムに登録されているすべてのエクスポーターを一度に1つずつ繰り返します。コアに内蔵されたエクスポーターに加えて、プラグインは独自のエクスポーター・コールバックを登録できます。
+管理者が個人データ書き出し ZIP ファイルをダウンロードする場合も、要求者に直接送信する場合も個人データ書き出しの組み立て方は同じで、書き出すためのすべてのデータを収集するという面倒な仕事のために、「エクスポーター」コールバックのフックに依存します。管理者がダウンロードまたは電子メールのリンクをクリックすると、AJAX ループが始まり、システムに登録されているすべてのエクスポーターを一度に1つずつ繰り返します。コアに内蔵されたエクスポーターに加えて、プラグインは独自のエクスポーター・コールバックを登録できます。
 
 <!--
 The exporter callback interface is designed to be as simple as possible. A exporter callback receives the email address we are working with and a page parameter as well. The page parameter (which starts at 1) is used to avoid plugins potentially causing timeouts by attempting to export all the personal data they've collected at once. A well behaved plugin will limit the amount of data it attempts to erase per page (e.g. 100 posts, 200 comments, etc.)
