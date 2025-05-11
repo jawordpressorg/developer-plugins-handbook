@@ -2,7 +2,7 @@
 # Enclosing Shortcodes
 -->
 
-# ショートコードの包含
+# ショートコードの囲み
 
 <!--
 The are two scenarios for using shortcodes:
@@ -16,19 +16,19 @@ The are two scenarios for using shortcodes:
 -->
 
 - ショートコードは、[基本のショートコード](https://ja.wordpress.org/team/handbook/plugin-development/shortcodes/basic-shortcodes/)のセクションで見たような、自己完結型のタグ。
-- ショートコードは、コンテンツを包含するタグ。
+- ショートコードは、コンテンツを囲むタグ。
 
 <!--
 ## Enclosing Content
 -->
 
-## コンテンツの包含
+## 囲まれたコンテンツ
 
 <!--
 Enclosing content with a shortcode allows manipulations on the enclosed content.
 -->
 
-ショートコードでコンテンツを包含することで、包含コンテンツに対する操作が可能になります。
+ショートコードでコンテンツを囲むことで、囲まれたコンテンツに対する操作が可能になります。
 
 ```
 [wporg]content to manipulate[/wporg]
@@ -38,13 +38,13 @@ Enclosing content with a shortcode allows manipulations on the enclosed content.
 As seen above, all you need to do in order to enclose a section of content is add a beginning `[$tag]` and an end `[/$tag]`, similar to HTML.
 -->
 
-上で見たように、コンテンツのセクションを包含するために必要なことは、HTML と同じように、始まりの `[$tag]` と終わりの `[/$tag]` を追加することです。
+上で見たように、コンテンツのセクションを囲むために必要なことは、HTML と同じように、始まりの `[$tag]` と終わりの `[/$tag]` を追加することです。
 
 <!--
 ## Processing Enclosed Content
 -->
 
-## 包含コンテンツの処理
+## 囲まれたコンテンツの処理
 
 <!--
 Lets get back to our original `[wporg]` shortcode code:
@@ -134,7 +134,7 @@ add_shortcode( 'wporg', 'wporg_shortcode' );
 The shortcode parser is unable to handle mixing of enclosing and non-enclosing forms of the same `[$tag]`.
 -->
 
-ショートコード・パーサーは、同じ `[$tag]` を包含する形式と包含しない形式を混在させて扱うことができません。
+ショートコード・パーサーは、同じ `[$tag]` を囲む形式と囲まない形式を混在させて扱うことができません。
 
 ```
 [wporg] non-enclosed content [wporg]enclosed content[/wporg]
@@ -144,4 +144,4 @@ The shortcode parser is unable to handle mixing of enclosing and non-enclosing f
 Instead of being treated as two shortcodes separated by the text "`non-enclosed content`", the parser treats this as a single shortcode enclosing "`non-enclosed content [wporg]enclosed content`".
 -->
 
-パーサーは、「`non-enclosed content`」というテキストで区切られた2つのショートコードとして扱う代わりに、これを「`non-enclosed content [wporg]enclosed content`」を包含する1つのショートコードとして扱います。
+パーサーは、「`non-enclosed content`」というテキストで区切られた2つのショートコードとして扱う代わりに、これを「`non-enclosed content [wporg]enclosed content`」を囲む1つのショートコードとして扱います。
