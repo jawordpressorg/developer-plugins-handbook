@@ -389,7 +389,7 @@ Generally, just one. If you're a plugin author with more than one million active
 ### Why can't I submit more than one plugin at a time?
 -->
 
-### 一度に複数のプラグインを申請できないのは、なぜですか ?
+### 一度に複数のプラグインを申請できないのはなぜですか ?
 
 <!--
 Allowing people to have multiple submissions at once was proven to be detrimental to the review process. Errors were regularly found in all the plugins, resulting in the same emails being sent multiple times. In addition, people often got confused as to which review they were working on, muddying the waters about what needed to be solved. By changing this to one-at-a-time, confusion in those matters dropped significantly.
