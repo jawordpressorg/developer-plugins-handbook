@@ -65,7 +65,7 @@ add_shortcode( 'wporg', 'wporg_shortcode' );
 Looking at the callback function we see that we chose to accept two parameters, `$atts` and `$content`. The `$content` parameter is going to hold our enclosed content. We will talk about `$atts` later.
 -->
 
-コールバック関数を見ると、`$atts` と `$content` の2つのパラメータを受け取るようにしたことがわかります。パラメータ `$content` は、包含した内容を保持します。`$atts` については後で説明します。
+コールバック関数を見ると、`$atts` と `$content` の2つのパラメータを受け取るようにしたことがわかります。パラメータ `$content` は、囲んだ内容を保持します。`$atts` については後で説明します。
 
 <!--
 The default value of `$content` is set to `null` so we can differentiate between a self-closing tag and enclosing tags by using PHP function [`is_null()`](https://www.php.net/manual/en/function.is-null.php).

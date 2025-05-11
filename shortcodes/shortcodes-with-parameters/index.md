@@ -8,7 +8,7 @@
 Now that we know how to create a [basic shortcode](https://developer.wordpress.org/plugins/shortcodes/basic-shortcodes/) and how to use it as [self-closing and enclosing](https://developer.wordpress.org/plugins/shortcodes/enclosing-shortcodes/), we will look at using parameters in shortcode `[$tag]` and handler function.
 -->
 
-[基本のショートコード](https://ja.wordpress.org/team/handbook/plugin-development/shortcodes/basic-shortcodes/)の作成方法と、[自己完結型と包含型](https://ja.wordpress.org/team/handbook/plugin-development/shortcodes/enclosing-shortcodes/)の使い方が分かったところで、ショートコード `[$tag]` とハンドラ関数でパラメータを使用する方法を説明します。
+[基本のショートコード](https://ja.wordpress.org/team/handbook/plugin-development/shortcodes/basic-shortcodes/)の作成方法と、[自己完結型と囲み型](https://ja.wordpress.org/team/handbook/plugin-development/shortcodes/enclosing-shortcodes/)の使い方が分かったところで、ショートコード `[$tag]` とハンドラ関数でパラメータを使用する方法を説明します。
 
 <!--
 Shortcode `[$tag]` can accept parameters, known as attributes:
@@ -88,7 +88,7 @@ To gain control of how the shortcodes are used:
 Complete example using a basic shortcode structure, taking care of self-closing and enclosing scenarios and securing output.
 -->
 
-基本的なショートコード構造、自己完結型と包含型のシナリオ、出力の安全確保、を使用した完全な例です。
+基本的なショートコード構造、自己完結型と囲み型のシナリオ、出力の安全確保、を使用した完全な例です。
 
 <!--
 A `[wporg]` shortcode that will accept a title and will display a box that we can style with CSS.

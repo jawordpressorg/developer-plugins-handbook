@@ -2,7 +2,7 @@
 # Including a Software License
 -->
 
-# ソフトウェアライセンスの包含
+# ソフトウェアライセンスを含める
 
 <!--
 Most WordPress plugins are released under the [GPL](https://www.gnu.org/licenses/old-licenses/gpl-2.0.html), which is the same license that [WordPress itself uses](https://wordpress.org/about/license/). However, there are other compatible options available. It is always best to clearly indicate the license your plugin uses.
