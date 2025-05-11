@@ -69,7 +69,7 @@ The `wporg_setup_slider` function is adding a slider that we don't need, which p
 Since we want to hook into WordPress after the `wporg_setup_slider` callback function was registered (`functions.php` executed) our best chance would be the [`after_setup_theme`](https://developer.wordpress.org/reference/hooks/after_setup_theme/) hook.
 -->
 
-`wporg_setup_slider` コールバック関数が登録された (`functions.php` が実行された) 後に WordPress にフックしたいので、最善の機会は [`after_setup_theme`](https://developer.wordpress.org/reference/hooks/after_setup_theme/) フックでしょう。
+`wporg_setup_slider` コールバック関数が登録された (`functions.php` が実行された) 後に WordPress にフックしたいので、最善の方法は [`after_setup_theme`](https://developer.wordpress.org/reference/hooks/after_setup_theme/) フックでしょう。
 
 ```
 function wporg_disable_slider() {
