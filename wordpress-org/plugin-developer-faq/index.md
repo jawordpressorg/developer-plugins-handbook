@@ -171,7 +171,7 @@ If we have to change your permalink (slug) we will always email you to explain w
 ### Why is my submission failing saying my plugin name already exists?
 -->
 
-### 私のプラグイン名がすでに存在すると言って、申請に失敗するのはなぜですか ?
+### 私のプラグイン名がすでに存在すると表示されて申請に失敗するのはなぜですか ? ?
 
 <!--
 There are two reasons this happens:
@@ -215,7 +215,7 @@ Sometimes this situation develops when a company or person releases their plugin
 ### Why am I getting an error that says I cannot begin my plugin name with a term?
 -->
 
-### 私のプラグイン名を、タームで始めることができないと言って、エラーが表示されるのは
+### 私のプラグイン名をタームで始めることができないというエラーが表示されるのはなぜですか ?
 
 <!--
 That error is to inform you that you may not begin your Display Name with someone else's trademarked term. This is to protect you and the directory from legal issues regarding trademark abuse. To correct the issue, you must change the Display Name in your plugin's readme and main PHP files.
