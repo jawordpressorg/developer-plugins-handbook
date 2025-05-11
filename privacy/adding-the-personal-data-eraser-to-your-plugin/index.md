@@ -32,13 +32,13 @@ However, since performing a personal data erase is a destructive process, we don
 The way the personal data export is erased is similar to how the personal data exporters – and relies on hooking "eraser" callbacks to do the dirty work of erasing the data. When the admin clicks on the remove personal data link, an AJAX loop begins that iterates over all the erasers registered in the system, one at a time. In addition to erasers built into core, plugins can register their own eraser callbacks.
 -->
 
-個人データの消去方法は、個人データ・エクスポーターの方法と似ています – そして、データを消去する汚れ仕事をするために「消去機能」コールバックをフックすることに依存しています。管理者が個人データの削除リンクをクリックすると、AJAX ループが始まり、システムに登録されているすべての消去機能を一度に1つずつ繰り返します。コアに内蔵された消去機能に加えて、プラグインは消去機能のための独自のコールバックを登録できます。
+個人データの消去方法は、個人データ・エクスポーターの方法と似ています – そして、データを消去するという面倒な作業をするために「消去機能」コールバックをフックすることに依存しています。管理者が個人データの削除リンクをクリックすると、AJAX ループが始まり、システムに登録されているすべての消去機能を一度に1つずつ繰り返します。コアに内蔵された消去機能に加えて、プラグインは消去機能のための独自のコールバックを登録できます。
 
 <!--
 The eraser callback interface is designed to be as simple as possible. An eraser callback receives the email address we are working with, and a page parameter as well. The page parameter (which starts at 1) is used to avoid plugins potentially causing timeouts by attempting to erase all the personal data they've collected at once. A well behaved plugin will limit the amount of data it attempts to erase per page (e.g. 100 posts, 200 comments, etc.)
 -->
 
-消去機能コールバックのインターフェースは、できるだけシンプルに設計されています。消去機能コールバックは、扱うメールアドレスとページパラメータを受け取ります。(1から始まる) ページパラメータは、プラグインが収集したすべての個人データを一度に消去しようとしてタイムアウトを引き起こす可能性を避けるために使用されます。お行儀の良いプラグインは、ページごとに消去しようとするデータ量を制限します (たとえば、100投稿、200コメントなど)。
+消去機能コールバックのインターフェースは、できるだけシンプルに設計されています。消去機能コールバックは、扱うメールアドレスとページパラメータを受け取ります。(1から始まる) ページパラメータは、プラグインが収集したすべての個人データを一度に消去しようとしてタイムアウトを引き起こす可能性を避けるために使用されます。良いプラグインは、ページごとに消去しようとするデータ量を制限します (たとえば、100投稿、200コメントなど)。
 
 <!--
 The eraser callback replies whether items containing personal data were erased, whether any items containing personal data were retained, an array of messages to present to the admin (explaining why items that were retained were retained) and whether it is done or not. If an eraser callback reports that it is not done, it will be called again (in a separate request) with the page parameter incremented by 1.
@@ -50,7 +50,7 @@ The eraser callback replies whether items containing personal data were erased, 
 When all the exporters have been called to completion, the admin user interface is updated to show whether or not all personal data found was erased, and any messages explaining why personal data was retained.
 -->
 
-すべてのイレーサーが完了するまで呼び出されると、管理者ユーザーインターフェイスが更新され、検出されたすべての個人データが消去されたかどうか、および個人データが保持された理由を説明するメッセージが表示されます。
+すべての消去機能が完了するまで呼び出されると、管理者ユーザーインターフェイスが更新され、検出されたすべての個人データが消去されたかどうか、および個人データが保持された理由を説明するメッセージが表示されます。
 
 <!--
 Let's work on a hypothetical plugin which adds commenter location data to comments. Let's assume the plugin has used [`add_comment_meta`](https://developer.wordpress.org/reference/functions/add_comment_meta/) to add location data using `meta_key`'s of `latitude` and `longitude`.
