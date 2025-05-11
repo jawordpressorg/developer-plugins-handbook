@@ -76,7 +76,7 @@ The text domain also needs to be added to the plugin header. WordPress uses it t
 [info]Again, change "my-plugin" to the slug of your plugin.[/info]
 -->
 
-[info]もう一度、"my-plugin" をプラグインのスラッグに変更します。[/info]
+[info]もう一度言いますが、"my-plugin" をプラグインのスラッグに変更します。[/info]
 
 <!--
 [info]Since WordPress 4.6 the `Text Domain` header is optional because it must be the same as the plugin slug. There is no harm in including it, but it is not required.[/info]
