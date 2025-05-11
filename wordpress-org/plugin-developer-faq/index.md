@@ -171,7 +171,7 @@ If we have to change your permalink (slug) we will always email you to explain w
 ### Why is my submission failing saying my plugin name already exists?
 -->
 
-### 私のプラグイン名がすでに存在すると表示されて申請に失敗するのはなぜですか ? ?
+### 私のプラグイン名がすでに存在すると表示されて申請に失敗するのはなぜですか ?
 
 <!--
 There are two reasons this happens:
