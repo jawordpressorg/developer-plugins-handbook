@@ -176,7 +176,7 @@ The same approach applies when using `wp_enqueue_script()`. In the example above
 When specifying a delayed script loading strategy, consideration of the script's dependency tree (its dependencies and/or dependents) is taken into account when deciding on an “eligible strategy” so as not to result in application of a strategy that is valid for one script but detrimental to others in the tree by causing an unintended out of order of execution. As a result of such logic, the intended loading strategy that you pass via the `$args` parameter may not be the final (chosen) strategy, but it will never be detrimental to (or stricter than) the intended strategy.
 -->
 
-遅延スクリプトを読み込む方法を指定する場合、スクリプトの依存関係ツリー (その依存関係および / または従属関係) を考慮することで、あるスクリプトには有効だが、ツリー内の他のスクリプトには有害な手順を適用して、意図しない実行順序のずれを引き起こさない様に、「適格な方法」を決定します。このようなロジックの結果、パラメータ `$args` を介して渡された意図した読み込み方法は、最終的な (選択された) 順序にはならないかもしれないが、意図した方法に対して不利になる (または意図した方法よりも厳しくなる) ことはありません。
+遅延スクリプトを読み込む方法を指定する場合、スクリプトの依存関係ツリー (その依存関係および / または従属関係) を考慮することで、あるスクリプトには有効ですが、ツリー内の他のスクリプトには有害な手順を適用して、意図しない実行順序のずれを引き起こさない様に、「適格な方法」を決定します。このようなロジックの結果、パラメータ `$args` を介して渡された意図した読み込み方法は、最終的な (選択された) 順序にはならないかもしれませんが、意図した方法に対して不利になる (または意図した方法よりも厳しくなる) ことはありません。
 
 ### Nonce
 
