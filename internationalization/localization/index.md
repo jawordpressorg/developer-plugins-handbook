@@ -322,7 +322,7 @@ There is [grunt-po2mo](https://www.npmjs.com/package/grunt-po2mo) that will conv
 ### Don't translate literally, translate organically
 -->
 
-### 機械的に翻訳するな、有機的に翻訳しろ
+### 機械的に翻訳するのではなく、有機的に翻訳する
 
 <!--
 Being multi-lingual, you undoubtedly know that the languages you speak have different structures, rhythms, tones, and inflections. Translated messages don't need to be structured the same way as the English ones: take the ideas that are presented and come up with a message that expresses the same thing in a natural way for the target language. It's the difference between creating an equal message and an equivalent message: don't replicate, replace. Even with more structural items in messages, you have creative license to adapt and change if you feel it will be more logical for, or better adapted to, your target audience.
@@ -346,7 +346,7 @@ Each message has a different level of formality or informality. Exactly what lev
 ### Don't use slang or audience-specific terms
 -->
 
-### スラングや特定対象者特有の用語を使うな
+### スラングや特定対象者特有の用語を使わない
 
 <!--
 Some amount of terminology is to be expected in a blog, but refrain from using colloquialisms that only the "in" crowd will get. If the uninitiated blogger were to install WordPress in your language, would they know what the term means? Words like pingback, trackback, and feed are exceptions to this rule; they're terminology that are typically difficult to translate, and many translators choose to leave in English.
