@@ -14,7 +14,7 @@ WordPress 1.0で追加されたオプション API は、WordPress のオプシ�
 ## Where Options are Stored?
 -->
 
-## オプションはどこに格納されるの ?
+## オプションはどこに格納されますか ?
 
 <!--
 Options are stored in the `{$wpdb->prefix}_options` table. `$wpdb->prefix` is defined by the `$table_prefix` variable set in the `wp-config.php` file.
@@ -26,13 +26,13 @@ Options are stored in the `{$wpdb->prefix}_options` table. `$wpdb->prefix` is de
 ## How Options are Stored?
 -->
 
-## オプションはどのように格納されるの ?
+## オプションはどのように格納されますか ?
 
 <!--
 Options may be stored in the WordPress database in one of two ways: as a single value or as an array of values.
 -->
 
-オプションは、WordPress のデータベースに2つの方法で格納できます: 単一の値として、または値の配列として。
+オプションは、単一の値または値の配列として、WordPress のデータベースに2つの方法で格納されます。
 
 <!--
 ### Single Value
