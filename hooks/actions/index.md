@@ -135,7 +135,7 @@ Here are some important facts about priorities:
 
 - 優先度は、正の整数で、通常は1から20の間です。
 - (手動で `priority` 値を指定しなかった場合に割り当てられる) デフォルトの優先度は10です。
-- 優先度の理論的な上限はないが、現実的な上限は100です。
+- 優先度の理論的な上限はありませんが、現実的な上限は100です。
 
 <!--
 A function with a priority of 11 will run _after_ a function with a priority of 10; and a function with a priority of 9 will run _before_ a function with a priority of 10.
@@ -152,7 +152,7 @@ The second way that callback function order is determined is simply by the order
 <!--
 For example, the following callback functions are all registered to the `init` hook, but with different priorities:
 -->
-たとえば、以下のコールバック関数はすべて `init` フックに登録されているが、優先順位は異なります:
+たとえば、以下のコールバック関数はすべて `init` フックに登録されていますが、優先順位は異なります:
 
 ```
 add_action( 'init', 'wporg_callback_run_me_late', 11 );

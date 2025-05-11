@@ -9,7 +9,7 @@ Internationalization Security
 Security is often overlooked when talking about internationalization, but there are a few important things to keep in mind.
 -->
 
-国際化について語るとき、セキュリティは見落とされがちだが、留意すべき重要なことがいくつかあります。
+国際化について語るとき、セキュリティは見落とされがちですが、留意すべき重要なことがいくつかあります。
 
 <!--
 ## Check for Spam and Other Malicious Strings

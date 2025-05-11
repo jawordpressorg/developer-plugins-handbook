@@ -342,7 +342,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 While there are a number of possible architecture patterns, they can broadly be grouped into three variations:
 -->
 
-アーキテクチャー・パターンはいくつも考えられるが、大まかに3つのバリエーションに分類できます:
+アーキテクチャー・パターンはいくつも考えられますが、大まかに3つのバリエーションに分類できます:
 
 <!--
 - [Single plugin file, containing functions](https://github.com/GaryJones/move-floating-social-bar-in-genesis/blob/master/move-floating-social-bar-in-genesis.php)

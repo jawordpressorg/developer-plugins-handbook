@@ -194,7 +194,7 @@ $title_nonce = wp_create_nonce( 'title_example' );
 The parameter `title_example` can be any arbitrary string. It's suggested the string be related to what the nonce is used for, but it can really be anything that suits you.
 -->
 
-パラメータ `title_example` には、任意の文字列を指定できます。この文字列は nonce が何に使われるかに関連したものであることが推奨されるが、何でもかまいません。
+パラメータ `title_example` には、任意の文字列を指定できます。この文字列は nonce が何に使われるかに関連したものであることが推奨されますが、何でもかまいません。
 
 <!--
 ### Localize

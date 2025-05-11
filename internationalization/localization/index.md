@@ -340,7 +340,7 @@ Being multi-lingual, you undoubtedly know that the languages you speak have diff
 Each message has a different level of formality or informality. Exactly what level of formality or informality to use for each message in your target language is something you'll have to figure out on your own (or with your team), but WordPress messages (informational messages in particular) tend to have a politely informal tone in English. Try to accomplish the equivalent in the target language, within your cultural context.
 -->
 
-各メッセージは、フォーマルさ、またはインフォーマルさのレベルが異なります。ターゲット言語での各メッセージにどのレベルのフォーマルさまたはインフォーマルさを使うかは、あなた自身 (またはあなたのチーム) で考えなければならないことだが、WordPress のメッセージ (特に情報メッセージ) は、英語ではかなりインフォーマルなトーンになる傾向があります。あなたの文化的背景の範囲内で、ターゲット言語でも同等のことを達成する様にしましょう。
+各メッセージは、フォーマルさ、またはインフォーマルさのレベルが異なります。ターゲット言語での各メッセージにどのレベルのフォーマルさまたはインフォーマルさを使うかは、あなた自身 (またはあなたのチーム) で考えなければならないことですが、WordPress のメッセージ (特に情報メッセージ) は、英語ではかなりインフォーマルなトーンになる傾向があります。あなたの文化的背景の範囲内で、ターゲット言語でも同等のことを達成する様にしましょう。
 
 <!--
 ### Don't use slang or audience-specific terms
@@ -352,7 +352,7 @@ Each message has a different level of formality or informality. Exactly what lev
 Some amount of terminology is to be expected in a blog, but refrain from using colloquialisms that only the "in" crowd will get. If the uninitiated blogger were to install WordPress in your language, would they know what the term means? Words like pingback, trackback, and feed are exceptions to this rule; they're terminology that are typically difficult to translate, and many translators choose to leave in English.
 -->
 
-ブログにはある程度の専門用語がつきものだが、「内輪」にしか通じない様な口語表現は控えましょう。不慣れなブロガーがあなたの言語で WordPress をインストールしたとして、その用語の意味がわかるでしょうか ? ピンバック、トラックバック、フィードのような単語は例外です。これらは一般的に翻訳が難しい専門用語であり、多くの翻訳者は英語のままにしています。
+ブログにはある程度の専門用語がつきものですが、「内輪」にしか通じない様な口語表現は控えましょう。不慣れなブロガーがあなたの言語で WordPress をインストールしたとして、その用語の意味がわかるでしょうか ? ピンバック、トラックバック、フィードのような単語は例外です。これらは一般的に翻訳が難しい専門用語であり、多くの翻訳者は英語のままにしています。
 
 <!--
 ### Read other software's localizations in your language
@@ -364,7 +364,7 @@ Some amount of terminology is to be expected in a blog, but refrain from using c
 If you get stuck or need direction, try reading through the translations of other popular software tools to get a feel for what terms are commonly used, how formality is addressed, etc. Of course, WordPress has its own tone and feel, so keep that in mind when you're reading other localizations, but feel free to dig up UI terms and the like to maintain consistency with other software in your language.
 -->
 
-行き詰まったり、指示が必要な場合は、他の一般的なソフトウェアツールの翻訳を読んでみて、どのような用語が一般的に使用されているか、どのようにフォーマルな表現が使われているか、などの感覚をつかんでください。もちろん、WordPress には独自のトーンやフィールがあるので、他のローカライゼーションを読むときは、それを念頭に置くが、あなたの言語の他のソフトウェアとの一貫性を保つために、UI 用語などを自由に掘り起こしてください。
+行き詰まったり、指示が必要な場合は、他の一般的なソフトウェアツールの翻訳を読んでみて、どのような用語が一般的に使用されているか、どのようにフォーマルな表現が使われているか、などの感覚をつかんでください。もちろん、WordPress には独自のトーンやフィールがあるので、他のローカライゼーションを読むときは、それを念頭に置きますが、あなたの言語の他のソフトウェアとの一貫性を保つために、UI 用語などを自由に掘り起こしてください。
 
 <!--
 ## Using Localizations

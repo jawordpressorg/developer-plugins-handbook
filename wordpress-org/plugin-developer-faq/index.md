@@ -683,7 +683,7 @@ Yes! However you either have to keep the non-minified in your plugin _or_ direct
 It's fine to minify, but it's not okay to hide it. All code must be human readable for inclusion in this directory.
 -->
 
-minify 化するのはかまわないが、隠すのは駄目です。このディレクトリに入れるコードは、すべて人間が読めるものでなければなりません。
+minify 化するのはかまいませんが、隠すのは駄目です。このディレクトリに入れるコードは、すべて人間が読めるものでなければなりません。
 
 <!--
 ## Your WordPress.Org Page
@@ -1067,7 +1067,7 @@ If you're combining multiple services (a payment gateway to a popular ecommerce 
 Currently yes, but you shouldn't. It's incredibly redundant and doesn't actually help your SEO in any way, shape, or form. We already put WordPress _and_ Plugin in your page title.
 -->
 
-現在のところはイエスだが、そうすべきではありません。これは信じられないほど冗長であり、実際にはどのような形であれ SEO の役には立ちません。私たちはあなたのページのタイトルにすでに WordPress 「と」 Plugin を入れています。
+現在のところはイエスですが、そうすべきではありません。これは信じられないほど冗長であり、実際にはどのような形であれ SEO の役には立ちません。私たちはあなたのページのタイトルにすでに WordPress 「と」 Plugin を入れています。
 
 <!--
 ### Should I use the trademark or registered symbol in my plugin name?

@@ -126,7 +126,7 @@ While custom sections are permitted and supported, please use them in moderation
 While most of the readme details are self evident, there are a few sections that trip people up.
 -->
 
-Readme の詳細のほとんどは自明だが、人々を引っ掛ける箇所がいくつかあります。
+Readme の詳細のほとんどは自明ですが、人々を引っ掛ける箇所がいくつかあります。
 
 <!--
 ### How The Readme Is Parsed

@@ -137,7 +137,7 @@ add_filter( 'the_excerpt', 'wporg_modify_content' );
 Some hooks are called multiple times in the course of execution, but you may only want your callback function to run once.
 -->
 
-フックの中には実行の過程で何度も呼び出されるものもあるが、コールバック関数は一度だけ実行させたい場合もあるでしょう。
+フックの中には実行の過程で何度も呼び出されるものもありますが、コールバック関数は一度だけ実行させたい場合もあるでしょう。
 
 <!--
 In this situation, you can check how many times the hook has run with the [`did_action()`](https://developer.wordpress.org/reference/functions/did_action/).
