@@ -95,7 +95,7 @@ Best practices for developing shortcodes include the [plugin development best pr
 - Provide users with clear documentation on all shortcode attributes.
 -->
 
-- **いつも return を戻して !** ショートコードは基本的にフィルターですので、「[副作用](https://en.wikipedia.org/wiki/Side_effect_(computer_science))」を作ると予期せぬバグにつながります。
+- **常に return を実行しましょう !** ショートコードは基本的にフィルターですので、「[副作用](https://en.wikipedia.org/wiki/Side_effect_(computer_science))」を作ると予期せぬバグにつながります。
 - 他のプラグインとの衝突を避けるために、ショートコード名に接頭辞をつけましょう。
 - 入力をサニタイズし、出力をエスケープしましょう。
 - すべてのショートコード属性に関して明確なドキュメントをユーザーに提供しましょう。
