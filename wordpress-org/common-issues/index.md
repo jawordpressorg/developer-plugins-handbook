@@ -14,7 +14,7 @@ This is a compilation of some of the most common issues the Plugin Review Team e
 This list contains excerpts from the team's email messages, and should not be considered a complete or exhaustive list; the outcome of the reviews depends on the manual review performed by the team.
 -->
 
-このリストは、チームの E メールメッセージからの抜粋であり、完全または網羅的なリストとみなしてはいけません; レビューの結果は、チームによる手動レビューに依存します。
+このリストは、チームの E メールメッセージからの抜粋であり、完全または網羅的なリストとみなしてはいけません。レビューの結果は、チームによる手動レビューに依存します。
 
 <!--
 ## Security
@@ -38,7 +38,7 @@ This list contains excerpts from the team's email messages, and should not be co
 When you include POST/GET/REQUEST/FILE calls in your plugin, it's important to sanitize, validate, and escape them. The goal here is to prevent a user from accidentally sending trash data through the system, as well as protecting them from potential security issues. 
 -->
 
-POST/GET/REQUEST/FILE 呼び出しをプラグインに搭載する場合、それらをサニタイズ、検証、エスケープすることが重要です。ここでの目的は、ユーザーが誤ってシステムを通してゴミのようなデータを送信するのを防ぐことと、潜在的なセキュリティの課題からユーザーを守ることです。
+POST/GET/REQUEST/FILE 呼び出しをプラグインに搭載する場合、それらをサニタイズ、検証、エスケープすることが重要です。ここでの目的は、ユーザーが誤ってシステムを通して不要なようなデータを送信するのを防ぐことと、潜在的なセキュリティの課題からユーザーを守ることです。
 
 <!--
 SANITIZE: Data that is input (either by a user or automatically) must be sanitized as soon as possible. This lessens the possibility of XSS vulnerabilities and MITM attacks where posted data is subverted. 
@@ -196,7 +196,7 @@ Much related to sanitizing everything, all variables that are echoed need to be 
 At this time, we ask you escape **all $-variables, options, and any sort of generated data when it is being echoed**. That means you should not be escaping when you build a variable, but when you output it at the end. We call this 'escaping late.'
 -->
 
-このとき、**echo する際、すべての$変数、オプション、生成されたあらゆる種類のデータ** をエスケープしてください。つまり、変数を構築するときにエスケープするのではなく、最後に出力するときにエスケープしてください。これを「遅れてエスケープ」と表現します。
+このとき、**echo する際、すべての$変数、オプション、生成されたあらゆる種類のデータ** をエスケープしてください。つまり、変数を構築するときにエスケープするのではなく、最後に出力するときにエスケープしてください。これを「遅れてエスケープする」と表現します。
 
 <!--
 Besides protecting yourself from a possible XSS vulnerability, escaping late makes sure that you're keeping the future you safe. While today your code may be only outputted hardcoded content, that may not be true in the future. By taking the time to properly escape **when** you echo, you prevent a mistake in the future from becoming a critical security issue.
@@ -400,7 +400,7 @@ echo esc_html(sanitize_text_field($_POST['example']));
 When plugins use `move_uploaded_file(), they exclude their uploads from the built-in checks and balances with WordPress's functions. Instead of that, you should use the built in function:
 -->
 
-プラグインで `move_uploaded_file()` を使用すると、アップロードは組込みチェック機能や、WordPress 関数とのバランスが取られません。代わりに、内蔵関数を使用してください:
+プラグインで `move_uploaded_file()` を使用すると、アップロードは組込みチェック機能や、WordPress 関数とのバランスが取られません。代わりに、組み込み関数を使用してください:
 
 [https://developer.wordpress.org/reference/functions/wp_handle_upload/](https://developer.wordpress.org/reference/functions/wp_handle_upload/)
 
@@ -838,7 +838,7 @@ Also WordPress explicitly sets and expects the default timezone to be UTC (in se
 While error_reporting() is a great tool in PHP ( [https://www.php.net/manual/en/function.error-reporting.php](https://www.php.net/manual/en/function.error-reporting.php) ) but if you set it permanently in your plugin, you mess things up for everyone who uses your code. Should they have a reason to try to debug their site which happens to use your code, they won't be able to get a clean test because you're messing with the output. It has no place in the day to day function of your plugin.
 -->
 
-`error_reporting()` は、PHP のすばらしいツールです ( [https://www.php.net/manual/ja/function.error-reporting.php](https://www.php.net/manual/ja/function.error-reporting.php) ) が、これをプラグインに恒久的に設定すると、あなたのコードを使うすべての人に迷惑をかけることになります。仮に、あなたのコードが使われているサイトをデバッグしようとしても、ゴミが出力されるためにクリーンなテストを実行できません。プラグインの日常的な利用で error_reportig() を使用する場面はありません。
+`error_reporting()` は、PHP のすばらしいツールです ( [https://www.php.net/manual/ja/function.error-reporting.php](https://www.php.net/manual/ja/function.error-reporting.php) ) が、これをプラグインに恒久的に設定すると、あなたのコードを使うすべての人に迷惑をかけることになります。仮に、あなたのコードが使われているサイトをデバッグしようとしても、余計なものが出力されるためにクリーンなテストを実行できません。プラグインの日常的な利用で error_reportig() を使用する場面はありません。
 
 <!--
 ### Plugin standards
@@ -1287,7 +1287,7 @@ It is also not allowed to interfere with the user's actions when activating or d
 WordPress 6.5 introduces [Plugin Dependencies](https://make.wordpress.org/core/2024/03/05/introducing-plugin-dependencies-in-wordpress-6-5/), you can use it to manage dependencies (although it's fine if you use this as a fallback).
 -->
 
-WordPress 6.5で [Plugin Dependencies](https://make.wordpress.org/core/2024/03/05/introducing-plugin-dependencies-in-wordpress-6-5/) が導入され、依存関係の管理に使えるようになりました (これを、機能や性能を制限して動かす、フォールバックとして利用する分には、かまいませんが)。
+WordPress 6.5で [Plugin Dependencies](https://make.wordpress.org/core/2024/03/05/introducing-plugin-dependencies-in-wordpress-6-5/) が導入され、依存関係の管理に使えるようになりました (ただし、機能や性能を制限して動かすフォールバックとして利用する分にはかまいません)。
 
 <!--
 ### Update checker
