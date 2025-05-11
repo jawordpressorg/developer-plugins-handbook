@@ -140,7 +140,7 @@ If you feel your plugin has a large enough user base or the issue is of great si
 ### Can I include changes besides the security related ones for automated updates?
 -->
 
-### 自動アップデートの対象に、セキュリティ関連以外の変更を含めることは可能 ?
+### 自動アップデートの対象に、セキュリティ関連以外の変更を含めることは可能ですか ?
 
 <!--
 With few exceptions, no. A security push should _only_ be security related. We prefer (and many times require) plugin releases which fix **only** the security issue, with minimal code changes and with no unrelated changes.
@@ -158,7 +158,7 @@ This allows everyone to review the changes quickly and to be far more confident 
 ### Why did plugin A get a automatic update, but plugin B didn't?
 -->
 
-### プラグイン A には自動アップデートが適用され、プラグイン B には適用されないのは、なぜ ?
+### プラグイン A には自動アップデートが適用され、プラグイン B には適用されないのはなぜですか ?
 
 <!--
 It's not bias from WordPress.org, it's just a throwback to the manual process we've been using. If we're alerted to an issue, we'll work to handle it. If we find out several days later, the window of opportunity to get the fix rolled out has usually passed and it won't be as effective.
@@ -194,7 +194,7 @@ You don't have to. Your plugin will remain closed and, after 2 or 3 months, the 
 ### Do I only have to fix the reported issue?
 -->
 
-### 報告された課題だけを修正すればいい ?
+### 報告された課題だけを修正すればいいですか ?
 
 <!--
 Yes and no. You _do_ have to fix the issues reported, but when you're done, the _entire_ plugin is re-reviewed, and if more issues are found, you'll be required to fix those as well. The ultimate goal is to make sure the reopened plugin is safe.
