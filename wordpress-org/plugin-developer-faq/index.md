@@ -56,7 +56,7 @@ Please take a look at [this handbook page](https://make.wordpress.org/plugins/ha
 ### Where do I submit my plugin?
 -->
 
-### 私のプラグインは、どこに申請すればいいの ?
+### 私のプラグインは、どこに申請すればいいですか ?
 
 <!--
 Go to the [Add](https://wordpress.org/plugins/developers/add/) page and upload your file. You should make sure that:
@@ -96,7 +96,7 @@ Double check that you aren't including unused files (like test folders, document
 ### What happens after submission?
 -->
 
-### 申請後は、どうなるの ?
+### 申請後は、どうなりますか ?
 
 <!--
 You will get an automated email telling you about the submission immediately. It will be queued, and as soon as we get to it, we will manually download and review your code. If we find no issues with the security, documentation, or presentation, your plugin will be approved. If we determine there are issues, you will receive a second email with details explaining what needs to be fixed.
@@ -108,7 +108,7 @@ You will get an automated email telling you about the submission immediately. It
 ### What will my plugin permalink (slug) be?
 -->
 
-### 私のプラグインのパーマリンク (スラッグ) は、何になるの ?
+### 私のプラグインのパーマリンク (スラッグ) は、何になりますか ?
 
 <!--
 When you submit a plugin, you get an automated email telling you what the slug will be. This is populated based on the value of your Plugin Name in your main plugin file (the one with the plugin headers).
@@ -281,7 +281,7 @@ How we will know that you are the official organization? Because of your email a
 ### What if I submitted the plugin with the wrong user ID?
 -->
 
-### 間違ったユーザー ID でプラグインを申請したら、どうなるの ?
+### 間違ったユーザー ID でプラグインを申請したら、どうなりますか ?
 
 <!--
 Just reply to the email right away and let us know. We can transfer ownership for you. If you forget to do this, you can fix it yourself by [adding the correct account as a committer](#how-do-i-give-someone-else-access-to-my-plugin) and then having that account remove your own.
@@ -299,7 +299,7 @@ Just reply to the email right away and let us know. We can transfer ownership fo
 ### How long does it take to get a plugin approved?
 -->
 
-### プラグインの承認には、どのくらい時間がかかるの ?
+### プラグインの承認には、どのくらい時間がかかりますか ?
 
 <!--
 There's no official average, as no two plugins are the same. If your plugin is small and all the code is correct, it should be approved within **fourteen** days of _initial review_.
@@ -317,7 +317,7 @@ If your plugin has any code issues, it will take as long as it takes for you to 
 ### I sent in the fixes but no one replied. How long should I wait?
 -->
 
-### 修正を送ったのだけど、誰も返信してくれない。どのくらい待てばいいの ?
+### 修正を送ったのだけど、誰も返信してくれない。どのくらい待てばいいですか ?
 
 <!--
 We aim to reply to all reviews within ten (10) business days. If it's been less than that, it just means we've been really busy. If it's been two days, like over a weekend or a holiday, then you should not **reasonably** expect a reply.
@@ -335,7 +335,7 @@ Remember the review team is made up of 100% volunteers, all of whom have full ti
 ### If my plugin has a problem, how long do I have to fix it?
 -->
 
-### 私のプラグインに問題があった場合、どのくらいで修正する必要があるの ?
+### 私のプラグインに問題があった場合、どのくらいで修正する必要がありますか ?
 
 <!--
 There's no timeline and as long as we know you're working on it and we feel you're making progress, we'll leave the review open. Your plugin will be rejected after 3 months, but the review will remain open.
@@ -347,7 +347,7 @@ There's no timeline and as long as we know you're working on it and we feel you'
 ### Why was my plugin rejected after three months?
 -->
 
-### 私のプラグインは、なぜ3ヵ月後にリジェクトされたの ?
+### 私のプラグインは、なぜ3ヵ月後にリジェクトされたのですか ?
 
 <!--
 If your plugin review is not complete after three (3) months, we will reject your submission in order to keep the queue maintainable. At any point in time, we have 700 people mid-review, and we figure that 3 months is a pretty reasonable time frame.
@@ -359,7 +359,7 @@ If your plugin review is not complete after three (3) months, we will reject you
 ### I finally fixed my plugin. Should I resubmit?
 -->
 
-### やっとプラグインを修正しました。再申請すべき ?
+### やっとプラグインを修正しました。再申請すべきですか ?
 
 <!--
 If your plugin was rejected after three months, submit it again and reply to the email so we are aware that you wanna continue a previous unfinished review. Even if it's been 18 months. The longest time to date has been 3 years. We don't mind if it takes a while.
@@ -377,7 +377,7 @@ If your plugin was rejected after three months, submit it again and reply to the
 ### How many plugins can I submit for review at a time?
 -->
 
-### 一度に何個のプラグインを、レビューに申請できるの ?
+### 一度に何個のプラグインを、レビューに申請できますか ?
 
 <!--
 Generally, just one. If you're a plugin author with more than one million active plugin installations, we understand that you have more ongoing projects, so you would have a different limit of up to 10 plugin submissions at the same time.
@@ -389,7 +389,7 @@ Generally, just one. If you're a plugin author with more than one million active
 ### Why can't I submit more than one plugin at a time?
 -->
 
-### 一度に複数のプラグインを申請できないのは、なぜ ?
+### 一度に複数のプラグインを申請できないのは、なぜですか ?
 
 <!--
 Allowing people to have multiple submissions at once was proven to be detrimental to the review process. Errors were regularly found in all the plugins, resulting in the same emails being sent multiple times. In addition, people often got confused as to which review they were working on, muddying the waters about what needed to be solved. By changing this to one-at-a-time, confusion in those matters dropped significantly.
@@ -413,7 +413,7 @@ Since all plugins get an initial review within four weeks, this should not be a 
 ### Can I submit multiple plugins with multiple accounts?
 -->
 
-### 複数のアカウントで複数のプラグインを申請できるの ?
+### 複数のアカウントで複数のプラグインを申請できますか ?
 
 <!--
 No. And if you do so, we will suspend all your secondary accounts. Don't try to get around the one-at-a-time rule please.
@@ -425,7 +425,7 @@ No. And if you do so, we will suspend all your secondary accounts. Don't try to 
 ### I need my plugin approved by a specific date, what should I do?
 -->
 
-### 特定の期日までに、プラグインを承認してほしいのですが。どうすればいい ?
+### 特定の期日までに、プラグインを承認してほしいのですが、どうすればいいですか ?
 
 <!--
 Submit it as early as possible. Unless the plugin is meant to address a security or legal issue, we don't permit queue jumping. If it _is_ related to one of those, please email `plugins@wordpress.org` and explain the situation.
@@ -437,7 +437,7 @@ Submit it as early as possible. Unless the plugin is meant to address a security
 ### Are there specific things that I should avoid doing?
 -->
 
-### 特に避けたほうがいいことは、あるの ?
+### 特に避けたほうがいいことは、ありますか ?
 
 <!--
 We look for some pretty obvious things, all of which are listed [in our guidelines](https://developer.wordpress.org/plugins/wordpress-org/detailed-plugin-guidelines/). Most can be summed up as "Don't be a spammer," but to touch on the ones people do the most:
@@ -471,7 +471,7 @@ Again, this is a brief overview. Please read the guidelines, as the full list is
 ### Are there plugins you don't accept?
 -->
 
-### 受け付けないプラグインは、あるの ?
+### 受け付けないプラグインは、ありますか ?
 
 <!--
 We don't accept plugins that do 'nothing,' are illegal, or encourage bad behavior. This includes black hat SEO spamming, content spinners, hate-plugins, and so on.
@@ -507,7 +507,7 @@ No, you should rewrite and upgrade the existing plugin. Make it a major version 
 ### I made a mistake with my submission. How can I fix it?
 -->
 
-### 私の申請で間違いがありました。どうすれば直せるの ?
+### 私の申請で間違いがありました。どうすれば直せますか ?
 
 <!--
 You can update your plugin files from the submission page at any time.
@@ -537,7 +537,7 @@ Regarding slugs if you need further changes, you'll need to contact us. We also 
 ### Are there things I can't do in a plugin name?
 -->
 
-### プラグイン名で、できないことはあるの ?
+### プラグイン名で、できないことはありますか ?
 
 <!--
 We have the following restrictions:
@@ -575,7 +575,7 @@ We encourage everyone to be creative and come up with unique slugs. We automatic
 ### Where do I put my files?
 -->
 
-### 自分のファイルは、どこに置けばいいの ?
+### 自分のファイルは、どこに置けばいいですか ?
 
 <!--
 Put your code files directly in the `trunk/` directory of your repository. Whenever you release a new version, [tag that release](https://developer.wordpress.org/plugins/wordpress-org/how-to-use-subversion/#task-3) by copying the current trunk revision to a new subdirectory of the `tags/` directory.
@@ -599,7 +599,7 @@ readme 用の画像 ( [スクリーンショット、プラグイン・ヘッダ
 ### Can I put my files in a subdirectory of trunk/?
 -->
 
-### trunk/ のサブディレクトリに、自分のファイルを置いてもいいの ?
+### trunk/ のサブディレクトリに、自分のファイルを置いてもいいですか ?
 
 <!--
 No. Doing that will cause the zip generator to break.
@@ -617,7 +617,7 @@ If you have complicated plugin with lots of files, you can of course organize th
 ### How should I name my tags (a.k.a. releases)?
 -->
 
-### タグ (いわゆる、リリース) には、どのような名前をつければいいの ?
+### タグ (いわゆる、リリース) には、どのような名前をつければいいですか ?
 
 <!--
 Your Subversion tags should look like version numbers. Specifically, they should only contain **numbers and periods**. `2.8.4` is a good lookin' tag, `my neato releaso` is a bad lookin' tag. We recommend you use [Semantic Versioning](https://semver.org) to keep track of releases, but we do not enforce this.
@@ -635,7 +635,7 @@ Note that we're talking about _Subversion_ tags here, not `readme.txt` search ty
 ### How many old releases should I keep in SVN?
 -->
 
-### SVN には、古いリリースをどれくらい残しておくべき ?
+### SVN には、古いリリースをどれくらい残しておくべきですか ?
 
 <!--
 As few as possible. Very rarely does anyone need your old code in the release repository. Remember, SVN is **not** meant for your code versioning. You can use Github for stuff like that. SVN should have your current release versions, but you don't need all the minor releases to all the previous versions. Just the last one or two for them is good.
@@ -647,7 +647,7 @@ As few as possible. Very rarely does anyone need your old code in the release re
 ### Can I include SVN externals in my plugin?
 -->
 
-### 自分のプラグインに、SVN 外部参照を含めることはできる ?
+### 自分のプラグインに、SVN 外部参照を含めることはできますか ?
 
 <!--
 No. You can add [svn externals](https://svnbook.red-bean.com/en/1.0/ch07s03.html) to your repository, but they won't get added to the downloadable zip file.
@@ -659,7 +659,7 @@ No. You can add [svn externals](https://svnbook.red-bean.com/en/1.0/ch07s03.html
 ### Can I put zips and other compressed files in my plugin?
 -->
 
-### 自分のプラグインに、zip などの圧縮ファイルを入れることはできる ?
+### 自分のプラグインに、zip などの圧縮ファイルを入れることはできますか ?
 
 <!--
 No.
@@ -671,7 +671,7 @@ No.
 ### Can I include minified JS?
 -->
 
-### minify 化 JavaScript を含めることはできる ?
+### minify 化 JavaScript を含めることはできますか ?
 
 <!--
 Yes! However you either have to keep the non-minified in your plugin _or_ direct people via your readme as to where they can get the non-minified files.
@@ -695,7 +695,7 @@ minify 化するのはかまいませんが、隠すのは駄目です。この�
 ### When does my plugin go 'live'?
 -->
 
-### 私のプラグインは、いつ「公開」されるの ?
+### 私のプラグインは、いつ「公開」されますか ?
 
 <!--
 As soon as you push code to the SVN folders, your plugin will be live. **DO NOT** push code if you're not ready, as there's no 'off' switch except to [close the plugin](#closed-plugins). As closing a plugin is permanent, we recommend you not push code until you're ready to go live.
@@ -707,7 +707,7 @@ SVN フォルダーにコードをプッシュすると、すぐにプラグイ�
 ### Where does the WordPress.org Plugin Directory get its data?
 -->
 
-### WordPress.org プラグイン・ディレクトリは、どこからデータを取得しているの ?
+### WordPress.org プラグイン・ディレクトリは、どこからデータを取得していますか ?
 
 <!--
 From the information you specify in the plugin file and in the [readme.txt file](https://wordpress.org/plugins/developers/#readme), and from the Subversion repository itself. Read [about how the readme.txt works](https://developer.wordpress.org/plugins/wordpress-org/how-your-readme-txt-works/) for more information.
@@ -725,7 +725,7 @@ You should also make full use of the [Plugin Headers](https://developer.wordpres
 ### Can I specify what version of my plugin the WordPress.org Plugin Directory should use?
 -->
 
-### WordPress.org プラグイン・ディレクトリで使用するプラグインのバージョンを指定できるの ?
+### WordPress.org プラグイン・ディレクトリで使用するプラグインのバージョンを指定できますか ?
 
 <!--
 Yes, by specifying the `Stable Tag` field in your trunk directory's [readme.txt file](https://wordpress.org/plugins/developers/#readme).
@@ -743,7 +743,7 @@ We ask you **not** use 'trunk' as your stable tag, as that makes rollbacks more 
 ### What version of WordPress should the "Tested Up To" value be?
 -->
 
-### 「Tested Up To (テスト済)」の値は、WordPress のどのバージョンにすべき ?
+### 「Tested Up To (テスト済)」の値は、WordPress のどのバージョンにすべきですか ?
 
 <!--
 Logically, whatever version you tested up to. However, never go above the current release candidate. If there is none, don't go above the active version. So if WordPress' stable release is 6.0.9, you can use 6.0 to 6.0.9 and everything will be fine. If there is a release of 6.1-RC then you may use 6.1, however you can go no higher.
@@ -761,7 +761,7 @@ Do not attempt to be clever and use 6.5 or 7. This will result in errors on your
 ### Do I need to release a new version of my plugin every time I update the readme?
 -->
 
-### readme を更新するたびに、プラグインの新バージョンをリリースする必要があるの ?
+### readme を更新するたびに、プラグインの新バージョンをリリースする必要がありますか ?
 
 <!--
 No. If you're only making cosmetic changes to the readme or your icons/headers, you _do not_ need to release a new version. Just make sure you update the trunk and tag folders.
@@ -773,7 +773,7 @@ No. If you're only making cosmetic changes to the readme or your icons/headers, 
 ### Do I need to release a new version of my plugin every time I update the code?
 -->
 
-### コードを更新するたびに、新しいバージョンのプラグインをリリースする必要があるの ?
+### コードを更新するたびに、新しいバージョンのプラグインをリリースする必要がありますか ?
 
 <!--
 Yes. Otherwise no one gets updated.
@@ -785,7 +785,7 @@ Yes. Otherwise no one gets updated.
 ### What should be in my changelog?
 -->
 
-### changelog (変更履歴) には何を書くべき ?
+### changelog (変更履歴) には何を書くべきですか ?
 
 <!--
 A changelog is a log or record of all or all notable changes made to your plugin, including records of changes such as bug fixes, new features, etc. If you need help formatting your changelogs, we recommend [Keep A Changelog](https://keepachangelog.com/en/1.1.0/) as that's the format used by many products out there.
@@ -797,7 +797,7 @@ changelog (変更履歴) とは、バグ修正や新機能などの変更履歴�
 ### How many versions should I keep in my changelog?
 -->
 
-### 変更履歴には、いくつのバージョンを残すべき ?
+### 変更履歴には、いくつのバージョンを残すべきですか ?
 
 <!--
 Always keep the current major release in your change log. For example, if your current version is 3.9.1, you'll want that and 3.9 in the change log. Older versions should be removed and migrated to a `changelog.txt` file. That will allow them to be accessible to users, while keeping your readme shorter and more pertinent. At most, keep the most recent version of your plugin and one major version back in your readme's changelog. Your `changelog.txt` will **not** be visible within the WordPress.org Plugin Directory, but that's okay. Most users just want to know what's new.
@@ -851,7 +851,7 @@ WordPress.org プラグイン・ディレクトリは、数分ごとに更新さ
 ### How do I make one of those cool banners for my plugin page?
 -->
 
-### プラグインページのための、クールなバナーは、どうすれば作れるの ?
+### プラグインページのための、クールなバナーは、どうすれば作れますか ?
 
 <!--
 You can make your own [plugin headers](https://developer.wordpress.org/plugins/wordpress-org/plugin-assets/#plugin-headers) by uploading the correctly named files into the `assets` folder. Read [about plugin headers](https://developer.wordpress.org/plugins/wordpress-org/plugin-assets/#plugin-headers) for more information.
@@ -875,7 +875,7 @@ You can make your own [plugin icons](https://developer.wordpress.org/plugins/wor
 ### Can I use official logos in my plugin banner/icons?
 -->
 
-### プラグインのバナーやアイコンに、公式ロゴを使用できるの ?
+### プラグインのバナーやアイコンに、公式ロゴを使用できますか ?
 
 <!--
 Usually no.
@@ -1265,7 +1265,7 @@ Email `plugins@wordpress.org` and ask to please have your plugin reopened. Howev
 ### Why won't it let me close my own plugin?
 -->
 
-### 私のプラグインを、なぜクローズできないの ?
+### 私のプラグインを、なぜクローズできないのですか ?
 
 <!--
 Assuming you're logged in as the correct account, it's probably because you have too many users. If your plugin has more than 10,000 users, you will need to email `plugins@wordpress.org` and request for us to close it.
@@ -1277,7 +1277,7 @@ Assuming you're logged in as the correct account, it's probably because you have
 ### Can I temporarily close my plugin?
 -->
 
-### 私のプラグインを、一時的にクローズできるの ?
+### 私のプラグインを、一時的にクローズできるますか ?
 
 <!--
 No.
@@ -1307,7 +1307,7 @@ If this is for a brand new plugin, you should just call it a 'public beta' so pe
 ### What happens when a plugin is closed?
 -->
 
-### プラグインがクローズされると、どうなるの ?
+### プラグインがクローズされると、どうなりますか ?
 
 <!--
 When a plugin is closed, the page shows as closed and the zips are no longer generated. No one will be able to download the plugin via the website, nor will they be able to install it via the WordPress admin. The SVN repository will remain accessible to allow others to download and fork the code if desired, per the tenets of the directory.
@@ -1325,7 +1325,7 @@ After 60 days, the closure message will change to alert people as to _why_ it wa
 ### Why was my plugin closed?
 -->
 
-### 私のプラグインは、なぜクローズされたの ?
+### 私のプラグインは、なぜクローズされたのですか ?
 
 <!--
 Plugins are closed for guideline violations, security issues, or by author requests. In the case of active issues (such as copyright infringement, abuse, and security), all accounts with commit access to a plugin are notified.
@@ -1343,7 +1343,7 @@ If a plugin has never been used within 6 months (i.e. no code has been pushed to
 ### Why was someone else's plugin closed?
 -->
 
-### あのプラグインは、なぜクローズされたの ?
+### あのプラグインは、なぜクローズされたのですか ?
 
 <!--
 As of 2017, plugin closure reasons are tracked in the plugin database. Sixty days after a plugin is closed, the reason for the closure will be made public:
@@ -1367,7 +1367,7 @@ Please note: We do not publicly disclose the details on exactly why a plugin has
 ### Can I get someone else's plugin closed?
 -->
 
-### 他人のプラグインを、クローズしてもらうことはできるの ?
+### 他人のプラグインを、クローズしてもらうことはできますか ?
 
 <!--
 If you report an [security issue](https://developer.wordpress.org/plugins/wordpress-org/plugin-security/reporting-plugin-security-issues/) or a [guideline violation](https://developer.wordpress.org/plugins/wordpress-org/detailed-plugin-guidelines/) in a plugin to `plugins@wordpress.org`, we will review and take appropriate action. Most of the time, this involves closing a plugin. Your name will not be disclosed unless you ask for it to be so, in order to protect you from backlash.
@@ -1379,7 +1379,7 @@ If you report an [security issue](https://developer.wordpress.org/plugins/wordpr
 ### Someone posted a copy of my plugin! What do I do?
 -->
 
-### 私のプラグインのコピーを誰かが投稿した ! どうすればいい ?
+### 私のプラグインのコピーを誰かが投稿しました ! どうすればいいですか ?
 
 <!--
 Email `plugins@wordpress.org` with a link to the stolen plugin. Include either a link to where we can download yours or attach the zip. We will compare the two files, as well as all the coding history we have, to determine if the plugin is, indeed, theft, or just an uncredited fork.
@@ -1397,7 +1397,7 @@ Keep in mind, if you licensed your plugin as GPLv2 or later, then it's perfectly
 ### What do I do if someone copied some of my code and didn't credit me?
 -->
 
-### もし誰かが私のコードをコピーし、クレジットをくれなかった場合、どうすればいい ?
+### もし誰かが私のコードをコピーし、クレジットをくれなかった場合、どうすればいいですか ?
 
 <!--
 Email `plugins@wordpress.org` right away! **Especially** if your code was non-GPL. While we do permit people to fork other plugins and include that code in their own plugins, it must be credited at all times. Copyright and credits are a requirement.
@@ -1451,7 +1451,7 @@ Email `plugins@wordpress.org` a clear and concise description of the issue. [Ple
 ### Do you provide bounties for finding bugs in a plugin?
 -->
 
-### プラグインのバグを発見した場合、報奨金は出るの ?
+### プラグインのバグを発見した場合、報奨金は出ますか ?
 
 <!--
 No. We have no relationship with any bug bounty programs, so we don't file your reports etc to them. The only one with which we work is [hackerone.com/automattic](https://hackerone.com/automattic) and that's for bugs related to Automattic properties. Everything else is on your own, don't ask us to submit things.
@@ -1499,7 +1499,7 @@ _すべての_ プラグインを復活させるには、現在の標準とセ�
 ### Why was my plugin closed when it was my employee/co-worker who violated guidelines?
 -->
 
-### ガイドラインに違反したのは私の従業員/同僚なのに、私のプラグインがなぜクローズされたの ?
+### ガイドラインに違反したのは私の従業員/同僚なのに、私のプラグインがなぜクローズされたのですか ?
 
 <!--
 Everyone who represents a plugin, from support tech to developer, is the responsibility of the plugin owner. If they violate the guidelines egregiously, then the owners are expected to accept those consequences and correct course. When that doesn't happen, plugins get closed. We notify the plugin owners in these cases and explain why and do our best to keep plugins open.

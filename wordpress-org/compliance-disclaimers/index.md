@@ -38,7 +38,7 @@ In order to make this more clear to site administrators, we recommend that plugi
 ## What do I need to do?
 -->
 
-## どうすればいいの ?
+## どうすればいいですか ?
 
 <!--
 tl;dr: Update your readme, documentation, assets (banners, screenshots, etc), and descriptions to clearly state that your plugin is meant to **assist** in compliance.
