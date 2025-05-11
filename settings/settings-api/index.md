@@ -62,7 +62,7 @@ API を使ってインターフェース要素を生成すれば、設定ペー�
 Since the API is part of WordPress Core, any updates will automatically consider your plugin's settings page. If you make your own interface without using Setting API, WordPress Core updates are more likely to break your customizations. There is also a wider audience testing and maintaining that API code, so it will tend to be more stable.
 -->
 
-API は WordPress Core の一部ですので、アップデートがあればプラグインの設定ページも自動的に考慮されます。設定 API を使わずに独自のインターフェースを作成した場合、WordPress Core のアップデートによってカスタマイズが壊れる可能性が高くなります。また、その API コードをテストし、保守している多くのユーザーがいるため、より安定している傾向があります。
+API は WordPress コアの一部ですので、アップデートがあればプラグインの設定ページも自動的に考慮されます。設定 API を使わずに独自のインターフェースを作成した場合、WordPress コアのアップデートによってカスタマイズが壊れる可能性が高くなります。また、その API コードをテストし、保守している多くのユーザーがいるため、より安定している傾向があります。
 
 <!--
 ### Less Work!

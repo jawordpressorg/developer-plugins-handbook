@@ -14,7 +14,7 @@
 They provide a way for functions to modify data during the execution of WordPress Core, plugins, and themes. They are the counterpart to [Actions](https://developer.wordpress.org/plugins/hooks/actions/).
 -->
 
-WordPress Core、プラグイン、テーマの実行中にデータを修正するための関数を提供します。[アクション](https://ja.wordpress.org/team/handbook/plugin-development/hooks/actions/)と対になるものです。
+WordPress コア、プラグイン、テーマの実行中にデータを修正するための関数を提供します。[アクション](https://ja.wordpress.org/team/handbook/plugin-development/hooks/actions/)と対になるものです。
 
 <!--
 Unlike [Actions](https://developer.wordpress.org/plugins/hooks/actions/), filters are meant to work in an isolated manner, and should never have [side effects](https://en.wikipedia.org/wiki/Side_effect_(computer_science)) such as affecting global variables and output. Filters expect to have something returned back to them.
@@ -83,7 +83,7 @@ You can refer to the [Hooks](https://developer.wordpress.org/plugins/hooks/) cha
 As you gain more experience, looking through WordPress Core source code will allow you to find the most appropriate hook.
 -->
 
-経験を積むにつれ、WordPress Core のソースコードに目を通すことで、最も適切なフックを見つけることができます。
+経験を積むにつれ、WordPress コアのソースコードに目を通すことで、最も適切なフックを見つけることができます。
 
 <!--
 ### Additional Parameters

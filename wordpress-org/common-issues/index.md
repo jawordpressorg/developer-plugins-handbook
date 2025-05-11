@@ -444,7 +444,7 @@ If you need to add a specific file that is not in the list and that won't repres
 Offloading images, js, css, and other scripts to your servers or any remote service (like Google, MaxCDN, jQuery.com etc) is disallowed. When you call remote data you introduce an unnecessary dependency on another site. If the file you're calling isn't a part of WordPress Core, then you should include it -locally- in your plugin, not remotely. If the file IS included in WordPress core, please call that instead.
 -->
 
-画像、js、css、その他のスクリプトをあなたのサーバーやリモートサービス (Google、MaxCDN、jQuery.com など) にオフロードすることは禁止されています。リモートのデータを呼び出すと、他のサイトへの不必要な依存が生じます。呼び出しているファイルが WordPress Core の一部でない場合は、リモートではなく -ローカルで- プラグインに含める必要があります。そのファイルが WordPress Core に含まれているなら、代わりにそれを呼び出してください。
+画像、js、css、その他のスクリプトをあなたのサーバーやリモートサービス (Google、MaxCDN、jQuery.com など) にオフロードすることは禁止されています。リモートのデータを呼び出すと、他のサイトへの不必要な依存が生じます。呼び出しているファイルが WordPress コアの一部でない場合は、リモートではなく -ローカルで- プラグインに含める必要があります。そのファイルが WordPress コアに含まれているなら、代わりにそれを呼び出してください。
 
 <!--
 An exception to this rule is if your plugin is performing a service. We will permit this on a case by case basis. Since this can be confusing we have some examples of what are not permitted:
@@ -602,7 +602,7 @@ $wpdb->query( $wpdb->prepare( "
 There is a core ticket that could make this easier in the future: [https://core.trac.wordpress.org/ticket/54042](https://core.trac.wordpress.org/ticket/54042)
 -->
 
-将来的にこれを容易にする core チケットがあります: [https://core.trac.wordpress.org/ticket/54042](https://core.trac.wordpress.org/ticket/54042)
+将来的にこれを容易にするコアチケットがあります: [https://core.trac.wordpress.org/ticket/54042](https://core.trac.wordpress.org/ticket/54042)
 
 <!--
 ### Not use HEREDOC-NOWDOC
@@ -1156,7 +1156,7 @@ While we do not YET have a decent public facing page to list all these libraries
 [Core Credits](https://meta.trac.wordpress.org/browser/sites/trunk/api.wordpress.org/public_html/core/credits/wp-59.php#L739)
 -->
 
-[Core クレジット](https://meta.trac.wordpress.org/browser/sites/trunk/api.wordpress.org/public_html/core/credits/wp-59.php#L739)
+[コアクレジット](https://meta.trac.wordpress.org/browser/sites/trunk/api.wordpress.org/public_html/core/credits/wp-59.php#L739)
 
 <!--
 It’s fine to locally include add-ons not in core, but please ONLY add those additional files. For example, you do not need the entire jQuery UI library for one file. If your code doesn't work with the built-in versions of jQuery, it's most likely a noConflict issue.
@@ -1192,7 +1192,7 @@ In order to make a string translatable in your plugin you are using a set of spe
 There is a [dedicated team in the WordPress community](https://make.wordpress.org/polyglots/) to translate and help other translating strings of WordPress core, plugins and themes to other languages.
 -->
 
-WordPress core、プラグイン、テーマの文字列の、他の言語への翻訳を支援する [WordPress コミュニティの専任チーム](https://make.wordpress.org/polyglots/) があります。
+WordPress コア、プラグイン、テーマの文字列の、他の言語への翻訳を支援する [WordPress コミュニティの専任チーム](https://make.wordpress.org/polyglots/) があります。
 
 <!--
 To make them be able to translate this plugin, please **do not use variables or function calls** for the text, context or text domain parameters of any gettext function, all of them **NEED to be strings**. Note that the translation parser reads the code without executing it, so it won't be able to read anything that is not a string within these functions.

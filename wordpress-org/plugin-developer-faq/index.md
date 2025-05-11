@@ -489,7 +489,7 @@ Similarly we do not accept framework plugins or library plugins. If your plugin 
 We also don't accept 100% copies of other people's work or plugins that duplicate functionality found in WordPress Core. Basically, your plugin should do something new, or in a new way, or solve a specific issue.
 -->
 
-また、他人の作品の100％コピーや、WordPress Core にある機能を複製したプラグインも、受け付けません。基本的に、あなたのプラグインは何か新しいことをするか、新しい方法でするか、特定の課題を解決する必要があります。
+また、他人の作品の100％コピーや、WordPress コアにある機能を複製したプラグインも、受け付けません。基本的に、あなたのプラグインは何か新しいことをするか、新しい方法でするか、特定の課題を解決する必要があります。
 
 <!--
 ### I want to redo, upgrade, or rebrand my existing plugin. I just submit again, right?

@@ -14,7 +14,7 @@
 Sometimes you want to remove a callback function from a hook that another plugin, theme or even WordPress Core has registered.
 -->
 
-他のプラグインやテーマ、あるいは WordPress Core が登録したフックからコールバック関数を削除したいことがあります。
+他のプラグインやテーマ、あるいは WordPress コアが登録したフックからコールバック関数を削除したいことがあります。
 
 <!--
 To remove a callback function from a hook, you need to call `remove_action()` or `remove_filter()`, depending whether the callback function was added as an Action or a Filter.
