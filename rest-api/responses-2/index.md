@@ -88,7 +88,7 @@ function prefix_get_an_error( $request ) {
 That is kind of a silly example but it touches on some key things. The most important thing to understand is that the WordPress REST API will automatically handle changing the [WP\_Error](https://developer.wordpress.org/reference/classes/wp_error/) object into an HTTP Response containing your data. When you set the status code in the `WP_Error` object your HTTP response status code will take on that value. This comes in really handy when you need to use different error codes like 404 for content that wasn’t found, or 403 for forbidden access. All we have to do is have our endpoint callbacks return a request and the `WP_REST_Server` class will handle a lot of really important things for us.
 -->
 
-これは馬鹿げた例ですが、いくつかの重要なことに触れておきたい。理解すべき最も重要なことは、WordPress REST API は自動的に [WP\_Error](https://developer.wordpress.org/reference/classes/wp_error/) オブジェクトを、あなたのデータを含む HTTP レスポンスに変更する処理を行うということです。`WP_Error` オブジェクトにステータスコードを設定すると、HTTP レスポンスのステータスコードがその値になります。これは、コンテンツが見つからなかった際の404や、アクセスが禁止されている際の403など、さまざまなエラーコードを使い分ける必要がある場合にとても便利です。エンドポイント・コールバックがリクエストを返すようにするだけで、クラス `WP_REST_Server` が本当に重要なことをたくさん処理してくれます。
+これは馬鹿げた例ですが、いくつかの重要なことに触れています。理解すべき最も重要なことは、WordPress REST API は自動的に [WP\_Error](https://developer.wordpress.org/reference/classes/wp_error/) オブジェクトを、あなたのデータを含む HTTP レスポンスに変更する処理を行うということです。`WP_Error` オブジェクトにステータスコードを設定すると、HTTP レスポンスのステータスコードがその値になります。これは、コンテンツが見つからなかった際の404や、アクセスが禁止されている際の403など、さまざまなエラーコードを使い分ける必要がある場合にとても便利です。エンドポイント・コールバックがリクエストを返すようにするだけで、クラス `WP_REST_Server` が本当に重要なことをたくさん処理してくれます。
 
 <!--
 There are other cool things the response class can help us with, like Linking.
