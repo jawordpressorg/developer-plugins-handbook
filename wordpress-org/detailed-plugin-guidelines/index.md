@@ -90,7 +90,7 @@ While we attempt to account for as many relevant interpretations of the guidelin
 ### 1. Plugins must be compatible with the GNU General Public License
 -->
 
-### 1. プラグインは、GNU GPL (General Public License。一般公衆利用許諾契約書) と互換性がなければならない。
+### 1. プラグインは、GNU GPL (General Public License。一般公衆利用許諾契約書) と互換性がなければなりません
 
 <!--
 Although any GPL-compatible license is acceptable, using the same license as WordPress — "GPLv2 or later" — is strongly recommended. All code, data, and images — anything stored in the plugin directory hosted on WordPress.org — must comply with the GPL or a GPL-Compatible license. Included third-party libraries, code, images, or otherwise, must be compatible. For a specific list of compatible licenses, please read the [GPL-Compatible license list](https://www.gnu.org/licenses/license-list.html#GPLCompatibleLicenses) on gnu.org.
@@ -102,7 +102,7 @@ GPL 互換ライセンスであれば何でもかまいませんが、WordPress 
 ### 2. Developers are responsible for the contents and actions of their plugins
 -->
 
-### 2. 開発者は、そのプラグインの内容や動作に責任を負う。
+### 2. 開発者は、そのプラグインの内容や動作に責任を負います
 
 <!--
 It is the sole responsibility of plugin developers to ensure all files within their plugins comply with the guidelines. Intentionally writing code to circumvent guidelines, or restoring code they were asked to remove, is prohibited (see #9 illegal/dishonest actions).
@@ -120,7 +120,7 @@ Developers are expected to confirm, before uploading to SVN, the licensing of al
 ### 3. A stable version of a plugin must be available from its WordPress Plugin Directory page
 -->
 
-### 3. プラグインの安定バージョンは、WordPress プラグイン・ディレクトリのページから入手可能でなければならない。
+### 3. プラグインの安定バージョンは、WordPress プラグイン・ディレクトリのページから入手可能でなければなりません
 
 <!--
 The only version of the plugin that WordPress.org distributes is the one in the directory. Though people may develop their code somewhere else, users will be downloading from the directory, not the development environment.
@@ -138,7 +138,7 @@ Distributing code via alternate methods, while not keeping the code hosted here 
 ### 4. Code must be (mostly) human readable
 -->
 
-### 4. コードは、(ほぼ) 人間が読めるものでなければならない。
+### 4. コードは、(ほぼ) 人間が読めるものでなければなりません
 
 <!--
 Obscuring code by hiding it with techniques or systems similar to `p,a,c,k,e,r`'s obfuscate feature, uglify's mangle, or unclear naming conventions such as `$z12sdf813d`, is not permitted in the directory. Making code non-human readable forces future developers to face an unnecessary hurdle, as well as being a common vector for hidden, malicious code.
@@ -170,7 +170,7 @@ We strongly recommend you document how any development tools are to be used.
 ### 5. Trialware is not permitted
 -->
 
-### 5. トライアルウェア (試用版) は、許可されていない。
+### 5. トライアルウェア (試用版) は許可されていません
 
 <!--
 Plugins may not contain functionality that is restricted or locked, only to be made available by payment or upgrade. Functionality may not be disabled after a trial period or quota is met. In addition, plugins that provide sandbox only access to APIs and services are also trial, or test, plugins and not permitted.
@@ -194,7 +194,7 @@ Attempting to upsell the user on ad-hoc products and features _is_ acceptable, p
 ### 6. Software as a Service is permitted
 -->
 
-### 6. SaaS (Software as a Service。サービスとしてのソフトウェア) は、許可されている。
+### 6. SaaS (Software as a Service。サービスとしてのソフトウェア) は許可されています。
 
 <!--
 Plugins that act as an interface to some external third party service (e.g. a video hosting site) are allowed, even for paid services. The service itself must provide functionality of substance and be clearly documented in the readme file submitted with the plugin, preferably with a link to the service's Terms of Use.
@@ -222,7 +222,7 @@ Services and functionality _not_ allowed include:
 ### 7. Plugins may not track users without their consent
 -->
 
-### 7. プラグインは、ユーザーの同意なしに追跡してはならない。
+### 7. プラグインは、ユーザーの同意なしに追跡することはできません
 
 <!--
 In the interest of protecting user privacy, plugins may not contact external servers without _explicit_ and authorized consent. This is commonly done via an 'opt in' method, requiring registration with a service or a checkbox within the plugin settings. Documentation on how any user data is collected, and used, should be included in the plugin's readme, preferably with a clearly stated privacy policy.
@@ -260,7 +260,7 @@ An exception to this policy is Software as a Service, such as Twitter, an Amazon
 ### 8. Plugins may not send executable code via third-party systems
 -->
 
-### 8. プラグインは、サードパーティのシステムを介して、実行可能コードを送信することはできない。
+### 8. プラグインは、サードパーティのシステムを介して実行可能コードを送信することはできません
 
 <!--
 Externally loading code from documented services is permitted, however all communication must be made as securely as possible. Executing outside code within a plugin when not acting as a service is not allowed, for example:
@@ -292,7 +292,7 @@ Management services that interact with and push software down to a site _are_ pe
 ### 9. Developers and their plugins must not do anything illegal, dishonest, or morally offensive
 -->
 
-### 9. 開発者とそのプラグインは、違法なこと、不正なこと、道徳に反することを行ってはならない。
+### 9. 開発者とそのプラグインは、違法なこと、不正なこと、道徳に反することを行っていけません
 
 <!--
 While this is subjective and rather broad, the intent is to prevent plugins, developers, and companies from abusing the freedoms and rights of end users as well as other plugin developers.
@@ -342,7 +342,7 @@ This includes (but is not restricted to) the following examples:
 ### 10. Plugins may not embed external links or credits on the public site without explicitly asking the user's permission
 -->
 
-### 10. プラグインは、ユーザーの許可を明示的に得ることなく、公開サイトに外部リンクやクレジットを埋め込むことはできない。
+### 10. プラグインは、ユーザーの許可を明示的に得ることなく、公開サイトに外部リンクやクレジットを埋め込むことはできません
 
 <!--
 All "Powered By" or credit displays and links included in the plugin code must be optional and default to _not_ show on users' front-facing websites. Users must opt-in to displaying any and all credits and links via clearly stated and understandable choices, not buried in the terms of use or documentation. Plugins may not require credit or links be displayed in order to function. Services _are_ permitted to brand their output as they see fit, provided the code is handled in the service and not the plugin.
@@ -384,7 +384,7 @@ Developers are welcome and encouraged to include links to their own sites or soc
 ### 12. Public facing pages on WordPress.org (readmes) must not spam
 -->
 
-### 12. WordPress.org の公開ページ (readmes) は、スパムであってはならない。
+### 12. WordPress.org の公開ページ (readmes) は、スパムであってはいけません
 
 <!--
 Public facing pages, including readmes and translation files, may not be used to spam. Spammy behavior includes (but is not limited to) unnecessary affiliate links, tags to competitors plugins, use of over 12 tags total, blackhat SEO, and keyword stuffing.
@@ -414,7 +414,7 @@ In all cases, affiliate links must be disclosed and must directly link to the af
 ### 13. Plugins must use WordPress' default libraries
 -->
 
-### 13. プラグインは、WordPress のデフォルトライブラリを使用しなければならない。
+### 13. プラグインは、WordPress のデフォルトライブラリを使用しなければなりません
 
 <!--
 WordPress includes a number of useful libraries, such as jQuery, Atom Lib, SimplePie, PHPMailer, PHPass, and more. For security and stability reasons plugins may not include those libraries in their own code. Instead plugins must use the versions of those libraries packaged with WordPress.
@@ -432,7 +432,7 @@ WordPress に含まれるすべての JavaScript ライブラリのリストに�
 ### 14. Frequent commits to a plugin should be avoided
 -->
 
-### 14. プラグインへの頻繁なコミットは、避けるべきである。
+### 14. プラグインへの頻繁なコミットは、避けるべきです
 
 <!--
 The SVN repository is a release repository, not a development one. All commits, code or readme files, will trigger a regeneration of the zip files associated with the plugin, so only code that is ready for deployment (be that a stable release, beta, or RC) should be pushed to SVN. Including a descriptive and informative message with each commit is strongly recommended. Frequent 'trash' commit messages like 'update' or 'cleanup' makes it hard for others to follow changes. Multiple, rapid-fire commits that only tweak minor aspects of the plugin (including the readme) cause undue strain on the system and can be seen as gaming Recently Updated lists.
@@ -450,7 +450,7 @@ An exception to this is when readme files are updated solely to indicate support
 ### 15. Plugin version numbers must be incremented for each new release
 -->
 
-### 15. プラグインのバージョン番号は、新規リリースの都度インクリメントしなければならない。
+### 15. プラグインのバージョン番号は、新規リリースの都度インクリメントしなければなりません
 
 <!--
 Users are only alerted to updates when the plugin version is increased. The trunk readme.txt must always reflect the current version of the plugin. For more information on tagging, please read our [SVN directions on tagging](https://developer.wordpress.org/plugins/wordpress-org/how-to-use-subversion/#tags) and [how the readme.txt works](https://developer.wordpress.org/plugins/wordpress-org/how-your-readme-txt-works/).
@@ -462,7 +462,7 @@ Users are only alerted to updates when the plugin version is increased. The trun
 ### 16. A complete plugin must be available at the time of submission
 -->
 
-### 16. 申請時に、完全なプラグインが利用可能であること。
+### 16. 申請時に、完全なプラグインが利用可能であること
 
 <!--
 All plugins are examined prior to approval, which is why a zip file is required. Names cannot be "reserved" for future use or to protect brands (see #17: respect brands). Directory names for approved plugins that are not used may be given to other developers.
@@ -474,7 +474,7 @@ All plugins are examined prior to approval, which is why a zip file is required.
 ### 17. Plugins must respect trademarks, copyrights, and project names
 -->
 
-### 17. プラグインは、商標、著作権、プロジェクト名を尊重しなければならない。
+### 17. プラグインは、商標、著作権、プロジェクト名を尊重しなければなりません
 
 <!--
 The use of trademarks or other projects as the sole or initial term of a plugin slug is prohibited unless proof of legal ownership/representation can be confirmed. For example, the [WordPress Foundation has trademarked the term "WordPress"](https://wordpressfoundation.org/trademark-policy/) and it is a violation to use "wordpress" in a domain name. This policy extends to plugin slugs, and we will not permit a slug to begin with another product's term.
@@ -498,7 +498,7 @@ Original branding is recommended as it not only helps to avoid confusion, but is
 ### 18. We reserve the right to maintain the Plugin Directory to the best of our ability
 -->
 
-### 18. 私たちは、可能な限りプラグイン・ディレクトリを維持する権利を保有するものとする。
+### 18. 私たちは、可能な限りプラグイン・ディレクトリを維持する権利を保有しますう
 
 <!--
 Our intent is to enforce these guidelines with as much fairness as humanly possible. We do this to ensure overall plugin quality and the safety of their users. To that end, we reserve the following rights:
