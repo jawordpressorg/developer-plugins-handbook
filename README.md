@@ -18,28 +18,39 @@ Welcome to the WordPress Plugin Developer Handbook; are you ready to jump right 
 Takayuki Miyauchi さんの発案された翻訳方式を採用して、プラグイン開発ハンドブックのドキュメントを翻訳しています。
 https://qiita.com/miya0001/items/4745cf900a66c0bbf8e5
 
-最初の1回だけ
 ```
 % git clone git@github.com:WordPress/developer-plugins-handbook.git
 % cd developer-plugins-handbook
 % git remote add upstream https://github.com/WordPress/developer-plugins-handbook.git
 ```
-あとは定期的に
-```
-% git fetch upstream
-% git merge upstream/main
-```
 
-ここですべてのファイルがマージされる場合でも、どこが変更されたかチェックし、手動で反映する必要があります (例: コードが変更された場合)。画面の出力から「.md」ファイルを抽出して変更一覧を取得します。
+### 原文の更新・反映方法
 
-すべてのファイルがマージされなかった場合は、以下のコマンドで変更されたファイルの一覧を取得します。
-```
-% git status | grep \.md | grep -v CHANGELOG
-```
-
-変更ファイルの一覧を取得したら、GitHub で最近の変更を確認しながら、日本語版に反映します。
-```
-% git add -A
-% git commit -m "Synched with the latest"
-% git push
-```
+1. 原文の更新を取得します。
+   ```
+   % git fetch upstream
+   ```
+2. `main` ブランチから、原文更新用のブランチをチェックアウトします (例: `update-document` ブランチ)。
+   ```
+   % git checkout -b update-document
+   ```
+3. 原文の更新を現在のブランチにマージします。
+   ```
+   % git merge upstream/main
+   ```
+4. 以下のように、自動マージが失敗する場合があります。
+   ```
+   % Auto-merging path/to/auto-merged-file.md
+   % CONFLICT (content): Merge conflict in path/to/conflict-file.md
+   % Automatic merge failed; fix conflicts and then commit the result.
+   ```
+   コンフリクトが発生した場合は、その箇所を確認し、手動でコンフリクトを解消します。
+5. 全てのコンフリクトを解消したら、commit します。
+   ```
+   % git add .
+   % git commit -m "原文を更新"
+   ```
+6. 原文に新しいテキストが追加されている場合は、それらを日本語翻訳し、commit します。
+   新しいページの追加等、追加されたテキストの量が大きい場合は、ここで全てを翻訳する必要はありません。原文の更新を `main` ブランチからにマージした後に、順次日本語訳を進めてもかまいません。
+7. 最新の原文、および日本語化済の情報を含んだブランチ (例: `update-document`) から、プルリクエストを作成します。
+8. 差分を確認し、問題なければ `main` ブランチにマージします。
