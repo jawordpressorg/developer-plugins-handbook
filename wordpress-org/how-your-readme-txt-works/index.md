@@ -87,7 +87,7 @@ Here is a short description of the plugin.  This should be no more than 150 char
 - **License URI** – (任意) ライセンスへのリンク。これは任意ですが、プラグインがよりまれなライセンスを使用している場合は、強く推奨します。
 
 <!--
-At the end of the header section is a place for a _short_ description of a plugin. The example recommends no more than 150 characters and to not use markup. That line of text is the single line description of the plugin which shows up right under the plugin name. If it’s longer than 150 characters, it gets cut off, so keep it short.
+At the end of the header section is a place for a _short_ description of a plugin. The example recommends no more than 150 characters and to not use markup. That line of text is the single line description of the plugin which shows up right under the plugin name. If it’s longer than 150 characters, it gets cut off, so keep it short.
 -->
 
 ヘッダー・セクションの最後には、プラグインの **短い** 説明のための場所があります。この例では、150文字以内で、マークアップを使わないことを推奨しています。そのテキスト行は、プラグイン名のすぐ下に表示される、プラグインの1行説明です。150文字より長いとカットされてしまうので、短く書きましょう。
@@ -135,12 +135,6 @@ Readme の詳細のほとんどは自明ですが、人々を引っ掛ける箇�
 ### Readme のパース方法
 
 <!--
-[warning]While using the stable tag of trunk currently works in the Plugin Directory, it’s not a supported or recommended method to indicate new versions and has been known to cause issues with automatic updates. At this time, we are actively discouraging and (in the case of new plugins) prohibiting it’s use[/warning]
--->
-
-[warning]現在のところ、trunk の Stable Tag は、プラグイン・ディレクトリで使用できますが、新しいバージョンを示す方法としてはサポートされていませんし、推奨されていませんし、自動アップデートで問題を引き起こすことが知られています。現時点では、積極的に推奨していませんし、(新しいプラグインの場合) その使用を禁止しています。[/warning]
-
-<!--
 WordPress.org’s Plugin Directory works based on the information found in the field **Stable Tag** in the readme. When WordPress.org parses the `readme.txt`, the very first thing it does is to look at the `readme.txt` in the `/trunk` directory, where it reads the “Stable Tag” line.
 -->
 
@@ -165,7 +159,7 @@ If the Stable Tag is 1.2.3 and `/tags/1.2.3/` exists, then nothing in trunk will
 もし Stable Tag が1.2.3であり、`/tags/1.2.3/` が存在するなら、trunk に含まれるものは、システムのどの部分からもパースされるために、それ以上読み込まれることはありません。`/trunk/readme.txt` でプラグインの説明を変更しようとする場合、その変更はプラグインページでは何も意味を持ちません。すべては、Stable Tag が指し示しているファイルの `readme.txt` から由来します。
 
 <!--
-The WordPress.org Plugin Directory reads the main plugin PHP file to get things like the Name of the plugin, the Plugin URI, and most importantly, the version number. On the plugin page, you’ll see the download button which reads “Download Version 1.2.3” or similar. That version number comes from the plugin’s main PHP file, _not_ the readme!
+The WordPress.org Plugin Directory reads the main plugin PHP file to get things like the Name of the plugin, the Plugin URI, and most importantly, the version number. On the plugin page, you’ll see the download button which reads “Download Version 1.2.3” or similar. That version number comes from the plugin’s main PHP file, _not_ the readme!
 -->
 
 WordPress.org のプラグイン・ディレクトリは、プラグインの PHP ファイルを読み込み、プラグインの名前、プラグイン URI、そして最も重要なバージョン番号などを取得します。プラグインページには、「バージョン1.2.3をダウンロード」などと書かれたダウンロードボタンがあります。そのバージョン番号は、プラグインのメイン PHP ファイルから取得したもので、readme から取得したもの _ではありません_ !
@@ -177,6 +171,12 @@ The Stable Tag points to a subdirectory in the `/tags` directory. But the versio
 Stable Tag は、ディレクトリ `/tags` のサブディレクトリを指し示します。しかし、プラグインのバージョンは、実際にはそのフォルダー名では設定されません。その代わりに、プラグインの PHP ファイル自体に記載されているバージョンによって、名前が決まります。Stable Tag を1.4に変更しても、プラグインの PHP ファイルに1.3と記載されている場合、バージョンは1.3となります。
 
 <!--
+[warning]While using the **stable tag** set to `trunk` (rather than a version) still works in the Plugin Directory, it is neither supported nor recommended as a method of indicating new versions, and has been known to cause issues with automatic updates. We are currently actively discouraging the use of "Stable Tag: trunk" and prohibiting its use for new plugins.[/warning]
+-->
+
+[warning]現在のところ、trunk の **stable tag** は、プラグイン・ディレクトリで使用できますが、新しいバージョンを示す方法としてはサポートされていませんし、推奨されていませんし、自動アップデートで問題を引き起こすことが知られています。現時点では、積極的に推奨していませんし、(新しいプラグインの場合) その使用を禁止しています。[/warning]
+
+<!-->
 ### Videos
 -->
 
